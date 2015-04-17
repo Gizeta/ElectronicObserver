@@ -52,7 +52,20 @@ namespace ElectronicObserver.Window {
 		public FormMain() {
 			InitializeComponent();
 		}
-
+        private void CheckMenu()
+        {
+            StripMenu_View_Dock.Checked = fDock.Visible;
+            StripMenu_View_Arsenal.Checked = fArsenal.Visible;
+            StripMenu_View_Headquarters.Checked = fHeadquarters.Visible;
+            StripMenu_View_Information.Checked = fInformation.Visible;
+            StripMenu_View_Compass.Checked = fCompass.Visible;
+            StripMenu_View_Log.Checked = fLog.Visible;
+            StripMenu_View_Quest.Checked = fQuest.Visible;
+            StripMenu_View_Battle.Checked = fBattle.Visible;
+            StripMenu_View_FleetOverview.Checked = fFleetOverview.Visible;
+            StripMenu_View_ShipGroup.Checked = fShipGroup.Visible;
+            StripMenu_View_Browser.Checked = fBrowser.Visible;
+        }
 		private async void FormMain_Load( object sender, EventArgs e ) {
 
 			Utility.Configuration.Instance.Load();
@@ -109,7 +122,28 @@ namespace ElectronicObserver.Window {
 			SubForms.Add( fFleetOverview = new FormFleetOverview( this ) );
 			SubForms.Add( fShipGroup = new FormShipGroup( this ) );
 			SubForms.Add( fBrowser = new FormBrowserHost( this ) );
-
+            StripMenu_View_FleetOverview.Checked = false;
+            StripMenu_View_ShipGroup.Checked = false;
+            StripMenu_View_Dock.Checked = false;
+            StripMenu_View_Arsenal.Checked = false;
+            StripMenu_View_Headquarters.Checked = false;
+            StripMenu_View_Quest.Checked = false;
+            StripMenu_View_Information.Checked = false;
+            StripMenu_View_Compass.Checked = false;
+            StripMenu_View_Battle.Checked = false;
+            StripMenu_View_Browser.Checked = false;
+            StripMenu_View_Log.Checked = false;
+            fDock.VisibleChanged += VisibleChanged;
+            fArsenal.VisibleChanged += VisibleChanged;
+            fHeadquarters.VisibleChanged += VisibleChanged;
+            fInformation.VisibleChanged += VisibleChanged;
+            fCompass.VisibleChanged += VisibleChanged;
+            fLog.VisibleChanged += VisibleChanged;
+            fQuest.VisibleChanged += VisibleChanged;
+            fBattle.VisibleChanged += VisibleChanged;
+            fFleetOverview.VisibleChanged += VisibleChanged;
+            fShipGroup.VisibleChanged += VisibleChanged;
+            fBrowser.VisibleChanged += VisibleChanged;
 			LoadLayout( Configuration.Config.Life.LayoutFilePath );
 
 			ConfigurationChanged();		//設定から初期化
@@ -136,6 +170,12 @@ namespace ElectronicObserver.Window {
 
             Utility.Logger.Add(2, LoadResources.getter("FormMain_3"));
 		}
+
+        void VisibleChanged(object sender, EventArgs e)
+        {
+            CheckMenu();
+        }
+        
 
 
 
@@ -965,46 +1005,57 @@ namespace ElectronicObserver.Window {
 
 		private void StripMenu_View_Dock_Click( object sender, EventArgs e ) {
 			fDock.Show( MainDockPanel );
+            CheckMenu();
 		}
 
 		private void StripMenu_View_Arsenal_Click( object sender, EventArgs e ) {
 			fArsenal.Show( MainDockPanel );
+            CheckMenu();
 		}
 
 		private void StripMenu_View_Headquarters_Click( object sender, EventArgs e ) {
 			fHeadquarters.Show( MainDockPanel );
+            CheckMenu();
 		}
 
 		private void StripMenu_View_Information_Click( object sender, EventArgs e ) {
 			fInformation.Show( MainDockPanel );
+            CheckMenu();
 		}
 
 		private void StripMenu_View_Compass_Click( object sender, EventArgs e ) {
 			fCompass.Show( MainDockPanel );
+            CheckMenu();
 		}
 
 		private void StripMenu_View_Log_Click( object sender, EventArgs e ) {
 			fLog.Show( MainDockPanel );
+            CheckMenu();
 		}
 
 		private void StripMenu_View_Quest_Click( object sender, EventArgs e ) {
 			fQuest.Show( MainDockPanel );
+            CheckMenu();
 		}
 
 		private void StripMenu_View_Battle_Click( object sender, EventArgs e ) {
 			fBattle.Show( MainDockPanel );
+            CheckMenu();
 		}
 
 		private void StripMenu_View_FleetOverview_Click( object sender, EventArgs e ) {
 			fFleetOverview.Show( MainDockPanel );
+            CheckMenu();
 		}
 
 		private void StripMenu_View_ShipGroup_Click( object sender, EventArgs e ) {
 			fShipGroup.Show( MainDockPanel );
+            CheckMenu();
 		}
 
 		private void StripMenu_View_Browser_Click( object sender, EventArgs e ) {
 			fBrowser.Show( MainDockPanel );
+            CheckMenu();
 		}
 		#endregion
 
