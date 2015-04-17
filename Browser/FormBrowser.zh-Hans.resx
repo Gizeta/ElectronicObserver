@@ -118,55 +118,55 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="FormBrowser.Text" xml:space="preserve">
-    <value>七四式電子観測儀 ブラウザ</value>
+    <value>七四式电子观测仪 浏览器</value>
   </data>
   <data name="ContextMenuTool_ShowToolMenu.Text" xml:space="preserve">
-    <value>ツールメニューを表示</value>
+    <value>显示工具条</value>
   </data>
   <data name="ToolMenu_ScreenShot.Text" xml:space="preserve">
-    <value>スクリーンショット</value>
+    <value>屏幕截图</value>
   </data>
   <data name="ToolMenu_Zoom.Text" xml:space="preserve">
-    <value>ズーム</value>
+    <value>缩放</value>
   </data>
   <data name="ToolMenu_Mute.Text" xml:space="preserve">
-    <value>ミュート</value>
+    <value>静音</value>
   </data>
   <data name="ToolMenu_Refresh.Text" xml:space="preserve">
-    <value>更新</value>
+    <value>刷新</value>
   </data>
   <data name="ToolMenu_NavigateToLogInPage.Text" xml:space="preserve">
-    <value>ログインページへ移動</value>
+    <value>转到登陆页面</value>
   </data>
   <data name="ToolMenu_Other.Text" xml:space="preserve">
-    <value>その他</value>
+    <value>其他</value>
   </data>
   <data name="ToolMenu_Other_ScreenShot.Text" xml:space="preserve">
-    <value>スクリーンショット(&amp;S)</value>
+    <value>屏幕截图(&amp;S)</value>
   </data>
   <data name="ToolMenu_Other_Zoom.Text" xml:space="preserve">
-    <value>その他(&amp;Z)</value>
+    <value>其他(&amp;Z)</value>
   </data>
   <data name="ToolMenu_Other_Zoom_Current.Text" xml:space="preserve">
-    <value>現在%</value>
+    <value>当前%</value>
   </data>
   <data name="ToolMenu_Other_Mute.Text" xml:space="preserve">
-    <value>ミュート(&amp;M)</value>
+    <value>静音(&amp;M)</value>
   </data>
   <data name="ToolMenu_Other_Refresh.Text" xml:space="preserve">
-    <value>更新(&amp;R)</value>
+    <value>刷新(&amp;R)</value>
   </data>
   <data name="ToolMenu_Other_NavigateToLogInPage.Text" xml:space="preserve">
-    <value>ログインページへ移動(&amp;L)</value>
+    <value>转到登陆页面(&amp;L)</value>
   </data>
   <data name="ToolMenu_Other_Navigate.Text" xml:space="preserve">
-    <value>移動(&amp;N)...</value>
+    <value>转到(&amp;N)...</value>
   </data>
   <data name="ToolMenu_Other_AppliesStyleSheet.Text" xml:space="preserve">
-    <value>スタイルシートを適用する</value>
+    <value>应用样式</value>
   </data>
   <data name="ToolMenu_Other_Alignment.Text" xml:space="preserve">
-    <value>配置(&amp;A)</value>
+    <value>位置(&amp;A)</value>
   </data>
   <data name="ToolMenu_Other_Alignment_Top.Text" xml:space="preserve">
     <value>上(&amp;T)</value>
@@ -181,7 +181,7 @@
     <value>右(&amp;R)</value>
   </data>
   <data name="ToolMenu_Other_Alignment_Invisible.Text" xml:space="preserve">
-    <value>非表示(&amp;I)</value>
+    <value>不显示(&amp;I)</value>
   </data>
   <metadata name="ContextMenuTool.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>208, 17</value>

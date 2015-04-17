@@ -67,5 +67,149 @@ namespace Browser.Properties
                 resourceCulture = value;
             }
         }
+		
+		/// <summary>
+        ///   スタイルシートの適用に失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string ApplyStyleSheet_Failed {
+            get {
+                return ResourceManager.GetString("ApplyStyleSheet_Failed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   対象の swf が見つかりませんでした。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Browser_FlashNotFound {
+            get {
+                return ResourceManager.GetString("Browser_FlashNotFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Document が取得できませんでした。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Browser_InaccessableDocument {
+            get {
+                return ResourceManager.GetString("Browser_InaccessableDocument", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   embed 要素の取得に失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Browser_InaccessableFlash {
+            get {
+                return ResourceManager.GetString("Browser_InaccessableFlash", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   game_frame 要素の取得に失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Browser_InaccessableGameFrame {
+            get {
+                return ResourceManager.GetString("Browser_InaccessableGameFrame", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   確認 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Dialog_Confirm {
+            get {
+                return ResourceManager.GetString("Dialog_Confirm", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   ログインページへ移動します。\r\nよろしいですか？ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Dialog_Login {
+            get {
+                return ResourceManager.GetString("Dialog_Login", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   再読み込みします。\r\nよろしいですか？ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Dialog_Refresh {
+            get {
+                return ResourceManager.GetString("Dialog_Refresh", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   艦これが読み込まれていないため、スクリーンショットを撮ることはできません。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string KanColle_NotLoaded {
+            get {
+                return ResourceManager.GetString("KanColle_NotLoaded", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   スクリーンショットの保存時にエラーが発生しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string SaveScreenShot_Failed {
+            get {
+                return ResourceManager.GetString("SaveScreenShot_Failed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   スクリーンショットを {0} に保存しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string SaveScreenShot_Succeed {
+            get {
+                return ResourceManager.GetString("SaveScreenShot_Succeed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   現在: {0}% に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Zoom_CurrentText {
+            get {
+                return ResourceManager.GetString("Zoom_CurrentText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   ズームの適用に失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Zoom_Failed {
+            get {
+                return ResourceManager.GetString("Zoom_Failed", resourceCulture);
+            }
+        }
+		
+        /// <summary>
+        ///   指定したプロセスIDの音量オブジェクトは存在しません。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Volume_PIDNotFound {
+            get {
+                return ResourceManager.GetString("Volume_PIDNotFound", resourceCulture);
+            }
+        }
+		
+        /// <summary>
+        ///   情報 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Dialog_Information {
+            get {
+                return ResourceManager.GetString("Dialog_Information", resourceCulture);
+            }
+        }
+		
+        /// <summary>
+        ///   これは七四式電子観測儀のサブプログラムであり、単体では起動できません。\r\n本体から起動してください。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Dialog_EmptyParameter {
+            get {
+                return ResourceManager.GetString("Dialog_EmptyParameter", resourceCulture);
+            }
+        }
     }
 }

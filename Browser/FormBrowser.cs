@@ -250,7 +250,7 @@ namespace Browser {
 			} catch ( Exception ex ) {
 
 				BrowserHost.AsyncRemoteRun( () =>
-					BrowserHost.Proxy.SendErrorReport( ex.ToString(), "スタイルシートの適用に失敗しました。" ) );
+					BrowserHost.Proxy.SendErrorReport( ex.ToString(), Properties.Resources.ApplyStyleSheet_Failed ) );
 			}
 
 		}
@@ -303,10 +303,10 @@ namespace Browser {
 					CenteringBrowser();
 				}
 
-				ToolMenu_Other_Zoom_Current.Text = string.Format( "現在: {0}%", zoomRate );
+				ToolMenu_Other_Zoom_Current.Text = string.Format( Properties.Resources.Zoom_CurrentText, zoomRate );
 
 			} catch ( Exception ex ) {
-				AddLog( 3, "ズームの適用に失敗しました。" + ex.Message );
+				AddLog( 3, Properties.Resources.Zoom_Failed + ex.Message );
 			}
 
 		}
@@ -358,7 +358,7 @@ namespace Browser {
 			var wb = Browser;
 
 			if ( !IsKanColleLoaded ) {
-				AddLog( 3, string.Format( "艦これが読み込まれていないため、スクリーンショットを撮ることはできません。" ) );
+				AddLog( 3, string.Format( Properties.Resources.KanColle_NotLoaded ) );
 				return;
 			}
 
@@ -366,7 +366,7 @@ namespace Browser {
 
 				var document = wb.Document.DomDocument as HTMLDocument;
 				if ( document == null ) {
-					throw new InvalidOperationException( "Document が取得できませんでした。" );
+					throw new InvalidOperationException( Properties.Resources.Browser_InaccessableDocument );
 				}
 
 
@@ -378,7 +378,7 @@ namespace Browser {
 
 					viewobj = document.getElementsByTagName( "embed" ).item( 0, 0 ) as IViewObject;
 					if ( viewobj == null ) {
-						throw new InvalidOperationException( "embed 要素の取得に失敗しました。" );
+						throw new InvalidOperationException( Properties.Resources.Browser_InaccessableFlash );
 					}
 
 					width = ( (HTMLEmbed)viewobj ).clientWidth;
@@ -388,7 +388,7 @@ namespace Browser {
 
 					var gameFrame = document.getElementById( "game_frame" ).document as HTMLDocument;
 					if ( gameFrame == null ) {
-						throw new InvalidOperationException( "game_frame 要素の取得に失敗しました。" );
+						throw new InvalidOperationException( Properties.Resources.Browser_InaccessableGameFrame );
 					}
 
 					bool foundflag = false;
@@ -431,7 +431,7 @@ namespace Browser {
 
 
 					if ( !foundflag ) {
-						throw new InvalidOperationException( "対象の swf が見つかりませんでした。" );
+						throw new InvalidOperationException( Properties.Resources.Browser_FlashNotFound );
 					}
 				}
 
@@ -456,12 +456,12 @@ namespace Browser {
 				}
 
 
-				AddLog( 2, string.Format( "スクリーンショットを {0} に保存しました。", path ) );
+				AddLog( 2, string.Format( Properties.Resources.SaveScreenShot_Succeed, path ) );
 
 			} catch ( Exception ex ) {
 
 				BrowserHost.AsyncRemoteRun( () =>
-					BrowserHost.Proxy.SendErrorReport( ex.ToString(), "スクリーンショットの保存時にエラーが発生しました。" ) );
+					BrowserHost.Proxy.SendErrorReport( ex.ToString(), Properties.Resources.SaveScreenShot_Failed ) );
 			}
 
 
@@ -616,7 +616,7 @@ namespace Browser {
 		private void ToolMenu_Other_Refresh_Click( object sender, EventArgs e ) {
 
 			if ( !Configuration.ConfirmAtRefresh || 
-				MessageBox.Show( "再読み込みします。\r\nよろしいですか？", "確認",
+				MessageBox.Show( Properties.Resources.Dialog_Refresh, Properties.Resources.Dialog_Confirm,
 				MessageBoxButtons.OKCancel, MessageBoxIcon.Exclamation, MessageBoxDefaultButton.Button2 )
 				== System.Windows.Forms.DialogResult.OK ) {
 
@@ -626,7 +626,7 @@ namespace Browser {
 
 		private void ToolMenu_Other_NavigateToLogInPage_Click( object sender, EventArgs e ) {
 
-			if ( MessageBox.Show( "ログインページへ移動します。\r\nよろしいですか？", "確認",
+			if ( MessageBox.Show( Properties.Resources.Dialog_Login, Properties.Resources.Dialog_Confirm,
 				MessageBoxButtons.OKCancel, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2 )
 				== System.Windows.Forms.DialogResult.OK ) {
 
