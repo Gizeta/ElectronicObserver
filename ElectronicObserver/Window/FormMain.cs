@@ -228,7 +228,7 @@ namespace ElectronicObserver.Window {
 
 
             Utility.Logger.Add(2, LoadResources.getter("FormMain_7"));
-
+            BalloonNotifier.NotifyIcon.Dispose();
 			if ( Utility.Configuration.Config.Log.SaveLogFlag )
 				Utility.Logger.Save( @"eolog.log" );
 

@@ -10,7 +10,7 @@ namespace ElectronicObserver.Notifier
                 Visible = true
             };
 
-        private static NotifyIcon NotifyIcon
+        public static NotifyIcon NotifyIcon
         {
             get { return BalloonNotifier.notifyIcon; }
         } 
