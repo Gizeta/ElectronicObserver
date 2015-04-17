@@ -33,6 +33,15 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.TabPanel = new System.Windows.Forms.FlowLayoutPanel();
+            this.MenuGroup = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.MenuGroup_Add = new System.Windows.Forms.ToolStripMenuItem();
+            this.MenuGroup_Rename = new System.Windows.Forms.ToolStripMenuItem();
+            this.MenuGroup_Delete = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
+            this.MenuGroup_AutoUpdate = new System.Windows.Forms.ToolStripMenuItem();
+            this.MenuGroup_ShowStatusBar = new System.Windows.Forms.ToolStripMenuItem();
             this.ShipView = new System.Windows.Forms.DataGridView();
             this.ShipView_ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ShipView_ShipType = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -78,28 +87,97 @@
             this.MenuMember_CSVOutput = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.MenuMember_Delete = new System.Windows.Forms.ToolStripMenuItem();
-            this.MenuGroup = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.MenuGroup_Add = new System.Windows.Forms.ToolStripMenuItem();
-            this.MenuGroup_Rename = new System.Windows.Forms.ToolStripMenuItem();
-            this.MenuGroup_Delete = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
-            this.MenuGroup_AutoUpdate = new System.Windows.Forms.ToolStripMenuItem();
-            this.MenuGroup_ShowStatusBar = new System.Windows.Forms.ToolStripMenuItem();
-            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.TabPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.StatusBar = new System.Windows.Forms.StatusStrip();
             this.Status_ShipCount = new System.Windows.Forms.ToolStripStatusLabel();
             this.Status_LevelTotal = new System.Windows.Forms.ToolStripStatusLabel();
             this.Status_LevelAverage = new System.Windows.Forms.ToolStripStatusLabel();
-            ((System.ComponentModel.ISupportInitialize)(this.ShipView)).BeginInit();
-            this.MenuMember.SuspendLayout();
-            this.MenuGroup.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
+            this.MenuGroup.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ShipView)).BeginInit();
+            this.MenuMember.SuspendLayout();
             this.StatusBar.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // splitContainer1
+            // 
+            resources.ApplyResources(this.splitContainer1, "splitContainer1");
+            this.splitContainer1.FixedPanel = System.Windows.Forms.FixedPanel.Panel1;
+            this.splitContainer1.Name = "splitContainer1";
+            // 
+            // splitContainer1.Panel1
+            // 
+            resources.ApplyResources(this.splitContainer1.Panel1, "splitContainer1.Panel1");
+            this.splitContainer1.Panel1.Controls.Add(this.TabPanel);
+            // 
+            // splitContainer1.Panel2
+            // 
+            resources.ApplyResources(this.splitContainer1.Panel2, "splitContainer1.Panel2");
+            this.splitContainer1.Panel2.Controls.Add(this.ShipView);
+            this.splitContainer1.Panel2.Controls.Add(this.StatusBar);
+            // 
+            // TabPanel
+            // 
+            resources.ApplyResources(this.TabPanel, "TabPanel");
+            this.TabPanel.ContextMenuStrip = this.MenuGroup;
+            this.TabPanel.Name = "TabPanel";
+            this.TabPanel.DragDrop += new System.Windows.Forms.DragEventHandler(this.TabPanel_DragDrop);
+            this.TabPanel.DragEnter += new System.Windows.Forms.DragEventHandler(this.TabPanel_DragEnter);
+            this.TabPanel.QueryContinueDrag += new System.Windows.Forms.QueryContinueDragEventHandler(this.TabPanel_QueryContinueDrag);
+            this.TabPanel.DoubleClick += new System.EventHandler(this.TabPanel_DoubleClick);
+            // 
+            // MenuGroup
+            // 
+            resources.ApplyResources(this.MenuGroup, "MenuGroup");
+            this.MenuGroup.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.MenuGroup_Add,
+            this.MenuGroup_Rename,
+            this.MenuGroup_Delete,
+            this.toolStripSeparator4,
+            this.MenuGroup_AutoUpdate,
+            this.MenuGroup_ShowStatusBar});
+            this.MenuGroup.Name = "MenuGroup";
+            this.MenuGroup.Opening += new System.ComponentModel.CancelEventHandler(this.MenuGroup_Opening);
+            // 
+            // MenuGroup_Add
+            // 
+            resources.ApplyResources(this.MenuGroup_Add, "MenuGroup_Add");
+            this.MenuGroup_Add.Name = "MenuGroup_Add";
+            this.MenuGroup_Add.Click += new System.EventHandler(this.MenuGroup_Add_Click);
+            // 
+            // MenuGroup_Rename
+            // 
+            resources.ApplyResources(this.MenuGroup_Rename, "MenuGroup_Rename");
+            this.MenuGroup_Rename.Name = "MenuGroup_Rename";
+            this.MenuGroup_Rename.Click += new System.EventHandler(this.MenuGroup_Rename_Click);
+            // 
+            // MenuGroup_Delete
+            // 
+            resources.ApplyResources(this.MenuGroup_Delete, "MenuGroup_Delete");
+            this.MenuGroup_Delete.Name = "MenuGroup_Delete";
+            this.MenuGroup_Delete.Click += new System.EventHandler(this.MenuGroup_Delete_Click);
+            // 
+            // toolStripSeparator4
+            // 
+            resources.ApplyResources(this.toolStripSeparator4, "toolStripSeparator4");
+            this.toolStripSeparator4.Name = "toolStripSeparator4";
+            // 
+            // MenuGroup_AutoUpdate
+            // 
+            resources.ApplyResources(this.MenuGroup_AutoUpdate, "MenuGroup_AutoUpdate");
+            this.MenuGroup_AutoUpdate.CheckOnClick = true;
+            this.MenuGroup_AutoUpdate.Name = "MenuGroup_AutoUpdate";
+            // 
+            // MenuGroup_ShowStatusBar
+            // 
+            resources.ApplyResources(this.MenuGroup_ShowStatusBar, "MenuGroup_ShowStatusBar");
+            this.MenuGroup_ShowStatusBar.Checked = true;
+            this.MenuGroup_ShowStatusBar.CheckOnClick = true;
+            this.MenuGroup_ShowStatusBar.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.MenuGroup_ShowStatusBar.Name = "MenuGroup_ShowStatusBar";
+            this.MenuGroup_ShowStatusBar.CheckedChanged += new System.EventHandler(this.MenuGroup_ShowStatusBar_CheckedChanged);
             // 
             // ShipView
             // 
@@ -146,7 +224,7 @@
             this.ShipView.ContextMenuStrip = this.MenuMember;
             dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
             dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Meiryo UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.ControlText;
             dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -456,84 +534,6 @@
             this.MenuMember_Delete.Name = "MenuMember_Delete";
             this.MenuMember_Delete.Click += new System.EventHandler(this.MenuMember_Delete_Click);
             // 
-            // MenuGroup
-            // 
-            resources.ApplyResources(this.MenuGroup, "MenuGroup");
-            this.MenuGroup.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.MenuGroup_Add,
-            this.MenuGroup_Rename,
-            this.MenuGroup_Delete,
-            this.toolStripSeparator4,
-            this.MenuGroup_AutoUpdate,
-            this.MenuGroup_ShowStatusBar});
-            this.MenuGroup.Name = "MenuGroup";
-            this.MenuGroup.Opening += new System.ComponentModel.CancelEventHandler(this.MenuGroup_Opening);
-            // 
-            // MenuGroup_Add
-            // 
-            resources.ApplyResources(this.MenuGroup_Add, "MenuGroup_Add");
-            this.MenuGroup_Add.Name = "MenuGroup_Add";
-            this.MenuGroup_Add.Click += new System.EventHandler(this.MenuGroup_Add_Click);
-            // 
-            // MenuGroup_Rename
-            // 
-            resources.ApplyResources(this.MenuGroup_Rename, "MenuGroup_Rename");
-            this.MenuGroup_Rename.Name = "MenuGroup_Rename";
-            this.MenuGroup_Rename.Click += new System.EventHandler(this.MenuGroup_Rename_Click);
-            // 
-            // MenuGroup_Delete
-            // 
-            resources.ApplyResources(this.MenuGroup_Delete, "MenuGroup_Delete");
-            this.MenuGroup_Delete.Name = "MenuGroup_Delete";
-            this.MenuGroup_Delete.Click += new System.EventHandler(this.MenuGroup_Delete_Click);
-            // 
-            // toolStripSeparator4
-            // 
-            resources.ApplyResources(this.toolStripSeparator4, "toolStripSeparator4");
-            this.toolStripSeparator4.Name = "toolStripSeparator4";
-            // 
-            // MenuGroup_AutoUpdate
-            // 
-            resources.ApplyResources(this.MenuGroup_AutoUpdate, "MenuGroup_AutoUpdate");
-            this.MenuGroup_AutoUpdate.CheckOnClick = true;
-            this.MenuGroup_AutoUpdate.Name = "MenuGroup_AutoUpdate";
-            // 
-            // MenuGroup_ShowStatusBar
-            // 
-            resources.ApplyResources(this.MenuGroup_ShowStatusBar, "MenuGroup_ShowStatusBar");
-            this.MenuGroup_ShowStatusBar.Checked = true;
-            this.MenuGroup_ShowStatusBar.CheckOnClick = true;
-            this.MenuGroup_ShowStatusBar.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.MenuGroup_ShowStatusBar.Name = "MenuGroup_ShowStatusBar";
-            this.MenuGroup_ShowStatusBar.CheckedChanged += new System.EventHandler(this.MenuGroup_ShowStatusBar_CheckedChanged);
-            // 
-            // splitContainer1
-            // 
-            resources.ApplyResources(this.splitContainer1, "splitContainer1");
-            this.splitContainer1.FixedPanel = System.Windows.Forms.FixedPanel.Panel1;
-            this.splitContainer1.Name = "splitContainer1";
-            // 
-            // splitContainer1.Panel1
-            // 
-            resources.ApplyResources(this.splitContainer1.Panel1, "splitContainer1.Panel1");
-            this.splitContainer1.Panel1.Controls.Add(this.TabPanel);
-            // 
-            // splitContainer1.Panel2
-            // 
-            resources.ApplyResources(this.splitContainer1.Panel2, "splitContainer1.Panel2");
-            this.splitContainer1.Panel2.Controls.Add(this.ShipView);
-            this.splitContainer1.Panel2.Controls.Add(this.StatusBar);
-            // 
-            // TabPanel
-            // 
-            resources.ApplyResources(this.TabPanel, "TabPanel");
-            this.TabPanel.ContextMenuStrip = this.MenuGroup;
-            this.TabPanel.Name = "TabPanel";
-            this.TabPanel.DragDrop += new System.Windows.Forms.DragEventHandler(this.TabPanel_DragDrop);
-            this.TabPanel.DragEnter += new System.Windows.Forms.DragEventHandler(this.TabPanel_DragEnter);
-            this.TabPanel.QueryContinueDrag += new System.Windows.Forms.QueryContinueDragEventHandler(this.TabPanel_QueryContinueDrag);
-            this.TabPanel.DoubleClick += new System.EventHandler(this.TabPanel_DoubleClick);
-            // 
             // StatusBar
             // 
             resources.ApplyResources(this.StatusBar, "StatusBar");
@@ -570,14 +570,14 @@
             this.HideOnClose = true;
             this.Name = "FormShipGroup";
             this.Load += new System.EventHandler(this.FormShipGroup_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.ShipView)).EndInit();
-            this.MenuMember.ResumeLayout(false);
-            this.MenuGroup.ResumeLayout(false);
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel2.ResumeLayout(false);
             this.splitContainer1.Panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
+            this.MenuGroup.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.ShipView)).EndInit();
+            this.MenuMember.ResumeLayout(false);
             this.StatusBar.ResumeLayout(false);
             this.StatusBar.PerformLayout();
             this.ResumeLayout(false);

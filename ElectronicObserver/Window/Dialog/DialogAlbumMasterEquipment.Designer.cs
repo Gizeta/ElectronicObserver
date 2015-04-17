@@ -28,10 +28,6 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.StripMenu_File = new System.Windows.Forms.ToolStripMenuItem();
-            this.StripMenu_File_OutputCSVUser = new System.Windows.Forms.ToolStripMenuItem();
-            this.StripMenu_File_OutputCSVData = new System.Windows.Forms.ToolStripMenuItem();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.EquipmentView = new System.Windows.Forms.DataGridView();
             this.EquipmentView_ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -85,9 +81,12 @@
             this.TitleAccuracy = new ElectronicObserver.Window.Control.ImageLabel();
             this.Accuracy = new ElectronicObserver.Window.Control.ImageLabel();
             this.EquipmentImage = new System.Windows.Forms.PictureBox();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.StripMenu_File = new System.Windows.Forms.ToolStripMenuItem();
+            this.StripMenu_File_OutputCSVUser = new System.Windows.Forms.ToolStripMenuItem();
+            this.StripMenu_File_OutputCSVData = new System.Windows.Forms.ToolStripMenuItem();
             this.ToolTipInfo = new System.Windows.Forms.ToolTip(this.components);
             this.SaveCSVDialog = new System.Windows.Forms.SaveFileDialog();
-            this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -99,35 +98,8 @@
             this.TableArsenal.SuspendLayout();
             this.TableParameterMain.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.EquipmentImage)).BeginInit();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // menuStrip1
-            // 
-            resources.ApplyResources(this.menuStrip1, "menuStrip1");
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.StripMenu_File});
-            this.menuStrip1.Name = "menuStrip1";
-            this.ToolTipInfo.SetToolTip(this.menuStrip1, resources.GetString("menuStrip1.ToolTip"));
-            // 
-            // StripMenu_File
-            // 
-            resources.ApplyResources(this.StripMenu_File, "StripMenu_File");
-            this.StripMenu_File.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.StripMenu_File_OutputCSVUser,
-            this.StripMenu_File_OutputCSVData});
-            this.StripMenu_File.Name = "StripMenu_File";
-            // 
-            // StripMenu_File_OutputCSVUser
-            // 
-            resources.ApplyResources(this.StripMenu_File_OutputCSVUser, "StripMenu_File_OutputCSVUser");
-            this.StripMenu_File_OutputCSVUser.Name = "StripMenu_File_OutputCSVUser";
-            this.StripMenu_File_OutputCSVUser.Click += new System.EventHandler(this.StripMenu_File_OutputCSVUser_Click);
-            // 
-            // StripMenu_File_OutputCSVData
-            // 
-            resources.ApplyResources(this.StripMenu_File_OutputCSVData, "StripMenu_File_OutputCSVData");
-            this.StripMenu_File_OutputCSVData.Name = "StripMenu_File_OutputCSVData";
-            this.StripMenu_File_OutputCSVData.Click += new System.EventHandler(this.StripMenu_File_OutputCSVData_Click);
             // 
             // splitContainer1
             // 
@@ -158,7 +130,7 @@
             this.EquipmentView.BorderStyle = System.Windows.Forms.BorderStyle.None;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Meiryo UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -172,7 +144,7 @@
             this.EquipmentView_Name});
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Meiryo UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
             dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Control;
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.ControlText;
@@ -655,6 +627,34 @@
             this.EquipmentImage.TabStop = false;
             this.ToolTipInfo.SetToolTip(this.EquipmentImage, resources.GetString("EquipmentImage.ToolTip"));
             // 
+            // menuStrip1
+            // 
+            resources.ApplyResources(this.menuStrip1, "menuStrip1");
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.StripMenu_File});
+            this.menuStrip1.Name = "menuStrip1";
+            this.ToolTipInfo.SetToolTip(this.menuStrip1, resources.GetString("menuStrip1.ToolTip"));
+            // 
+            // StripMenu_File
+            // 
+            resources.ApplyResources(this.StripMenu_File, "StripMenu_File");
+            this.StripMenu_File.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.StripMenu_File_OutputCSVUser,
+            this.StripMenu_File_OutputCSVData});
+            this.StripMenu_File.Name = "StripMenu_File";
+            // 
+            // StripMenu_File_OutputCSVUser
+            // 
+            resources.ApplyResources(this.StripMenu_File_OutputCSVUser, "StripMenu_File_OutputCSVUser");
+            this.StripMenu_File_OutputCSVUser.Name = "StripMenu_File_OutputCSVUser";
+            this.StripMenu_File_OutputCSVUser.Click += new System.EventHandler(this.StripMenu_File_OutputCSVUser_Click);
+            // 
+            // StripMenu_File_OutputCSVData
+            // 
+            resources.ApplyResources(this.StripMenu_File_OutputCSVData, "StripMenu_File_OutputCSVData");
+            this.StripMenu_File_OutputCSVData.Name = "StripMenu_File_OutputCSVData";
+            this.StripMenu_File_OutputCSVData.Click += new System.EventHandler(this.StripMenu_File_OutputCSVData_Click);
+            // 
             // ToolTipInfo
             // 
             this.ToolTipInfo.AutoPopDelay = 30000;
@@ -678,8 +678,6 @@
             this.ToolTipInfo.SetToolTip(this, resources.GetString("$this.ToolTip"));
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.DialogAlbumMasterEquipment_FormClosed);
             this.Load += new System.EventHandler(this.DialogAlbumMasterEquipment_Load);
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
@@ -696,6 +694,8 @@
             this.TableParameterMain.ResumeLayout(false);
             this.TableParameterMain.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.EquipmentImage)).EndInit();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 

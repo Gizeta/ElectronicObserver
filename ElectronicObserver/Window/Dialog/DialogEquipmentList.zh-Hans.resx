@@ -117,8 +117,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="$this.Text" xml:space="preserve">
-    <value>装备一览</value>
+  <data name="EquipmentView_Name.HeaderText" xml:space="preserve">
+    <value>装备名</value>
+  </data>
+  <data name="EquipmentView_CountAll.HeaderText" xml:space="preserve">
+    <value>共有</value>
+  </data>
+  <data name="EquipmentView_CountRemain.HeaderText" xml:space="preserve">
+    <value>剩余个数</value>
   </data>
   <data name="DetailView_CountAll.HeaderText" xml:space="preserve">
     <value>共有</value>
@@ -129,28 +135,23 @@
   <data name="DetailView_EquippedShip.HeaderText" xml:space="preserve">
     <value>装备舰船</value>
   </data>
-  <data name="DetailView_Level.HeaderText" xml:space="preserve">
-    <value>改修</value>
+  <data name="TopMenu_File_CSVOutput.Text" xml:space="preserve">
+    <value>输出CSV(&amp;C)...</value>
   </data>
-  <data name="EquipmentView_CountAll.HeaderText" xml:space="preserve">
-    <value>共有</value>
-  </data>
-  <data name="EquipmentView_CountRemain.HeaderText" xml:space="preserve">
-    <value>剩余个数</value>
-  </data>
-  <data name="EquipmentView_Name.HeaderText" xml:space="preserve">
-    <value>装备名</value>
-  </data>
-  <data name="SaveCSVDialog.Title" xml:space="preserve">
-    <value>输出CSV</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="TopMenu_File.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 21</value>
   </data>
   <data name="TopMenu_File.Text" xml:space="preserve">
     <value>文件(&amp;F)</value>
   </data>
-  <data name="TopMenu_File_CSVOutput.Text" xml:space="preserve">
-    <value>输出CSV(&amp;C)...</value>
+  <data name="SaveCSVDialog.Title" xml:space="preserve">
+    <value>输出CSV</value>
   </data>
-  <data name="TopMenu_File_Update.Text" xml:space="preserve">
-    <value>更新(&amp;U)</value>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 9pt</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>装备一览</value>
   </data>
 </root>

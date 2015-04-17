@@ -117,28 +117,74 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="$this.Text" xml:space="preserve">
-    <value>罗盘</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="TextMapArea.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 17</value>
   </data>
-  <data name="TextAirSuperiority.Text" xml:space="preserve">
-    <value>(制空战力)</value>
+  <data name="TextDestination.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 3</value>
+  </data>
+  <data name="TextDestination.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 17</value>
   </data>
   <data name="TextDestination.Text" xml:space="preserve">
     <value>(目的地)</value>
   </data>
-  <data name="TextEnemyFleetName.Text" xml:space="preserve">
-    <value>(敌舰队名)</value>
+  <data name="TextEventKind.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 3</value>
   </data>
-  <data name="TextEventDetail.Text" xml:space="preserve">
-    <value>(事件详细)</value>
+  <data name="TextEventKind.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 17</value>
   </data>
   <data name="TextEventKind.Text" xml:space="preserve">
     <value>(事件种类)</value>
   </data>
+  <data name="TextEventDetail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>165, 3</value>
+  </data>
+  <data name="TextEventDetail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 17</value>
+  </data>
+  <data name="TextEventDetail.Text" xml:space="preserve">
+    <value>(事件详细)</value>
+  </data>
+  <data name="TextEnemyFleetName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 17</value>
+  </data>
+  <data name="TextEnemyFleetName.Text" xml:space="preserve">
+    <value>(敌舰队名)</value>
+  </data>
+  <data name="TextFormation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 0</value>
+  </data>
+  <data name="TextFormation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 17</value>
+  </data>
   <data name="TextFormation.Text" xml:space="preserve">
     <value>(阵型)</value>
   </data>
-  <data name="TextMapArea.Text" xml:space="preserve">
-    <value>(海域)</value>
+  <data name="TextAirSuperiority.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 0</value>
+  </data>
+  <data name="TextAirSuperiority.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 17</value>
+  </data>
+  <data name="TextAirSuperiority.Text" xml:space="preserve">
+    <value>(制空战力)</value>
+  </data>
+  <data name="TableEnemyFleet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 17</value>
+  </data>
+  <data name="PanelEnemyFleet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 26</value>
+  </data>
+  <data name="PanelEnemyFleet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 22</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 9pt</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>罗盘</value>
   </data>
 </root>

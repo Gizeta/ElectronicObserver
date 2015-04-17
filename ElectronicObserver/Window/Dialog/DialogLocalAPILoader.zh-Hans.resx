@@ -117,8 +117,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="$this.Text" xml:space="preserve">
-    <value>从文件读取API接口</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>284, 34</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>操作时请一定保持离线状态。
+因为这个操作不能保证安全，所以此功能仅供调试。</value>
+  </data>
+  <data name="APIList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>430, 25</value>
+  </data>
+  <data name="APICategory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 25</value>
   </data>
   <data name="ButtonCancel.Text" xml:space="preserve">
     <value>取消</value>
@@ -129,8 +140,10 @@
   <data name="FileOpener.Title" xml:space="preserve">
     <value>打开</value>
   </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>操作时请一定保持离线状态。
-因为这个操作不能保证安全，所以此功能仅供调试。</value>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 9pt</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>从文件读取API接口</value>
   </data>
 </root>

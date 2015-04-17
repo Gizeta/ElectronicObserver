@@ -973,7 +973,7 @@
     <value>恢复窗口布局失败。</value>
   </data>
   <data name="FormMain_15" xml:space="preserve">
-    <value>正在恢复窗口布局。</value>
+    <value>正在保存窗口布局。</value>
   </data>
   <data name="FormMain_16" xml:space="preserve">
     <value>保存窗口布局失败。</value>
@@ -1534,5 +1534,8 @@ Sony大法好，来正面上我啊？</value>
   </data>
   <data name="FormQuest_6" xml:space="preserve">
     <value>(未取得)</value>
+  </data>
+  <data name="DialogConfigurationNotifier" xml:space="preserve">
+    <value>这是一个测试用通知。</value>
   </data>
 </root>

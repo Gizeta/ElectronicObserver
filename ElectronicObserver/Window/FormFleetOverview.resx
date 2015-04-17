@@ -135,8 +135,8 @@
   <data name="TableFleet.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;TableFleet.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;TableFleet.Name" xml:space="preserve">
+    <value>TableFleet</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>WeifenLuo.WinFormsUI.Docking.DockContent, WeifenLuo.WinFormsUI.Docking, Version=2.9.0.0, Culture=neutral, PublicKeyToken=5cded1a1a0a7b481</value>
@@ -154,9 +154,6 @@
     <value>True</value>
   </data>
   <data name="TableFleet.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="$this.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="&gt;&gt;ToolTipInfo.Type" xml:space="preserve">
@@ -177,14 +174,17 @@
   <data name="&gt;&gt;TableFleet.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>艦隊</value>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Meiryo UI, 12px</value>
   </data>
-  <data name="&gt;&gt;TableFleet.Name" xml:space="preserve">
-    <value>TableFleet</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>艦隊</value>
+  </data>
+  <data name="&gt;&gt;TableFleet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>zh-Hans</value>

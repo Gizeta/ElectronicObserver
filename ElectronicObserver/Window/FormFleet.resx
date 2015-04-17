@@ -128,9 +128,6 @@
   <data name="TableFleet.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="$this.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="ContextMenuFleet.Size" type="System.Drawing.Size, System.Drawing">
     <value>225, 98</value>
   </data>
@@ -141,11 +138,17 @@
   <data name="ContextMenuFleet_Capture.Text" xml:space="preserve">
     <value>この画面をキャプチャ(&amp;S)</value>
   </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>300, 200</value>
+  </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 3, 4</value>
   </data>
   <data name="TableMember.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 12px</value>
   </data>
   <data name="&gt;&gt;TableMember.Type" xml:space="preserve">
     <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -177,14 +180,11 @@
   <data name="ContextMenuFleet_CopyFleet.Text" xml:space="preserve">
     <value>クリップボードにコピー(&amp;C)</value>
   </data>
-  <data name="&gt;&gt;ContextMenuFleet.Name" xml:space="preserve">
-    <value>ContextMenuFleet</value>
-  </data>
   <data name="&gt;&gt;ContextMenuFleet_CopyFleet.Name" xml:space="preserve">
     <value>ContextMenuFleet_CopyFleet</value>
   </data>
-  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="ContextMenuFleet_FixShipNameWidth.Text" xml:space="preserve">
+    <value>艦名の幅を固定する</value>
   </data>
   <data name="ContextMenuFleet_IsScrollable.Text" xml:space="preserve">
     <value>スクロール可能</value>
@@ -201,8 +201,8 @@
   <data name="&gt;&gt;ContextMenuFleet_IsScrollable.Name" xml:space="preserve">
     <value>ContextMenuFleet_IsScrollable</value>
   </data>
-  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Meiryo UI, 12px</value>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="TableMember.RowCount" type="System.Int32, mscorlib">
     <value>1</value>
@@ -215,9 +215,6 @@
   </data>
   <data name="TableMember.ToolTip" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;TableMember.Name" xml:space="preserve">
-    <value>TableMember</value>
   </data>
   <data name="TableFleet.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
@@ -234,8 +231,8 @@
   <data name="&gt;&gt;ContextMenuFleet_FixShipNameWidth.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="ContextMenuFleet_FixShipNameWidth.Text" xml:space="preserve">
-    <value>艦名の幅を固定する</value>
+  <data name="&gt;&gt;TableMember.Name" xml:space="preserve">
+    <value>TableMember</value>
   </data>
   <data name="ContextMenuFleet_CopyFleet.Size" type="System.Drawing.Size, System.Drawing">
     <value>224, 22</value>
@@ -252,8 +249,8 @@
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>FormFleet</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>*not loaded*</value>
+  <data name="&gt;&gt;ContextMenuFleet.Name" xml:space="preserve">
+    <value>ContextMenuFleet</value>
   </data>
   <data name="&gt;&gt;ContextMenuFleet_IsScrollable.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -279,11 +276,14 @@
   <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
     <value>toolStripSeparator1</value>
   </data>
-  <data name="TableFleet.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;TableFleet.Type" xml:space="preserve">
     <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>*not loaded*</value>
   </data>
   <data name="TableMember.ColumnCount" type="System.Int32, mscorlib">
     <value>6</value>
@@ -297,8 +297,8 @@
   <data name="ContextMenuFleet_IsScrollable.Size" type="System.Drawing.Size, System.Drawing">
     <value>224, 22</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>300, 200</value>
+  <data name="TableFleet.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>WeifenLuo.WinFormsUI.Docking.DockContent, WeifenLuo.WinFormsUI.Docking, Version=2.9.0.0, Culture=neutral, PublicKeyToken=5cded1a1a0a7b481</value>

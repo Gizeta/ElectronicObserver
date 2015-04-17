@@ -24,31 +24,46 @@
 		/// </summary>
 		private void InitializeComponent() {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DialogEquipmentList));
+            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.EquipmentView = new System.Windows.Forms.DataGridView();
             this.EquipmentView_ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.EquipmentView_Icon = new System.Windows.Forms.DataGridViewImageColumn();
             this.EquipmentView_Name = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.EquipmentView_CountAll = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.EquipmentView_CountRemain = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TopMenu = new System.Windows.Forms.MenuStrip();
-            this.TopMenu_File = new System.Windows.Forms.ToolStripMenuItem();
-            this.TopMenu_File_CSVOutput = new System.Windows.Forms.ToolStripMenuItem();
-            this.TopMenu_File_Update = new System.Windows.Forms.ToolStripMenuItem();
-            this.SaveCSVDialog = new System.Windows.Forms.SaveFileDialog();
-            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.DetailView = new System.Windows.Forms.DataGridView();
             this.DetailView_Level = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DetailView_CountAll = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DetailView_CountRemain = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DetailView_EquippedShip = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            ((System.ComponentModel.ISupportInitialize)(this.EquipmentView)).BeginInit();
-            this.TopMenu.SuspendLayout();
+            this.TopMenu = new System.Windows.Forms.MenuStrip();
+            this.TopMenu_File = new System.Windows.Forms.ToolStripMenuItem();
+            this.TopMenu_File_CSVOutput = new System.Windows.Forms.ToolStripMenuItem();
+            this.TopMenu_File_Update = new System.Windows.Forms.ToolStripMenuItem();
+            this.SaveCSVDialog = new System.Windows.Forms.SaveFileDialog();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.EquipmentView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DetailView)).BeginInit();
+            this.TopMenu.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // splitContainer1
+            // 
+            resources.ApplyResources(this.splitContainer1, "splitContainer1");
+            this.splitContainer1.Name = "splitContainer1";
+            // 
+            // splitContainer1.Panel1
+            // 
+            resources.ApplyResources(this.splitContainer1.Panel1, "splitContainer1.Panel1");
+            this.splitContainer1.Panel1.Controls.Add(this.EquipmentView);
+            // 
+            // splitContainer1.Panel2
+            // 
+            resources.ApplyResources(this.splitContainer1.Panel2, "splitContainer1.Panel2");
+            this.splitContainer1.Panel2.Controls.Add(this.DetailView);
             // 
             // EquipmentView
             // 
@@ -108,52 +123,6 @@
             this.EquipmentView_CountRemain.Name = "EquipmentView_CountRemain";
             this.EquipmentView_CountRemain.ReadOnly = true;
             // 
-            // TopMenu
-            // 
-            resources.ApplyResources(this.TopMenu, "TopMenu");
-            this.TopMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.TopMenu_File});
-            this.TopMenu.Name = "TopMenu";
-            // 
-            // TopMenu_File
-            // 
-            resources.ApplyResources(this.TopMenu_File, "TopMenu_File");
-            this.TopMenu_File.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.TopMenu_File_CSVOutput,
-            this.TopMenu_File_Update});
-            this.TopMenu_File.Name = "TopMenu_File";
-            // 
-            // TopMenu_File_CSVOutput
-            // 
-            resources.ApplyResources(this.TopMenu_File_CSVOutput, "TopMenu_File_CSVOutput");
-            this.TopMenu_File_CSVOutput.Name = "TopMenu_File_CSVOutput";
-            this.TopMenu_File_CSVOutput.Click += new System.EventHandler(this.Menu_File_CSVOutput_Click);
-            // 
-            // TopMenu_File_Update
-            // 
-            resources.ApplyResources(this.TopMenu_File_Update, "TopMenu_File_Update");
-            this.TopMenu_File_Update.Name = "TopMenu_File_Update";
-            this.TopMenu_File_Update.Click += new System.EventHandler(this.TopMenu_File_Update_Click);
-            // 
-            // SaveCSVDialog
-            // 
-            resources.ApplyResources(this.SaveCSVDialog, "SaveCSVDialog");
-            // 
-            // splitContainer1
-            // 
-            resources.ApplyResources(this.splitContainer1, "splitContainer1");
-            this.splitContainer1.Name = "splitContainer1";
-            // 
-            // splitContainer1.Panel1
-            // 
-            resources.ApplyResources(this.splitContainer1.Panel1, "splitContainer1.Panel1");
-            this.splitContainer1.Panel1.Controls.Add(this.EquipmentView);
-            // 
-            // splitContainer1.Panel2
-            // 
-            resources.ApplyResources(this.splitContainer1.Panel2, "splitContainer1.Panel2");
-            this.splitContainer1.Panel2.Controls.Add(this.DetailView);
-            // 
             // DetailView
             // 
             resources.ApplyResources(this.DetailView, "DetailView");
@@ -201,6 +170,37 @@
             this.DetailView_EquippedShip.ReadOnly = true;
             this.DetailView_EquippedShip.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             // 
+            // TopMenu
+            // 
+            resources.ApplyResources(this.TopMenu, "TopMenu");
+            this.TopMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.TopMenu_File});
+            this.TopMenu.Name = "TopMenu";
+            // 
+            // TopMenu_File
+            // 
+            resources.ApplyResources(this.TopMenu_File, "TopMenu_File");
+            this.TopMenu_File.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.TopMenu_File_CSVOutput,
+            this.TopMenu_File_Update});
+            this.TopMenu_File.Name = "TopMenu_File";
+            // 
+            // TopMenu_File_CSVOutput
+            // 
+            resources.ApplyResources(this.TopMenu_File_CSVOutput, "TopMenu_File_CSVOutput");
+            this.TopMenu_File_CSVOutput.Name = "TopMenu_File_CSVOutput";
+            this.TopMenu_File_CSVOutput.Click += new System.EventHandler(this.Menu_File_CSVOutput_Click);
+            // 
+            // TopMenu_File_Update
+            // 
+            resources.ApplyResources(this.TopMenu_File_Update, "TopMenu_File_Update");
+            this.TopMenu_File_Update.Name = "TopMenu_File_Update";
+            this.TopMenu_File_Update.Click += new System.EventHandler(this.TopMenu_File_Update_Click);
+            // 
+            // SaveCSVDialog
+            // 
+            resources.ApplyResources(this.SaveCSVDialog, "SaveCSVDialog");
+            // 
             // DialogEquipmentList
             // 
             resources.ApplyResources(this, "$this");
@@ -212,14 +212,14 @@
             this.Name = "DialogEquipmentList";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.DialogEquipmentList_FormClosed);
             this.Load += new System.EventHandler(this.DialogEquipmentList_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.EquipmentView)).EndInit();
-            this.TopMenu.ResumeLayout(false);
-            this.TopMenu.PerformLayout();
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.EquipmentView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DetailView)).EndInit();
+            this.TopMenu.ResumeLayout(false);
+            this.TopMenu.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 

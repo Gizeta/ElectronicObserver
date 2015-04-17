@@ -117,31 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="$this.Text" xml:space="preserve">
-    <value>战斗</value>
-  </data>
-  <data name="AACutin.Text" xml:space="preserve">
-    <value>对空</value>
-  </data>
-  <data name="AirStage1Enemy.Text" xml:space="preserve">
-    <value>击落</value>
-  </data>
-  <data name="AirStage1Friend.Text" xml:space="preserve">
-    <value>击落</value>
-  </data>
-  <data name="AirStage2Enemy.Text" xml:space="preserve">
-    <value>击落</value>
-  </data>
-  <data name="AirStage2Friend.Text" xml:space="preserve">
-    <value>击落</value>
-  </data>
-  <data name="AirSuperiority.Text" xml:space="preserve">
-    <value>制空权</value>
-  </data>
-  <data name="DamageEnemy.Text" xml:space="preserve">
-    <value>损害率</value>
+  <data name="FleetFriend.Text" xml:space="preserve">
+    <value>自军舰队</value>
   </data>
   <data name="DamageFriend.Text" xml:space="preserve">
+    <value>损害率</value>
+  </data>
+  <data name="WinRank.Text" xml:space="preserve">
+    <value>战绩判定</value>
+  </data>
+  <data name="DamageEnemy.Text" xml:space="preserve">
     <value>损害率</value>
   </data>
   <data name="FleetCombined.Text" xml:space="preserve">
@@ -150,8 +135,8 @@
   <data name="FleetEnemy.Text" xml:space="preserve">
     <value>敌军舰队</value>
   </data>
-  <data name="FleetFriend.Text" xml:space="preserve">
-    <value>自军舰队</value>
+  <data name="FormationFriend.Text" xml:space="preserve">
+    <value>我军阵型</value>
   </data>
   <data name="Formation.Text" xml:space="preserve">
     <value>交战形态</value>
@@ -159,19 +144,80 @@
   <data name="FormationEnemy.Text" xml:space="preserve">
     <value>敌军阵型</value>
   </data>
-  <data name="FormationFriend.Text" xml:space="preserve">
-    <value>我军阵型</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="AirStage2Friend.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 66</value>
   </data>
-  <data name="Searching.Text" xml:space="preserve">
-    <value>索敌</value>
+  <data name="AirStage2Friend.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 15</value>
   </data>
-  <data name="SearchingEnemy.Text" xml:space="preserve">
-    <value>敌方索敌</value>
+  <data name="AirStage2Friend.Text" xml:space="preserve">
+    <value>击落</value>
+  </data>
+  <data name="AACutin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 66</value>
+  </data>
+  <data name="AACutin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 15</value>
+  </data>
+  <data name="AACutin.Text" xml:space="preserve">
+    <value>对空</value>
+  </data>
+  <data name="AirStage2Enemy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 66</value>
+  </data>
+  <data name="AirStage2Enemy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 15</value>
+  </data>
+  <data name="AirStage2Enemy.Text" xml:space="preserve">
+    <value>击落</value>
+  </data>
+  <data name="AirStage1Enemy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 45</value>
+  </data>
+  <data name="AirStage1Enemy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 15</value>
+  </data>
+  <data name="AirStage1Enemy.Text" xml:space="preserve">
+    <value>击落</value>
+  </data>
+  <data name="SearchingFriend.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 23</value>
+  </data>
+  <data name="SearchingFriend.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 17</value>
   </data>
   <data name="SearchingFriend.Text" xml:space="preserve">
     <value>我方索敌</value>
   </data>
-  <data name="WinRank.Text" xml:space="preserve">
-    <value>战绩判定</value>
+  <data name="Searching.Text" xml:space="preserve">
+    <value>索敌</value>
+  </data>
+  <data name="AirStage1Friend.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 45</value>
+  </data>
+  <data name="AirStage1Friend.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 15</value>
+  </data>
+  <data name="AirStage1Friend.Text" xml:space="preserve">
+    <value>击落</value>
+  </data>
+  <data name="SearchingEnemy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>174, 23</value>
+  </data>
+  <data name="SearchingEnemy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 17</value>
+  </data>
+  <data name="SearchingEnemy.Text" xml:space="preserve">
+    <value>敌方索敌</value>
+  </data>
+  <data name="AirSuperiority.Text" xml:space="preserve">
+    <value>制空权</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 9pt</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>战斗</value>
   </data>
 </root>

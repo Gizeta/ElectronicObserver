@@ -117,49 +117,131 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="$this.Text" xml:space="preserve">
-    <value>司令</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="FlowPanelAdmiral.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 22</value>
   </data>
-  <data name="AdmiralComment.Text" xml:space="preserve">
-    <value>(提督评论)</value>
+  <data name="HQLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 0</value>
   </data>
-  <data name="AdmiralName.Text" xml:space="preserve">
-    <value>(提督名)</value>
-  </data>
-  <data name="Ammo.Text" xml:space="preserve">
-    <value>(弹药)</value>
-  </data>
-  <data name="Bauxite.Text" xml:space="preserve">
-    <value>(铝土)</value>
-  </data>
-  <data name="DevelopmentMaterial.Text" xml:space="preserve">
-    <value>(开发)</value>
-  </data>
-  <data name="EquipmentCount.Text" xml:space="preserve">
-    <value>(装备数)</value>
-  </data>
-  <data name="Fuel.Text" xml:space="preserve">
-    <value>(燃料)</value>
-  </data>
-  <data name="FurnitureCoin.Text" xml:space="preserve">
-    <value>(家具)</value>
+  <data name="HQLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 20</value>
   </data>
   <data name="HQLevel.Text" xml:space="preserve">
     <value>总部 Lv.</value>
   </data>
-  <data name="InstantConstruction.Text" xml:space="preserve">
-    <value>(建造)</value>
+  <data name="FlowPanelFleet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 22</value>
   </data>
-  <data name="InstantRepair.Text" xml:space="preserve">
-    <value>(修复)</value>
+  <data name="FlowPanelFleet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 21</value>
   </data>
-  <data name="ModdingMaterial.Text" xml:space="preserve">
-    <value>(改修)</value>
+  <data name="FlowPanelUseItem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 43</value>
+  </data>
+  <data name="FlowPanelUseItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>244, 42</value>
+  </data>
+  <data name="FlowPanelResource.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 85</value>
+  </data>
+  <data name="FlowPanelResource.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 84</value>
+  </data>
+  <data name="AdmiralName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 22</value>
+  </data>
+  <data name="AdmiralComment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 0</value>
+  </data>
+  <data name="AdmiralComment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 22</value>
+  </data>
+  <data name="AdmiralComment.Text" xml:space="preserve">
+    <value>(提督评论)</value>
+  </data>
+  <data name="ShipCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 21</value>
   </data>
   <data name="ShipCount.Text" xml:space="preserve">
     <value>(舰船数)</value>
   </data>
+  <data name="EquipmentCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 0</value>
+  </data>
+  <data name="EquipmentCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 21</value>
+  </data>
+  <data name="EquipmentCount.Text" xml:space="preserve">
+    <value>(装备数)</value>
+  </data>
+  <data name="InstantRepair.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 21</value>
+  </data>
+  <data name="InstantRepair.Text" xml:space="preserve">
+    <value>(修复)</value>
+  </data>
+  <data name="InstantConstruction.Location" type="System.Drawing.Point, System.Drawing">
+    <value>64, 0</value>
+  </data>
+  <data name="InstantConstruction.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 21</value>
+  </data>
+  <data name="DevelopmentMaterial.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 0</value>
+  </data>
+  <data name="DevelopmentMaterial.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 21</value>
+  </data>
+  <data name="DevelopmentMaterial.Text" xml:space="preserve">
+    <value>(开发)</value>
+  </data>
+  <data name="ModdingMaterial.Location" type="System.Drawing.Point, System.Drawing">
+    <value>186, 0</value>
+  </data>
+  <data name="ModdingMaterial.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 21</value>
+  </data>
+  <data name="FurnitureCoin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 21</value>
+  </data>
+  <data name="FurnitureCoin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 21</value>
+  </data>
+  <data name="Fuel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 21</value>
+  </data>
+  <data name="Ammo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 21</value>
+  </data>
+  <data name="Ammo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 21</value>
+  </data>
+  <data name="Ammo.Text" xml:space="preserve">
+    <value>(弹药)</value>
+  </data>
+  <data name="Steel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 42</value>
+  </data>
+  <data name="Steel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 21</value>
+  </data>
   <data name="Steel.Text" xml:space="preserve">
     <value>(钢材)</value>
+  </data>
+  <data name="Bauxite.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 63</value>
+  </data>
+  <data name="Bauxite.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 21</value>
+  </data>
+  <data name="Bauxite.Text" xml:space="preserve">
+    <value>(铝土)</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 9pt</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>司令</value>
   </data>
 </root>

@@ -117,19 +117,32 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="$this.Text" xml:space="preserve">
-    <value>过滤选中列</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Description.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 17</value>
   </data>
-  <data name="AllCheck.Text" xml:space="preserve">
-    <value>(全选)</value>
-  </data>
-  <data name="ButtonCancel.Text" xml:space="preserve">
-    <value>取消</value>
+  <data name="Description.Text" xml:space="preserve">
+    <value>请检查要显示的列</value>
   </data>
   <data name="ButtonOK.Text" xml:space="preserve">
     <value>确定</value>
   </data>
-  <data name="Description.Text" xml:space="preserve">
-    <value>请检查要显示的列</value>
+  <data name="ButtonCancel.Text" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="AllCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 328</value>
+  </data>
+  <data name="AllCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 21</value>
+  </data>
+  <data name="AllCheck.Text" xml:space="preserve">
+    <value>(全选)</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 9pt</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>过滤选中列</value>
   </data>
 </root>

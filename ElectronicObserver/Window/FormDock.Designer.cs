@@ -33,7 +33,6 @@
             // 
             resources.ApplyResources(this.TableDock, "TableDock");
             this.TableDock.Name = "TableDock";
-            this.ToolTipInfo.SetToolTip(this.TableDock, resources.GetString("TableDock.ToolTip"));
             this.TableDock.CellPaint += new System.Windows.Forms.TableLayoutCellPaintEventHandler(this.TableDock_CellPaint);
             // 
             // ToolTipInfo
@@ -45,15 +44,14 @@
             // 
             // FormDock
             // 
-            resources.ApplyResources(this, "$this");
             this.AutoHidePortion = 150D;
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            resources.ApplyResources(this, "$this");
             this.Controls.Add(this.TableDock);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.HideOnClose = true;
             this.Name = "FormDock";
-            this.ToolTipInfo.SetToolTip(this, resources.GetString("$this.ToolTip"));
             this.Load += new System.EventHandler(this.FormDock_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

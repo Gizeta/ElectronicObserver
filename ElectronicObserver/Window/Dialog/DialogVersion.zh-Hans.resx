@@ -119,22 +119,28 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="TextVersion.Size" type="System.Drawing.Size, System.Drawing">
-    <value>213, 15</value>
+    <value>206, 17</value>
   </data>
   <data name="TextVersion.Text" xml:space="preserve">
     <value>试制七四式电子观测仪零型 (ver. 0.0)</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 15</value>
+    <value>44, 17</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>开发：</value>
   </data>
+  <data name="TextAuthor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
+  </data>
   <data name="ButtonClose.Text" xml:space="preserve">
     <value>关闭</value>
   </data>
+  <data name="TextInformation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 17</value>
+  </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>176, 15</value>
+    <value>171, 17</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
     <value>发行商(报告Bug请联系这里)：</value>
@@ -151,7 +157,7 @@
     <value>185, 30</value>
   </data>
   <data name="linkLabel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>41, 15</value>
+    <value>41, 17</value>
   </data>
   <data name="linkLabel1.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -172,13 +178,16 @@
     <value>3, 3, 3, 3</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 15</value>
+    <value>44, 17</value>
   </data>
   <data name="label3.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
     <value>翻译：</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 9pt</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>版本</value>

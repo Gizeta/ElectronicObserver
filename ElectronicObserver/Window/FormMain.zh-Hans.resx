@@ -131,7 +131,7 @@
     <value>读取(&amp;L)</value>
   </data>
   <data name="StripMenu_File_Record.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
+    <value>125, 22</value>
   </data>
   <data name="StripMenu_File_Record.Text" xml:space="preserve">
     <value>记录(&amp;R)</value>
@@ -152,25 +152,25 @@
     <value>打开其他布局文件(&amp;O)...</value>
   </data>
   <data name="StripMenu_File_Layout.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
+    <value>125, 22</value>
   </data>
   <data name="StripMenu_File_Layout.Text" xml:space="preserve">
     <value>布局(&amp;L)</value>
   </data>
   <data name="toolStripSeparator6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>149, 6</value>
+    <value>122, 6</value>
   </data>
   <data name="StripMenu_File_Configuration.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
+    <value>125, 22</value>
   </data>
   <data name="StripMenu_File_Configuration.Text" xml:space="preserve">
     <value>设置(&amp;C)...</value>
   </data>
   <data name="toolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>149, 6</value>
+    <value>122, 6</value>
   </data>
   <data name="StripMenu_File_Close.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
+    <value>125, 22</value>
   </data>
   <data name="StripMenu_File_Close.Text" xml:space="preserve">
     <value>退出(&amp;X)</value>
@@ -181,92 +181,80 @@
   <data name="StripMenu_File.Text" xml:space="preserve">
     <value>文件(&amp;F)</value>
   </data>
-  <data name="StripMenu_View_Fleet_1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
-  </data>
-  <data name="StripMenu_View_Fleet_2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
-  </data>
-  <data name="StripMenu_View_Fleet_3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
-  </data>
-  <data name="StripMenu_View_Fleet_4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
-  </data>
   <data name="StripMenu_View_Fleet.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
+    <value>142, 22</value>
   </data>
   <data name="StripMenu_View_Fleet.Text" xml:space="preserve">
     <value>舰队(&amp;F)</value>
   </data>
   <data name="StripMenu_View_FleetOverview.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
+    <value>142, 22</value>
   </data>
   <data name="StripMenu_View_FleetOverview.Text" xml:space="preserve">
     <value>舰队一览(&amp;O)</value>
   </data>
   <data name="StripMenu_View_ShipGroup.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
+    <value>142, 22</value>
   </data>
   <data name="StripMenu_View_ShipGroup.Text" xml:space="preserve">
     <value>舰队编成(&amp;G)</value>
   </data>
   <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>149, 6</value>
+    <value>139, 6</value>
   </data>
   <data name="StripMenu_View_Dock.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
+    <value>142, 22</value>
   </data>
   <data name="StripMenu_View_Arsenal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
+    <value>142, 22</value>
   </data>
   <data name="StripMenu_View_Arsenal.Text" xml:space="preserve">
     <value>工厂(&amp;A)</value>
   </data>
   <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>149, 6</value>
+    <value>139, 6</value>
   </data>
   <data name="StripMenu_View_Headquarters.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
+    <value>142, 22</value>
   </data>
   <data name="StripMenu_View_Quest.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
+    <value>142, 22</value>
   </data>
   <data name="StripMenu_View_Quest.Text" xml:space="preserve">
     <value>任务(&amp;Q)</value>
   </data>
   <data name="StripMenu_View_Information.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
+    <value>142, 22</value>
   </data>
   <data name="StripMenu_View_Information.Text" xml:space="preserve">
     <value>信息(&amp;I)</value>
   </data>
   <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>149, 6</value>
+    <value>139, 6</value>
   </data>
   <data name="StripMenu_View_Compass.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
+    <value>142, 22</value>
   </data>
   <data name="StripMenu_View_Compass.Text" xml:space="preserve">
     <value>罗盘(&amp;C)</value>
   </data>
   <data name="StripMenu_View_Battle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
+    <value>142, 22</value>
   </data>
   <data name="StripMenu_View_Battle.Text" xml:space="preserve">
     <value>战斗(&amp;B)</value>
   </data>
   <data name="toolStripSeparator4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>149, 6</value>
+    <value>139, 6</value>
   </data>
   <data name="StripMenu_View_Browser.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
+    <value>142, 22</value>
   </data>
   <data name="StripMenu_View_Browser.Text" xml:space="preserve">
     <value>浏览器(&amp;M)</value>
   </data>
   <data name="StripMenu_View_Log.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
+    <value>142, 22</value>
   </data>
   <data name="StripMenu_View_Log.Text" xml:space="preserve">
     <value>记录(&amp;L)</value>
@@ -411,6 +399,9 @@
   </data>
   <data name="StripStatus_Padding.Size" type="System.Drawing.Size, System.Drawing">
     <value>508, 17</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 9pt</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>试制七四式电子观测仪</value>

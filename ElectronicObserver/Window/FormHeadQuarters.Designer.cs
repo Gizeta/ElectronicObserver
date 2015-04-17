@@ -93,14 +93,14 @@
             // 
             // ShipCount
             // 
-            resources.ApplyResources(this.ShipCount, "ShipCount");
             this.ShipCount.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.ShipCount, "ShipCount");
             this.ShipCount.Name = "ShipCount";
             // 
             // EquipmentCount
             // 
-            resources.ApplyResources(this.EquipmentCount, "EquipmentCount");
             this.EquipmentCount.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.EquipmentCount, "EquipmentCount");
             this.EquipmentCount.Name = "EquipmentCount";
             // 
             // FlowPanelUseItem
@@ -115,32 +115,32 @@
             // 
             // InstantRepair
             // 
-            resources.ApplyResources(this.InstantRepair, "InstantRepair");
             this.InstantRepair.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.InstantRepair, "InstantRepair");
             this.InstantRepair.Name = "InstantRepair";
             // 
             // InstantConstruction
             // 
-            resources.ApplyResources(this.InstantConstruction, "InstantConstruction");
             this.InstantConstruction.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.InstantConstruction, "InstantConstruction");
             this.InstantConstruction.Name = "InstantConstruction";
             // 
             // DevelopmentMaterial
             // 
-            resources.ApplyResources(this.DevelopmentMaterial, "DevelopmentMaterial");
             this.DevelopmentMaterial.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.DevelopmentMaterial, "DevelopmentMaterial");
             this.DevelopmentMaterial.Name = "DevelopmentMaterial";
             // 
             // ModdingMaterial
             // 
-            resources.ApplyResources(this.ModdingMaterial, "ModdingMaterial");
             this.ModdingMaterial.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.ModdingMaterial, "ModdingMaterial");
             this.ModdingMaterial.Name = "ModdingMaterial";
             // 
             // FurnitureCoin
             // 
-            resources.ApplyResources(this.FurnitureCoin, "FurnitureCoin");
             this.FurnitureCoin.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.FurnitureCoin, "FurnitureCoin");
             this.FurnitureCoin.Name = "FurnitureCoin";
             // 
             // FlowPanelResource
@@ -154,33 +154,33 @@
             // 
             // Fuel
             // 
-            resources.ApplyResources(this.Fuel, "Fuel");
             this.Fuel.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.Fuel, "Fuel");
             this.Fuel.Name = "Fuel";
             // 
             // Ammo
             // 
-            resources.ApplyResources(this.Ammo, "Ammo");
             this.Ammo.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.Ammo, "Ammo");
             this.Ammo.Name = "Ammo";
             // 
             // Steel
             // 
-            resources.ApplyResources(this.Steel, "Steel");
             this.Steel.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.Steel, "Steel");
             this.Steel.Name = "Steel";
             // 
             // Bauxite
             // 
-            resources.ApplyResources(this.Bauxite, "Bauxite");
             this.Bauxite.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.Bauxite, "Bauxite");
             this.Bauxite.Name = "Bauxite";
             // 
             // FormHeadquarters
             // 
-            resources.ApplyResources(this, "$this");
             this.AutoHidePortion = 150D;
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            resources.ApplyResources(this, "$this");
             this.Controls.Add(this.FlowPanelMaster);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;

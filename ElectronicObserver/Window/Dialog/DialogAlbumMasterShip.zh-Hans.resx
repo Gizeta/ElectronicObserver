@@ -117,109 +117,632 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="$this.Text" xml:space="preserve">
-    <value>舰船图鉴</value>
-  </data>
-  <data name="DayAttack.Text" xml:space="preserve">
-    <value>主炮/主炮</value>
-  </data>
-  <data name="imageLabel2.Text" xml:space="preserve">
-    <value>图鉴编号:</value>
-  </data>
-  <data name="imageLabel45.Text" xml:space="preserve">
-    <value>舰船ID:</value>
-  </data>
-  <data name="imageLabel59.Text" xml:space="preserve">
-    <value>解体</value>
-  </data>
-  <data name="imageLabel60.Text" xml:space="preserve">
-    <value>改修</value>
-  </data>
-  <data name="imageLabel71.Text" xml:space="preserve">
-    <value>稀有</value>
-  </data>
-  <data name="NightAttack.Text" xml:space="preserve">
-    <value>连击</value>
-  </data>
-  <data name="ParameterLevel.ToolTip" xml:space="preserve">
-    <value>只显示指定等级的预测值</value>
-  </data>
-  <data name="RemodelAfter.Text" xml:space="preserve">
-    <value>改装后</value>
-  </data>
-  <data name="SaveCSVDialog.Filter" xml:space="preserve">
-    <value>CSV|*.csv|File|*</value>
-  </data>
-  <data name="SaveCSVDialog.Title" xml:space="preserve">
-    <value>CSVに出力</value>
+  <data name="ShipView_ShipType.HeaderText" xml:space="preserve">
+    <value>舰种</value>
   </data>
   <data name="ShipView_Name.HeaderText" xml:space="preserve">
     <value>舰名</value>
   </data>
-  <data name="ShipView_ShipType.HeaderText" xml:space="preserve">
-    <value>舰种</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="TitleDayAttack.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 26</value>
   </data>
-  <data name="StripMenu_File.Text" xml:space="preserve">
-    <value>文件(&amp;F)</value>
-  </data>
-  <data name="StripMenu_File_OutputCSVData.Text" xml:space="preserve">
-    <value>输出CSV(数据用)(&amp;D)...</value>
-  </data>
-  <data name="StripMenu_File_OutputCSVUser.Text" xml:space="preserve">
-    <value>输出CSV(浏览用)(&amp;U)...</value>
-  </data>
-  <data name="TitleAA.Text" xml:space="preserve">
-    <value>对空</value>
-  </data>
-  <data name="TitleAirSuperiority.Text" xml:space="preserve">
-    <value>制空战力</value>
-  </data>
-  <data name="TitleArmor.Text" xml:space="preserve">
-    <value>装甲</value>
-  </data>
-  <data name="TitleASW.Text" xml:space="preserve">
-    <value>对潜</value>
-  </data>
-  <data name="TitleBuildingTime.Text" xml:space="preserve">
-    <value>建造时间</value>
-  </data>
-  <data name="TitleConsumption.Text" xml:space="preserve">
-    <value>消费</value>
+  <data name="TitleDayAttack.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 17</value>
   </data>
   <data name="TitleDayAttack.Text" xml:space="preserve">
     <value>昼战攻击</value>
   </data>
-  <data name="TitleEvasion.Text" xml:space="preserve">
-    <value>回避</value>
+  <data name="NightAttack.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 49</value>
   </data>
-  <data name="TitleFirepower.Text" xml:space="preserve">
-    <value>火力</value>
+  <data name="NightAttack.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 17</value>
   </data>
-  <data name="TitleHP.Text" xml:space="preserve">
-    <value>耐久</value>
+  <data name="NightAttack.Text" xml:space="preserve">
+    <value>连击</value>
   </data>
-  <data name="TitleLOS.Text" xml:space="preserve">
-    <value>索敌</value>
+  <data name="TitleNightAttack.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 49</value>
   </data>
-  <data name="TitleLuck.Text" xml:space="preserve">
-    <value>运气</value>
+  <data name="TitleNightAttack.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 17</value>
   </data>
   <data name="TitleNightAttack.Text" xml:space="preserve">
     <value>夜战攻击</value>
   </data>
+  <data name="DayAttack.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 26</value>
+  </data>
+  <data name="DayAttack.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 17</value>
+  </data>
+  <data name="DayAttack.Text" xml:space="preserve">
+    <value>主炮/主炮</value>
+  </data>
+  <data name="AirSuperiority.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 3</value>
+  </data>
+  <data name="AirSuperiority.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 17</value>
+  </data>
+  <data name="TitleAirSuperiority.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 17</value>
+  </data>
+  <data name="TitleAirSuperiority.Text" xml:space="preserve">
+    <value>制空战力</value>
+  </data>
+  <data name="TableBattle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 69</value>
+  </data>
+  <data name="imageLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 17</value>
+  </data>
+  <data name="imageLabel2.Text" xml:space="preserve">
+    <value>图鉴编号:</value>
+  </data>
+  <data name="ShipType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 17</value>
+  </data>
+  <data name="ShipName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 3</value>
+  </data>
+  <data name="ShipName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 17</value>
+  </data>
+  <data name="TableShipName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 23</value>
+  </data>
+  <data name="RemodelAfterSteel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>169, 72</value>
+  </data>
+  <data name="RemodelAfterSteel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 17</value>
+  </data>
+  <data name="RemodelAfterAmmo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 72</value>
+  </data>
+  <data name="RemodelAfterAmmo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 17</value>
+  </data>
+  <data name="RemodelAfterLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 72</value>
+  </data>
+  <data name="RemodelAfterLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 17</value>
+  </data>
+  <data name="RemodelAfterShipName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 49</value>
+  </data>
+  <data name="RemodelAfterShipName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 17</value>
+  </data>
+  <data name="RemodelAfter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 49</value>
+  </data>
+  <data name="RemodelAfter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 17</value>
+  </data>
+  <data name="RemodelAfter.Text" xml:space="preserve">
+    <value>改装后</value>
+  </data>
+  <data name="RemodelBeforeLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 26</value>
+  </data>
+  <data name="RemodelBeforeLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 17</value>
+  </data>
+  <data name="RemodelBeforeSteel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>169, 26</value>
+  </data>
+  <data name="RemodelBeforeSteel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 17</value>
+  </data>
+  <data name="RemodelBeforeAmmo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 26</value>
+  </data>
+  <data name="RemodelBeforeAmmo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 17</value>
+  </data>
+  <data name="RemodelBeforeShipName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 3</value>
+  </data>
+  <data name="RemodelBeforeShipName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 17</value>
+  </data>
+  <data name="RemodelBefore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 17</value>
+  </data>
+  <data name="Ammo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 16</value>
+  </data>
+  <data name="Fuel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 16</value>
+  </data>
+  <data name="TitleConsumption.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 16</value>
+  </data>
+  <data name="TitleConsumption.Text" xml:space="preserve">
+    <value>消费</value>
+  </data>
+  <data name="imageLabel76.Location" type="System.Drawing.Point, System.Drawing">
+    <value>198, 26</value>
+  </data>
+  <data name="imageLabel76.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 17</value>
+  </data>
+  <data name="Rarity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>169, 3</value>
+  </data>
+  <data name="Rarity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 17</value>
+  </data>
+  <data name="Range.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 26</value>
+  </data>
+  <data name="Range.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 17</value>
+  </data>
+  <data name="Speed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 17</value>
+  </data>
+  <data name="imageLabel72.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 26</value>
+  </data>
+  <data name="imageLabel72.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 17</value>
+  </data>
+  <data name="imageLabel71.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 3</value>
+  </data>
+  <data name="imageLabel71.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 17</value>
+  </data>
+  <data name="imageLabel71.Text" xml:space="preserve">
+    <value>稀有</value>
+  </data>
+  <data name="TitleRange.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 26</value>
+  </data>
+  <data name="TitleRange.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 17</value>
+  </data>
+  <data name="TitleSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 17</value>
+  </data>
+  <data name="BuildingTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 17</value>
+  </data>
+  <data name="TitleBuildingTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 17</value>
+  </data>
+  <data name="TitleBuildingTime.Text" xml:space="preserve">
+    <value>建造时间</value>
+  </data>
+  <data name="PowerUpArmor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 26</value>
+  </data>
+  <data name="PowerUpArmor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 17</value>
+  </data>
+  <data name="MaterialBauxite.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 3</value>
+  </data>
+  <data name="MaterialBauxite.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 17</value>
+  </data>
+  <data name="PowerUpAA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 26</value>
+  </data>
+  <data name="PowerUpAA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 17</value>
+  </data>
+  <data name="MaterialFuel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 3</value>
+  </data>
+  <data name="MaterialFuel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 17</value>
+  </data>
+  <data name="PowerUpTorpedo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 26</value>
+  </data>
+  <data name="PowerUpTorpedo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 17</value>
+  </data>
+  <data name="MaterialSteel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 3</value>
+  </data>
+  <data name="MaterialSteel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 17</value>
+  </data>
+  <data name="PowerUpFirepower.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 26</value>
+  </data>
+  <data name="PowerUpFirepower.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 17</value>
+  </data>
+  <data name="imageLabel60.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 26</value>
+  </data>
+  <data name="imageLabel60.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 17</value>
+  </data>
+  <data name="MaterialAmmo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 3</value>
+  </data>
+  <data name="MaterialAmmo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 17</value>
+  </data>
+  <data name="imageLabel59.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 17</value>
+  </data>
+  <data name="Equipment5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 95</value>
+  </data>
+  <data name="Equipment5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 17</value>
+  </data>
+  <data name="Aircraft5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 95</value>
+  </data>
+  <data name="Aircraft5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 17</value>
+  </data>
+  <data name="Equipment4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 72</value>
+  </data>
+  <data name="Equipment4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 17</value>
+  </data>
+  <data name="Aircraft4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 72</value>
+  </data>
+  <data name="Aircraft4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 17</value>
+  </data>
+  <data name="Equipment3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 49</value>
+  </data>
+  <data name="Equipment3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 17</value>
+  </data>
+  <data name="Aircraft1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 3</value>
+  </data>
+  <data name="Aircraft1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 17</value>
+  </data>
+  <data name="Equipment2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 26</value>
+  </data>
+  <data name="Equipment2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 17</value>
+  </data>
+  <data name="Equipment1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 17</value>
+  </data>
+  <data name="Aircraft3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 49</value>
+  </data>
+  <data name="Aircraft3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 17</value>
+  </data>
+  <data name="Aircraft2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 26</value>
+  </data>
+  <data name="Aircraft2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 17</value>
+  </data>
+  <data name="imageLabel45.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 17</value>
+  </data>
+  <data name="imageLabel45.Text" xml:space="preserve">
+    <value>舰船ID:</value>
+  </data>
+  <data name="LOSSeparater.Location" type="System.Drawing.Point, System.Drawing">
+    <value>191, 193</value>
+  </data>
+  <data name="LOSSeparater.Size" type="System.Drawing.Size, System.Drawing">
+    <value>9, 17</value>
+  </data>
+  <data name="FirepowerMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 55</value>
+  </data>
+  <data name="FirepowerMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 17</value>
+  </data>
+  <data name="EvasionSeparater.Location" type="System.Drawing.Point, System.Drawing">
+    <value>191, 170</value>
+  </data>
+  <data name="EvasionSeparater.Size" type="System.Drawing.Size, System.Drawing">
+    <value>9, 17</value>
+  </data>
+  <data name="LOSLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>235, 193</value>
+  </data>
+  <data name="LOSLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 17</value>
+  </data>
+  <data name="imageLabel42.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 216</value>
+  </data>
+  <data name="imageLabel42.Size" type="System.Drawing.Size, System.Drawing">
+    <value>9, 17</value>
+  </data>
+  <data name="TitleLuck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 216</value>
+  </data>
+  <data name="TitleLuck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 17</value>
+  </data>
+  <data name="TitleLuck.Text" xml:space="preserve">
+    <value>运气</value>
+  </data>
+  <data name="imageLabel41.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 193</value>
+  </data>
+  <data name="imageLabel41.Size" type="System.Drawing.Size, System.Drawing">
+    <value>9, 17</value>
+  </data>
+  <data name="EvasionLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>235, 170</value>
+  </data>
+  <data name="EvasionLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 17</value>
+  </data>
+  <data name="imageLabel40.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 170</value>
+  </data>
+  <data name="imageLabel40.Size" type="System.Drawing.Size, System.Drawing">
+    <value>9, 17</value>
+  </data>
+  <data name="LuckMin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 216</value>
+  </data>
+  <data name="LuckMin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 17</value>
+  </data>
+  <data name="imageLabel39.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 147</value>
+  </data>
+  <data name="imageLabel39.Size" type="System.Drawing.Size, System.Drawing">
+    <value>9, 17</value>
+  </data>
+  <data name="LuckMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 216</value>
+  </data>
+  <data name="LuckMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 17</value>
+  </data>
+  <data name="imageLabel38.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 124</value>
+  </data>
+  <data name="imageLabel38.Size" type="System.Drawing.Size, System.Drawing">
+    <value>9, 17</value>
+  </data>
+  <data name="ParameterLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>206, 3</value>
+  </data>
+  <data name="ParameterLevel.ToolTip" xml:space="preserve">
+    <value>只显示指定等级的预测值</value>
+  </data>
+  <data name="imageLabel37.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 101</value>
+  </data>
+  <data name="imageLabel37.Size" type="System.Drawing.Size, System.Drawing">
+    <value>9, 17</value>
+  </data>
+  <data name="LOSMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 193</value>
+  </data>
+  <data name="LOSMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 17</value>
+  </data>
+  <data name="imageLabel36.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 78</value>
+  </data>
+  <data name="imageLabel36.Size" type="System.Drawing.Size, System.Drawing">
+    <value>9, 17</value>
+  </data>
+  <data name="LOSMin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 193</value>
+  </data>
+  <data name="LOSMin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 17</value>
+  </data>
+  <data name="imageLabel35.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 55</value>
+  </data>
+  <data name="imageLabel35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>9, 17</value>
+  </data>
+  <data name="EvasionMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 170</value>
+  </data>
+  <data name="EvasionMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 17</value>
+  </data>
+  <data name="TitleParameterMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 9</value>
+  </data>
+  <data name="TitleParameterMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 17</value>
+  </data>
   <data name="TitleParameterMax.Text" xml:space="preserve">
     <value>最大值</value>
+  </data>
+  <data name="ASWMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 147</value>
+  </data>
+  <data name="ASWMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 17</value>
+  </data>
+  <data name="ASWMin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 147</value>
+  </data>
+  <data name="ASWMin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 17</value>
+  </data>
+  <data name="ArmorMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 124</value>
+  </data>
+  <data name="ArmorMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 17</value>
+  </data>
+  <data name="TitleParameterMin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>59, 9</value>
+  </data>
+  <data name="TitleParameterMin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 17</value>
   </data>
   <data name="TitleParameterMin.Text" xml:space="preserve">
     <value>初始值</value>
   </data>
-  <data name="TitleRange.Text" xml:space="preserve">
-    <value>射程</value>
+  <data name="AAMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 101</value>
   </data>
-  <data name="TitleSpeed.Text" xml:space="preserve">
-    <value>速力</value>
+  <data name="AAMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 17</value>
   </data>
-  <data name="TitleTorpedo.Text" xml:space="preserve">
-    <value>雷装</value>
+  <data name="TitleLOS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 193</value>
+  </data>
+  <data name="TitleLOS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 17</value>
+  </data>
+  <data name="TitleLOS.Text" xml:space="preserve">
+    <value>索敌</value>
+  </data>
+  <data name="TorpedoMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 78</value>
+  </data>
+  <data name="TorpedoMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 17</value>
+  </data>
+  <data name="ArmorMin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 124</value>
+  </data>
+  <data name="ArmorMin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 17</value>
+  </data>
+  <data name="TitleHP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 17</value>
+  </data>
+  <data name="AAMin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 101</value>
+  </data>
+  <data name="AAMin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 17</value>
+  </data>
+  <data name="HPMin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 17</value>
+  </data>
+  <data name="TorpedoMin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 78</value>
+  </data>
+  <data name="TorpedoMin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 17</value>
+  </data>
+  <data name="imageLabel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 32</value>
+  </data>
+  <data name="imageLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>9, 17</value>
+  </data>
+  <data name="FirepowerMin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 55</value>
+  </data>
+  <data name="FirepowerMin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 17</value>
+  </data>
+  <data name="HPMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 32</value>
+  </data>
+  <data name="HPMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 17</value>
+  </data>
+  <data name="TitleFirepower.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 55</value>
+  </data>
+  <data name="TitleFirepower.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 17</value>
+  </data>
+  <data name="TitleTorpedo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 78</value>
+  </data>
+  <data name="TitleTorpedo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 17</value>
+  </data>
+  <data name="TitleAA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 101</value>
+  </data>
+  <data name="TitleAA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 17</value>
+  </data>
+  <data name="TitleAA.Text" xml:space="preserve">
+    <value>对空</value>
+  </data>
+  <data name="TitleArmor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 124</value>
+  </data>
+  <data name="TitleArmor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 17</value>
+  </data>
+  <data name="TitleASW.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 147</value>
+  </data>
+  <data name="TitleASW.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 17</value>
+  </data>
+  <data name="TitleASW.Text" xml:space="preserve">
+    <value>对潜</value>
+  </data>
+  <data name="TitleEvasion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 170</value>
+  </data>
+  <data name="TitleEvasion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 17</value>
+  </data>
+  <data name="ASWSeparater.Location" type="System.Drawing.Point, System.Drawing">
+    <value>191, 147</value>
+  </data>
+  <data name="ASWSeparater.Size" type="System.Drawing.Size, System.Drawing">
+    <value>9, 17</value>
+  </data>
+  <data name="ASWLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>235, 147</value>
+  </data>
+  <data name="ASWLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 17</value>
+  </data>
+  <data name="EvasionMin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 170</value>
+  </data>
+  <data name="EvasionMin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 17</value>
+  </data>
+  <data name="StripMenu_File_OutputCSVUser.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 22</value>
+  </data>
+  <data name="StripMenu_File_OutputCSVUser.Text" xml:space="preserve">
+    <value>输出CSV(浏览用)(&amp;U)...</value>
+  </data>
+  <data name="StripMenu_File_OutputCSVData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 22</value>
+  </data>
+  <data name="StripMenu_File_OutputCSVData.Text" xml:space="preserve">
+    <value>输出CSV(数据用)(&amp;D)...</value>
+  </data>
+  <data name="StripMenu_File.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 21</value>
+  </data>
+  <data name="StripMenu_File.Text" xml:space="preserve">
+    <value>文件(&amp;F)</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 9pt</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>舰船图鉴</value>
   </data>
 </root>

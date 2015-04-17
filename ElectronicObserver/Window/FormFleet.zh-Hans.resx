@@ -117,19 +117,41 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="$this.Text" xml:space="preserve">
-    <value>*未加载*</value>
-  </data>
-  <data name="ContextMenuFleet_Capture.Text" xml:space="preserve">
-    <value>捕捉画面(&amp;S)</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ContextMenuFleet_CopyFleet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 22</value>
   </data>
   <data name="ContextMenuFleet_CopyFleet.Text" xml:space="preserve">
     <value>复制(&amp;C)</value>
   </data>
-  <data name="ContextMenuFleet_FixShipNameWidth.Text" xml:space="preserve">
-    <value>固定舰名宽度</value>
+  <data name="ContextMenuFleet_Capture.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 22</value>
+  </data>
+  <data name="ContextMenuFleet_Capture.Text" xml:space="preserve">
+    <value>捕捉画面(&amp;S)</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 6</value>
+  </data>
+  <data name="ContextMenuFleet_IsScrollable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 22</value>
   </data>
   <data name="ContextMenuFleet_IsScrollable.Text" xml:space="preserve">
     <value>使用滚动条</value>
+  </data>
+  <data name="ContextMenuFleet_FixShipNameWidth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 22</value>
+  </data>
+  <data name="ContextMenuFleet_FixShipNameWidth.Text" xml:space="preserve">
+    <value>固定舰名宽度</value>
+  </data>
+  <data name="ContextMenuFleet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 98</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 9pt</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>*未加载*</value>
   </data>
 </root>

@@ -1530,4 +1530,7 @@
   <data name="FormQuest_6" xml:space="preserve">
     <value>(未取得)</value>
   </data>
+  <data name="DialogConfigurationNotifier" xml:space="preserve">
+    <value>テスト 通知です。</value>
+  </data>
 </root>

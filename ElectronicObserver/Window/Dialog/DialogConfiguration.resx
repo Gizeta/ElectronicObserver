@@ -117,8 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;Life_LayoutFilePathSearch.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="FormBrowser_ScreenShotFormat_PNG.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;label11.Parent" xml:space="preserve">
     <value>tabPage3</value>
@@ -130,13 +131,12 @@
   <data name="&gt;&gt;Debug_SealingPanel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="FormShipGroup_ShowStatusBar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>143, 19</value>
+  <data name="UI_MainFontApply.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 23</value>
   </data>
-  <data name="&gt;&gt;tabPage5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="Debug_LoadAPIListOnLoad.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
@@ -150,6 +150,9 @@
   <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="FormBrowser_IsEnabled.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
   <data name="Log_FileEncodingID.ToolTip" xml:space="preserve">
     <value>入出力するファイルのエンコーディングを指定します。
 ＊注意＊変更すると今までの設定やレコードが読み込めなくなる可能性があります。
@@ -158,17 +161,23 @@
   <data name="&gt;&gt;tabPage7.Name" xml:space="preserve">
     <value>tabPage7</value>
   </data>
-  <data name="Connection_ApplyVersion.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
+  <data name="Notification_Construction.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 35</value>
+  </data>
+  <data name="&gt;&gt;Notification_Repair.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="tabPage13.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
+  <data name="&gt;&gt;FormShipGroup_ShowStatusBar.Parent" xml:space="preserve">
+    <value>tabPage13</value>
+  </data>
   <data name="&gt;&gt;FormBrowser_ScreenShotPathSearch.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="Log_SaveLogFlag.Text" xml:space="preserve">
-    <value>ログをファイルに保存する</value>
+  <data name="&gt;&gt;FormBrowser_ScreenShotFormat_PNG.Name" xml:space="preserve">
+    <value>FormBrowser_ScreenShotFormat_PNG</value>
   </data>
   <data name="Connection_SaveOtherFile.Text" xml:space="preserve">
     <value>Other</value>
@@ -204,12 +213,6 @@
     <value>艦名表示部の幅を固定し、スペースを節約します。
 代わりに長い名前を持つ艦娘は見切れます。</value>
   </data>
-  <data name="&gt;&gt;label2.Name" xml:space="preserve">
-    <value>label2</value>
-  </data>
-  <data name="&gt;&gt;FormShipGroup_ShowStatusBar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="label6.Text" xml:space="preserve">
     <value>ログの出力レベル：</value>
   </data>
@@ -222,17 +225,14 @@
   <data name="&gt;&gt;FormQuest_ShowWeekly.Parent" xml:space="preserve">
     <value>groupBox1</value>
   </data>
-  <data name="&gt;&gt;Life_ConfirmOnClosing.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="tabControl2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
   </data>
   <data name="Connection_SaveOtherFile.Size" type="System.Drawing.Size, System.Drawing">
     <value>59, 19</value>
   </data>
   <data name="Connection_UpstreamProxyPort.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;UI_MainFont.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -246,8 +246,8 @@
   <data name="&gt;&gt;tabPage11.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="&gt;&gt;FormShipGroup_AutoUpdate.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="FormFleet_ShowAircraft.Text" xml:space="preserve">
+    <value>艦載機数を表示する</value>
   </data>
   <data name="&gt;&gt;label4.Parent" xml:space="preserve">
     <value>tabPage1</value>
@@ -255,8 +255,8 @@
   <data name="FormQuest_ShowDaily.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 47</value>
   </data>
-  <data name="tabPage11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>392, 211</value>
+  <data name="&gt;&gt;Debug_EnableDebugMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label7.Parent" xml:space="preserve">
     <value>tabPage4</value>
@@ -275,8 +275,8 @@
 デバッグ用の機能であるため、通常ユーザーの操作は推奨されません。
 使用時の動作は保証されないので、＊自己責任で＊使用してください。</value>
   </data>
-  <data name="ButtonCancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
+  <data name="&gt;&gt;tabPage11.Name" xml:space="preserve">
+    <value>tabPage11</value>
   </data>
   <data name="&gt;&gt;label13.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -287,17 +287,14 @@
   <data name="&gt;&gt;FormBrowser_ConfirmAtRefresh.Parent" xml:space="preserve">
     <value>tabPage12</value>
   </data>
-  <data name="FormBrowser_IsEnabled.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="&gt;&gt;Connection_SaveSWF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="groupBox2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
+  <data name="&gt;&gt;FormBrowser_AppliesStyleSheet.Name" xml:space="preserve">
+    <value>FormBrowser_AppliesStyleSheet</value>
   </data>
   <data name="Log_FileEncodingID.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
-  </data>
-  <data name="&gt;&gt;FormFleet_ShowAircraft.Parent" xml:space="preserve">
-    <value>tabPage8</value>
   </data>
   <data name="Log_FileEncodingID.Items2" xml:space="preserve">
     <value>UTF-16</value>
@@ -305,14 +302,17 @@
   <data name="Log_FileEncodingID.Items3" xml:space="preserve">
     <value>UTF-16(BOM)</value>
   </data>
+  <data name="FormBrowser_AppliesStyleSheet.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <data name="Log_FileEncodingID.Items1" xml:space="preserve">
     <value>UTF-8(BOM)</value>
   </data>
-  <data name="Connection_UpstreamProxyPort.ToolTip" xml:space="preserve">
-    <value>他のツール・ブラウザで利用しているポート番号を指定します。</value>
+  <data name="&gt;&gt;FormQuest_ShowRunningOnly.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="tabPage7.ToolTip" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;tabPage9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="Control_ConditionBorder.Location" type="System.Drawing.Point, System.Drawing">
     <value>106, 6</value>
@@ -320,8 +320,8 @@
   <data name="label2.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;APIListBrowser.Name" xml:space="preserve">
-    <value>APIListBrowser</value>
+  <data name="Connection_PanelSaveData.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
   </data>
   <data name="Connection_SaveSWF.Size" type="System.Drawing.Size, System.Drawing">
     <value>53, 19</value>
@@ -347,14 +347,14 @@
   <data name="tabPage9.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="FormArsenal_ShowShipName.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="Log_SaveLogFlag.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;UI_SubFontApply.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="Connection_SaveDataFilter.Location" type="System.Drawing.Point, System.Drawing">
-    <value>67, 3</value>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
     <value>サブフォント：</value>
@@ -365,11 +365,8 @@
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Meiryo UI, 12px</value>
   </data>
-  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="UI_MainFontSelect.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>tabPage2</value>
   </data>
   <data name="FormBrowser_ScreenShotFormat_JPEG.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 22</value>
@@ -377,8 +374,11 @@
   <data name="&gt;&gt;Connection_SaveSWF.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="label14.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="tabControl2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FormBrowser_ScreenShotFormat_JPEG.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="FormFleet_FixShipNameWidth.Size" type="System.Drawing.Size, System.Drawing">
     <value>136, 19</value>
@@ -409,17 +409,23 @@
   <data name="Connection_SaveRequest.Size" type="System.Drawing.Size, System.Drawing">
     <value>73, 19</value>
   </data>
+  <data name="FormBrowser_ScreenShotPath.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
   <data name="tabPage12.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
+  </data>
+  <data name="UI_SubFontSelect.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="Log_SaveLogFlag.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 6</value>
+  <data name="&gt;&gt;Debug_LoadAPIListOnLoad.Parent" xml:space="preserve">
+    <value>Debug_SealingPanel</value>
   </data>
-  <data name="label2.ToolTip" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;tabPage2.Name" xml:space="preserve">
+    <value>tabPage2</value>
   </data>
   <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
     <value>238, 15</value>
@@ -439,8 +445,8 @@
   <data name="tabPage10.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;FormFleet_ShowNextExp.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="Connection_ApplyVersion.Text" xml:space="preserve">
+    <value>Version</value>
   </data>
   <data name="Connection_RegisterAsSystemProxy.ToolTip" xml:space="preserve">
     <value>プロキシをシステムに登録し、自動的に通信できるようにします。
@@ -453,7 +459,7 @@
   <data name="Life_ConfirmOnClosing.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="Life_CheckUpdateInformation.ToolTip" xml:space="preserve">
+  <data name="Control_ConditionBorder.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
@@ -498,8 +504,11 @@
   <data name="&gt;&gt;Connection_ApplyVersion.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;FormBrowser_ScreenShotPath.Name" xml:space="preserve">
-    <value>FormBrowser_ScreenShotPath</value>
+  <data name="UI_MainFontSelect.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="tabPage13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 199</value>
   </data>
   <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
     <value>2</value>
@@ -507,8 +516,11 @@
   <data name="Connection_Port.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>ポート：</value>
+  <data name="FormArsenal_ShowShipName.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tabPage5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="tabPage1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
@@ -518,9 +530,6 @@
   </data>
   <data name="&gt;&gt;tabPage4.Name" xml:space="preserve">
     <value>tabPage4</value>
-  </data>
-  <data name="FormBrowser_ScreenShotFormat_PNG.Location" type="System.Drawing.Point, System.Drawing">
-    <value>65, 22</value>
   </data>
   <data name="&gt;&gt;UI_SubFontSelect.ZOrder" xml:space="preserve">
     <value>3</value>
@@ -540,8 +549,8 @@
   <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="FormShipGroup_AutoUpdate.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="Connection_PanelSaveData.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
   </data>
   <data name="FormArsenal_ShowShipName.Size" type="System.Drawing.Size, System.Drawing">
     <value>102, 19</value>
@@ -555,11 +564,8 @@
   <data name="&gt;&gt;Connection_SaveDataPathSearch.Parent" xml:space="preserve">
     <value>Connection_PanelSaveData</value>
   </data>
-  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
-    <value>tabPage11</value>
+  <data name="Connection_OutputConnectionScript.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 182</value>
   </data>
   <data name="tabPage4.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
@@ -585,8 +591,8 @@
   <data name="tabPage5.Size" type="System.Drawing.Size, System.Drawing">
     <value>392, 231</value>
   </data>
-  <data name="tabPage11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 44</value>
+  <data name="&gt;&gt;FormShipGroup_AutoUpdate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label15.Name" xml:space="preserve">
     <value>label15</value>
@@ -597,8 +603,8 @@
   <data name="Connection_UpstreamProxyPort.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
     <value>Right</value>
   </data>
-  <data name="FormBrowser_ScreenShotFormat_JPEG.ToolTip" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;tabPage2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="Life_TopMost.Text" xml:space="preserve">
     <value>最前面に表示する</value>
@@ -606,8 +612,8 @@
   <data name="UI_MainFontApply.ToolTip" xml:space="preserve">
     <value>現在のテキストボックスの内容を適用します。</value>
   </data>
-  <data name="&gt;&gt;FormQuest_ShowOnce.Name" xml:space="preserve">
-    <value>FormQuest_ShowOnce</value>
+  <data name="Connection_SaveRequest.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 61</value>
   </data>
   <data name="ButtonOK.Location" type="System.Drawing.Point, System.Drawing">
     <value>232, 265</value>
@@ -615,17 +621,14 @@
   <data name="Connection_SaveResponse.Size" type="System.Drawing.Size, System.Drawing">
     <value>81, 19</value>
   </data>
-  <data name="FormBrowser_ScreenShotPath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>76, 47</value>
+  <data name="&gt;&gt;Connection_OutputConnectionScript.Parent" xml:space="preserve">
+    <value>tabPage1</value>
   </data>
   <data name="Notification_Expedition.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;FormShipGroup_AutoUpdate.Name" xml:space="preserve">
-    <value>FormShipGroup_AutoUpdate</value>
-  </data>
-  <data name="&gt;&gt;tabPage13.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="label13.Text" xml:space="preserve">
+    <value>索敵能力計算式：</value>
   </data>
   <data name="&gt;&gt;UI_MainFontApply.ZOrder" xml:space="preserve">
     <value>1</value>
@@ -633,11 +636,17 @@
   <data name="&gt;&gt;tabPage2.Parent" xml:space="preserve">
     <value>tabControl1</value>
   </data>
-  <data name="Notification_Repair.ToolTip" xml:space="preserve">
-    <value />
+  <data name="Connection_SaveDataFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 23</value>
   </data>
   <data name="&gt;&gt;tabPage8.Type" xml:space="preserve">
     <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Notification_Expedition.Text" xml:space="preserve">
+    <value>遠征帰投通知の設定...</value>
+  </data>
+  <data name="label11.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="tabPage6.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
@@ -661,19 +670,19 @@
     <value>0</value>
   </data>
   <data name="tabPage9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>378, 179</value>
+    <value>378, 199</value>
   </data>
   <data name="Debug_SealingPanel.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
-  <data name="FormQuest_ShowMonthly.ToolTip" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;FontSelector.Name" xml:space="preserve">
+    <value>FontSelector</value>
   </data>
-  <data name="Connection_SaveDataPath.ToolTip" xml:space="preserve">
-    <value />
+  <data name="label18.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="&gt;&gt;FormQuest_ShowRunningOnly.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="tabPage6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 24</value>
   </data>
   <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
     <value>400, 259</value>
@@ -690,8 +699,8 @@
   <data name="&gt;&gt;UI_SubFont.Name" xml:space="preserve">
     <value>UI_SubFont</value>
   </data>
-  <data name="FormFleet_ShowNextExp.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="FormBrowser_ScreenShotPathSearch.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="Debug_APIListPath.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 28</value>
@@ -699,20 +708,23 @@
   <data name="label13.ToolTip" xml:space="preserve">
     <value />
   </data>
+  <data name="Connection_UpstreamProxyPort.ToolTip" xml:space="preserve">
+    <value>他のツール・ブラウザで利用しているポート番号を指定します。</value>
+  </data>
   <data name="tabPage8.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="tabPage3.Text" xml:space="preserve">
-    <value>ログ</value>
+  <data name="tabPage7.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;ButtonCancel.Name" xml:space="preserve">
+    <value>ButtonCancel</value>
   </data>
   <data name="FormBrowser_ScreenShotPath.Size" type="System.Drawing.Size, System.Drawing">
     <value>246, 23</value>
   </data>
   <data name="FormQuest_ShowMonthly.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
-  </data>
-  <data name="tabPage4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 24</value>
   </data>
   <data name="tabPage8.Text" xml:space="preserve">
     <value>艦隊</value>
@@ -735,6 +747,9 @@
   <data name="Log_SaveLogFlag.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 6</value>
   </data>
+  <data name="Notification_Construction.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
   <data name="&gt;&gt;Life_TopMost.Parent" xml:space="preserve">
     <value>tabPage6</value>
   </data>
@@ -747,17 +762,29 @@
   <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="APIListBrowser.Filter" xml:space="preserve">
-    <value>Text File|*.txt|File|*</value>
+  <data name="label2.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="Notification_Damage.Text" xml:space="preserve">
-    <value>大破進撃通知の設定...</value>
+  <data name="&gt;&gt;tabPage11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;Debug_EnableDebugMenu.Type" xml:space="preserve">
+  <data name="Debug_LoadAPIListOnLoad.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Notification_Expedition.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 6</value>
+  </data>
+  <data name="label8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;FormShipGroup_ShowStatusBar.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;FormBrowser_ScreenShotFormat_JPEG.Name" xml:space="preserve">
-    <value>FormBrowser_ScreenShotFormat_JPEG</value>
+  <data name="FormBrowser_ScreenShotPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 47</value>
+  </data>
+  <data name="&gt;&gt;ToolTipInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 193</value>
@@ -783,9 +810,6 @@
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
-    <value>Connection_PanelSaveData</value>
-  </data>
   <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
@@ -798,9 +822,6 @@
   <data name="&gt;&gt;label14.Parent" xml:space="preserve">
     <value>tabPage6</value>
   </data>
-  <data name="Debug_SealingPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 31</value>
-  </data>
   <data name="Connection_OutputConnectionScript.ToolTip" xml:space="preserve">
     <value />
   </data>
@@ -809,9 +830,6 @@
   </data>
   <data name="label8.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
-  </data>
-  <data name="&gt;&gt;Debug_APIListPath.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;FormQuest_ShowOnce.ZOrder" xml:space="preserve">
     <value>3</value>
@@ -824,12 +842,6 @@
   </data>
   <data name="&gt;&gt;Debug_LoadAPIListOnLoad.Name" xml:space="preserve">
     <value>Debug_LoadAPIListOnLoad</value>
-  </data>
-  <data name="&gt;&gt;FormQuest_ShowRunningOnly.Parent" xml:space="preserve">
-    <value>tabPage10</value>
-  </data>
-  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 9</value>
   </data>
   <data name="FormBrowser_LogInPageURL.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -846,8 +858,8 @@
   <data name="&gt;&gt;tabPage4.Type" xml:space="preserve">
     <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="FormQuest_ShowRunningOnly.Text" xml:space="preserve">
-    <value>遂行中のみ表示する</value>
+  <data name="Life_LayoutFilePath.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
     <value>groupBox1</value>
@@ -867,8 +879,8 @@
   <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="&gt;&gt;Control_ConditionBorder.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;tabPage13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="Debug_EnableDebugMenu.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -876,8 +888,8 @@
   <data name="ButtonOK.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="&gt;&gt;tabPage12.Parent" xml:space="preserve">
-    <value>tabControl2</value>
+  <data name="FormBrowser_ScreenShotFormat_JPEG.Text" xml:space="preserve">
+    <value>JPEG</value>
   </data>
   <data name="FormQuest_ShowOnce.Size" type="System.Drawing.Size, System.Drawing">
     <value>107, 19</value>
@@ -894,20 +906,14 @@
   <data name="&gt;&gt;label17.Name" xml:space="preserve">
     <value>label17</value>
   </data>
-  <data name="tabPage10.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
   <data name="Debug_LoadAPIListOnLoad.Text" xml:space="preserve">
     <value>起動時にAPIリストをロード</value>
-  </data>
-  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 193</value>
   </data>
   <data name="&gt;&gt;Connection_SaveRequest.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="label9.ToolTip" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="Connection_SaveDataPathSearch.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -918,8 +924,20 @@
   <data name="&gt;&gt;FormQuest_ShowMonthly.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="Life_TopMost.ToolTip" xml:space="preserve">
-    <value />
+  <data name="Life_LayoutFilePathSearch.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="tabPage12.Text" xml:space="preserve">
+    <value>ブラウザ</value>
+  </data>
+  <data name="&gt;&gt;Notification_Construction.Parent" xml:space="preserve">
+    <value>tabPage11</value>
+  </data>
+  <data name="Notification_Condition.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;FormBrowser_LogInPageURL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;ButtonOK.Parent" xml:space="preserve">
     <value>$this</value>
@@ -927,26 +945,20 @@
   <data name="FormShipGroup_AutoUpdate.Text" xml:space="preserve">
     <value>自動更新する</value>
   </data>
+  <data name="Connection_SaveDataFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>67, 3</value>
+  </data>
   <data name="Connection_SaveResponse.Location" type="System.Drawing.Point, System.Drawing">
     <value>88, 61</value>
   </data>
-  <data name="&gt;&gt;FormBrowser_ScreenShotFormat_PNG.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;FormFleet_ShortenHPBar.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="tabPage12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 22</value>
-  </data>
-  <data name="&gt;&gt;Log_SaveLogFlag.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="UI_MainFontApply.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
   </data>
   <data name="tabPage10.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 22</value>
   </data>
-  <data name="label7.Text" xml:space="preserve">
-    <value>疲労度ボーダー：</value>
+  <data name="Debug_APIListPathSearch.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
   <data name="Connection_SaveSWF.Text" xml:space="preserve">
     <value>SWF</value>
@@ -963,11 +975,11 @@
   <data name="Debug_EnableDebugMenu.Text" xml:space="preserve">
     <value>デバッグ メニューを有効にする</value>
   </data>
+  <data name="tabPage11.Text" xml:space="preserve">
+    <value>通知</value>
+  </data>
   <data name="&gt;&gt;tabPage1.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="tabPage2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 24</value>
   </data>
   <data name="UI_SubFontApply.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -978,14 +990,14 @@
   <data name="tabPage2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
-  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 111</value>
+  <data name="Life_TopMost.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 60</value>
   </data>
   <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="Connection_SaveDataPathSearch.Location" type="System.Drawing.Point, System.Drawing">
-    <value>343, 32</value>
+  <data name="FormFleet_IsScrollable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 19</value>
   </data>
   <data name="Connection_SaveResponse.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -996,8 +1008,8 @@
   <data name="UI_MainFontSelect.Location" type="System.Drawing.Point, System.Drawing">
     <value>352, 6</value>
   </data>
-  <data name="tabPage9.ToolTip" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;ButtonOK.Name" xml:space="preserve">
+    <value>ButtonOK</value>
   </data>
   <data name="ButtonCancel.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
@@ -1026,8 +1038,8 @@
   <data name="Connection_ApplyVersion.Size" type="System.Drawing.Size, System.Drawing">
     <value>68, 19</value>
   </data>
-  <data name="Connection_UpstreamProxyPort.Location" type="System.Drawing.Point, System.Drawing">
-    <value>164, 35</value>
+  <data name="FormShipGroup_ShowStatusBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 19</value>
   </data>
   <data name="&gt;&gt;Connection_Port.Parent" xml:space="preserve">
     <value>tabPage1</value>
@@ -1035,23 +1047,23 @@
   <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="Notification_Construction.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
   <data name="Notification_Repair.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 64</value>
   </data>
-  <data name="&gt;&gt;FormBrowser_LogInPageURL.Name" xml:space="preserve">
-    <value>FormBrowser_LogInPageURL</value>
+  <data name="tabPage1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
-  <data name="FormBrowser_ScreenShotFormat_PNG.ToolTip" xml:space="preserve">
-    <value />
+  <data name="Notification_Damage.Text" xml:space="preserve">
+    <value>大破進撃通知の設定...</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>ズーム倍率：</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
   </data>
   <data name="&gt;&gt;FolderBrowser.Type" xml:space="preserve">
     <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Life_LayoutFilePath.Parent" xml:space="preserve">
-    <value>tabPage6</value>
   </data>
   <data name="&gt;&gt;ButtonCancel.Parent" xml:space="preserve">
     <value>$this</value>
@@ -1110,20 +1122,23 @@
   <data name="Debug_LoadAPIListOnLoad.Size" type="System.Drawing.Size, System.Drawing">
     <value>151, 19</value>
   </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 15</value>
+  </data>
   <data name="&gt;&gt;Connection_UpstreamProxyPort.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="&gt;&gt;label18.Name" xml:space="preserve">
     <value>label18</value>
   </data>
-  <data name="UI_SubFontApply.Text" xml:space="preserve">
-    <value>⇒</value>
+  <data name="Connection_SaveDataPath.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="&gt;&gt;tabPage2.Name" xml:space="preserve">
-    <value>tabPage2</value>
+  <data name="&gt;&gt;FormQuest_ShowRunningOnly.Name" xml:space="preserve">
+    <value>FormQuest_ShowRunningOnly</value>
   </data>
-  <data name="Debug_LoadAPIListOnLoad.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="FormBrowser_IsEnabled.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 6</value>
   </data>
   <data name="&gt;&gt;Connection_Port.Name" xml:space="preserve">
     <value>Connection_Port</value>
@@ -1167,7 +1182,13 @@
   <data name="label14.Text" xml:space="preserve">
     <value>レイアウトファイル：</value>
   </data>
+  <data name="FormBrowser_ScreenShotPath.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="FormQuest_ShowWeekly.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPage7.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="&gt;&gt;label17.ZOrder" xml:space="preserve">
@@ -1181,6 +1202,9 @@
   </data>
   <data name="FormBrowser_AppliesStyleSheet.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
+  </data>
+  <data name="&gt;&gt;FormBrowser_AppliesStyleSheet.Parent" xml:space="preserve">
+    <value>tabPage12</value>
   </data>
   <data name="&gt;&gt;FormFleet_ShowNextExp.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1197,7 +1221,7 @@
   <data name="FormFleet_FixShipNameWidth.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="FormBrowser_IsEnabled.ToolTip" xml:space="preserve">
+  <data name="label12.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="Notification_Construction.Text" xml:space="preserve">
@@ -1230,17 +1254,14 @@
   <data name="UI_MainFont.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="&gt;&gt;FormBrowser_ScreenShotFormat_PNG.Name" xml:space="preserve">
-    <value>FormBrowser_ScreenShotFormat_PNG</value>
+  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 9</value>
   </data>
   <data name="&gt;&gt;UI_MainFont.Name" xml:space="preserve">
     <value>UI_MainFont</value>
   </data>
   <data name="Life_ConfirmOnClosing.Text" xml:space="preserve">
     <value>終了時に確認する</value>
-  </data>
-  <data name="&gt;&gt;Connection_OutputConnectionScript.Parent" xml:space="preserve">
-    <value>tabPage1</value>
   </data>
   <data name="&gt;&gt;Connection_SaveRequest.Name" xml:space="preserve">
     <value>Connection_SaveRequest</value>
@@ -1260,11 +1281,11 @@
   <data name="tabPage3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
-  <data name="&gt;&gt;FormShipGroup_ShowStatusBar.Parent" xml:space="preserve">
-    <value>tabPage13</value>
+  <data name="&gt;&gt;Life_ConfirmOnClosing.Parent" xml:space="preserve">
+    <value>tabPage6</value>
   </data>
-  <data name="tabPage1.ToolTip" xml:space="preserve">
-    <value />
+  <data name="FormArsenal_ShowShipName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 6</value>
   </data>
   <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
     <value>5</value>
@@ -1284,20 +1305,20 @@
   <data name="&gt;&gt;Debug_SealingPanel.Name" xml:space="preserve">
     <value>Debug_SealingPanel</value>
   </data>
-  <data name="&gt;&gt;FormShipGroup_ShowStatusBar.Name" xml:space="preserve">
-    <value>FormShipGroup_ShowStatusBar</value>
-  </data>
   <data name="Notification_Damage.ToolTip" xml:space="preserve">
     <value />
-  </data>
-  <data name="FormShipGroup_ShowStatusBar.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
   </data>
   <data name="Connection_SaveSWF.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="label6.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
+  </data>
+  <data name="FormShipGroup_AutoUpdate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Log_LogLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 31</value>
   </data>
   <data name="&gt;&gt;FormQuest_ShowMonthly.Name" xml:space="preserve">
     <value>FormQuest_ShowMonthly</value>
@@ -1314,14 +1335,11 @@
   <data name="&gt;&gt;label12.Parent" xml:space="preserve">
     <value>tabPage3</value>
   </data>
-  <data name="FormBrowser_LogInPageURL.ToolTip" xml:space="preserve">
+  <data name="FormQuest_ShowMonthly.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="&gt;&gt;Connection_Port.ZOrder" xml:space="preserve">
     <value>7</value>
-  </data>
-  <data name="&gt;&gt;label9.Name" xml:space="preserve">
-    <value>label9</value>
   </data>
   <data name="Log_LogLevel.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -1365,14 +1383,18 @@
   <data name="Connection_PanelSaveData.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="groupBox2.ToolTip" xml:space="preserve">
-    <value />
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 8</value>
   </data>
   <data name="&gt;&gt;label13.Parent" xml:space="preserve">
     <value>tabPage8</value>
   </data>
-  <data name="Notification_Condition.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="tabPage9.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FormShipGroup_ShowStatusBar.ToolTip" xml:space="preserve">
+    <value>下部のステータスバー(所属艦数など)を表示するかを指定します。
+わずかですが表示行数を増やすことができます。</value>
   </data>
   <data name="label5.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1413,11 +1435,14 @@
   <data name="&gt;&gt;Connection_UpstreamProxyPort.Parent" xml:space="preserve">
     <value>tabPage1</value>
   </data>
-  <data name="&gt;&gt;FormBrowser_AppliesStyleSheet.Parent" xml:space="preserve">
-    <value>tabPage12</value>
+  <data name="tabPage2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
   <data name="Connection_RegisterAsSystemProxy.Size" type="System.Drawing.Size, System.Drawing">
     <value>152, 19</value>
+  </data>
+  <data name="tabPage10.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="Connection_SaveDataPath.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
@@ -1425,8 +1450,8 @@
   <data name="&gt;&gt;label18.Parent" xml:space="preserve">
     <value>groupBox2</value>
   </data>
-  <data name="&gt;&gt;Control_ConditionBorder.Name" xml:space="preserve">
-    <value>Control_ConditionBorder</value>
+  <data name="&gt;&gt;UI_SubFont.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tabPage3.ZOrder" xml:space="preserve">
     <value>2</value>
@@ -1446,14 +1471,26 @@
   <data name="&gt;&gt;Notification_Damage.Name" xml:space="preserve">
     <value>Notification_Damage</value>
   </data>
+  <data name="tabPage12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
   <data name="Connection_UseUpstreamProxy.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
   <data name="&gt;&gt;Life_TopMost.Name" xml:space="preserve">
     <value>Life_TopMost</value>
   </data>
+  <data name="tabPage11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 44</value>
+  </data>
+  <data name="&gt;&gt;tabPage9.Name" xml:space="preserve">
+    <value>tabPage9</value>
+  </data>
   <data name="FormQuest_ShowDaily.Size" type="System.Drawing.Size, System.Drawing">
     <value>62, 19</value>
+  </data>
+  <data name="FormShipGroup_AutoUpdate.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
   <data name="Connection_UseUpstreamProxy.ToolTip" xml:space="preserve">
     <value>他のプロキシを利用するツール・ブラウザと連携する際に利用します。</value>
@@ -1461,13 +1498,16 @@
   <data name="&gt;&gt;Connection_SaveOtherFile.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="&gt;&gt;FormBrowser_ScreenShotPath.Name" xml:space="preserve">
+    <value>FormBrowser_ScreenShotPath</value>
+  </data>
   <data name="&gt;&gt;Notification_Repair.Parent" xml:space="preserve">
     <value>tabPage11</value>
   </data>
   <data name="FormBrowser_ConfirmAtRefresh.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
-  <data name="Life_LayoutFilePath.ToolTip" xml:space="preserve">
+  <data name="label9.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="label13.TabIndex" type="System.Int32, mscorlib">
@@ -1476,17 +1516,17 @@
   <data name="Life_TopMost.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="tabControl2.ToolTip" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;FontSelector.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FontDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
     <value>148, 32</value>
   </data>
-  <data name="Life_ConfirmOnClosing.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="FormBrowser_ScreenShotFormat_JPEG.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 19</value>
   </data>
-  <data name="FormArsenal_ShowShipName.Text" xml:space="preserve">
-    <value>艦名を表示する</value>
+  <data name="groupBox2.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="&gt;&gt;Connection_ApplyVersion.Name" xml:space="preserve">
     <value>Connection_ApplyVersion</value>
@@ -1500,11 +1540,14 @@
   <data name="&gt;&gt;ButtonOK.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="FormBrowser_ScreenShotFormat_PNG.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="&gt;&gt;FormFleet_IsScrollable.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;FontSelector.Name" xml:space="preserve">
-    <value>FontSelector</value>
+  <data name="FormArsenal_ShowShipName.Text" xml:space="preserve">
+    <value>艦名を表示する</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>47, 15</value>
@@ -1515,8 +1558,8 @@
   <data name="Connection_OutputConnectionScript.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
-  <data name="tabPage3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 24</value>
+  <data name="&gt;&gt;Notification_Expedition.Name" xml:space="preserve">
+    <value>Notification_Expedition</value>
   </data>
   <data name="&gt;&gt;Connection_SaveDataPathSearch.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1530,20 +1573,17 @@
   <data name="tabPage3.Size" type="System.Drawing.Size, System.Drawing">
     <value>392, 231</value>
   </data>
-  <data name="FormFleet_ShortenHPBar.ToolTip" xml:space="preserve">
-    <value>HPバーを短縮し、スペースを節約します。</value>
+  <data name="Life_ConfirmOnClosing.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 35</value>
   </data>
-  <data name="tabPage6.ToolTip" xml:space="preserve">
-    <value />
+  <data name="Debug_APIListPathSearch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>352, 28</value>
   </data>
   <data name="&gt;&gt;FormBrowser_ConfirmAtRefresh.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;FormBrowser_ScreenShotFormat_PNG.Parent" xml:space="preserve">
     <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;Connection_SaveOtherFile.Name" xml:space="preserve">
-    <value>Connection_SaveOtherFile</value>
   </data>
   <data name="&gt;&gt;FormQuest_ShowOnce.Parent" xml:space="preserve">
     <value>groupBox1</value>
@@ -1566,6 +1606,9 @@
   <data name="&gt;&gt;Connection_OutputConnectionScript.Name" xml:space="preserve">
     <value>Connection_OutputConnectionScript</value>
   </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 111</value>
+  </data>
   <data name="&gt;&gt;FormShipGroup_AutoUpdate.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
@@ -1578,50 +1621,32 @@
   <data name="label18.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;Debug_APIListPath.Name" xml:space="preserve">
-    <value>Debug_APIListPath</value>
-  </data>
   <data name="&gt;&gt;FormBrowser_AppliesStyleSheet.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="FormFleet_ShowAircraft.Size" type="System.Drawing.Size, System.Drawing">
     <value>126, 19</value>
   </data>
-  <data name="tabPage1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;FormFleet_ShortenHPBar.Parent" xml:space="preserve">
-    <value>tabPage8</value>
-  </data>
-  <data name="Connection_SaveDataFilter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>270, 23</value>
+  <data name="label18.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="UI_SubFontApply.Location" type="System.Drawing.Point, System.Drawing">
     <value>314, 35</value>
   </data>
-  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 15</value>
+  <data name="tabPage10.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
   </data>
   <data name="&gt;&gt;Life_LayoutFilePathSearch.Name" xml:space="preserve">
     <value>Life_LayoutFilePathSearch</value>
   </data>
-  <data name="&gt;&gt;FormFleet_SearchingAbilityMethod.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
   <data name="&gt;&gt;Debug_APIListPathSearch.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="FormBrowser_ScreenShotFormat_JPEG.Text" xml:space="preserve">
-    <value>JPEG</value>
-  </data>
-  <data name="&gt;&gt;label5.Name" xml:space="preserve">
-    <value>label5</value>
+  <data name="&gt;&gt;Connection_SaveDataFilter.ZOrder" xml:space="preserve">
+    <value>9</value>
   </data>
   <data name="&gt;&gt;tabPage6.Type" xml:space="preserve">
     <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="UI_MainFont.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
   </data>
   <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
     <value>19, 15</value>
@@ -1669,8 +1694,11 @@
   <data name="&gt;&gt;FormBrowser_LogInPageURL.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="tabControl1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="groupBox2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="Connection_SaveReceivedData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 68</value>
   </data>
   <data name="&gt;&gt;label6.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1684,20 +1712,20 @@
   <data name="&gt;&gt;UI_MainFontSelect.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="&gt;&gt;label14.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="tabPage6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 24</value>
+  <data name="FormBrowser_AppliesStyleSheet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 31</value>
   </data>
   <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="Connection_UseUpstreamProxy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 36</value>
-  </data>
   <data name="&gt;&gt;FormFleet_ShortenHPBar.Name" xml:space="preserve">
     <value>FormFleet_ShortenHPBar</value>
+  </data>
+  <data name="APIListBrowser.Filter" xml:space="preserve">
+    <value>Text File|*.txt|File|*</value>
+  </data>
+  <data name="&gt;&gt;Connection_SaveDataFilter.Name" xml:space="preserve">
+    <value>Connection_SaveDataFilter</value>
   </data>
   <data name="&gt;&gt;Connection_SaveResponse.Name" xml:space="preserve">
     <value>Connection_SaveResponse</value>
@@ -1707,6 +1735,9 @@
   </data>
   <data name="tabPage6.Size" type="System.Drawing.Size, System.Drawing">
     <value>392, 231</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>ポート：</value>
   </data>
   <data name="&gt;&gt;FormArsenal_ShowShipName.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1738,9 +1769,6 @@
   <data name="Life_LayoutFilePathSearch.Size" type="System.Drawing.Size, System.Drawing">
     <value>32, 23</value>
   </data>
-  <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>392, 211</value>
-  </data>
   <data name="FormFleet_FixShipNameWidth.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 85</value>
   </data>
@@ -1765,6 +1793,9 @@
   <data name="&gt;&gt;FormBrowser_IsEnabled.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="tabPage11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>392, 211</value>
+  </data>
   <data name="Connection_SaveRequest.ToolTip" xml:space="preserve">
     <value>APIのRequest部を保存します。</value>
   </data>
@@ -1774,8 +1805,8 @@
   <data name="&gt;&gt;Notification_Expedition.Parent" xml:space="preserve">
     <value>tabPage11</value>
   </data>
-  <data name="Notification_Condition.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 23</value>
+  <data name="&gt;&gt;tabPage6.Parent" xml:space="preserve">
+    <value>tabControl1</value>
   </data>
   <data name="tabPage1.Text" xml:space="preserve">
     <value>通信</value>
@@ -1795,8 +1826,8 @@
   <data name="&gt;&gt;FormBrowser_ScreenShotFormat_PNG.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 88</value>
+  <data name="tabControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="Log_LogLevel.Size" type="System.Drawing.Size, System.Drawing">
     <value>80, 23</value>
@@ -1816,8 +1847,8 @@
   <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
     <value>tabPage12</value>
   </data>
-  <data name="label15.Text" xml:space="preserve">
-    <value>ズーム倍率：</value>
+  <data name="Connection_UseUpstreamProxy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 36</value>
   </data>
   <data name="FormQuest_ShowOnce.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1831,11 +1862,14 @@
   <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
     <value>groupBox2</value>
   </data>
-  <data name="label11.ToolTip" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;Control_ConditionBorder.Name" xml:space="preserve">
+    <value>Control_ConditionBorder</value>
   </data>
   <data name="&gt;&gt;Notification_Damage.Parent" xml:space="preserve">
     <value>tabPage11</value>
+  </data>
+  <data name="FormBrowser_ScreenShotPathSearch.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
   </data>
   <data name="&gt;&gt;tabPage8.Name" xml:space="preserve">
     <value>tabPage8</value>
@@ -1843,32 +1877,38 @@
   <data name="FormArsenal_ShowShipName.ToolTip" xml:space="preserve">
     <value />
   </data>
+  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+    <value>tabPage11</value>
+  </data>
   <data name="&gt;&gt;tabPage10.Name" xml:space="preserve">
     <value>tabPage10</value>
   </data>
-  <data name="&gt;&gt;FormQuest_ShowRunningOnly.Name" xml:space="preserve">
-    <value>FormQuest_ShowRunningOnly</value>
-  </data>
-  <data name="Debug_EnableDebugMenu.AutoSize" type="System.Boolean, mscorlib">
+  <data name="Life_TopMost.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="Notification_Construction.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 35</value>
+  <data name="FormBrowser_ZoomRate.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="FormFleet_ShortenHPBar.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="FormArsenal_ShowShipName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 6</value>
+  <data name="&gt;&gt;UI_SubFont.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
-  <data name="label12.Text" xml:space="preserve">
-    <value>＊無闇に変更すると設定・レコードが読めなくなる可能性があります</value>
+  <data name="Notification_Repair.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="FormQuest_ShowMonthly.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 97</value>
   </data>
   <data name="tabPage4.Text" xml:space="preserve">
     <value>動作</value>
+  </data>
+  <data name="FormBrowser_ScreenShotPath.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
   </data>
   <data name="&gt;&gt;Connection_PanelSaveData.ZOrder" xml:space="preserve">
     <value>5</value>
@@ -1882,23 +1922,23 @@
   <data name="&gt;&gt;Connection_SaveRequest.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="&gt;&gt;label3.Name" xml:space="preserve">
-    <value>label3</value>
-  </data>
-  <data name="&gt;&gt;Connection_SaveSWF.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="Life_CheckUpdateInformation.Location" type="System.Drawing.Point, System.Drawing">
     <value>11, 85</value>
   </data>
-  <data name="&gt;&gt;tabPage9.Name" xml:space="preserve">
-    <value>tabPage9</value>
+  <data name="&gt;&gt;FormFleet_ShortenHPBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="FormShipGroup_AutoUpdate.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 6</value>
   </data>
-  <data name="Life_TopMost.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 60</value>
+  <data name="FormFleet_ShortenHPBar.ToolTip" xml:space="preserve">
+    <value>HPバーを短縮し、スペースを節約します。</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Name" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="Notification_Damage.Size" type="System.Drawing.Size, System.Drawing">
     <value>150, 23</value>
@@ -1911,9 +1951,6 @@
   </data>
   <data name="&gt;&gt;tabPage4.ZOrder" xml:space="preserve">
     <value>3</value>
-  </data>
-  <data name="&gt;&gt;ButtonOK.Name" xml:space="preserve">
-    <value>ButtonOK</value>
   </data>
   <data name="&gt;&gt;tabPage3.Name" xml:space="preserve">
     <value>tabPage3</value>
@@ -1936,8 +1973,8 @@
   <data name="Connection_ApplyVersion.ToolTip" xml:space="preserve">
     <value>バージョン名をファイルに追加します。</value>
   </data>
-  <data name="&gt;&gt;Notification_Construction.Parent" xml:space="preserve">
-    <value>tabPage11</value>
+  <data name="&gt;&gt;UI_SubFontSelect.Name" xml:space="preserve">
+    <value>UI_SubFontSelect</value>
   </data>
   <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 15</value>
@@ -1952,8 +1989,8 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
   <data name="&gt;&gt;Connection_SaveReceivedData.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;Notification_Repair.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 15</value>
   </data>
   <data name="FormFleet_ShowNextExp.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 135</value>
@@ -1985,8 +2022,8 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
   <data name="Life_LayoutFilePath.Size" type="System.Drawing.Size, System.Drawing">
     <value>243, 23</value>
   </data>
-  <data name="&gt;&gt;tabControl1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="FormQuest_ShowRunningOnly.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 19</value>
   </data>
   <data name="FormFleet_ShortenHPBar.Size" type="System.Drawing.Size, System.Drawing">
     <value>114, 19</value>
@@ -2018,7 +2055,7 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
   <data name="&gt;&gt;FormArsenal_ShowShipName.Parent" xml:space="preserve">
     <value>tabPage9</value>
   </data>
-  <data name="FormBrowser_IsEnabled.AutoSize" type="System.Boolean, mscorlib">
+  <data name="Life_CheckUpdateInformation.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="&gt;&gt;UI_SubFontApply.Parent" xml:space="preserve">
@@ -2030,17 +2067,14 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
   <data name="FormQuest_ShowWeekly.Size" type="System.Drawing.Size, System.Drawing">
     <value>77, 19</value>
   </data>
-  <data name="FormBrowser_ScreenShotPathSearch.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
+  <data name="tabPage10.Text" xml:space="preserve">
+    <value>任務</value>
   </data>
   <data name="&gt;&gt;UI_SubFontSelect.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="label9.Text" xml:space="preserve">
-    <value>＊再起動後に反映されます。</value>
-  </data>
-  <data name="&gt;&gt;UI_SubFont.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="UI_SubFontSelect.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
   </data>
   <data name="&gt;&gt;label4.Name" xml:space="preserve">
     <value>label4</value>
@@ -2054,35 +2088,44 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
   <data name="&gt;&gt;label8.Name" xml:space="preserve">
     <value>label8</value>
   </data>
-  <data name="Connection_PanelSaveData.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
+  <data name="Life_LayoutFilePath.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
   <data name="FormBrowser_ConfirmAtRefresh.Size" type="System.Drawing.Size, System.Drawing">
     <value>148, 19</value>
   </data>
-  <data name="label13.Text" xml:space="preserve">
-    <value>索敵能力計算式：</value>
+  <data name="FormFleet_ShowAircraft.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="&gt;&gt;Connection_UseUpstreamProxy.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="&gt;&gt;tabControl2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="FormBrowser_ScreenShotFormat_PNG.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 19</value>
   </data>
-  <data name="tabPage7.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
+  <data name="FormBrowser_IsEnabled.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 6</value>
   </data>
   <data name="&gt;&gt;UI_MainFontApply.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="Connection_PanelSaveData.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+  <data name="FormShipGroup_ShowStatusBar.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
-  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 9</value>
+  <data name="tabPage13.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
   </data>
-  <data name="&gt;&gt;label8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;Notification_Condition.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Log_SaveLogFlag.Parent" xml:space="preserve">
+    <value>tabPage3</value>
   </data>
   <data name="tabPage5.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 24</value>
@@ -2096,17 +2139,17 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
   <data name="Connection_RegisterAsSystemProxy.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="FormBrowser_AppliesStyleSheet.Location" type="System.Drawing.Point, System.Drawing">
-    <value>180, 31</value>
+  <data name="Life_LayoutFilePath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>103, 6</value>
   </data>
   <data name="&gt;&gt;Connection_SaveReceivedData.Name" xml:space="preserve">
     <value>Connection_SaveReceivedData</value>
   </data>
-  <data name="FormFleet_IsScrollable.Size" type="System.Drawing.Size, System.Drawing">
-    <value>144, 19</value>
+  <data name="&gt;&gt;Connection_SaveOtherFile.Name" xml:space="preserve">
+    <value>Connection_SaveOtherFile</value>
   </data>
-  <data name="FormBrowser_ScreenShotFormat_PNG.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="Life_CheckUpdateInformation.Text" xml:space="preserve">
+    <value>アップデートを確認する</value>
   </data>
   <data name="&gt;&gt;FormBrowser_ZoomRate.Name" xml:space="preserve">
     <value>FormBrowser_ZoomRate</value>
@@ -2117,17 +2160,14 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
   <data name="&gt;&gt;tabPage8.Parent" xml:space="preserve">
     <value>tabControl2</value>
   </data>
-  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
   <data name="Log_FileEncodingID.Size" type="System.Drawing.Size, System.Drawing">
     <value>112, 23</value>
   </data>
   <data name="&gt;&gt;ButtonOK.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="FormQuest_ShowRunningOnly.Size" type="System.Drawing.Size, System.Drawing">
-    <value>126, 19</value>
+  <data name="&gt;&gt;FormQuest_ShowRunningOnly.Parent" xml:space="preserve">
+    <value>tabPage10</value>
   </data>
   <data name="FormQuest_ShowOnce.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2137,9 +2177,6 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
   </data>
   <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
     <value>69, 15</value>
-  </data>
-  <data name="&gt;&gt;Life_TopMost.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="Debug_SealingPanel.ToolTip" xml:space="preserve">
     <value />
@@ -2153,8 +2190,8 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
   <data name="&gt;&gt;Life_LayoutFilePathSearch.Parent" xml:space="preserve">
     <value>tabPage6</value>
   </data>
-  <data name="UI_SubFontSelect.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+  <data name="label13.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="FormBrowser_ConfirmAtRefresh.Text" xml:space="preserve">
     <value>再読み込み時に確認する</value>
@@ -2168,11 +2205,17 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
   <data name="&gt;&gt;Notification_Condition.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="tabPage2.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="label17.Text" xml:space="preserve">
+    <value>ログインURL:</value>
   </data>
-  <data name="tabPage10.Text" xml:space="preserve">
-    <value>任務</value>
+  <data name="Notification_Condition.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 23</value>
+  </data>
+  <data name="Connection_OutputConnectionScript.Text" xml:space="preserve">
+    <value>自動プロキシ設定スクリプトの出力...</value>
+  </data>
+  <data name="UI_MainFontApply.Text" xml:space="preserve">
+    <value>⇒</value>
   </data>
   <data name="FormQuest_ShowMonthly.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2183,8 +2226,8 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
   <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
     <value>103, 15</value>
   </data>
-  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
-    <value>tabPage2</value>
+  <data name="FormFleet_SearchingAbilityMethod.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 31</value>
   </data>
   <data name="Connection_SaveRequest.Text" xml:space="preserve">
     <value>Request</value>
@@ -2192,11 +2235,14 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
   <data name="FormFleet_IsScrollable.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="Life_LayoutFilePath.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="UI_SubFontApply.Text" xml:space="preserve">
+    <value>⇒</value>
   </data>
-  <data name="Connection_SaveReceivedData.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 68</value>
+  <data name="&gt;&gt;label17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FormFleet_ShortenHPBar.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="Life_LayoutFilePathSearch.ToolTip" xml:space="preserve">
     <value />
@@ -2204,20 +2250,26 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
   <data name="FormBrowser_ScreenShotPathSearch.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
+  <data name="FormFleet_ShortenHPBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 110</value>
+  </data>
+  <data name="&gt;&gt;tabPage7.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
   <data name="UI_MainFontApply.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="Log_LogLevel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>112, 31</value>
+  <data name="tabPage4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 24</value>
   </data>
   <data name="&gt;&gt;Connection_RegisterAsSystemProxy.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;tabPage9.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="Connection_Port.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
   </data>
-  <data name="Connection_ApplyVersion.Text" xml:space="preserve">
-    <value>Version</value>
+  <data name="Life_TopMost.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 19</value>
   </data>
   <data name="&gt;&gt;Log_FileEncodingID.ZOrder" xml:space="preserve">
     <value>2</value>
@@ -2233,9 +2285,6 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
   </data>
   <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="FormFleet_ShowAircraft.Text" xml:space="preserve">
-    <value>艦載機数を表示する</value>
   </data>
   <data name="&gt;&gt;FormBrowser_ZoomRate.ZOrder" xml:space="preserve">
     <value>7</value>
@@ -2255,11 +2304,17 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
   <data name="Log_SaveErrorReport.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="label18.ToolTip" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;tabPage12.Parent" xml:space="preserve">
+    <value>tabControl2</value>
+  </data>
+  <data name="Notification_Construction.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 23</value>
   </data>
   <data name="Notification_Damage.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
+  </data>
+  <data name="Life_CheckUpdateInformation.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
   </data>
   <data name="UI_SubFontApply.Size" type="System.Drawing.Size, System.Drawing">
     <value>32, 23</value>
@@ -2270,6 +2325,9 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
   <data name="&gt;&gt;FormFleet_FixShipNameWidth.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="&gt;&gt;tabControl2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;FormFleet_SearchingAbilityMethod.Name" xml:space="preserve">
     <value>FormFleet_SearchingAbilityMethod</value>
   </data>
@@ -2279,12 +2337,15 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
   <data name="FormShipGroup_ShowStatusBar.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 31</value>
   </data>
+  <data name="&gt;&gt;Log_SaveErrorReport.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
   <data name="FormFleet_ShowNextExp.ToolTip" xml:space="preserve">
     <value>「次のレベルまでに必要な経験値」を表示するかを指定します。
 省略した場合スペースを節約できます。</value>
   </data>
-  <data name="tabPage12.Text" xml:space="preserve">
-    <value>ブラウザ</value>
+  <data name="tabPage3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 24</value>
   </data>
   <data name="Connection_SaveReceivedData.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -2298,8 +2359,8 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
   <data name="label17.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;Log_SaveErrorReport.Parent" xml:space="preserve">
-    <value>tabPage3</value>
+  <data name="UI_MainFontSelect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 23</value>
   </data>
   <data name="&gt;&gt;LayoutFileBrowser.Type" xml:space="preserve">
     <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -2319,23 +2380,20 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
   <data name="Connection_RegisterAsSystemProxy.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="Notification_Expedition.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 6</value>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 193</value>
+  </data>
+  <data name="&gt;&gt;Notification_Construction.Name" xml:space="preserve">
+    <value>Notification_Construction</value>
   </data>
   <data name="ButtonCancel.Location" type="System.Drawing.Point, System.Drawing">
     <value>313, 265</value>
   </data>
-  <data name="FormBrowser_ScreenShotPathSearch.ToolTip" xml:space="preserve">
-    <value />
+  <data name="FormQuest_ShowDaily.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
   <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
     <value>5, 88</value>
-  </data>
-  <data name="Connection_OutputConnectionScript.Text" xml:space="preserve">
-    <value>自動プロキシ設定スクリプトの出力...</value>
-  </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="ButtonCancel.ToolTip" xml:space="preserve">
     <value />
@@ -2343,17 +2401,17 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
   <data name="&gt;&gt;tabPage1.Name" xml:space="preserve">
     <value>tabPage1</value>
   </data>
+  <data name="tabPage1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="Connection_UseUpstreamProxy.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="UI_SubFontSelect.ToolTip" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;tabPage6.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
   <data name="tabPage11.ToolTip" xml:space="preserve">
     <value />
-  </data>
-  <data name="Connection_SaveDataPathSearch.Text" xml:space="preserve">
-    <value>...</value>
   </data>
   <data name="FormBrowser_AppliesStyleSheet.Text" xml:space="preserve">
     <value>スタイルシートを適用する</value>
@@ -2361,11 +2419,8 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
   <data name="FormBrowser_ScreenShotFormat_JPEG.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="FormShipGroup_AutoUpdate.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 8</value>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;UI_MainFont.Parent" xml:space="preserve">
     <value>tabPage2</value>
@@ -2382,12 +2437,8 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
   <data name="UI_SubFont.Size" type="System.Drawing.Size, System.Drawing">
     <value>216, 23</value>
   </data>
-  <data name="FormShipGroup_ShowStatusBar.ToolTip" xml:space="preserve">
-    <value>下部のステータスバー(所属艦数など)を表示するかを指定します。
-わずかですが表示行数を増やすことができます。</value>
-  </data>
-  <data name="FormBrowser_IsEnabled.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 6</value>
+  <data name="Log_SaveLogFlag.Text" xml:space="preserve">
+    <value>ログをファイルに保存する</value>
   </data>
   <data name="&gt;&gt;Control_ConditionBorder.Type" xml:space="preserve">
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -2401,9 +2452,6 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
   <data name="&gt;&gt;Connection_SaveDataFilter.Parent" xml:space="preserve">
     <value>Connection_PanelSaveData</value>
   </data>
-  <data name="Life_LayoutFilePathSearch.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
   <data name="tabPage13.ToolTip" xml:space="preserve">
     <value />
   </data>
@@ -2413,26 +2461,29 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
   <data name="FormShipGroup_ShowStatusBar.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="Life_CheckUpdateInformation.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FormBrowser_IsEnabled.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="&gt;&gt;FormArsenal_ShowShipName.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="Connection_SaveDataPath.Location" type="System.Drawing.Point, System.Drawing">
     <value>67, 32</value>
   </data>
-  <data name="FormBrowser_ScreenShotFormat_JPEG.Size" type="System.Drawing.Size, System.Drawing">
-    <value>53, 19</value>
+  <data name="UI_MainFont.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 32</value>
   </data>
   <data name="label10.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
   <data name="&gt;&gt;Connection_UpstreamProxyPort.Name" xml:space="preserve">
     <value>Connection_UpstreamProxyPort</value>
-  </data>
-  <data name="tabPage6.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;label7.Name" xml:space="preserve">
-    <value>label7</value>
   </data>
   <data name="&gt;&gt;Connection_UseUpstreamProxy.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -2455,17 +2506,20 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
   <data name="label2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="FormBrowser_ZoomRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 30</value>
+  </data>
   <data name="&gt;&gt;Notification_Damage.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="&gt;&gt;FormShipGroup_AutoUpdate.Parent" xml:space="preserve">
     <value>tabPage13</value>
   </data>
-  <data name="&gt;&gt;Life_LayoutFilePathSearch.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;APIListBrowser.Name" xml:space="preserve">
+    <value>APIListBrowser</value>
   </data>
-  <data name="Notification_Expedition.Text" xml:space="preserve">
-    <value>遠征帰投通知の設定...</value>
+  <data name="label15.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;UI_MainFont.ZOrder" xml:space="preserve">
     <value>7</value>
@@ -2476,38 +2530,35 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
   <data name="&gt;&gt;FormFleet_IsScrollable.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="Life_CheckUpdateInformation.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
   </data>
-  <data name="UI_MainFontApply.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="Log_SaveLogFlag.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>392, 211</value>
   </data>
   <data name="tabPage8.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
-  <data name="Control_ConditionBorder.ToolTip" xml:space="preserve">
-    <value />
+  <data name="tabPage13.Text" xml:space="preserve">
+    <value>グループ</value>
   </data>
-  <data name="&gt;&gt;Notification_Condition.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
   </data>
-  <data name="label13.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;Life_ConfirmOnClosing.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="tabPage11.Text" xml:space="preserve">
-    <value>通知</value>
+  <data name="&gt;&gt;FormQuest_ShowOnce.Name" xml:space="preserve">
+    <value>FormQuest_ShowOnce</value>
   </data>
   <data name="Connection_SaveOtherFile.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;FormFleet_ShortenHPBar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>Connection_PanelSaveData</value>
   </data>
-  <data name="Life_TopMost.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="Life_LayoutFilePathSearch.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
   </data>
   <data name="&gt;&gt;Notification_Damage.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -2515,26 +2566,26 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
   <data name="Log_SaveLogFlag.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="FormBrowser_ConfirmAtRefresh.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
   <data name="&gt;&gt;Notification_Condition.Name" xml:space="preserve">
     <value>Notification_Condition</value>
   </data>
   <data name="&gt;&gt;tabPage10.Parent" xml:space="preserve">
     <value>tabControl2</value>
   </data>
-  <data name="FormBrowser_ZoomRate.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Right</value>
+  <data name="&gt;&gt;FormFleet_ShowNextExp.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="Life_ConfirmOnClosing.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 35</value>
+  <data name="label16.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
   </data>
   <data name="FormQuest_ShowOnce.Text" xml:space="preserve">
     <value>一回限り・その他</value>
   </data>
-  <data name="UI_MainFontSelect.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 23</value>
+  <data name="&gt;&gt;Life_LayoutFilePathSearch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabPage11.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
   </data>
   <data name="&gt;&gt;FormFleet_SearchingAbilityMethod.Parent" xml:space="preserve">
     <value>tabPage8</value>
@@ -2542,8 +2593,8 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
   <data name="FormQuest_ShowOnce.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="FormBrowser_ScreenShotPath.ToolTip" xml:space="preserve">
-    <value />
+  <data name="Debug_APIListPathSearch.Text" xml:space="preserve">
+    <value>...</value>
   </data>
   <data name="tabPage7.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -2563,14 +2614,11 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 8</value>
   </data>
-  <data name="Life_LayoutFilePath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>103, 6</value>
+  <data name="&gt;&gt;UI_SubFont.Parent" xml:space="preserve">
+    <value>tabPage2</value>
   </data>
   <data name="tabPage4.Size" type="System.Drawing.Size, System.Drawing">
     <value>392, 231</value>
-  </data>
-  <data name="&gt;&gt;tabPage2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>126, 123</value>
@@ -2578,8 +2626,8 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
   <data name="&gt;&gt;FormBrowser_ConfirmAtRefresh.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;Notification_Repair.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;FormBrowser_ScreenShotFormat_JPEG.Name" xml:space="preserve">
+    <value>FormBrowser_ScreenShotFormat_JPEG</value>
   </data>
   <data name="&gt;&gt;FormBrowser_ScreenShotPathSearch.Name" xml:space="preserve">
     <value>FormBrowser_ScreenShotPathSearch</value>
@@ -2593,11 +2641,11 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
   <data name="&gt;&gt;Log_SaveErrorReport.Name" xml:space="preserve">
     <value>Log_SaveErrorReport</value>
   </data>
-  <data name="FormBrowser_ScreenShotPath.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>138, 69</value>
   </data>
-  <data name="&gt;&gt;Connection_SaveDataFilter.Name" xml:space="preserve">
-    <value>Connection_SaveDataFilter</value>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 9</value>
   </data>
   <data name="ButtonOK.Text" xml:space="preserve">
     <value>OK</value>
@@ -2617,11 +2665,14 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
   <data name="Connection_ApplyVersion.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="Life_TopMost.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="FormBrowser_ScreenShotPathSearch.Location" type="System.Drawing.Point, System.Drawing">
     <value>328, 47</value>
   </data>
   <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>366, 85</value>
+    <value>366, 105</value>
   </data>
   <data name="&gt;&gt;FormBrowser_ZoomRate.Type" xml:space="preserve">
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -2632,8 +2683,8 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
   <data name="&gt;&gt;FormBrowser_IsEnabled.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="Debug_APIListPathSearch.Location" type="System.Drawing.Point, System.Drawing">
-    <value>352, 28</value>
+  <data name="tabPage2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 24</value>
   </data>
   <data name="&gt;&gt;UI_MainFontSelect.Name" xml:space="preserve">
     <value>UI_MainFontSelect</value>
@@ -2647,20 +2698,17 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
   <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 50</value>
   </data>
+  <data name="ButtonCancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
   <data name="tabPage8.Size" type="System.Drawing.Size, System.Drawing">
     <value>378, 197</value>
   </data>
   <data name="&gt;&gt;tabPage11.Parent" xml:space="preserve">
     <value>tabControl1</value>
   </data>
-  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
-    <value>97, 15</value>
-  </data>
-  <data name="&gt;&gt;FormBrowser_AppliesStyleSheet.Name" xml:space="preserve">
-    <value>FormBrowser_AppliesStyleSheet</value>
-  </data>
-  <data name="&gt;&gt;tabPage6.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="Debug_SealingPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 31</value>
   </data>
   <data name="FormBrowser_LogInPageURL.Size" type="System.Drawing.Size, System.Drawing">
     <value>290, 23</value>
@@ -2671,8 +2719,8 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
   <data name="&gt;&gt;label7.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;UI_SubFontSelect.Name" xml:space="preserve">
-    <value>UI_SubFontSelect</value>
+  <data name="&gt;&gt;tabPage4.Parent" xml:space="preserve">
+    <value>tabControl1</value>
   </data>
   <data name="FormBrowser_ScreenShotPathSearch.Text" xml:space="preserve">
     <value>...</value>
@@ -2680,32 +2728,29 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
   <data name="&gt;&gt;Connection_PanelSaveData.Parent" xml:space="preserve">
     <value>tabPage1</value>
   </data>
-  <data name="&gt;&gt;Connection_Port.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="UI_MainFont.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
   </data>
-  <data name="Life_CheckUpdateInformation.Text" xml:space="preserve">
-    <value>アップデートを確認する</value>
+  <data name="tabPage3.Text" xml:space="preserve">
+    <value>ログ</value>
   </data>
-  <data name="Connection_Port.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="&gt;&gt;tabPage11.Name" xml:space="preserve">
-    <value>tabPage11</value>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>8</value>
   </data>
   <data name="&gt;&gt;tabPage7.Parent" xml:space="preserve">
     <value>tabControl1</value>
   </data>
-  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>94, 15</value>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
   </data>
-  <data name="label18.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 15</value>
   </data>
-  <data name="&gt;&gt;ButtonCancel.Name" xml:space="preserve">
-    <value>ButtonCancel</value>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
   </data>
-  <data name="Life_LayoutFilePathSearch.Text" xml:space="preserve">
-    <value>...</value>
+  <data name="&gt;&gt;tabPage10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="label11.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2725,26 +2770,36 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
   <data name="label16.Text" xml:space="preserve">
     <value>％</value>
   </data>
-  <data name="tabPage10.ToolTip" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="FormFleet_ShortenHPBar.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
-  <data name="label12.ToolTip" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;FormFleet_ShowAircraft.Parent" xml:space="preserve">
+    <value>tabPage8</value>
   </data>
   <data name="&gt;&gt;FormFleet_ShowNextExp.Parent" xml:space="preserve">
     <value>tabPage8</value>
   </data>
-  <data name="label17.Text" xml:space="preserve">
-    <value>ログインURL:</value>
+  <data name="&gt;&gt;FormBrowser_ScreenShotFormat_PNG.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="APIListBrowser.Title" xml:space="preserve">
     <value>API リストを開く</value>
   </data>
+  <data name="Connection_SaveDataFilter.ToolTip" xml:space="preserve">
+    <value>＊未実装です＊</value>
+  </data>
+  <data name="&gt;&gt;FormBrowser_ScreenShotPathSearch.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <data name="FormQuest_ShowOnce.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 22</value>
+  </data>
+  <data name="FormShipGroup_AutoUpdate.ToolTip" xml:space="preserve">
+    <value>艦船データを自動更新するかを指定します。
+</value>
   </data>
   <data name="FormBrowser_ScreenShotFormat_PNG.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -2752,8 +2807,8 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
   <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="&gt;&gt;ToolTipInfo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="Debug_LoadAPIListOnLoad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 3</value>
   </data>
   <data name="&gt;&gt;Life_TopMost.ZOrder" xml:space="preserve">
     <value>4</value>
@@ -2761,20 +2816,11 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
   <data name="tabPage7.Text" xml:space="preserve">
     <value>サブウィンドウ</value>
   </data>
-  <data name="FormBrowser_IsEnabled.Size" type="System.Drawing.Size, System.Drawing">
-    <value>116, 19</value>
+  <data name="label7.Text" xml:space="preserve">
+    <value>疲労度ボーダー：</value>
   </data>
-  <data name="&gt;&gt;Connection_SaveDataFilter.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="FormFleet_SearchingAbilityMethod.Location" type="System.Drawing.Point, System.Drawing">
-    <value>115, 31</value>
-  </data>
-  <data name="Life_TopMost.Size" type="System.Drawing.Size, System.Drawing">
-    <value>114, 19</value>
+  <data name="&gt;&gt;label14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="tabPage2.Text" xml:space="preserve">
     <value>UI</value>
@@ -2788,35 +2834,29 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
   <data name="&gt;&gt;tabPage13.Name" xml:space="preserve">
     <value>tabPage13</value>
   </data>
-  <data name="&gt;&gt;tabPage4.Parent" xml:space="preserve">
-    <value>tabControl1</value>
-  </data>
   <data name="&gt;&gt;Life_ConfirmOnClosing.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="tabControl2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="Connection_SaveOtherFile.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="tabPage13.Text" xml:space="preserve">
-    <value>グループ</value>
+  <data name="UI_SubFontSelect.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
   </data>
   <data name="tabPage2.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="&gt;&gt;FormBrowser_ScreenShotPathSearch.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="&gt;&gt;FormFleet_SearchingAbilityMethod.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
-  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 32</value>
+  <data name="Connection_ApplyVersion.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
   </data>
-  <data name="tabPage11.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 88</value>
   </data>
-  <data name="&gt;&gt;FontSelector.Type" xml:space="preserve">
-    <value>System.Windows.Forms.FontDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="FormBrowser_ScreenShotFormat_PNG.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 22</value>
+  </data>
+  <data name="tabPage6.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="&gt;&gt;label15.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -2830,11 +2870,8 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
   <data name="Debug_APIListPath.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
-  <data name="label8.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="Connection_ApplyVersion.Location" type="System.Drawing.Point, System.Drawing">
-    <value>299, 61</value>
+  <data name="FormQuest_ShowRunningOnly.Text" xml:space="preserve">
+    <value>遂行中のみ表示する</value>
   </data>
   <data name="Connection_SaveDataFilter.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
@@ -2848,14 +2885,8 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
   <data name="tabPage6.Text" xml:space="preserve">
     <value>ウィンドウ</value>
   </data>
-  <data name="&gt;&gt;tabControl1.Name" xml:space="preserve">
-    <value>tabControl1</value>
-  </data>
-  <data name="&gt;&gt;UI_SubFont.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="Debug_APIListPathSearch.Text" xml:space="preserve">
-    <value>...</value>
+  <data name="Life_ConfirmOnClosing.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 19</value>
   </data>
   <data name="&gt;&gt;Notification_Expedition.ZOrder" xml:space="preserve">
     <value>5</value>
@@ -2866,20 +2897,23 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
   <data name="UI_SubFont.ToolTip" xml:space="preserve">
     <value />
   </data>
+  <data name="FormBrowser_IsEnabled.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 19</value>
+  </data>
   <data name="Log_LogLevel.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="&gt;&gt;tabControl2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="Debug_EnableDebugMenu.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="Debug_LoadAPIListOnLoad.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 3</value>
+  <data name="&gt;&gt;FormBrowser_LogInPageURL.Name" xml:space="preserve">
+    <value>FormBrowser_LogInPageURL</value>
   </data>
   <data name="Connection_Port.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
     <value>Right</value>
   </data>
-  <data name="UI_MainFontApply.Text" xml:space="preserve">
-    <value>⇒</value>
+  <data name="FormFleet_ShowNextExp.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
   <data name="&gt;&gt;Connection_SaveDataPath.ZOrder" xml:space="preserve">
     <value>7</value>
@@ -2890,35 +2924,23 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
   <data name="&gt;&gt;tabPage9.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="UI_MainFontApply.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 23</value>
-  </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
     <value>55, 15</value>
   </data>
   <data name="groupBox1.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="FormBrowser_ZoomRate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>82, 30</value>
-  </data>
-  <data name="Life_ConfirmOnClosing.Size" type="System.Drawing.Size, System.Drawing">
-    <value>114, 19</value>
+  <data name="label14.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
   <data name="label17.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>138, 69</value>
-  </data>
   <data name="&gt;&gt;FormArsenal_ShowShipName.Name" xml:space="preserve">
     <value>FormArsenal_ShowShipName</value>
   </data>
-  <data name="&gt;&gt;FormQuest_ShowDaily.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="Notification_Construction.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 23</value>
+  <data name="FormBrowser_LogInPageURL.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="&gt;&gt;tabPage2.ZOrder" xml:space="preserve">
     <value>1</value>
@@ -2935,11 +2957,14 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
   <data name="tabPage13.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 22</value>
   </data>
-  <data name="&gt;&gt;tabPage11.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;Notification_Repair.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
-  <data name="FormFleet_ShortenHPBar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 110</value>
+  <data name="Connection_SaveDataPathSearch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>343, 32</value>
+  </data>
+  <data name="&gt;&gt;Debug_APIListPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="FormFleet_IsScrollable.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 60</value>
@@ -2950,11 +2975,8 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
   <data name="&gt;&gt;FormBrowser_LogInPageURL.Parent" xml:space="preserve">
     <value>tabPage12</value>
   </data>
-  <data name="FormBrowser_ScreenShotPath.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="label15.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="&gt;&gt;FormShipGroup_AutoUpdate.Name" xml:space="preserve">
+    <value>FormShipGroup_AutoUpdate</value>
   </data>
   <data name="FormBrowser_IsEnabled.Text" xml:space="preserve">
     <value>起動時に読み込む</value>
@@ -2966,7 +2988,7 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
     <value>FormQuest_ShowWeekly</value>
   </data>
   <data name="tabPage10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>378, 179</value>
+    <value>378, 199</value>
   </data>
   <data name="&gt;&gt;label9.Parent" xml:space="preserve">
     <value>tabPage2</value>
@@ -3001,17 +3023,14 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
   <data name="FormBrowser_ConfirmAtRefresh.Location" type="System.Drawing.Point, System.Drawing">
     <value>180, 6</value>
   </data>
-  <data name="Connection_SaveRequest.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 61</value>
-  </data>
-  <data name="Connection_OutputConnectionScript.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 182</value>
+  <data name="&gt;&gt;Log_SaveLogFlag.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="tabControl1.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="tabPage13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>378, 179</value>
+  <data name="Connection_ApplyVersion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>299, 61</value>
   </data>
   <data name="FormQuest_ShowMonthly.Text" xml:space="preserve">
     <value>マンスリー</value>
@@ -3019,26 +3038,26 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
   <data name="&gt;&gt;tabPage5.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="UI_SubFontSelect.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
+  <data name="&gt;&gt;Connection_Port.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;Notification_Construction.Name" xml:space="preserve">
-    <value>Notification_Construction</value>
+  <data name="&gt;&gt;Debug_APIListPath.Name" xml:space="preserve">
+    <value>Debug_APIListPath</value>
   </data>
-  <data name="Debug_APIListPathSearch.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="tabPage6.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
   </data>
   <data name="&gt;&gt;label11.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="FormQuest_ShowDaily.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;FormQuest_ShowDaily.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="label15.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="label16.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="&gt;&gt;FormFleet_ShortenHPBar.Parent" xml:space="preserve">
+    <value>tabPage8</value>
   </data>
   <data name="Connection_SaveDataPathSearch.Size" type="System.Drawing.Size, System.Drawing">
     <value>32, 23</value>
@@ -3049,19 +3068,11 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
   <data name="$this.Text" xml:space="preserve">
     <value>設定</value>
   </data>
-  <data name="Log_SaveErrorReport.ToolTip" xml:space="preserve">
-    <value>エラーが発生した際に記録を残します。
-記録されたファイルを送信していただければバグ修正に役立てることができます。
-デフォルトでは実行フォルダ内 ErrorReport フォルダに保存されます。</value>
-  </data>
-  <data name="&gt;&gt;Debug_LoadAPIListOnLoad.Parent" xml:space="preserve">
-    <value>Debug_SealingPanel</value>
-  </data>
   <data name="Notification_Condition.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 93</value>
   </data>
-  <data name="&gt;&gt;tabPage7.ZOrder" xml:space="preserve">
-    <value>6</value>
+  <data name="Life_ConfirmOnClosing.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="Connection_SaveDataFilter.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -3078,15 +3089,8 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
   <data name="FormBrowser_ScreenShotFormat_PNG.Text" xml:space="preserve">
     <value>PNG</value>
   </data>
-  <data name="FormFleet_ShowAircraft.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="label7.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
-  </data>
-  <data name="FormShipGroup_AutoUpdate.ToolTip" xml:space="preserve">
-    <value>艦船データを自動更新するかを指定します。
-</value>
   </data>
   <data name="&gt;&gt;Connection_OutputConnectionScript.ZOrder" xml:space="preserve">
     <value>3</value>
@@ -3094,23 +3098,23 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
   <data name="&gt;&gt;Life_LayoutFilePath.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="FormBrowser_AppliesStyleSheet.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="label12.Text" xml:space="preserve">
+    <value>＊無闇に変更すると設定・レコードが読めなくなる可能性があります</value>
   </data>
-  <data name="&gt;&gt;Log_SaveLogFlag.Parent" xml:space="preserve">
-    <value>tabPage3</value>
+  <data name="Connection_SaveOtherFile.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
   </data>
   <data name="&gt;&gt;label16.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="tabPage13.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="FormBrowser_ConfirmAtRefresh.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="tabPage12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>378, 179</value>
+    <value>378, 199</value>
   </data>
-  <data name="&gt;&gt;tabPage10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;Control_ConditionBorder.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="Notification_Expedition.Size" type="System.Drawing.Size, System.Drawing">
     <value>150, 23</value>
@@ -3121,17 +3125,14 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
   <data name="&gt;&gt;Notification_Construction.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="Connection_SaveDataFilter.ToolTip" xml:space="preserve">
-    <value>＊未実装です＊</value>
+  <data name="Connection_UpstreamProxyPort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>164, 35</value>
   </data>
-  <data name="&gt;&gt;Life_ConfirmOnClosing.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Life_LayoutFilePath.Parent" xml:space="preserve">
     <value>tabPage6</value>
   </data>
-  <data name="&gt;&gt;tabControl2.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;UI_SubFont.Parent" xml:space="preserve">
-    <value>tabPage2</value>
+  <data name="label9.Text" xml:space="preserve">
+    <value>＊再起動後に反映されます。</value>
   </data>
   <data name="&gt;&gt;tabPage7.Type" xml:space="preserve">
     <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -3148,14 +3149,14 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
   <data name="&gt;&gt;FormFleet_SearchingAbilityMethod.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;Notification_Expedition.Name" xml:space="preserve">
-    <value>Notification_Expedition</value>
+  <data name="&gt;&gt;FormShipGroup_ShowStatusBar.Name" xml:space="preserve">
+    <value>FormShipGroup_ShowStatusBar</value>
   </data>
-  <data name="&gt;&gt;tabPage6.Parent" xml:space="preserve">
-    <value>tabControl1</value>
+  <data name="&gt;&gt;Life_LayoutFilePathSearch.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
-  <data name="&gt;&gt;FormBrowser_LogInPageURL.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;Life_TopMost.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="label18.Text" xml:space="preserve">
     <value>保存先:</value>
@@ -3166,20 +3167,19 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
   <data name="FormFleet_ShowNextExp.Text" xml:space="preserve">
     <value>next. を表示する</value>
   </data>
-  <data name="&gt;&gt;label17.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="Log_SaveErrorReport.ToolTip" xml:space="preserve">
+    <value>エラーが発生した際に記録を残します。
+記録されたファイルを送信していただければバグ修正に役立てることができます。
+デフォルトでは実行フォルダ内 ErrorReport フォルダに保存されます。</value>
   </data>
   <data name="&gt;&gt;tabPage6.Name" xml:space="preserve">
     <value>tabPage6</value>
   </data>
-  <data name="UI_MainFont.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
   <data name="FormQuest_ShowRunningOnly.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="Life_CheckUpdateInformation.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="Connection_SaveDataPathSearch.Text" xml:space="preserve">
+    <value>...</value>
   </data>
   <metadata name="FolderBrowser.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>137, 17</value>
