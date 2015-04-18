@@ -853,7 +853,7 @@
     <value>スタックトレース：</value>
   </data>
   <data name="ErrorReporter_5" xml:space="preserve">
-    <value>通信内容 : {0}</value>
+    <value>通信内容 : {0} {1}</value>
   </data>
   <data name="ErrorReporter_6" xml:space="preserve">
     <value>エラーレポートの書き込みに失敗しました。\r\n{0}\r\n{1}</value>

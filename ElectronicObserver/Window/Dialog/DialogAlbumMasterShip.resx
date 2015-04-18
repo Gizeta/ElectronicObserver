@@ -120,6 +120,9 @@
   <data name="&gt;&gt;imageLabel59.Parent" xml:space="preserve">
     <value>TableArsenal</value>
   </data>
+  <data name="imageLabel42.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="TitleAirSuperiority.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 3</value>
@@ -133,8 +136,12 @@
   <data name="&gt;&gt;TitleAirSuperiority.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="RemodelBeforeAmmo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>106, 25</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ASWMax.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="TitleLOS.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="RemodelBefore.TabIndex" type="System.Int32, mscorlib">
@@ -152,11 +159,14 @@
   <data name="LOSLevel.Text" xml:space="preserve">
     <value>123</value>
   </data>
+  <data name="&gt;&gt;FirepowerMax.Parent" xml:space="preserve">
+    <value>TableParameterMain</value>
+  </data>
   <data name="RemodelAfterSteel.Text" xml:space="preserve">
     <value>123</value>
   </data>
-  <data name="&gt;&gt;TitleHP.Parent" xml:space="preserve">
-    <value>TableParameterMain</value>
+  <data name="imageLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 6</value>
   </data>
   <data name="Equipment2.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -164,8 +174,8 @@
   <data name="&gt;&gt;imageLabel39.Type" xml:space="preserve">
     <value>ElectronicObserver.Window.Control.ImageLabel, ElectronicObserver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;imageLabel35.Name" xml:space="preserve">
-    <value>imageLabel35</value>
+  <data name="&gt;&gt;LOSLevel.Type" xml:space="preserve">
+    <value>ElectronicObserver.Window.Control.ImageLabel, ElectronicObserver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="Fuel.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
@@ -176,14 +186,11 @@
   <data name="&gt;&gt;TableParameterMain.ZOrder" xml:space="preserve">
     <value>14</value>
   </data>
-  <data name="DayAttack.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
+  <data name="&gt;&gt;LevelTimer.Name" xml:space="preserve">
+    <value>LevelTimer</value>
   </data>
   <data name="&gt;&gt;imageLabel59.ZOrder" xml:space="preserve">
     <value>9</value>
-  </data>
-  <data name="&gt;&gt;MaterialFuel.Name" xml:space="preserve">
-    <value>MaterialFuel</value>
   </data>
   <data name="&gt;&gt;Fuel.Type" xml:space="preserve">
     <value>ElectronicObserver.Window.Control.ImageLabel, ElectronicObserver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
@@ -191,7 +198,6 @@
   <data name="TableRemodel.RowCount" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="LOSMin.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Right</value>
   </data>
@@ -203,9 +209,6 @@
   </data>
   <data name="AlbumNo.Text" xml:space="preserve">
     <value>123</value>
-  </data>
-  <data name="imageLabel71.Size" type="System.Drawing.Size, System.Drawing">
-    <value>38, 16</value>
   </data>
   <data name="imageLabel71.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
@@ -221,6 +224,9 @@
   </data>
   <data name="LOSLevel.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
+  </data>
+  <data name="TitleNightAttack.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="RemodelBeforeAmmo.Text" xml:space="preserve">
     <value>123</value>
@@ -255,8 +261,11 @@
   <data name="TableRemodel.ColumnCount" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
-  <data name="&gt;&gt;LevelTimer.Name" xml:space="preserve">
-    <value>LevelTimer</value>
+  <data name="PowerUpAA.Text" xml:space="preserve">
+    <value>123</value>
+  </data>
+  <data name="ShipView_ShipID.Width" type="System.Int32, mscorlib">
+    <value>40</value>
   </data>
   <data name="TableShipName.Size" type="System.Drawing.Size, System.Drawing">
     <value>189, 22</value>
@@ -273,14 +282,14 @@
   <data name="&gt;&gt;Speed.Name" xml:space="preserve">
     <value>Speed</value>
   </data>
-  <data name="FirepowerMin.Size" type="System.Drawing.Size, System.Drawing">
-    <value>22, 16</value>
-  </data>
   <data name="TitleParameterMax.Size" type="System.Drawing.Size, System.Drawing">
     <value>48, 16</value>
   </data>
   <data name="&gt;&gt;TitleHP.Name" xml:space="preserve">
     <value>TitleHP</value>
+  </data>
+  <data name="Aircraft4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 16</value>
   </data>
   <data name="&gt;&gt;TitleBuildingTime.Name" xml:space="preserve">
     <value>TitleBuildingTime</value>
@@ -293,6 +302,12 @@
   </data>
   <data name="&gt;&gt;imageLabel40.Name" xml:space="preserve">
     <value>imageLabel40</value>
+  </data>
+  <data name="ASWMax.Text" xml:space="preserve">
+    <value>123</value>
+  </data>
+  <data name="&gt;&gt;Range.Type" xml:space="preserve">
+    <value>ElectronicObserver.Window.Control.ImageLabel, ElectronicObserver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="TitleBuildingTime.Text" xml:space="preserve">
     <value>建造時間</value>
@@ -342,9 +357,6 @@
   <data name="&gt;&gt;imageLabel72.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="&gt;&gt;StripMenu_File.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="AAMax.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
   </data>
@@ -372,6 +384,9 @@
   <data name="&gt;&gt;RemodelBeforeLevel.Type" xml:space="preserve">
     <value>ElectronicObserver.Window.Control.ImageLabel, ElectronicObserver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
+  <data name="HPMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>157, 32</value>
+  </data>
   <data name="&gt;&gt;LOSMin.Type" xml:space="preserve">
     <value>ElectronicObserver.Window.Control.ImageLabel, ElectronicObserver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
@@ -384,9 +399,6 @@
   <data name="Aircraft5.Location" type="System.Drawing.Point, System.Drawing">
     <value>15, 91</value>
   </data>
-  <data name="&gt;&gt;FirepowerMax.Name" xml:space="preserve">
-    <value>FirepowerMax</value>
-  </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Meiryo UI, 12px</value>
   </data>
@@ -395,9 +407,6 @@
   </data>
   <data name="Fuel.Text" xml:space="preserve">
     <value>123</value>
-  </data>
-  <data name="&gt;&gt;TitleAirSuperiority.Type" xml:space="preserve">
-    <value>ElectronicObserver.Window.Control.ImageLabel, ElectronicObserver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;ShipView.Parent" xml:space="preserve">
     <value>splitContainer1.Panel1</value>
@@ -413,9 +422,6 @@
   </data>
   <data name="&gt;&gt;RemodelBefore.Name" xml:space="preserve">
     <value>RemodelBefore</value>
-  </data>
-  <data name="EvasionSeparater.Size" type="System.Drawing.Size, System.Drawing">
-    <value>6, 15</value>
   </data>
   <data name="RemodelAfter.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Right</value>
@@ -465,6 +471,9 @@
   <data name="&gt;&gt;Equipment4.Parent" xml:space="preserve">
     <value>TableEquipment</value>
   </data>
+  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
   <data name="&gt;&gt;LOSLevel.Name" xml:space="preserve">
     <value>LOSLevel</value>
   </data>
@@ -498,17 +507,8 @@
   <data name="&gt;&gt;EvasionSeparater.Name" xml:space="preserve">
     <value>EvasionSeparater</value>
   </data>
-  <data name="MaterialAmmo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>41, 16</value>
-  </data>
-  <data name="Equipment1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>41, 16</value>
-  </data>
   <data name="TableConsumption.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
-  </data>
-  <data name="&gt;&gt;imageLabel36.Name" xml:space="preserve">
-    <value>imageLabel36</value>
   </data>
   <data name="&gt;&gt;TableShipName.Type" xml:space="preserve">
     <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -524,9 +524,6 @@
   </data>
   <data name="TitleBuildingTime.Location" type="System.Drawing.Point, System.Drawing">
     <value>300, 190</value>
-  </data>
-  <data name="&gt;&gt;Range.Name" xml:space="preserve">
-    <value>Range</value>
   </data>
   <data name="TitleASW.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 16</value>
@@ -549,14 +546,14 @@
   <data name="&gt;&gt;ShipName.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="TableArsenal.RowCount" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
   <data name="&gt;&gt;Rarity.Name" xml:space="preserve">
     <value>Rarity</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>DialogAlbumMasterShip</value>
+  </data>
+  <data name="TitleNightAttack.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
   </data>
   <data name="TitleHP.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 16</value>
@@ -584,9 +581,6 @@
   </data>
   <data name="ShipView.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
-  </data>
-  <data name="TableParameterMain.Size" type="System.Drawing.Size, System.Drawing">
-    <value>254, 227</value>
   </data>
   <data name="RemodelAfterLevel.Location" type="System.Drawing.Point, System.Drawing">
     <value>46, 69</value>
@@ -621,9 +615,6 @@
   <data name="&gt;&gt;LOSSeparater.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="Aircraft4.Text" xml:space="preserve">
-    <value>123</value>
-  </data>
   <data name="TitleRange.Text" xml:space="preserve">
     <value>射程</value>
   </data>
@@ -633,8 +624,8 @@
   <data name="TitleNightAttack.Size" type="System.Drawing.Size, System.Drawing">
     <value>68, 16</value>
   </data>
-  <data name="LOSLevel.ToolTip" xml:space="preserve">
-    <value />
+  <data name="TableParameterMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 49</value>
   </data>
   <data name="MaterialSteel.Text" xml:space="preserve">
     <value>123</value>
@@ -660,8 +651,11 @@
   <data name="&gt;&gt;TitleLOS.ZOrder" xml:space="preserve">
     <value>26</value>
   </data>
-  <data name="&gt;&gt;TableArsenal.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="MaterialAmmo.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TableConsumption.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 22</value>
   </data>
   <data name="TableShipName.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
     <value>GrowAndShrink</value>
@@ -678,8 +672,8 @@
   <data name="&gt;&gt;TitleSpeed.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="ASWMax.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Right</value>
+  <data name="&gt;&gt;TitleHP.Parent" xml:space="preserve">
+    <value>TableParameterMain</value>
   </data>
   <data name="imageLabel41.ToolTip" xml:space="preserve">
     <value />
@@ -725,6 +719,9 @@
   </data>
   <data name="&gt;&gt;RemodelAfterSteel.Parent" xml:space="preserve">
     <value>TableRemodel</value>
+  </data>
+  <data name="&gt;&gt;TableParameterSub.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;ASWLevel.ZOrder" xml:space="preserve">
     <value>43</value>
@@ -795,8 +792,8 @@
   <data name="&gt;&gt;splitContainer1.Panel2.Type" xml:space="preserve">
     <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="HPMax.Size" type="System.Drawing.Size, System.Drawing">
-    <value>22, 16</value>
+  <data name="HPMax.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
   <data name="StripMenu_File_OutputCSVUser.Text" xml:space="preserve">
     <value>CSV出力(閲覧用)(&amp;U)...</value>
@@ -834,14 +831,14 @@
   <data name="&gt;&gt;imageLabel45.Name" xml:space="preserve">
     <value>imageLabel45</value>
   </data>
-  <data name="&gt;&gt;FirepowerMax.Type" xml:space="preserve">
-    <value>ElectronicObserver.Window.Control.ImageLabel, ElectronicObserver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  <data name="&gt;&gt;LOSMin.Parent" xml:space="preserve">
+    <value>TableParameterMain</value>
   </data>
   <data name="&gt;&gt;EvasionLevel.Parent" xml:space="preserve">
     <value>TableParameterMain</value>
   </data>
-  <data name="ASWMin.Size" type="System.Drawing.Size, System.Drawing">
-    <value>22, 16</value>
+  <data name="&gt;&gt;AAMax.Parent" xml:space="preserve">
+    <value>TableParameterMain</value>
   </data>
   <data name="TableParameterMain.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
     <value>GrowAndShrink</value>
@@ -873,14 +870,8 @@
   <data name="TorpedoMax.Location" type="System.Drawing.Point, System.Drawing">
     <value>157, 76</value>
   </data>
-  <data name="RemodelBeforeLevel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>54, 16</value>
-  </data>
   <data name="BuildingTime.Location" type="System.Drawing.Point, System.Drawing">
     <value>381, 190</value>
-  </data>
-  <data name="ASWMin.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
   </data>
   <data name="imageLabel3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -896,6 +887,9 @@
   </data>
   <data name="&gt;&gt;LOSMax.Parent" xml:space="preserve">
     <value>TableParameterMain</value>
+  </data>
+  <data name="RemodelBeforeAmmo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 25</value>
   </data>
   <data name="TorpedoMin.Text" xml:space="preserve">
     <value>123</value>
@@ -924,9 +918,6 @@
   <data name="&gt;&gt;TitleAA.Parent" xml:space="preserve">
     <value>TableParameterMain</value>
   </data>
-  <data name="&gt;&gt;TitleParameterMax.Type" xml:space="preserve">
-    <value>ElectronicObserver.Window.Control.ImageLabel, ElectronicObserver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
   <data name="&gt;&gt;PowerUpFirepower.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
@@ -942,10 +933,10 @@
   <data name="&gt;&gt;MaterialFuel.Parent" xml:space="preserve">
     <value>TableArsenal</value>
   </data>
-  <data name="LOSMax.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Right</value>
+  <data name="&gt;&gt;TitleParameterMin.ZOrder" xml:space="preserve">
+    <value>24</value>
   </data>
-  <data name="TitleASW.ToolTip" xml:space="preserve">
+  <data name="RemodelBeforeLevel.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="imageLabel40.ToolTip" xml:space="preserve">
@@ -960,17 +951,17 @@
   <data name="&gt;&gt;Rarity.Parent" xml:space="preserve">
     <value>TableParameterSub</value>
   </data>
+  <data name="DayAttack.Text" xml:space="preserve">
+    <value>主砲/主砲</value>
+  </data>
   <data name="&gt;&gt;Range.Parent" xml:space="preserve">
     <value>TableParameterSub</value>
-  </data>
-  <data name="&gt;&gt;Aircraft5.Name" xml:space="preserve">
-    <value>Aircraft5</value>
   </data>
   <data name="imageLabel38.Text" xml:space="preserve">
     <value>/</value>
   </data>
-  <data name="TableParameterMain.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 49</value>
+  <data name="&gt;&gt;Aircraft3.ZOrder" xml:space="preserve">
+    <value>8</value>
   </data>
   <data name="&gt;&gt;RemodelBeforeAmmo.Type" xml:space="preserve">
     <value>ElectronicObserver.Window.Control.ImageLabel, ElectronicObserver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
@@ -984,8 +975,14 @@
   <data name="&gt;&gt;TableParameterSub.Name" xml:space="preserve">
     <value>TableParameterSub</value>
   </data>
-  <data name="EvasionMax.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LOSMax.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Right</value>
+  </data>
+  <data name="&gt;&gt;ShipType.Type" xml:space="preserve">
+    <value>ElectronicObserver.Window.Control.ImageLabel, ElectronicObserver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;RemodelBeforeAmmo.Parent" xml:space="preserve">
     <value>TableRemodel</value>
@@ -996,16 +993,10 @@
   <data name="TableBattle.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
   </data>
-  <data name="&gt;&gt;PowerUpTorpedo.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
   <data name="TableParameterMain.ColumnCount" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
   <data name="&gt;&gt;TitleRange.Type" xml:space="preserve">
-    <value>ElectronicObserver.Window.Control.ImageLabel, ElectronicObserver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;AlbumNo.Type" xml:space="preserve">
     <value>ElectronicObserver.Window.Control.ImageLabel, ElectronicObserver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;TitleTorpedo.Name" xml:space="preserve">
@@ -1047,9 +1038,6 @@
   <data name="&gt;&gt;RemodelAfterShipName.Parent" xml:space="preserve">
     <value>TableRemodel</value>
   </data>
-  <data name="&gt;&gt;LuckMin.Name" xml:space="preserve">
-    <value>LuckMin</value>
-  </data>
   <data name="Aircraft1.Location" type="System.Drawing.Point, System.Drawing">
     <value>15, 3</value>
   </data>
@@ -1058,9 +1046,6 @@
   </data>
   <data name="Ammo.Location" type="System.Drawing.Point, System.Drawing">
     <value>126, 3</value>
-  </data>
-  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="TitleRange.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 16</value>
@@ -1080,6 +1065,9 @@
   <data name="MaterialSteel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left</value>
   </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>艦船図鑑</value>
+  </data>
   <data name="&gt;&gt;splitContainer1.Panel1.Parent" xml:space="preserve">
     <value>splitContainer1</value>
   </data>
@@ -1098,11 +1086,14 @@
   <data name="&gt;&gt;DayAttack.Parent" xml:space="preserve">
     <value>TableBattle</value>
   </data>
-  <data name="&gt;&gt;PowerUpArmor.Type" xml:space="preserve">
-    <value>ElectronicObserver.Window.Control.ImageLabel, ElectronicObserver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  <data name="TableArsenal.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
   <data name="&gt;&gt;Speed.Type" xml:space="preserve">
     <value>ElectronicObserver.Window.Control.ImageLabel, ElectronicObserver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="TitleSpeed.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="&gt;&gt;RemodelBeforeSteel.Type" xml:space="preserve">
     <value>ElectronicObserver.Window.Control.ImageLabel, ElectronicObserver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
@@ -1134,14 +1125,11 @@
   <data name="ArmorMin.Text" xml:space="preserve">
     <value>123</value>
   </data>
-  <data name="&gt;&gt;RemodelAfterLevel.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="&gt;&gt;imageLabel35.Name" xml:space="preserve">
+    <value>imageLabel35</value>
   </data>
   <data name="&gt;&gt;EvasionMin.Name" xml:space="preserve">
     <value>EvasionMin</value>
-  </data>
-  <data name="&gt;&gt;AAMin.Type" xml:space="preserve">
-    <value>ElectronicObserver.Window.Control.ImageLabel, ElectronicObserver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="MaterialAmmo.Text" xml:space="preserve">
     <value>123</value>
@@ -1149,11 +1137,20 @@
   <data name="TorpedoMin.ToolTip" xml:space="preserve">
     <value />
   </data>
+  <data name="&gt;&gt;TitleLuck.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;TitleEvasion.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
   <data name="&gt;&gt;RemodelAfter.Parent" xml:space="preserve">
     <value>TableRemodel</value>
   </data>
   <data name="Description.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="imageLabel60.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
   </data>
   <data name="&gt;&gt;ShipID.Parent" xml:space="preserve">
     <value>BasePanelShipGirl</value>
@@ -1163,9 +1160,6 @@
   </data>
   <data name="&gt;&gt;PowerUpAA.Type" xml:space="preserve">
     <value>ElectronicObserver.Window.Control.ImageLabel, ElectronicObserver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;TitleParameterMin.ZOrder" xml:space="preserve">
-    <value>24</value>
   </data>
   <data name="&gt;&gt;FirepowerMin.Parent" xml:space="preserve">
     <value>TableParameterMain</value>
@@ -1206,6 +1200,9 @@
   <data name="TableArsenal.ColumnCount" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
+  <data name="HPMin.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="&gt;&gt;LOSMax.Type" xml:space="preserve">
     <value>ElectronicObserver.Window.Control.ImageLabel, ElectronicObserver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
@@ -1224,8 +1221,8 @@
   <data name="&gt;&gt;TitleBuildingTime.Type" xml:space="preserve">
     <value>ElectronicObserver.Window.Control.ImageLabel, ElectronicObserver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="ArmorMax.ToolTip" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;Aircraft5.Parent" xml:space="preserve">
+    <value>TableEquipment</value>
   </data>
   <data name="PowerUpFirepower.Text" xml:space="preserve">
     <value>123</value>
@@ -1241,9 +1238,6 @@
   </data>
   <data name="&gt;&gt;Aircraft4.Name" xml:space="preserve">
     <value>Aircraft4</value>
-  </data>
-  <data name="imageLabel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>105, 6</value>
   </data>
   <data name="&gt;&gt;Aircraft2.Type" xml:space="preserve">
     <value>ElectronicObserver.Window.Control.ImageLabel, ElectronicObserver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
@@ -1265,9 +1259,6 @@
   </data>
   <data name="&gt;&gt;splitContainer1.Panel1.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="TableRemodel.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
-    <value>GrowAndShrink</value>
   </data>
   <data name="&gt;&gt;RemodelAfterShipName.ZOrder" xml:space="preserve">
     <value>3</value>
@@ -1302,6 +1293,9 @@
   <data name="PowerUpAA.Size" type="System.Drawing.Size, System.Drawing">
     <value>41, 16</value>
   </data>
+  <data name="RemodelBeforeLevel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
   <data name="ASWMax.Size" type="System.Drawing.Size, System.Drawing">
     <value>22, 16</value>
   </data>
@@ -1320,23 +1314,23 @@
   <data name="&gt;&gt;TitleASW.Parent" xml:space="preserve">
     <value>TableParameterMain</value>
   </data>
+  <data name="RemodelBeforeShipName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 3</value>
+  </data>
   <data name="LuckMax.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Right</value>
-  </data>
-  <data name="&gt;&gt;Aircraft5.Parent" xml:space="preserve">
-    <value>TableEquipment</value>
-  </data>
-  <data name="TitleRange.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 25</value>
   </data>
   <data name="&gt;&gt;imageLabel37.Parent" xml:space="preserve">
     <value>TableParameterMain</value>
   </data>
+  <data name="&gt;&gt;ShipView_ShipID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="TableConsumption.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 344</value>
   </data>
-  <data name="&gt;&gt;imageLabel2.Name" xml:space="preserve">
-    <value>imageLabel2</value>
+  <data name="&gt;&gt;TitleFirepower.Name" xml:space="preserve">
+    <value>TitleFirepower</value>
   </data>
   <data name="imageLabel35.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -1352,6 +1346,9 @@
   </data>
   <data name="ArmorMin.Location" type="System.Drawing.Point, System.Drawing">
     <value>85, 120</value>
+  </data>
+  <data name="StripMenu_File_OutputCSVData.Text" xml:space="preserve">
+    <value>CSV出力(データ用)(&amp;D)...</value>
   </data>
   <data name="TableBattle.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
@@ -1371,8 +1368,8 @@
   <data name="&gt;&gt;ShipID.Type" xml:space="preserve">
     <value>ElectronicObserver.Window.Control.ImageLabel, ElectronicObserver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="MaterialAmmo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Left</value>
+  <data name="&gt;&gt;TitleAirSuperiority.Name" xml:space="preserve">
+    <value>TitleAirSuperiority</value>
   </data>
   <data name="Aircraft5.Size" type="System.Drawing.Size, System.Drawing">
     <value>22, 16</value>
@@ -1380,8 +1377,8 @@
   <data name="&gt;&gt;TableParameterMain.Parent" xml:space="preserve">
     <value>BasePanelShipGirl</value>
   </data>
-  <data name="&gt;&gt;RemodelBeforeShipName.Parent" xml:space="preserve">
-    <value>TableRemodel</value>
+  <data name="&gt;&gt;Aircraft3.Name" xml:space="preserve">
+    <value>Aircraft3</value>
   </data>
   <data name="&gt;&gt;Equipment2.Type" xml:space="preserve">
     <value>ElectronicObserver.Window.Control.ImageLabel, ElectronicObserver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
@@ -1404,8 +1401,8 @@
   <data name="EvasionLevel.Size" type="System.Drawing.Size, System.Drawing">
     <value>22, 16</value>
   </data>
-  <data name="Aircraft4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>22, 16</value>
+  <data name="TitleParameterMin.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
   </data>
   <data name="TitleDayAttack.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 25</value>
@@ -1413,8 +1410,8 @@
   <data name="imageLabel71.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
   </data>
-  <data name="&gt;&gt;ShipView_ShipID.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="EvasionMax.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
   </data>
   <data name="TorpedoMax.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Right</value>
@@ -1424,9 +1421,6 @@
   </data>
   <data name="TableEquipment.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="Equipment5" Row="4" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="Aircraft5" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Equipment4" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="Aircraft4" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Equipment3" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="Aircraft1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Equipment2" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="Equipment1" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="Aircraft3" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Aircraft2" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,40,Percent,100" /&gt;&lt;Rows Styles="AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="&gt;&gt;TitleAA.Name" xml:space="preserve">
-    <value>TitleAA</value>
   </data>
   <data name="PowerUpArmor.Location" type="System.Drawing.Point, System.Drawing">
     <value>178, 25</value>
@@ -1440,8 +1434,8 @@
   <data name="TitleBuildingTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>68, 16</value>
   </data>
-  <data name="&gt;&gt;TitleAirSuperiority.Name" xml:space="preserve">
-    <value>TitleAirSuperiority</value>
+  <data name="&gt;&gt;imageLabel41.Parent" xml:space="preserve">
+    <value>TableParameterMain</value>
   </data>
   <data name="TitleSpeed.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 16</value>
@@ -1539,9 +1533,6 @@
   <data name="Description.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 380</value>
   </data>
-  <data name="imageLabel42.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Left, Right</value>
-  </data>
   <data name="imageLabel59.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 3</value>
   </data>
@@ -1557,11 +1548,14 @@
   <data name="Equipment4.Location" type="System.Drawing.Point, System.Drawing">
     <value>43, 69</value>
   </data>
+  <data name="HPMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 16</value>
+  </data>
   <data name="Aircraft1.Size" type="System.Drawing.Size, System.Drawing">
     <value>22, 16</value>
   </data>
-  <data name="&gt;&gt;Ammo.Parent" xml:space="preserve">
-    <value>TableConsumption</value>
+  <data name="&gt;&gt;PowerUpArmor.Type" xml:space="preserve">
+    <value>ElectronicObserver.Window.Control.ImageLabel, ElectronicObserver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;BuildingTime.ZOrder" xml:space="preserve">
     <value>9</value>
@@ -1590,9 +1584,6 @@
   <data name="LOSMax.Size" type="System.Drawing.Size, System.Drawing">
     <value>22, 16</value>
   </data>
-  <data name="splitContainer1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
   <data name="ArmorMax.Location" type="System.Drawing.Point, System.Drawing">
     <value>157, 120</value>
   </data>
@@ -1605,17 +1596,14 @@
   <data name="FirepowerMax.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="&gt;&gt;RemodelBeforeShipName.Name" xml:space="preserve">
-    <value>RemodelBeforeShipName</value>
+  <data name="TitleParameterMax.Text" xml:space="preserve">
+    <value>最大値</value>
   </data>
   <data name="ASWLevel.Text" xml:space="preserve">
     <value>123</value>
   </data>
-  <data name="Equipment5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>43, 91</value>
-  </data>
-  <data name="ASWMin.ToolTip" xml:space="preserve">
-    <value />
+  <data name="RemodelBeforeAmmo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
   </data>
   <data name="Aircraft2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Right</value>
@@ -1624,6 +1612,9 @@
     <value />
   </data>
   <data name="imageLabel72.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LOSLevel.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="ShipID.ToolTip" xml:space="preserve">
@@ -1641,13 +1632,19 @@
   <data name="imageLabel72.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
   </data>
+  <data name="Equipment2.Text" xml:space="preserve">
+    <value>123</value>
+  </data>
   <data name="MaterialBauxite.Size" type="System.Drawing.Size, System.Drawing">
     <value>41, 16</value>
   </data>
-  <data name="&gt;&gt;imageLabel41.Parent" xml:space="preserve">
-    <value>TableParameterMain</value>
+  <data name="LuckMin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 208</value>
   </data>
   <data name="Aircraft5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RemodelBeforeAmmo.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="Rarity.Text" xml:space="preserve">
@@ -1680,20 +1677,23 @@
   <data name="TitleLuck.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 16</value>
   </data>
-  <data name="&gt;&gt;Aircraft3.ZOrder" xml:space="preserve">
-    <value>8</value>
+  <data name="splitContainer1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
   </data>
   <data name="&gt;&gt;Equipment5.Parent" xml:space="preserve">
     <value>TableEquipment</value>
   </data>
-  <data name="RemodelBeforeLevel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>46, 25</value>
+  <data name="&gt;&gt;ASWLevel.Name" xml:space="preserve">
+    <value>ASWLevel</value>
   </data>
   <data name="PowerUpArmor.Size" type="System.Drawing.Size, System.Drawing">
     <value>41, 16</value>
   </data>
   <data name="&gt;&gt;TitleEvasion.Parent" xml:space="preserve">
     <value>TableParameterMain</value>
+  </data>
+  <data name="EvasionLevel.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
   </data>
   <data name="EvasionMin.ToolTip" xml:space="preserve">
     <value />
@@ -1712,9 +1712,6 @@
   </data>
   <data name="&gt;&gt;ArmorMax.ZOrder" xml:space="preserve">
     <value>23</value>
-  </data>
-  <data name="imageLabel41.Size" type="System.Drawing.Size, System.Drawing">
-    <value>6, 15</value>
   </data>
   <data name="TableArsenal.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
     <value>GrowAndShrink</value>
@@ -1749,14 +1746,17 @@
   <data name="RemodelAfterLevel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left</value>
   </data>
+  <data name="&gt;&gt;StripMenu_File_OutputCSVUser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TorpedoMin.Type" xml:space="preserve">
+    <value>ElectronicObserver.Window.Control.ImageLabel, ElectronicObserver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
   <data name="&gt;&gt;BuildingTime.Name" xml:space="preserve">
     <value>BuildingTime</value>
   </data>
-  <data name="&gt;&gt;ShipType.Type" xml:space="preserve">
-    <value>ElectronicObserver.Window.Control.ImageLabel, ElectronicObserver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="TableShipName.ToolTip" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;Equipment5.Name" xml:space="preserve">
+    <value>Equipment5</value>
   </data>
   <data name="RemodelAfterLevel.Text" xml:space="preserve">
     <value>Lv. 80</value>
@@ -1803,12 +1803,6 @@
   <data name="&gt;&gt;RemodelAfterAmmo.Name" xml:space="preserve">
     <value>RemodelAfterAmmo</value>
   </data>
-  <data name="MaterialAmmo.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="BuildingTime.Text" xml:space="preserve">
-    <value>06:00:00</value>
-  </data>
   <data name="AirSuperiority.Text" xml:space="preserve">
     <value>0</value>
   </data>
@@ -1824,9 +1818,6 @@
   <data name="LOSSeparater.Location" type="System.Drawing.Point, System.Drawing">
     <value>185, 186</value>
   </data>
-  <data name="AlbumNo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 16</value>
-  </data>
   <data name="&gt;&gt;LuckMin.Parent" xml:space="preserve">
     <value>TableParameterMain</value>
   </data>
@@ -1836,11 +1827,8 @@
   <data name="ParameterLevel.Location" type="System.Drawing.Point, System.Drawing">
     <value>197, 3</value>
   </data>
-  <data name="&gt;&gt;MaterialBauxite.Parent" xml:space="preserve">
-    <value>TableArsenal</value>
-  </data>
-  <data name="TitleAirSuperiority.Text" xml:space="preserve">
-    <value>制空戦力</value>
+  <data name="&gt;&gt;Description.Parent" xml:space="preserve">
+    <value>BasePanelShipGirl</value>
   </data>
   <data name="TitleDayAttack.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Right</value>
@@ -1871,9 +1859,6 @@
   </data>
   <data name="ShipView.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
-  </data>
-  <data name="AAMax.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="MaterialFuel.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -1911,11 +1896,17 @@
   <data name="RemodelBeforeShipName.Size" type="System.Drawing.Size, System.Drawing">
     <value>55, 16</value>
   </data>
+  <data name="BasePanelShipGirl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>546, 455</value>
+  </data>
   <data name="TitleArmor.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="pictureBox1.ToolTip" xml:space="preserve">
     <value />
+  </data>
+  <data name="&gt;&gt;RemodelAfterLevel.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="&gt;&gt;TitleParameterMax.Name" xml:space="preserve">
     <value>TitleParameterMax</value>
@@ -1928,9 +1919,6 @@
   </data>
   <data name="LOSLevel.Size" type="System.Drawing.Size, System.Drawing">
     <value>22, 16</value>
-  </data>
-  <data name="&gt;&gt;Description.Parent" xml:space="preserve">
-    <value>BasePanelShipGirl</value>
   </data>
   <data name="imageLabel40.Location" type="System.Drawing.Point, System.Drawing">
     <value>113, 164</value>
@@ -1980,17 +1968,14 @@
   <data name="EvasionLevel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Right</value>
   </data>
-  <data name="RemodelBeforeAmmo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Left</value>
-  </data>
-  <data name="&gt;&gt;TitleSpeed.Name" xml:space="preserve">
-    <value>TitleSpeed</value>
-  </data>
-  <data name="StripMenu_File_OutputCSVData.Text" xml:space="preserve">
-    <value>CSV出力(データ用)(&amp;D)...</value>
+  <data name="MaterialBauxite.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
   </data>
   <data name="TorpedoMin.Size" type="System.Drawing.Size, System.Drawing">
     <value>22, 16</value>
+  </data>
+  <data name="&gt;&gt;Ammo.Parent" xml:space="preserve">
+    <value>TableConsumption</value>
   </data>
   <data name="TitleArmor.Text" xml:space="preserve">
     <value>装甲</value>
@@ -2022,8 +2007,8 @@
   <data name="TableShipName.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 25</value>
   </data>
-  <data name="&gt;&gt;StripMenu_File_OutputCSVUser.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;AAMin.Type" xml:space="preserve">
+    <value>ElectronicObserver.Window.Control.ImageLabel, ElectronicObserver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="Equipment5.ToolTip" xml:space="preserve">
     <value />
@@ -2070,14 +2055,14 @@
   <data name="Equipment1.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="&gt;&gt;splitContainer1.Panel1.Name" xml:space="preserve">
-    <value>splitContainer1.Panel1</value>
-  </data>
   <data name="TableEquipment.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
   </data>
   <data name="Equipment5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left</value>
+  </data>
+  <data name="&gt;&gt;imageLabel71.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
   <data name="NightAttack.Size" type="System.Drawing.Size, System.Drawing">
     <value>25, 16</value>
@@ -2085,23 +2070,23 @@
   <data name="&gt;&gt;ShipType.Parent" xml:space="preserve">
     <value>TableShipName</value>
   </data>
-  <data name="&gt;&gt;Aircraft3.Name" xml:space="preserve">
-    <value>Aircraft3</value>
-  </data>
-  <data name="LuckMin.Location" type="System.Drawing.Point, System.Drawing">
-    <value>85, 208</value>
-  </data>
   <data name="&gt;&gt;ShipView_ShipType.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;RemodelBeforeShipName.ZOrder" xml:space="preserve">
-    <value>8</value>
+  <data name="imageLabel42.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 208</value>
   </data>
   <data name="RemodelBeforeAmmo.Size" type="System.Drawing.Size, System.Drawing">
     <value>41, 16</value>
   </data>
+  <data name="BuildingTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="Aircraft5.Text" xml:space="preserve">
     <value>123</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>816, 518</value>
   </data>
   <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
     <value>800, 25</value>
@@ -2112,8 +2097,8 @@
   <data name="&gt;&gt;imageLabel71.Name" xml:space="preserve">
     <value>imageLabel71</value>
   </data>
-  <data name="TableConsumption.Size" type="System.Drawing.Size, System.Drawing">
-    <value>170, 22</value>
+  <data name="&gt;&gt;TitleParameterMax.Type" xml:space="preserve">
+    <value>ElectronicObserver.Window.Control.ImageLabel, ElectronicObserver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;MaterialSteel.Name" xml:space="preserve">
     <value>MaterialSteel</value>
@@ -2142,14 +2127,14 @@
   <data name="&gt;&gt;ArmorMax.Type" xml:space="preserve">
     <value>ElectronicObserver.Window.Control.ImageLabel, ElectronicObserver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="DayAttack.Text" xml:space="preserve">
-    <value>主砲/主砲</value>
+  <data name="&gt;&gt;Aircraft1.Parent" xml:space="preserve">
+    <value>TableEquipment</value>
   </data>
   <data name="&gt;&gt;TitleTorpedo.Type" xml:space="preserve">
     <value>ElectronicObserver.Window.Control.ImageLabel, ElectronicObserver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="NightAttack.ToolTip" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;TableArsenal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;imageLabel76.Name" xml:space="preserve">
     <value>imageLabel76</value>
@@ -2160,8 +2145,8 @@
   <data name="TitleHP.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 32</value>
   </data>
-  <data name="&gt;&gt;LOSLevel.Type" xml:space="preserve">
-    <value>ElectronicObserver.Window.Control.ImageLabel, ElectronicObserver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  <data name="Aircraft4.Text" xml:space="preserve">
+    <value>123</value>
   </data>
   <data name="&gt;&gt;ShipView.Name" xml:space="preserve">
     <value>ShipView</value>
@@ -2175,8 +2160,8 @@
   <data name="MaterialFuel.Location" type="System.Drawing.Point, System.Drawing">
     <value>34, 3</value>
   </data>
-  <data name="ShipView_ShipID.Width" type="System.Int32, mscorlib">
-    <value>40</value>
+  <data name="Equipment2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 16</value>
   </data>
   <data name="&gt;&gt;MaterialFuel.Type" xml:space="preserve">
     <value>ElectronicObserver.Window.Control.ImageLabel, ElectronicObserver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
@@ -2208,8 +2193,8 @@
   <data name="imageLabel37.Text" xml:space="preserve">
     <value>/</value>
   </data>
-  <data name="RemodelBeforeShipName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>46, 3</value>
+  <data name="&gt;&gt;AlbumNo.Type" xml:space="preserve">
+    <value>ElectronicObserver.Window.Control.ImageLabel, ElectronicObserver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="TitleDayAttack.Size" type="System.Drawing.Size, System.Drawing">
     <value>68, 16</value>
@@ -2235,20 +2220,20 @@
   <data name="ParameterLevel.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
     <value>Right</value>
   </data>
-  <data name="RemodelBeforeLevel.Text" xml:space="preserve">
-    <value>Lv. 50</value>
-  </data>
   <data name="&gt;&gt;TorpedoMax.Parent" xml:space="preserve">
     <value>TableParameterMain</value>
   </data>
-  <data name="TitleParameterMin.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 3, 6, 3</value>
+  <data name="EvasionMax.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imageLabel71.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 16</value>
   </data>
   <data name="Description.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
   </data>
-  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>816, 518</value>
+  <data name="DayAttack.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
   </data>
   <data name="LuckMax.Text" xml:space="preserve">
     <value>123</value>
@@ -2274,8 +2259,8 @@
   <data name="imageLabel59.Text" xml:space="preserve">
     <value>解体</value>
   </data>
-  <data name="PowerUpAA.Text" xml:space="preserve">
-    <value>123</value>
+  <data name="&gt;&gt;TitleAA.Name" xml:space="preserve">
+    <value>TitleAA</value>
   </data>
   <data name="NightAttack.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left</value>
@@ -2298,11 +2283,14 @@
   <data name="&gt;&gt;TitleAA.ZOrder" xml:space="preserve">
     <value>38</value>
   </data>
-  <data name="&gt;&gt;imageLabel37.Name" xml:space="preserve">
-    <value>imageLabel37</value>
+  <data name="&gt;&gt;ArmorMax.Parent" xml:space="preserve">
+    <value>TableParameterMain</value>
   </data>
   <data name="&gt;&gt;TitleEvasion.Name" xml:space="preserve">
     <value>TitleEvasion</value>
+  </data>
+  <data name="TitleLuck.Text" xml:space="preserve">
+    <value>運</value>
   </data>
   <data name="&gt;&gt;TableConsumption.ZOrder" xml:space="preserve">
     <value>7</value>
@@ -2316,17 +2304,17 @@
   <data name="BasePanelShipGirl.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <data name="RemodelBeforeAmmo.ToolTip" xml:space="preserve">
-    <value />
+  <data name="Aircraft1.Text" xml:space="preserve">
+    <value>123</value>
   </data>
   <data name="&gt;&gt;Aircraft4.Parent" xml:space="preserve">
     <value>TableEquipment</value>
   </data>
-  <data name="&gt;&gt;TitleFirepower.Name" xml:space="preserve">
-    <value>TitleFirepower</value>
+  <data name="&gt;&gt;RemodelBefore.ZOrder" xml:space="preserve">
+    <value>9</value>
   </data>
-  <data name="TitleParameterMax.Text" xml:space="preserve">
-    <value>最大値</value>
+  <data name="ASWMin.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="&gt;&gt;imageLabel38.Parent" xml:space="preserve">
     <value>TableParameterMain</value>
@@ -2334,17 +2322,14 @@
   <data name="ShipType.Text" xml:space="preserve">
     <value>重雷装巡洋艦</value>
   </data>
-  <data name="&gt;&gt;TorpedoMin.Type" xml:space="preserve">
-    <value>ElectronicObserver.Window.Control.ImageLabel, ElectronicObserver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  <data name="imageLabel36.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="HPMax.Location" type="System.Drawing.Point, System.Drawing">
-    <value>157, 32</value>
+  <data name="&gt;&gt;TitleAirSuperiority.Type" xml:space="preserve">
+    <value>ElectronicObserver.Window.Control.ImageLabel, ElectronicObserver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="TitleConsumption.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 16</value>
-  </data>
-  <data name="&gt;&gt;TitleRange.Parent" xml:space="preserve">
-    <value>TableParameterSub</value>
   </data>
   <data name="AAMax.Location" type="System.Drawing.Point, System.Drawing">
     <value>157, 98</value>
@@ -2379,8 +2364,8 @@
   <data name="$this.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="Aircraft2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 25</value>
+  <data name="TableShipName.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="ShipView_Name.HeaderText" xml:space="preserve">
     <value>艦名</value>
@@ -2397,14 +2382,17 @@
   <data name="&gt;&gt;TitleParameterMin.Name" xml:space="preserve">
     <value>TitleParameterMin</value>
   </data>
+  <data name="RemodelAfterAmmo.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
   <data name="&gt;&gt;DayAttack.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
   <data name="MaterialBauxite.Location" type="System.Drawing.Point, System.Drawing">
     <value>178, 3</value>
   </data>
-  <data name="TitleNightAttack.ToolTip" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;imageLabel36.Name" xml:space="preserve">
+    <value>imageLabel36</value>
   </data>
   <data name="LuckMin.Size" type="System.Drawing.Size, System.Drawing">
     <value>22, 16</value>
@@ -2427,8 +2415,8 @@
   <data name="splitContainer1.Panel2.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="Equipment3.ToolTip" xml:space="preserve">
-    <value />
+  <data name="Aircraft2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 25</value>
   </data>
   <data name="RemodelAfterShipName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left</value>
@@ -2451,8 +2439,8 @@
   <data name="AAMin.Text" xml:space="preserve">
     <value>123</value>
   </data>
-  <data name="TitleLuck.Text" xml:space="preserve">
-    <value>運</value>
+  <data name="Equipment1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 16</value>
   </data>
   <data name="FirepowerMin.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Right</value>
@@ -2475,8 +2463,8 @@
   <data name="&gt;&gt;StripMenu_File_OutputCSVData.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="RemodelAfterAmmo.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
+  <data name="&gt;&gt;RemodelBeforeShipName.ZOrder" xml:space="preserve">
+    <value>8</value>
   </data>
   <data name="ShipType.ToolTip" xml:space="preserve">
     <value />
@@ -2499,11 +2487,8 @@
   <data name="&gt;&gt;imageLabel60.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="&gt;&gt;AirSuperiority.Name" xml:space="preserve">
-    <value>AirSuperiority</value>
-  </data>
-  <data name="TitleLOS.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 186</value>
+  <data name="&gt;&gt;LuckMin.Name" xml:space="preserve">
+    <value>LuckMin</value>
   </data>
   <data name="TitleSpeed.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
@@ -2511,8 +2496,8 @@
   <data name="Equipment4.Text" xml:space="preserve">
     <value>123</value>
   </data>
-  <data name="&gt;&gt;TableParameterSub.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;LevelTimer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="LuckMin.ToolTip" xml:space="preserve">
     <value />
@@ -2529,17 +2514,17 @@
   <data name="ASWMax.Location" type="System.Drawing.Point, System.Drawing">
     <value>157, 142</value>
   </data>
-  <data name="TorpedoMax.Text" xml:space="preserve">
-    <value>123</value>
+  <data name="&gt;&gt;RemodelBeforeAmmo.Name" xml:space="preserve">
+    <value>RemodelBeforeAmmo</value>
   </data>
-  <data name="&gt;&gt;ASWLevel.Name" xml:space="preserve">
-    <value>ASWLevel</value>
+  <data name="imageLabel36.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 15</value>
   </data>
   <data name="splitContainer1.Panel1.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;TitleRange.Parent" xml:space="preserve">
+    <value>TableParameterSub</value>
   </data>
   <data name="&gt;&gt;PowerUpFirepower.Type" xml:space="preserve">
     <value>ElectronicObserver.Window.Control.ImageLabel, ElectronicObserver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
@@ -2553,14 +2538,14 @@
   <data name="&gt;&gt;imageLabel35.ZOrder" xml:space="preserve">
     <value>18</value>
   </data>
-  <data name="&gt;&gt;EvasionMax.ZOrder" xml:space="preserve">
-    <value>19</value>
+  <data name="TitleLOS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 186</value>
   </data>
   <data name="TitleLuck.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
   </data>
-  <data name="HPMax.ToolTip" xml:space="preserve">
-    <value />
+  <data name="BuildingTime.Text" xml:space="preserve">
+    <value>06:00:00</value>
   </data>
   <data name="Equipment3.Size" type="System.Drawing.Size, System.Drawing">
     <value>41, 16</value>
@@ -2583,9 +2568,6 @@
   <data name="&gt;&gt;MaterialAmmo.Parent" xml:space="preserve">
     <value>TableArsenal</value>
   </data>
-  <data name="RemodelBeforeLevel.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="&gt;&gt;ShipView_Name.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -2595,17 +2577,17 @@
   <data name="LOSMin.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="&gt;&gt;imageLabel71.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="MaterialAmmo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>800, 480</value>
+  <data name="TitleParameterMin.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 3, 6, 3</value>
   </data>
   <data name="LOSMax.Location" type="System.Drawing.Point, System.Drawing">
     <value>157, 186</value>
   </data>
-  <data name="TableArsenal.Location" type="System.Drawing.Point, System.Drawing">
-    <value>300, 213</value>
+  <data name="&gt;&gt;splitContainer1.Panel1.Name" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
   </data>
   <data name="LOSSeparater.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -2634,8 +2616,8 @@
   <data name="TitleHP.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="RemodelBeforeLevel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Left</value>
+  <data name="&gt;&gt;Range.Name" xml:space="preserve">
+    <value>Range</value>
   </data>
   <data name="&gt;&gt;AirSuperiority.Type" xml:space="preserve">
     <value>ElectronicObserver.Window.Control.ImageLabel, ElectronicObserver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
@@ -2658,17 +2640,14 @@
   <data name="imageLabel35.Location" type="System.Drawing.Point, System.Drawing">
     <value>113, 54</value>
   </data>
-  <data name="EvasionMin.Text" xml:space="preserve">
-    <value>123</value>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>800, 480</value>
   </data>
   <data name="TitleParameterMax.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left, Right</value>
   </data>
-  <data name="EvasionLevel.TabIndex" type="System.Int32, mscorlib">
-    <value>22</value>
-  </data>
-  <data name="imageLabel36.Size" type="System.Drawing.Size, System.Drawing">
-    <value>6, 15</value>
+  <data name="RemodelBeforeLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 25</value>
   </data>
   <data name="imageLabel35.ToolTip" xml:space="preserve">
     <value />
@@ -2688,8 +2667,8 @@
   <data name="imageLabel71.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="FirepowerMax.Size" type="System.Drawing.Size, System.Drawing">
-    <value>22, 16</value>
+  <data name="&gt;&gt;TitleSpeed.Name" xml:space="preserve">
+    <value>TitleSpeed</value>
   </data>
   <data name="NightAttack.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
@@ -2697,14 +2676,14 @@
   <data name="TitleParameterMax.Location" type="System.Drawing.Point, System.Drawing">
     <value>128, 10</value>
   </data>
-  <data name="EvasionMax.ToolTip" xml:space="preserve">
+  <data name="HPMax.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="PowerUpTorpedo.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
   </data>
-  <data name="&gt;&gt;LevelTimer.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="TableArsenal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 213</value>
   </data>
   <data name="imageLabel76.Text" xml:space="preserve">
     <value>123</value>
@@ -2736,8 +2715,8 @@
   <data name="imageLabel72.Location" type="System.Drawing.Point, System.Drawing">
     <value>113, 25</value>
   </data>
-  <data name="HPMin.ToolTip" xml:space="preserve">
-    <value />
+  <data name="RemodelBeforeLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 16</value>
   </data>
   <data name="&gt;&gt;LOSMin.Name" xml:space="preserve">
     <value>LOSMin</value>
@@ -2787,8 +2766,8 @@
   <data name="TitleConsumption.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
   </data>
-  <data name="TitleLOS.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Left</value>
+  <data name="&gt;&gt;imageLabel3.Type" xml:space="preserve">
+    <value>ElectronicObserver.Window.Control.ImageLabel, ElectronicObserver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="imageLabel37.Location" type="System.Drawing.Point, System.Drawing">
     <value>113, 98</value>
@@ -2814,20 +2793,20 @@
   <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
-  <data name="&gt;&gt;imageLabel45.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
   <data name="AAMin.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="&gt;&gt;Range.Type" xml:space="preserve">
-    <value>ElectronicObserver.Window.Control.ImageLabel, ElectronicObserver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  <data name="ShipType.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
   </data>
   <data name="LuckMin.Text" xml:space="preserve">
     <value>123</value>
   </data>
-  <data name="&gt;&gt;TitleEvasion.ZOrder" xml:space="preserve">
-    <value>41</value>
+  <data name="TitleAA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 16</value>
+  </data>
+  <data name="imageLabel37.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
     <value>383, 3</value>
@@ -2868,8 +2847,8 @@
   <data name="RemodelBeforeShipName.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="BasePanelShipGirl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>546, 455</value>
+  <data name="ArmorMax.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="&gt;&gt;ArmorMin.Type" xml:space="preserve">
     <value>ElectronicObserver.Window.Control.ImageLabel, ElectronicObserver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
@@ -2922,11 +2901,11 @@
   <data name="AirSuperiority.Location" type="System.Drawing.Point, System.Drawing">
     <value>77, 3</value>
   </data>
-  <data name="TitleParameterMin.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left, Right</value>
+  <data name="imageLabel41.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 15</value>
   </data>
-  <data name="&gt;&gt;TitleEvasion.Type" xml:space="preserve">
-    <value>ElectronicObserver.Window.Control.ImageLabel, ElectronicObserver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  <data name="&gt;&gt;imageLabel45.ZOrder" xml:space="preserve">
+    <value>13</value>
   </data>
   <data name="EvasionSeparater.Location" type="System.Drawing.Point, System.Drawing">
     <value>185, 164</value>
@@ -2970,8 +2949,8 @@
   <data name="TitleParameterMax.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
-  <data name="Equipment2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>41, 16</value>
+  <data name="&gt;&gt;MaterialFuel.Name" xml:space="preserve">
+    <value>MaterialFuel</value>
   </data>
   <data name="&gt;&gt;ShipView_ShipType.Name" xml:space="preserve">
     <value>ShipView_ShipType</value>
@@ -2982,11 +2961,8 @@
   <data name="&gt;&gt;TitleLOS.Parent" xml:space="preserve">
     <value>TableParameterMain</value>
   </data>
-  <data name="TitleAA.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 16</value>
-  </data>
-  <data name="imageLabel36.ToolTip" xml:space="preserve">
-    <value />
+  <data name="FirepowerMin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 16</value>
   </data>
   <data name="imageLabel72.Text" xml:space="preserve">
     <value>-</value>
@@ -3009,8 +2985,8 @@
   <data name="&gt;&gt;RemodelAfterSteel.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="TableEquipment.Size" type="System.Drawing.Size, System.Drawing">
-    <value>234, 110</value>
+  <data name="MaterialAmmo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 16</value>
   </data>
   <data name="&gt;&gt;TableBattle.Parent" xml:space="preserve">
     <value>BasePanelShipGirl</value>
@@ -3018,11 +2994,17 @@
   <data name="&gt;&gt;TitleTorpedo.ZOrder" xml:space="preserve">
     <value>37</value>
   </data>
+  <data name="&gt;&gt;FirepowerMax.Type" xml:space="preserve">
+    <value>ElectronicObserver.Window.Control.ImageLabel, ElectronicObserver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
   <data name="MaterialSteel.Location" type="System.Drawing.Point, System.Drawing">
     <value>130, 3</value>
   </data>
   <data name="RemodelBeforeShipName.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
+  </data>
+  <data name="TorpedoMax.Text" xml:space="preserve">
+    <value>123</value>
   </data>
   <data name="&gt;&gt;imageLabel42.Type" xml:space="preserve">
     <value>ElectronicObserver.Window.Control.ImageLabel, ElectronicObserver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
@@ -3039,8 +3021,8 @@
   <data name="imageLabel3.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="TitleSpeed.ToolTip" xml:space="preserve">
-    <value />
+  <data name="Equipment5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 91</value>
   </data>
   <data name="&gt;&gt;Equipment3.Parent" xml:space="preserve">
     <value>TableEquipment</value>
@@ -3066,6 +3048,9 @@
   <data name="ASWSeparater.Text" xml:space="preserve">
     <value>/</value>
   </data>
+  <data name="&gt;&gt;MaterialBauxite.Parent" xml:space="preserve">
+    <value>TableArsenal</value>
+  </data>
   <data name="TableParameterMain.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
@@ -3075,19 +3060,25 @@
   <data name="TableParameterSub.ColumnCount" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
+  <data name="&gt;&gt;RemodelBeforeShipName.Parent" xml:space="preserve">
+    <value>TableRemodel</value>
+  </data>
   <data name="Equipment1.Text" xml:space="preserve">
     <value>123</value>
   </data>
   <data name="ASWMin.Text" xml:space="preserve">
     <value>123</value>
   </data>
-  <data name="MaterialBauxite.ToolTip" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;StripMenu_File.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;LOSMin.ZOrder" xml:space="preserve">
     <value>17</value>
   </data>
   <data name="&gt;&gt;imageLabel72.Type" xml:space="preserve">
+    <value>ElectronicObserver.Window.Control.ImageLabel, ElectronicObserver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;TitleEvasion.Type" xml:space="preserve">
     <value>ElectronicObserver.Window.Control.ImageLabel, ElectronicObserver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;Aircraft5.ZOrder" xml:space="preserve">
@@ -3105,8 +3096,8 @@
   <data name="&gt;&gt;RemodelAfter.Name" xml:space="preserve">
     <value>RemodelAfter</value>
   </data>
-  <data name="BuildingTime.ToolTip" xml:space="preserve">
-    <value />
+  <data name="TableParameterMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 227</value>
   </data>
   <data name="MaterialAmmo.Location" type="System.Drawing.Point, System.Drawing">
     <value>82, 3</value>
@@ -3122,6 +3113,9 @@
   </data>
   <data name="TitleSpeed.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
+  </data>
+  <data name="&gt;&gt;NightAttack.Name" xml:space="preserve">
+    <value>NightAttack</value>
   </data>
   <data name="imageLabel42.Size" type="System.Drawing.Size, System.Drawing">
     <value>6, 15</value>
@@ -3171,8 +3165,8 @@
   <data name="PowerUpFirepower.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left</value>
   </data>
-  <data name="LOSMax.ToolTip" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;EvasionMax.ZOrder" xml:space="preserve">
+    <value>19</value>
   </data>
   <data name="&gt;&gt;HPMax.Name" xml:space="preserve">
     <value>HPMax</value>
@@ -3186,8 +3180,11 @@
   <data name="TitleLOS.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="MaterialBauxite.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
+  <data name="EvasionMin.Text" xml:space="preserve">
+    <value>123</value>
+  </data>
+  <data name="&gt;&gt;imageLabel37.Name" xml:space="preserve">
+    <value>imageLabel37</value>
   </data>
   <data name="&gt;&gt;splitContainer1.Panel1.Type" xml:space="preserve">
     <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -3207,8 +3204,8 @@
   <data name="&gt;&gt;splitContainer1.Panel2.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;MaterialBauxite.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;PowerUpTorpedo.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="Rarity.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -3234,11 +3231,8 @@
   <data name="Equipment3.Text" xml:space="preserve">
     <value>123</value>
   </data>
-  <data name="TitleRange.ToolTip" xml:space="preserve">
+  <data name="AAMax.ToolTip" xml:space="preserve">
     <value />
-  </data>
-  <data name="TitleNightAttack.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Right</value>
   </data>
   <data name="Range.ToolTip" xml:space="preserve">
     <value />
@@ -3246,8 +3240,8 @@
   <data name="imageLabel36.Location" type="System.Drawing.Point, System.Drawing">
     <value>113, 76</value>
   </data>
-  <data name="&gt;&gt;Aircraft1.Parent" xml:space="preserve">
-    <value>TableEquipment</value>
+  <data name="&gt;&gt;Aircraft5.Name" xml:space="preserve">
+    <value>Aircraft5</value>
   </data>
   <data name="HPMin.Size" type="System.Drawing.Size, System.Drawing">
     <value>22, 16</value>
@@ -3267,8 +3261,8 @@
   <data name="TitleAA.Text" xml:space="preserve">
     <value>対空</value>
   </data>
-  <data name="&gt;&gt;AAMax.Parent" xml:space="preserve">
-    <value>TableParameterMain</value>
+  <data name="NightAttack.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="&gt;&gt;Aircraft3.Type" xml:space="preserve">
     <value>ElectronicObserver.Window.Control.ImageLabel, ElectronicObserver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
@@ -3276,17 +3270,20 @@
   <data name="&gt;&gt;Rarity.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;LOSMin.Parent" xml:space="preserve">
-    <value>TableParameterMain</value>
+  <data name="&gt;&gt;FirepowerMax.Name" xml:space="preserve">
+    <value>FirepowerMax</value>
   </data>
   <data name="&gt;&gt;PowerUpAA.Name" xml:space="preserve">
     <value>PowerUpAA</value>
   </data>
-  <data name="imageLabel42.ToolTip" xml:space="preserve">
+  <data name="TitleRange.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="&gt;&gt;ASWMax.Parent" xml:space="preserve">
     <value>TableParameterMain</value>
+  </data>
+  <data name="TableEquipment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>234, 110</value>
   </data>
   <data name="TitleConsumption.Text" xml:space="preserve">
     <value>消費</value>
@@ -3303,8 +3300,8 @@
   <data name="&gt;&gt;TitleConsumption.Name" xml:space="preserve">
     <value>TitleConsumption</value>
   </data>
-  <data name="&gt;&gt;FirepowerMax.Parent" xml:space="preserve">
-    <value>TableParameterMain</value>
+  <data name="FirepowerMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 16</value>
   </data>
   <data name="ShipView_ShipType.Width" type="System.Int32, mscorlib">
     <value>80</value>
@@ -3318,8 +3315,8 @@
   <data name="&gt;&gt;imageLabel38.Type" xml:space="preserve">
     <value>ElectronicObserver.Window.Control.ImageLabel, ElectronicObserver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="Equipment2.Text" xml:space="preserve">
-    <value>123</value>
+  <data name="TitleLOS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 16</value>
   </data>
   <data name="ASWSeparater.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -3339,14 +3336,20 @@
   <data name="&gt;&gt;imageLabel59.Type" xml:space="preserve">
     <value>ElectronicObserver.Window.Control.ImageLabel, ElectronicObserver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
+  <data name="MaterialSteel.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="TitleASW.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="&gt;&gt;imageLabel37.Type" xml:space="preserve">
     <value>ElectronicObserver.Window.Control.ImageLabel, ElectronicObserver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;Ammo.Type" xml:space="preserve">
     <value>ElectronicObserver.Window.Control.ImageLabel, ElectronicObserver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="TitleASW.Text" xml:space="preserve">
-    <value>対潜</value>
+  <data name="TableRemodel.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
   </data>
   <data name="DayAttack.ToolTip" xml:space="preserve">
     <value />
@@ -3369,11 +3372,11 @@
   <data name="ASWSeparater.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="&gt;&gt;RemodelBefore.ZOrder" xml:space="preserve">
-    <value>9</value>
+  <data name="&gt;&gt;Speed.Parent" xml:space="preserve">
+    <value>TableParameterSub</value>
   </data>
-  <data name="imageLabel37.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Left, Right</value>
+  <data name="&gt;&gt;MaterialBauxite.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="StripMenu_File.Size" type="System.Drawing.Size, System.Drawing">
     <value>82, 21</value>
@@ -3387,17 +3390,14 @@
   <data name="splitContainer1.Size" type="System.Drawing.Size, System.Drawing">
     <value>800, 455</value>
   </data>
-  <data name="HPMax.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
   <data name="imageLabel71.Location" type="System.Drawing.Point, System.Drawing">
     <value>113, 3</value>
   </data>
   <data name="TorpedoMin.Location" type="System.Drawing.Point, System.Drawing">
     <value>85, 76</value>
   </data>
-  <data name="imageLabel42.Location" type="System.Drawing.Point, System.Drawing">
-    <value>113, 208</value>
+  <data name="imageLabel42.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
   </data>
   <data name="imageLabel38.Size" type="System.Drawing.Size, System.Drawing">
     <value>6, 15</value>
@@ -3432,6 +3432,9 @@
   <data name="TableEquipment.RowCount" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
+  <data name="&gt;&gt;RemodelBeforeShipName.Name" xml:space="preserve">
+    <value>RemodelBeforeShipName</value>
+  </data>
   <data name="&gt;&gt;splitContainer1.Panel2.Parent" xml:space="preserve">
     <value>splitContainer1</value>
   </data>
@@ -3459,8 +3462,8 @@
   <data name="PowerUpTorpedo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left</value>
   </data>
-  <data name="&gt;&gt;Speed.Parent" xml:space="preserve">
-    <value>TableParameterSub</value>
+  <data name="TitleAirSuperiority.Text" xml:space="preserve">
+    <value>制空戦力</value>
   </data>
   <data name="RemodelAfterAmmo.Size" type="System.Drawing.Size, System.Drawing">
     <value>41, 16</value>
@@ -3474,8 +3477,8 @@
   <data name="MaterialBauxite.Text" xml:space="preserve">
     <value>123</value>
   </data>
-  <data name="ASWMax.Text" xml:space="preserve">
-    <value>123</value>
+  <data name="LOSMax.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="&gt;&gt;TitleFirepower.Type" xml:space="preserve">
     <value>ElectronicObserver.Window.Control.ImageLabel, ElectronicObserver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
@@ -3486,14 +3489,11 @@
   <data name="&gt;&gt;RemodelAfterShipName.Type" xml:space="preserve">
     <value>ElectronicObserver.Window.Control.ImageLabel, ElectronicObserver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="Aircraft1.Text" xml:space="preserve">
-    <value>123</value>
+  <data name="RemodelBeforeLevel.Text" xml:space="preserve">
+    <value>Lv. 50</value>
   </data>
   <data name="&gt;&gt;Aircraft4.Type" xml:space="preserve">
     <value>ElectronicObserver.Window.Control.ImageLabel, ElectronicObserver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;ArmorMax.Parent" xml:space="preserve">
-    <value>TableParameterMain</value>
   </data>
   <data name="&gt;&gt;MaterialSteel.ZOrder" xml:space="preserve">
     <value>5</value>
@@ -3510,8 +3510,8 @@
   <data name="&gt;&gt;Equipment1.Name" xml:space="preserve">
     <value>Equipment1</value>
   </data>
-  <data name="ShipType.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+  <data name="AlbumNo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 16</value>
   </data>
   <data name="&gt;&gt;Aircraft2.ZOrder" xml:space="preserve">
     <value>9</value>
@@ -3528,8 +3528,8 @@
   <data name="TableConsumption.RowCount" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;Equipment5.Name" xml:space="preserve">
-    <value>Equipment5</value>
+  <data name="TitleASW.Text" xml:space="preserve">
+    <value>対潜</value>
   </data>
   <data name="&gt;&gt;imageLabel37.ZOrder" xml:space="preserve">
     <value>14</value>
@@ -3552,8 +3552,8 @@
   <data name="&gt;&gt;imageLabel72.Name" xml:space="preserve">
     <value>imageLabel72</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>艦船図鑑</value>
+  <data name="ASWMin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 16</value>
   </data>
   <data name="ASWMin.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Right</value>
@@ -3595,11 +3595,11 @@
   <data name="&gt;&gt;imageLabel71.Parent" xml:space="preserve">
     <value>TableParameterSub</value>
   </data>
-  <data name="&gt;&gt;NightAttack.Name" xml:space="preserve">
-    <value>NightAttack</value>
+  <data name="ASWMin.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
   </data>
-  <data name="imageLabel37.ToolTip" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;imageLabel2.Name" xml:space="preserve">
+    <value>imageLabel2</value>
   </data>
   <data name="&gt;&gt;MaterialAmmo.Type" xml:space="preserve">
     <value>ElectronicObserver.Window.Control.ImageLabel, ElectronicObserver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
@@ -3619,8 +3619,8 @@
   <data name="&gt;&gt;TableParameterSub.Parent" xml:space="preserve">
     <value>BasePanelShipGirl</value>
   </data>
-  <data name="&gt;&gt;RemodelBeforeAmmo.Name" xml:space="preserve">
-    <value>RemodelBeforeAmmo</value>
+  <data name="TitleRange.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 25</value>
   </data>
   <data name="Rarity.ToolTip" xml:space="preserve">
     <value />
@@ -3643,11 +3643,11 @@
   <data name="imageLabel3.Size" type="System.Drawing.Size, System.Drawing">
     <value>6, 15</value>
   </data>
-  <data name="&gt;&gt;TitleLuck.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="&gt;&gt;AirSuperiority.Name" xml:space="preserve">
+    <value>AirSuperiority</value>
   </data>
-  <data name="TitleLOS.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 16</value>
+  <data name="Equipment3.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="&gt;&gt;ASWLevel.Parent" xml:space="preserve">
     <value>TableParameterMain</value>
@@ -3658,14 +3658,14 @@
   <data name="TableConsumption.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="&gt;&gt;imageLabel3.Type" xml:space="preserve">
-    <value>ElectronicObserver.Window.Control.ImageLabel, ElectronicObserver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  <data name="MaterialBauxite.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="&gt;&gt;Equipment4.Name" xml:space="preserve">
     <value>Equipment4</value>
   </data>
-  <data name="imageLabel60.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Right</value>
+  <data name="EvasionSeparater.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 15</value>
   </data>
   <data name="Aircraft2.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -3706,8 +3706,8 @@
   <data name="Rarity.Location" type="System.Drawing.Point, System.Drawing">
     <value>157, 3</value>
   </data>
-  <data name="MaterialSteel.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
+  <data name="imageLabel37.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
   </data>
   <data name="RemodelBeforeSteel.Size" type="System.Drawing.Size, System.Drawing">
     <value>41, 16</value>

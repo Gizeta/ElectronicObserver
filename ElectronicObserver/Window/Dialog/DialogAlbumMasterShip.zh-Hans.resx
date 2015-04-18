@@ -433,6 +433,9 @@
   <data name="Aircraft2.Size" type="System.Drawing.Size, System.Drawing">
     <value>25, 17</value>
   </data>
+  <data name="TableEquipment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>234, 115</value>
+  </data>
   <data name="imageLabel45.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 17</value>
   </data>
@@ -720,6 +723,9 @@
   </data>
   <data name="EvasionMin.Size" type="System.Drawing.Size, System.Drawing">
     <value>25, 17</value>
+  </data>
+  <data name="TableParameterMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 235</value>
   </data>
   <data name="StripMenu_File_OutputCSVUser.Size" type="System.Drawing.Size, System.Drawing">
     <value>193, 22</value>

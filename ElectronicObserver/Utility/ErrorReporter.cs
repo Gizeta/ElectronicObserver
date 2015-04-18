@@ -44,8 +44,7 @@ namespace ElectronicObserver.Utility {
 					
 					if ( connectionName != null && connectionData != null ) {
 						sw.WriteLine();
-                        sw.WriteLine(LoadResources.getter("ErrorReporter_5"), connectionName);
-						sw.WriteLine( connectionData );
+                        sw.WriteLine(LoadResources.getter("ErrorReporter_5"), connectionName, connectionData);
 					}
 				}
 
