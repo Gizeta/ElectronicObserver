@@ -133,10 +133,12 @@
     <value>确认</value>
   </data>
   <data name="Dialog_Login" xml:space="preserve">
-    <value>将要跳转到登陆页面。&#13;&#10;确认跳转吗？</value>
+    <value>将要跳转到登陆页面。
+确认跳转吗？</value>
   </data>
   <data name="Dialog_Refresh" xml:space="preserve">
-    <value>将要刷新页面。&#13;&#10;确认刷新吗？</value>
+    <value>将要刷新页面。
+确认刷新吗？</value>
   </data>
   <data name="KanColle_NotLoaded" xml:space="preserve">
     <value>艦これ未加载，无法使用截图功能。</value>
@@ -160,6 +162,7 @@
     <value>信息</value>
   </data>
   <data name="Dialog_EmptyParameter" xml:space="preserve">
-    <value>本程序是七四式电子观测仪的辅助程序，不能单独启动。&#13;&#10;请从主程序中启动。</value>
+    <value>本程序是七四式电子观测仪的辅助程序，不能单独启动。
+请从主程序中启动。</value>
   </data>
 </root>

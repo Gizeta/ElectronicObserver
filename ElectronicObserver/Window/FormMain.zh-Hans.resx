@@ -118,145 +118,145 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="StripMenu_File.Text" xml:space="preserve">
-    <value>ファイル(&amp;F)</value>
+    <value>文件(&amp;F)</value>
   </data>
   <data name="StripMenu_File_Record.Text" xml:space="preserve">
-    <value>レコード(&amp;R)</value>
+    <value>记录(&amp;R)</value>
   </data>
   <data name="StripMenu_File_Record_Save.Text" xml:space="preserve">
-    <value>セーブ(&amp;S)</value>
+    <value>保存(&amp;S)</value>
   </data>
   <data name="StripMenu_File_Record_Load.Text" xml:space="preserve">
-    <value>ロード(&amp;L)</value>
+    <value>读取(&amp;L)</value>
   </data>
   <data name="StripMenu_File_Layout.Text" xml:space="preserve">
-    <value>レイアウト(&amp;L)</value>
+    <value>布局(&amp;L)</value>
   </data>
   <data name="StripMenu_File_Layout_Load.Text" xml:space="preserve">
-    <value>復元(&amp;L)</value>
+    <value>恢复(&amp;L)</value>
   </data>
   <data name="StripMenu_File_Layout_Save.Text" xml:space="preserve">
     <value>保存(&amp;S)</value>
   </data>
   <data name="StripMenu_File_Layout_Open.Text" xml:space="preserve">
-    <value>別のファイルからロード(&amp;O)...</value>
+    <value>打开其他布局文件(&amp;O)...</value>
   </data>
   <data name="StripMenu_File_Configuration.Text" xml:space="preserve">
-    <value>設定(&amp;C)...</value>
+    <value>设置(&amp;C)...</value>
   </data>
   <data name="StripMenu_File_Close.Text" xml:space="preserve">
-    <value>終了(&amp;X)</value>
+    <value>退出(&amp;X)</value>
   </data>
   <data name="StripMenu_View.Text" xml:space="preserve">
-    <value>表示(&amp;V)</value>
+    <value>显示(&amp;V)</value>
   </data>
   <data name="StripMenu_View_Fleet.Text" xml:space="preserve">
-    <value>艦隊(&amp;F)</value>
+    <value>舰队(&amp;F)</value>
   </data>
   <data name="StripMenu_View_FleetOverview.Text" xml:space="preserve">
-    <value>艦隊一覧(&amp;O)</value>
+    <value>舰队一览(&amp;O)</value>
   </data>
   <data name="StripMenu_View_ShipGroup.Text" xml:space="preserve">
-    <value>艦船グループ(&amp;G)</value>
+    <value>舰队编成(&amp;G)</value>
   </data>
   <data name="StripMenu_View_Dock.Text" xml:space="preserve">
     <value>入渠(&amp;D)</value>
   </data>
   <data name="StripMenu_View_Arsenal.Text" xml:space="preserve">
-    <value>工廠(&amp;A)</value>
+    <value>工厂(&amp;A)</value>
   </data>
   <data name="StripMenu_View_Headquarters.Text" xml:space="preserve">
     <value>司令部(&amp;H)</value>
   </data>
   <data name="StripMenu_View_Quest.Text" xml:space="preserve">
-    <value>任務(&amp;Q)</value>
+    <value>任务(&amp;Q)</value>
   </data>
   <data name="StripMenu_View_Information.Text" xml:space="preserve">
-    <value>情報(&amp;I)</value>
+    <value>信息(&amp;I)</value>
   </data>
   <data name="StripMenu_View_Compass.Text" xml:space="preserve">
-    <value>羅針盤(&amp;C)</value>
+    <value>罗盘(&amp;C)</value>
   </data>
   <data name="StripMenu_View_Battle.Text" xml:space="preserve">
-    <value>戦闘(&amp;B)</value>
+    <value>战斗(&amp;B)</value>
   </data>
   <data name="StripMenu_View_Browser.Text" xml:space="preserve">
-    <value>ブラウザ(&amp;M)</value>
+    <value>浏览器(&amp;M)</value>
   </data>
   <data name="StripMenu_View_Log.Text" xml:space="preserve">
-    <value>ログ(&amp;L)</value>
+    <value>记录(&amp;L)</value>
   </data>
   <data name="StripMenu_Browser.Text" xml:space="preserve">
-    <value>ブラウザ(&amp;B)</value>
+    <value>浏览器(&amp;B)</value>
   </data>
   <data name="StripMenu_Browser_ScreenShot.Text" xml:space="preserve">
-    <value>スクリーンショット(&amp;S)</value>
+    <value>屏幕截图(&amp;S)</value>
   </data>
   <data name="StripMenu_Browser_Zoom.Text" xml:space="preserve">
-    <value>ズーム(&amp;Z)</value>
+    <value>缩放(&amp;Z)</value>
   </data>
   <data name="StripMenu_Browser_Zoom_Current.Text" xml:space="preserve">
-    <value>現在%</value>
+    <value>当前%</value>
   </data>
   <data name="StripMenu_Browser_AppliesStyleSheet.Text" xml:space="preserve">
-    <value>スタイルシートを適用する(&amp;S)</value>
+    <value>应用CSS样式(&amp;S)</value>
   </data>
   <data name="StripMenu_Browser_Refresh.Text" xml:space="preserve">
-    <value>更新(&amp;R)</value>
+    <value>刷新(&amp;R)</value>
   </data>
   <data name="StripMenu_Browser_NavigateToLogInPage.Text" xml:space="preserve">
-    <value>ログインページへ移動(&amp;L)</value>
+    <value>转到登陆页面(&amp;L)</value>
   </data>
   <data name="StripMenu_Browser_Navigate.Text" xml:space="preserve">
-    <value>移動(&amp;M)...</value>
+    <value>转到(&amp;M)...</value>
   </data>
   <data name="StripMenu_Tool.Text" xml:space="preserve">
-    <value>ツール(&amp;T)</value>
+    <value>工具(&amp;T)</value>
   </data>
   <data name="StripMenu_Tool_EquipmentList.Text" xml:space="preserve">
-    <value>装備一覧(&amp;Q)</value>
+    <value>装备一览(&amp;Q)</value>
   </data>
   <data name="StripMenu_Tool_AlbumMasterShip.Text" xml:space="preserve">
-    <value>艦船図鑑(&amp;S)</value>
+    <value>舰船图鉴(&amp;S)</value>
   </data>
   <data name="StripMenu_Tool_AlbumMasterEquipment.Text" xml:space="preserve">
-    <value>装備図鑑(&amp;E)</value>
+    <value>装备图鉴(&amp;E)</value>
   </data>
   <data name="StripMenu_Debug.Text" xml:space="preserve">
-    <value>デバッグ(&amp;D)</value>
+    <value>调试(&amp;D)</value>
   </data>
   <data name="StripMenu_Debug_LoadAPIFromFile.Text" xml:space="preserve">
-    <value>ファイルからAPIをロード(&amp;L)...</value>
+    <value>从文件读取API接口(&amp;L)...</value>
   </data>
   <data name="StripMenu_Debug_LoadInitialAPI.Text" xml:space="preserve">
-    <value>APIリストをロード(&amp;I)...</value>
+    <value>读取初始API列表(&amp;I)...</value>
   </data>
   <data name="StripMenu_Debug_LoadRecordFromOld.Text" xml:space="preserve">
-    <value>旧 api_start2 からレコードを構築(&amp;O)...</value>
+    <value>从旧 api_star2 构建记录(&amp;O)...</value>
   </data>
   <data name="StripMenu_Debug_DeleteOldAPI.Text" xml:space="preserve">
-    <value>古いAPIデータを削除(&amp;D)</value>
+    <value>删除旧API数据(&amp;D)</value>
   </data>
   <data name="StripMenu_Debug_RenameShipResource.Text" xml:space="preserve">
-    <value>艦船リソースをリネーム(&amp;R)...</value>
+    <value>重命名舰船资源文件(&amp;R)...</value>
   </data>
   <data name="StripMenu_Help.Text" xml:space="preserve">
-    <value>ヘルプ(&amp;H)</value>
+    <value>帮助(&amp;H)</value>
   </data>
   <data name="StripMenu_Help_Help.Text" xml:space="preserve">
-    <value>オンラインヘルプ(&amp;H)...</value>
+    <value>联机帮助(&amp;H)...</value>
   </data>
   <data name="StripMenu_Help_Version.Text" xml:space="preserve">
-    <value>バージョン情報(&amp;V)</value>
+    <value>版本信息(&amp;V)</value>
   </data>
   <data name="StripStatus_Information.Text" xml:space="preserve">
-    <value>Now Preparing...</value>
+    <value>舰娘祈祷中...</value>
   </data>
   <data name="StripStatus_Clock.Text" xml:space="preserve">
     <value>Clock</value>
   </data>
   <data name="FormMain.Text" xml:space="preserve">
-    <value>試製七四式電子観測儀</value>
+    <value>试制七四式电子观测仪</value>
   </data>
   <metadata name="StripMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>

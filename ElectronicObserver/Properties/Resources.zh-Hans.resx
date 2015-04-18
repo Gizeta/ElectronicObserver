@@ -115,132 +115,133 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Constant_Null" xml:space="preserve">
-    <value>なし</value>
+    <value>无</value>
   </data>
   <data name="FormMain_APIListOpenDialogTitle" xml:space="preserve">
-    <value>APIリストをロード</value>
+    <value>加载API列表</value>
   </data>
   <data name="FormMain_APIReadError" xml:space="preserve">
-    <value>API読み込みに失敗しました。</value>
+    <value>API读取失败。</value>
   </data>
   <data name="FormMain_BrowserZoomText" xml:space="preserve">
-    <value>現在: {0}%</value>
+    <value>当前: {0}%</value>
   </data>
   <data name="FormMain_CloseComplete" xml:space="preserve">
-    <value>終了処理が完了しました。</value>
+    <value>退出处理已完成。</value>
   </data>
   <data name="FormMain_DataNotSavedMessage" xml:space="preserve">
-    <value>セーブしていないレコードが失われる可能性があります。
-ロードしますか？</value>
+    <value>未保存的记录可能会丢失。
+是否加载？</value>
   </data>
   <data name="FormMain_EquipmentDataNotLoaded" xml:space="preserve">
-    <value>装備データが読み込まれていません。</value>
+    <value>装备数据未加载。</value>
   </data>
   <data name="FormMain_HelpMessage" xml:space="preserve">
-    <value>外部ブラウザでオンラインヘルプを開きます。
-よろしいですか？</value>
+    <value>将要打开外部浏览器查看在线帮助。
+是否继续？</value>
   </data>
   <data name="FormMain_LayoutFileNotFound" xml:space="preserve">
-    <value>ウィンドウ レイアウト ファイルは存在しません。</value>
+    <value>窗口布局文件不存在。</value>
   </data>
   <data name="FormMain_LayoutInitializeMessage" xml:space="preserve">
-    <value>レイアウトが初期化されました。
-「表示」メニューからお好みのウィンドウを追加してください。</value>
+    <value>布局已经初始化完成。
+请从「显示」菜单中添加自己喜欢的窗口。</value>
   </data>
   <data name="FormMain_LayoutLoadComplete" xml:space="preserve">
-    <value>ウィンドウ レイアウトを復元しました。</value>
+    <value>窗口布局已恢复。</value>
   </data>
   <data name="FormMain_LayoutLoadError" xml:space="preserve">
-    <value>ウィンドウ レイアウトの復元に失敗しました。</value>
+    <value>窗口布局恢复失败。</value>
   </data>
   <data name="FormMain_LayoutOpenDialogTitle" xml:space="preserve">
-    <value>レイアウト ファイルを開く</value>
+    <value>打开布局文件</value>
   </data>
   <data name="FormMain_LayoutSaveComplete" xml:space="preserve">
-    <value>ウィンドウ レイアウトを保存しました。</value>
+    <value>窗口布局已保存。</value>
   </data>
   <data name="FormMain_LayoutSaveError" xml:space="preserve">
-    <value>ウィンドウ レイアウトの保存に失敗しました。</value>
+    <value>窗口布局保存失败。</value>
   </data>
   <data name="FormMain_LoadComplete" xml:space="preserve">
-    <value>起動処理が完了しました。</value>
+    <value>启动处理已完成。</value>
   </data>
   <data name="FormMain_LoadOldAPINeedDataMessage" xml:space="preserve">
-    <value>先に通常の api_start2 を読み込んでください。</value>
+    <value>请先加载api_start2数据。</value>
   </data>
   <data name="FormMain_NavigateMessage" xml:space="preserve">
-    <value>移動先の URL を入力してください。</value>
+    <value>请输入目的URL。</value>
   </data>
   <data name="FormMain_NavigateTitle" xml:space="preserve">
-    <value>移動先の入力</value>
+    <value>请输入目的地址</value>
   </data>
   <data name="FormMain_NavigateToLoginMessage" xml:space="preserve">
-    <value>ログインページへ移動します。
-よろしいですか？</value>
+    <value>将要跳转到登陆界面。
+是否继续？</value>
   </data>
   <data name="FormMain_OldAPIDeleteComplete" xml:space="preserve">
-    <value>削除が完了しました。
-{0} 個のファイルを削除しました。</value>
+    <value>删除完成。
+{0}个文件已被删除。</value>
   </data>
   <data name="FormMain_OldAPIDeleteError" xml:space="preserve">
-    <value>削除に失敗しました。</value>
+    <value>删除失败。</value>
   </data>
   <data name="FormMain_OldAPIDeleteMessage" xml:space="preserve">
-    <value>古いAPIデータを削除します。
-本当によろしいですか？</value>
+    <value>将要删除旧的API数据。
+真的要这么做？</value>
   </data>
   <data name="FormMain_OldAPIOpenDialogTitle" xml:space="preserve">
-    <value>旧 api_start2 からレコードを構築</value>
+    <value>从旧 api_start2 建立记录</value>
   </data>
   <data name="FormMain_Quit" xml:space="preserve">
-    <value>{0} を終了しています…</value>
+    <value>{0}已退出。</value>
   </data>
   <data name="FormMain_QuitMessage" xml:space="preserve">
-    <value>{0} を終了しますか？</value>
+    <value>{0}将要退出。
+是否继续？</value>
   </data>
   <data name="FormMain_RenameShipResourceComplete" xml:space="preserve">
-    <value>リネーム処理が完了しました。
-{0} 個のアイテムをリネームしました。</value>
+    <value>已完成重命名。
+{0}个资源文件被修改。</value>
   </data>
   <data name="FormMain_RenameShipResourceError" xml:space="preserve">
-    <value>艦船リソースのリネームに失敗しました。</value>
+    <value>舰船资源文件重命名失败。</value>
   </data>
   <data name="FormMain_RenameShipResourceMessage" xml:space="preserve">
-    <value>通信から保存した艦船リソース名を持つファイル及びフォルダを、艦船名に置換します。
-対象は指定されたフォルダ以下のすべてのファイル及びフォルダです。
-続行しますか？</value>
+    <value>从通信中保存的舰船资源名的文件及文件夹、将替换成舰船名。
+对象是指定目录下的所有文件及子文件夹。
+是否继续？</value>
   </data>
   <data name="FormMain_RenameShipResourceTitle" xml:space="preserve">
-    <value>艦船リソースをリネーム</value>
+    <value>重命名该船的资源文件</value>
   </data>
   <data name="FormMain_ShipDataNotLoaded" xml:space="preserve">
-    <value>艦船データが読み込まれていません。</value>
+    <value>舰船数据未加载。</value>
   </data>
   <data name="FormMain_StartUp" xml:space="preserve">
-    <value>{0} を起動しています…</value>
+    <value>{0}已启动。</value>
   </data>
   <data name="FormMain_SubLayoutLoadError" xml:space="preserve">
-    <value>サブウィンドウ レイアウトの復元に失敗しました。</value>
+    <value>子窗口布局恢复失败。</value>
   </data>
   <data name="FormMain_SubLayoutSaveError" xml:space="preserve">
-    <value>サブウィンドウ レイアウトの保存に失敗しました。</value>
+    <value>子窗口布局保存失败。</value>
   </data>
   <data name="MessageBox_Complete" xml:space="preserve">
-    <value>処理完了</value>
+    <value>处理完成</value>
   </data>
   <data name="MessageBox_Confirm" xml:space="preserve">
-    <value>確認</value>
+    <value>确认</value>
   </data>
   <data name="MessageBox_DeleteComplete" xml:space="preserve">
-    <value>削除成功</value>
+    <value>删除成功</value>
   </data>
   <data name="Messagebox_Error" xml:space="preserve">
-    <value>エラー</value>
+    <value>错误</value>
   </data>
   <data name="MessageBox_Help" xml:space="preserve">
-    <value>ヘルプ</value>
+    <value>帮助</value>
   </data>
   <data name="Messagebox_MeetError" xml:space="preserve">
-    <value>大変ご迷惑をおかけしております</value>
+    <value>给您造成不便还请谅解</value>
   </data>
 </root>

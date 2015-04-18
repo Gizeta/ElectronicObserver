@@ -133,10 +133,12 @@
     <value>確認</value>
   </data>
   <data name="Dialog_Login" xml:space="preserve">
-    <value>ログインページへ移動します。&#13;&#10;よろしいですか？</value>
+    <value>ログインページへ移動します。
+よろしいですか？</value>
   </data>
   <data name="Dialog_Refresh" xml:space="preserve">
-    <value>再読み込みします。&#13;&#10;よろしいですか？</value>
+    <value>再読み込みします。
+よろしいですか？</value>
   </data>
   <data name="KanColle_NotLoaded" xml:space="preserve">
     <value>艦これが読み込まれていないため、スクリーンショットを撮ることはできません。</value>
@@ -160,6 +162,7 @@
     <value>情報</value>
   </data>
   <data name="Dialog_EmptyParameter" xml:space="preserve">
-    <value>これは七四式電子観測儀のサブプログラムであり、単体では起動できません。&#13;&#10;本体から起動してください。</value>
+    <value>これは七四式電子観測儀のサブプログラムであり、単体では起動できません。
+本体から起動してください。</value>
   </data>
 </root>

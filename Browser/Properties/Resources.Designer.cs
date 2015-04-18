@@ -123,7 +123,8 @@ namespace Browser.Properties
         }
         
         /// <summary>
-        ///   ログインページへ移動します。\r\nよろしいですか？ に類似しているローカライズされた文字列を検索します。
+        ///   ログインページへ移動します。
+        ///よろしいですか？ に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string Dialog_Login {
             get {
@@ -132,7 +133,8 @@ namespace Browser.Properties
         }
         
         /// <summary>
-        ///   再読み込みします。\r\nよろしいですか？ に類似しているローカライズされた文字列を検索します。
+        ///   再読み込みします。
+        ///よろしいですか？ に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string Dialog_Refresh {
             get {
@@ -204,7 +206,8 @@ namespace Browser.Properties
         }
 		
         /// <summary>
-        ///   これは七四式電子観測儀のサブプログラムであり、単体では起動できません。\r\n本体から起動してください。 に類似しているローカライズされた文字列を検索します。
+        ///   これは七四式電子観測儀のサブプログラムであり、単体では起動できません。
+        ///本体から起動してください。 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string Dialog_EmptyParameter {
             get {
