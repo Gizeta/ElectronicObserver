@@ -1120,7 +1120,8 @@ Sony大法好，来正面上我啊？</value>
     <value>当前: {0}%</value>
   </data>
   <data name="FormMain_49" xml:space="preserve">
-    <value>API读取失败。\r\n</value>
+    <value>API读取失败。
+</value>
   </data>
   <data name="FormMain_5" xml:space="preserve">
     <value>上上上！不上还是人！？</value>
@@ -1432,7 +1433,18 @@ Cut-In种类: {1} ({2})</value>
     <value>对空Cut-In</value>
   </data>
   <data name="FormCompass_1" xml:space="preserve">
-    <value>{0} {1}{2}\n耐久: {3}\n火力: {4}/{5}\n雷装: {6}/{7}\n对空: {8}/{9}\n装甲: {10}/{11}\n对潜: {12}/{13}\n回避: {14}/{15}\n索敌: {16}/{17}\n运: {18}/{19}\n(右键单击图鉴)\n</value>
+    <value>{0} {1}{2}
+耐久: {3}
+火力: {4}/{5}
+雷装: {6}/{7}
+对空: {8}/{9}
+装甲: {10}/{11}
+对潜: {12}/{13}
+回避: {14}/{15}
+索敌: {16}/{17}
+运: {18}/{19}
+(右键单击图鉴)
+</value>
   </data>
   <data name="FormCompass_10" xml:space="preserve">
     <value>未知</value>
@@ -1444,10 +1456,13 @@ Cut-In种类: {1} ({2})</value>
     <value>(敌舰队情报未知)</value>
   </data>
   <data name="FormCompass_2" xml:space="preserve">
-    <value>\r\n昼战: {0}\r\n夜战: {1}\r\n</value>
+    <value>昼战: {0}
+夜战: {1}
+</value>
   </data>
   <data name="FormCompass_3" xml:space="preserve">
-    <value>对空: {0}\r\n</value>
+    <value>对空: {0}
+</value>
   </data>
   <data name="FormCompass_4" xml:space="preserve">
     <value>演习</value>
@@ -1471,19 +1486,27 @@ Cut-In种类: {1} ({2})</value>
     <value>完成时间 :</value>
   </data>
   <data name="FormFleet_1" xml:space="preserve">
-    <value>合计等级：{0}\r\n平均等级：{1:0.00}\r\n油桶搭载: {2}个 ({3}舰)\r\n大发动艇搭载: {4}个\r\n总装载: 燃 {5} / 弹 {6}\r\n(1每战消耗 燃 {7} / 弹 {8})</value>
+    <value>合计等级：{0}
+平均等级：{1:0.00}
+油桶搭载: {2}个 ({3}舰)
+大发动艇搭载: {4}个
+总装载: 燃 {5} / 弹 {6}
+(1每战消耗 燃 {7} / 弹 {8})</value>
   </data>
   <data name="FormFleet_10" xml:space="preserve">
-    <value>中破: {0} / 大破: {1}\n</value>
+    <value>中破: {0} / 大破: {1}
+</value>
   </data>
   <data name="FormFleet_11" xml:space="preserve">
-    <value>大破: {0}\n</value>
+    <value>大破: {0}
+</value>
   </data>
   <data name="FormFleet_12" xml:space="preserve">
     <value>已经大破了！</value>
   </data>
   <data name="FormFleet_13" xml:space="preserve">
-    <value>入渠时间: {0}\n</value>
+    <value>入渠时间: {0}
+</value>
   </data>
   <data name="FormFleet_14" xml:space="preserve">
     <value>到完全恢复约需 {0:D2}:{1:D2}</value>
@@ -1492,25 +1515,47 @@ Cut-In种类: {1} ({2})</value>
     <value>还能远征 {0} 次</value>
   </data>
   <data name="FormFleet_16" xml:space="preserve">
-    <value>\r\n昼战: {0}\r\n夜战: {1}\r\n</value>
+    <value>昼战: {0}
+夜战: {1}
+</value>
   </data>
   <data name="FormFleet_17" xml:space="preserve">
-    <value>对空: {0}\r\n</value>
+    <value>对空: {0}
+</value>
   </data>
   <data name="FormFleet_18" xml:space="preserve">
-    <value>{0}\t制空战力{1}/索敌能力{2}\r\n</value>
+    <value>{0}\t制空战力{1}/索敌能力{2}
+</value>
   </data>
   <data name="FormFleet_2" xml:space="preserve">
-    <value>确保: {0}\r\n优势: {1}\r\n均衡: {2}\r\n劣势: {3}\r\n</value>
+    <value>确保: {0}
+优势: {1}
+均衡: {2}
+劣势: {3}
+</value>
   </data>
   <data name="FormFleet_3" xml:space="preserve">
-    <value>(旧)2-5式: {0}\r\n2-5式(秋): {1}\r\n2-5新秋简易式: {2}\r\n</value>
+    <value>(旧)2-5式: {0}
+2-5式(秋): {1}
+2-5新秋简易式: {2}
+</value>
   </data>
   <data name="FormFleet_4" xml:space="preserve">
-    <value>{0} {1}\n火力: {2}/{3}\n雷装: {4}/{5}\n对空: {6}/{7}\n装甲: {8}/{9}\n对潜: {10}/{11}\n回避: {12}/{13}\n索敌: {14}/{15}\n运: {16}\n(右键单击图鉴)\n</value>
+    <value>{0} {1}
+火力: {2}/{3}
+雷装: {4}/{5}
+对空: {6}/{7}
+装甲: {8}/{9}
+对潜: {10}/{11}
+回避: {12}/{13}
+索敌: {14}/{15}
+运: {16}
+(右键单击图鉴)
+</value>
   </data>
   <data name="FormFleet_5" xml:space="preserve">
-    <value>到下一级: {0}\n</value>
+    <value>到下一级: {0}
+</value>
   </data>
   <data name="FormFleet_6" xml:space="preserve">
     <value>到改装: {0}</value>
@@ -1528,19 +1573,23 @@ Cut-In种类: {1} ({2})</value>
     <value>[演习情报]</value>
   </data>
   <data name="FormInformation_10" xml:space="preserve">
-    <value>{0}-{1} : 击破 {2}/{3} 回\r\n</value>
+    <value>{0}-{1} : 击破 {2}/{3} 回
+</value>
   </data>
   <data name="FormInformation_11" xml:space="preserve">
     <value>[远征返航]</value>
   </data>
   <data name="FormInformation_12" xml:space="preserve">
-    <value>结果: {0}\r\n</value>
+    <value>结果: {0}
+</value>
   </data>
   <data name="FormInformation_13" xml:space="preserve">
-    <value>提督经验值: +{0}\r\n</value>
+    <value>提督经验值: +{0}
+</value>
   </data>
   <data name="FormInformation_14" xml:space="preserve">
-    <value>舰娘经验值: +{0}\r\n</value>
+    <value>舰娘经验值: +{0}
+</value>
   </data>
   <data name="FormInformation_2" xml:space="preserve">
     <value>敌舰队名 :</value>
