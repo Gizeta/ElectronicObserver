@@ -245,6 +245,9 @@
   <data name="FormCompass_UnknownItem" xml:space="preserve">
     <value>謎のアイテム</value>
   </data>
+  <data name="FormDock_CompleteTime" xml:space="preserve">
+    <value>完了日時 : </value>
+  </data>
   <data name="FormMain_APIListOpenDialogTitle" xml:space="preserve">
     <value>APIリストをロード</value>
   </data>

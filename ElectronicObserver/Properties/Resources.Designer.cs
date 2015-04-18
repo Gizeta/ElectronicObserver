@@ -407,6 +407,15 @@ namespace ElectronicObserver.Properties {
         }
         
         /// <summary>
+        ///   完了日時 :  に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormDock_CompleteTime {
+            get {
+                return ResourceManager.GetString("FormDock_CompleteTime", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   APIリストをロード に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string FormMain_APIListOpenDialogTitle {

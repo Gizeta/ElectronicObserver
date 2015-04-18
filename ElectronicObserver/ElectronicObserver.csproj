@@ -510,6 +510,9 @@
     <EmbeddedResource Include="Window\FormDock.resx">
       <DependentUpon>FormDock.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Window\FormDock.zh-Hans.resx">
+      <DependentUpon>FormDock.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Window\FormFleet.resx">
       <DependentUpon>FormFleet.cs</DependentUpon>
     </EmbeddedResource>
