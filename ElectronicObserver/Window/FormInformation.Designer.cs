@@ -23,6 +23,7 @@
 		/// the contents of this method with the code editor.
 		/// </summary>
 		private void InitializeComponent() {
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormInformation));
 			this.TextInformation = new System.Windows.Forms.RichTextBox();
 			this.SuspendLayout();
 			// 
@@ -52,7 +53,7 @@
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
 			this.HideOnClose = true;
 			this.Name = "FormInformation";
-			this.Text = "情報";
+			resources.ApplyResources(this, "FormInformation");
 			this.Load += new System.EventHandler(this.FormInformation_Load);
 			this.ResumeLayout(false);
 

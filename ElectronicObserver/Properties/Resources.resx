@@ -336,6 +336,52 @@
   <data name="FormFleet_ShipToNormalCond" xml:space="preserve">
     <value>完全回復まで 約 {0:D2}:{1:D2}</value>
   </data>
+  <data name="FormInformation_Album_EquipmentNotCollected" xml:space="preserve">
+    <value>[未保有装備]</value>
+  </data>
+  <data name="FormInformation_Album_MidHPNotCollected" xml:space="preserve">
+    <value>[中破絵未回収]</value>
+  </data>
+  <data name="FormInformation_Album_ShipNotCollected" xml:space="preserve">
+    <value>[未保有艦]</value>
+  </data>
+  <data name="FormInformation_CreateItem_Failed" xml:space="preserve">
+    <value>[開発失敗]</value>
+  </data>
+  <data name="FormInformation_Expedition_AdmiralExpInfo" xml:space="preserve">
+    <value>提督経験値: +{0}
+</value>
+  </data>
+  <data name="FormInformation_Expedition_ResultInfo" xml:space="preserve">
+    <value>結果: {0}
+</value>
+  </data>
+  <data name="FormInformation_Expedition_ShipExpInfo" xml:space="preserve">
+    <value>艦娘経験値: +{0}
+</value>
+  </data>
+  <data name="FormInformation_Expedition_Title" xml:space="preserve">
+    <value>[遠征帰投]</value>
+  </data>
+  <data name="FormInformation_Map_BossDefeatInfo" xml:space="preserve">
+    <value>{0}-{1} : 撃破 {2}/{3} 回
+</value>
+  </data>
+  <data name="FormInformation_Map_BossHP" xml:space="preserve">
+    <value>[海域ゲージ]</value>
+  </data>
+  <data name="FormInformation_Practice_EnemyFleetName" xml:space="preserve">
+    <value>敵艦隊名 : </value>
+  </data>
+  <data name="FormInformation_Practice_GainExp" xml:space="preserve">
+    <value>獲得経験値 : </value>
+  </data>
+  <data name="FormInformation_Practice_GainSExp" xml:space="preserve">
+    <value>S勝利 : </value>
+  </data>
+  <data name="FormInformation_Practice_Title" xml:space="preserve">
+    <value>[演習情報]</value>
+  </data>
   <data name="FormMain_APIListOpenDialogTitle" xml:space="preserve">
     <value>APIリストをロード</value>
   </data>

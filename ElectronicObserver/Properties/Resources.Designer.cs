@@ -618,6 +618,136 @@ namespace ElectronicObserver.Properties {
         }
         
         /// <summary>
+        ///   [未保有装備] に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormInformation_Album_EquipmentNotCollected {
+            get {
+                return ResourceManager.GetString("FormInformation_Album_EquipmentNotCollected", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   [中破絵未回収] に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormInformation_Album_MidHPNotCollected {
+            get {
+                return ResourceManager.GetString("FormInformation_Album_MidHPNotCollected", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   [未保有艦] に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormInformation_Album_ShipNotCollected {
+            get {
+                return ResourceManager.GetString("FormInformation_Album_ShipNotCollected", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   [開発失敗] に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormInformation_CreateItem_Failed {
+            get {
+                return ResourceManager.GetString("FormInformation_CreateItem_Failed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   提督経験値: +{0}
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormInformation_Expedition_AdmiralExpInfo {
+            get {
+                return ResourceManager.GetString("FormInformation_Expedition_AdmiralExpInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   結果: {0}
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormInformation_Expedition_ResultInfo {
+            get {
+                return ResourceManager.GetString("FormInformation_Expedition_ResultInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   艦娘経験値: +{0}
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormInformation_Expedition_ShipExpInfo {
+            get {
+                return ResourceManager.GetString("FormInformation_Expedition_ShipExpInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   [遠征帰投] に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormInformation_Expedition_Title {
+            get {
+                return ResourceManager.GetString("FormInformation_Expedition_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   {0}-{1} : 撃破 {2}/{3} 回
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormInformation_Map_BossDefeatInfo {
+            get {
+                return ResourceManager.GetString("FormInformation_Map_BossDefeatInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   [海域ゲージ] に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormInformation_Map_BossHP {
+            get {
+                return ResourceManager.GetString("FormInformation_Map_BossHP", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   敵艦隊名 :  に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormInformation_Practice_EnemyFleetName {
+            get {
+                return ResourceManager.GetString("FormInformation_Practice_EnemyFleetName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   獲得経験値 :  に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormInformation_Practice_GainExp {
+            get {
+                return ResourceManager.GetString("FormInformation_Practice_GainExp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   S勝利 :  に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormInformation_Practice_GainSExp {
+            get {
+                return ResourceManager.GetString("FormInformation_Practice_GainSExp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   [演習情報] に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormInformation_Practice_Title {
+            get {
+                return ResourceManager.GetString("FormInformation_Practice_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   APIリストをロード に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string FormMain_APIListOpenDialogTitle {

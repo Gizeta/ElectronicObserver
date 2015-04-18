@@ -336,6 +336,52 @@ Cut-In种类: {2} ({3})
   <data name="FormFleet_ShipToNormalCond" xml:space="preserve">
     <value>到完全恢复约需 {0:D2}:{1:D2}</value>
   </data>
+  <data name="FormInformation_Album_EquipmentNotCollected" xml:space="preserve">
+    <value>[未拥有该装备]</value>
+  </data>
+  <data name="FormInformation_Album_MidHPNotCollected" xml:space="preserve">
+    <value>[中破立绘未回收]</value>
+  </data>
+  <data name="FormInformation_Album_ShipNotCollected" xml:space="preserve">
+    <value>[未拥有该舰]</value>
+  </data>
+  <data name="FormInformation_CreateItem_Failed" xml:space="preserve">
+    <value>[开发失败]</value>
+  </data>
+  <data name="FormInformation_Expedition_AdmiralExpInfo" xml:space="preserve">
+    <value>提督经验值: +{0}
+</value>
+  </data>
+  <data name="FormInformation_Expedition_ResultInfo" xml:space="preserve">
+    <value>结果: {0}
+</value>
+  </data>
+  <data name="FormInformation_Expedition_ShipExpInfo" xml:space="preserve">
+    <value>舰娘经验值: +{0}
+</value>
+  </data>
+  <data name="FormInformation_Expedition_Title" xml:space="preserve">
+    <value>[远征归港]</value>
+  </data>
+  <data name="FormInformation_Map_BossDefeatInfo" xml:space="preserve">
+    <value>{0}-{1} : 击破 {2}/{3} 回
+</value>
+  </data>
+  <data name="FormInformation_Map_BossHP" xml:space="preserve">
+    <value>[海域血量]</value>
+  </data>
+  <data name="FormInformation_Practice_EnemyFleetName" xml:space="preserve">
+    <value>敌舰队名 : </value>
+  </data>
+  <data name="FormInformation_Practice_GainExp" xml:space="preserve">
+    <value>获得经验值 : </value>
+  </data>
+  <data name="FormInformation_Practice_GainSExp" xml:space="preserve">
+    <value>S胜利 : </value>
+  </data>
+  <data name="FormInformation_Practice_Title" xml:space="preserve">
+    <value>[演习情报]</value>
+  </data>
   <data name="FormMain_APIListOpenDialogTitle" xml:space="preserve">
     <value>加载API列表</value>
   </data>
