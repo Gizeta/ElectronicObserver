@@ -437,7 +437,7 @@ namespace ElectronicObserver.Window {
 						TimeSpan ts = new TimeSpan( 0, (int)Math.Ceiling( ( 49 - ship.Condition ) / 3.0 ) * 3, 0 );
 						ToolTipInfo.SetToolTip( Condition, string.Format( Properties.Resources.FormFleet_ShipToNormalCond, (int)ts.TotalMinutes, (int)ts.Seconds ) );
 					} else {
-						ToolTipInfo.SetToolTip( Condition, string.Format( Properties.Resources.FormFleet_ShipSparkleQuestTime, (int)Math.Ceiling( ( ship.Condition - 49 ) / 3.0 ) ) );
+						ToolTipInfo.SetToolTip( Condition, string.Format( Properties.Resources.FormFleet_ShipSparkleExpeditionTime, (int)Math.Ceiling( ( ship.Condition - 49 ) / 3.0 ) ) );
 					}
 
 					ShipResource.SetResources( ship.Fuel, ship.MasterShip.Fuel, ship.Ammo, ship.MasterShip.Ammo );

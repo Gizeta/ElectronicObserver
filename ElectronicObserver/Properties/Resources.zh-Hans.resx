@@ -322,7 +322,7 @@ Cut-In种类: {2} ({3})
   <data name="FormFleet_ShipRemodelExp" xml:space="preserve">
     <value>到改装: {0}</value>
   </data>
-  <data name="FormFleet_ShipSparkleQuestTime" xml:space="preserve">
+  <data name="FormFleet_ShipSparkleExpeditionTime" xml:space="preserve">
     <value>还能远征 {0} 次</value>
   </data>
   <data name="FormFleet_ShipToLowHP" xml:space="preserve">
@@ -490,6 +490,32 @@ Cut-In种类: {2} ({3})
   </data>
   <data name="FormMain_SubLayoutSaveError" xml:space="preserve">
     <value>子窗口布局保存失败。</value>
+  </data>
+  <data name="FormQuest_Complete" xml:space="preserve">
+    <value>达成！</value>
+  </data>
+  <data name="FormQuest_InitializeMessage" xml:space="preserve">
+    <value>任务数据正在初始化。
+推荐数据不一致时使用。
+是否继续？</value>
+  </data>
+  <data name="FormQuest_InitializeTitle" xml:space="preserve">
+    <value>任务初始化确认</value>
+  </data>
+  <data name="FormQuest_Progress50" xml:space="preserve">
+    <value>50%以上</value>
+  </data>
+  <data name="FormQuest_Progress80" xml:space="preserve">
+    <value>80%以上</value>
+  </data>
+  <data name="FormQuest_QuestComplete" xml:space="preserve">
+    <value>(任务完成！)</value>
+  </data>
+  <data name="FormQuest_UnknownQuest" xml:space="preserve">
+    <value>(未取得)</value>
+  </data>
+  <data name="FormQuest_UnknownQuestInfo" xml:space="preserve">
+    <value>(未取得的任务 x {0})</value>
   </data>
   <data name="MessageBox_Complete" xml:space="preserve">
     <value>处理完成</value>

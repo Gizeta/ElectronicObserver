@@ -561,6 +561,9 @@
     <EmbeddedResource Include="Window\FormQuest.resx">
       <DependentUpon>FormQuest.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Window\FormQuest.zh-Hans.resx">
+      <DependentUpon>FormQuest.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Window\FormShipGroup.resx">
       <DependentUpon>FormShipGroup.cs</DependentUpon>
     </EmbeddedResource>

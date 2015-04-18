@@ -582,9 +582,9 @@ namespace ElectronicObserver.Properties {
         /// <summary>
         ///   あと {0} 回遠征可能 に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string FormFleet_ShipSparkleQuestTime {
+        internal static string FormFleet_ShipSparkleExpeditionTime {
             get {
-                return ResourceManager.GetString("FormFleet_ShipSparkleQuestTime", resourceCulture);
+                return ResourceManager.GetString("FormFleet_ShipSparkleExpeditionTime", resourceCulture);
             }
         }
         
@@ -1050,6 +1050,80 @@ namespace ElectronicObserver.Properties {
         internal static string FormMain_SubLayoutSaveError {
             get {
                 return ResourceManager.GetString("FormMain_SubLayoutSaveError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   達成！ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormQuest_Complete {
+            get {
+                return ResourceManager.GetString("FormQuest_Complete", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   任務データを初期化します。
+        ///データに齟齬が生じている場合以外での使用は推奨しません。
+        ///よろしいですか？ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormQuest_InitializeMessage {
+            get {
+                return ResourceManager.GetString("FormQuest_InitializeMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   任務初期化の確認 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormQuest_InitializeTitle {
+            get {
+                return ResourceManager.GetString("FormQuest_InitializeTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   50%以上 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormQuest_Progress50 {
+            get {
+                return ResourceManager.GetString("FormQuest_Progress50", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   80%以上 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormQuest_Progress80 {
+            get {
+                return ResourceManager.GetString("FormQuest_Progress80", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   (任務完遂！) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormQuest_QuestComplete {
+            get {
+                return ResourceManager.GetString("FormQuest_QuestComplete", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   (未取得) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormQuest_UnknownQuest {
+            get {
+                return ResourceManager.GetString("FormQuest_UnknownQuest", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   (未取得の任務 x {0}) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormQuest_UnknownQuestInfo {
+            get {
+                return ResourceManager.GetString("FormQuest_UnknownQuestInfo", resourceCulture);
             }
         }
         

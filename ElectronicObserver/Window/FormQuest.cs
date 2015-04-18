@@ -151,7 +151,7 @@ namespace ElectronicObserver.Window {
 					double tag;
 
 					if ( q.State == 3 ) {
-						value = "達成！";
+						value = Properties.Resources.FormQuest_Complete;
 						tag = 1.0;
 
 					} else {
@@ -170,11 +170,11 @@ namespace ElectronicObserver.Window {
 									tag = 0.0;
 									break;
 								case 1:
-									value = "50%以上";
+									value = Properties.Resources.FormQuest_Progress50;
 									tag = 0.5;
 									break;
 								case 2:
-									value = "80%以上";
+									value = Properties.Resources.FormQuest_Progress80;
 									tag = 0.8;
 									break;
 								default:
@@ -196,13 +196,13 @@ namespace ElectronicObserver.Window {
 			if ( KCDatabase.Instance.Quest.Quests.Count != KCDatabase.Instance.Quest.Count ) {
 				int index = QuestView.Rows.Add();
 				QuestView.Rows[index].Cells[QuestView_State.Index].Value = null;
-				QuestView.Rows[index].Cells[QuestView_Name.Index].Value = string.Format( "(未取得の任務 x {0})", ( KCDatabase.Instance.Quest.Count - KCDatabase.Instance.Quest.Quests.Count ) );
+				QuestView.Rows[index].Cells[QuestView_Name.Index].Value = string.Format( Properties.Resources.FormQuest_UnknownQuestInfo, ( KCDatabase.Instance.Quest.Count - KCDatabase.Instance.Quest.Quests.Count ) );
 			}
 
 			if ( KCDatabase.Instance.Quest.Quests.Count == 0 ) {
 				int index = QuestView.Rows.Add();
 				QuestView.Rows[index].Cells[QuestView_State.Index].Value = null;
-				QuestView.Rows[index].Cells[QuestView_Name.Index].Value = "(任務完遂！)";
+				QuestView.Rows[index].Cells[QuestView_Name.Index].Value = Properties.Resources.FormQuest_QuestComplete;
 			}
 
 			//更新時にソートする
@@ -335,7 +335,7 @@ namespace ElectronicObserver.Window {
 
 		private void MenuMain_Initialize_Click( object sender, EventArgs e ) {
 
-			if ( MessageBox.Show( "任務データを初期化します。\r\nデータに齟齬が生じている場合以外での使用は推奨しません。\r\nよろしいですか？", "任務初期化の確認",
+			if ( MessageBox.Show( Properties.Resources.FormQuest_InitializeMessage, Properties.Resources.FormQuest_InitializeTitle,
 				MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation, MessageBoxDefaultButton.Button2 ) == System.Windows.Forms.DialogResult.Yes ) {
 
 				KCDatabase.Instance.Quest.Clear();
@@ -353,7 +353,7 @@ namespace ElectronicObserver.Window {
 			{
 				DataGridViewRow row = new DataGridViewRow();
 				row.CreateCells( QuestView );
-				row.SetValues( null, null, null, "(未取得)", null );
+				row.SetValues( null, null, null, Properties.Resources.FormQuest_UnknownQuest, null );
 				QuestView.Rows.Add( row );
 			}
 
