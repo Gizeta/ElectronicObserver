@@ -117,6 +117,12 @@
   <data name="Constant_Null" xml:space="preserve">
     <value>无</value>
   </data>
+  <data name="FormArsenal_Complete" xml:space="preserve">
+    <value>完成！</value>
+  </data>
+  <data name="FormArsenal_CompleteTime" xml:space="preserve">
+    <value>完成时间 : </value>
+  </data>
   <data name="FormMain_APIListOpenDialogTitle" xml:space="preserve">
     <value>加载API列表</value>
   </data>

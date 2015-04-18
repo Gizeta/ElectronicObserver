@@ -69,6 +69,24 @@ namespace ElectronicObserver.Properties {
         }
         
         /// <summary>
+        ///   完成！ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormArsenal_Complete {
+            get {
+                return ResourceManager.GetString("FormArsenal_Complete", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   完了日時 :  に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormArsenal_CompleteTime {
+            get {
+                return ResourceManager.GetString("FormArsenal_CompleteTime", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   APIリストをロード に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string FormMain_APIListOpenDialogTitle {

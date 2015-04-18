@@ -115,14 +115,14 @@ namespace ElectronicObserver.Window {
 					tooltip.SetToolTip( ShipName, name );
 					CompletionTime.Text = DateTimeHelper.ToTimeRemainString( arsenal.CompletionTime );
 					CompletionTime.Tag = arsenal.CompletionTime;
-					tooltip.SetToolTip( CompletionTime, "完了日時 : " + arsenal.CompletionTime.ToString() );
+					tooltip.SetToolTip( CompletionTime, Properties.Resources.FormArsenal_CompleteTime + arsenal.CompletionTime.ToString() );
 
 				} else if ( arsenal.State == 3 ) {
 					//complete!
 					string name = showShipName ? db.MasterShips[arsenal.ShipID].Name : "???";
 					ShipName.Text = name;
 					tooltip.SetToolTip( ShipName, name );
-					CompletionTime.Text = "完成！";
+					CompletionTime.Text = Properties.Resources.FormArsenal_Complete;
 					CompletionTime.Tag = null;
 					
 				}

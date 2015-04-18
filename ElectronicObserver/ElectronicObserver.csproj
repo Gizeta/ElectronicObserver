@@ -486,6 +486,9 @@
     <EmbeddedResource Include="Window\FormArsenal.resx">
       <DependentUpon>FormArsenal.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Window\FormArsenal.zh-Hans.resx">
+      <DependentUpon>FormArsenal.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Window\FormBattle.resx">
       <DependentUpon>FormBattle.cs</DependentUpon>
     </EmbeddedResource>

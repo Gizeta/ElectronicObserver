@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="MenuMain_ShowShipName.Text" xml:space="preserve">
-    <value>艦名を表示(&amp;V)</value>
+    <value>显示舰名(&amp;V)</value>
   </data>
   <data name="FormArsenal.Text" xml:space="preserve">
-    <value>工廠</value>
+    <value>工厂</value>
   </data>
   <metadata name="ToolTipInfo.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
