@@ -528,6 +528,9 @@
     <EmbeddedResource Include="Window\FormHeadquarters.resx">
       <DependentUpon>FormHeadquarters.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Window\FormHeadquarters.zh-Hans.resx">
+      <DependentUpon>FormHeadquarters.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Window\FormInformation.resx">
       <DependentUpon>FormInformation.cs</DependentUpon>
     </EmbeddedResource>

@@ -23,6 +23,7 @@
 		/// the contents of this method with the code editor.
 		/// </summary>
 		private void InitializeComponent() {
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormHeadquarters));
 			this.FlowPanelMaster = new System.Windows.Forms.FlowLayoutPanel();
 			this.FlowPanelAdmiral = new System.Windows.Forms.FlowLayoutPanel();
 			this.AdmiralName = new System.Windows.Forms.Label();
@@ -84,7 +85,7 @@
 			this.AdmiralName.Padding = new System.Windows.Forms.Padding(0, 3, 0, 2);
 			this.AdmiralName.Size = new System.Drawing.Size(53, 20);
 			this.AdmiralName.TabIndex = 0;
-			this.AdmiralName.Text = "(提督名)";
+			resources.ApplyResources(this.AdmiralName, "AdmiralName");
 			this.AdmiralName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
 			// AdmiralComment
@@ -95,7 +96,7 @@
 			this.AdmiralComment.Padding = new System.Windows.Forms.Padding(0, 3, 0, 2);
 			this.AdmiralComment.Size = new System.Drawing.Size(74, 20);
 			this.AdmiralComment.TabIndex = 1;
-			this.AdmiralComment.Text = "(提督コメント)";
+			resources.ApplyResources(this.AdmiralComment, "AdmiralComment");
 			this.AdmiralComment.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
 			// HQLevel
@@ -108,7 +109,7 @@
 			this.HQLevel.Name = "HQLevel";
 			this.HQLevel.Size = new System.Drawing.Size(88, 20);
 			this.HQLevel.TabIndex = 0;
-			this.HQLevel.Text = "HQ Lv.";
+			resources.ApplyResources(this.HQLevel, "HQLevel");
 			// 
 			// FlowPanelFleet
 			// 
@@ -130,7 +131,7 @@
 			this.ShipCount.Padding = new System.Windows.Forms.Padding(0, 2, 0, 2);
 			this.ShipCount.Size = new System.Drawing.Size(66, 20);
 			this.ShipCount.TabIndex = 0;
-			this.ShipCount.Text = "(艦船数)";
+			resources.ApplyResources(this.ShipCount, "ShipCount");
 			// 
 			// EquipmentCount
 			// 
@@ -141,7 +142,7 @@
 			this.EquipmentCount.Padding = new System.Windows.Forms.Padding(0, 2, 0, 2);
 			this.EquipmentCount.Size = new System.Drawing.Size(66, 20);
 			this.EquipmentCount.TabIndex = 1;
-			this.EquipmentCount.Text = "(装備数)";
+			resources.ApplyResources(this.EquipmentCount, "EquipmentCount");
 			// 
 			// FlowPanelUseItem
 			// 
@@ -166,7 +167,7 @@
 			this.InstantRepair.Padding = new System.Windows.Forms.Padding(0, 2, 0, 2);
 			this.InstantRepair.Size = new System.Drawing.Size(54, 20);
 			this.InstantRepair.TabIndex = 1;
-			this.InstantRepair.Text = "(修復)";
+			resources.ApplyResources(this.InstantRepair, "InstantRepair");
 			// 
 			// InstantConstruction
 			// 
@@ -177,7 +178,7 @@
 			this.InstantConstruction.Padding = new System.Windows.Forms.Padding(0, 2, 0, 2);
 			this.InstantConstruction.Size = new System.Drawing.Size(54, 20);
 			this.InstantConstruction.TabIndex = 2;
-			this.InstantConstruction.Text = "(建造)";
+			resources.ApplyResources(this.InstantConstruction, "InstantConstruction");
 			// 
 			// DevelopmentMaterial
 			// 
@@ -188,7 +189,7 @@
 			this.DevelopmentMaterial.Padding = new System.Windows.Forms.Padding(0, 2, 0, 2);
 			this.DevelopmentMaterial.Size = new System.Drawing.Size(54, 20);
 			this.DevelopmentMaterial.TabIndex = 3;
-			this.DevelopmentMaterial.Text = "(開発)";
+			resources.ApplyResources(this.DevelopmentMaterial, "DevelopmentMaterial");
 			// 
 			// ModdingMaterial
 			// 
@@ -199,7 +200,7 @@
 			this.ModdingMaterial.Padding = new System.Windows.Forms.Padding(0, 2, 0, 2);
 			this.ModdingMaterial.Size = new System.Drawing.Size(54, 20);
 			this.ModdingMaterial.TabIndex = 5;
-			this.ModdingMaterial.Text = "(改修)";
+			resources.ApplyResources(this.ModdingMaterial, "ModdingMaterial");
 			// 
 			// FurnitureCoin
 			// 
@@ -210,7 +211,7 @@
 			this.FurnitureCoin.Padding = new System.Windows.Forms.Padding(0, 2, 0, 2);
 			this.FurnitureCoin.Size = new System.Drawing.Size(54, 20);
 			this.FurnitureCoin.TabIndex = 4;
-			this.FurnitureCoin.Text = "(家具)";
+			resources.ApplyResources(this.FurnitureCoin, "FurnitureCoin");
 			// 
 			// FlowPanelResource
 			// 
@@ -235,7 +236,7 @@
 			this.Fuel.Padding = new System.Windows.Forms.Padding(0, 2, 0, 2);
 			this.Fuel.Size = new System.Drawing.Size(54, 20);
 			this.Fuel.TabIndex = 1;
-			this.Fuel.Text = "(燃料)";
+			resources.ApplyResources(this.Fuel, "Fuel");
 			// 
 			// Ammo
 			// 
@@ -246,7 +247,7 @@
 			this.Ammo.Padding = new System.Windows.Forms.Padding(0, 2, 0, 2);
 			this.Ammo.Size = new System.Drawing.Size(54, 20);
 			this.Ammo.TabIndex = 2;
-			this.Ammo.Text = "(弾薬)";
+			resources.ApplyResources(this.Ammo, "Ammo");
 			// 
 			// Steel
 			// 
@@ -257,7 +258,7 @@
 			this.Steel.Padding = new System.Windows.Forms.Padding(0, 2, 0, 2);
 			this.Steel.Size = new System.Drawing.Size(54, 20);
 			this.Steel.TabIndex = 3;
-			this.Steel.Text = "(鋼材)";
+			resources.ApplyResources(this.Steel, "Steel");
 			// 
 			// Bauxite
 			// 
@@ -268,7 +269,7 @@
 			this.Bauxite.Padding = new System.Windows.Forms.Padding(0, 2, 0, 2);
 			this.Bauxite.Size = new System.Drawing.Size(54, 20);
 			this.Bauxite.TabIndex = 4;
-			this.Bauxite.Text = "(軽銀)";
+			resources.ApplyResources(this.Bauxite, "Bauxite");
 			// 
 			// FormHeadquarters
 			// 
@@ -281,7 +282,7 @@
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
 			this.HideOnClose = true;
 			this.Name = "FormHeadquarters";
-			this.Text = "司令部";
+			resources.ApplyResources(this, "FormHeadquarters");
 			this.Load += new System.EventHandler(this.FormHeadquarters_Load);
 			this.FlowPanelMaster.ResumeLayout(false);
 			this.FlowPanelMaster.PerformLayout();

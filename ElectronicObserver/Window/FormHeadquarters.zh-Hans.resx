@@ -121,25 +121,22 @@
     <value>(提督名)</value>
   </data>
   <data name="AdmiralComment.Text" xml:space="preserve">
-    <value>(提督コメント)</value>
+    <value>(提督签名)</value>
   </data>
   <data name="HQLevel.Text" xml:space="preserve">
     <value>HQ Lv.</value>
   </data>
   <data name="ShipCount.Text" xml:space="preserve">
-    <value>(艦船数)</value>
-  </data>
-  <data name="EquipmentCount.Text" xml:space="preserve">
-    <value>(装備数)</value>
+    <value>(舰船数)</value>
   </data>
   <data name="InstantRepair.Text" xml:space="preserve">
-    <value>(修復)</value>
+    <value>(修复)</value>
   </data>
   <data name="InstantConstruction.Text" xml:space="preserve">
     <value>(建造)</value>
   </data>
   <data name="DevelopmentMaterial.Text" xml:space="preserve">
-    <value>(開発)</value>
+    <value>(开发)</value>
   </data>
   <data name="ModdingMaterial.Text" xml:space="preserve">
     <value>(改修)</value>
@@ -151,13 +148,13 @@
     <value>(燃料)</value>
   </data>
   <data name="Ammo.Text" xml:space="preserve">
-    <value>(弾薬)</value>
+    <value>(弹药)</value>
   </data>
   <data name="Steel.Text" xml:space="preserve">
-    <value>(鋼材)</value>
+    <value>(钢材)</value>
   </data>
   <data name="Bauxite.Text" xml:space="preserve">
-    <value>(軽銀)</value>
+    <value>(铝土)</value>
   </data>
   <data name="FormHeadquarters.Text" xml:space="preserve">
     <value>司令部</value>
