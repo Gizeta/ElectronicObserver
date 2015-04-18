@@ -516,6 +516,9 @@
     <EmbeddedResource Include="Window\FormFleet.resx">
       <DependentUpon>FormFleet.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Window\FormFleet.zh-Hans.resx">
+      <DependentUpon>FormFleet.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Window\FormFleetOverview.resx">
       <DependentUpon>FormFleetOverview.cs</DependentUpon>
     </EmbeddedResource>

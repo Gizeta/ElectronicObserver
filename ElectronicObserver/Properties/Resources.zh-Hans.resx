@@ -248,6 +248,94 @@ Cut-In种类: {2} ({3})
   <data name="FormDock_CompleteTime" xml:space="preserve">
     <value>完成时间 : </value>
   </data>
+  <data name="FormFleet_AAInfo" xml:space="preserve">
+    <value>确保: {0}
+优势: {1}
+均衡: {2}
+劣势: {3}
+</value>
+  </data>
+  <data name="FormFleet_AA_LOSInfo" xml:space="preserve">
+    <value>{0}	制空战力{1}/索敌能力{2}
+</value>
+  </data>
+  <data name="FormFleet_FleetInfo" xml:space="preserve">
+    <value>合计等级：{0}
+平均等级：{1:0.00}
+运输用桶搭载: {2}个 ({3}舰)
+大发动艇搭载: {4}个
+总装载: 油 {5} / 弹 {6}
+(每战消耗 油 {7} / 弹 {8})</value>
+  </data>
+  <data name="FormFleet_FleetNameNull" xml:space="preserve">
+    <value>*nothing*</value>
+  </data>
+  <data name="FormFleet_LOSInfo" xml:space="preserve">
+    <value>(旧)2-5式: {0}
+2-5式(秋): {1}
+2-5新秋简易式: {2}
+</value>
+  </data>
+  <data name="FormFleet_ShipAAInfo" xml:space="preserve">
+    <value>对空: {0}
+</value>
+  </data>
+  <data name="FormFleet_ShipAttackInfo" xml:space="preserve">
+    <value>
+昼战: {0}
+夜战: {1}
+</value>
+  </data>
+  <data name="FormFleet_ShipDockTime" xml:space="preserve">
+    <value>入渠时间: {0}
+</value>
+  </data>
+  <data name="FormFleet_ShipEscaped" xml:space="preserve">
+    <value>退避中</value>
+  </data>
+  <data name="FormFleet_ShipInfo" xml:space="preserve">
+    <value>{0} {1}
+火力: {2}/{3}
+雷装: {4}/{5}
+对空: {6}/{7}
+装甲: {8}/{9}
+对潜: {10}/{11}
+回避: {12}/{13}
+索敌: {14}/{15}
+运: {16}
+(右键打开图鉴)
+</value>
+  </data>
+  <data name="FormFleet_ShipLevel150Exp" xml:space="preserve">
+    <value>到Lv150: {0}</value>
+  </data>
+  <data name="FormFleet_ShipLevel99Exp" xml:space="preserve">
+    <value>到Lv99: {0}</value>
+  </data>
+  <data name="FormFleet_ShipLowHP" xml:space="preserve">
+    <value>已经大破了！</value>
+  </data>
+  <data name="FormFleet_ShipNextLevelExp" xml:space="preserve">
+    <value>到下一级: {0}
+</value>
+  </data>
+  <data name="FormFleet_ShipRemodelExp" xml:space="preserve">
+    <value>到改装: {0}</value>
+  </data>
+  <data name="FormFleet_ShipSparkleQuestTime" xml:space="preserve">
+    <value>还能远征 {0} 次</value>
+  </data>
+  <data name="FormFleet_ShipToLowHP" xml:space="preserve">
+    <value>大破: {0}
+</value>
+  </data>
+  <data name="FormFleet_ShipToMidHP" xml:space="preserve">
+    <value>中破: {0} / 大破: {1}
+</value>
+  </data>
+  <data name="FormFleet_ShipToNormalCond" xml:space="preserve">
+    <value>到完全恢复约需 {0:D2}:{1:D2}</value>
+  </data>
   <data name="FormMain_APIListOpenDialogTitle" xml:space="preserve">
     <value>加载API列表</value>
   </data>

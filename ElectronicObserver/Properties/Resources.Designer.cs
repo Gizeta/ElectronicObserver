@@ -416,6 +416,208 @@ namespace ElectronicObserver.Properties {
         }
         
         /// <summary>
+        ///   {0}\t制空戦力{1}/索敵能力{2}
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormFleet_AA_LOSInfo {
+            get {
+                return ResourceManager.GetString("FormFleet_AA_LOSInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   確保: {0}
+        ///優勢: {1}
+        ///均衡: {2}
+        ///劣勢: {3}
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormFleet_AAInfo {
+            get {
+                return ResourceManager.GetString("FormFleet_AAInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   合計レベル：{0}
+        ///平均レベル：{1:0.00}
+        ///ドラム缶搭載: {2}個 ({3}艦)
+        ///大発動艇搭載: {4}個
+        ///総積載: 燃 {5} / 弾 {6}
+        ///(1戦当たり 燃 {7} / 弾 {8}) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormFleet_FleetInfo {
+            get {
+                return ResourceManager.GetString("FormFleet_FleetInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   *nothing* に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormFleet_FleetNameNull {
+            get {
+                return ResourceManager.GetString("FormFleet_FleetNameNull", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   (旧)2-5式: {0}
+        ///2-5式(秋): {1}
+        ///2-5新秋簡易式: {2}
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormFleet_LOSInfo {
+            get {
+                return ResourceManager.GetString("FormFleet_LOSInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   対空: {0}
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormFleet_ShipAAInfo {
+            get {
+                return ResourceManager.GetString("FormFleet_ShipAAInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   
+        ///昼戦: {0}
+        ///夜戦: {1}
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormFleet_ShipAttackInfo {
+            get {
+                return ResourceManager.GetString("FormFleet_ShipAttackInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   入渠時間: {0}
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormFleet_ShipDockTime {
+            get {
+                return ResourceManager.GetString("FormFleet_ShipDockTime", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   退避中 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormFleet_ShipEscaped {
+            get {
+                return ResourceManager.GetString("FormFleet_ShipEscaped", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   {0} {1}
+        ///火力: {2}/{3}
+        ///雷装: {4}/{5}
+        ///対空: {6}/{7}
+        ///装甲: {8}/{9}
+        ///対潜: {10}/{11}
+        ///回避: {12}/{13}
+        ///索敵: {14}/{15}
+        ///運: {16}
+        ///(右クリックで図鑑)
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormFleet_ShipInfo {
+            get {
+                return ResourceManager.GetString("FormFleet_ShipInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Lv150まで: {0} に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormFleet_ShipLevel150Exp {
+            get {
+                return ResourceManager.GetString("FormFleet_ShipLevel150Exp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Lv99まで: {0} に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormFleet_ShipLevel99Exp {
+            get {
+                return ResourceManager.GetString("FormFleet_ShipLevel99Exp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   大破しています！ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormFleet_ShipLowHP {
+            get {
+                return ResourceManager.GetString("FormFleet_ShipLowHP", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   次のレベルまで: {0}
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormFleet_ShipNextLevelExp {
+            get {
+                return ResourceManager.GetString("FormFleet_ShipNextLevelExp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   改装まで: {0} に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormFleet_ShipRemodelExp {
+            get {
+                return ResourceManager.GetString("FormFleet_ShipRemodelExp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   あと {0} 回遠征可能 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormFleet_ShipSparkleQuestTime {
+            get {
+                return ResourceManager.GetString("FormFleet_ShipSparkleQuestTime", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   大破まで: {0}
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormFleet_ShipToLowHP {
+            get {
+                return ResourceManager.GetString("FormFleet_ShipToLowHP", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   中破まで: {0} / 大破まで: {1}
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormFleet_ShipToMidHP {
+            get {
+                return ResourceManager.GetString("FormFleet_ShipToMidHP", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   完全回復まで 約 {0:D2}:{1:D2} に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormFleet_ShipToNormalCond {
+            get {
+                return ResourceManager.GetString("FormFleet_ShipToNormalCond", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   APIリストをロード に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string FormMain_APIListOpenDialogTitle {

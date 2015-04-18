@@ -118,19 +118,19 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ContextMenuFleet_CopyFleet.Text" xml:space="preserve">
-    <value>クリップボードにコピー(&amp;C)</value>
+    <value>复制(&amp;C)</value>
   </data>
   <data name="ContextMenuFleet_Capture.Text" xml:space="preserve">
-    <value>この画面をキャプチャ(&amp;S)</value>
+    <value>捕捉画面(&amp;S)</value>
   </data>
   <data name="ContextMenuFleet_IsScrollable.Text" xml:space="preserve">
-    <value>スクロール可能</value>
+    <value>使用滚动条</value>
   </data>
   <data name="ContextMenuFleet_FixShipNameWidth.Text" xml:space="preserve">
-    <value>艦名の幅を固定する</value>
+    <value>固定舰名宽度</value>
   </data>
   <data name="FormFleet.Text" xml:space="preserve">
-    <value>*not loaded*</value>
+    <value>*未加载*</value>
   </data>
   <metadata name="ContextMenuFleet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>137, 17</value>

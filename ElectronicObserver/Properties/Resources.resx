@@ -248,6 +248,94 @@
   <data name="FormDock_CompleteTime" xml:space="preserve">
     <value>完了日時 : </value>
   </data>
+  <data name="FormFleet_AAInfo" xml:space="preserve">
+    <value>確保: {0}
+優勢: {1}
+均衡: {2}
+劣勢: {3}
+</value>
+  </data>
+  <data name="FormFleet_AA_LOSInfo" xml:space="preserve">
+    <value>{0}	制空戦力{1}/索敵能力{2}
+</value>
+  </data>
+  <data name="FormFleet_FleetInfo" xml:space="preserve">
+    <value>合計レベル：{0}
+平均レベル：{1:0.00}
+ドラム缶搭載: {2}個 ({3}艦)
+大発動艇搭載: {4}個
+総積載: 燃 {5} / 弾 {6}
+(1戦当たり 燃 {7} / 弾 {8})</value>
+  </data>
+  <data name="FormFleet_FleetNameNull" xml:space="preserve">
+    <value>*nothing*</value>
+  </data>
+  <data name="FormFleet_LOSInfo" xml:space="preserve">
+    <value>(旧)2-5式: {0}
+2-5式(秋): {1}
+2-5新秋簡易式: {2}
+</value>
+  </data>
+  <data name="FormFleet_ShipAAInfo" xml:space="preserve">
+    <value>対空: {0}
+</value>
+  </data>
+  <data name="FormFleet_ShipAttackInfo" xml:space="preserve">
+    <value>
+昼戦: {0}
+夜戦: {1}
+</value>
+  </data>
+  <data name="FormFleet_ShipDockTime" xml:space="preserve">
+    <value>入渠時間: {0}
+</value>
+  </data>
+  <data name="FormFleet_ShipEscaped" xml:space="preserve">
+    <value>退避中</value>
+  </data>
+  <data name="FormFleet_ShipInfo" xml:space="preserve">
+    <value>{0} {1}
+火力: {2}/{3}
+雷装: {4}/{5}
+対空: {6}/{7}
+装甲: {8}/{9}
+対潜: {10}/{11}
+回避: {12}/{13}
+索敵: {14}/{15}
+運: {16}
+(右クリックで図鑑)
+</value>
+  </data>
+  <data name="FormFleet_ShipLevel150Exp" xml:space="preserve">
+    <value>Lv150まで: {0}</value>
+  </data>
+  <data name="FormFleet_ShipLevel99Exp" xml:space="preserve">
+    <value>Lv99まで: {0}</value>
+  </data>
+  <data name="FormFleet_ShipLowHP" xml:space="preserve">
+    <value>大破しています！</value>
+  </data>
+  <data name="FormFleet_ShipNextLevelExp" xml:space="preserve">
+    <value>次のレベルまで: {0}
+</value>
+  </data>
+  <data name="FormFleet_ShipRemodelExp" xml:space="preserve">
+    <value>改装まで: {0}</value>
+  </data>
+  <data name="FormFleet_ShipSparkleQuestTime" xml:space="preserve">
+    <value>あと {0} 回遠征可能</value>
+  </data>
+  <data name="FormFleet_ShipToLowHP" xml:space="preserve">
+    <value>大破まで: {0}
+</value>
+  </data>
+  <data name="FormFleet_ShipToMidHP" xml:space="preserve">
+    <value>中破まで: {0} / 大破まで: {1}
+</value>
+  </data>
+  <data name="FormFleet_ShipToNormalCond" xml:space="preserve">
+    <value>完全回復まで 約 {0:D2}:{1:D2}</value>
+  </data>
   <data name="FormMain_APIListOpenDialogTitle" xml:space="preserve">
     <value>APIリストをロード</value>
   </data>
