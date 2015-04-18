@@ -540,6 +540,9 @@
     <EmbeddedResource Include="Window\FormLog.resx">
       <DependentUpon>FormLog.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Window\FormLog.zh-Hans.resx">
+      <DependentUpon>FormLog.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Window\FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
     </EmbeddedResource>

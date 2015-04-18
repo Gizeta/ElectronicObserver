@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ContextMenuLog_Clear.Text" xml:space="preserve">
-    <value>クリア(&amp;C)</value>
+    <value>清除(&amp;C)</value>
   </data>
   <data name="FormLog.Text" xml:space="preserve">
-    <value>ログ</value>
+    <value>日志</value>
   </data>
   <metadata name="ContextMenuLog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>

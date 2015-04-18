@@ -24,6 +24,7 @@
 		/// </summary>
 		private void InitializeComponent() {
 			this.components = new System.ComponentModel.Container();
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormLog));
 			this.LogList = new System.Windows.Forms.ListBox();
 			this.ContextMenuLog = new System.Windows.Forms.ContextMenuStrip(this.components);
 			this.ContextMenuLog_Clear = new System.Windows.Forms.ToolStripMenuItem();
@@ -59,7 +60,7 @@
 			// 
 			this.ContextMenuLog_Clear.Name = "ContextMenuLog_Clear";
 			this.ContextMenuLog_Clear.Size = new System.Drawing.Size(152, 22);
-			this.ContextMenuLog_Clear.Text = "クリア(&C)";
+			resources.ApplyResources(this.ContextMenuLog_Clear, "ContextMenuLog_Clear");
 			this.ContextMenuLog_Clear.Click += new System.EventHandler(this.ContextMenuLog_Clear_Click);
 			// 
 			// FormLog
@@ -73,7 +74,7 @@
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
 			this.HideOnClose = true;
 			this.Name = "FormLog";
-			this.Text = "ログ";
+			resources.ApplyResources(this, "FormLog");
 			this.Load += new System.EventHandler(this.FormLog_Load);
 			this.ContextMenuLog.ResumeLayout(false);
 			this.ResumeLayout(false);
