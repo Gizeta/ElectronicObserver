@@ -166,7 +166,9 @@
     <value>提督您到镇守府了。舰队将交由您来指挥。</value>
   </data>
   <data name="Configuration_1" xml:space="preserve">
-    <value>感谢您使用本软件。\r\n设定和使用方法请参照「帮助」→「在线帮助」。\r\n使用之前请一定要读一下。</value>
+    <value>感谢您使用本软件。
+设定和使用方法请参照「帮助」→「在线帮助」。
+使用之前请一定要读一下。</value>
   </data>
   <data name="Configuration_2" xml:space="preserve">
     <value>第一次启动</value>
@@ -703,7 +705,8 @@
     <value>可装备舰种:</value>
   </data>
   <data name="DialogAlbumMasterEquipment_10" xml:space="preserve">
-    <value>装备图鉴 输出CSV失败。\r\n</value>
+    <value>装备图鉴 输出CSV失败。
+</value>
   </data>
   <data name="DialogAlbumMasterEquipment_11" xml:space="preserve">
     <value>Error</value>
@@ -721,7 +724,8 @@
     <value>装备图鉴 输出CSV失败。</value>
   </data>
   <data name="DialogAlbumMasterEquipment_6" xml:space="preserve">
-    <value>装备图鉴 输出CSV失败。\r\n</value>
+    <value>装备图鉴 输出CSV失败。
+</value>
   </data>
   <data name="DialogAlbumMasterEquipment_7" xml:space="preserve">
     <value>Error</value>
@@ -736,22 +740,28 @@
     <value>陆上基地</value>
   </data>
   <data name="DialogAlbumMasterShip_10" xml:space="preserve">
-    <value>装甲 {0}{1}\r\n</value>
+    <value>装甲 {0}{1}
+</value>
   </data>
   <data name="DialogAlbumMasterShip_11" xml:space="preserve">
-    <value>对潜 {0}{1}\r\n</value>
+    <value>对潜 {0}{1}
+</value>
   </data>
   <data name="DialogAlbumMasterShip_12" xml:space="preserve">
-    <value>回避 {0}{1}\r\n</value>
+    <value>回避 {0}{1}
+</value>
   </data>
   <data name="DialogAlbumMasterShip_13" xml:space="preserve">
-    <value>索敌 {0}{1}\r\n</value>
+    <value>索敌 {0}{1}
+</value>
   </data>
   <data name="DialogAlbumMasterShip_14" xml:space="preserve">
-    <value>命中 {0}{1}\r\n</value>
+    <value>命中 {0}{1}
+</value>
   </data>
   <data name="DialogAlbumMasterShip_15" xml:space="preserve">
-    <value>爆装 {0}{1}\r\n</value>
+    <value>爆装 {0}{1}
+</value>
   </data>
   <data name="DialogAlbumMasterShip_16" xml:space="preserve">
     <value>(右键单击图鉴)</value>
@@ -781,7 +791,8 @@
     <value>舰船图鉴 输出CSV失败。</value>
   </data>
   <data name="DialogAlbumMasterShip_24" xml:space="preserve">
-    <value>舰船图鉴 输出CSV失败。\r\n</value>
+    <value>舰船图鉴 输出CSV失败。
+</value>
   </data>
   <data name="DialogAlbumMasterShip_25" xml:space="preserve">
     <value>Error</value>
@@ -796,16 +807,22 @@
     <value>包括装备后</value>
   </data>
   <data name="DialogAlbumMasterShip_6" xml:space="preserve">
-    <value>入渠时会消耗:\r\n每HP1: 钢 {0:F2} / 燃 {1:F2}\r\n最大: 钢 {2} / 燃 {3}\r\n</value>
+    <value>入渠时会消耗:
+每HP1: 钢 {0:F2} / 燃 {1:F2}
+最大: 钢 {2} / 燃 {3}
+</value>
   </data>
   <data name="DialogAlbumMasterShip_7" xml:space="preserve">
-    <value>火力 {0}{1}\r\n</value>
+    <value>火力 {0}{1}
+</value>
   </data>
   <data name="DialogAlbumMasterShip_8" xml:space="preserve">
-    <value>雷装 {0}{1}\r\n</value>
+    <value>雷装 {0}{1}
+</value>
   </data>
   <data name="DialogAlbumMasterShip_9" xml:space="preserve">
-    <value>对空 {0}{1}\r\n</value>
+    <value>对空 {0}{1}
+</value>
   </data>
   <data name="DialogConfiguration_1" xml:space="preserve">
     <value>指定文件夹不存在。</value>
@@ -829,7 +846,8 @@
     <value>没能保存自动代理配置脚本。</value>
   </data>
   <data name="DialogConfiguration_8" xml:space="preserve">
-    <value>没能保存自动代理配置脚本。\r\n</value>
+    <value>没能保存自动代理配置脚本。
+</value>
   </data>
   <data name="DialogConfiguration_9" xml:space="preserve">
     <value>Error</value>
@@ -856,7 +874,9 @@
     <value>通信内容 : {0}</value>
   </data>
   <data name="ErrorReporter_6" xml:space="preserve">
-    <value>ErrorReport写入失败。\r\n{0}\r\n{1}</value>
+    <value>ErrorReport写入失败。
+{0}
+{1}</value>
   </data>
   <data name="FleetData_1" xml:space="preserve">
     <value>没有所属舰队</value>
@@ -868,7 +888,9 @@
     <value>未补给</value>
   </data>
   <data name="FleetData_12" xml:space="preserve">
-    <value>燃 : {0}\r\n弹 : {1}\r\n铝 : {2} ({3}机)</value>
+    <value>燃 : {0}
+弹 : {1}
+铝 : {2} ({3}机)</value>
   </data>
   <data name="FleetData_13" xml:space="preserve">
     <value>疲劳</value>
@@ -880,7 +902,8 @@
     <value>战意高扬！</value>
   </data>
   <data name="FleetData_16" xml:space="preserve">
-    <value>最低cond: {0}\r\n还可进行 {1} 次远征</value>
+    <value>最低cond: {0}
+还可进行 {1} 次远征</value>
   </data>
   <data name="FleetData_17" xml:space="preserve">
     <value>可以出击！</value>
@@ -934,7 +957,8 @@
     <value>无法启动浏览器进程。</value>
   </data>
   <data name="FormBrowserHost_2" xml:space="preserve">
-    <value>无法启动浏览器进程。\r\n</value>
+    <value>无法启动浏览器进程。
+</value>
   </data>
   <data name="FormBrowserHost_3" xml:space="preserve">
     <value>Error</value>
@@ -964,7 +988,8 @@
     <value>窗口布局文件不存在。</value>
   </data>
   <data name="FormMain_12" xml:space="preserve">
-    <value>布局已经初始化完成。\r\n请从「显示」菜单中添加自己喜欢的窗口。</value>
+    <value>布局已经初始化完成。
+请从「显示」菜单中添加自己喜欢的窗口。</value>
   </data>
   <data name="FormMain_13" xml:space="preserve">
     <value>窗口布局文件不存在</value>
@@ -979,7 +1004,8 @@
     <value>保存窗口布局失败。</value>
   </data>
   <data name="FormMain_17" xml:space="preserve">
-    <value>记录不保存的话会丢失。\r\n你确认加载？</value>
+    <value>记录不保存的话会丢失。
+你确认加载？</value>
   </data>
   <data name="FormMain_18" xml:space="preserve">
     <value>确认</value>
@@ -991,7 +1017,8 @@
     <value>API读取失败。</value>
   </data>
   <data name="FormMain_20" xml:space="preserve">
-    <value>无法读取API列表。\r\n</value>
+    <value>无法读取API列表。
+</value>
   </data>
   <data name="FormMain_21" xml:space="preserve">
     <value>Error</value>
@@ -1012,10 +1039,12 @@
     <value>装备数据加载失败。</value>
   </data>
   <data name="FormMain_27" xml:space="preserve">
-    <value>将要删除旧的API数据。\r\n真的要这么做？</value>
+    <value>将要删除旧的API数据。
+真的要这么做？</value>
   </data>
   <data name="FormMain_28" xml:space="preserve">
-    <value>已经删除。\r\n</value>
+    <value>已经删除。
+</value>
   </data>
   <data name="FormMain_29" xml:space="preserve">
     <value> 个文件已经删除。</value>
@@ -1027,7 +1056,8 @@
     <value>删除成功</value>
   </data>
   <data name="FormMain_31" xml:space="preserve">
-    <value>删除失败。\r\n</value>
+    <value>删除失败。
+</value>
   </data>
   <data name="FormMain_32" xml:space="preserve">
     <value>舰船数据加载失败。</value>
@@ -1036,7 +1066,8 @@
     <value>从通信中保存的舰船资源名的文件及文件夹、将替换成舰船名。\r\n</value>
   </data>
   <data name="FormMain_34" xml:space="preserve">
-    <value>对象是指定目录下的所有文件及子文件夹。\r\n</value>
+    <value>对象是指定目录下的所有文件及子文件夹。
+</value>
   </data>
   <data name="FormMain_35" xml:space="preserve">
     <value>确认要继续？</value>
@@ -1045,7 +1076,8 @@
     <value>重命名该船的资源文件名</value>
   </data>
   <data name="FormMain_37" xml:space="preserve">
-    <value>已完成重命名。\r\n{0} 个资源文件被修改。</value>
+    <value>已完成重命名。
+{0} 个资源文件被修改。</value>
   </data>
   <data name="FormMain_38" xml:space="preserve">
     <value>处理完成</value>
@@ -1058,10 +1090,12 @@
 Sony大法好，来正面上我啊？</value>
   </data>
   <data name="FormMain_40" xml:space="preserve">
-    <value>舰船资源文件重命名失败。\r\n</value>
+    <value>舰船资源文件重命名失败。
+</value>
   </data>
   <data name="FormMain_41" xml:space="preserve">
-    <value>将要打开外部浏览器查看在线帮助。\r\n确认继续吗？</value>
+    <value>将要打开外部浏览器查看在线帮助。
+确认继续吗？</value>
   </data>
   <data name="FormMain_42" xml:space="preserve">
     <value>帮助</value>
@@ -1070,7 +1104,8 @@ Sony大法好，来正面上我啊？</value>
     <value>打开布局文件</value>
   </data>
   <data name="FormMain_44" xml:space="preserve">
-    <value>将要跳转到登陆界面。\r\n确认继续吗？</value>
+    <value>将要跳转到登陆界面。
+确认继续吗？</value>
   </data>
   <data name="FormMain_45" xml:space="preserve">
     <value>确认</value>
@@ -1240,7 +1275,8 @@ Sony大法好，来正面上我啊？</value>
     <value>资源文件读取失败。</value>
   </data>
   <data name="ResourceManager_2" xml:space="preserve">
-    <value>资源文件读取失败。\r\n</value>
+    <value>资源文件读取失败。
+</value>
   </data>
   <data name="ResourceManager_3" xml:space="preserve">
     <value>Error</value>
@@ -1294,7 +1330,8 @@ Sony大法好，来正面上我啊？</value>
     <value>舰船ID,舰船名,初期对潜下限,初期对潜上限,对潜最大,初期回避下限,初期回避上限,回避最大,初期索敌下限,初期索敌上限,索敌最大,装备1,装备2,装备3,装备4,装备5,图鉴说明</value>
   </data>
   <data name="ShipStatusResource_1" xml:space="preserve">
-    <value>燃料 : {0}/{1} ({2}%)\r\n弹药 : {3}/{4} ({5}%)</value>
+    <value>燃料 : {0}/{1} ({2}%)
+弹药 : {3}/{4} ({5}%)</value>
   </data>
   <data name="SoftwareInformation_1" xml:space="preserve">
     <value>七四式电子观测仪</value>
@@ -1315,7 +1352,11 @@ Sony大法好，来正面上我啊？</value>
     <value>1.1.1</value>
   </data>
   <data name="SoftwareInformation_5" xml:space="preserve">
-    <value>新版本已经发布！ : {0}\r\n更新内容 : \r\n{1}\r\n打开下载页面吗？\r\n(取消后则不再显示)</value>
+    <value>新版本已经发布！ : {0}
+更新内容 : 
+{1}
+打开下载页面吗？
+(取消后则不再显示)</value>
   </data>
   <data name="SoftwareInformation_6" xml:space="preserve">
     <value>更新信息</value>
@@ -1339,10 +1380,13 @@ Sony大法好，来正面上我啊？</value>
     <value>接触中:</value>
   </data>
   <data name="FormBattle_10" xml:space="preserve">
-    <value>第{0}次: {1}\r\nCut-In种类: {2} ({3})\r\n</value>
+    <value>第{0}次: {1}
+Cut-In种类: {2} ({3})
+</value>
   </data>
   <data name="FormBattle_11" xml:space="preserve">
-    <value>第{0}次: (未发动)\r\n</value>
+    <value>第{0}次: (未发动)
+</value>
   </data>
   <data name="FormBattle_12" xml:space="preserve">
     <value>探照灯照射:</value>
@@ -1357,7 +1401,8 @@ Sony大法好，来正面上我啊？</value>
     <value>照明弹投射:</value>
   </data>
   <data name="FormBattle_2" xml:space="preserve">
-    <value>对空Cut-In: {0}\r\nCut-In种类: {1} ({2})</value>
+    <value>对空Cut-In: {0}
+Cut-In种类: {1} ({2})</value>
   </data>
   <data name="FormBattle_3" xml:space="preserve">
     <value>对空炮火</value>
@@ -1366,16 +1411,22 @@ Sony大法好，来正面上我啊？</value>
     <value>第2次:</value>
   </data>
   <data name="FormBattle_5" xml:space="preserve">
-    <value>第1次: -{0}/{1}\r\n第2次: -{2}/{3}\r\n</value>
+    <value>第1次: -{0}/{1}
+第2次: -{2}/{3}
+</value>
   </data>
   <data name="FormBattle_6" xml:space="preserve">
-    <value>{0}接触中\r\n第1次: {1}\r\n第2次: {2}</value>
+    <value>{0}接触中
+第1次: {1}
+第2次: {2}</value>
   </data>
   <data name="FormBattle_7" xml:space="preserve">
     <value>(无)</value>
   </data>
   <data name="FormBattle_8" xml:space="preserve">
-    <value>第1次: -{0}/{1}\r\n第2次: -{2}/{3}\r\n</value>
+    <value>第1次: -{0}/{1}
+第2次: -{2}/{3}
+</value>
   </data>
   <data name="FormBattle_9" xml:space="preserve">
     <value>对空Cut-In</value>
