@@ -221,6 +221,60 @@ namespace ElectronicObserver.Properties {
         }
         
         /// <summary>
+        ///   ブラウザの終了中にエラーが発生しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormBrowserHost_BrowserCloseError {
+            get {
+                return ResourceManager.GetString("FormBrowserHost_BrowserCloseError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   ブラウザプロセスが予期せず終了しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormBrowserHost_BrowserNotFound {
+            get {
+                return ResourceManager.GetString("FormBrowserHost_BrowserNotFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   ブラウザプロセス間で通信エラーが発生しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormBrowserHost_CommunicateError {
+            get {
+                return ResourceManager.GetString("FormBrowserHost_CommunicateError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   移動先の URL を入力してください。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormBrowserHost_NavigateMessage {
+            get {
+                return ResourceManager.GetString("FormBrowserHost_NavigateMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   移動先の入力 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormBrowserHost_NavigateTitle {
+            get {
+                return ResourceManager.GetString("FormBrowserHost_NavigateTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   ブラウザプロセスの起動に失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormBrowserHost_StartUpFail {
+            get {
+                return ResourceManager.GetString("FormBrowserHost_StartUpFail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   APIリストをロード に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string FormMain_APIListOpenDialogTitle {

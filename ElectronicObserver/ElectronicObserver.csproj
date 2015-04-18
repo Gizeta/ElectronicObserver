@@ -498,6 +498,9 @@
     <EmbeddedResource Include="Window\FormBrowserHost.resx">
       <DependentUpon>FormBrowserHost.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Window\FormBrowserHost.zh-Hans.resx">
+      <DependentUpon>FormBrowserHost.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Window\FormCompass.resx">
       <DependentUpon>FormCompass.cs</DependentUpon>
     </EmbeddedResource>

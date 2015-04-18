@@ -24,6 +24,7 @@
 		/// </summary>
 		private void InitializeComponent() {
             this.SuspendLayout();
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormBrowserHost));
             // 
             // FormBrowserHost
             // 
@@ -35,7 +36,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.HideOnClose = true;
             this.Name = "FormBrowserHost";
-            this.Text = "ブラウザ";
+			resources.ApplyResources(this, "FormBrowserHost");
             this.Load += new System.EventHandler(this.FormBrowser_Load);
             this.Resize += new System.EventHandler(this.FormBrowserHost_Resize);
             this.ResumeLayout(false);

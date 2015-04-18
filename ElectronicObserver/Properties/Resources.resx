@@ -173,6 +173,24 @@
   <data name="FormBattle_Twice" xml:space="preserve">
     <value>第2次: </value>
   </data>
+  <data name="FormBrowserHost_BrowserCloseError" xml:space="preserve">
+    <value>ブラウザの終了中にエラーが発生しました。</value>
+  </data>
+  <data name="FormBrowserHost_BrowserNotFound" xml:space="preserve">
+    <value>ブラウザプロセスが予期せず終了しました。</value>
+  </data>
+  <data name="FormBrowserHost_CommunicateError" xml:space="preserve">
+    <value>ブラウザプロセス間で通信エラーが発生しました。</value>
+  </data>
+  <data name="FormBrowserHost_NavigateMessage" xml:space="preserve">
+    <value>移動先の URL を入力してください。</value>
+  </data>
+  <data name="FormBrowserHost_NavigateTitle" xml:space="preserve">
+    <value>移動先の入力</value>
+  </data>
+  <data name="FormBrowserHost_StartUpFail" xml:space="preserve">
+    <value>ブラウザプロセスの起動に失敗しました。</value>
+  </data>
   <data name="FormMain_APIListOpenDialogTitle" xml:space="preserve">
     <value>APIリストをロード</value>
   </data>
