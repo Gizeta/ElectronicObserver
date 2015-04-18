@@ -492,6 +492,9 @@
     <EmbeddedResource Include="Window\FormBattle.resx">
       <DependentUpon>FormBattle.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Window\FormBattle.zh-Hans.resx">
+      <DependentUpon>FormBattle.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Window\FormBrowserHost.resx">
       <DependentUpon>FormBrowserHost.cs</DependentUpon>
     </EmbeddedResource>

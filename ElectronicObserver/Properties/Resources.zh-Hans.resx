@@ -123,6 +123,56 @@
   <data name="FormArsenal_CompleteTime" xml:space="preserve">
     <value>完成时间 : </value>
   </data>
+  <data name="FormBattle_AAAttack" xml:space="preserve">
+    <value>对空炮火</value>
+  </data>
+  <data name="FormBattle_AAAttackInfo" xml:space="preserve">
+    <value>对空Cut-In: {0}
+Cut-In种类: {1} ({2})</value>
+  </data>
+  <data name="FormBattle_AACutIn" xml:space="preserve">
+    <value>对空Cut-In</value>
+  </data>
+  <data name="FormBattle_AACutInAttackInfo" xml:space="preserve">
+    <value>第{0}次: {1}
+Cut-In种类: {2} ({3})
+</value>
+  </data>
+  <data name="FormBattle_AACutInNoneInfo" xml:space="preserve">
+    <value>第{0}次: (未发动)
+</value>
+  </data>
+  <data name="FormBattle_AirStageAttackInfo" xml:space="preserve">
+    <value>第1次: -{0}/{1}
+第2次: -{2}/{3}
+</value>
+  </data>
+  <data name="FormBattle_AirStageTouchInfo" xml:space="preserve">
+    <value>{0}接触中
+第1次: {1}
+第2次: {2}</value>
+  </data>
+  <data name="FormBattle_Flare" xml:space="preserve">
+    <value>照明弹投射: </value>
+  </data>
+  <data name="FormBattle_MidnightTouch" xml:space="preserve">
+    <value>夜间接触</value>
+  </data>
+  <data name="FormBattle_MidnightTouching" xml:space="preserve">
+    <value>夜间接触中: </value>
+  </data>
+  <data name="FormBattle_Null" xml:space="preserve">
+    <value>(无)</value>
+  </data>
+  <data name="FormBattle_SearchLight" xml:space="preserve">
+    <value>探照灯照射: </value>
+  </data>
+  <data name="FormBattle_Touching" xml:space="preserve">
+    <value>接触中: </value>
+  </data>
+  <data name="FormBattle_Twice" xml:space="preserve">
+    <value>第2次: </value>
+  </data>
   <data name="FormMain_APIListOpenDialogTitle" xml:space="preserve">
     <value>加载API列表</value>
   </data>

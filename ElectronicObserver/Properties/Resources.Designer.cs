@@ -87,6 +87,140 @@ namespace ElectronicObserver.Properties {
         }
         
         /// <summary>
+        ///   対空砲火 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormBattle_AAAttack {
+            get {
+                return ResourceManager.GetString("FormBattle_AAAttack", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   対空カットイン: {0}
+        ///カットイン種別: {1} ({2}) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormBattle_AAAttackInfo {
+            get {
+                return ResourceManager.GetString("FormBattle_AAAttackInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   対空カットイン に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormBattle_AACutIn {
+            get {
+                return ResourceManager.GetString("FormBattle_AACutIn", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   第{0}次: {1}
+        ///カットイン種別: {2} ({3})
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormBattle_AACutInAttackInfo {
+            get {
+                return ResourceManager.GetString("FormBattle_AACutInAttackInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   第{0}次: (発動せず)
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormBattle_AACutInNoneInfo {
+            get {
+                return ResourceManager.GetString("FormBattle_AACutInNoneInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   第1次: -{0}/{1}
+        ///第2次: -{2}/{3}
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormBattle_AirStageAttackInfo {
+            get {
+                return ResourceManager.GetString("FormBattle_AirStageAttackInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   {0}触接中
+        ///第1次: {1}
+        ///第2次: {2} に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormBattle_AirStageTouchInfo {
+            get {
+                return ResourceManager.GetString("FormBattle_AirStageTouchInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   照明弾投射:  に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormBattle_Flare {
+            get {
+                return ResourceManager.GetString("FormBattle_Flare", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   夜間触接 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormBattle_MidnightTouch {
+            get {
+                return ResourceManager.GetString("FormBattle_MidnightTouch", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   夜間触接中:  に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormBattle_MidnightTouching {
+            get {
+                return ResourceManager.GetString("FormBattle_MidnightTouching", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   (なし) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormBattle_Null {
+            get {
+                return ResourceManager.GetString("FormBattle_Null", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   探照灯照射:  に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormBattle_SearchLight {
+            get {
+                return ResourceManager.GetString("FormBattle_SearchLight", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   触接中:  に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormBattle_Touching {
+            get {
+                return ResourceManager.GetString("FormBattle_Touching", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   第2次:  に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormBattle_Twice {
+            get {
+                return ResourceManager.GetString("FormBattle_Twice", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   APIリストをロード に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string FormMain_APIListOpenDialogTitle {
