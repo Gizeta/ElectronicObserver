@@ -62,7 +62,10 @@ namespace ElectronicObserver.Notifier {
             switch (dialogData.Alignment)
             {
                 case NotifierDialogAlignment.Balloon:
-                    new BalloonNotifier(dialogData).Show();
+                    new WindowsNotification(false,dialogData).Show();
+                    break;
+                case NotifierDialogAlignment.Metro:
+                    new WindowsNotification(true,dialogData).Show();
                     break;
                 default:
                     new DialogNotifier(dialogData).Show();

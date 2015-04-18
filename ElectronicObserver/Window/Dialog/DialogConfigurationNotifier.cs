@@ -23,7 +23,10 @@ namespace ElectronicObserver.Window.Dialog {
 
 		public DialogConfigurationNotifier( NotifierBase notifier ) {
 			InitializeComponent();
-
+            if (Toast.IsSupported)
+            {
+                Alignment.Items.Add("Metro");
+            }
 			_notifier = notifier;
 
 			//init base

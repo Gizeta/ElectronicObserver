@@ -221,7 +221,11 @@ namespace ElectronicObserver.Notifier {
 		/// <summary>ユーザーが設定した座標に配置されます。</summary>
 		Custom,
 
+        /// <summary>气球样式。</summary>
         Balloon,
+
+        /// <summary>Metro样式。</summary>
+        Metro
 	}
 
 }
