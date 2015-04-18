@@ -522,6 +522,9 @@
     <EmbeddedResource Include="Window\FormFleetOverview.resx">
       <DependentUpon>FormFleetOverview.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Window\FormFleetOverview.zh-Hans.resx">
+      <DependentUpon>FormFleetOverview.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Window\FormHeadquarters.resx">
       <DependentUpon>FormHeadquarters.cs</DependentUpon>
     </EmbeddedResource>
