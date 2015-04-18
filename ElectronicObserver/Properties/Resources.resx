@@ -117,6 +117,12 @@
   <data name="Constant_Null" xml:space="preserve">
     <value>なし</value>
   </data>
+  <data name="Constant_Practice" xml:space="preserve">
+    <value>演習</value>
+  </data>
+  <data name="Constant_Unknown" xml:space="preserve">
+    <value>不明</value>
+  </data>
   <data name="FormArsenal_Complete" xml:space="preserve">
     <value>完成！</value>
   </data>
@@ -190,6 +196,54 @@
   </data>
   <data name="FormBrowserHost_StartUpFail" xml:space="preserve">
     <value>ブラウザプロセスの起動に失敗しました。</value>
+  </data>
+  <data name="FormCompass_AAInfo" xml:space="preserve">
+    <value>対空: {0}
+</value>
+  </data>
+  <data name="FormCompass_AttackInfo" xml:space="preserve">
+    <value>
+昼戦: {0}
+夜戦: {1}
+</value>
+  </data>
+  <data name="FormCompass_EndPoint" xml:space="preserve">
+    <value> (終点)</value>
+  </data>
+  <data name="FormCompass_EnemyIDInfo" xml:space="preserve">
+    <value>敵艦隊ID : {0}</value>
+  </data>
+  <data name="FormCompass_MapAreaInfo" xml:space="preserve">
+    <value>出撃海域 : {0}-{1}</value>
+  </data>
+  <data name="FormCompass_NextPointInfo" xml:space="preserve">
+    <value>次のセル : {0}{1}</value>
+  </data>
+  <data name="FormCompass_Seaplane" xml:space="preserve">
+    <value>索敵機発艦！</value>
+  </data>
+  <data name="FormCompass_ShipInfo" xml:space="preserve">
+    <value>{0} {1}{2}
+耐久: {3}
+火力: {4}/{5}
+雷装: {6}/{7}
+対空: {8}/{9}
+装甲: {10}/{11}
+対潜: {12}/{13}
+回避: {14}/{15}
+索敵: {16}/{17}
+運: {18}/{19}
+(右クリックで図鑑)
+</value>
+  </data>
+  <data name="FormCompass_UnknownEnemy" xml:space="preserve">
+    <value>(敵艦隊情報不明)</value>
+  </data>
+  <data name="FormCompass_UnknownEventID" xml:space="preserve">
+    <value>どうしてこうなった</value>
+  </data>
+  <data name="FormCompass_UnknownItem" xml:space="preserve">
+    <value>謎のアイテム</value>
   </data>
   <data name="FormMain_APIListOpenDialogTitle" xml:space="preserve">
     <value>APIリストをロード</value>

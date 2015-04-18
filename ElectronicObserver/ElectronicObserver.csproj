@@ -504,6 +504,9 @@
     <EmbeddedResource Include="Window\FormCompass.resx">
       <DependentUpon>FormCompass.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Window\FormCompass.zh-Hans.resx">
+      <DependentUpon>FormCompass.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Window\FormDock.resx">
       <DependentUpon>FormDock.cs</DependentUpon>
     </EmbeddedResource>

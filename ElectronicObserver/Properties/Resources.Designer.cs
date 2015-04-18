@@ -69,6 +69,24 @@ namespace ElectronicObserver.Properties {
         }
         
         /// <summary>
+        ///   演習 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Practice {
+            get {
+                return ResourceManager.GetString("Constant_Practice", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   不明 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Unknown {
+            get {
+                return ResourceManager.GetString("Constant_Unknown", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   完成！ に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string FormArsenal_Complete {
@@ -271,6 +289,120 @@ namespace ElectronicObserver.Properties {
         internal static string FormBrowserHost_StartUpFail {
             get {
                 return ResourceManager.GetString("FormBrowserHost_StartUpFail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   対空: {0}
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormCompass_AAInfo {
+            get {
+                return ResourceManager.GetString("FormCompass_AAInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   
+        ///昼戦: {0}
+        ///夜戦: {1}
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormCompass_AttackInfo {
+            get {
+                return ResourceManager.GetString("FormCompass_AttackInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    (終点) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormCompass_EndPoint {
+            get {
+                return ResourceManager.GetString("FormCompass_EndPoint", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   敵艦隊ID : {0} に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormCompass_EnemyIDInfo {
+            get {
+                return ResourceManager.GetString("FormCompass_EnemyIDInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   出撃海域 : {0}-{1} に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormCompass_MapAreaInfo {
+            get {
+                return ResourceManager.GetString("FormCompass_MapAreaInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   次のセル : {0}{1} に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormCompass_NextPointInfo {
+            get {
+                return ResourceManager.GetString("FormCompass_NextPointInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   索敵機発艦！ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormCompass_Seaplane {
+            get {
+                return ResourceManager.GetString("FormCompass_Seaplane", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   {0} {1}{2}
+        ///耐久: {3}
+        ///火力: {4}/{5}
+        ///雷装: {6}/{7}
+        ///対空: {8}/{9}
+        ///装甲: {10}/{11}
+        ///対潜: {12}/{13}
+        ///回避: {14}/{15}
+        ///索敵: {16}/{17}
+        ///運: {18}/{19}
+        ///(右クリックで図鑑)
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormCompass_ShipInfo {
+            get {
+                return ResourceManager.GetString("FormCompass_ShipInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   (敵艦隊情報不明) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormCompass_UnknownEnemy {
+            get {
+                return ResourceManager.GetString("FormCompass_UnknownEnemy", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   どうしてこうなった に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormCompass_UnknownEventID {
+            get {
+                return ResourceManager.GetString("FormCompass_UnknownEventID", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   謎のアイテム に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormCompass_UnknownItem {
+            get {
+                return ResourceManager.GetString("FormCompass_UnknownItem", resourceCulture);
             }
         }
         
