@@ -567,6 +567,9 @@
     <EmbeddedResource Include="Window\FormShipGroup.resx">
       <DependentUpon>FormShipGroup.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Window\FormShipGroup.zh-Hans.resx">
+      <DependentUpon>FormShipGroup.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

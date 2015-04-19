@@ -226,10 +226,10 @@
     <value>271, 17</value>
   </metadata>
   <data name="ShipView_ShipType.HeaderText" xml:space="preserve">
-    <value>艦種</value>
+    <value>舰种</value>
   </data>
   <data name="ShipView_Name.HeaderText" xml:space="preserve">
-    <value>艦名</value>
+    <value>舰名</value>
   </data>
   <data name="ShipView_Level.HeaderText" xml:space="preserve">
     <value>Lv</value>
@@ -241,7 +241,7 @@
     <value>next</value>
   </data>
   <data name="ShipView_NextRemodel.HeaderText" xml:space="preserve">
-    <value>改装まで</value>
+    <value>改造</value>
   </data>
   <data name="ShipView_HP.HeaderText" xml:space="preserve">
     <value>HP</value>
@@ -253,25 +253,25 @@
     <value>燃料</value>
   </data>
   <data name="ShipView_Ammo.HeaderText" xml:space="preserve">
-    <value>弾薬</value>
+    <value>弹药</value>
   </data>
   <data name="ShipView_Equipment1.HeaderText" xml:space="preserve">
-    <value>装備1</value>
+    <value>装备1</value>
   </data>
   <data name="ShipView_Equipment2.HeaderText" xml:space="preserve">
-    <value>装備2</value>
+    <value>装备2</value>
   </data>
   <data name="ShipView_Equipment3.HeaderText" xml:space="preserve">
-    <value>装備3</value>
+    <value>装备3</value>
   </data>
   <data name="ShipView_Equipment4.HeaderText" xml:space="preserve">
-    <value>装備4</value>
+    <value>装备4</value>
   </data>
   <data name="ShipView_Equipment5.HeaderText" xml:space="preserve">
-    <value>装備5</value>
+    <value>装备5</value>
   </data>
   <data name="ShipView_Fleet.HeaderText" xml:space="preserve">
-    <value>艦隊</value>
+    <value>舰队</value>
   </data>
   <data name="ShipView_RepairTime.HeaderText" xml:space="preserve">
     <value>入渠</value>
@@ -289,10 +289,10 @@
     <value>雷装改修</value>
   </data>
   <data name="ShipView_AA.HeaderText" xml:space="preserve">
-    <value>対空</value>
+    <value>对空</value>
   </data>
   <data name="ShipView_AARemain.HeaderText" xml:space="preserve">
-    <value>対空改修</value>
+    <value>对空改修</value>
   </data>
   <data name="ShipView_Armor.HeaderText" xml:space="preserve">
     <value>装甲</value>
@@ -301,63 +301,63 @@
     <value>装甲改修</value>
   </data>
   <data name="ShipView_ASW.HeaderText" xml:space="preserve">
-    <value>対潜</value>
+    <value>对潜</value>
   </data>
   <data name="ShipView_Evasion.HeaderText" xml:space="preserve">
     <value>回避</value>
   </data>
   <data name="ShipView_LOS.HeaderText" xml:space="preserve">
-    <value>索敵</value>
+    <value>索敌</value>
   </data>
   <data name="ShipView_Luck.HeaderText" xml:space="preserve">
-    <value>運</value>
+    <value>运</value>
   </data>
   <data name="ShipView_LuckRemain.HeaderText" xml:space="preserve">
-    <value>運改修</value>
+    <value>运改修</value>
   </data>
   <data name="ShipView_Locked.HeaderText" xml:space="preserve">
-    <value>ロック</value>
+    <value>锁</value>
   </data>
   <data name="ShipView_SallyArea.HeaderText" xml:space="preserve">
-    <value>出撃先</value>
+    <value>出击</value>
   </data>
   <data name="MenuMember_AddToGroup.Text" xml:space="preserve">
-    <value>グループへ追加(&amp;A)...</value>
+    <value>添加到编组(&amp;A)...</value>
   </data>
   <data name="MenuMember_CreateGroup.Text" xml:space="preserve">
-    <value>新規グループを作成(&amp;C)...</value>
+    <value>新建编组(&amp;C)...</value>
   </data>
   <data name="MenuMember_ColumnFilter.Text" xml:space="preserve">
-    <value>列フィルタ(&amp;F)...</value>
+    <value>过滤列(&amp;F)...</value>
   </data>
   <data name="MenuMember_ColumnAutoSize.Text" xml:space="preserve">
-    <value>列の自動調整(&amp;D)</value>
+    <value>自动调整列(&amp;D)</value>
   </data>
   <data name="MenuMember_LockShipNameScroll.Text" xml:space="preserve">
-    <value>艦名をスクロールしない(&amp;S)</value>
+    <value>锁定舰名滚动(&amp;S)</value>
   </data>
   <data name="MenuMember_CSVOutput.Text" xml:space="preserve">
-    <value>CSV出力(&amp;O)...</value>
+    <value>导出CSV(&amp;O)...</value>
   </data>
   <data name="MenuMember_Delete.Text" xml:space="preserve">
-    <value>削除(&amp;D)</value>
+    <value>删除(&amp;D)</value>
   </data>
   <data name="MenuGroup_Add.Text" xml:space="preserve">
-    <value>グループを追加(&amp;A)</value>
+    <value>增加编组(&amp;A)</value>
   </data>
   <data name="MenuGroup_Rename.Text" xml:space="preserve">
-    <value>グループ名の変更(&amp;R)</value>
+    <value>重命名编组(&amp;R)</value>
   </data>
   <data name="MenuGroup_Delete.Text" xml:space="preserve">
-    <value>グループを削除(&amp;D)</value>
+    <value>删除编组(&amp;D)</value>
   </data>
   <data name="MenuGroup_AutoUpdate.Text" xml:space="preserve">
-    <value>自動更新する</value>
+    <value>自动更新</value>
   </data>
   <data name="MenuGroup_ShowStatusBar.Text" xml:space="preserve">
-    <value>ステータスバーを表示する</value>
+    <value>显示状态栏</value>
   </data>
   <data name="FormShipGroup.Text" xml:space="preserve">
-    <value>グループ</value>
+    <value>编成</value>
   </data>
 </root>

@@ -1127,6 +1127,539 @@ namespace ElectronicObserver.Properties {
             }
         }
         
+        
+        /// <summary>
+        ///   対空 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_AA {
+            get {
+                return ResourceManager.GetString("FormShipGroup_AA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   対空改修 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_AARemain {
+            get {
+                return ResourceManager.GetString("FormShipGroup_AARemain", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   追加するグループを選択してください： に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_AddToGroupMessage {
+            get {
+                return ResourceManager.GetString("FormShipGroup_AddToGroupMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   グループの選択 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_AddToGroupTitle {
+            get {
+                return ResourceManager.GetString("FormShipGroup_AddToGroupTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   弾薬 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_Ammo {
+            get {
+                return ResourceManager.GetString("FormShipGroup_Ammo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   固有ID に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_APIID {
+            get {
+                return ResourceManager.GetString("FormShipGroup_APIID", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   装甲 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_Armor {
+            get {
+                return ResourceManager.GetString("FormShipGroup_Armor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   装甲改修 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_ArmorRemain {
+            get {
+                return ResourceManager.GetString("FormShipGroup_ArmorRemain", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   対潜 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_ASW {
+            get {
+                return ResourceManager.GetString("FormShipGroup_ASW", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Cond に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_Condition {
+            get {
+                return ResourceManager.GetString("FormShipGroup_Condition", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   追加するグループの名前を入力してください： に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_CreateGroupMessage {
+            get {
+                return ResourceManager.GetString("FormShipGroup_CreateGroupMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   グループの追加 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_CreateGroupTitle {
+            get {
+                return ResourceManager.GetString("FormShipGroup_CreateGroupTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   装備1 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_Equipment1 {
+            get {
+                return ResourceManager.GetString("FormShipGroup_Equipment1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   装備2 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_Equipment2 {
+            get {
+                return ResourceManager.GetString("FormShipGroup_Equipment2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   装備3 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_Equipment3 {
+            get {
+                return ResourceManager.GetString("FormShipGroup_Equipment3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   装備4 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_Equipment4 {
+            get {
+                return ResourceManager.GetString("FormShipGroup_Equipment4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   装備5 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_Equipment5 {
+            get {
+                return ResourceManager.GetString("FormShipGroup_Equipment5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   回避 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_Evasion {
+            get {
+                return ResourceManager.GetString("FormShipGroup_Evasion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Exp に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_Exp {
+            get {
+                return ResourceManager.GetString("FormShipGroup_Exp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   艦船グループ CSVの出力に失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_ExportCSVError {
+            get {
+                return ResourceManager.GetString("FormShipGroup_ExportCSVError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   火力 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_Firepower {
+            get {
+                return ResourceManager.GetString("FormShipGroup_Firepower", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   火力改修 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_FirepowerRemain {
+            get {
+                return ResourceManager.GetString("FormShipGroup_FirepowerRemain", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   燃料 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_Fuel {
+            get {
+                return ResourceManager.GetString("FormShipGroup_Fuel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   グループ名を入力してください： に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_GroupAddMessage {
+            get {
+                return ResourceManager.GetString("FormShipGroup_GroupAddMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   グループを追加 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_GroupAddTitle {
+            get {
+                return ResourceManager.GetString("FormShipGroup_GroupAddTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   このグループは削除できません。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_GroupDeleteError {
+            get {
+                return ResourceManager.GetString("FormShipGroup_GroupDeleteError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   グループ [{0}] を削除しますか？
+        ///この操作は元に戻せません。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_GroupDeleteMessage {
+            get {
+                return ResourceManager.GetString("FormShipGroup_GroupDeleteMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   エラー：存在しないグループを参照しようとしました。開発者に連絡してください に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_GroupNull {
+            get {
+                return ResourceManager.GetString("FormShipGroup_GroupNull", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   耐久最大 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_HPMax {
+            get {
+                return ResourceManager.GetString("FormShipGroup_HPMax", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   耐久現在 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_HPNow {
+            get {
+                return ResourceManager.GetString("FormShipGroup_HPNow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Lv に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_Level {
+            get {
+                return ResourceManager.GetString("FormShipGroup_Level", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   平均Lv: {0:F2} に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_LevelAverageInfo {
+            get {
+                return ResourceManager.GetString("FormShipGroup_LevelAverageInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   合計Lv: {0} に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_LevelTotalInfo {
+            get {
+                return ResourceManager.GetString("FormShipGroup_LevelTotalInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   ロック に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_Locked {
+            get {
+                return ResourceManager.GetString("FormShipGroup_Locked", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   索敵 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_LOS {
+            get {
+                return ResourceManager.GetString("FormShipGroup_LOS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   運 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_Luck {
+            get {
+                return ResourceManager.GetString("FormShipGroup_Luck", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   運改修 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_LuckRemain {
+            get {
+                return ResourceManager.GetString("FormShipGroup_LuckRemain", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   このグループは変更できません。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_ModifyGroupError {
+            get {
+                return ResourceManager.GetString("FormShipGroup_ModifyGroupError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   next に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_NextLevelExp {
+            get {
+                return ResourceManager.GetString("FormShipGroup_NextLevelExp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   艦載機1 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_Plane1 {
+            get {
+                return ResourceManager.GetString("FormShipGroup_Plane1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   艦載機2 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_Plane2 {
+            get {
+                return ResourceManager.GetString("FormShipGroup_Plane2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   艦載機3 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_Plane3 {
+            get {
+                return ResourceManager.GetString("FormShipGroup_Plane3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   艦載機4 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_Plane4 {
+            get {
+                return ResourceManager.GetString("FormShipGroup_Plane4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   艦載機5 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_Plane5 {
+            get {
+                return ResourceManager.GetString("FormShipGroup_Plane5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   改装まで に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_RemodelExp {
+            get {
+                return ResourceManager.GetString("FormShipGroup_RemodelExp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   入渠 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_Repair {
+            get {
+                return ResourceManager.GetString("FormShipGroup_Repair", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   入渠 # に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_RepairInfo {
+            get {
+                return ResourceManager.GetString("FormShipGroup_RepairInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   出撃先 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_SallyArea {
+            get {
+                return ResourceManager.GetString("FormShipGroup_SallyArea", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   所属: {0}隻 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_ShipCountInfo {
+            get {
+                return ResourceManager.GetString("FormShipGroup_ShipCountInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   艦船ID に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_ShipID {
+            get {
+                return ResourceManager.GetString("FormShipGroup_ShipID", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   艦種 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_ShipKind {
+            get {
+                return ResourceManager.GetString("FormShipGroup_ShipKind", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   全所属艦 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_ShipKindDefault {
+            get {
+                return ResourceManager.GetString("FormShipGroup_ShipKindDefault", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   艦名 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_ShipName {
+            get {
+                return ResourceManager.GetString("FormShipGroup_ShipName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   射程 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_ShootRange {
+            get {
+                return ResourceManager.GetString("FormShipGroup_ShootRange", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   雷装 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_Torpedo {
+            get {
+                return ResourceManager.GetString("FormShipGroup_Torpedo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   雷装改修 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_TorpedoRemain {
+            get {
+                return ResourceManager.GetString("FormShipGroup_TorpedoRemain", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   このグループの名前を変更することはできません。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGruop_GroupRenameError {
+            get {
+                return ResourceManager.GetString("FormShipGruop_GroupRenameError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   グループ名を入力してください： に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGruop_GroupRenameMessage {
+            get {
+                return ResourceManager.GetString("FormShipGruop_GroupRenameMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   グループ名の変更 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGruop_GroupRenameTitle {
+            get {
+                return ResourceManager.GetString("FormShipGruop_GroupRenameTitle", resourceCulture);
+            }
+        }
+        
         /// <summary>
         ///   処理完了 に類似しているローカライズされた文字列を検索します。
         /// </summary>

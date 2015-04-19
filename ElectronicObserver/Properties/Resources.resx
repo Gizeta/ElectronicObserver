@@ -516,6 +516,184 @@
   <data name="FormQuest_UnknownQuestInfo" xml:space="preserve">
     <value>(未取得の任務 x {0})</value>
   </data>
+  <data name="FormShipGroup_AA" xml:space="preserve">
+    <value>対空</value>
+  </data>
+  <data name="FormShipGroup_AARemain" xml:space="preserve">
+    <value>対空改修</value>
+  </data>
+  <data name="FormShipGroup_AddToGroupMessage" xml:space="preserve">
+    <value>追加するグループを選択してください：</value>
+  </data>
+  <data name="FormShipGroup_AddToGroupTitle" xml:space="preserve">
+    <value>グループの選択</value>
+  </data>
+  <data name="FormShipGroup_Ammo" xml:space="preserve">
+    <value>弾薬</value>
+  </data>
+  <data name="FormShipGroup_APIID" xml:space="preserve">
+    <value>固有ID</value>
+  </data>
+  <data name="FormShipGroup_Armor" xml:space="preserve">
+    <value>装甲</value>
+  </data>
+  <data name="FormShipGroup_ArmorRemain" xml:space="preserve">
+    <value>装甲改修</value>
+  </data>
+  <data name="FormShipGroup_ASW" xml:space="preserve">
+    <value>対潜</value>
+  </data>
+  <data name="FormShipGroup_Condition" xml:space="preserve">
+    <value>Cond</value>
+  </data>
+  <data name="FormShipGroup_CreateGroupMessage" xml:space="preserve">
+    <value>追加するグループの名前を入力してください：</value>
+  </data>
+  <data name="FormShipGroup_CreateGroupTitle" xml:space="preserve">
+    <value>グループの追加</value>
+  </data>
+  <data name="FormShipGroup_Equipment1" xml:space="preserve">
+    <value>装備1</value>
+  </data>
+  <data name="FormShipGroup_Equipment2" xml:space="preserve">
+    <value>装備2</value>
+  </data>
+  <data name="FormShipGroup_Equipment3" xml:space="preserve">
+    <value>装備3</value>
+  </data>
+  <data name="FormShipGroup_Equipment4" xml:space="preserve">
+    <value>装備4</value>
+  </data>
+  <data name="FormShipGroup_Equipment5" xml:space="preserve">
+    <value>装備5</value>
+  </data>
+  <data name="FormShipGroup_Evasion" xml:space="preserve">
+    <value>回避</value>
+  </data>
+  <data name="FormShipGroup_Exp" xml:space="preserve">
+    <value>Exp</value>
+  </data>
+  <data name="FormShipGroup_ExportCSVError" xml:space="preserve">
+    <value>艦船グループ CSVの出力に失敗しました。</value>
+  </data>
+  <data name="FormShipGroup_Firepower" xml:space="preserve">
+    <value>火力</value>
+  </data>
+  <data name="FormShipGroup_FirepowerRemain" xml:space="preserve">
+    <value>火力改修</value>
+  </data>
+  <data name="FormShipGroup_Fuel" xml:space="preserve">
+    <value>燃料</value>
+  </data>
+  <data name="FormShipGroup_GroupAddMessage" xml:space="preserve">
+    <value>グループ名を入力してください：</value>
+  </data>
+  <data name="FormShipGroup_GroupAddTitle" xml:space="preserve">
+    <value>グループを追加</value>
+  </data>
+  <data name="FormShipGroup_GroupDeleteError" xml:space="preserve">
+    <value>このグループは削除できません。</value>
+  </data>
+  <data name="FormShipGroup_GroupDeleteMessage" xml:space="preserve">
+    <value>グループ [{0}] を削除しますか？
+この操作は元に戻せません。</value>
+  </data>
+  <data name="FormShipGroup_GroupNull" xml:space="preserve">
+    <value>エラー：存在しないグループを参照しようとしました。開発者に連絡してください</value>
+  </data>
+  <data name="FormShipGroup_HPMax" xml:space="preserve">
+    <value>耐久最大</value>
+  </data>
+  <data name="FormShipGroup_HPNow" xml:space="preserve">
+    <value>耐久現在</value>
+  </data>
+  <data name="FormShipGroup_Level" xml:space="preserve">
+    <value>Lv</value>
+  </data>
+  <data name="FormShipGroup_LevelAverageInfo" xml:space="preserve">
+    <value>平均Lv: {0:F2}</value>
+  </data>
+  <data name="FormShipGroup_LevelTotalInfo" xml:space="preserve">
+    <value>合計Lv: {0}</value>
+  </data>
+  <data name="FormShipGroup_Locked" xml:space="preserve">
+    <value>ロック</value>
+  </data>
+  <data name="FormShipGroup_LOS" xml:space="preserve">
+    <value>索敵</value>
+  </data>
+  <data name="FormShipGroup_Luck" xml:space="preserve">
+    <value>運</value>
+  </data>
+  <data name="FormShipGroup_LuckRemain" xml:space="preserve">
+    <value>運改修</value>
+  </data>
+  <data name="FormShipGroup_ModifyGroupError" xml:space="preserve">
+    <value>このグループは変更できません。</value>
+  </data>
+  <data name="FormShipGroup_NextLevelExp" xml:space="preserve">
+    <value>next</value>
+  </data>
+  <data name="FormShipGroup_Plane1" xml:space="preserve">
+    <value>艦載機1</value>
+  </data>
+  <data name="FormShipGroup_Plane2" xml:space="preserve">
+    <value>艦載機2</value>
+  </data>
+  <data name="FormShipGroup_Plane3" xml:space="preserve">
+    <value>艦載機3</value>
+  </data>
+  <data name="FormShipGroup_Plane4" xml:space="preserve">
+    <value>艦載機4</value>
+  </data>
+  <data name="FormShipGroup_Plane5" xml:space="preserve">
+    <value>艦載機5</value>
+  </data>
+  <data name="FormShipGroup_RemodelExp" xml:space="preserve">
+    <value>改装まで</value>
+  </data>
+  <data name="FormShipGroup_Repair" xml:space="preserve">
+    <value>入渠</value>
+  </data>
+  <data name="FormShipGroup_RepairInfo" xml:space="preserve">
+    <value>入渠 #</value>
+  </data>
+  <data name="FormShipGroup_SallyArea" xml:space="preserve">
+    <value>出撃先</value>
+  </data>
+  <data name="FormShipGroup_ShipCountInfo" xml:space="preserve">
+    <value>所属: {0}隻</value>
+  </data>
+  <data name="FormShipGroup_ShipID" xml:space="preserve">
+    <value>艦船ID</value>
+  </data>
+  <data name="FormShipGroup_ShipKind" xml:space="preserve">
+    <value>艦種</value>
+  </data>
+  <data name="FormShipGroup_ShipKindDefault" xml:space="preserve">
+    <value>全所属艦</value>
+  </data>
+  <data name="FormShipGroup_ShipName" xml:space="preserve">
+    <value>艦名</value>
+  </data>
+  <data name="FormShipGroup_ShootRange" xml:space="preserve">
+    <value>射程</value>
+  </data>
+  <data name="FormShipGroup_Torpedo" xml:space="preserve">
+    <value>雷装</value>
+  </data>
+  <data name="FormShipGroup_TorpedoRemain" xml:space="preserve">
+    <value>雷装改修</value>
+  </data>
+  <data name="FormShipGruop_GroupRenameError" xml:space="preserve">
+    <value>このグループの名前を変更することはできません。</value>
+  </data>
+  <data name="FormShipGruop_GroupRenameMessage" xml:space="preserve">
+    <value>グループ名を入力してください：</value>
+  </data>
+  <data name="FormShipGruop_GroupRenameTitle" xml:space="preserve">
+    <value>グループ名の変更</value>
+  </data>
   <data name="MessageBox_Complete" xml:space="preserve">
     <value>処理完了</value>
   </data>
