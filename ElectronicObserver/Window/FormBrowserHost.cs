@@ -92,7 +92,7 @@ namespace ElectronicObserver.Window {
 			} catch ( Exception ex ) {
 				Utility.ErrorReporter.SendErrorReport( ex, Properties.Resources.FormBrowserHost_StartUpFail );
 				MessageBox.Show( Properties.Resources.FormBrowserHost_StartUpFail + Environment.NewLine + ex.Message,
-					Properties.Resources.Messagebox_Error, MessageBoxButtons.OK, MessageBoxIcon.Error );
+					Properties.Resources.MessageBox_Error, MessageBoxButtons.OK, MessageBoxIcon.Error );
 			}
 		}
 

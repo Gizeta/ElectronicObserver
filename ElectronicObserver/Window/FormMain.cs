@@ -475,7 +475,7 @@ namespace ElectronicObserver.Window {
 
 					} catch ( Exception ex ) {
 
-						MessageBox.Show( Properties.Resources.FormMain_APIReadError + Environment.NewLine + ex.Message, Properties.Resources.Messagebox_Error,
+						MessageBox.Show( Properties.Resources.FormMain_APIReadError + Environment.NewLine + ex.Message, Properties.Resources.MessageBox_Error,
 							MessageBoxButtons.OK, MessageBoxIcon.Error );
 
 					}
@@ -556,7 +556,7 @@ namespace ElectronicObserver.Window {
 		private void StripMenu_Debug_LoadRecordFromOld_Click( object sender, EventArgs e ) {
 
 			if ( KCDatabase.Instance.MasterShips.Count == 0 ) {
-				MessageBox.Show( Properties.Resources.FormMain_LoadOldAPINeedDataMessage, Properties.Resources.Messagebox_MeetError, MessageBoxButtons.OK, MessageBoxIcon.Information );
+				MessageBox.Show( Properties.Resources.FormMain_LoadOldAPINeedDataMessage, Properties.Resources.MessageBox_MeetError, MessageBoxButtons.OK, MessageBoxIcon.Information );
 				return;
 			}
 
@@ -587,7 +587,7 @@ namespace ElectronicObserver.Window {
 
 					} catch ( Exception ex ) {
 
-						MessageBox.Show( Properties.Resources.FormMain_APIReadError + Environment.NewLine + ex.Message, Properties.Resources.Messagebox_Error,
+						MessageBox.Show( Properties.Resources.FormMain_APIReadError + Environment.NewLine + ex.Message, Properties.Resources.MessageBox_Error,
 							MessageBoxButtons.OK, MessageBoxIcon.Error );
 					}
 				}
@@ -599,7 +599,7 @@ namespace ElectronicObserver.Window {
 		private void StripMenu_Tool_AlbumMasterShip_Click( object sender, EventArgs e ) {
 
 			if ( KCDatabase.Instance.MasterShips.Count == 0 ) {
-				MessageBox.Show( Properties.Resources.FormMain_ShipDataNotLoaded, Properties.Resources.Messagebox_Error, MessageBoxButtons.OK, MessageBoxIcon.Error );
+				MessageBox.Show( Properties.Resources.FormMain_ShipDataNotLoaded, Properties.Resources.MessageBox_Error, MessageBoxButtons.OK, MessageBoxIcon.Error );
 
 			} else {
 				new DialogAlbumMasterShip().Show();
@@ -610,7 +610,7 @@ namespace ElectronicObserver.Window {
 		private void StripMenu_Tool_AlbumMasterEquipment_Click( object sender, EventArgs e ) {
 
 			if ( KCDatabase.Instance.MasterEquipments.Count == 0 ) {
-				MessageBox.Show( Properties.Resources.FormMain_EquipmentDataNotLoaded, Properties.Resources.Messagebox_Error, MessageBoxButtons.OK, MessageBoxIcon.Error );
+				MessageBox.Show( Properties.Resources.FormMain_EquipmentDataNotLoaded, Properties.Resources.MessageBox_Error, MessageBoxButtons.OK, MessageBoxIcon.Error );
 
 			} else {
 				new DialogAlbumMasterEquipment().Show();
@@ -632,7 +632,7 @@ namespace ElectronicObserver.Window {
 
 				} catch ( Exception ex ) {
 
-					MessageBox.Show( Properties.Resources.FormMain_OldAPIDeleteError + Environment.NewLine + ex.Message, Properties.Resources.Messagebox_Error, MessageBoxButtons.OK, MessageBoxIcon.Error );
+					MessageBox.Show( Properties.Resources.FormMain_OldAPIDeleteError + Environment.NewLine + ex.Message, Properties.Resources.MessageBox_Error, MessageBoxButtons.OK, MessageBoxIcon.Error );
 				}
 
 
@@ -687,7 +687,7 @@ namespace ElectronicObserver.Window {
 		private async void StripMenu_Debug_RenameShipResource_Click( object sender, EventArgs e ) {
 
 			if ( KCDatabase.Instance.MasterShips.Count == 0 ) {
-				MessageBox.Show( Properties.Resources.FormMain_ShipDataNotLoaded, Properties.Resources.Messagebox_Error, MessageBoxButtons.OK, MessageBoxIcon.Error );
+				MessageBox.Show( Properties.Resources.FormMain_ShipDataNotLoaded, Properties.Resources.MessageBox_Error, MessageBoxButtons.OK, MessageBoxIcon.Error );
 				return;
 			}
 
@@ -717,7 +717,7 @@ namespace ElectronicObserver.Window {
 				} catch ( Exception ex ) {
 
 					Utility.ErrorReporter.SendErrorReport( ex, Properties.Resources.FormMain_RenameShipResourceError );
-					MessageBox.Show( Properties.Resources.FormMain_RenameShipResourceError + Environment.NewLine + ex.Message, Properties.Resources.Messagebox_Error, MessageBoxButtons.OK, MessageBoxIcon.Error );
+					MessageBox.Show( Properties.Resources.FormMain_RenameShipResourceError + Environment.NewLine + ex.Message, Properties.Resources.MessageBox_Error, MessageBoxButtons.OK, MessageBoxIcon.Error );
 
 				}
 

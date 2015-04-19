@@ -87,6 +87,52 @@ namespace ElectronicObserver.Properties {
         }
         
         /// <summary>
+        ///   指定されたフォルダは存在しません。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogConfiguration_FolderNotFound {
+            get {
+                return ResourceManager.GetString("DialogConfiguration_FolderNotFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   艦これに接続してから操作してください。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogConfiguration_KanColleNotLoaded {
+            get {
+                return ResourceManager.GetString("DialogConfiguration_KanColleNotLoaded", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   自動プロキシ設定スクリプトを保存し、設定用URLをクリップボードにコピーしました。
+        ///所定の位置に貼り付けてください。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogConfiguration_PACSaved {
+            get {
+                return ResourceManager.GetString("DialogConfiguration_PACSaved", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   自動プロキシ設定スクリプトを保存する に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogConfiguration_PACSaveDialogTitle {
+            get {
+                return ResourceManager.GetString("DialogConfiguration_PACSaveDialogTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   自動プロキシ設定スクリプトの保存に失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogConfiguration_PACSaveError {
+            get {
+                return ResourceManager.GetString("DialogConfiguration_PACSaveError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   完成！ に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string FormArsenal_Complete {
@@ -1677,6 +1723,16 @@ namespace ElectronicObserver.Properties {
                 return ResourceManager.GetString("MessageBox_Confirm", resourceCulture);
             }
         }
+
+        
+        /// <summary>
+        ///   作成完了 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string MessageBox_CreateComplete {
+            get {
+                return ResourceManager.GetString("MessageBox_CreateComplete", resourceCulture);
+            }
+        }
         
         /// <summary>
         ///   削除成功 に類似しているローカライズされた文字列を検索します。
@@ -1690,7 +1746,7 @@ namespace ElectronicObserver.Properties {
         /// <summary>
         ///   エラー に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string Messagebox_Error {
+        internal static string MessageBox_Error {
             get {
                 return ResourceManager.GetString("Messagebox_Error", resourceCulture);
             }
@@ -1708,7 +1764,7 @@ namespace ElectronicObserver.Properties {
         /// <summary>
         ///   大変ご迷惑をおかけしております に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string Messagebox_MeetError {
+        internal static string MessageBox_MeetError {
             get {
                 return ResourceManager.GetString("Messagebox_MeetError", resourceCulture);
             }

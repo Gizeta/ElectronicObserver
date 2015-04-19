@@ -123,6 +123,22 @@
   <data name="Constant_Unknown" xml:space="preserve">
     <value>不明</value>
   </data>
+  <data name="DialogConfiguration_FolderNotFound" xml:space="preserve">
+    <value>指定されたフォルダは存在しません。</value>
+  </data>
+  <data name="DialogConfiguration_KanColleNotLoaded" xml:space="preserve">
+    <value>艦これに接続してから操作してください。</value>
+  </data>
+  <data name="DialogConfiguration_PACSaved" xml:space="preserve">
+    <value>自動プロキシ設定スクリプトを保存し、設定用URLをクリップボードにコピーしました。
+所定の位置に貼り付けてください。</value>
+  </data>
+  <data name="DialogConfiguration_PACSaveDialogTitle" xml:space="preserve">
+    <value>自動プロキシ設定スクリプトを保存する</value>
+  </data>
+  <data name="DialogConfiguration_PACSaveError" xml:space="preserve">
+    <value>自動プロキシ設定スクリプトの保存に失敗しました。</value>
+  </data>
   <data name="FormArsenal_Complete" xml:space="preserve">
     <value>完成！</value>
   </data>
@@ -699,6 +715,9 @@
   </data>
   <data name="MessageBox_Confirm" xml:space="preserve">
     <value>確認</value>
+  </data>
+  <data name="MessageBox_CreateComplete" xml:space="preserve">
+    <value>作成完了</value>
   </data>
   <data name="MessageBox_DeleteComplete" xml:space="preserve">
     <value>削除成功</value>

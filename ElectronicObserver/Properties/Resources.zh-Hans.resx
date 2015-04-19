@@ -123,6 +123,22 @@
   <data name="Constant_Unknown" xml:space="preserve">
     <value>未知</value>
   </data>
+  <data name="DialogConfiguration_FolderNotFound" xml:space="preserve">
+    <value>指定文件夹不存在。</value>
+  </data>
+  <data name="DialogConfiguration_KanColleNotLoaded" xml:space="preserve">
+    <value>请加载艦これ后再进行操作。</value>
+  </data>
+  <data name="DialogConfiguration_PACSaved" xml:space="preserve">
+    <value>已保存PAC脚本。本程序已将设置用的URL复制到剪贴板。
+请粘贴到指定位置。</value>
+  </data>
+  <data name="DialogConfiguration_PACSaveDialogTitle" xml:space="preserve">
+    <value>保存PAC脚本</value>
+  </data>
+  <data name="DialogConfiguration_PACSaveError" xml:space="preserve">
+    <value>PAC脚本保存失败。</value>
+  </data>
   <data name="FormArsenal_Complete" xml:space="preserve">
     <value>完成！</value>
   </data>
@@ -700,6 +716,9 @@ Cut-In种类: {2} ({3})
   </data>
   <data name="MessageBox_Confirm" xml:space="preserve">
     <value>确认</value>
+  </data>
+  <data name="MessageBox_CreateComplete" xml:space="preserve">
+    <value>创建完成</value>
   </data>
   <data name="MessageBox_DeleteComplete" xml:space="preserve">
     <value>删除成功</value>

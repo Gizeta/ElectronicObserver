@@ -42,7 +42,7 @@ namespace ElectronicObserver.Window.Dialog {
 				ToolTipInfo.SetToolTip( Connection_SaveDataPath, null );
 			} else {
 				Connection_SaveDataPath.BackColor = Color.MistyRose;
-				ToolTipInfo.SetToolTip( Connection_SaveDataPath, "指定されたフォルダは存在しません。" );
+				ToolTipInfo.SetToolTip( Connection_SaveDataPath, Properties.Resources.DialogConfiguration_FolderNotFound );
 			}
 		}
 
@@ -130,13 +130,13 @@ namespace ElectronicObserver.Window.Dialog {
 
 			string serverAddress = APIObserver.Instance.ServerAddress;
 			if ( serverAddress == null ) {
-				MessageBox.Show( "艦これに接続してから操作してください。", "エラー", MessageBoxButtons.OK, MessageBoxIcon.Exclamation );
+				MessageBox.Show( Properties.Resources.DialogConfiguration_KanColleNotLoaded, Properties.Resources.MessageBox_Error, MessageBoxButtons.OK, MessageBoxIcon.Exclamation );
 				return;
 			}
 
 			using ( var dialog = new SaveFileDialog() ) {
 				dialog.Filter = "Proxy Script|*.pac|File|*";
-				dialog.Title = "自動プロキシ設定スクリプトを保存する";
+				dialog.Title = Properties.Resources.DialogConfiguration_PACSaveDialogTitle;
 				dialog.InitialDirectory = System.IO.Directory.GetCurrentDirectory();
 				dialog.FileName = System.IO.Directory.GetCurrentDirectory() + "\\proxy.pac";
 
@@ -157,14 +157,14 @@ namespace ElectronicObserver.Window.Dialog {
 
 						Clipboard.SetData( DataFormats.StringFormat, "file:///" + dialog.FileName.Replace( '\\', '/' ) );
 
-						MessageBox.Show( "自動プロキシ設定スクリプトを保存し、設定用URLをクリップボードにコピーしました。\r\n所定の位置に貼り付けてください。",
-							"作成完了", MessageBoxButtons.OK, MessageBoxIcon.Information );
+						MessageBox.Show( Properties.Resources.DialogConfiguration_PACSaved,
+							Properties.Resources.MessageBox_CreateComplete, MessageBoxButtons.OK, MessageBoxIcon.Information );
 
 
 					} catch ( Exception ex ) {
 
-						Utility.ErrorReporter.SendErrorReport( ex, "自動プロキシ設定スクリプトの保存に失敗しました。" );
-						MessageBox.Show( "自動プロキシ設定スクリプトの保存に失敗しました。\r\n" + ex.Message, "エラー",
+						Utility.ErrorReporter.SendErrorReport( ex, Properties.Resources.DialogConfiguration_PACSaveError );
+						MessageBox.Show( Properties.Resources.DialogConfiguration_PACSaveError + Environment.NewLine + ex.Message, Properties.Resources.MessageBox_Error,
 							MessageBoxButtons.OK, MessageBoxIcon.Error );
 
 					}

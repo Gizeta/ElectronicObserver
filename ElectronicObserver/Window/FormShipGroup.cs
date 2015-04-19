@@ -632,7 +632,7 @@ namespace ElectronicObserver.Window {
 				}
 
 			} else {
-				MessageBox.Show( Properties.Resources.FormShipGroup_GroupDeleteError, Properties.Resources.Messagebox_Error, MessageBoxButtons.OK, MessageBoxIcon.Exclamation );
+				MessageBox.Show( Properties.Resources.FormShipGroup_GroupDeleteError, Properties.Resources.MessageBox_Error, MessageBoxButtons.OK, MessageBoxIcon.Exclamation );
 			}
 		}
 
@@ -657,7 +657,7 @@ namespace ElectronicObserver.Window {
 				}
 
 			} else {
-				MessageBox.Show( Properties.Resources.FormShipGruop_GroupRenameError, Properties.Resources.Messagebox_Error, MessageBoxButtons.OK, MessageBoxIcon.Exclamation );
+				MessageBox.Show( Properties.Resources.FormShipGruop_GroupRenameError, Properties.Resources.MessageBox_Error, MessageBoxButtons.OK, MessageBoxIcon.Exclamation );
 			}
 
 		}
@@ -784,7 +784,7 @@ namespace ElectronicObserver.Window {
 
 
 			if ( group == null || group.GroupID < 0 ) {
-				MessageBox.Show( Properties.Resources.FormShipGroup_ModifyGroupError, Properties.Resources.Messagebox_Error, MessageBoxButtons.OK, MessageBoxIcon.Asterisk );
+				MessageBox.Show( Properties.Resources.FormShipGroup_ModifyGroupError, Properties.Resources.MessageBox_Error, MessageBoxButtons.OK, MessageBoxIcon.Asterisk );
 				return;
 			}
 
@@ -806,7 +806,7 @@ namespace ElectronicObserver.Window {
 			ShipGroupData group = SelectedTab != null ? KCDatabase.Instance.ShipGroup[(int)SelectedTab.Tag] : null;
 
 			if ( group == null ) {
-				MessageBox.Show( Properties.Resources.FormShipGroup_ModifyGroupError, Properties.Resources.Messagebox_Error, MessageBoxButtons.OK, MessageBoxIcon.Asterisk );
+				MessageBox.Show( Properties.Resources.FormShipGroup_ModifyGroupError, Properties.Resources.MessageBox_Error, MessageBoxButtons.OK, MessageBoxIcon.Asterisk );
 				return;
 			}
 
@@ -1048,7 +1048,7 @@ namespace ElectronicObserver.Window {
 					} catch ( Exception ex ) {
 
 						Utility.ErrorReporter.SendErrorReport( ex, Properties.Resources.FormShipGroup_ExportCSVError );
-						MessageBox.Show( Properties.Resources.FormShipGroup_ExportCSVError + Environment.NewLine + ex.Message, Properties.Resources.Messagebox_Error, MessageBoxButtons.OK, MessageBoxIcon.Error );
+						MessageBox.Show( Properties.Resources.FormShipGroup_ExportCSVError + Environment.NewLine + ex.Message, Properties.Resources.MessageBox_Error, MessageBoxButtons.OK, MessageBoxIcon.Error );
 
 					}
 
