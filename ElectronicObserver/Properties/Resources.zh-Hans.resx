@@ -114,6 +114,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Constant_LandBase" xml:space="preserve">
+    <value>陆上基地</value>
+  </data>
   <data name="Constant_Null" xml:space="preserve">
     <value>无</value>
   </data>
@@ -137,6 +140,81 @@
   </data>
   <data name="DialogAlbumMasterEquipment_UserCSVHeader" xml:space="preserve">
     <value>装备ID,图鉴编号,装备种类,装备名,装备种类1,装备种类2,装备种类3,装备种类4,火力,雷装,对空,装甲,对潜,回避,索敌,运,命中,爆装,射程,稀有,废弃燃料,废弃弹药,废弃钢材,废弃铝土,图鉴内容,版本号</value>
+  </data>
+  <data name="DialogAlbumMasterShip_AAInfo" xml:space="preserve">
+    <value>对空 {0}{1}
+</value>
+  </data>
+  <data name="DialogAlbumMasterShip_AccuracyInfo" xml:space="preserve">
+    <value>命中 {0}{1}
+</value>
+  </data>
+  <data name="DialogAlbumMasterShip_ArmorInfo" xml:space="preserve">
+    <value>装甲 {0}{1}
+</value>
+  </data>
+  <data name="DialogAlbumMasterShip_ASWInfo" xml:space="preserve">
+    <value>对潜 {0}{1}
+</value>
+  </data>
+  <data name="DialogAlbumMasterShip_BasicValue" xml:space="preserve">
+    <value>基本值</value>
+  </data>
+  <data name="DialogAlbumMasterShip_BomberInfo" xml:space="preserve">
+    <value>爆装 {0}{1}
+</value>
+  </data>
+  <data name="DialogAlbumMasterShip_ClickToOpenAlbum" xml:space="preserve">
+    <value>(右键打开图鉴)</value>
+  </data>
+  <data name="DialogAlbumMasterShip_DataCSVHeader" xml:space="preserve">
+    <value>舰船ID,图鉴编号,舰名,注音,舰种,改造前,改造后,改造Lv,改造弹药,改造钢材,改造设计图,耐久初期,耐久最大,耐久结婚,火力初期,火力最大,雷装初期,雷装最大,对空初期,对空最大,装甲初期,装甲最大,对潜初期最小,对潜初期最大,对潜最大,对潜150最小,対潜150最大,回避初期最小,回避初期最大,回避最大,回避150最小,回避150最大,索敌初期最小,索敌初期最大,索敌最大,索敌150最小,索敌150最大,运初期,运最大,速度,射程,稀有,装备槽数,搭载机数1,搭载机数2,搭载机数3,搭载机数4,搭载机数5,初期装备1,初期装备2,初期装备3,初期装备4,初期装备5,建造时间,解体燃料,解体弹药,解体钢材,解体铝土,改修火力,改修雷装,改修对空,改修装甲,掉落内容,图鉴内容,搭载燃料,搭载弹药,语音,资源名,版本号</value>
+  </data>
+  <data name="DialogAlbumMasterShip_EquippedValue" xml:space="preserve">
+    <value>装备后</value>
+  </data>
+  <data name="DialogAlbumMasterShip_EvasionInfo" xml:space="preserve">
+    <value>回避 {0}{1}
+</value>
+  </data>
+  <data name="DialogAlbumMasterShip_ExportCSVError" xml:space="preserve">
+    <value>舰船图鉴CSV导出失败。</value>
+  </data>
+  <data name="DialogAlbumMasterShip_FirepowerInfo" xml:space="preserve">
+    <value>火力 {0}{1}
+</value>
+  </data>
+  <data name="DialogAlbumMasterShip_InitValue" xml:space="preserve">
+    <value>初期值</value>
+  </data>
+  <data name="DialogAlbumMasterShip_LOSInfo" xml:space="preserve">
+    <value>索敌 {0}{1}
+</value>
+  </data>
+  <data name="DialogAlbumMasterShip_MaxValue" xml:space="preserve">
+    <value>最大值</value>
+  </data>
+  <data name="DialogAlbumMasterShip_Null" xml:space="preserve">
+    <value>(无)</value>
+  </data>
+  <data name="DialogAlbumMasterShip_Paper" xml:space="preserve">
+    <value>张</value>
+  </data>
+  <data name="DialogAlbumMasterShip_RepairConsumeInfo" xml:space="preserve">
+    <value>入渠时的消费:
+每1HP: 钢 {0:F2} / 油 {1:F2}
+最大: 钢 {2} / 油 {3}
+</value>
+  </data>
+  <data name="DialogAlbumMasterShip_ShipAlbum" xml:space="preserve">
+    <value>舰船图鉴 - </value>
+  </data>
+  <data name="DialogAlbumMasterShip_TorpedoInfo" xml:space="preserve">
+    <value>雷装 {0}{1}
+</value>
+  </data>
+  <data name="DialogAlbumMasterShip_UserCSVHeader" xml:space="preserve">
+    <value>舰船ID,图鉴编号,舰种,舰名,注音,改造前,改造后,改造Lv,改造弹药,改造钢材,改造设计图,耐久初期,耐久结婚,火力初期,火力最大,雷装初期,雷装最大,对空初期,对空最大,装甲初期,装甲最大,对潜初期,对潜最大,回避初期,回避最大,索敌初期,索敌最大,运初期,运最大,速度,射程,稀有,装备槽数,搭载机数1,搭载机数2,搭载机数3,搭载机数4,搭载机数5,初期装备1,初期装备2,初期装备3,初期装备4,初期装备5,建造时间,解体燃料,解体弹药,解体钢材,解体铝土,改修火力,改修雷装,改修对空,改修装甲,掉落内容,图鉴内容,搭载燃料,搭载弹药,语音,资源名,版本号</value>
   </data>
   <data name="DialogConfiguration_FolderNotFound" xml:space="preserve">
     <value>指定文件夹不存在。</value>

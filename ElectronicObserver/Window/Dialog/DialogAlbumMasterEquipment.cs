@@ -80,7 +80,7 @@ namespace ElectronicObserver.Window.Dialog {
 
 			EquipmentView.Rows.Clear();
 
-			List<DataGridViewRow> rows = new List<DataGridViewRow>( KCDatabase.Instance.MasterEquipments.Values.Count( s => s.Name != "なし" ) );
+			List<DataGridViewRow> rows = new List<DataGridViewRow>( KCDatabase.Instance.MasterEquipments.Values.Count( s => s.Name != Properties.Resources.Constant_Null ) );
 
 			foreach ( var eq in KCDatabase.Instance.MasterEquipments.Values ) {
 

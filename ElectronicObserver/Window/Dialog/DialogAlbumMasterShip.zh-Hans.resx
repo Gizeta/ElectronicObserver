@@ -142,61 +142,61 @@
     <value>377, 17</value>
   </metadata>
   <data name="StripMenu_File.Text" xml:space="preserve">
-    <value>ファイル(&amp;F)</value>
+    <value>文件(&amp;F)</value>
   </data>
   <data name="StripMenu_File_OutputCSVUser.Text" xml:space="preserve">
-    <value>CSV出力(閲覧用)(&amp;U)...</value>
+    <value>导出CSV(浏览用)(&amp;U)...</value>
   </data>
   <data name="StripMenu_File_OutputCSVData.Text" xml:space="preserve">
-    <value>CSV出力(データ用)(&amp;D)...</value>
+    <value>导出CSV(数据用)(&amp;D)...</value>
   </data>
   <data name="ShipView_ShipID.HeaderText" xml:space="preserve">
     <value>ID</value>
   </data>
   <data name="ShipView_ShipType.HeaderText" xml:space="preserve">
-    <value>艦種</value>
+    <value>舰种</value>
   </data>
   <data name="ShipView_Name.HeaderText" xml:space="preserve">
-    <value>艦名</value>
+    <value>舰名</value>
   </data>
   <data name="ParameterLevel.ToolTip" xml:space="preserve">
-    <value>レベルを指定すると予測値が表示されます。</value>
+    <value>显示指定等级的预测值</value>
   </data>
   <data name="SaveCSVDialog.Title" xml:space="preserve">
-    <value>CSVに出力</value>
+    <value>导出CSV</value>
   </data>
   <data name="TitleDayAttack.Text" xml:space="preserve">
-    <value>昼戦攻撃</value>
+    <value>昼战攻击</value>
   </data>
   <data name="TitleNightAttack.Text" xml:space="preserve">
-    <value>夜戦攻撃</value>
+    <value>夜战攻击</value>
   </data>
   <data name="TitleAirSuperiority.Text" xml:space="preserve">
-    <value>制空戦力</value>
+    <value>制空战力</value>
   </data>
   <data name="imageLabel2.Text" xml:space="preserve">
-    <value>図鑑番号:</value>
+    <value>图鉴编号:</value>
   </data>
   <data name="RemodelAfter.Text" xml:space="preserve">
-    <value>改装後</value>
+    <value>改造后</value>
   </data>
   <data name="RemodelBefore.Text" xml:space="preserve">
-    <value>改装前</value>
+    <value>改造前</value>
   </data>
   <data name="TitleConsumption.Text" xml:space="preserve">
-    <value>消費</value>
+    <value>消费</value>
   </data>
   <data name="imageLabel71.Text" xml:space="preserve">
-    <value>レア</value>
+    <value>稀有</value>
   </data>
   <data name="TitleRange.Text" xml:space="preserve">
     <value>射程</value>
   </data>
   <data name="TitleSpeed.Text" xml:space="preserve">
-    <value>速力</value>
+    <value>速度</value>
   </data>
   <data name="TitleBuildingTime.Text" xml:space="preserve">
-    <value>建造時間</value>
+    <value>建造时间</value>
   </data>
   <data name="imageLabel60.Text" xml:space="preserve">
     <value>改修</value>
@@ -205,19 +205,19 @@
     <value>解体</value>
   </data>
   <data name="imageLabel45.Text" xml:space="preserve">
-    <value>艦船ID:</value>
+    <value>舰船ID:</value>
   </data>
   <data name="TitleLuck.Text" xml:space="preserve">
-    <value>運</value>
+    <value>运</value>
   </data>
   <data name="TitleParameterMax.Text" xml:space="preserve">
-    <value>最大値</value>
+    <value>最大值</value>
   </data>
   <data name="TitleParameterMin.Text" xml:space="preserve">
-    <value>初期値</value>
+    <value>初期值</value>
   </data>
   <data name="TitleLOS.Text" xml:space="preserve">
-    <value>索敵</value>
+    <value>索敌</value>
   </data>
   <data name="TitleHP.Text" xml:space="preserve">
     <value>耐久</value>
@@ -229,18 +229,18 @@
     <value>雷装</value>
   </data>
   <data name="TitleAA.Text" xml:space="preserve">
-    <value>対空</value>
+    <value>对空</value>
   </data>
   <data name="TitleArmor.Text" xml:space="preserve">
     <value>装甲</value>
   </data>
   <data name="TitleASW.Text" xml:space="preserve">
-    <value>対潜</value>
+    <value>对潜</value>
   </data>
   <data name="TitleEvasion.Text" xml:space="preserve">
     <value>回避</value>
   </data>
   <data name="DialogAlbumMasterShip.Text" xml:space="preserve">
-    <value>艦船図鑑</value>
+    <value>舰船图鉴</value>
   </data>
 </root>

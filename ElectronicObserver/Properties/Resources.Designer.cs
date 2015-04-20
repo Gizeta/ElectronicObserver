@@ -60,6 +60,15 @@ namespace ElectronicObserver.Properties {
 		}
         
         /// <summary>
+        ///   陸上基地 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_LandBase {
+            get {
+                return ResourceManager.GetString("Constant_LandBase", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   なし に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string Constant_Null {
@@ -128,6 +137,207 @@ namespace ElectronicObserver.Properties {
         internal static string DialogAlbumMasterEquipment_UserCSVHeader {
             get {
                 return ResourceManager.GetString("DialogAlbumMasterEquipment_UserCSVHeader", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   対空 {0}{1}
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogAlbumMasterShip_AAInfo {
+            get {
+                return ResourceManager.GetString("DialogAlbumMasterShip_AAInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   命中 {0}{1}
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogAlbumMasterShip_AccuracyInfo {
+            get {
+                return ResourceManager.GetString("DialogAlbumMasterShip_AccuracyInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   装甲 {0}{1}
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogAlbumMasterShip_ArmorInfo {
+            get {
+                return ResourceManager.GetString("DialogAlbumMasterShip_ArmorInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   対潜 {0}{1}
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogAlbumMasterShip_ASWInfo {
+            get {
+                return ResourceManager.GetString("DialogAlbumMasterShip_ASWInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   基本値 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogAlbumMasterShip_BasicValue {
+            get {
+                return ResourceManager.GetString("DialogAlbumMasterShip_BasicValue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   爆装 {0}{1}
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogAlbumMasterShip_BomberInfo {
+            get {
+                return ResourceManager.GetString("DialogAlbumMasterShip_BomberInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   (右クリックで図鑑) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogAlbumMasterShip_ClickToOpenAlbum {
+            get {
+                return ResourceManager.GetString("DialogAlbumMasterShip_ClickToOpenAlbum", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   艦船ID,図鑑番号,艦名,読み,艦種,改装前,改装後,改装Lv,改装弾薬,改装鋼材,改装設計図,耐久初期,耐久最大,耐久結婚,火力初期,火力最大,雷装初期,雷装最大,対空初期,対空最大,装甲初期,装甲最大,対潜初期最小,対潜初期最大,対潜最大,対潜150最小,対潜150最大,回避初期最小,回避初期最大,回避最大,回避150最小,回避150最大,索敵初期最小,索敵初期最大,索敵最大,索敵150最小,索敵150最大,運初期,運最大,速力,射程,レア,スロット数,搭載機数1,搭載機数2,搭載機数3,搭載機数4,搭載機数5,初期装備1,初期装備2,初期装備3,初期装備4,初期装備5,建造時間,解体燃料,解体弾薬,解体鋼材,解体ボーキ,改修火力,改修雷装,改修対空,改修装甲,ドロップ文章,図鑑文章,搭載燃料,搭載弾薬,ボイス,リソース名,バージョン に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogAlbumMasterShip_DataCSVHeader {
+            get {
+                return ResourceManager.GetString("DialogAlbumMasterShip_DataCSVHeader", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   装備込 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogAlbumMasterShip_EquippedValue {
+            get {
+                return ResourceManager.GetString("DialogAlbumMasterShip_EquippedValue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   回避 {0}{1}
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogAlbumMasterShip_EvasionInfo {
+            get {
+                return ResourceManager.GetString("DialogAlbumMasterShip_EvasionInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   艦船図鑑 CSVの出力に失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogAlbumMasterShip_ExportCSVError {
+            get {
+                return ResourceManager.GetString("DialogAlbumMasterShip_ExportCSVError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   火力 {0}{1}
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogAlbumMasterShip_FirepowerInfo {
+            get {
+                return ResourceManager.GetString("DialogAlbumMasterShip_FirepowerInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   初期値 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogAlbumMasterShip_InitValue {
+            get {
+                return ResourceManager.GetString("DialogAlbumMasterShip_InitValue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   索敵 {0}{1}
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogAlbumMasterShip_LOSInfo {
+            get {
+                return ResourceManager.GetString("DialogAlbumMasterShip_LOSInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   最大値 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogAlbumMasterShip_MaxValue {
+            get {
+                return ResourceManager.GetString("DialogAlbumMasterShip_MaxValue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   (なし) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogAlbumMasterShip_Null {
+            get {
+                return ResourceManager.GetString("DialogAlbumMasterShip_Null", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   枚 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogAlbumMasterShip_Paper {
+            get {
+                return ResourceManager.GetString("DialogAlbumMasterShip_Paper", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   入渠時の消費:
+        ///HP1あたり: 鋼 {0:F2} / 燃 {1:F2}
+        ///最大: 鋼 {2} / 燃 {3}
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogAlbumMasterShip_RepairConsumeInfo {
+            get {
+                return ResourceManager.GetString("DialogAlbumMasterShip_RepairConsumeInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   艦船図鑑 -  に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogAlbumMasterShip_ShipAlbum {
+            get {
+                return ResourceManager.GetString("DialogAlbumMasterShip_ShipAlbum", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   雷装 {0}{1}
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogAlbumMasterShip_TorpedoInfo {
+            get {
+                return ResourceManager.GetString("DialogAlbumMasterShip_TorpedoInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   艦船ID,図鑑番号,艦種,艦名,読み,改装前,改装後,改装Lv,改装弾薬,改装鋼材,改装設計図,耐久初期,耐久結婚,火力初期,火力最大,雷装初期,雷装最大,対空初期,対空最大,装甲初期,装甲最大,対潜初期,対潜最大,回避初期,回避最大,索敵初期,索敵最大,運初期,運最大,速力,射程,レア,スロット数,搭載機数1,搭載機数2,搭載機数3,搭載機数4,搭載機数5,初期装備1,初期装備2,初期装備3,初期装備4,初期装備5,建造時間,解体燃料,解体弾薬,解体鋼材,解体ボーキ,改修火力,改修雷装,改修対空,改修装甲,ドロップ文章,図鑑文章,搭載燃料,搭載弾薬,ボイス,リソース名,バージョン に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogAlbumMasterShip_UserCSVHeader {
+            get {
+                return ResourceManager.GetString("DialogAlbumMasterShip_UserCSVHeader", resourceCulture);
             }
         }
         
