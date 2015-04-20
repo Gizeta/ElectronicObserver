@@ -123,6 +123,21 @@
   <data name="Constant_Unknown" xml:space="preserve">
     <value>不明</value>
   </data>
+  <data name="DialogAlbumMasterEquipment_DataCSVHeader" xml:space="preserve">
+    <value>装備ID,図鑑番号,装備名,装備種1,装備種2,装備種3,装備種4,火力,雷装,対空,装甲,対潜,回避,索敵,運,命中,爆装,射程,レア,廃棄燃料,廃棄弾薬,廃棄鋼材,廃棄ボーキ,図鑑文章,バージョン</value>
+  </data>
+  <data name="DialogAlbumMasterEquipment_EquipmentAlbum" xml:space="preserve">
+    <value>装備図鑑 - </value>
+  </data>
+  <data name="DialogAlbumMasterEquipment_ExportCSVError" xml:space="preserve">
+    <value>装備図鑑 CSVの出力に失敗しました。</value>
+  </data>
+  <data name="DialogAlbumMasterEquipment_ShipEquiped" xml:space="preserve">
+    <value>装備可能艦種:</value>
+  </data>
+  <data name="DialogAlbumMasterEquipment_UserCSVHeader" xml:space="preserve">
+    <value>装備ID,図鑑番号,装備種,装備名,装備種1,装備種2,装備種3,装備種4,火力,雷装,対空,装甲,対潜,回避,索敵,運,命中,爆装,射程,レア,廃棄燃料,廃棄弾薬,廃棄鋼材,廃棄ボーキ,図鑑文章,バージョン</value>
+  </data>
   <data name="DialogConfiguration_FolderNotFound" xml:space="preserve">
     <value>指定されたフォルダは存在しません。</value>
   </data>
@@ -722,13 +737,13 @@
   <data name="MessageBox_DeleteComplete" xml:space="preserve">
     <value>削除成功</value>
   </data>
-  <data name="Messagebox_Error" xml:space="preserve">
+  <data name="MessageBox_Error" xml:space="preserve">
     <value>エラー</value>
   </data>
   <data name="MessageBox_Help" xml:space="preserve">
     <value>ヘルプ</value>
   </data>
-  <data name="Messagebox_MeetError" xml:space="preserve">
+  <data name="MessageBox_MeetError" xml:space="preserve">
     <value>大変ご迷惑をおかけしております</value>
   </data>
 </root>

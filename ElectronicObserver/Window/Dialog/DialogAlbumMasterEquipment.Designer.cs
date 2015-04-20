@@ -24,6 +24,7 @@
 		/// </summary>
 		private void InitializeComponent() {
 			this.components = new System.ComponentModel.Container();
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DialogAlbumMasterEquipment));
 			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
 			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
 			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -117,20 +118,20 @@
             this.StripMenu_File_OutputCSVData});
 			this.StripMenu_File.Name = "StripMenu_File";
 			this.StripMenu_File.Size = new System.Drawing.Size(85, 22);
-			this.StripMenu_File.Text = "ファイル(&F)";
+			resources.ApplyResources(this.StripMenu_File, "StripMenu_File");
 			// 
 			// StripMenu_File_OutputCSVUser
 			// 
 			this.StripMenu_File_OutputCSVUser.Name = "StripMenu_File_OutputCSVUser";
 			this.StripMenu_File_OutputCSVUser.Size = new System.Drawing.Size(213, 22);
-			this.StripMenu_File_OutputCSVUser.Text = "CSV出力(閲覧用)(&U)...";
+			resources.ApplyResources(this.StripMenu_File_OutputCSVUser, "StripMenu_File_OutputCSVUser");
 			this.StripMenu_File_OutputCSVUser.Click += new System.EventHandler(this.StripMenu_File_OutputCSVUser_Click);
 			// 
 			// StripMenu_File_OutputCSVData
 			// 
 			this.StripMenu_File_OutputCSVData.Name = "StripMenu_File_OutputCSVData";
 			this.StripMenu_File_OutputCSVData.Size = new System.Drawing.Size(213, 22);
-			this.StripMenu_File_OutputCSVData.Text = "CSV出力(データ用)(&D)...";
+			resources.ApplyResources(this.StripMenu_File_OutputCSVData, "StripMenu_File_OutputCSVData");
 			this.StripMenu_File_OutputCSVData.Click += new System.EventHandler(this.StripMenu_File_OutputCSVData_Click);
 			// 
 			// splitContainer1
@@ -359,7 +360,7 @@
 			// SaveCSVDialog
 			// 
 			this.SaveCSVDialog.Filter = "CSV|*.csv|File|*";
-			this.SaveCSVDialog.Title = "CSVに出力";
+			resources.ApplyResources(this.SaveCSVDialog, "SaveCSVDialog");
 			// 
 			// AlbumNo
 			// 
@@ -380,7 +381,7 @@
 			this.imageLabel1.Name = "imageLabel1";
 			this.imageLabel1.Size = new System.Drawing.Size(73, 16);
 			this.imageLabel1.TabIndex = 22;
-			this.imageLabel1.Text = "初期装備艦：";
+			resources.ApplyResources(this.imageLabel1, "imageLabel1");
 			// 
 			// imageLabel2
 			// 
@@ -390,7 +391,7 @@
 			this.imageLabel2.Name = "imageLabel2";
 			this.imageLabel2.Size = new System.Drawing.Size(54, 16);
 			this.imageLabel2.TabIndex = 24;
-			this.imageLabel2.Text = "図鑑番号:";
+			resources.ApplyResources(this.imageLabel2, "imageLabel2");
 			// 
 			// Description
 			// 
@@ -507,7 +508,7 @@
 			this.imageLabel71.Name = "imageLabel71";
 			this.imageLabel71.Size = new System.Drawing.Size(38, 16);
 			this.imageLabel71.TabIndex = 16;
-			this.imageLabel71.Text = "レア";
+			resources.ApplyResources(this.imageLabel71, "imageLabel71");
 			this.imageLabel71.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
 			// 
 			// TitleRange
@@ -518,7 +519,7 @@
 			this.TitleRange.Name = "TitleRange";
 			this.TitleRange.Size = new System.Drawing.Size(44, 16);
 			this.TitleRange.TabIndex = 16;
-			this.TitleRange.Text = "射程";
+			resources.ApplyResources(this.TitleRange, "TitleRange");
 			this.TitleRange.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
 			// 
 			// TitleSpeed
@@ -530,7 +531,7 @@
 			this.TitleSpeed.Name = "TitleSpeed";
 			this.TitleSpeed.Size = new System.Drawing.Size(44, 16);
 			this.TitleSpeed.TabIndex = 14;
-			this.TitleSpeed.Text = "速力";
+			resources.ApplyResources(this.TitleSpeed, "TitleSpeed");
 			this.TitleSpeed.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
 			// 
 			// MaterialBauxite
@@ -586,7 +587,7 @@
 			this.imageLabel59.Name = "imageLabel59";
 			this.imageLabel59.Size = new System.Drawing.Size(25, 16);
 			this.imageLabel59.TabIndex = 15;
-			this.imageLabel59.Text = "廃棄";
+			resources.ApplyResources(this.imageLabel59, "imageLabel59");
 			this.imageLabel59.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
 			// 
 			// imageLabel45
@@ -597,7 +598,7 @@
 			this.imageLabel45.Name = "imageLabel45";
 			this.imageLabel45.Size = new System.Drawing.Size(20, 16);
 			this.imageLabel45.TabIndex = 6;
-			this.imageLabel45.Text = "ID:";
+			resources.ApplyResources(this.imageLabel45, "imageLabel45");
 			// 
 			// Bomber
 			// 
@@ -619,7 +620,7 @@
 			this.TitleBomber.Name = "TitleBomber";
 			this.TitleBomber.Size = new System.Drawing.Size(44, 14);
 			this.TitleBomber.TabIndex = 14;
-			this.TitleBomber.Text = "爆装";
+			resources.ApplyResources(this.TitleBomber, "TitleBomber");
 			this.TitleBomber.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
 			// 
 			// LOS
@@ -657,7 +658,7 @@
 			this.imageLabel14.Name = "imageLabel14";
 			this.imageLabel14.Size = new System.Drawing.Size(48, 16);
 			this.imageLabel14.TabIndex = 6;
-			this.imageLabel14.Text = "性能";
+			resources.ApplyResources(this.imageLabel14, "imageLabel14");
 			this.imageLabel14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
 			// TitleLOS
@@ -668,7 +669,7 @@
 			this.TitleLOS.Name = "TitleLOS";
 			this.TitleLOS.Size = new System.Drawing.Size(44, 16);
 			this.TitleLOS.TabIndex = 12;
-			this.TitleLOS.Text = "索敵";
+			resources.ApplyResources(this.TitleLOS, "TitleLOS");
 			this.TitleLOS.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
 			// 
 			// Armor
@@ -727,7 +728,7 @@
 			this.TitleFirepower.Name = "TitleFirepower";
 			this.TitleFirepower.Size = new System.Drawing.Size(44, 16);
 			this.TitleFirepower.TabIndex = 6;
-			this.TitleFirepower.Text = "火力";
+			resources.ApplyResources(this.TitleFirepower, "TitleFirepower");
 			this.TitleFirepower.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
 			// 
 			// TitleTorpedo
@@ -738,7 +739,7 @@
 			this.TitleTorpedo.Name = "TitleTorpedo";
 			this.TitleTorpedo.Size = new System.Drawing.Size(44, 16);
 			this.TitleTorpedo.TabIndex = 7;
-			this.TitleTorpedo.Text = "雷装";
+			resources.ApplyResources(this.TitleTorpedo, "TitleTorpedo");
 			this.TitleTorpedo.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
 			// 
 			// TitleAA
@@ -749,7 +750,7 @@
 			this.TitleAA.Name = "TitleAA";
 			this.TitleAA.Size = new System.Drawing.Size(44, 16);
 			this.TitleAA.TabIndex = 8;
-			this.TitleAA.Text = "対空";
+			resources.ApplyResources(this.TitleAA, "TitleAA");
 			this.TitleAA.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
 			// 
 			// TitleArmor
@@ -760,7 +761,7 @@
 			this.TitleArmor.Name = "TitleArmor";
 			this.TitleArmor.Size = new System.Drawing.Size(44, 16);
 			this.TitleArmor.TabIndex = 9;
-			this.TitleArmor.Text = "装甲";
+			resources.ApplyResources(this.TitleArmor, "TitleArmor");
 			this.TitleArmor.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
 			// 
 			// TitleASW
@@ -771,7 +772,7 @@
 			this.TitleASW.Name = "TitleASW";
 			this.TitleASW.Size = new System.Drawing.Size(44, 16);
 			this.TitleASW.TabIndex = 10;
-			this.TitleASW.Text = "対潜";
+			resources.ApplyResources(this.TitleASW, "TitleASW");
 			this.TitleASW.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
 			// 
 			// TitleEvasion
@@ -782,7 +783,7 @@
 			this.TitleEvasion.Name = "TitleEvasion";
 			this.TitleEvasion.Size = new System.Drawing.Size(44, 16);
 			this.TitleEvasion.TabIndex = 11;
-			this.TitleEvasion.Text = "回避";
+			resources.ApplyResources(this.TitleEvasion, "TitleEvasion");
 			this.TitleEvasion.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
 			// 
 			// Evasion
@@ -805,7 +806,7 @@
 			this.TitleAccuracy.Name = "TitleAccuracy";
 			this.TitleAccuracy.Size = new System.Drawing.Size(44, 14);
 			this.TitleAccuracy.TabIndex = 13;
-			this.TitleAccuracy.Text = "命中";
+			resources.ApplyResources(this.TitleAccuracy, "TitleAccuracy");
 			this.TitleAccuracy.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
 			// 
 			// Accuracy
@@ -825,7 +826,7 @@
 			this.EquipmentView_ID.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
 			dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
 			this.EquipmentView_ID.DefaultCellStyle = dataGridViewCellStyle2;
-			this.EquipmentView_ID.HeaderText = "ID";
+			resources.ApplyResources(this.EquipmentView_ID, "EquipmentView_ID");
 			this.EquipmentView_ID.Name = "EquipmentView_ID";
 			this.EquipmentView_ID.ReadOnly = true;
 			this.EquipmentView_ID.Width = 40;
@@ -843,7 +844,7 @@
 			// EquipmentView_Type
 			// 
 			this.EquipmentView_Type.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-			this.EquipmentView_Type.HeaderText = "装備種";
+			resources.ApplyResources(this.EquipmentView_Type, "EquipmentView_Type");
 			this.EquipmentView_Type.Name = "EquipmentView_Type";
 			this.EquipmentView_Type.ReadOnly = true;
 			this.EquipmentView_Type.Width = 75;
@@ -851,7 +852,7 @@
 			// EquipmentView_Name
 			// 
 			this.EquipmentView_Name.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-			this.EquipmentView_Name.HeaderText = "装備名";
+			resources.ApplyResources(this.EquipmentView_Name, "EquipmentView_Name");
 			this.EquipmentView_Name.Name = "EquipmentView_Name";
 			this.EquipmentView_Name.ReadOnly = true;
 			// 
@@ -866,7 +867,7 @@
 			this.MainMenuStrip = this.menuStrip1;
 			this.MinimumSize = new System.Drawing.Size(816, 518);
 			this.Name = "DialogAlbumMasterEquipment";
-			this.Text = "装備図鑑";
+			resources.ApplyResources(this, "DialogAlbumMasterEquipment");
 			this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.DialogAlbumMasterEquipment_FormClosed);
 			this.Load += new System.EventHandler(this.DialogAlbumMasterEquipment_Load);
 			this.menuStrip1.ResumeLayout(false);

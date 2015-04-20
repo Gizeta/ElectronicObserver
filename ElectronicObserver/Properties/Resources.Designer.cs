@@ -87,6 +87,51 @@ namespace ElectronicObserver.Properties {
         }
         
         /// <summary>
+        ///   装備ID,図鑑番号,装備名,装備種1,装備種2,装備種3,装備種4,火力,雷装,対空,装甲,対潜,回避,索敵,運,命中,爆装,射程,レア,廃棄燃料,廃棄弾薬,廃棄鋼材,廃棄ボーキ,図鑑文章,バージョン に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogAlbumMasterEquipment_DataCSVHeader {
+            get {
+                return ResourceManager.GetString("DialogAlbumMasterEquipment_DataCSVHeader", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   装備図鑑 -  に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogAlbumMasterEquipment_EquipmentAlbum {
+            get {
+                return ResourceManager.GetString("DialogAlbumMasterEquipment_EquipmentAlbum", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   装備図鑑 CSVの出力に失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogAlbumMasterEquipment_ExportCSVError {
+            get {
+                return ResourceManager.GetString("DialogAlbumMasterEquipment_ExportCSVError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   装備可能艦種: に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogAlbumMasterEquipment_ShipEquiped {
+            get {
+                return ResourceManager.GetString("DialogAlbumMasterEquipment_ShipEquiped", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   装備ID,図鑑番号,装備種,装備名,装備種1,装備種2,装備種3,装備種4,火力,雷装,対空,装甲,対潜,回避,索敵,運,命中,爆装,射程,レア,廃棄燃料,廃棄弾薬,廃棄鋼材,廃棄ボーキ,図鑑文章,バージョン に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogAlbumMasterEquipment_UserCSVHeader {
+            get {
+                return ResourceManager.GetString("DialogAlbumMasterEquipment_UserCSVHeader", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   指定されたフォルダは存在しません。 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string DialogConfiguration_FolderNotFound {

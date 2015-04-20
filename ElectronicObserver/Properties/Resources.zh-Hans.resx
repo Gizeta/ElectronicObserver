@@ -123,6 +123,21 @@
   <data name="Constant_Unknown" xml:space="preserve">
     <value>未知</value>
   </data>
+  <data name="DialogAlbumMasterEquipment_DataCSVHeader" xml:space="preserve">
+    <value>装备ID,图鉴编号,装备名,装备种类1,装备种类2,装备种类3,装备种类4,火力,雷装,对空,装甲,对潜,回避,索敌,运,命中,爆装,射程,稀有,废弃燃料,废弃弹药,废弃钢材,废弃铝土,图鉴内容,版本号</value>
+  </data>
+  <data name="DialogAlbumMasterEquipment_EquipmentAlbum" xml:space="preserve">
+    <value>装备图鉴 - </value>
+  </data>
+  <data name="DialogAlbumMasterEquipment_ExportCSVError" xml:space="preserve">
+    <value>装备图鉴CSV导出失败。</value>
+  </data>
+  <data name="DialogAlbumMasterEquipment_ShipEquiped" xml:space="preserve">
+    <value>可装备舰种:</value>
+  </data>
+  <data name="DialogAlbumMasterEquipment_UserCSVHeader" xml:space="preserve">
+    <value>装备ID,图鉴编号,装备种类,装备名,装备种类1,装备种类2,装备种类3,装备种类4,火力,雷装,对空,装甲,对潜,回避,索敌,运,命中,爆装,射程,稀有,废弃燃料,废弃弹药,废弃钢材,废弃铝土,图鉴内容,版本号</value>
+  </data>
   <data name="DialogConfiguration_FolderNotFound" xml:space="preserve">
     <value>指定文件夹不存在。</value>
   </data>
@@ -723,13 +738,13 @@ Cut-In种类: {2} ({3})
   <data name="MessageBox_DeleteComplete" xml:space="preserve">
     <value>删除成功</value>
   </data>
-  <data name="Messagebox_Error" xml:space="preserve">
+  <data name="MessageBox_Error" xml:space="preserve">
     <value>错误</value>
   </data>
   <data name="MessageBox_Help" xml:space="preserve">
     <value>帮助</value>
   </data>
-  <data name="Messagebox_MeetError" xml:space="preserve">
+  <data name="MessageBox_MeetError" xml:space="preserve">
     <value>给您造成不便还请谅解</value>
   </data>
 </root>
