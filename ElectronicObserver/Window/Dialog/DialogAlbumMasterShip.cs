@@ -128,11 +128,11 @@ namespace ElectronicObserver.Window.Dialog {
 
 			ShipView.Rows.Clear();
 
-			List<DataGridViewRow> rows = new List<DataGridViewRow>( KCDatabase.Instance.MasterShips.Values.Count( s => s.Name != Properties.Resources.Constant_Null ) );
+			List<DataGridViewRow> rows = new List<DataGridViewRow>( KCDatabase.Instance.MasterShips.Values.Count( s => s.Name != "なし" ) );
 
 			foreach ( var ship in KCDatabase.Instance.MasterShips.Values ) {
 
-				if ( ship.Name == Properties.Resources.Constant_Null ) continue;
+				if ( ship.Name == "なし" ) continue;
 
 				DataGridViewRow row = new DataGridViewRow();
 				row.CreateCells( ShipView );
@@ -702,7 +702,7 @@ namespace ElectronicObserver.Window.Dialog {
 
 						foreach ( ShipDataMaster ship in KCDatabase.Instance.MasterShips.Values ) {
 
-							if ( ship.Name == Properties.Resources.Constant_Null ) continue;
+							if ( ship.Name == "なし" ) continue;
 
 							sw.WriteLine( arg,
 								ship.ShipID,

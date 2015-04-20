@@ -575,7 +575,7 @@ namespace ElectronicObserver.Window {
 							dynamic json = DynamicJson.Parse( sr.ReadToEnd().Remove( 0, 7 ) );
 
 							foreach ( dynamic elem in json.api_data.api_mst_ship ) {
-								if ( elem.api_name != Properties.Resources.Constant_Null && KCDatabase.Instance.MasterShips.ContainsKey( (int)elem.api_id ) && KCDatabase.Instance.MasterShips[(int)elem.api_id].Name == elem.api_name ) {
+								if ( elem.api_name != "なし" && KCDatabase.Instance.MasterShips.ContainsKey( (int)elem.api_id ) && KCDatabase.Instance.MasterShips[(int)elem.api_id].Name == elem.api_name ) {
 									RecordManager.Instance.ShipParameter.UpdateParameter( (int)elem.api_id, 1, (int)elem.api_tais[0], (int)elem.api_tais[1], (int)elem.api_kaih[0], (int)elem.api_kaih[1], (int)elem.api_saku[0], (int)elem.api_saku[1] );
 
 									int[] defaultslot = Enumerable.Repeat( -1, 5 ).ToArray();
