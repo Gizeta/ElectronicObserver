@@ -232,6 +232,15 @@ HP1あたり: 鋼 {0:F2} / 燃 {1:F2}
   <data name="DialogConfiguration_PACSaveError" xml:space="preserve">
     <value>自動プロキシ設定スクリプトの保存に失敗しました。</value>
   </data>
+  <data name="DialogConfigurationNotifier_ImageLoadError" xml:space="preserve">
+    <value>画像ファイルの読み込みに失敗しました。</value>
+  </data>
+  <data name="DialogConfigurationNotifier_SoundLoadError" xml:space="preserve">
+    <value>音声ファイルの読み込みに失敗しました。</value>
+  </data>
+  <data name="DialogConfigurationNotifier_TestMessage" xml:space="preserve">
+    <value>テスト 通知です。</value>
+  </data>
   <data name="FormArsenal_Complete" xml:space="preserve">
     <value>完成！</value>
   </data>

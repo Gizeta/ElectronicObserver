@@ -232,6 +232,15 @@
   <data name="DialogConfiguration_PACSaveError" xml:space="preserve">
     <value>PAC脚本保存失败。</value>
   </data>
+  <data name="DialogConfigurationNotifier_ImageLoadError" xml:space="preserve">
+    <value>图片文件读取失败。</value>
+  </data>
+  <data name="DialogConfigurationNotifier_SoundLoadError" xml:space="preserve">
+    <value>声音文件读取失败。</value>
+  </data>
+  <data name="DialogConfigurationNotifier_TestMessage" xml:space="preserve">
+    <value>测试 通知desu</value>
+  </data>
   <data name="FormArsenal_Complete" xml:space="preserve">
     <value>完成！</value>
   </data>

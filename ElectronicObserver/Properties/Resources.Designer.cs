@@ -388,6 +388,33 @@ namespace ElectronicObserver.Properties {
         }
         
         /// <summary>
+        ///   画像ファイルの読み込みに失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogConfigurationNotifier_ImageLoadError {
+            get {
+                return ResourceManager.GetString("DialogConfigurationNotifier_ImageLoadError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   音声ファイルの読み込みに失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogConfigurationNotifier_SoundLoadError {
+            get {
+                return ResourceManager.GetString("DialogConfigurationNotifier_SoundLoadError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   テスト 通知です。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogConfigurationNotifier_TestMessage {
+            get {
+                return ResourceManager.GetString("DialogConfigurationNotifier_TestMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   完成！ に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string FormArsenal_Complete {

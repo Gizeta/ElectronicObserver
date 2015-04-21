@@ -465,6 +465,9 @@
     <EmbeddedResource Include="Window\Dialog\DialogConfigurationNotifier.resx">
       <DependentUpon>DialogConfigurationNotifier.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Window\Dialog\DialogConfigurationNotifier.zh-Hans.resx">
+      <DependentUpon>DialogConfigurationNotifier.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Window\Dialog\DialogEquipmentList.resx">
       <DependentUpon>DialogEquipmentList.cs</DependentUpon>
     </EmbeddedResource>
