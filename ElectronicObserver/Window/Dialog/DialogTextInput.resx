@@ -117,4 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="ButtonOK.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="ButtonCancel.Text" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="Description.Text" xml:space="preserve">
+    <value>テキストを入力してください：</value>
+  </data>
+  <data name="DialogTextInput.Text" xml:space="preserve">
+    <value>テキストを入力</value>
+  </data>
 </root>

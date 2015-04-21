@@ -117,16 +117,37 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="label1.Text" xml:space="preserve">
-    <value>開発：</value>
+  <metadata name="DialogSaveCSV.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>选项</value>
   </data>
-  <data name="ButtonClose.Text" xml:space="preserve">
-    <value>閉じる</value>
+  <data name="RadioFormat_Data.Text" xml:space="preserve">
+    <value>数据用</value>
   </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>配布元(不具合報告・連絡はこちらへ)：</value>
+  <data name="RadioFormat_User.Text" xml:space="preserve">
+    <value>浏览用</value>
   </data>
-  <data name="DialogVersion.Text" xml:space="preserve">
-    <value>バージョン</value>
+  <data name="RadioOutput_VisibleColumnOnly.Text" xml:space="preserve">
+    <value>只导出选中列</value>
+  </data>
+  <data name="RadioOutput_All.Text" xml:space="preserve">
+    <value>导出全部</value>
+  </data>
+  <data name="ButtonOK.Text" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="ButtonCancel.Text" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>输出至</value>
+  </data>
+  <data name="DialogSaveCSV.Title" xml:space="preserve">
+    <value>保存CSV</value>
+  </data>
+  <data name="DialogShipGroupCSVOutput.Title" xml:space="preserve">
+    <value>导出编组CSV</value>
   </data>
 </root>

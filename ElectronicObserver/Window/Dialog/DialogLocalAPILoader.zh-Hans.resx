@@ -117,16 +117,35 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <metadata name="FileOpener.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
   <data name="label1.Text" xml:space="preserve">
-    <value>開発：</value>
+    <value>操作时请一定保持离线状态。
+因为这个操作不能保证安全，所以此功能仅供调试。</value>
   </data>
-  <data name="ButtonClose.Text" xml:space="preserve">
-    <value>閉じる</value>
+  <data name="APICategory.Items" xml:space="preserve">
+    <value>Request</value>
+  </data>
+  <data name="APICategory.Items1" xml:space="preserve">
+    <value>Response</value>
+  </data>
+  <data name="ButtonCancel.Text" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Path:</value>
+  </data>
+  <data name="ButtonOpen.Text" xml:space="preserve">
+    <value>打开</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>配布元(不具合報告・連絡はこちらへ)：</value>
+    <value>API:</value>
   </data>
-  <data name="DialogVersion.Text" xml:space="preserve">
-    <value>バージョン</value>
+  <data name="FileOpener.Title" xml:space="preserve">
+    <value>打开文件</value>
+  </data>
+  <data name="DialogLocalAPILoader.Text" xml:space="preserve">
+    <value>从文件读取API接口</value>
   </data>
 </root>

@@ -442,6 +442,15 @@ namespace ElectronicObserver.Properties {
         }
         
         /// <summary>
+        ///   通知システム: ダイアログボックスでの画像の描画に失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogNotifier_DrawImageError {
+            get {
+                return ResourceManager.GetString("DialogNotifier_DrawImageError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   完成！ に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string FormArsenal_Complete {

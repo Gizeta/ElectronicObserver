@@ -120,4 +120,34 @@
   <metadata name="DialogSaveCSV.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>オプション</value>
+  </data>
+  <data name="RadioFormat_Data.Text" xml:space="preserve">
+    <value>データ用</value>
+  </data>
+  <data name="RadioFormat_User.Text" xml:space="preserve">
+    <value>閲覧用</value>
+  </data>
+  <data name="RadioOutput_VisibleColumnOnly.Text" xml:space="preserve">
+    <value>表示している列のみ出力</value>
+  </data>
+  <data name="RadioOutput_All.Text" xml:space="preserve">
+    <value>全て出力</value>
+  </data>
+  <data name="ButtonOK.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="ButtonCancel.Text" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>出力先</value>
+  </data>
+  <data name="DialogSaveCSV.Title" xml:space="preserve">
+    <value>CSVの保存</value>
+  </data>
+  <data name="DialogShipGroupCSVOutput.Title" xml:space="preserve">
+    <value>グループをCSVに出力</value>
+  </data>
 </root>

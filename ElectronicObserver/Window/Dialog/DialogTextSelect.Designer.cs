@@ -23,6 +23,7 @@
 		/// the contents of this method with the code editor.
 		/// </summary>
 		private void InitializeComponent() {
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DialogTextSelect));
 			this.ButtonCancel = new System.Windows.Forms.Button();
 			this.ButtonOK = new System.Windows.Forms.Button();
 			this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
@@ -39,7 +40,7 @@
 			this.ButtonCancel.Name = "ButtonCancel";
 			this.ButtonCancel.Size = new System.Drawing.Size(75, 23);
 			this.ButtonCancel.TabIndex = 5;
-			this.ButtonCancel.Text = "キャンセル";
+			resources.ApplyResources(this.ButtonCancel, "ButtonCancel");
 			this.ButtonCancel.UseVisualStyleBackColor = true;
 			this.ButtonCancel.Click += new System.EventHandler(this.ButtonCancel_Click);
 			// 
@@ -50,7 +51,7 @@
 			this.ButtonOK.Name = "ButtonOK";
 			this.ButtonOK.Size = new System.Drawing.Size(75, 23);
 			this.ButtonOK.TabIndex = 4;
-			this.ButtonOK.Text = "OK";
+			resources.ApplyResources(this.ButtonOK, "ButtonOK");
 			this.ButtonOK.UseVisualStyleBackColor = true;
 			this.ButtonOK.Click += new System.EventHandler(this.ButtonOK_Click);
 			// 
@@ -79,7 +80,7 @@
 			this.Description.Name = "Description";
 			this.Description.Size = new System.Drawing.Size(127, 15);
 			this.Description.TabIndex = 0;
-			this.Description.Text = "項目を選択してください：";
+			resources.ApplyResources(this.Description, "Description");
 			// 
 			// TextSelect
 			// 
@@ -106,7 +107,7 @@
 			this.MinimizeBox = false;
 			this.Name = "DialogTextSelect";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-			this.Text = "項目を選択";
+			resources.ApplyResources(this, "DialogTextSelect");
 			this.tableLayoutPanel1.ResumeLayout(false);
 			this.tableLayoutPanel1.PerformLayout();
 			this.ResumeLayout(false);

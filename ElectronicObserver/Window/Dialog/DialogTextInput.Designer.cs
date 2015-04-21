@@ -23,6 +23,7 @@
 		/// the contents of this method with the code editor.
 		/// </summary>
 		private void InitializeComponent() {
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DialogTextInput));
 			this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
 			this.ButtonOK = new System.Windows.Forms.Button();
 			this.ButtonCancel = new System.Windows.Forms.Button();
@@ -55,7 +56,7 @@
 			this.ButtonOK.Name = "ButtonOK";
 			this.ButtonOK.Size = new System.Drawing.Size(75, 23);
 			this.ButtonOK.TabIndex = 1;
-			this.ButtonOK.Text = "OK";
+			resources.ApplyResources(this.ButtonOK, "ButtonOK");
 			this.ButtonOK.UseVisualStyleBackColor = true;
 			this.ButtonOK.Click += new System.EventHandler(this.ButtonOK_Click);
 			// 
@@ -67,7 +68,7 @@
 			this.ButtonCancel.Name = "ButtonCancel";
 			this.ButtonCancel.Size = new System.Drawing.Size(75, 23);
 			this.ButtonCancel.TabIndex = 2;
-			this.ButtonCancel.Text = "キャンセル";
+			resources.ApplyResources(this.ButtonCancel, "ButtonCancel");
 			this.ButtonCancel.UseVisualStyleBackColor = true;
 			this.ButtonCancel.Click += new System.EventHandler(this.ButtonCancel_Click);
 			// 
@@ -79,7 +80,7 @@
 			this.Description.Name = "Description";
 			this.Description.Size = new System.Drawing.Size(139, 15);
 			this.Description.TabIndex = 0;
-			this.Description.Text = "テキストを入力してください：";
+			resources.ApplyResources(this.Description, "Description");
 			// 
 			// TextInput
 			// 
@@ -104,7 +105,7 @@
 			this.MinimizeBox = false;
 			this.Name = "DialogTextInput";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-			this.Text = "テキストを入力";
+			resources.ApplyResources(this, "DialogTextInput");
 			this.tableLayoutPanel1.ResumeLayout(false);
 			this.tableLayoutPanel1.PerformLayout();
 			this.ResumeLayout(false);

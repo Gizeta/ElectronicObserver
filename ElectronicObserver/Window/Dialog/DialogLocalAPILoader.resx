@@ -120,4 +120,32 @@
   <metadata name="FileOpener.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <data name="label1.Text" xml:space="preserve">
+    <value>必ずオフラインの状態で操作してください。
+この機能はデバッグ専用であるため、動作は保証できません。</value>
+  </data>
+  <data name="APICategory.Items" xml:space="preserve">
+    <value>Request</value>
+  </data>
+  <data name="APICategory.Items1" xml:space="preserve">
+    <value>Response</value>
+  </data>
+  <data name="ButtonCancel.Text" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Path:</value>
+  </data>
+  <data name="ButtonOpen.Text" xml:space="preserve">
+    <value>開く</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>API:</value>
+  </data>
+  <data name="FileOpener.Title" xml:space="preserve">
+    <value>ファイルを開く</value>
+  </data>
+  <data name="DialogLocalAPILoader.Text" xml:space="preserve">
+    <value>ファイルからAPIをロード</value>
+  </data>
 </root>

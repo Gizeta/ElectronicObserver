@@ -477,25 +477,49 @@
     <EmbeddedResource Include="Window\Dialog\DialogLocalAPILoader.resx">
       <DependentUpon>DialogLocalAPILoader.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Window\Dialog\DialogLocalAPILoader.zh-Hans.resx">
+      <DependentUpon>DialogLocalAPILoader.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Window\Dialog\DialogNotifier.resx">
+      <DependentUpon>DialogNotifier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window\Dialog\DialogNotifier.zh-Hans.resx">
       <DependentUpon>DialogNotifier.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Window\Dialog\DialogShipGroupColumnFilter.resx">
       <DependentUpon>DialogShipGroupColumnFilter.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Window\Dialog\DialogShipGroupColumnFilter.zh-Hans.resx">
+      <DependentUpon>DialogShipGroupColumnFilter.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Window\Dialog\DialogShipGroupCSVOutput.resx">
+      <DependentUpon>DialogShipGroupCSVOutput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window\Dialog\DialogShipGroupCSVOutput.zh-Hans.resx">
       <DependentUpon>DialogShipGroupCSVOutput.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Window\Dialog\DialogTextInput.resx">
       <DependentUpon>DialogTextInput.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Window\Dialog\DialogTextInput.zh-Hans.resx">
+      <DependentUpon>DialogTextInput.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Window\Dialog\DialogTextSelect.resx">
+      <DependentUpon>DialogTextSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window\Dialog\DialogTextSelect.zh-Hans.resx">
       <DependentUpon>DialogTextSelect.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Window\Dialog\DialogVersion.resx">
       <DependentUpon>DialogVersion.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Window\Dialog\DialogVersion.zh-Hans.resx">
+      <DependentUpon>DialogVersion.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Window\Dialog\DialogWhitecap.resx">
+      <DependentUpon>DialogWhitecap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window\Dialog\DialogWhitecap.zh-Hans.resx">
       <DependentUpon>DialogWhitecap.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Window\FormArsenal.resx">

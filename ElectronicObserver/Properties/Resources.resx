@@ -250,6 +250,9 @@ HP1あたり: 鋼 {0:F2} / 燃 {1:F2}
   <data name="DialogEquipmentList_ExportCSVError" xml:space="preserve">
     <value>装備一覧 CSVの出力に失敗しました。</value>
   </data>
+  <data name="DialogNotifier_DrawImageError" xml:space="preserve">
+    <value>通知システム: ダイアログボックスでの画像の描画に失敗しました。</value>
+  </data>
   <data name="FormArsenal_Complete" xml:space="preserve">
     <value>完成！</value>
   </data>

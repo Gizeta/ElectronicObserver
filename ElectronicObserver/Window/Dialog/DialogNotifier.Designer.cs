@@ -24,6 +24,7 @@
 		/// </summary>
 		private void InitializeComponent() {
 			this.components = new System.ComponentModel.Container();
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DialogNotifier));
 			this.CloseTimer = new System.Windows.Forms.Timer(this.components);
 			this.SuspendLayout();
 			// 
@@ -41,7 +42,7 @@
 			this.MinimizeBox = false;
 			this.Name = "DialogNotifier";
 			this.ShowInTaskbar = false;
-			this.Text = "通知";
+			resources.ApplyResources(this, "DialogNotifier");
 			this.Load += new System.EventHandler(this.DialogNotifier_Load);
 			this.Click += new System.EventHandler(this.DialogNotifier_Click);
 			this.Paint += new System.Windows.Forms.PaintEventHandler(this.DialogNotifier_Paint);

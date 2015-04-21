@@ -24,6 +24,7 @@
 		/// </summary>
 		private void InitializeComponent() {
 			this.components = new System.ComponentModel.Container();
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DialogWhitecap));
 			this.UpdateTimer = new System.Windows.Forms.Timer(this.components);
 			this.SuspendLayout();
 			// 
@@ -43,7 +44,7 @@
 			this.Name = "DialogWhitecap";
 			this.ShowIcon = false;
 			this.ShowInTaskbar = false;
-			this.Text = "癒し処「白波」";
+			resources.ApplyResources(this, "DialogWhitecap");
 			this.Load += new System.EventHandler(this.DialogWhitecap_Load);
 			this.Paint += new System.Windows.Forms.PaintEventHandler(this.DialogWhitecap_Paint);
 			this.DoubleClick += new System.EventHandler(this.DialogWhitecap_DoubleClick);
