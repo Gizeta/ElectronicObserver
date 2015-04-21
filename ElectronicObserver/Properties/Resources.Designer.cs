@@ -415,6 +415,33 @@ namespace ElectronicObserver.Properties {
         }
         
         /// <summary>
+        ///   固有ID,装備ID,装備名,改修Lv,ロック,装備艦ID,装備艦 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogEquipmentList_CSVHeader {
+            get {
+                return ResourceManager.GetString("DialogEquipmentList_CSVHeader", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   装備一覧 -  に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogEquipmentList_EquipmentOverview {
+            get {
+                return ResourceManager.GetString("DialogEquipmentList_EquipmentOverview", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   装備一覧 CSVの出力に失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogEquipmentList_ExportCSVError {
+            get {
+                return ResourceManager.GetString("DialogEquipmentList_ExportCSVError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   完成！ に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string FormArsenal_Complete {

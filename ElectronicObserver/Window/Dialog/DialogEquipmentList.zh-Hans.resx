@@ -154,39 +154,39 @@
     <value>ID</value>
   </data>
   <data name="EquipmentView_Name.HeaderText" xml:space="preserve">
-    <value>装備名</value>
+    <value>装备名</value>
   </data>
   <data name="EquipmentView_CountAll.HeaderText" xml:space="preserve">
-    <value>全個数</value>
+    <value>全部个数</value>
   </data>
   <data name="EquipmentView_CountRemain.HeaderText" xml:space="preserve">
-    <value>余個数</value>
+    <value>剩余个数</value>
   </data>
   <data name="TopMenu_File.Text" xml:space="preserve">
-    <value>ファイル(&amp;F)</value>
+    <value>文件(&amp;F)</value>
   </data>
   <data name="TopMenu_File_CSVOutput.Text" xml:space="preserve">
-    <value>CSV出力(&amp;C)...</value>
+    <value>导出CSV(&amp;C)...</value>
   </data>
   <data name="TopMenu_File_Update.Text" xml:space="preserve">
-    <value>更新(&amp;U)</value>
+    <value>刷新(&amp;U)</value>
   </data>
   <data name="SaveCSVDialog.Title" xml:space="preserve">
-    <value>CSVに出力</value>
+    <value>导出CSV</value>
   </data>
   <data name="DetailView_Level.HeaderText" xml:space="preserve">
     <value>改修</value>
   </data>
   <data name="DetailView_CountAll.HeaderText" xml:space="preserve">
-    <value>全個数</value>
+    <value>全部个数</value>
   </data>
   <data name="DetailView_CountRemain.HeaderText" xml:space="preserve">
-    <value>余個数</value>
+    <value>剩余个数</value>
   </data>
   <data name="DetailView_EquippedShip.HeaderText" xml:space="preserve">
-    <value>装備艦</value>
+    <value>装备舰船</value>
   </data>
   <data name="DialogEquipmentList.Text" xml:space="preserve">
-    <value>装備一覧</value>
+    <value>装备一览</value>
   </data>
 </root>

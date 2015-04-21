@@ -471,6 +471,9 @@
     <EmbeddedResource Include="Window\Dialog\DialogEquipmentList.resx">
       <DependentUpon>DialogEquipmentList.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Window\Dialog\DialogEquipmentList.zh-Hans.resx">
+      <DependentUpon>DialogEquipmentList.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Window\Dialog\DialogLocalAPILoader.resx">
       <DependentUpon>DialogLocalAPILoader.cs</DependentUpon>
     </EmbeddedResource>

@@ -241,6 +241,15 @@
   <data name="DialogConfigurationNotifier_TestMessage" xml:space="preserve">
     <value>测试 通知desu</value>
   </data>
+  <data name="DialogEquipmentList_CSVHeader" xml:space="preserve">
+    <value>ID,装备ID,装备名,改修Lv,锁定,装备舰ID,装备舰</value>
+  </data>
+  <data name="DialogEquipmentList_EquipmentOverview" xml:space="preserve">
+    <value>装备一览 - </value>
+  </data>
+  <data name="DialogEquipmentList_ExportCSVError" xml:space="preserve">
+    <value>装备一览CSV导出失败。</value>
+  </data>
   <data name="FormArsenal_Complete" xml:space="preserve">
     <value>完成！</value>
   </data>
