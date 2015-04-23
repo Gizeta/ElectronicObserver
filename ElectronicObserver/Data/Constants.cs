@@ -16,13 +16,13 @@ namespace ElectronicObserver.Data {
 		public static string GetSpeed( int value ) {
 			switch ( value ) {
 				case 0:
-					return "陸上";
+					return Properties.Resources.Constant_Land;
 				case 5:
-					return "低速";
+					return Properties.Resources.Constant_LowSpeed;
 				case 10:
-					return "高速";
+					return Properties.Resources.Constant_HighSpeed;
 				default:
-					return "不明";
+					return Properties.Resources.Constant_Unknown;
 			}
 		}
 
@@ -32,17 +32,17 @@ namespace ElectronicObserver.Data {
 		public static string GetRange( int value ) {
 			switch ( value ) {
 				case 0:
-					return "無";
+					return Properties.Resources.Constant_None;
 				case 1:
-					return "短";
+					return Properties.Resources.Constant_Short;
 				case 2:
-					return "中";
+					return Properties.Resources.Constant_Middle;
 				case 3:
-					return "長";
+					return Properties.Resources.Constant_Long;
 				case 4:
-					return "超長";
+					return Properties.Resources.Constant_SuperLong;
 				default:
-					return "不明";
+					return Properties.Resources.Constant_Unknown;
 			}
 		}
 
@@ -52,25 +52,25 @@ namespace ElectronicObserver.Data {
 		public static string GetShipRarity( int value ) {
 			switch ( value ) {
 				case 0:
-					return "赤";
+					return Properties.Resources.Constant_Red;
 				case 1:
-					return "藍";
+					return Properties.Resources.Constant_Blue;
 				case 2:
-					return "青";
+					return Properties.Resources.Constant_Cyan;
 				case 3:
-					return "水";
+					return Properties.Resources.Constant_AquaBlue;
 				case 4:
-					return "銀";
+					return Properties.Resources.Constant_Silver;
 				case 5:
-					return "金";
+					return Properties.Resources.Constant_Golden;
 				case 6:
-					return "虹";
+					return Properties.Resources.Constant_Rainbow;
 				case 7:
-					return "輝虹";
+					return Properties.Resources.Constant_BlazeRainbow;
 				case 8:
-					return "桜虹";
+					return Properties.Resources.Constant_SakuraRainbow;
 				default:
-					return "不明";
+					return Properties.Resources.Constant_Unknown;
 			}
 		}
 
@@ -80,19 +80,19 @@ namespace ElectronicObserver.Data {
 		public static string GetEquipmentRarity( int value ) {
 			switch ( value ) {
 				case 0:
-					return "コモン";
+					return Properties.Resources.Constant_Common;
 				case 1:
-					return "レア";
+					return Properties.Resources.Constant_Rare;
 				case 2:
-					return "ホロ";
+					return Properties.Resources.Constant_Holo;
 				case 3:
-					return "Sホロ";
+					return Properties.Resources.Constant_SHolo;
 				case 4:
-					return "SSホロ";
+					return Properties.Resources.Constant_SSHolo;
 				case 5:
-					return "EXホロ";
+					return Properties.Resources.Constant_EXHolo;
 				default:
-					return "不明";
+					return Properties.Resources.Constant_Unknown;
 			}
 		}
 
@@ -127,13 +127,13 @@ namespace ElectronicObserver.Data {
 				case 0:
 					return "-";
 				case 1:
-					return "時報";
+					return Properties.Resources.Constant_Clock;
 				case 2:
-					return "放置";
+					return Properties.Resources.Constant_Place;
 				case 3:
-					return "時報+放置";
+					return Properties.Resources.Constant_Clock_Place;
 				default:
-					return "不明";
+					return Properties.Resources.Constant_Unknown;
 			}
 		}
 
@@ -149,19 +149,19 @@ namespace ElectronicObserver.Data {
 		public static string GetDamageState( double hprate, bool isPractice = false, bool isLandBase = false, bool isEscaped = false ) {
 
 			if ( isEscaped )
-				return "退避";
+				return Properties.Resources.Constant_Escaped;
 			else if ( hprate <= 0.0 )
-				return isPractice ? "離脱" : ( !isLandBase ? "撃沈" : "破壊" );
+				return isPractice ? Properties.Resources.Constant_Sink_Practice : ( !isLandBase ? Properties.Resources.Constant_Sink : Properties.Resources.Constant_Sink_LandBase );
 			else if ( hprate <= 0.25 )
-				return !isLandBase ? "大破" : "損壊";
+				return !isLandBase ? Properties.Resources.Constant_LowHP : Properties.Resources.Constant_LowHP_LandBase;
 			else if ( hprate <= 0.5 )
-				return !isLandBase ? "中破" : "損害";
+				return !isLandBase ? Properties.Resources.Constant_HalfHP : Properties.Resources.Constant_HalfHP_LandBase;
 			else if ( hprate <= 0.75 )
-				return !isLandBase ? "小破" : "混乱";
+				return !isLandBase ? Properties.Resources.Constant_HighHP : Properties.Resources.Constant_HighHP_LandBase;
 			else if ( hprate < 1.0 )
-				return "健在";
+				return Properties.Resources.Constant_MuchHP;
 			else
-				return "無傷";
+				return Properties.Resources.Constant_FullHP;
 
 		}
 
@@ -178,25 +178,25 @@ namespace ElectronicObserver.Data {
 			switch ( value ) {
 
 				case 0:
-					return "初期位置";
+					return Properties.Resources.Constant_InitialPoint;
 				case 1:
-					return "なし";
+					return Properties.Resources.Constant_Null;
 				case 2:
-					return "資源";
+					return Properties.Resources.Constant_Resource;
 				case 3:
-					return "渦潮";
+					return Properties.Resources.Constant_Eddy;
 				case 4:
-					return "通常戦闘";
+					return Properties.Resources.Constant_Battle;
 				case 5:
-					return "ボス戦闘";
+					return Properties.Resources.Constant_BossBattle;
 				case 6:
-					return "気のせいだった";
+					return Properties.Resources.Constant_Misconception;
 				case 7:
-					return "航空戦";
+					return Properties.Resources.Constant_AirBattle;
 				case 8:
-					return "船団護衛成功";
+					return Properties.Resources.Constant_ShipGuard;
 				default:
-					return "不明";
+					return Properties.Resources.Constant_Unknown;
 			}
 		}
 
@@ -207,17 +207,17 @@ namespace ElectronicObserver.Data {
 
 			switch ( value ) {
 				case 0:
-					return "非戦闘";
+					return Properties.Resources.Constant_NoBattle;
 				case 1:
-					return "昼夜戦";
+					return Properties.Resources.Constant_Day_NightBattle;
 				case 2:
-					return "夜戦";
+					return Properties.Resources.Constant_NightBattle;
 				case 3:
-					return "夜昼戦";
+					return Properties.Resources.Constant_Night_DayBattle;
 				case 4:
-					return "航空戦";
+					return Properties.Resources.Constant_AirBattle;
 				default:
-					return "不明";
+					return Properties.Resources.Constant_Unknown;
 			}
 		}
 
@@ -232,25 +232,25 @@ namespace ElectronicObserver.Data {
 		public static string GetFormation( int id ) {
 			switch ( id ) {
 				case 1:
-					return "単縦陣";
+					return Properties.Resources.Constant_Information1;
 				case 2:
-					return "複縦陣";
+					return Properties.Resources.Constant_Information2;
 				case 3:
-					return "輪形陣";
+					return Properties.Resources.Constant_Information3;
 				case 4:
-					return "梯形陣";
+					return Properties.Resources.Constant_Information4;
 				case 5:
-					return "単横陣";
+					return Properties.Resources.Constant_Information5;
 				case 11:
-					return "第一警戒航行序列";
+					return Properties.Resources.Constant_Information11;
 				case 12:
-					return "第二警戒航行序列";
+					return Properties.Resources.Constant_Information12;
 				case 13:
-					return "第三警戒航行序列";
+					return Properties.Resources.Constant_Information13;
 				case 14:
-					return "第四警戒航行序列";
+					return Properties.Resources.Constant_Information14;
 				default:
-					return "不明";
+					return Properties.Resources.Constant_Unknown;
 			}
 		}
 
@@ -260,25 +260,25 @@ namespace ElectronicObserver.Data {
 		public static string GetFormationShort( int id ) {
 			switch ( id ) {
 				case 1:
-					return "単縦陣";
+					return Properties.Resources.Constant_Information1_Short;
 				case 2:
-					return "複縦陣";
+					return Properties.Resources.Constant_Information2_Short;
 				case 3:
-					return "輪形陣";
+					return Properties.Resources.Constant_Information3_Short;
 				case 4:
-					return "梯形陣";
+					return Properties.Resources.Constant_Information4_Short;
 				case 5:
-					return "単横陣";
+					return Properties.Resources.Constant_Information5_Short;
 				case 11:
-					return "第一警戒";
+					return Properties.Resources.Constant_Information11_Short;
 				case 12:
-					return "第二警戒";
+					return Properties.Resources.Constant_Information12_Short;
 				case 13:
-					return "第三警戒";
+					return Properties.Resources.Constant_Information13_Short;
 				case 14:
-					return "第四警戒";
+					return Properties.Resources.Constant_Information14_Short;
 				default:
-					return "不明";
+					return Properties.Resources.Constant_Unknown;
 			}
 		}
 
@@ -288,15 +288,15 @@ namespace ElectronicObserver.Data {
 		public static string GetEngagementForm( int id ) {
 			switch ( id ) {
 				case 1:
-					return "同航戦";
+					return Properties.Resources.Constant_Engagement1;
 				case 2:
-					return "反航戦";
+					return Properties.Resources.Constant_Engagement2;
 				case 3:
-					return "T字有利";
+					return Properties.Resources.Constant_Engagement3;
 				case 4:
-					return "T字不利";
+					return Properties.Resources.Constant_Engagement4;
 				default:
-					return "不明";
+					return Properties.Resources.Constant_Unknown;
 			}
 		}
 
@@ -306,19 +306,19 @@ namespace ElectronicObserver.Data {
 		public static string GetSearchingResult( int id ) {
 			switch ( id ) {
 				case 1:
-					return "成功";
+					return Properties.Resources.Constant_SearchingResult1;
 				case 2:
-					return "成功(未帰還有)";
+					return Properties.Resources.Constant_SearchingResult2;
 				case 3:
-					return "未帰還";
+					return Properties.Resources.Constant_SearchingResult3;
 				case 4:
-					return "失敗";
+					return Properties.Resources.Constant_SearchingResult4;
 				case 5:
-					return "成功(非索敵機)";
+					return Properties.Resources.Constant_SearchingResult5;
 				case 6:
-					return "失敗(非索敵機)";
+					return Properties.Resources.Constant_SearchingResult6;
 				default:
-					return "不明";
+					return Properties.Resources.Constant_Unknown;
 			}
 		}
 
@@ -328,19 +328,19 @@ namespace ElectronicObserver.Data {
 		public static string GetSearchingResultShort( int id ) {
 			switch ( id ) {
 				case 1:
-					return "成功";
+					return Properties.Resources.Constant_SearchingResult1_Short;
 				case 2:
-					return "成功△";
+					return Properties.Resources.Constant_SearchingResult2_Short;
 				case 3:
-					return "未帰還";
+					return Properties.Resources.Constant_SearchingResult3_Short;
 				case 4:
-					return "失敗";
+					return Properties.Resources.Constant_SearchingResult4_Short;
 				case 5:
-					return "成功";
+					return Properties.Resources.Constant_SearchingResult5_Short;
 				case 6:
-					return "失敗";
+					return Properties.Resources.Constant_SearchingResult6_Short;
 				default:
-					return "不明";
+					return Properties.Resources.Constant_Unknown;
 			}
 		}
 
@@ -350,17 +350,17 @@ namespace ElectronicObserver.Data {
 		public static string GetAirSuperiority( int id ) {
 			switch ( id ) {
 				case 0:
-					return "航空均衡";
+					return Properties.Resources.Constant_AirSuperiority0;
 				case 1:
-					return "制空権確保";
+					return Properties.Resources.Constant_AirSuperiority1;
 				case 2:
-					return "航空優勢";
+					return Properties.Resources.Constant_AirSuperiority2;
 				case 3:
-					return "航空劣勢";
+					return Properties.Resources.Constant_AirSuperiority3;
 				case 4:
-					return "制空権喪失";
+					return Properties.Resources.Constant_AirSuperiority4;
 				default:
-					return "不明";
+					return Properties.Resources.Constant_Unknown;
 			}
 		}
 
@@ -372,29 +372,29 @@ namespace ElectronicObserver.Data {
 		public static string GetDayAttackKind( int id ) {
 			switch ( id ) {
 				case 0:
-					return "砲撃";
+					return Properties.Resources.Constant_DayAttackKind0;
 				case 1:
-					return "レーザー攻撃";
+					return Properties.Resources.Constant_DayAttackKind1;
 				case 2:
-					return "連続射撃";
+					return Properties.Resources.Constant_DayAttackKind2;
 				case 3:
-					return "カットイン(主砲/副砲)";
+					return Properties.Resources.Constant_DayAttackKind3;
 				case 4:
-					return "カットイン(主砲/電探)";
+					return Properties.Resources.Constant_DayAttackKind4;
 				case 5:
-					return "カットイン(主砲/徹甲)";
+					return Properties.Resources.Constant_DayAttackKind5;
 				case 6:
-					return "カットイン(主砲/主砲)";
+					return Properties.Resources.Constant_DayAttackKind6;
 				case 7:
-					return "空撃";
+					return Properties.Resources.Constant_DayAttackKind7;
 				case 8:
-					return "爆雷攻撃";
+					return Properties.Resources.Constant_DayAttackKind8;
 				case 9:
-					return "雷撃";
+					return Properties.Resources.Constant_DayAttackKind9;
 				case 10:
-					return "ロケット砲撃";
+					return Properties.Resources.Constant_DayAttackKind10;
 				default:
-					return "不明";
+					return Properties.Resources.Constant_Unknown;
 			}
 		}
 
@@ -405,29 +405,29 @@ namespace ElectronicObserver.Data {
 		public static string GetNightAttackKind( int id ) {
 			switch ( id ) {
 				case 0:
-					return "砲撃";
+					return Properties.Resources.Constant_NightAttackKind0;
 				case 1:
-					return "連続射撃";
+					return Properties.Resources.Constant_NightAttackKind1;
 				case 2:
-					return "カットイン(主砲/魚雷)";
+					return Properties.Resources.Constant_NightAttackKind2;
 				case 3:
-					return "カットイン(魚雷x2)";
+					return Properties.Resources.Constant_NightAttackKind3;
 				case 4:
-					return "カットイン(主砲x2/副砲)";
+					return Properties.Resources.Constant_NightAttackKind4;
 				case 5:
-					return "カットイン(主砲x3)";
+					return Properties.Resources.Constant_NightAttackKind5;
 				case 6:
-					return "不明";
+					return Properties.Resources.Constant_Unknown;
 				case 7:
-					return "空撃";
+					return Properties.Resources.Constant_NightAttackKind7;
 				case 8:
-					return "爆雷攻撃";
+					return Properties.Resources.Constant_NightAttackKind8;
 				case 9:
-					return "雷撃";
+					return Properties.Resources.Constant_NightAttackKind9;
 				case 10:
-					return "ロケット砲撃";
+					return Properties.Resources.Constant_NightAttackKind10;
 				default:
-					return "不明";
+					return Properties.Resources.Constant_Unknown;
 			}
 		}
 
@@ -438,33 +438,33 @@ namespace ElectronicObserver.Data {
 		public static string GetAACutinKind( int id ) {
 			switch ( id ) {
 				case 0:
-					return "なし";
+					return Properties.Resources.Constant_Null;
 				case 1:
-					return "高角砲x2/電探";
+					return Properties.Resources.Constant_AACutinKind1;
 				case 2:
-					return "高角砲/電探";
+					return Properties.Resources.Constant_AACutinKind2;
 				case 3:
-					return "高角砲x2";
+					return Properties.Resources.Constant_AACutinKind3;
 				case 4:
-					return "大口径主砲/三式弾/高射装置/電探";
+					return Properties.Resources.Constant_AACutinKind4;
 				case 5:
-					return "高角砲+高射装置x2/電探";
+					return Properties.Resources.Constant_AACutinKind5;
 				case 6:
-					return "大口径主砲/三式弾/高射装置";
+					return Properties.Resources.Constant_AACutinKind6;
 				case 7:
-					return "高角砲/高射装置/電探";
+					return Properties.Resources.Constant_AACutinKind7;
 				case 8:
-					return "高角砲+高射装置/電探";
+					return Properties.Resources.Constant_AACutinKind8;
 				case 9:
-					return "高角砲/高射装置";
+					return Properties.Resources.Constant_AACutinKind9;
 				case 10:
-					return "高角砲/集中機銃/電探";
+					return Properties.Resources.Constant_AACutinKind10;
 				case 11:
-					return "高角砲/集中機銃";
+					return Properties.Resources.Constant_AACutinKind11;
 				case 12:
-					return "集中機銃/機銃/電探";
+					return Properties.Resources.Constant_AACutinKind12;
 				default:
-					return "不明";
+					return Properties.Resources.Constant_Unknown;
 			}
 		}
 
@@ -513,7 +513,7 @@ namespace ElectronicObserver.Data {
 				case 7:
 					return "SS";
 				default:
-					return "不明";
+					return Properties.Resources.Constant_Unknown;
 			}
 		}
 
@@ -531,23 +531,23 @@ namespace ElectronicObserver.Data {
 
 			switch ( materialID ) {
 				case 1:
-					return "燃料";
+					return Properties.Resources.Constant_Fuel;
 				case 2:
-					return "弾薬";
+					return Properties.Resources.Constant_Ammo;
 				case 3:
-					return "鋼材";
+					return Properties.Resources.Constant_Steel;
 				case 4:
-					return "ボーキサイト";
+					return Properties.Resources.Constant_Bauxite;
 				case 5:
-					return "高速建造材";
+					return Properties.Resources.Constant_InstantConstruction;
 				case 6:
-					return "高速修復材";
+					return Properties.Resources.Constant_InstantRepair;
 				case 7:
-					return "開発資材";
+					return Properties.Resources.Constant_DevelopmentMaterial;
 				case 8:
-					return "改修資材";
+					return Properties.Resources.Constant_ModdingMaterial;
 				default:
-					return "不明";
+					return Properties.Resources.Constant_Unknown;
 			}
 		}
 
@@ -558,27 +558,27 @@ namespace ElectronicObserver.Data {
 		public static string GetAdmiralRank( int id ) {
 			switch ( id ) {
 				case 1:
-					return "元帥";
+					return Properties.Resources.Constant_AdmiralRank1;
 				case 2:
-					return "大将";
+					return Properties.Resources.Constant_AdmiralRank2;
 				case 3:
-					return "中将";
+					return Properties.Resources.Constant_AdmiralRank3;
 				case 4:
-					return "少将";
+					return Properties.Resources.Constant_AdmiralRank4;
 				case 5:
-					return "大佐";
+					return Properties.Resources.Constant_AdmiralRank5;
 				case 6:
-					return "中佐";
+					return Properties.Resources.Constant_AdmiralRank6;
 				case 7:
-					return "新米中佐";
+					return Properties.Resources.Constant_AdmiralRank7;
 				case 8:
-					return "少佐";
+					return Properties.Resources.Constant_AdmiralRank8;
 				case 9:
-					return "中堅少佐";
+					return Properties.Resources.Constant_AdmiralRank9;
 				case 10:
-					return "新米少佐";
+					return Properties.Resources.Constant_AdmiralRank10;
 				default:
-					return "提督";
+					return Properties.Resources.Constant_Admiral;
 			}
 		}
 
@@ -589,19 +589,19 @@ namespace ElectronicObserver.Data {
 		public static string GetQuestType( int id ) {
 			switch ( id ) {
 				case 1:		//一回限り
-					return "1";
+					return Properties.Resources.Constant_Once;
 				case 2:		//デイリー
-					return "日";
+					return Properties.Resources.Constant_Day;
 				case 3:		//ウィークリー
-					return "週";
+					return Properties.Resources.Constant_Week;
 				case 4:		//敵空母を3隻撃沈せよ！(日付下一桁0|3|7)
-					return "変";
+					return Properties.Resources.Constant_Vary;
 				case 5:		//敵輸送船団を叩け！(日付下一桁2|8)
-					return "変";
+					return Properties.Resources.Constant_Vary;
 				case 6:		//マンスリー
-					return "月";
+					return Properties.Resources.Constant_Month;
 				default:
-					return "?";
+					return Properties.Resources.Constant_Unknown_Short;
 			}
 
 		}
@@ -613,23 +613,23 @@ namespace ElectronicObserver.Data {
 		public static string GetQuestCategory( int id ) {
 			switch ( id ) {
 				case 1:
-					return "編成";
+					return Properties.Resources.Constant_Organize;
 				case 2:
-					return "出撃";
+					return Properties.Resources.Constant_Sortie;
 				case 3:
-					return "演習";
+					return Properties.Resources.Constant_Practice;
 				case 4:
-					return "遠征";
+					return Properties.Resources.Constant_Expedition;
 				case 5:
-					return "補給";		//入渠も含むが、文字数の関係
+					return Properties.Resources.Constant_Supply_Repair;		//入渠も含むが、文字数の関係
 				case 6:
-					return "工廠";
+					return Properties.Resources.Constant_Arsenal;
 				case 7:
-					return "改装";
+					return Properties.Resources.Constant_Remodel;
 				case 8:
-					return "他";
+					return Properties.Resources.Constant_Other;
 				default:
-					return "不明";
+					return Properties.Resources.Constant_Unknown;
 			}
 		}
 
@@ -640,13 +640,13 @@ namespace ElectronicObserver.Data {
 		public static string GetExpeditionResult( int value ) {
 			switch ( value ) {
 				case 0:
-					return "失敗";
+					return Properties.Resources.Constant_Failed;
 				case 1:
-					return "成功";
+					return Properties.Resources.Constant_Success;
 				case 2:
-					return "大成功";
+					return Properties.Resources.Constant_SuperSuccess;
 				default:
-					return "不明";
+					return Properties.Resources.Constant_Unknown;
 			}
 		}
 
@@ -654,13 +654,13 @@ namespace ElectronicObserver.Data {
 		public static string GetCombinedFleet( int value ) {
 			switch ( value ) {
 				case 0:
-					return "通常艦隊";
+					return Properties.Resources.Constant_CombinedFleet0;
 				case 1:
-					return "機動部隊";
+					return Properties.Resources.Constant_CombinedFleet1;
 				case 2:
-					return "水上部隊";
+					return Properties.Resources.Constant_CombinedFleet2;
 				default:
-					return "不明";
+					return Properties.Resources.Constant_Unknown;
 			}
 		}
 

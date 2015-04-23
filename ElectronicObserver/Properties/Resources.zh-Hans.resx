@@ -114,17 +114,545 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="APIMapStart_Message" xml:space="preserve">
+    <value>#{0}「{1}」出击「{2}-{3} {4}」了。</value>
+  </data>
+  <data name="APIMissionResult_Message" xml:space="preserve">
+    <value>#{0}「{1}」远征「{2}: {3}」已经回港。({4})</value>
+  </data>
+  <data name="APIMissionStart_Message" xml:space="preserve">
+    <value>#{0}「{1}」远征「{2}: {3}」了。</value>
+  </data>
+  <data name="APIObserver_MismatchedPort" xml:space="preserve">
+    <value>APIObserver: 实际接收端口号与指定端口号不同。</value>
+  </data>
+  <data name="APIObserver_ReceiveErrorData" xml:space="preserve">
+    <value>收到了含有错误代码的消息。</value>
+  </data>
+  <data name="APIObserver_RequestError" xml:space="preserve">
+    <value>处理请求的过程中发生了错误。</value>
+  </data>
+  <data name="APIObserver_RequestReceive" xml:space="preserve">
+    <value>发送的请求 : </value>
+  </data>
+  <data name="APIObserver_RequestSaveError" xml:space="preserve">
+    <value>请求保存失败。</value>
+  </data>
+  <data name="APIObserver_ResponseError" xml:space="preserve">
+    <value>接收响应的过程中发生了错误。</value>
+  </data>
+  <data name="APIObserver_ResponseReceive" xml:space="preserve">
+    <value>收到的响应 : </value>
+  </data>
+  <data name="APIObserver_ResponseSaveError" xml:space="preserve">
+    <value>Responseの保存に失敗しました。</value>
+  </data>
+  <data name="APIObserver_Saved" xml:space="preserve">
+    <value>通信からファイル {0} を保存しました。</value>
+  </data>
+  <data name="APIObserver_SaveError" xml:space="preserve">
+    <value>通信内容の保存に失敗しました。</value>
+  </data>
+  <data name="APIObserver_Start" xml:space="preserve">
+    <value>APIObserver: ポート {0} 番で受信を開始しました。</value>
+  </data>
+  <data name="APIObserver_Stop" xml:space="preserve">
+    <value>APIObserver: 受信を停止しました。</value>
+  </data>
+  <data name="APIStart2_Message" xml:space="preserve">
+    <value>提督が鎮守府に着任しました。これより艦隊の指揮を執ります。</value>
+  </data>
+  <data name="Constant_AACutinKind1" xml:space="preserve">
+    <value>高角砲x2/電探</value>
+  </data>
+  <data name="Constant_AACutinKind10" xml:space="preserve">
+    <value>高角砲/集中機銃/電探</value>
+  </data>
+  <data name="Constant_AACutinKind11" xml:space="preserve">
+    <value>高角砲/集中機銃</value>
+  </data>
+  <data name="Constant_AACutinKind12" xml:space="preserve">
+    <value>集中機銃/機銃/電探</value>
+  </data>
+  <data name="Constant_AACutinKind2" xml:space="preserve">
+    <value>高角砲/電探</value>
+  </data>
+  <data name="Constant_AACutinKind3" xml:space="preserve">
+    <value>高角砲x2</value>
+  </data>
+  <data name="Constant_AACutinKind4" xml:space="preserve">
+    <value>大口径主砲/三式弾/高射装置/電探</value>
+  </data>
+  <data name="Constant_AACutinKind5" xml:space="preserve">
+    <value>高角砲+高射装置x2/電探</value>
+  </data>
+  <data name="Constant_AACutinKind6" xml:space="preserve">
+    <value>大口径主砲/三式弾/高射装置</value>
+  </data>
+  <data name="Constant_AACutinKind7" xml:space="preserve">
+    <value>高角砲/高射装置/電探</value>
+  </data>
+  <data name="Constant_AACutinKind8" xml:space="preserve">
+    <value>高角砲+高射装置/電探</value>
+  </data>
+  <data name="Constant_AACutinKind9" xml:space="preserve">
+    <value>高角砲/高射装置</value>
+  </data>
+  <data name="Constant_Admiral" xml:space="preserve">
+    <value>提督</value>
+  </data>
+  <data name="Constant_AdmiralRank1" xml:space="preserve">
+    <value>元帥</value>
+  </data>
+  <data name="Constant_AdmiralRank10" xml:space="preserve">
+    <value>新米少佐</value>
+  </data>
+  <data name="Constant_AdmiralRank2" xml:space="preserve">
+    <value>大将</value>
+  </data>
+  <data name="Constant_AdmiralRank3" xml:space="preserve">
+    <value>中将</value>
+  </data>
+  <data name="Constant_AdmiralRank4" xml:space="preserve">
+    <value>少将</value>
+  </data>
+  <data name="Constant_AdmiralRank5" xml:space="preserve">
+    <value>大佐</value>
+  </data>
+  <data name="Constant_AdmiralRank6" xml:space="preserve">
+    <value>中佐</value>
+  </data>
+  <data name="Constant_AdmiralRank7" xml:space="preserve">
+    <value>新米中佐</value>
+  </data>
+  <data name="Constant_AdmiralRank8" xml:space="preserve">
+    <value>少佐</value>
+  </data>
+  <data name="Constant_AdmiralRank9" xml:space="preserve">
+    <value>中堅少佐</value>
+  </data>
+  <data name="Constant_AirBattle" xml:space="preserve">
+    <value>航空戦</value>
+  </data>
+  <data name="Constant_AirSuperiority0" xml:space="preserve">
+    <value>航空均衡</value>
+  </data>
+  <data name="Constant_AirSuperiority1" xml:space="preserve">
+    <value>制空権確保</value>
+  </data>
+  <data name="Constant_AirSuperiority2" xml:space="preserve">
+    <value>航空優勢</value>
+  </data>
+  <data name="Constant_AirSuperiority3" xml:space="preserve">
+    <value>航空劣勢</value>
+  </data>
+  <data name="Constant_AirSuperiority4" xml:space="preserve">
+    <value>制空権喪失</value>
+  </data>
+  <data name="Constant_Ammo" xml:space="preserve">
+    <value>弾薬</value>
+  </data>
+  <data name="Constant_AquaBlue" xml:space="preserve">
+    <value>水</value>
+  </data>
+  <data name="Constant_Arsenal" xml:space="preserve">
+    <value>工廠</value>
+  </data>
+  <data name="Constant_Battle" xml:space="preserve">
+    <value>通常戦闘</value>
+  </data>
+  <data name="Constant_Bauxite" xml:space="preserve">
+    <value>ボーキサイト</value>
+  </data>
+  <data name="Constant_BlazeRainbow" xml:space="preserve">
+    <value>輝虹</value>
+  </data>
+  <data name="Constant_Blue" xml:space="preserve">
+    <value>藍</value>
+  </data>
+  <data name="Constant_BossBattle" xml:space="preserve">
+    <value>ボス戦闘</value>
+  </data>
+  <data name="Constant_Clock" xml:space="preserve">
+    <value>時報</value>
+  </data>
+  <data name="Constant_Clock_Place" xml:space="preserve">
+    <value>時報+放置</value>
+  </data>
+  <data name="Constant_CombinedFleet0" xml:space="preserve">
+    <value>通常艦隊</value>
+  </data>
+  <data name="Constant_CombinedFleet1" xml:space="preserve">
+    <value>機動部隊</value>
+  </data>
+  <data name="Constant_CombinedFleet2" xml:space="preserve">
+    <value>水上部隊</value>
+  </data>
+  <data name="Constant_Common" xml:space="preserve">
+    <value>コモン</value>
+  </data>
+  <data name="Constant_Cyan" xml:space="preserve">
+    <value>青</value>
+  </data>
+  <data name="Constant_Day" xml:space="preserve">
+    <value>日</value>
+  </data>
+  <data name="Constant_Day_NightBattle" xml:space="preserve">
+    <value>昼夜戦</value>
+  </data>
+  <data name="Constant_DayAttackKind0" xml:space="preserve">
+    <value>砲撃</value>
+  </data>
+  <data name="Constant_DayAttackKind1" xml:space="preserve">
+    <value>レーザー攻撃</value>
+  </data>
+  <data name="Constant_DayAttackKind10" xml:space="preserve">
+    <value>ロケット砲撃</value>
+  </data>
+  <data name="Constant_DayAttackKind2" xml:space="preserve">
+    <value>連続射撃</value>
+  </data>
+  <data name="Constant_DayAttackKind3" xml:space="preserve">
+    <value>カットイン(主砲/副砲)</value>
+  </data>
+  <data name="Constant_DayAttackKind4" xml:space="preserve">
+    <value>カットイン(主砲/電探)</value>
+  </data>
+  <data name="Constant_DayAttackKind5" xml:space="preserve">
+    <value>カットイン(主砲/徹甲)</value>
+  </data>
+  <data name="Constant_DayAttackKind6" xml:space="preserve">
+    <value>カットイン(主砲/主砲)</value>
+  </data>
+  <data name="Constant_DayAttackKind7" xml:space="preserve">
+    <value>空撃</value>
+  </data>
+  <data name="Constant_DayAttackKind8" xml:space="preserve">
+    <value>爆雷攻撃</value>
+  </data>
+  <data name="Constant_DayAttackKind9" xml:space="preserve">
+    <value>雷撃</value>
+  </data>
+  <data name="Constant_DevelopmentMaterial" xml:space="preserve">
+    <value>開発資材</value>
+  </data>
+  <data name="Constant_Eddy" xml:space="preserve">
+    <value>渦潮</value>
+  </data>
+  <data name="Constant_Engagement1" xml:space="preserve">
+    <value>同航戦</value>
+  </data>
+  <data name="Constant_Engagement2" xml:space="preserve">
+    <value>反航戦</value>
+  </data>
+  <data name="Constant_Engagement3" xml:space="preserve">
+    <value>T字有利</value>
+  </data>
+  <data name="Constant_Engagement4" xml:space="preserve">
+    <value>T字不利</value>
+  </data>
+  <data name="Constant_Escaped" xml:space="preserve">
+    <value>退避</value>
+  </data>
+  <data name="Constant_EXHolo" xml:space="preserve">
+    <value>EXホロ</value>
+  </data>
+  <data name="Constant_Expedition" xml:space="preserve">
+    <value>遠征</value>
+  </data>
+  <data name="Constant_Failed" xml:space="preserve">
+    <value>失敗</value>
+  </data>
+  <data name="Constant_Fuel" xml:space="preserve">
+    <value>燃料</value>
+  </data>
+  <data name="Constant_FullHP" xml:space="preserve">
+    <value>無傷</value>
+  </data>
+  <data name="Constant_Golden" xml:space="preserve">
+    <value>金</value>
+  </data>
+  <data name="Constant_HalfHP" xml:space="preserve">
+    <value>中破</value>
+  </data>
+  <data name="Constant_HalfHP_LandBase" xml:space="preserve">
+    <value>損害</value>
+  </data>
+  <data name="Constant_HighHP" xml:space="preserve">
+    <value>小破</value>
+  </data>
+  <data name="Constant_HighHP_LandBase" xml:space="preserve">
+    <value>混乱</value>
+  </data>
+  <data name="Constant_HighSpeed" xml:space="preserve">
+    <value>高速</value>
+  </data>
+  <data name="Constant_Holo" xml:space="preserve">
+    <value>ホロ</value>
+  </data>
+  <data name="Constant_Information1" xml:space="preserve">
+    <value>単縦陣</value>
+  </data>
+  <data name="Constant_Information1_Short" xml:space="preserve">
+    <value>単縦陣</value>
+  </data>
+  <data name="Constant_Information11" xml:space="preserve">
+    <value>第一警戒航行序列</value>
+  </data>
+  <data name="Constant_Information11_Short" xml:space="preserve">
+    <value>第一警戒</value>
+  </data>
+  <data name="Constant_Information12" xml:space="preserve">
+    <value>第二警戒航行序列</value>
+  </data>
+  <data name="Constant_Information12_Short" xml:space="preserve">
+    <value>第二警戒</value>
+  </data>
+  <data name="Constant_Information13" xml:space="preserve">
+    <value>第三警戒航行序列</value>
+  </data>
+  <data name="Constant_Information13_Short" xml:space="preserve">
+    <value>第三警戒</value>
+  </data>
+  <data name="Constant_Information14" xml:space="preserve">
+    <value>第四警戒航行序列</value>
+  </data>
+  <data name="Constant_Information14_Short" xml:space="preserve">
+    <value>第四警戒</value>
+  </data>
+  <data name="Constant_Information2" xml:space="preserve">
+    <value>複縦陣</value>
+  </data>
+  <data name="Constant_Information2_Short" xml:space="preserve">
+    <value>複縦陣</value>
+  </data>
+  <data name="Constant_Information3" xml:space="preserve">
+    <value>輪形陣</value>
+  </data>
+  <data name="Constant_Information3_Short" xml:space="preserve">
+    <value>輪形陣</value>
+  </data>
+  <data name="Constant_Information4" xml:space="preserve">
+    <value>梯形陣</value>
+  </data>
+  <data name="Constant_Information4_Short" xml:space="preserve">
+    <value>梯形陣</value>
+  </data>
+  <data name="Constant_Information5" xml:space="preserve">
+    <value>単横陣</value>
+  </data>
+  <data name="Constant_Information5_Short" xml:space="preserve">
+    <value>単横陣</value>
+  </data>
+  <data name="Constant_InitialPoint" xml:space="preserve">
+    <value>初期位置</value>
+  </data>
+  <data name="Constant_InstantConstruction" xml:space="preserve">
+    <value>高速建造材</value>
+  </data>
+  <data name="Constant_InstantRepair" xml:space="preserve">
+    <value>高速修復材</value>
+  </data>
+  <data name="Constant_Land" xml:space="preserve">
+    <value>陸上</value>
+  </data>
   <data name="Constant_LandBase" xml:space="preserve">
     <value>陆上基地</value>
+  </data>
+  <data name="Constant_Long" xml:space="preserve">
+    <value>長</value>
+  </data>
+  <data name="Constant_LowHP" xml:space="preserve">
+    <value>大破</value>
+  </data>
+  <data name="Constant_LowHP_LandBase" xml:space="preserve">
+    <value>損壊</value>
+  </data>
+  <data name="Constant_LowSpeed" xml:space="preserve">
+    <value>低速</value>
+  </data>
+  <data name="Constant_Middle" xml:space="preserve">
+    <value>中</value>
+  </data>
+  <data name="Constant_Misconception" xml:space="preserve">
+    <value>気のせいだった</value>
+  </data>
+  <data name="Constant_ModdingMaterial" xml:space="preserve">
+    <value>改修資材</value>
+  </data>
+  <data name="Constant_Month" xml:space="preserve">
+    <value>月</value>
+  </data>
+  <data name="Constant_MuchHP" xml:space="preserve">
+    <value>健在</value>
+  </data>
+  <data name="Constant_Night_DayBattle" xml:space="preserve">
+    <value>夜昼戦</value>
+  </data>
+  <data name="Constant_NightAttackKind0" xml:space="preserve">
+    <value>砲撃</value>
+  </data>
+  <data name="Constant_NightAttackKind1" xml:space="preserve">
+    <value>連続射撃</value>
+  </data>
+  <data name="Constant_NightAttackKind10" xml:space="preserve">
+    <value>ロケット砲撃</value>
+  </data>
+  <data name="Constant_NightAttackKind2" xml:space="preserve">
+    <value>カットイン(主砲/魚雷)</value>
+  </data>
+  <data name="Constant_NightAttackKind3" xml:space="preserve">
+    <value>カットイン(魚雷x2)</value>
+  </data>
+  <data name="Constant_NightAttackKind4" xml:space="preserve">
+    <value>カットイン(主砲x2/副砲)</value>
+  </data>
+  <data name="Constant_NightAttackKind5" xml:space="preserve">
+    <value>カットイン(主砲x3)</value>
+  </data>
+  <data name="Constant_NightAttackKind7" xml:space="preserve">
+    <value>空撃</value>
+  </data>
+  <data name="Constant_NightAttackKind8" xml:space="preserve">
+    <value>爆雷攻撃</value>
+  </data>
+  <data name="Constant_NightAttackKind9" xml:space="preserve">
+    <value>雷撃</value>
+  </data>
+  <data name="Constant_NightBattle" xml:space="preserve">
+    <value>夜戦</value>
+  </data>
+  <data name="Constant_NoBattle" xml:space="preserve">
+    <value>非戦闘</value>
+  </data>
+  <data name="Constant_None" xml:space="preserve">
+    <value>無</value>
   </data>
   <data name="Constant_Null" xml:space="preserve">
     <value>无</value>
   </data>
+  <data name="Constant_Once" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Constant_Organize" xml:space="preserve">
+    <value>編成</value>
+  </data>
+  <data name="Constant_Other" xml:space="preserve">
+    <value>他</value>
+  </data>
+  <data name="Constant_Place" xml:space="preserve">
+    <value>放置</value>
+  </data>
   <data name="Constant_Practice" xml:space="preserve">
     <value>演习</value>
   </data>
+  <data name="Constant_Rainbow" xml:space="preserve">
+    <value>虹</value>
+  </data>
+  <data name="Constant_Rare" xml:space="preserve">
+    <value>レア</value>
+  </data>
+  <data name="Constant_Red" xml:space="preserve">
+    <value>赤</value>
+  </data>
+  <data name="Constant_Remodel" xml:space="preserve">
+    <value>改装</value>
+  </data>
+  <data name="Constant_Resource" xml:space="preserve">
+    <value>資源</value>
+  </data>
+  <data name="Constant_SakuraRainbow" xml:space="preserve">
+    <value>桜虹</value>
+  </data>
+  <data name="Constant_SearchingResult1" xml:space="preserve">
+    <value>成功</value>
+  </data>
+  <data name="Constant_SearchingResult1_Short" xml:space="preserve">
+    <value>成功</value>
+  </data>
+  <data name="Constant_SearchingResult2" xml:space="preserve">
+    <value>成功(未帰還有)</value>
+  </data>
+  <data name="Constant_SearchingResult2_Short" xml:space="preserve">
+    <value>成功△</value>
+  </data>
+  <data name="Constant_SearchingResult3" xml:space="preserve">
+    <value>未帰還</value>
+  </data>
+  <data name="Constant_SearchingResult3_Short" xml:space="preserve">
+    <value>未帰還</value>
+  </data>
+  <data name="Constant_SearchingResult4" xml:space="preserve">
+    <value>失敗</value>
+  </data>
+  <data name="Constant_SearchingResult4_Short" xml:space="preserve">
+    <value>失敗</value>
+  </data>
+  <data name="Constant_SearchingResult5" xml:space="preserve">
+    <value>成功(非索敵機)</value>
+  </data>
+  <data name="Constant_SearchingResult5_Short" xml:space="preserve">
+    <value>成功</value>
+  </data>
+  <data name="Constant_SearchingResult6" xml:space="preserve">
+    <value>失敗(非索敵機)</value>
+  </data>
+  <data name="Constant_SearchingResult6_Short" xml:space="preserve">
+    <value>失敗</value>
+  </data>
+  <data name="Constant_ShipGuard" xml:space="preserve">
+    <value>船団護衛成功</value>
+  </data>
+  <data name="Constant_SHolo" xml:space="preserve">
+    <value>Sホロ</value>
+  </data>
+  <data name="Constant_Short" xml:space="preserve">
+    <value>短</value>
+  </data>
+  <data name="Constant_Silver" xml:space="preserve">
+    <value>銀</value>
+  </data>
+  <data name="Constant_Sink" xml:space="preserve">
+    <value>撃沈</value>
+  </data>
+  <data name="Constant_Sink_LandBase" xml:space="preserve">
+    <value>破壊</value>
+  </data>
+  <data name="Constant_Sink_Practice" xml:space="preserve">
+    <value>離脱</value>
+  </data>
+  <data name="Constant_Sortie" xml:space="preserve">
+    <value>出撃</value>
+  </data>
+  <data name="Constant_SSHolo" xml:space="preserve">
+    <value>SSホロ</value>
+  </data>
+  <data name="Constant_Steel" xml:space="preserve">
+    <value>鋼材</value>
+  </data>
+  <data name="Constant_Success" xml:space="preserve">
+    <value>成功</value>
+  </data>
+  <data name="Constant_SuperLong" xml:space="preserve">
+    <value>超長</value>
+  </data>
+  <data name="Constant_SuperSuccess" xml:space="preserve">
+    <value>大成功</value>
+  </data>
+  <data name="Constant_Supply_Repair" xml:space="preserve">
+    <value>補給</value>
+  </data>
   <data name="Constant_Unknown" xml:space="preserve">
     <value>未知</value>
+  </data>
+  <data name="Constant_Unknown_Short" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="Constant_Vary" xml:space="preserve">
+    <value>変</value>
+  </data>
+  <data name="Constant_Week" xml:space="preserve">
+    <value>週</value>
   </data>
   <data name="DialogAlbumMasterEquipment_DataCSVHeader" xml:space="preserve">
     <value>装备ID,图鉴编号,装备名,装备种类1,装备种类2,装备种类3,装备种类4,火力,雷装,对空,装甲,对潜,回避,索敌,运,命中,爆装,射程,稀有,废弃燃料,废弃弹药,废弃钢材,废弃铝土,图鉴内容,版本号</value>
@@ -252,6 +780,64 @@
   </data>
   <data name="DialogNotifier_DrawImageError" xml:space="preserve">
     <value>通知系统: 对话框中的图片绘制失败。</value>
+  </data>
+  <data name="FleetData_AnchorageRepairing" xml:space="preserve">
+    <value>停泊修理中 </value>
+  </data>
+  <data name="FleetData_AnchorageRepairTime" xml:space="preserve">
+    <value>开始时间 : {0}</value>
+  </data>
+  <data name="FleetData_Expediting" xml:space="preserve">
+    <value>远征中 </value>
+  </data>
+  <data name="FleetData_ExpeditionCompleteTime" xml:space="preserve">
+    <value>{0} : {1}
+完成时间 : {2}</value>
+  </data>
+  <data name="FleetData_FleetNoShip" xml:space="preserve">
+    <value>没有所属舰队</value>
+  </data>
+  <data name="FleetData_InSortie" xml:space="preserve">
+    <value>出击中</value>
+  </data>
+  <data name="FleetData_LowHPInSortie" xml:space="preserve">
+    <value>！！大破进击中！！</value>
+  </data>
+  <data name="FleetData_LowHPWarning" xml:space="preserve">
+    <value>有舰船大破！</value>
+  </data>
+  <data name="FleetData_NotSupplied" xml:space="preserve">
+    <value>未补给</value>
+  </data>
+  <data name="FleetData_Ready" xml:space="preserve">
+    <value>可以出击！</value>
+  </data>
+  <data name="FleetData_RepairCompleteTime" xml:space="preserve">
+    <value>完成时间 : </value>
+  </data>
+  <data name="FleetData_Repairing" xml:space="preserve">
+    <value>入渠中 </value>
+  </data>
+  <data name="FleetData_ReturnInfo" xml:space="preserve">
+    <value>#{0}「{1}」已经回港。</value>
+  </data>
+  <data name="FleetData_Sparkle" xml:space="preserve">
+    <value>战意高扬！</value>
+  </data>
+  <data name="FleetData_SparkleInfo" xml:space="preserve">
+    <value>最低cond: {0}
+还可进行 {1} 次远征</value>
+  </data>
+  <data name="FleetData_SupplyInfo" xml:space="preserve">
+    <value>油 : {0}
+弹 : {1}
+铝 : {2} ({3}机)</value>
+  </data>
+  <data name="FleetData_Tired" xml:space="preserve">
+    <value>疲劳 </value>
+  </data>
+  <data name="FleetData_TiredRestTime" xml:space="preserve">
+    <value>回复大致时间: {0}</value>
   </data>
   <data name="FormArsenal_Complete" xml:space="preserve">
     <value>完成！</value>
@@ -845,5 +1431,14 @@ Cut-In种类: {2} ({3})
   </data>
   <data name="MessageBox_MeetError" xml:space="preserve">
     <value>给您造成不便还请谅解</value>
+  </data>
+  <data name="ProgressAGo_Content" xml:space="preserve">
+    <value>{0:p1} (出击 {1}/{2}, S胜利 {3}/{4}, BOSS {5}/{6}, BOSS胜利 {7}/{8})</value>
+  </data>
+  <data name="WindowPlacementManager_LoadError" xml:space="preserve">
+    <value>窗口状态恢复失败。</value>
+  </data>
+  <data name="WindowPlacementManager_SaveError" xml:space="preserve">
+    <value>窗口状态保存失败。</value>
   </data>
 </root>
