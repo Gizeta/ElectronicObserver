@@ -309,7 +309,7 @@
     <value>171, 21</value>
   </data>
   <data name="ContainsSafeShip.Text" xml:space="preserve">
-    <value>包含装备了ダメコン的舰船</value>
+    <value>包含装备了损管的舰船</value>
   </data>
   <data name="ContainsNotLockedShip.Size" type="System.Drawing.Size, System.Drawing">
     <value>111, 21</value>

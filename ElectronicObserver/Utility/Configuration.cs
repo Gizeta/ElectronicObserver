@@ -677,7 +677,38 @@ namespace ElectronicObserver.Utility {
 			public ConfigWhitecap Whitecap { get; private set; }
 
 
+            public class ConfigCacheSettings : ConfigPartBase
+            {
+                public string CacheFolder { get; set; }
+                public bool CacheEnabled { get; set; }
+                public bool HackEnabled { get; set; }
+                public bool HackTitleEnabled { get; set; }
+                public int CacheEntryFiles { get; set; }
+                public int CachePortFiles { get; set; }
+                public int CacheSceneFiles { get; set; }
+                public int CacheResourceFiles { get; set; }
+                public int CacheSoundFiles { get; set; }
+                public int CheckFiles { get; set; }
+                public bool SaveApiStart2 { get; set; }
 
+                public ConfigCacheSettings()
+                    : base()
+                {
+                    CacheFolder = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "MyCache");
+                    CacheEnabled = true;
+                    HackEnabled = true;
+                    HackTitleEnabled = true;
+                    CacheEntryFiles = 2;
+                    CachePortFiles = 2;
+                    CacheSceneFiles = 2;
+                    CacheResourceFiles = 2;
+                    CacheSoundFiles = 2;
+                    CheckFiles = 1;
+                    SaveApiStart2 = true;
+                }
+            }
+            [DataMember]
+            public ConfigCacheSettings CacheSettings { get; private set; }
 			[DataMember]
 			public string Version {
 				get { return SoftwareInformation.VersionEnglish; }
@@ -708,7 +739,7 @@ namespace ElectronicObserver.Utility {
 				NotifierDamage = new ConfigNotifierDamage();
 
 				Whitecap = new ConfigWhitecap();
-
+                CacheSettings = new ConfigCacheSettings();
 			}
 		}
 		private static ConfigurationData _config;

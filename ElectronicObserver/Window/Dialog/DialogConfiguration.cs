@@ -313,7 +313,8 @@ namespace ElectronicObserver.Window.Dialog {
 			FormBrowser_ScreenShotPath.Text = config.FormBrowser.ScreenShotPath;
 			FormBrowser_ConfirmAtRefresh.Checked = config.FormBrowser.ConfirmAtRefresh;
 			FormBrowser_AppliesStyleSheet.Checked = config.FormBrowser.AppliesStyleSheet;
-
+            // [缓存]
+            textCacheFolder.Text = config.CacheSettings.CacheFolder;
 			//finalize
 			UpdateParameter();
 		}
@@ -407,7 +408,28 @@ namespace ElectronicObserver.Window.Dialog {
 			config.FormBrowser.ConfirmAtRefresh = FormBrowser_ConfirmAtRefresh.Checked;
 			config.FormBrowser.AppliesStyleSheet = FormBrowser_AppliesStyleSheet.Checked;
 
+            // [缓存]
+            config.CacheSettings.CacheFolder = textCacheFolder.Text;
+
 		}
+        private void buttonCacheFolderBrowse_Click(object sender, EventArgs e)
+        {
+            textCacheFolder.Text = PathHelper.ProcessFolderBrowserDialog(textCacheFolder.Text, FolderBrowser);
+        }
+
+        private void textCacheFolder_TextChanged(object sender, EventArgs e)
+        {
+            if (Directory.Exists(textCacheFolder.Text))
+            {
+                textCacheFolder.BackColor = SystemColors.Window;
+                ToolTipInfo.SetToolTip(textCacheFolder, null);
+            }
+            else
+            {
+                textCacheFolder.BackColor = Color.MistyRose;
+                ToolTipInfo.SetToolTip(textCacheFolder, "指定的文件夹不存在。");
+            }
+        }
 
 	}
 }

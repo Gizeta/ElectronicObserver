@@ -164,6 +164,10 @@
     <Compile Include="Notifier\ShellHelpers.cs" />
     <Compile Include="Notifier\Toast.cs" />
     <Compile Include="Notifier\WindowsNotification.cs" />
+    <Compile Include="Observer\Cache\CacheCore.cs" />
+    <Compile Include="Observer\Cache\Extensions.cs" />
+    <Compile Include="Observer\Cache\GMTHelper.cs" />
+    <Compile Include="Observer\Cache\TaskRecord.cs" />
     <Compile Include="Observer\kcsapi\api_get_member\material.cs" />
     <Compile Include="Observer\kcsapi\api_req_mission\result.cs" />
     <Compile Include="Observer\kcsapi\api_req_ranking\getlist.cs" />
