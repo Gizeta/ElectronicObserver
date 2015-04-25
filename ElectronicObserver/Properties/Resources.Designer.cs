@@ -204,6 +204,26 @@ namespace ElectronicObserver.Properties {
         }
         
         /// <summary>
+        ///   {0} をご利用いただきありがとうございます。
+        ///設定や使用方法については「ヘルプ」→「オンラインヘルプ」を参照してください。
+        ///ご使用の前に必ずご一読ください。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Configuration_FirstRunMessage {
+            get {
+                return ResourceManager.GetString("Configuration_FirstRunMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   初回起動メッセージ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Configuration_FirstRunTitle {
+            get {
+                return ResourceManager.GetString("Configuration_FirstRunTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   高角砲x2/電探 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string Constant_AACutinKind1 {
@@ -524,6 +544,15 @@ namespace ElectronicObserver.Properties {
         internal static string Constant_Blue {
             get {
                 return ResourceManager.GetString("Constant_Blue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   ボス に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Boss {
+            get {
+                return ResourceManager.GetString("Constant_Boss", resourceCulture);
             }
         }
         
@@ -1518,6 +1547,15 @@ namespace ElectronicObserver.Properties {
         }
         
         /// <summary>
+        ///   艦娘 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_ShipDefaultName {
+            get {
+                return ResourceManager.GetString("Constant_ShipDefaultName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   船団護衛成功 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string Constant_ShipGuard {
@@ -1676,6 +1714,42 @@ namespace ElectronicObserver.Properties {
         internal static string Constant_Week {
             get {
                 return ResourceManager.GetString("Constant_Week", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   DataStorage ファイルは存在しません。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DataStorage_FileNotFound {
+            get {
+                return ResourceManager.GetString("DataStorage_FileNotFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   DataStorage の読み込みに失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DataStorage_LoadError {
+            get {
+                return ResourceManager.GetString("DataStorage_LoadError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   DataStorage {0} は存在しません。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DataStorage_PathNotFound {
+            get {
+                return ResourceManager.GetString("DataStorage_PathNotFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   DataStorage の書き込みに失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DataStorage_SaveError {
+            get {
+                return ResourceManager.GetString("DataStorage_SaveError", resourceCulture);
             }
         }
         
@@ -2031,6 +2105,62 @@ namespace ElectronicObserver.Properties {
         internal static string DialogNotifier_DrawImageError {
             get {
                 return ResourceManager.GetString("DialogNotifier_DrawImageError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   追加情報 : {0} に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string ErrorReporter_AdditionMessageInfo {
+            get {
+                return ResourceManager.GetString("ErrorReporter_AdditionMessageInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   通信内容 : {0} に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string ErrorReporter_ConnectionInfo {
+            get {
+                return ResourceManager.GetString("ErrorReporter_ConnectionInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   エラー : {0} に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string ErrorReporter_ErrorInfo {
+            get {
+                return ResourceManager.GetString("ErrorReporter_ErrorInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   エラーレポート : {0} に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string ErrorReporter_ErrorReportInfo {
+            get {
+                return ResourceManager.GetString("ErrorReporter_ErrorReportInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   エラーレポートの書き込みに失敗しました。
+        ///{0}
+        ///{1} に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string ErrorReporter_SaveError {
+            get {
+                return ResourceManager.GetString("ErrorReporter_SaveError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   スタックトレース： に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string ErrorReporter_StackTraceInfo {
+            get {
+                return ResourceManager.GetString("ErrorReporter_StackTraceInfo", resourceCulture);
             }
         }
         
@@ -3839,11 +3969,447 @@ namespace ElectronicObserver.Properties {
         }
         
         /// <summary>
+        ///   通知システム: 通知音 {0} のロードに失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string NotifierBase_LoadError {
+            get {
+                return ResourceManager.GetString("NotifierBase_LoadError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   通知システム: 通知音の再生に失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string NotifierBase_PlayError {
+            get {
+                return ResourceManager.GetString("NotifierBase_PlayError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   #{0} 「{1}」に所属する艦娘の疲労が回復しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string NotifierCondition_Message {
+            get {
+                return ResourceManager.GetString("NotifierCondition_Message", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   疲労回復 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string NotifierCondition_Title {
+            get {
+                return ResourceManager.GetString("NotifierCondition_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   工廠ドック #{0} で「{1}」の建造が完了しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string NotifierConstruction_Message {
+            get {
+                return ResourceManager.GetString("NotifierConstruction_Message", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   建造完了 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string NotifierConstruction_Title {
+            get {
+                return ResourceManager.GetString("NotifierConstruction_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   {0} が大破しています！ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string NotifierDamage_Message {
+            get {
+                return ResourceManager.GetString("NotifierDamage_Message", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   ！大破警告！ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string NotifierDamage_Title {
+            get {
+                return ResourceManager.GetString("NotifierDamage_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   通知システム: 通知画像 {0} の読み込みに失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string NotifierDialogData_ImageLoadError {
+            get {
+                return ResourceManager.GetString("NotifierDialogData_ImageLoadError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   #{0} 「{1}」が遠征「{2}: {3}」から帰投しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string NotifierExpedition_Message {
+            get {
+                return ResourceManager.GetString("NotifierExpedition_Message", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   遠征帰投 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string NotifierExpedition_Title {
+            get {
+                return ResourceManager.GetString("NotifierExpedition_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   入渠ドック #{0} で「{1}」の修復が完了しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string NotifierRepair_Message {
+            get {
+                return ResourceManager.GetString("NotifierRepair_Message", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   入渠完了 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string NotifierRepair_Title {
+            get {
+                return ResourceManager.GetString("NotifierRepair_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   {0:p1} (出撃 {1}/{2}, S勝利 {3}/{4}, ボス {5}/{6}, ボス勝利 {7}/{8}) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string ProgressAGo_Content {
             get {
                 return ResourceManager.GetString("ProgressAGo_Content", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   要素数が少なすぎます。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Record_ItemLost {
+            get {
+                return ResourceManager.GetString("Record_ItemLost", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   レコード {0} は存在しません。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string RecordBase_FileNotFound {
+            get {
+                return ResourceManager.GetString("RecordBase_FileNotFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   レコード {0} の読み込みに失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string RecordBase_LoadError {
+            get {
+                return ResourceManager.GetString("RecordBase_LoadError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   レコード {0} の書き込みに失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string RecordBase_SaveError {
+            get {
+                return ResourceManager.GetString("RecordBase_SaveError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   艦船ID,艦船名,建造日時,燃料,弾薬,鋼材,ボーキ,開発資材,大型建造,空ドック,旗艦ID,旗艦名,司令部Lv に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string RecordConstruction_RecordHeader {
+            get {
+                return ResourceManager.GetString("RecordConstruction_RecordHeader", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   装備ID,装備名,開発日時,燃料,弾薬,鋼材,ボーキ,旗艦ID,旗艦名,旗艦艦種,司令部Lv に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string RecordDevelopment_RecordHeader {
+            get {
+                return ResourceManager.GetString("RecordDevelopment_RecordHeader", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   (失敗) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string RecordElementDevelopment_Fail {
+            get {
+                return ResourceManager.GetString("RecordElementDevelopment_Fail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   (満員) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string RecordElementShipDrop_Full {
+            get {
+                return ResourceManager.GetString("RecordElementShipDrop_Full", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   (なし) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string RecordElementShipDrop_Null {
+            get {
+                return ResourceManager.GetString("RecordElementShipDrop_Null", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   敵編成ID,敵艦隊名,陣形,敵1番艦,敵2番艦,敵3番艦,敵4番艦,敵5番艦,敵6番艦 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string RecordEnemyFleet_RecordHeader {
+            get {
+                return ResourceManager.GetString("RecordEnemyFleet_RecordHeader", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   レコードのロードに失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string RecordManager_LoadFailed {
+            get {
+                return ResourceManager.GetString("RecordManager_LoadFailed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   レコードをロードしました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string RecordManager_LoadSucceeded {
+            get {
+                return ResourceManager.GetString("RecordManager_LoadSucceeded", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   レコードのセーブに失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string RecordManager_SaveFailed {
+            get {
+                return ResourceManager.GetString("RecordManager_SaveFailed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   レコードをセーブしました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string RecordManager_SaveSucceeded {
+            get {
+                return ResourceManager.GetString("RecordManager_SaveSucceeded", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   日時,燃料,弾薬,鋼材,ボーキ,高速建造材,高速修復材,開発資材,改修資材,司令部Lv,提督Exp に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string RecordResource_RecordHeader {
+            get {
+                return ResourceManager.GetString("RecordResource_RecordHeader", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   艦船ID,艦名,入手日時,海域,海域,セル,ボス,敵編成,ランク,司令部Lv に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string RecordShipDrop_RecordHeader {
+            get {
+                return ResourceManager.GetString("RecordShipDrop_RecordHeader", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   {0}のパラメータを記録しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string RecordShipParameter_Record {
+            get {
+                return ResourceManager.GetString("RecordShipParameter_Record", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   {0}の初期装備を記録しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string RecordShipParameter_RecordDefaultSlot {
+            get {
+                return ResourceManager.GetString("RecordShipParameter_RecordDefaultSlot", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   艦船ID,艦船名,対潜初期下限,対潜初期上限,対潜最大,回避初期下限,回避初期上限,回避最大,索敵初期下限,索敵初期上限,索敵最大,装備1,装備2,装備3,装備4,装備5,図鑑説明 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string RecordShipParameter_RecordHeader {
+            get {
+                return ResourceManager.GetString("RecordShipParameter_RecordHeader", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   {0}のパラメータを更新しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string RecordShipParameter_Update {
+            get {
+                return ResourceManager.GetString("RecordShipParameter_Update", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   {0}の初期装備を更新しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string RecordShipParameter_UpdateDefaultSlot {
+            get {
+                return ResourceManager.GetString("RecordShipParameter_UpdateDefaultSlot", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   画像リソース {0} の読み込みに失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string ResourceManager_ImageLoadError {
+            get {
+                return ResourceManager.GetString("ResourceManager_ImageLoadError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   画像リソース {0} は存在しません。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string ResourceManager_ImageNotFound {
+            get {
+                return ResourceManager.GetString("ResourceManager_ImageNotFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   リソースファイルの読み込みに失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string ResourceManager_LoadError {
+            get {
+                return ResourceManager.GetString("ResourceManager_LoadError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   SerializableFont.FontToString failed に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string SerializableFont_FontToStringError {
+            get {
+                return ResourceManager.GetString("SerializableFont_FontToStringError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   SerializableFont.StringToFont failed に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string SerializableFont_StringToFontError {
+            get {
+                return ResourceManager.GetString("SerializableFont_StringToFontError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   SerializableList: ListToString に失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string SerializableList_ListToStringError {
+            get {
+                return ResourceManager.GetString("SerializableList_ListToStringError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   SerializableList: StringToList に失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string SerializableList_StringToListError {
+            get {
+                return ResourceManager.GetString("SerializableList_StringToListError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   アップデート情報の処理に失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string SoftwareInformation_DealUpdateInfoError {
+            get {
+                return ResourceManager.GetString("SoftwareInformation_DealUpdateInfoError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   新しいバージョンがリリースされています！ :  に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string SoftwareInformation_FindNewVerison {
+            get {
+                return ResourceManager.GetString("SoftwareInformation_FindNewVerison", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   アップデート情報の取得に失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string SoftwareInformation_GetUpdateInfoError {
+            get {
+                return ResourceManager.GetString("SoftwareInformation_GetUpdateInfoError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   お使いのバージョンは最新です。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string SoftwareInformation_IsLastVerison {
+            get {
+                return ResourceManager.GetString("SoftwareInformation_IsLastVerison", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   新しいバージョンがリリースされています！ : {0}
+        ///更新内容 : 
+        ///{1}
+        ///ダウンロードページを開きますか？
+        ///(キャンセルすると以降表示しません) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string SoftwareInformation_UpdateMessage {
+            get {
+                return ResourceManager.GetString("SoftwareInformation_UpdateMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   アップデート情報 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string SoftwareInformation_UpdateTitle {
+            get {
+                return ResourceManager.GetString("SoftwareInformation_UpdateTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   アップデート情報の URI が無効です。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string SoftwareInformation_UpdateURIError {
+            get {
+                return ResourceManager.GetString("SoftwareInformation_UpdateURIError", resourceCulture);
             }
         }
         

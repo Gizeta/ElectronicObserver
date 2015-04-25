@@ -162,6 +162,14 @@
   <data name="APIStart2_Message" xml:space="preserve">
     <value>提督が鎮守府に着任しました。これより艦隊の指揮を執ります。</value>
   </data>
+  <data name="Configuration_FirstRunMessage" xml:space="preserve">
+    <value>{0} をご利用いただきありがとうございます。
+設定や使用方法については「ヘルプ」→「オンラインヘルプ」を参照してください。
+ご使用の前に必ずご一読ください。</value>
+  </data>
+  <data name="Configuration_FirstRunTitle" xml:space="preserve">
+    <value>初回起動メッセージ</value>
+  </data>
   <data name="Constant_AACutinKind1" xml:space="preserve">
     <value>高角砲x2/電探</value>
   </data>
@@ -269,6 +277,9 @@
   </data>
   <data name="Constant_Blue" xml:space="preserve">
     <value>藍</value>
+  </data>
+  <data name="Constant_Boss" xml:space="preserve">
+    <value>ボス</value>
   </data>
   <data name="Constant_BossBattle" xml:space="preserve">
     <value>ボス戦闘</value>
@@ -600,6 +611,9 @@
   <data name="Constant_SearchingResult6_Short" xml:space="preserve">
     <value>失敗</value>
   </data>
+  <data name="Constant_ShipDefaultName" xml:space="preserve">
+    <value>艦娘</value>
+  </data>
   <data name="Constant_ShipGuard" xml:space="preserve">
     <value>船団護衛成功</value>
   </data>
@@ -653,6 +667,18 @@
   </data>
   <data name="Constant_Week" xml:space="preserve">
     <value>週</value>
+  </data>
+  <data name="DataStorage_FileNotFound" xml:space="preserve">
+    <value>DataStorage ファイルは存在しません。</value>
+  </data>
+  <data name="DataStorage_LoadError" xml:space="preserve">
+    <value>DataStorage の読み込みに失敗しました。</value>
+  </data>
+  <data name="DataStorage_PathNotFound" xml:space="preserve">
+    <value>DataStorage {0} は存在しません。</value>
+  </data>
+  <data name="DataStorage_SaveError" xml:space="preserve">
+    <value>DataStorage の書き込みに失敗しました。</value>
   </data>
   <data name="DialogAlbumMasterEquipment_DataCSVHeader" xml:space="preserve">
     <value>装備ID,図鑑番号,装備名,装備種1,装備種2,装備種3,装備種4,火力,雷装,対空,装甲,対潜,回避,索敵,運,命中,爆装,射程,レア,廃棄燃料,廃棄弾薬,廃棄鋼材,廃棄ボーキ,図鑑文章,バージョン</value>
@@ -780,6 +806,26 @@ HP1あたり: 鋼 {0:F2} / 燃 {1:F2}
   </data>
   <data name="DialogNotifier_DrawImageError" xml:space="preserve">
     <value>通知システム: ダイアログボックスでの画像の描画に失敗しました。</value>
+  </data>
+  <data name="ErrorReporter_AdditionMessageInfo" xml:space="preserve">
+    <value>追加情報 : {0}</value>
+  </data>
+  <data name="ErrorReporter_ConnectionInfo" xml:space="preserve">
+    <value>通信内容 : {0}</value>
+  </data>
+  <data name="ErrorReporter_ErrorInfo" xml:space="preserve">
+    <value>エラー : {0}</value>
+  </data>
+  <data name="ErrorReporter_ErrorReportInfo" xml:space="preserve">
+    <value>エラーレポート : {0}</value>
+  </data>
+  <data name="ErrorReporter_SaveError" xml:space="preserve">
+    <value>エラーレポートの書き込みに失敗しました。
+{0}
+{1}</value>
+  </data>
+  <data name="ErrorReporter_StackTraceInfo" xml:space="preserve">
+    <value>スタックトレース：</value>
   </data>
   <data name="FleetData_AnchorageRepairing" xml:space="preserve">
     <value>泊地修理中 </value>
@@ -1431,8 +1477,156 @@ HP1あたり: 鋼 {0:F2} / 燃 {1:F2}
   <data name="MessageBox_MeetError" xml:space="preserve">
     <value>大変ご迷惑をおかけしております</value>
   </data>
+  <data name="NotifierBase_LoadError" xml:space="preserve">
+    <value>通知システム: 通知音 {0} のロードに失敗しました。</value>
+  </data>
+  <data name="NotifierBase_PlayError" xml:space="preserve">
+    <value>通知システム: 通知音の再生に失敗しました。</value>
+  </data>
+  <data name="NotifierCondition_Message" xml:space="preserve">
+    <value>#{0} 「{1}」に所属する艦娘の疲労が回復しました。</value>
+  </data>
+  <data name="NotifierCondition_Title" xml:space="preserve">
+    <value>疲労回復</value>
+  </data>
+  <data name="NotifierConstruction_Message" xml:space="preserve">
+    <value>工廠ドック #{0} で「{1}」の建造が完了しました。</value>
+  </data>
+  <data name="NotifierConstruction_Title" xml:space="preserve">
+    <value>建造完了</value>
+  </data>
+  <data name="NotifierDamage_Message" xml:space="preserve">
+    <value>{0} が大破しています！</value>
+  </data>
+  <data name="NotifierDamage_Title" xml:space="preserve">
+    <value>！大破警告！</value>
+  </data>
+  <data name="NotifierDialogData_ImageLoadError" xml:space="preserve">
+    <value>通知システム: 通知画像 {0} の読み込みに失敗しました。</value>
+  </data>
+  <data name="NotifierExpedition_Message" xml:space="preserve">
+    <value>#{0} 「{1}」が遠征「{2}: {3}」から帰投しました。</value>
+  </data>
+  <data name="NotifierExpedition_Title" xml:space="preserve">
+    <value>遠征帰投</value>
+  </data>
+  <data name="NotifierRepair_Message" xml:space="preserve">
+    <value>入渠ドック #{0} で「{1}」の修復が完了しました。</value>
+  </data>
+  <data name="NotifierRepair_Title" xml:space="preserve">
+    <value>入渠完了</value>
+  </data>
   <data name="ProgressAGo_Content" xml:space="preserve">
     <value>{0:p1} (出撃 {1}/{2}, S勝利 {3}/{4}, ボス {5}/{6}, ボス勝利 {7}/{8})</value>
+  </data>
+  <data name="RecordBase_FileNotFound" xml:space="preserve">
+    <value>レコード {0} は存在しません。</value>
+  </data>
+  <data name="RecordBase_LoadError" xml:space="preserve">
+    <value>レコード {0} の読み込みに失敗しました。</value>
+  </data>
+  <data name="RecordBase_SaveError" xml:space="preserve">
+    <value>レコード {0} の書き込みに失敗しました。</value>
+  </data>
+  <data name="RecordConstruction_RecordHeader" xml:space="preserve">
+    <value>艦船ID,艦船名,建造日時,燃料,弾薬,鋼材,ボーキ,開発資材,大型建造,空ドック,旗艦ID,旗艦名,司令部Lv</value>
+  </data>
+  <data name="RecordDevelopment_RecordHeader" xml:space="preserve">
+    <value>装備ID,装備名,開発日時,燃料,弾薬,鋼材,ボーキ,旗艦ID,旗艦名,旗艦艦種,司令部Lv</value>
+  </data>
+  <data name="RecordElementDevelopment_Fail" xml:space="preserve">
+    <value>(失敗)</value>
+  </data>
+  <data name="RecordElementShipDrop_Full" xml:space="preserve">
+    <value>(満員)</value>
+  </data>
+  <data name="RecordElementShipDrop_Null" xml:space="preserve">
+    <value>(なし)</value>
+  </data>
+  <data name="RecordEnemyFleet_RecordHeader" xml:space="preserve">
+    <value>敵編成ID,敵艦隊名,陣形,敵1番艦,敵2番艦,敵3番艦,敵4番艦,敵5番艦,敵6番艦</value>
+  </data>
+  <data name="RecordManager_LoadFailed" xml:space="preserve">
+    <value>レコードのロードに失敗しました。</value>
+  </data>
+  <data name="RecordManager_LoadSucceeded" xml:space="preserve">
+    <value>レコードをロードしました。</value>
+  </data>
+  <data name="RecordManager_SaveFailed" xml:space="preserve">
+    <value>レコードのセーブに失敗しました。</value>
+  </data>
+  <data name="RecordManager_SaveSucceeded" xml:space="preserve">
+    <value>レコードをセーブしました。</value>
+  </data>
+  <data name="RecordResource_RecordHeader" xml:space="preserve">
+    <value>日時,燃料,弾薬,鋼材,ボーキ,高速建造材,高速修復材,開発資材,改修資材,司令部Lv,提督Exp</value>
+  </data>
+  <data name="RecordShipDrop_RecordHeader" xml:space="preserve">
+    <value>艦船ID,艦名,入手日時,海域,海域,セル,ボス,敵編成,ランク,司令部Lv</value>
+  </data>
+  <data name="RecordShipParameter_Record" xml:space="preserve">
+    <value>{0}のパラメータを記録しました。</value>
+  </data>
+  <data name="RecordShipParameter_RecordDefaultSlot" xml:space="preserve">
+    <value>{0}の初期装備を記録しました。</value>
+  </data>
+  <data name="RecordShipParameter_RecordHeader" xml:space="preserve">
+    <value>艦船ID,艦船名,対潜初期下限,対潜初期上限,対潜最大,回避初期下限,回避初期上限,回避最大,索敵初期下限,索敵初期上限,索敵最大,装備1,装備2,装備3,装備4,装備5,図鑑説明</value>
+  </data>
+  <data name="RecordShipParameter_Update" xml:space="preserve">
+    <value>{0}のパラメータを更新しました。</value>
+  </data>
+  <data name="RecordShipParameter_UpdateDefaultSlot" xml:space="preserve">
+    <value>{0}の初期装備を更新しました。</value>
+  </data>
+  <data name="Record_ItemLost" xml:space="preserve">
+    <value>要素数が少なすぎます。</value>
+  </data>
+  <data name="ResourceManager_ImageLoadError" xml:space="preserve">
+    <value>画像リソース {0} の読み込みに失敗しました。</value>
+  </data>
+  <data name="ResourceManager_ImageNotFound" xml:space="preserve">
+    <value>画像リソース {0} は存在しません。</value>
+  </data>
+  <data name="ResourceManager_LoadError" xml:space="preserve">
+    <value>リソースファイルの読み込みに失敗しました。</value>
+  </data>
+  <data name="SerializableFont_FontToStringError" xml:space="preserve">
+    <value>SerializableFont.FontToString failed</value>
+  </data>
+  <data name="SerializableFont_StringToFontError" xml:space="preserve">
+    <value>SerializableFont.StringToFont failed</value>
+  </data>
+  <data name="SerializableList_ListToStringError" xml:space="preserve">
+    <value>SerializableList: ListToString に失敗しました。</value>
+  </data>
+  <data name="SerializableList_StringToListError" xml:space="preserve">
+    <value>SerializableList: StringToList に失敗しました。</value>
+  </data>
+  <data name="SoftwareInformation_DealUpdateInfoError" xml:space="preserve">
+    <value>アップデート情報の処理に失敗しました。</value>
+  </data>
+  <data name="SoftwareInformation_FindNewVerison" xml:space="preserve">
+    <value>新しいバージョンがリリースされています！ : </value>
+  </data>
+  <data name="SoftwareInformation_GetUpdateInfoError" xml:space="preserve">
+    <value>アップデート情報の取得に失敗しました。</value>
+  </data>
+  <data name="SoftwareInformation_IsLastVerison" xml:space="preserve">
+    <value>お使いのバージョンは最新です。</value>
+  </data>
+  <data name="SoftwareInformation_UpdateMessage" xml:space="preserve">
+    <value>新しいバージョンがリリースされています！ : {0}
+更新内容 : 
+{1}
+ダウンロードページを開きますか？
+(キャンセルすると以降表示しません)</value>
+  </data>
+  <data name="SoftwareInformation_UpdateTitle" xml:space="preserve">
+    <value>アップデート情報</value>
+  </data>
+  <data name="SoftwareInformation_UpdateURIError" xml:space="preserve">
+    <value>アップデート情報の URI が無効です。</value>
   </data>
   <data name="WindowPlacementManager_LoadError" xml:space="preserve">
     <value>ウィンドウ状態の復元に失敗しました。</value>

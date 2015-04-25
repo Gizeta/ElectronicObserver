@@ -162,6 +162,14 @@
   <data name="APIStart2_Message" xml:space="preserve">
     <value>提督您到镇守府了。舰队将交由您来指挥。</value>
   </data>
+  <data name="Configuration_FirstRunMessage" xml:space="preserve">
+    <value>感谢您使用本软件。
+设定和使用方法请参照「帮助」→「在线帮助」。
+使用之前请一定要读一下。</value>
+  </data>
+  <data name="Configuration_FirstRunTitle" xml:space="preserve">
+    <value>第一次启动</value>
+  </data>
   <data name="Constant_AACutinKind1" xml:space="preserve">
     <value>高角炮x2/电探</value>
   </data>
@@ -269,6 +277,9 @@
   </data>
   <data name="Constant_Blue" xml:space="preserve">
     <value>蓝</value>
+  </data>
+  <data name="Constant_Boss" xml:space="preserve">
+    <value>BOSS</value>
   </data>
   <data name="Constant_BossBattle" xml:space="preserve">
     <value>BOSS战斗</value>
@@ -600,6 +611,9 @@
   <data name="Constant_SearchingResult6_Short" xml:space="preserve">
     <value>失败</value>
   </data>
+  <data name="Constant_ShipDefaultName" xml:space="preserve">
+    <value>舰娘</value>
+  </data>
   <data name="Constant_ShipGuard" xml:space="preserve">
     <value>船团护卫成功</value>
   </data>
@@ -653,6 +667,18 @@
   </data>
   <data name="Constant_Week" xml:space="preserve">
     <value>周</value>
+  </data>
+  <data name="DataStorage_FileNotFound" xml:space="preserve">
+    <value>DataStorage文件不存在。</value>
+  </data>
+  <data name="DataStorage_LoadError" xml:space="preserve">
+    <value>DataStorage读取失败。</value>
+  </data>
+  <data name="DataStorage_PathNotFound" xml:space="preserve">
+    <value>DataStorage {0} 不存在。</value>
+  </data>
+  <data name="DataStorage_SaveError" xml:space="preserve">
+    <value>DataStorage保存失败。</value>
   </data>
   <data name="DialogAlbumMasterEquipment_DataCSVHeader" xml:space="preserve">
     <value>装备ID,图鉴编号,装备名,装备种类1,装备种类2,装备种类3,装备种类4,火力,雷装,对空,装甲,对潜,回避,索敌,运,命中,爆装,射程,稀有,废弃燃料,废弃弹药,废弃钢材,废弃铝土,图鉴内容,版本号</value>
@@ -780,6 +806,26 @@
   </data>
   <data name="DialogNotifier_DrawImageError" xml:space="preserve">
     <value>通知系统: 对话框中的图片绘制失败。</value>
+  </data>
+  <data name="ErrorReporter_AdditionMessageInfo" xml:space="preserve">
+    <value>追加信息 : {0}</value>
+  </data>
+  <data name="ErrorReporter_ConnectionInfo" xml:space="preserve">
+    <value>通信内容 : {0}</value>
+  </data>
+  <data name="ErrorReporter_ErrorInfo" xml:space="preserve">
+    <value>错误 : {0}</value>
+  </data>
+  <data name="ErrorReporter_ErrorReportInfo" xml:space="preserve">
+    <value>错误报告 : {0}</value>
+  </data>
+  <data name="ErrorReporter_SaveError" xml:space="preserve">
+    <value>错误报告保存失败。
+{0}
+{1}</value>
+  </data>
+  <data name="ErrorReporter_StackTraceInfo" xml:space="preserve">
+    <value>堆栈跟踪：</value>
   </data>
   <data name="FleetData_AnchorageRepairing" xml:space="preserve">
     <value>停泊修理中 </value>
@@ -1432,8 +1478,156 @@ Cut-In种类: {2} ({3})
   <data name="MessageBox_MeetError" xml:space="preserve">
     <value>给您造成不便还请谅解</value>
   </data>
+  <data name="NotifierBase_LoadError" xml:space="preserve">
+    <value>系统通知: 通知声音 {0} 加载失败。</value>
+  </data>
+  <data name="NotifierBase_PlayError" xml:space="preserve">
+    <value>系统通知: 通知声音播放失败。</value>
+  </data>
+  <data name="NotifierCondition_Message" xml:space="preserve">
+    <value>#{0} 「{1}」的舰娘疲劳恢复了。</value>
+  </data>
+  <data name="NotifierCondition_Title" xml:space="preserve">
+    <value>疲劳恢复</value>
+  </data>
+  <data name="NotifierConstruction_Message" xml:space="preserve">
+    <value>工厂 #{0} 船坞中的「{1}」建造完成了。</value>
+  </data>
+  <data name="NotifierConstruction_Title" xml:space="preserve">
+    <value>建造完成</value>
+  </data>
+  <data name="NotifierDamage_Message" xml:space="preserve">
+    <value>{0} 已经大破了！</value>
+  </data>
+  <data name="NotifierDamage_Title" xml:space="preserve">
+    <value>！大破警告！</value>
+  </data>
+  <data name="NotifierDialogData_ImageLoadError" xml:space="preserve">
+    <value>系统通知: 通知图片 {0} 读取失败。</value>
+  </data>
+  <data name="NotifierExpedition_Message" xml:space="preserve">
+    <value>#{0} 「{1}」从远征「{2}: {3}」归来了。</value>
+  </data>
+  <data name="NotifierExpedition_Title" xml:space="preserve">
+    <value>远征归来</value>
+  </data>
+  <data name="NotifierRepair_Message" xml:space="preserve">
+    <value>入渠的 #{0} 渠中的「{1}」修复完成了。</value>
+  </data>
+  <data name="NotifierRepair_Title" xml:space="preserve">
+    <value>入渠完成</value>
+  </data>
   <data name="ProgressAGo_Content" xml:space="preserve">
     <value>{0:p1} (出击 {1}/{2}, S胜利 {3}/{4}, BOSS {5}/{6}, BOSS胜利 {7}/{8})</value>
+  </data>
+  <data name="RecordBase_FileNotFound" xml:space="preserve">
+    <value>记录 {0} 不存在。</value>
+  </data>
+  <data name="RecordBase_LoadError" xml:space="preserve">
+    <value>记录 {0} 读取失败。</value>
+  </data>
+  <data name="RecordBase_SaveError" xml:space="preserve">
+    <value>记录 {0} 写入失败。</value>
+  </data>
+  <data name="RecordConstruction_RecordHeader" xml:space="preserve">
+    <value>舰船ID,舰船名,建造时间,燃料,弹药,钢材,铝土,开发资材,大型建造,空坞数量,旗舰ID,旗舰名,司令部Lv</value>
+  </data>
+  <data name="RecordDevelopment_RecordHeader" xml:space="preserve">
+    <value>装备ID,装备名,开发时间,燃料,弹药,钢材,铝土,旗舰ID,旗舰名,旗舰舰种,司令部Lv</value>
+  </data>
+  <data name="RecordElementDevelopment_Fail" xml:space="preserve">
+    <value>(失败)</value>
+  </data>
+  <data name="RecordElementShipDrop_Full" xml:space="preserve">
+    <value>(满员)</value>
+  </data>
+  <data name="RecordElementShipDrop_Null" xml:space="preserve">
+    <value>(无)</value>
+  </data>
+  <data name="RecordEnemyFleet_RecordHeader" xml:space="preserve">
+    <value>敌编成ID,敌舰队名,阵形,敌1号舰,敌2号舰,敌3号舰,敌4号舰,敌5号舰,敌6号舰</value>
+  </data>
+  <data name="RecordManager_LoadFailed" xml:space="preserve">
+    <value>记录加载失败。</value>
+  </data>
+  <data name="RecordManager_LoadSucceeded" xml:space="preserve">
+    <value>记录已加载。</value>
+  </data>
+  <data name="RecordManager_SaveFailed" xml:space="preserve">
+    <value>记录保存失败。</value>
+  </data>
+  <data name="RecordManager_SaveSucceeded" xml:space="preserve">
+    <value>记录已保存。</value>
+  </data>
+  <data name="RecordResource_RecordHeader" xml:space="preserve">
+    <value>时间,燃料,弹药,钢材,铝土,高速建造材,高速修复材,开发资材,改修资材,司令部Lv,提督Exp</value>
+  </data>
+  <data name="RecordShipDrop_RecordHeader" xml:space="preserve">
+    <value>舰船ID,舰名,获得时间,海域,海域,点,BOSS,敌编成,等级,司令部Lv</value>
+  </data>
+  <data name="RecordShipParameter_Record" xml:space="preserve">
+    <value>{0}的参数已记录。</value>
+  </data>
+  <data name="RecordShipParameter_RecordDefaultSlot" xml:space="preserve">
+    <value>{0}的初期装备已记录。</value>
+  </data>
+  <data name="RecordShipParameter_RecordHeader" xml:space="preserve">
+    <value>舰船ID,舰船名,对潜初期下限,对潜初期上限,对潜最大,回避初期下限,回避初期上限,回避最大,索敌初期下限,索敌初期上限,索敌最大,装备1,装备2,装备3,装备4,装备5,图鉴说明</value>
+  </data>
+  <data name="RecordShipParameter_Update" xml:space="preserve">
+    <value>{0}的参数已更新。</value>
+  </data>
+  <data name="RecordShipParameter_UpdateDefaultSlot" xml:space="preserve">
+    <value>{0}的初期装备已更新。</value>
+  </data>
+  <data name="Record_ItemLost" xml:space="preserve">
+    <value>元素数量太少。</value>
+  </data>
+  <data name="ResourceManager_ImageLoadError" xml:space="preserve">
+    <value>图片资源 {0} 读取失败。</value>
+  </data>
+  <data name="ResourceManager_ImageNotFound" xml:space="preserve">
+    <value>图片资源 {0} 不存在。</value>
+  </data>
+  <data name="ResourceManager_LoadError" xml:space="preserve">
+    <value>资源文件读取失败。</value>
+  </data>
+  <data name="SerializableFont_FontToStringError" xml:space="preserve">
+    <value>SerializableFont.FontToString 执行失败。</value>
+  </data>
+  <data name="SerializableFont_StringToFontError" xml:space="preserve">
+    <value>SerializableFont.StringToFont 执行失败。</value>
+  </data>
+  <data name="SerializableList_ListToStringError" xml:space="preserve">
+    <value>SerializableList: ListToString 执行失败。</value>
+  </data>
+  <data name="SerializableList_StringToListError" xml:space="preserve">
+    <value>SerializableList: StringToList 执行失败。</value>
+  </data>
+  <data name="SoftwareInformation_DealUpdateInfoError" xml:space="preserve">
+    <value>处理更新信息失败。</value>
+  </data>
+  <data name="SoftwareInformation_FindNewVerison" xml:space="preserve">
+    <value>新版本已经发布了！ : </value>
+  </data>
+  <data name="SoftwareInformation_GetUpdateInfoError" xml:space="preserve">
+    <value>获取更新信息失败。</value>
+  </data>
+  <data name="SoftwareInformation_IsLastVerison" xml:space="preserve">
+    <value>您现在使用的版本是最新的。</value>
+  </data>
+  <data name="SoftwareInformation_UpdateMessage" xml:space="preserve">
+    <value>新版本已经发布！ : {0}
+更新内容 : 
+{1}
+打开下载页面吗？
+(取消后则不再显示)</value>
+  </data>
+  <data name="SoftwareInformation_UpdateTitle" xml:space="preserve">
+    <value>更新信息</value>
+  </data>
+  <data name="SoftwareInformation_UpdateURIError" xml:space="preserve">
+    <value>更新信息的URI无效。</value>
   </data>
   <data name="WindowPlacementManager_LoadError" xml:space="preserve">
     <value>窗口状态恢复失败。</value>

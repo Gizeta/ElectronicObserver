@@ -736,8 +736,8 @@ namespace ElectronicObserver.Utility {
 			if ( temp != null )
 				_config = temp;
 			else {
-				MessageBox.Show( SoftwareInformation.SoftwareNameJapanese + " をご利用いただきありがとうございます。\r\n設定や使用方法については「ヘルプ」→「オンラインヘルプ」を参照してください。\r\nご使用の前に必ずご一読ください。",
-					"初回起動メッセージ", MessageBoxButtons.OK, MessageBoxIcon.Information );
+				MessageBox.Show( string.Format( Properties.Resources.Configuration_FirstRunMessage, SoftwareInformation.SoftwareNameJapanese ),
+					Properties.Resources.Configuration_FirstRunTitle, MessageBoxButtons.OK, MessageBoxIcon.Information );
 			}
 		}
 

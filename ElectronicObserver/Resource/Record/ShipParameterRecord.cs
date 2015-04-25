@@ -213,7 +213,7 @@ namespace ElectronicObserver.Resource.Record {
 
 			public override void LoadLine( string line ) {
 				string[] elem = line.Split( ",".ToCharArray() );
-				if ( elem.Length < 17 ) throw new ArgumentException( "要素数が少なすぎます。" );
+				if ( elem.Length < 17 ) throw new ArgumentException( Properties.Resources.Record_ItemLost );
 
 				ShipID = int.Parse( elem[0] );
 
@@ -368,7 +368,7 @@ namespace ElectronicObserver.Resource.Record {
 			if ( e == null ) {
 				e = new ShipParameterElement();
 				e.ShipID = shipID;
-				Utility.Logger.Add( 2, KCDatabase.Instance.MasterShips[shipID].NameWithClass + "のパラメータを記録しました。" );
+				Utility.Logger.Add( 2, string.Format( Properties.Resources.RecordShipParameter_Record, KCDatabase.Instance.MasterShips[shipID].NameWithClass ) );
 			}
 
 			e.ASW.SetEstParameter( level, aswMin, aswMax );
@@ -376,7 +376,7 @@ namespace ElectronicObserver.Resource.Record {
 			e.LOS.SetEstParameter( level, losMin, losMax );
 
 			Update( e );
-			Utility.Logger.Add( 1, KCDatabase.Instance.MasterShips[shipID].NameWithClass + "のパラメータを更新しました。" );
+			Utility.Logger.Add( 1, string.Format( Properties.Resources.RecordShipParameter_Update, KCDatabase.Instance.MasterShips[shipID].NameWithClass ) );
 		}
 
 
@@ -409,13 +409,13 @@ namespace ElectronicObserver.Resource.Record {
 			if ( e == null ) {
 				e = new ShipParameterElement();
 				e.ShipID = shipID;
-				Utility.Logger.Add( 2, KCDatabase.Instance.MasterShips[shipID].NameWithClass + "の初期装備を記録しました。" );
+				Utility.Logger.Add( 2, string.Format( Properties.Resources.RecordShipParameter_RecordDefaultSlot, KCDatabase.Instance.MasterShips[shipID].NameWithClass ) );
 			}
 
 			e.DefaultSlot = slot;
 
 			Update( e );
-			Utility.Logger.Add( 1, KCDatabase.Instance.MasterShips[shipID].NameWithClass + "の初期装備を更新しました。" );
+			Utility.Logger.Add( 1, string.Format( Properties.Resources.RecordShipParameter_UpdateDefaultSlot, KCDatabase.Instance.MasterShips[shipID].NameWithClass ) );
 		}
 
 
@@ -468,7 +468,7 @@ namespace ElectronicObserver.Resource.Record {
 				if ( e == null ) {
 					e = new ShipParameterElement();
 					e.ShipID = shipID;
-					Utility.Logger.Add( 2, KCDatabase.Instance.MasterShips[shipID].NameWithClass + "のパラメータを記録しました。" );
+					Utility.Logger.Add( 2, string.Format( Properties.Resources.RecordShipParameter_Record, KCDatabase.Instance.MasterShips[shipID].NameWithClass ) );
 				}
 
 				e.ASW.SetEstParameter( 1, (int)elem.api_tais, Parameter.MaximumDefault );
@@ -496,7 +496,7 @@ namespace ElectronicObserver.Resource.Record {
 				
 
 				Update( e );
-				Utility.Logger.Add( 1, KCDatabase.Instance.MasterShips[shipID].NameWithClass + "のパラメータを更新しました。" );
+				Utility.Logger.Add( 1, string.Format( Properties.Resources.RecordShipParameter_Update, KCDatabase.Instance.MasterShips[shipID].NameWithClass ) );
 			}
 		}
 
@@ -617,7 +617,7 @@ namespace ElectronicObserver.Resource.Record {
 		}
 
 		protected override string RecordHeader {
-			get { return "艦船ID,艦船名,対潜初期下限,対潜初期上限,対潜最大,回避初期下限,回避初期上限,回避最大,索敵初期下限,索敵初期上限,索敵最大,装備1,装備2,装備3,装備4,装備5,図鑑説明"; }
+			get { return Properties.Resources.RecordShipParameter_RecordHeader; }
 		}
 
 		public override string FileName {
