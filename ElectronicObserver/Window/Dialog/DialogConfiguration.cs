@@ -265,6 +265,7 @@ namespace ElectronicObserver.Window.Dialog {
 			UI_MainFont.Text = config.UI.MainFont.SerializeFontAttribute;
 			UI_SubFont.Font = config.UI.SubFont.FontData;
 			UI_SubFont.Text = config.UI.SubFont.SerializeFontAttribute;
+			UI_Language.SelectedIndex = config.UI.Language;
 
 			//[ログ]
 			Log_LogLevel.Value = config.Log.LogLevel;
@@ -356,6 +357,7 @@ namespace ElectronicObserver.Window.Dialog {
 			//[UI]
 			config.UI.MainFont = UI_MainFont.Font;
 			config.UI.SubFont = UI_SubFont.Font;
+			config.UI.Language = UI_Language.SelectedIndex;
 
 			//[ログ]
 			config.Log.LogLevel = (int)Log_LogLevel.Value;

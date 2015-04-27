@@ -140,11 +140,13 @@ namespace ElectronicObserver.Utility {
 				/// </summary>
 				public SerializableFont SubFont { get; set; }
 
+				public int Language { get; set; }
 
 				public ConfigUI() {
 					//*/
 					MainFont = new Font( "Meiryo UI", 12, FontStyle.Regular, GraphicsUnit.Pixel );
 					SubFont = new Font( "Meiryo UI", 10, FontStyle.Regular, GraphicsUnit.Pixel );
+					Language = 0;
 					//*/
 				}
 			}
@@ -727,6 +729,8 @@ namespace ElectronicObserver.Utility {
 
 
 		internal void OnConfigurationChanged() {
+            System.Threading.Thread.CurrentThread.CurrentUICulture = CultureHelper.GetCultureInfo(_config.UI.Language);
+
 			ConfigurationChanged();
 		}
 

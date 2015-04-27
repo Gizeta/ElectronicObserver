@@ -56,6 +56,8 @@
 			this.UI_MainFontSelect = new System.Windows.Forms.Button();
 			this.UI_MainFont = new System.Windows.Forms.TextBox();
 			this.label5 = new System.Windows.Forms.Label();
+			this.label_Language = new System.Windows.Forms.Label();
+			this.UI_Language = new System.Windows.Forms.ComboBox();
 			this.tabPage3 = new System.Windows.Forms.TabPage();
 			this.label12 = new System.Windows.Forms.Label();
 			this.label11 = new System.Windows.Forms.Label();
@@ -426,6 +428,8 @@
 			this.tabPage2.Controls.Add(this.UI_MainFontSelect);
 			this.tabPage2.Controls.Add(this.UI_MainFont);
 			this.tabPage2.Controls.Add(this.label5);
+			this.tabPage2.Controls.Add(this.label_Language);
+			this.tabPage2.Controls.Add(this.UI_Language);
 			this.tabPage2.Location = new System.Drawing.Point(4, 24);
 			this.tabPage2.Name = "tabPage2";
 			this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
@@ -524,6 +528,28 @@
 			this.label5.Size = new System.Drawing.Size(78, 15);
 			this.label5.TabIndex = 0;
 			resources.ApplyResources(this.label5, "label5");
+			// 
+			// label_Language
+			// 
+			this.label_Language.AutoSize = true;
+			this.label_Language.Location = new System.Drawing.Point(8, 67);
+			this.label_Language.Name = "label_Language";
+			this.label_Language.Size = new System.Drawing.Size(78, 15);
+			this.label_Language.TabIndex = 9;
+			this.label_Language.Text = "Language : ";
+			// 
+			// UI_Language
+			// 
+			this.UI_Language.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			this.UI_Language.FormattingEnabled = true;
+			this.UI_Language.Items.AddRange(new object[] {
+            "(auto)",
+            "Japanese",
+            "Simplified Chinese"});
+			this.UI_Language.Location = new System.Drawing.Point(92, 64);
+			this.UI_Language.Name = "UI_Language";
+			this.UI_Language.Size = new System.Drawing.Size(126, 23);
+			this.UI_Language.TabIndex = 10;
 			// 
 			// tabPage3
 			// 
@@ -1428,6 +1454,8 @@
 		private System.Windows.Forms.Label label8;
 		private System.Windows.Forms.Button UI_MainFontSelect;
 		private System.Windows.Forms.Label label5;
+		private System.Windows.Forms.Label label_Language;
+		private System.Windows.Forms.ComboBox UI_Language;
 		private System.Windows.Forms.FontDialog FontSelector;
 		private System.Windows.Forms.Button UI_SubFontApply;
 		private System.Windows.Forms.Button UI_MainFontApply;

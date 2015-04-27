@@ -55,9 +55,6 @@ namespace ElectronicObserver.Window {
 
 		private async void FormMain_Load( object sender, EventArgs e ) {
 
-			Utility.Configuration.Instance.Load();
-
-
 			Utility.Logger.Instance.LogAdded += new Utility.LogAddedEventHandler( ( Utility.Logger.LogData data ) => {
 				if ( InvokeRequired ) {
 					// Invokeはメッセージキューにジョブを投げて待つので、別のBeginInvokeされたジョブが既にキューにあると、
