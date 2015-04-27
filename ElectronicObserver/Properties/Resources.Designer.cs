@@ -4383,6 +4383,15 @@ namespace ElectronicObserver.Properties {
         }
         
         /// <summary>
+        ///   七四式電子観測儀 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string SoftwareInformation_SoftwareName {
+            get {
+                return ResourceManager.GetString("SoftwareInformation_SoftwareName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   新しいバージョンがリリースされています！ : {0}
         ///更新内容 : 
         ///{1}
@@ -4410,6 +4419,15 @@ namespace ElectronicObserver.Properties {
         internal static string SoftwareInformation_UpdateURIError {
             get {
                 return ResourceManager.GetString("SoftwareInformation_UpdateURIError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   {0}一一型改 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string SoftwareInformation_Version {
+            get {
+                return ResourceManager.GetString("SoftwareInformation_Version", resourceCulture);
             }
         }
         

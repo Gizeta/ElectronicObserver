@@ -736,7 +736,7 @@ namespace ElectronicObserver.Utility {
 			if ( temp != null )
 				_config = temp;
 			else {
-				MessageBox.Show( string.Format( Properties.Resources.Configuration_FirstRunMessage, SoftwareInformation.SoftwareNameJapanese ),
+				MessageBox.Show( string.Format( Properties.Resources.Configuration_FirstRunMessage, SoftwareInformation.SoftwareName ),
 					Properties.Resources.Configuration_FirstRunTitle, MessageBoxButtons.OK, MessageBoxIcon.Information );
 			}
 		}

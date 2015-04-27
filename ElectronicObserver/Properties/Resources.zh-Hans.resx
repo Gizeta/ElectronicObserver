@@ -1616,6 +1616,9 @@ Cut-In种类: {2} ({3})
   <data name="SoftwareInformation_IsLastVerison" xml:space="preserve">
     <value>您现在使用的版本是最新的。</value>
   </data>
+  <data name="SoftwareInformation_SoftwareName" xml:space="preserve">
+    <value>七四式电子观测仪</value>
+  </data>
   <data name="SoftwareInformation_UpdateMessage" xml:space="preserve">
     <value>新版本已经发布！ : {0}
 更新内容 : 
@@ -1628,6 +1631,9 @@ Cut-In种类: {2} ({3})
   </data>
   <data name="SoftwareInformation_UpdateURIError" xml:space="preserve">
     <value>更新信息的URI无效。</value>
+  </data>
+  <data name="SoftwareInformation_Version" xml:space="preserve">
+    <value>{0}一一型改</value>
   </data>
   <data name="WindowPlacementManager_LoadError" xml:space="preserve">
     <value>窗口状态恢复失败。</value>

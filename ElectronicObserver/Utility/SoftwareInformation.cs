@@ -13,11 +13,11 @@ namespace ElectronicObserver.Utility {
 	public static class SoftwareInformation {
 
 		/// <summary>
-		/// ソフトウェア名(日本語)
+		/// ソフトウェア名
 		/// </summary>
-		public static string SoftwareNameJapanese {
+		public static string SoftwareName {
 			get {
-				return "七四式電子観測儀";
+				return Properties.Resources.SoftwareInformation_SoftwareName;
 			}
 		}
 
@@ -31,11 +31,11 @@ namespace ElectronicObserver.Utility {
 		}
 
 		/// <summary>
-		/// バージョン(日本語, ソフトウェア名を含みます)
+		/// バージョン(ソフトウェア名を含みます)
 		/// </summary>
-		public static string VersionJapanese {
+		public static string Version {
 			get {
-				return SoftwareNameJapanese + "一一型改";
+				return string.Format(Properties.Resources.SoftwareInformation_Version, SoftwareName);
 			}
 		}
 

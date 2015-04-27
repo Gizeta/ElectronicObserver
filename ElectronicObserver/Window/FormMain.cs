@@ -70,10 +70,10 @@ namespace ElectronicObserver.Window {
 			} );
 			Utility.Configuration.Instance.ConfigurationChanged += ConfigurationChanged;
 
-			Utility.Logger.Add( 2, string.Format( Properties.Resources.FormMain_StartUp, SoftwareInformation.SoftwareNameJapanese ) );
+			Utility.Logger.Add( 2, string.Format( Properties.Resources.FormMain_StartUp, SoftwareInformation.SoftwareName ) );
 
 
-			this.Text = SoftwareInformation.VersionJapanese;
+			this.Text = SoftwareInformation.Version;
 
 			ResourceManager.Instance.Load();
 			RecordManager.Instance.Load();
@@ -194,7 +194,7 @@ namespace ElectronicObserver.Window {
 		private void FormMain_FormClosing( object sender, FormClosingEventArgs e ) {
 
 			if ( Utility.Configuration.Config.Life.ConfirmOnClosing ) {
-				if ( MessageBox.Show( string.Format( Properties.Resources.FormMain_QuitMessage, SoftwareInformation.SoftwareNameJapanese ), Properties.Resources.MessageBox_Confirm, MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2 )
+				if ( MessageBox.Show( string.Format( Properties.Resources.FormMain_QuitMessage, SoftwareInformation.SoftwareName ), Properties.Resources.MessageBox_Confirm, MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2 )
 					== System.Windows.Forms.DialogResult.No ) {
 					e.Cancel = true;
 					return;
@@ -202,7 +202,7 @@ namespace ElectronicObserver.Window {
 			}
 
 
-			Utility.Logger.Add( 2, string.Format( Properties.Resources.FormMain_Quit, SoftwareInformation.SoftwareNameJapanese ) );
+			Utility.Logger.Add( 2, string.Format( Properties.Resources.FormMain_Quit, SoftwareInformation.SoftwareName ) );
 
 			UIUpdateTimer.Stop();
 

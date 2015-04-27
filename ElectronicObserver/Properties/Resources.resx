@@ -1615,6 +1615,9 @@ HP1あたり: 鋼 {0:F2} / 燃 {1:F2}
   <data name="SoftwareInformation_IsLastVerison" xml:space="preserve">
     <value>お使いのバージョンは最新です。</value>
   </data>
+  <data name="SoftwareInformation_SoftwareName" xml:space="preserve">
+    <value>七四式電子観測儀</value>
+  </data>
   <data name="SoftwareInformation_UpdateMessage" xml:space="preserve">
     <value>新しいバージョンがリリースされています！ : {0}
 更新内容 : 
@@ -1627,6 +1630,9 @@ HP1あたり: 鋼 {0:F2} / 燃 {1:F2}
   </data>
   <data name="SoftwareInformation_UpdateURIError" xml:space="preserve">
     <value>アップデート情報の URI が無効です。</value>
+  </data>
+  <data name="SoftwareInformation_Version" xml:space="preserve">
+    <value>{0}一一型改</value>
   </data>
   <data name="WindowPlacementManager_LoadError" xml:space="preserve">
     <value>ウィンドウ状態の復元に失敗しました。</value>
