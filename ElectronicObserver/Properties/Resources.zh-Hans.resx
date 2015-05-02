@@ -1638,4 +1638,14 @@ Cut-In种类: {1} ({2})</value>
   <data name="DialogConfigurationNotifier" xml:space="preserve">
     <value>这是一个测试用通知。</value>
   </data>
+  <data name="Language_auto" xml:space="preserve">
+    <value>自动</value>
+    <comment>_</comment>
+  </data>
+  <data name="Language_ja" xml:space="preserve">
+    <value>日语</value>
+  </data>
+  <data name="Language_zh-Hans" xml:space="preserve">
+    <value>中文-简体</value>
+  </data>
 </root>

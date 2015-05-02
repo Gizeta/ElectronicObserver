@@ -71,7 +71,8 @@ namespace ElectronicObserver.Window.Dialog {
 
 			FontSelector.Font = UI_MainFont.Font;
 
-			if ( FontSelector.ShowDialog() == System.Windows.Forms.DialogResult.OK ) {
+            if (FontSelector.ShowDialog(this) == System.Windows.Forms.DialogResult.OK)
+            {
 
 				SerializableFont font = new SerializableFont( FontSelector.Font );
 
@@ -265,6 +266,8 @@ namespace ElectronicObserver.Window.Dialog {
 			UI_MainFont.Text = config.UI.MainFont.SerializeFontAttribute;
 			UI_SubFont.Font = config.UI.SubFont.FontData;
 			UI_SubFont.Text = config.UI.SubFont.SerializeFontAttribute;
+            UI_Language.SelectedText = LoadResources.getter("Language_" + config.UI.Language);
+            UI_Language.SelectedValue = config.UI.Language  ;
 
 			//[ログ]
 			Log_LogLevel.Value = config.Log.LogLevel;
@@ -357,6 +360,7 @@ namespace ElectronicObserver.Window.Dialog {
 			//[UI]
 			config.UI.MainFont = UI_MainFont.Font;
 			config.UI.SubFont = UI_SubFont.Font;
+            config.UI.Language = (string)UI_Language.SelectedValue;
 
 			//[ログ]
 			config.Log.LogLevel = (int)Log_LogLevel.Value;

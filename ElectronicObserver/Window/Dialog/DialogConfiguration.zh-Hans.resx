@@ -144,17 +144,11 @@
   <data name="Connection_OutputConnectionScript.Text" xml:space="preserve">
     <value>输出自动设置代理脚本...</value>
   </data>
-  <data name="Connection_OutputConnectionScript.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
     <value>176, 17</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
     <value>＊可能会占用更多的硬盘空间。</value>
-  </data>
-  <data name="label4.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="Connection_ApplyVersion.Size" type="System.Drawing.Size, System.Drawing">
     <value>71, 21</value>
@@ -186,20 +180,11 @@
   <data name="Connection_SaveRequest.ToolTip" xml:space="preserve">
     <value>保存API的请求部分。</value>
   </data>
-  <data name="Connection_SaveDataPathSearch.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
     <value>56, 17</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
     <value>保存至：</value>
-  </data>
-  <data name="label3.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="Connection_SaveDataPath.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>56, 17</value>
@@ -207,23 +192,14 @@
   <data name="label2.Text" xml:space="preserve">
     <value>过滤器：</value>
   </data>
-  <data name="label2.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="Connection_SaveDataFilter.ToolTip" xml:space="preserve">
     <value>＊未实装＊</value>
-  </data>
-  <data name="Connection_PanelSaveData.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="Connection_SaveReceivedData.Size" type="System.Drawing.Size, System.Drawing">
     <value>99, 21</value>
   </data>
   <data name="Connection_SaveReceivedData.Text" xml:space="preserve">
     <value>保存通信内容</value>
-  </data>
-  <data name="Connection_SaveReceivedData.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="Connection_Port.ToolTip" xml:space="preserve">
     <value>设置端口号。</value>
@@ -234,17 +210,11 @@
   <data name="label1.Text" xml:space="preserve">
     <value>端口：</value>
   </data>
-  <data name="label1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="tabPage1.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 48</value>
   </data>
   <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
     <value>392, 207</value>
-  </data>
-  <data name="tabPage1.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="UI_SubFontApply.ToolTip" xml:space="preserve">
     <value>应用现在文本框中的内容。</value>
@@ -258,29 +228,11 @@
   <data name="label9.Text" xml:space="preserve">
     <value>＊重启才会生效哟。</value>
   </data>
-  <data name="label9.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="UI_SubFontSelect.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="UI_SubFont.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
     <value>68, 17</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
     <value>辅助字体：</value>
-  </data>
-  <data name="label8.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="UI_MainFontSelect.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="UI_MainFont.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
     <value>56, 17</value>
@@ -288,17 +240,11 @@
   <data name="label5.Text" xml:space="preserve">
     <value>主字体：</value>
   </data>
-  <data name="label5.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="tabPage2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 26</value>
+    <value>4, 48</value>
   </data>
   <data name="tabPage2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>392, 229</value>
-  </data>
-  <data name="tabPage2.ToolTip" xml:space="preserve">
-    <value />
+    <value>392, 207</value>
   </data>
   <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
     <value>236, 17</value>
@@ -306,17 +252,11 @@
   <data name="label12.Text" xml:space="preserve">
     <value>＊轻率的变更设定会使得记录不能被读取哟</value>
   </data>
-  <data name="label12.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
     <value>68, 17</value>
   </data>
   <data name="label11.Text" xml:space="preserve">
     <value>文字编码：</value>
-  </data>
-  <data name="label11.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="Log_FileEncodingID.Size" type="System.Drawing.Size, System.Drawing">
     <value>112, 25</value>
@@ -343,20 +283,11 @@
   <data name="Log_SaveLogFlag.Text" xml:space="preserve">
     <value>保存日志文件</value>
   </data>
-  <data name="Log_SaveLogFlag.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="Log_LogLevel.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
     <value>104, 17</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
     <value>日志的输出等级：</value>
-  </data>
-  <data name="label6.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="tabPage3.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 26</value>
@@ -367,20 +298,11 @@
   <data name="tabPage3.Text" xml:space="preserve">
     <value>日志</value>
   </data>
-  <data name="tabPage3.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="Control_ConditionBorder.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
     <value>80, 17</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
     <value>疲劳度界限：</value>
-  </data>
-  <data name="label7.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="tabPage4.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 26</value>
@@ -391,12 +313,6 @@
   <data name="tabPage4.Text" xml:space="preserve">
     <value>操作</value>
   </data>
-  <data name="tabPage4.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="Debug_APIListPath.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="Debug_LoadAPIListOnLoad.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 21</value>
   </data>
@@ -406,12 +322,6 @@
   <data name="Debug_LoadAPIListOnLoad.ToolTip" xml:space="preserve">
     <value>启动时，下列文本框中被选中的API列表将自动加载。
 API列表的格式和用法在线帮助请参照。</value>
-  </data>
-  <data name="Debug_APIListPathSearch.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="Debug_SealingPanel.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="Debug_EnableDebugMenu.Size" type="System.Drawing.Size, System.Drawing">
     <value>99, 21</value>
@@ -433,23 +343,11 @@ API列表的格式和用法在线帮助请参照。</value>
   <data name="tabPage5.Text" xml:space="preserve">
     <value>调试</value>
   </data>
-  <data name="tabPage5.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="Life_CheckUpdateInformation.Size" type="System.Drawing.Size, System.Drawing">
     <value>87, 21</value>
   </data>
   <data name="Life_CheckUpdateInformation.Text" xml:space="preserve">
     <value>更新时确认</value>
-  </data>
-  <data name="Life_CheckUpdateInformation.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="Life_LayoutFilePathSearch.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="Life_LayoutFilePath.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
     <value>68, 17</value>
@@ -457,26 +355,17 @@ API列表的格式和用法在线帮助请参照。</value>
   <data name="label14.Text" xml:space="preserve">
     <value>配置文件：</value>
   </data>
-  <data name="label14.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="Life_TopMost.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 21</value>
   </data>
   <data name="Life_TopMost.Text" xml:space="preserve">
     <value>窗口置顶</value>
   </data>
-  <data name="Life_TopMost.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="Life_ConfirmOnClosing.Size" type="System.Drawing.Size, System.Drawing">
     <value>87, 21</value>
   </data>
   <data name="Life_ConfirmOnClosing.Text" xml:space="preserve">
     <value>退出时确认</value>
-  </data>
-  <data name="Life_ConfirmOnClosing.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="tabPage6.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 26</value>
@@ -486,9 +375,6 @@ API列表的格式和用法在线帮助请参照。</value>
   </data>
   <data name="tabPage6.Text" xml:space="preserve">
     <value>窗口</value>
-  </data>
-  <data name="tabPage6.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="FormFleet_ShowNextExp.Size" type="System.Drawing.Size, System.Drawing">
     <value>82, 21</value>
@@ -535,26 +421,17 @@ API列表的格式和用法在线帮助请参照。</value>
   <data name="FormFleet_SearchingAbilityMethod.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 25</value>
   </data>
-  <data name="FormFleet_SearchingAbilityMethod.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
     <value>104, 17</value>
   </data>
   <data name="label13.Text" xml:space="preserve">
     <value>索敌力计算公式：</value>
   </data>
-  <data name="label13.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="FormFleet_ShowAircraft.Size" type="System.Drawing.Size, System.Drawing">
     <value>111, 21</value>
   </data>
   <data name="FormFleet_ShowAircraft.Text" xml:space="preserve">
     <value>显示舰载机数量</value>
-  </data>
-  <data name="FormFleet_ShowAircraft.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="tabPage8.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 26</value>
@@ -565,26 +442,17 @@ API列表的格式和用法在线帮助请参照。</value>
   <data name="tabPage8.Text" xml:space="preserve">
     <value>舰队</value>
   </data>
-  <data name="tabPage8.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="FormArsenal_ShowShipName.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 21</value>
   </data>
   <data name="FormArsenal_ShowShipName.Text" xml:space="preserve">
     <value>显示舰名</value>
   </data>
-  <data name="FormArsenal_ShowShipName.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="tabPage9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>378, 175</value>
+    <value>378, 197</value>
   </data>
   <data name="tabPage9.Text" xml:space="preserve">
     <value>工厂</value>
-  </data>
-  <data name="tabPage9.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="FormQuest_ShowMonthly.Size" type="System.Drawing.Size, System.Drawing">
     <value>51, 21</value>
@@ -592,17 +460,11 @@ API列表的格式和用法在线帮助请参照。</value>
   <data name="FormQuest_ShowMonthly.Text" xml:space="preserve">
     <value>月常</value>
   </data>
-  <data name="FormQuest_ShowMonthly.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="FormQuest_ShowWeekly.Size" type="System.Drawing.Size, System.Drawing">
     <value>51, 21</value>
   </data>
   <data name="FormQuest_ShowWeekly.Text" xml:space="preserve">
     <value>周常</value>
-  </data>
-  <data name="FormQuest_ShowWeekly.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="FormQuest_ShowDaily.Size" type="System.Drawing.Size, System.Drawing">
     <value>51, 21</value>
@@ -610,17 +472,11 @@ API列表的格式和用法在线帮助请参照。</value>
   <data name="FormQuest_ShowDaily.Text" xml:space="preserve">
     <value>日常</value>
   </data>
-  <data name="FormQuest_ShowDaily.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="FormQuest_ShowOnce.Size" type="System.Drawing.Size, System.Drawing">
     <value>135, 21</value>
   </data>
   <data name="FormQuest_ShowOnce.Text" xml:space="preserve">
     <value>只能完成一次・其他</value>
-  </data>
-  <data name="FormQuest_ShowOnce.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>161, 123</value>
@@ -628,26 +484,17 @@ API列表的格式和用法在线帮助请参照。</value>
   <data name="groupBox1.Text" xml:space="preserve">
     <value>过滤器</value>
   </data>
-  <data name="groupBox1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="FormQuest_ShowRunningOnly.Size" type="System.Drawing.Size, System.Drawing">
     <value>111, 21</value>
   </data>
   <data name="FormQuest_ShowRunningOnly.Text" xml:space="preserve">
     <value>显示正在进行中</value>
   </data>
-  <data name="FormQuest_ShowRunningOnly.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="tabPage10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>378, 175</value>
+    <value>378, 197</value>
   </data>
   <data name="tabPage10.Text" xml:space="preserve">
     <value>任务</value>
-  </data>
-  <data name="tabPage10.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="FormShipGroup_ShowStatusBar.Size" type="System.Drawing.Size, System.Drawing">
     <value>87, 21</value>
@@ -669,13 +516,10 @@ API列表的格式和用法在线帮助请参照。</value>
     <value>设置是否自动更新舰船数据</value>
   </data>
   <data name="tabPage13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>378, 175</value>
+    <value>378, 197</value>
   </data>
   <data name="tabPage13.Text" xml:space="preserve">
     <value>编成</value>
-  </data>
-  <data name="tabPage13.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="FormBrowser_AppliesStyleSheet.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 21</value>
@@ -703,35 +547,17 @@ API列表的格式和用法在线帮助请参照。</value>
   <data name="label18.Text" xml:space="preserve">
     <value>保存至:</value>
   </data>
-  <data name="label18.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="FormBrowser_ScreenShotFormat_PNG.Size" type="System.Drawing.Size, System.Drawing">
     <value>52, 21</value>
-  </data>
-  <data name="FormBrowser_ScreenShotFormat_PNG.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="FormBrowser_ScreenShotPathSearch.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="FormBrowser_ScreenShotPath.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="FormBrowser_ScreenShotFormat_JPEG.Size" type="System.Drawing.Size, System.Drawing">
     <value>54, 21</value>
   </data>
-  <data name="FormBrowser_ScreenShotFormat_JPEG.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>366, 81</value>
+    <value>366, 103</value>
   </data>
   <data name="groupBox2.Text" xml:space="preserve">
     <value>截图</value>
-  </data>
-  <data name="groupBox2.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
     <value>58, 17</value>
@@ -739,14 +565,8 @@ API列表的格式和用法在线帮助请参照。</value>
   <data name="label17.Text" xml:space="preserve">
     <value>登陆URL:</value>
   </data>
-  <data name="label17.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
     <value>20, 17</value>
-  </data>
-  <data name="label16.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="FormBrowser_IsEnabled.Size" type="System.Drawing.Size, System.Drawing">
     <value>87, 21</value>
@@ -754,38 +574,20 @@ API列表的格式和用法在线帮助请参照。</value>
   <data name="FormBrowser_IsEnabled.Text" xml:space="preserve">
     <value>启动时加载</value>
   </data>
-  <data name="FormBrowser_IsEnabled.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="FormBrowser_LogInPageURL.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="FormBrowser_ZoomRate.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
     <value>68, 17</value>
   </data>
   <data name="label15.Text" xml:space="preserve">
     <value>缩放倍率：</value>
   </data>
-  <data name="label15.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="tabPage12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>378, 175</value>
+    <value>378, 197</value>
   </data>
   <data name="tabPage12.Text" xml:space="preserve">
     <value>浏览器</value>
   </data>
-  <data name="tabPage12.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="tabControl2.Size" type="System.Drawing.Size, System.Drawing">
     <value>386, 223</value>
-  </data>
-  <data name="tabControl2.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="tabPage7.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 26</value>
@@ -796,56 +598,32 @@ API列表的格式和用法在线帮助请参照。</value>
   <data name="tabPage7.Text" xml:space="preserve">
     <value>辅助窗口</value>
   </data>
-  <data name="tabPage7.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 17</value>
   </data>
   <data name="label10.Text" xml:space="preserve">
     <value>＊适用于每个对话框都点确认的情况</value>
   </data>
-  <data name="label10.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="Notification_Damage.Text" xml:space="preserve">
     <value>设定大破进击时的通知...</value>
-  </data>
-  <data name="Notification_Damage.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="Notification_Condition.Text" xml:space="preserve">
     <value>设定疲劳恢复后的通知...</value>
   </data>
-  <data name="Notification_Condition.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="Notification_Repair.Text" xml:space="preserve">
     <value>设定入渠结束后的通知...</value>
-  </data>
-  <data name="Notification_Repair.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="Notification_Construction.Text" xml:space="preserve">
     <value>设定建造完成后的通知...</value>
   </data>
-  <data name="Notification_Construction.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="Notification_Expedition.Text" xml:space="preserve">
     <value>设定远征结束后的通知...</value>
-  </data>
-  <data name="Notification_Expedition.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="tabPage11.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 48</value>
   </data>
   <data name="tabPage11.Size" type="System.Drawing.Size, System.Drawing">
     <value>392, 207</value>
-  </data>
-  <data name="tabPage11.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="buttonCacheFolderBrowse.Location" type="System.Drawing.Point, System.Drawing">
     <value>333, 25</value>
@@ -856,23 +634,14 @@ API列表的格式和用法在线帮助请参照。</value>
   <data name="buttonCacheFolderBrowse.Text" xml:space="preserve">
     <value>浏览</value>
   </data>
-  <data name="buttonCacheFolderBrowse.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="textCacheFolder.Size" type="System.Drawing.Size, System.Drawing">
     <value>315, 23</value>
-  </data>
-  <data name="textCacheFolder.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
     <value>80, 17</value>
   </data>
   <data name="label19.Text" xml:space="preserve">
     <value>缓存文件路径</value>
-  </data>
-  <data name="label19.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="tabPage14.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 48</value>
@@ -883,20 +652,8 @@ API列表的格式和用法在线帮助请参照。</value>
   <data name="tabPage14.Text" xml:space="preserve">
     <value>缓存</value>
   </data>
-  <data name="tabPage14.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="tabControl1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="ButtonOK.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="ButtonCancel.Text" xml:space="preserve">
     <value>取消</value>
-  </data>
-  <data name="ButtonCancel.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="FolderBrowser.Description" xml:space="preserve">
     <value>参考文件夹</value>
@@ -913,7 +670,7 @@ API列表的格式和用法在线帮助请参照。</value>
   <data name="$this.Text" xml:space="preserve">
     <value>设置</value>
   </data>
-  <data name="$this.ToolTip" xml:space="preserve">
-    <value />
+  <data name="label20.Text" xml:space="preserve">
+    <value>语言：</value>
   </data>
 </root>

@@ -166,7 +166,9 @@
     <value>提督が鎮守府に着任しました。これより艦隊の指揮を執ります。</value>
   </data>
   <data name="Configuration_1" xml:space="preserve">
-    <value>をご利用いただきありがとうございます。\r\n設定や使用方法については「ヘルプ」→「オンラインヘルプ」を参照してください。\r\nご使用の前に必ずご一読ください。</value>
+    <value>をご利用いただきありがとうございます。
+設定や使用方法については「ヘルプ」→「オンラインヘルプ」を参照してください。
+ご使用の前に必ずご一読ください。</value>
   </data>
   <data name="Configuration_2" xml:space="preserve">
     <value>初回起動メッセージ</value>
@@ -703,7 +705,8 @@
     <value>装備可能艦種:</value>
   </data>
   <data name="DialogAlbumMasterEquipment_10" xml:space="preserve">
-    <value>装備図鑑 CSVの出力に失敗しました。\r\n</value>
+    <value>装備図鑑 CSVの出力に失敗しました。
+</value>
   </data>
   <data name="DialogAlbumMasterEquipment_11" xml:space="preserve">
     <value>エラー</value>
@@ -721,7 +724,8 @@
     <value>装備図鑑 CSVの出力に失敗しました。</value>
   </data>
   <data name="DialogAlbumMasterEquipment_6" xml:space="preserve">
-    <value>装備図鑑 CSVの出力に失敗しました。\r\n</value>
+    <value>装備図鑑 CSVの出力に失敗しました。
+</value>
   </data>
   <data name="DialogAlbumMasterEquipment_7" xml:space="preserve">
     <value>エラー</value>
@@ -736,22 +740,28 @@
     <value>陸上基地</value>
   </data>
   <data name="DialogAlbumMasterShip_10" xml:space="preserve">
-    <value>装甲 {0}{1}\r\n</value>
+    <value>装甲 {0}{1}
+</value>
   </data>
   <data name="DialogAlbumMasterShip_11" xml:space="preserve">
-    <value>対潜 {0}{1}\r\n</value>
+    <value>対潜 {0}{1}
+    </value>
   </data>
   <data name="DialogAlbumMasterShip_12" xml:space="preserve">
-    <value>回避 {0}{1}\r\n</value>
+    <value>回避 {0}{1}
+    </value>
   </data>
   <data name="DialogAlbumMasterShip_13" xml:space="preserve">
-    <value>索敵 {0}{1}\r\n</value>
+    <value>索敵 {0}{1}
+    </value>
   </data>
   <data name="DialogAlbumMasterShip_14" xml:space="preserve">
-    <value>命中 {0}{1}\r\n</value>
+    <value>命中 {0}{1}
+    </value>
   </data>
   <data name="DialogAlbumMasterShip_15" xml:space="preserve">
-    <value>爆装 {0}{1}\r\n</value>
+    <value>爆装 {0}{1}
+    </value>
   </data>
   <data name="DialogAlbumMasterShip_16" xml:space="preserve">
     <value>(右クリックで図鑑)</value>
@@ -781,7 +791,8 @@
     <value>艦船図鑑 CSVの出力に失敗しました。</value>
   </data>
   <data name="DialogAlbumMasterShip_24" xml:space="preserve">
-    <value>艦船図鑑 CSVの出力に失敗しました。\r\n</value>
+    <value>艦船図鑑 CSVの出力に失敗しました。
+    </value>
   </data>
   <data name="DialogAlbumMasterShip_25" xml:space="preserve">
     <value>エラー</value>
@@ -796,16 +807,22 @@
     <value>装備込</value>
   </data>
   <data name="DialogAlbumMasterShip_6" xml:space="preserve">
-    <value>入渠時の消費:\r\nHP1あたり: 鋼 {0:F2} / 燃 {1:F2}\r\n最大: 鋼 {2} / 燃 {3}\r\n</value>
+    <value>入渠時の消費:
+HP1あたり: 鋼 {0:F2} / 燃 {1:F2}
+最大: 鋼 {2} / 燃 {3}
+  </value>
   </data>
   <data name="DialogAlbumMasterShip_7" xml:space="preserve">
-    <value>火力 {0}{1}\r\n</value>
+    <value>火力 {0}{1}
+    </value>
   </data>
   <data name="DialogAlbumMasterShip_8" xml:space="preserve">
-    <value>雷装 {0}{1}\r\n</value>
+    <value>雷装 {0}{1}
+    </value>
   </data>
   <data name="DialogAlbumMasterShip_9" xml:space="preserve">
-    <value>対空 {0}{1}\r\n</value>
+    <value>対空 {0}{1}
+    </value>
   </data>
   <data name="DialogConfiguration_1" xml:space="preserve">
     <value>指定されたフォルダは存在しません。</value>
@@ -820,7 +837,8 @@
     <value>自動プロキシ設定スクリプトを保存する</value>
   </data>
   <data name="DialogConfiguration_5" xml:space="preserve">
-    <value>自動プロキシ設定スクリプトを保存し、設定用URLをクリップボードにコピーしました。\r\n所定の位置に貼り付けてください。</value>
+    <value>自動プロキシ設定スクリプトを保存し、設定用URLをクリップボードにコピーしました。
+所定の位置に貼り付けてください。</value>
   </data>
   <data name="DialogConfiguration_6" xml:space="preserve">
     <value>作成完了</value>
@@ -829,7 +847,8 @@
     <value>自動プロキシ設定スクリプトの保存に失敗しました。</value>
   </data>
   <data name="DialogConfiguration_8" xml:space="preserve">
-    <value>自動プロキシ設定スクリプトの保存に失敗しました。\r\n</value>
+    <value>自動プロキシ設定スクリプトの保存に失敗しました。
+    </value>
   </data>
   <data name="DialogConfiguration_9" xml:space="preserve">
     <value>エラー</value>
@@ -856,7 +875,9 @@
     <value>通信内容 : {0} {1}</value>
   </data>
   <data name="ErrorReporter_6" xml:space="preserve">
-    <value>エラーレポートの書き込みに失敗しました。\r\n{0}\r\n{1}</value>
+    <value>エラーレポートの書き込みに失敗しました。
+{0}
+{1}</value>
   </data>
   <data name="FleetData_1" xml:space="preserve">
     <value>所属艦なし</value>
@@ -868,7 +889,9 @@
     <value>未補給</value>
   </data>
   <data name="FleetData_12" xml:space="preserve">
-    <value>燃 : {0}\r\n弾 : {1}\r\nボ : {2} ({3}機)</value>
+    <value>燃 : {0}
+弾 : {1}
+ボ : {2} ({3}機)</value>
   </data>
   <data name="FleetData_13" xml:space="preserve">
     <value>疲労 </value>
@@ -880,7 +903,8 @@
     <value>戦意高揚！</value>
   </data>
   <data name="FleetData_16" xml:space="preserve">
-    <value>最低cond: {0}\r\nあと {1} 回遠征可能</value>
+    <value>最低cond: {0}
+あと {1} 回遠征可能</value>
   </data>
   <data name="FleetData_17" xml:space="preserve">
     <value>出撃可能！</value>
@@ -934,7 +958,8 @@
     <value>ブラウザプロセスの起動に失敗しました。</value>
   </data>
   <data name="FormBrowserHost_2" xml:space="preserve">
-    <value>ブラウザプロセスの起動に失敗しました。\r\n</value>
+    <value>ブラウザプロセスの起動に失敗しました。
+    </value>
   </data>
   <data name="FormBrowserHost_3" xml:space="preserve">
     <value>エラー</value>
@@ -964,7 +989,8 @@
     <value>ウィンドウ レイアウト ファイルは存在しません。</value>
   </data>
   <data name="FormMain_12" xml:space="preserve">
-    <value>レイアウトが初期化されました。\r\n「表示」メニューからお好みのウィンドウを追加してください。</value>
+    <value>レイアウトが初期化されました。
+「表示」メニューからお好みのウィンドウを追加してください。</value>
   </data>
   <data name="FormMain_13" xml:space="preserve">
     <value>ウィンドウ レイアウト ファイルが存在しません</value>
@@ -979,7 +1005,8 @@
     <value>ウィンドウ レイアウトの保存に失敗しました。</value>
   </data>
   <data name="FormMain_17" xml:space="preserve">
-    <value>セーブしていないレコードが失われる可能性があります。\r\nロードしますか？</value>
+    <value>セーブしていないレコードが失われる可能性があります。
+ロードしますか？</value>
   </data>
   <data name="FormMain_18" xml:space="preserve">
     <value>確認</value>
@@ -991,7 +1018,8 @@
     <value> API読み込みに失敗しました。</value>
   </data>
   <data name="FormMain_20" xml:space="preserve">
-    <value>API読み込みに失敗しました。\r\n</value>
+    <value>API読み込みに失敗しました。
+    </value>
   </data>
   <data name="FormMain_21" xml:space="preserve">
     <value>エラー</value>
@@ -1012,10 +1040,12 @@
     <value>装備データが読み込まれていません。</value>
   </data>
   <data name="FormMain_27" xml:space="preserve">
-    <value>古いAPIデータを削除します。\r\n本当によろしいですか？</value>
+    <value>古いAPIデータを削除します。
+本当によろしいですか？</value>
   </data>
   <data name="FormMain_28" xml:space="preserve">
-    <value>削除が完了しました。\r\n</value>
+    <value>削除が完了しました。
+    </value>
   </data>
   <data name="FormMain_29" xml:space="preserve">
     <value> 個のファイルを削除しました。</value>
@@ -1027,16 +1057,19 @@
     <value>削除成功</value>
   </data>
   <data name="FormMain_31" xml:space="preserve">
-    <value>削除に失敗しました。\r\n</value>
+    <value>削除に失敗しました。
+    </value>
   </data>
   <data name="FormMain_32" xml:space="preserve">
     <value>艦船データが読み込まれていません。</value>
   </data>
   <data name="FormMain_33" xml:space="preserve">
-    <value>通信から保存した艦船リソース名を持つファイル及びフォルダを、艦船名に置換します。\r\n</value>
+    <value>通信から保存した艦船リソース名を持つファイル及びフォルダを、艦船名に置換します。
+    </value>
   </data>
   <data name="FormMain_34" xml:space="preserve">
-    <value>対象は指定されたフォルダ以下のすべてのファイル及びフォルダです。\r\n</value>
+    <value>対象は指定されたフォルダ以下のすべてのファイル及びフォルダです。
+    </value>
   </data>
   <data name="FormMain_35" xml:space="preserve">
     <value>続行しますか？</value>
@@ -1045,7 +1078,8 @@
     <value>艦船リソースをリネーム</value>
   </data>
   <data name="FormMain_37" xml:space="preserve">
-    <value>リネーム処理が完了しました。\r\n{0} 個のアイテムをリネームしました。</value>
+    <value>リネーム処理が完了しました。
+{0} 個のアイテムをリネームしました。</value>
   </data>
   <data name="FormMain_38" xml:space="preserve">
     <value>処理完了</value>
@@ -1057,10 +1091,12 @@
     <value> を終了しますか？</value>
   </data>
   <data name="FormMain_40" xml:space="preserve">
-    <value>艦船リソースのリネームに失敗しました。\r\n</value>
+    <value>艦船リソースのリネームに失敗しました。
+    </value>
   </data>
   <data name="FormMain_41" xml:space="preserve">
-    <value>外部ブラウザでオンラインヘルプを開きます。\r\nよろしいですか？</value>
+    <value>外部ブラウザでオンラインヘルプを開きます。
+よろしいですか？</value>
   </data>
   <data name="FormMain_42" xml:space="preserve">
     <value>ヘルプ</value>
@@ -1069,7 +1105,8 @@
     <value>レイアウト ファイルを開く</value>
   </data>
   <data name="FormMain_44" xml:space="preserve">
-    <value>ログインページへ移動します。\r\nよろしいですか？</value>
+    <value>ログインページへ移動します。
+よろしいですか？</value>
   </data>
   <data name="FormMain_45" xml:space="preserve">
     <value>確認</value>
@@ -1084,7 +1121,8 @@
     <value>現在: {0}%</value>
   </data>
   <data name="FormMain_49" xml:space="preserve">
-    <value>API読み込みに失敗しました。\r\n</value>
+    <value>API読み込みに失敗しました。
+    </value>
   </data>
   <data name="FormMain_5" xml:space="preserve">
     <value>確認</value>
@@ -1111,7 +1149,8 @@
     <value>グループ名を入力してください：</value>
   </data>
   <data name="FormShipGroup_11" xml:space="preserve">
-    <value>グループ [{0}] を削除しますか？\r\nこの操作は元に戻せません。</value>
+    <value>グループ [{0}] を削除しますか？
+この操作は元に戻せません。</value>
   </data>
   <data name="FormShipGroup_12" xml:space="preserve">
     <value>このグループは削除できません。</value>
@@ -1150,7 +1189,8 @@
     <value>艦船グループ CSVの出力に失敗しました。</value>
   </data>
   <data name="FormShipGroup_23" xml:space="preserve">
-    <value>艦船グループ CSVの出力に失敗しました。\r\n</value>
+    <value>艦船グループ CSVの出力に失敗しました。
+    </value>
   </data>
   <data name="FormShipGroup_24" xml:space="preserve">
     <value>確認</value>
@@ -1237,7 +1277,8 @@
     <value>リソースファイルの読み込みに失敗しました。</value>
   </data>
   <data name="ResourceManager_2" xml:space="preserve">
-    <value>リソースファイルの読み込みに失敗しました。\r\n</value>
+    <value>リソースファイルの読み込みに失敗しました。
+    </value>
   </data>
   <data name="ResourceManager_3" xml:space="preserve">
     <value>エラー</value>
@@ -1291,7 +1332,8 @@
     <value>艦船ID,艦船名,対潜初期下限,対潜初期上限,対潜最大,回避初期下限,回避初期上限,回避最大,索敵初期下限,索敵初期上限,索敵最大,装備1,装備2,装備3,装備4,装備5,図鑑説明</value>
   </data>
   <data name="ShipStatusResource_1" xml:space="preserve">
-    <value>燃 : {0}/{1} ({2}%)\r\n弾 : {3}/{4} ({5}%)</value>
+    <value>燃 : {0}/{1} ({2}%)
+弾 : {3}/{4} ({5}%)</value>
   </data>
   <data name="SoftwareInformation_1" xml:space="preserve">
     <value>七四式電子観測儀</value>
@@ -1312,7 +1354,11 @@
     <value>1.1.1</value>
   </data>
   <data name="SoftwareInformation_5" xml:space="preserve">
-    <value>新しいバージョンがリリースされています！ : {0}\r\n更新内容 : \r\n{1}\r\nダウンロードページを開きますか？\r\n(キャンセルすると以降表示しません)</value>
+    <value>新しいバージョンがリリースされています！ : {0}
+更新内容 : 
+{1}
+ダウンロードページを開きますか？
+(キャンセルすると以降表示しません)</value>
   </data>
   <data name="SoftwareInformation_6" xml:space="preserve">
     <value>アップデート情報</value>
@@ -1336,10 +1382,13 @@
     <value>触接中:</value>
   </data>
   <data name="FormBattle_10" xml:space="preserve">
-    <value>第{0}次: {1}\r\nカットイン種別: {2} ({3})\r\n</value>
+    <value>第{0}次: {1}
+カットイン種別: {2} ({3})
+  </value>
   </data>
   <data name="FormBattle_11" xml:space="preserve">
-    <value>第{0}次: (発動せず)\r\n</value>
+    <value>第{0}次: (発動せず)
+    </value>
   </data>
   <data name="FormBattle_12" xml:space="preserve">
     <value>探照灯照射:</value>
@@ -1354,7 +1403,8 @@
     <value>照明弾投射:</value>
   </data>
   <data name="FormBattle_2" xml:space="preserve">
-    <value>対空カットイン: {0}\r\nカットイン種別: {1} ({2})</value>
+    <value>対空カットイン: {0}
+カットイン種別: {1} ({2})</value>
   </data>
   <data name="FormBattle_3" xml:space="preserve">
     <value>対空砲火</value>
@@ -1363,22 +1413,39 @@
     <value>第2次:</value>
   </data>
   <data name="FormBattle_5" xml:space="preserve">
-    <value>第1次: -{0}/{1}\r\n第2次: -{2}/{3}\r\n</value>
+    <value>第1次: -{0}/{1}
+第2次: -{2}/{3}
+  </value>
   </data>
   <data name="FormBattle_6" xml:space="preserve">
-    <value>{0}触接中\r\n第1次: {1}\r\n第2次: {2}</value>
+    <value>{0}触接中
+第1次: {1}
+第2次: {2}</value>
   </data>
   <data name="FormBattle_7" xml:space="preserve">
     <value>(なし)</value>
   </data>
   <data name="FormBattle_8" xml:space="preserve">
-    <value>第1次: -{0}/{1}\r\n第2次: -{2}/{3}\r\n</value>
+    <value>第1次: -{0}/{1}
+第2次: -{2}/{3}
+  </value>
   </data>
   <data name="FormBattle_9" xml:space="preserve">
     <value>対空カットイン</value>
   </data>
   <data name="FormCompass_1" xml:space="preserve">
-    <value>{0} {1}{2}\n耐久: {3}\n火力: {4}/{5}\n雷装: {6}/{7}\n対空: {8}/{9}\n装甲: {10}/{11}\n対潜: {12}/{13}\n回避: {14}/{15}\n索敵: {16}/{17}\n運: {18}/{19}\n(右クリックで図鑑)\n</value>
+    <value>{0} {1}{2}
+耐久: {3}
+火力: {4}/{5}
+雷装: {6}/{7}
+対空: {8}/{9}
+装甲: {10}/{11}
+対潜: {12}/{13}
+回避: {14}/{15}
+索敵: {16}/{17}
+運: {18}/{19}
+(右クリックで図鑑)
+</value>
   </data>
   <data name="FormCompass_10" xml:space="preserve">
     <value>不明</value>
@@ -1390,10 +1457,14 @@
     <value>(敵艦隊情報不明)</value>
   </data>
   <data name="FormCompass_2" xml:space="preserve">
-    <value>\r\n昼戦: {0}\r\n夜戦: {1}\r\n</value>
+    <value>
+昼戦: {0}
+夜戦: {1}
+    </value>
   </data>
   <data name="FormCompass_3" xml:space="preserve">
-    <value>対空: {0}\r\n</value>
+    <value>対空: {0}
+    </value>
   </data>
   <data name="FormCompass_4" xml:space="preserve">
     <value>演習</value>
@@ -1417,19 +1488,27 @@
     <value>完了日時 :</value>
   </data>
   <data name="FormFleet_1" xml:space="preserve">
-    <value>合計レベル：{0}\r\n平均レベル：{1:0.00}\r\nドラム缶搭載: {2}個 ({3}艦)\r\n大発動艇搭載: {4}個\r\n総積載: 燃 {5} / 弾 {6}\r\n(1戦当たり 燃 {7} / 弾 {8})</value>
+    <value>合計レベル：{0}
+平均レベル：{1:0.00}
+ドラム缶搭載: {2}個 ({3}艦)
+大発動艇搭載: {4}個
+総積載: 燃 {5} / 弾 {6}
+(1戦当たり 燃 {7} / 弾 {8})</value>
   </data>
   <data name="FormFleet_10" xml:space="preserve">
-    <value>中破まで: {0} / 大破まで: {1}\n</value>
+    <value>中破まで: {0} / 大破まで: {1}
+</value>
   </data>
   <data name="FormFleet_11" xml:space="preserve">
-    <value>大破まで: {0}\n</value>
+    <value>大破まで: {0}
+</value>
   </data>
   <data name="FormFleet_12" xml:space="preserve">
     <value>大破しています！</value>
   </data>
   <data name="FormFleet_13" xml:space="preserve">
-    <value>入渠時間: {0}\n</value>
+    <value>入渠時間: {0}
+</value>
   </data>
   <data name="FormFleet_14" xml:space="preserve">
     <value>完全回復まで 約 {0:D2}:{1:D2}</value>
@@ -1438,25 +1517,48 @@
     <value>あと {0} 回遠征可能</value>
   </data>
   <data name="FormFleet_16" xml:space="preserve">
-    <value>\r\n昼戦: {0}\r\n夜戦: {1}\r\n</value>
+    <value>
+昼戦: {0}
+夜戦: {1}
+</value>
   </data>
   <data name="FormFleet_17" xml:space="preserve">
-    <value>対空: {0}\r\n</value>
+    <value>対空: {0}
+</value>
   </data>
   <data name="FormFleet_18" xml:space="preserve">
-    <value>{0}\t制空戦力{1}/索敵能力{2}\r\n</value>
+    <value>{0}  制空戦力{1}/索敵能力{2}
+</value>
   </data>
   <data name="FormFleet_2" xml:space="preserve">
-    <value>確保: {0}\r\n優勢: {1}\r\n均衡: {2}\r\n劣勢: {3}\r\n</value>
+    <value>確保: {0}
+優勢: {1}
+均衡: {2}
+劣勢: {3}
+</value>
   </data>
   <data name="FormFleet_3" xml:space="preserve">
-    <value>(旧)2-5式: {0}\r\n2-5式(秋): {1}\r\n2-5新秋簡易式: {2}\r\n</value>
+    <value>(旧)2-5式: {0}
+2-5式(秋): {1}
+2-5新秋簡易式: {2}
+</value>
   </data>
   <data name="FormFleet_4" xml:space="preserve">
-    <value>{0} {1}\n火力: {2}/{3}\n雷装: {4}/{5}\n対空: {6}/{7}\n装甲: {8}/{9}\n対潜: {10}/{11}\n回避: {12}/{13}\n索敵: {14}/{15}\n運: {16}\n(右クリックで図鑑)\n</value>
+    <value>{0} {1}
+火力: {2}/{3}
+雷装: {4}/{5}
+対空: {6}/{7}
+装甲: {8}/{9}
+対潜: {10}/{11}
+回避: {12}/{13}
+索敵: {14}/{15}
+運: {16}
+(右クリックで図鑑)
+</value>
   </data>
   <data name="FormFleet_5" xml:space="preserve">
-    <value>次のレベルまで: {0}\n</value>
+    <value>次のレベルまで: {0}
+</value>
   </data>
   <data name="FormFleet_6" xml:space="preserve">
     <value>改装まで: {0}</value>
@@ -1474,19 +1576,23 @@
     <value>[演習情報]</value>
   </data>
   <data name="FormInformation_10" xml:space="preserve">
-    <value>{0}-{1} : 撃破 {2}/{3} 回\r\n</value>
+    <value>{0}-{1} : 撃破 {2}/{3} 回
+    </value>
   </data>
   <data name="FormInformation_11" xml:space="preserve">
     <value>[遠征帰投]</value>
   </data>
   <data name="FormInformation_12" xml:space="preserve">
-    <value>結果: {0}\r\n</value>
+    <value>結果: {0}
+    </value>
   </data>
   <data name="FormInformation_13" xml:space="preserve">
-    <value>提督経験値: +{0}\r\n</value>
+    <value>提督経験値: +{0}
+    </value>
   </data>
   <data name="FormInformation_14" xml:space="preserve">
-    <value>艦娘経験値: +{0}\r\n</value>
+    <value>艦娘経験値: +{0}
+    </value>
   </data>
   <data name="FormInformation_2" xml:space="preserve">
     <value>敵艦隊名 :</value>
@@ -1522,7 +1628,9 @@
     <value>(任務完遂！)</value>
   </data>
   <data name="FormQuest_4" xml:space="preserve">
-    <value>任務データを初期化します。\r\nデータに齟齬が生じている場合以外での使用は推奨しません。\r\nよろしいですか？</value>
+    <value>任務データを初期化します。
+データに齟齬が生じている場合以外での使用は推奨しません。
+よろしいですか？</value>
   </data>
   <data name="FormQuest_5" xml:space="preserve">
     <value>任務初期化の確認</value>
@@ -1532,5 +1640,15 @@
   </data>
   <data name="DialogConfigurationNotifier" xml:space="preserve">
     <value>テスト 通知です。</value>
+  </data>
+  <data name="Language_auto" xml:space="preserve">
+    <value>自動</value>
+    <comment>_</comment>
+  </data>
+  <data name="Language_ja" xml:space="preserve">
+    <value>日本語</value>
+  </data>
+  <data name="Language_zh-Hans" xml:space="preserve">
+    <value>中国語</value>
   </data>
 </root>

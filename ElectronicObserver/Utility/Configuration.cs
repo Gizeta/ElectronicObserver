@@ -140,7 +140,7 @@ namespace ElectronicObserver.Utility {
 				/// </summary>
 				public SerializableFont SubFont { get; set; }
 
-
+                public String Language { get; set; }
 				public ConfigUI() {
 					//*/
                     MainFont = new Font(LoadResources.getter("Configuration_Font"), 12, FontStyle.Regular, GraphicsUnit.Pixel);
