@@ -128,7 +128,7 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="StripMenu_View_Fleet.Size" type="System.Drawing.Size, System.Drawing">
-    <value>165, 22</value>
+    <value>218, 22</value>
   </data>
   <data name="&gt;&gt;StripMenu_View_Fleet_2.Name" xml:space="preserve">
     <value>StripMenu_View_Fleet_2</value>
@@ -303,7 +303,7 @@
     <value>StripMenu_View_Fleet_1</value>
   </data>
   <data name="StripMenu_View_Arsenal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>165, 22</value>
+    <value>218, 22</value>
   </data>
   <data name="&gt;&gt;StripMenu_Help_Version.Name" xml:space="preserve">
     <value>StripMenu_Help_Version</value>
@@ -426,7 +426,7 @@
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="toolStripSeparator4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>162, 6</value>
+    <value>215, 6</value>
   </data>
   <data name="&gt;&gt;StripStatus_Padding.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -493,7 +493,7 @@
     <value>Fill</value>
   </data>
   <data name="StripMenu_View_Dock.Size" type="System.Drawing.Size, System.Drawing">
-    <value>165, 22</value>
+    <value>218, 22</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator9.Name" xml:space="preserve">
     <value>toolStripSeparator9</value>
@@ -532,7 +532,7 @@
     <value>40, 17</value>
   </data>
   <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>162, 6</value>
+    <value>215, 6</value>
   </data>
   <data name="&gt;&gt;StripMenu_Browser_Zoom_75.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -568,7 +568,7 @@
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>162, 6</value>
+    <value>215, 6</value>
   </data>
   <data name="StripMenu.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -613,7 +613,7 @@
     <value>UIUpdateTimer</value>
   </data>
   <data name="StripMenu_View_FleetOverview.Size" type="System.Drawing.Size, System.Drawing">
-    <value>165, 22</value>
+    <value>218, 22</value>
   </data>
   <data name="&gt;&gt;StripMenu_Browser_Zoom.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -643,7 +643,7 @@
     <value>StripMenu_File_Layout_Save</value>
   </data>
   <data name="StripMenu_View_Browser.Size" type="System.Drawing.Size, System.Drawing">
-    <value>165, 22</value>
+    <value>218, 22</value>
   </data>
   <data name="StripMenu_Browser_Zoom_100.Size" type="System.Drawing.Size, System.Drawing">
     <value>111, 22</value>
@@ -688,7 +688,7 @@
     <value>100%</value>
   </data>
   <data name="StripMenu_View_Log.Size" type="System.Drawing.Size, System.Drawing">
-    <value>165, 22</value>
+    <value>218, 22</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator14.Name" xml:space="preserve">
     <value>toolStripSeparator14</value>
@@ -709,7 +709,7 @@
     <value>StripMenu_Browser_Zoom_25</value>
   </data>
   <data name="StripMenu_View_Battle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>165, 22</value>
+    <value>218, 22</value>
   </data>
   <data name="StripMenu.Size" type="System.Drawing.Size, System.Drawing">
     <value>640, 25</value>
@@ -748,7 +748,7 @@
     <value>287, 22</value>
   </data>
   <data name="StripMenu_View_Quest.Size" type="System.Drawing.Size, System.Drawing">
-    <value>165, 22</value>
+    <value>218, 22</value>
   </data>
   <data name="StripMenu_Browser.Size" type="System.Drawing.Size, System.Drawing">
     <value>84, 21</value>
@@ -790,13 +790,13 @@
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="StripMenu_View_Compass.Size" type="System.Drawing.Size, System.Drawing">
-    <value>165, 22</value>
+    <value>218, 22</value>
   </data>
   <data name="StripMenu_View_Battle.Text" xml:space="preserve">
     <value>戦闘(&amp;B)</value>
   </data>
   <data name="StripMenu_View_Headquarters.Size" type="System.Drawing.Size, System.Drawing">
-    <value>165, 22</value>
+    <value>218, 22</value>
   </data>
   <data name="StripMenu_Browser_Zoom_300.Size" type="System.Drawing.Size, System.Drawing">
     <value>111, 22</value>
@@ -829,7 +829,7 @@
     <value>F5</value>
   </data>
   <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>162, 6</value>
+    <value>215, 6</value>
   </data>
   <data name="StripMenu_View_Arsenal.Text" xml:space="preserve">
     <value>工廠(&amp;A)</value>
@@ -1033,7 +1033,7 @@
     <value>108, 6</value>
   </data>
   <data name="StripMenu_View_ShipGroup.Size" type="System.Drawing.Size, System.Drawing">
-    <value>165, 22</value>
+    <value>218, 22</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1099,7 +1099,7 @@
     <value>StripMenu_Tool_EquipmentList</value>
   </data>
   <data name="StripMenu_View_Information.Size" type="System.Drawing.Size, System.Drawing">
-    <value>165, 22</value>
+    <value>218, 22</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator3.Name" xml:space="preserve">
     <value>toolStripSeparator3</value>
@@ -1107,19 +1107,19 @@
   <data name="StripMenu_Browser_Zoom_Current.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <metadata name="StripStatus.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <data name="StripStatus.TrayLocation" type="System.Drawing.Point, System.Drawing">
     <value>139, 17</value>
-  </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  </data>
+  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib">
     <value>zh-Hans</value>
-  </metadata>
-  <metadata name="StripMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  </data>
+  <data name="StripMenu.TrayLocation" type="System.Drawing.Point, System.Drawing">
     <value>17, 17</value>
-  </metadata>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
     <value>True</value>
-  </metadata>
-  <metadata name="UIUpdateTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  </data>
+  <data name="UIUpdateTimer.TrayLocation" type="System.Drawing.Point, System.Drawing">
     <value>257, 17</value>
-  </metadata>
+  </data>
 </root>

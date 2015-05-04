@@ -199,11 +199,18 @@ namespace ElectronicObserver.Utility {
 					}
 				}
 
+
+                /// <summary>
+                /// ネタバレを許可するか
+                /// </summary>
+                public bool ShowSpoiler { get; set; }
+
 				public ConfigLog() {
 					LogLevel = 2;
 					SaveLogFlag = true;
 					SaveErrorReport = true;
 					FileEncodingID = 4;
+                    ShowSpoiler = true;
 				}
 
 			}
@@ -288,11 +295,17 @@ namespace ElectronicObserver.Utility {
 				/// </summary>
 				public bool CheckUpdateInformation { get; set; }
 
+
+                /// <summary>
+                /// ステータスバーを表示するか
+                /// </summary>
+                public bool ShowStatusBar { get; set; } 
 				public ConfigLife() {
 					ConfirmOnClosing = true;
 					TopMost = false;
 					LayoutFilePath = @"Settings\WindowLayout.zip";
 					CheckUpdateInformation = true;
+                    ShowStatusBar = true;
 				}
 			}
 			/// <summary>起動と終了</summary>
@@ -465,7 +478,13 @@ namespace ElectronicObserver.Utility {
 				public int ZoomRate { get; set; }
 
 				/// <summary>
-				/// ログインページのURL
+                /// ブラウザをウィンドウサイズに合わせる
+                /// </summary>
+                [DataMember]
+                public bool ZoomFit { get; set; }
+
+                /// <summary>
+                /// ログインページのURL
 				/// </summary>
 				public string LogInPageURL { get; set; }
 
@@ -518,6 +537,7 @@ namespace ElectronicObserver.Utility {
 
 				public ConfigFormBrowser() {
 					ZoomRate = 100;
+                    ZoomFit = false;
 					LogInPageURL = @"http://www.dmm.com/netgame_s/kancolle/";
 					IsEnabled = true;
 					ScreenShotPath = "ScreenShot";

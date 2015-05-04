@@ -16,6 +16,12 @@ using System.Windows.Forms;
 
 namespace ElectronicObserver.Window.Dialog {
 	public partial class DialogConfiguration : Form {
+
+        private static readonly string RegistryPathMaster = @"Software\Microsoft\Internet Explorer\Main\FeatureControl\";
+        private static readonly string RegistryPathBrowserVersion = @"FEATURE_BROWSER_EMULATION\";
+        private static readonly string RegistryPathGPURendering = @"FEATURE_GPU_RENDERING\";
+        private static readonly int DefaultBrowserVersion = 7000;
+        private static readonly bool DefaultGPURendering = false;
 		public DialogConfiguration() {
 			InitializeComponent();
 
@@ -88,7 +94,8 @@ namespace ElectronicObserver.Window.Dialog {
 
 			FontSelector.Font = UI_SubFont.Font;
 
-			if ( FontSelector.ShowDialog() == System.Windows.Forms.DialogResult.OK ) {
+            if (FontSelector.ShowDialog(this) == System.Windows.Forms.DialogResult.OK)
+            {
 
 				SerializableFont font = new SerializableFont( FontSelector.Font );
 
@@ -141,7 +148,8 @@ namespace ElectronicObserver.Window.Dialog {
 				dialog.InitialDirectory = System.IO.Directory.GetCurrentDirectory();
 				dialog.FileName = System.IO.Directory.GetCurrentDirectory() + "\\proxy.pac";
 
-				if ( dialog.ShowDialog() == System.Windows.Forms.DialogResult.OK ) {
+                if (dialog.ShowDialog(this) == System.Windows.Forms.DialogResult.OK)
+                {
 
 					try {
 
@@ -180,35 +188,35 @@ namespace ElectronicObserver.Window.Dialog {
 		private void Notification_Expedition_Click( object sender, EventArgs e ) {
 
 			using ( var dialog = new DialogConfigurationNotifier( NotifierManager.Instance.Expedition ) ) {
-				dialog.ShowDialog();
+				dialog.ShowDialog(this);
 			}
 		}
 
 		private void Notification_Construction_Click( object sender, EventArgs e ) {
 
 			using ( var dialog = new DialogConfigurationNotifier( NotifierManager.Instance.Construction ) ) {
-				dialog.ShowDialog();
+				dialog.ShowDialog(this);
 			}
 		}
 
 		private void Notification_Repair_Click( object sender, EventArgs e ) {
 
 			using ( var dialog = new DialogConfigurationNotifier( NotifierManager.Instance.Repair ) ) {
-				dialog.ShowDialog();
+				dialog.ShowDialog(this);
 			}
 		}
 
 		private void Notification_Condition_Click( object sender, EventArgs e ) {
 
 			using ( var dialog = new DialogConfigurationNotifier( NotifierManager.Instance.Condition ) ) {
-				dialog.ShowDialog();
+				dialog.ShowDialog(this);
 			}
 		}
 
 		private void Notification_Damage_Click( object sender, EventArgs e ) {
 
 			using ( var dialog = new DialogConfigurationNotifier( NotifierManager.Instance.Damage ) ) {
-				dialog.ShowDialog();
+				dialog.ShowDialog(this);
 			}
 		}
 
@@ -274,6 +282,7 @@ namespace ElectronicObserver.Window.Dialog {
 			Log_SaveLogFlag.Checked = config.Log.SaveLogFlag;
 			Log_SaveErrorReport.Checked = config.Log.SaveErrorReport;
 			Log_FileEncodingID.SelectedIndex = config.Log.FileEncodingID;
+            Log_ShowSpoiler.Checked = config.Log.ShowSpoiler;
 
 			//[動作]
 			Control_ConditionBorder.Value = config.Control.ConditionBorder;
@@ -288,6 +297,7 @@ namespace ElectronicObserver.Window.Dialog {
 			Life_TopMost.Checked = this.TopMost = config.Life.TopMost;		//メインウィンドウに隠れないように
 			Life_LayoutFilePath.Text = config.Life.LayoutFilePath;
 			Life_CheckUpdateInformation.Checked = config.Life.CheckUpdateInformation;
+            Log_ShowSpoiler.Checked = config.Log.ShowSpoiler;
 
 			//[サブウィンドウ]
 			FormArsenal_ShowShipName.Checked = config.FormArsenal.ShowShipName;
@@ -310,6 +320,7 @@ namespace ElectronicObserver.Window.Dialog {
 
 			FormBrowser_IsEnabled.Checked = config.FormBrowser.IsEnabled;
 			FormBrowser_ZoomRate.Value = config.FormBrowser.ZoomRate;
+            FormBrowser_ZoomFit.Checked = config.FormBrowser.ZoomFit;
 			FormBrowser_LogInPageURL.Text = config.FormBrowser.LogInPageURL;
 			FormBrowser_ScreenShotFormat_JPEG.Checked = config.FormBrowser.ScreenShotFormat == 1;
 			FormBrowser_ScreenShotFormat_PNG.Checked = config.FormBrowser.ScreenShotFormat == 2;
@@ -318,6 +329,55 @@ namespace ElectronicObserver.Window.Dialog {
 			FormBrowser_AppliesStyleSheet.Checked = config.FormBrowser.AppliesStyleSheet;
             // [缓存]
             textCacheFolder.Text = config.CacheSettings.CacheFolder;
+
+            {
+                Microsoft.Win32.RegistryKey reg = null;
+                try
+                {
+
+                    reg = Microsoft.Win32.Registry.CurrentUser.OpenSubKey(RegistryPathMaster + RegistryPathBrowserVersion);
+                    if (reg == null)
+                    {
+                        FormBrowser_BrowserVersion.Text = DefaultBrowserVersion.ToString();
+
+                    }
+                    else
+                    {
+                        FormBrowser_BrowserVersion.Text = (reg.GetValue(FormBrowserHost.BrowserExeName) ?? DefaultBrowserVersion).ToString();
+                    }
+                    reg.Close();
+
+                    reg = Microsoft.Win32.Registry.CurrentUser.OpenSubKey(RegistryPathMaster + RegistryPathGPURendering);
+                    if (reg == null)
+                    {
+                        FormBrowser_GPURendering.Checked = DefaultGPURendering;
+
+                    }
+                    else
+                    {
+                        int? gpu = reg.GetValue(FormBrowserHost.BrowserExeName) as int?;
+                        FormBrowser_GPURendering.Checked = gpu != null ? gpu != 0 : DefaultGPURendering;
+                    }
+
+                }
+                catch (Exception ex)
+                {
+
+                    FormBrowser_BrowserVersion.Text = DefaultBrowserVersion.ToString();
+                    FormBrowser_GPURendering.Checked = DefaultGPURendering;
+
+                    Utility.Logger.Add(3, LoadResources.getter("DialogConfiguration_10") + ex.Message);
+
+                }
+                finally
+                {
+                    if (reg != null)
+                        reg.Close();
+
+                }
+            }
+
+
 			//finalize
 			UpdateParameter();
 		}
@@ -367,6 +427,7 @@ namespace ElectronicObserver.Window.Dialog {
 			config.Log.SaveLogFlag = Log_SaveLogFlag.Checked;
 			config.Log.SaveErrorReport = Log_SaveErrorReport.Checked;
 			config.Log.FileEncodingID = Log_FileEncodingID.SelectedIndex;
+            config.Log.ShowSpoiler = Log_ShowSpoiler.Checked;
 
 			//[動作]
 			config.Control.ConditionBorder = (int)Control_ConditionBorder.Value;
@@ -432,6 +493,80 @@ namespace ElectronicObserver.Window.Dialog {
             {
                 textCacheFolder.BackColor = Color.MistyRose;
                 ToolTipInfo.SetToolTip(textCacheFolder, "指定的文件夹不存在。");
+            }
+        }
+
+
+        private void FormBrowser_ApplyRegistry_Click(object sender, EventArgs e)
+        {
+
+            if (MessageBox.Show(LoadResources.getter("DialogConfiguration_11"), LoadResources.getter("DialogConfiguration_12"),
+                MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2)
+                == System.Windows.Forms.DialogResult.Yes)
+            {
+
+                Microsoft.Win32.RegistryKey reg = null;
+
+                try
+                {
+                    reg = Microsoft.Win32.Registry.CurrentUser.CreateSubKey(RegistryPathMaster + RegistryPathBrowserVersion);
+                    reg.SetValue(FormBrowserHost.BrowserExeName, int.Parse(FormBrowser_BrowserVersion.Text), Microsoft.Win32.RegistryValueKind.DWord);
+                    reg.Close();
+
+                    reg = Microsoft.Win32.Registry.CurrentUser.CreateSubKey(RegistryPathMaster + RegistryPathGPURendering);
+                    reg.SetValue(FormBrowserHost.BrowserExeName, FormBrowser_GPURendering.Checked ? 1 : 0, Microsoft.Win32.RegistryValueKind.DWord);
+
+                }
+                catch (Exception ex)
+                {
+
+                    Utility.ErrorReporter.SendErrorReport(ex, LoadResources.getter("DialogConfiguration_13"));
+                    MessageBox.Show(LoadResources.getter("DialogConfiguration_14") + ex.Message, LoadResources.getter("DialogConfiguration_15"),
+                        MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                }
+                finally
+                {
+                    if (reg != null)
+                        reg.Close();
+                }
+            }
+
+        }
+
+        private void FormBrowser_DeleteRegistry_Click(object sender, EventArgs e)
+        {
+
+            if (MessageBox.Show(LoadResources.getter("DialogConfiguration_16"), LoadResources.getter("DialogConfiguration_12"),
+                MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2)
+                == System.Windows.Forms.DialogResult.Yes)
+            {
+
+                Microsoft.Win32.RegistryKey reg = null;
+
+                try
+                {
+                    reg = Microsoft.Win32.Registry.CurrentUser.OpenSubKey(RegistryPathMaster + RegistryPathBrowserVersion, true);
+                    reg.DeleteValue(FormBrowserHost.BrowserExeName);
+                    reg.Close();
+
+                    reg = Microsoft.Win32.Registry.CurrentUser.OpenSubKey(RegistryPathMaster + RegistryPathGPURendering, true);
+                    reg.DeleteValue(FormBrowserHost.BrowserExeName);
+
+                }
+                catch (Exception ex)
+                {
+
+                    Utility.ErrorReporter.SendErrorReport(ex, LoadResources.getter("DialogConfiguration_17"));
+                    MessageBox.Show(LoadResources.getter("DialogConfiguration_18") + ex.Message, LoadResources.getter("DialogConfiguration_15"),
+                        MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                }
+                finally
+                {
+                    if (reg != null)
+                        reg.Close();
+                }
             }
         }
 

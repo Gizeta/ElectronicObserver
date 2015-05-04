@@ -70,6 +70,7 @@ namespace ElectronicObserver.Resource {
 			FormAlbumEquipment,
 			FormConfiguration,
 			FormEquipmentList,
+            FormWindowCapture,
 			FleetNoShip,
 			FleetDocking,
 			FleetSortieDamaged,
@@ -151,7 +152,8 @@ namespace ElectronicObserver.Resource {
 			AADirector,
 			RocketArtillery,
 			PicketCrew,
-			Locked,
+            FlyingBoat,
+            Locked,
 			Unknown,
 		}
 
@@ -242,6 +244,7 @@ namespace ElectronicObserver.Resource {
 					LoadImageFromArchive( Icons, archive, mstpath + @"Form/AlbumEquipment.png", "Form_AlbumEquipment" );
 					LoadImageFromArchive( Icons, archive, mstpath + @"Form/Configuration.png", "Form_Configuration" );
 					LoadImageFromArchive( Icons, archive, mstpath + @"Form/EquipmentList.png", "Form_EquipmentList" );
+                    LoadImageFromArchive(Icons, archive, mstpath + @"Form/WindowCapture.png", "Form_WindowCapture");
 
 					LoadImageFromArchive( Icons, archive, mstpath + @"Fleet/NoShip.png", "Fleet_NoShip" );
 					LoadImageFromArchive( Icons, archive, mstpath + @"Fleet/Docking.png", "Fleet_Docking" );
@@ -330,7 +333,8 @@ namespace ElectronicObserver.Resource {
 					LoadImageFromArchive( Equipments, archive, mstpath + @"Equipment/AADirector.png", "Equipment_AADirector" );
 					LoadImageFromArchive( Equipments, archive, mstpath + @"Equipment/RocketArtillery.png", "Equipment_RocketArtillery" );
 					LoadImageFromArchive( Equipments, archive, mstpath + @"Equipment/PicketCrew.png", "Equipment_PicketCrew" );
-					LoadImageFromArchive( Equipments, archive, mstpath + @"Equipment/Locked.png", "Equipment_Locked" );
+                    LoadImageFromArchive( Equipments, archive, mstpath + @"Equipment/FlyingBoat.png", "Equipment_FlyingBoat");
+                    LoadImageFromArchive( Equipments, archive, mstpath + @"Equipment/Locked.png", "Equipment_Locked" );
 					LoadImageFromArchive( Equipments, archive, mstpath + @"Equipment/Unknown.png", "Equipment_Unknown" );
 
 

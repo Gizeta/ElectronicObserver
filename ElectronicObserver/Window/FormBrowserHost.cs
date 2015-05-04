@@ -26,7 +26,7 @@ namespace ElectronicObserver.Window {
 	public partial class FormBrowserHost : DockContent, IBrowserHost {
 
 
-		private const string BrowserExeName = "EOBrowser.exe";
+        public static readonly string BrowserExeName = "EOBrowser.exe";
 
 		/// <summary>
 		/// FormBrowserHostの通信サーバ
@@ -133,16 +133,8 @@ namespace ElectronicObserver.Window {
 		/// ズームを適用します。
 		/// </summary>
 		public void ApplyZoom() {
-			ApplyZoom( Utility.Configuration.Config.FormBrowser.ZoomRate );
-		}
+            Browser.AsyncRemoteRun(() => Browser.Proxy.ApplyZoom());
 
-
-		/// <summary>
-		/// ズームを適用します。
-		/// </summary>
-		/// <param name="zoomRate">拡大率。%指定で 10-1000</param>
-		public void ApplyZoom( int zoomRate ) {
-			Browser.AsyncRemoteRun( () => Browser.Proxy.ApplyZoom( zoomRate ) );
 		}
 
 		/// <summary>
@@ -177,6 +169,7 @@ namespace ElectronicObserver.Window {
 				var c = Utility.Configuration.Config.FormBrowser;
 
 				config.ZoomRate = c.ZoomRate;
+                config.ZoomFit = c.ZoomFit;
 				config.LogInPageURL = c.LogInPageURL;
 				config.IsEnabled = c.IsEnabled;
 				config.ScreenShotPath = c.ScreenShotPath;
@@ -197,6 +190,7 @@ namespace ElectronicObserver.Window {
 			var c = Utility.Configuration.Config.FormBrowser;
 
 			c.ZoomRate = config.ZoomRate;
+            c.ZoomFit = config.ZoomFit;
 			c.LogInPageURL = config.LogInPageURL;
 			c.IsEnabled = config.IsEnabled;
 			c.ScreenShotPath = config.ScreenShotPath;

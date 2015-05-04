@@ -74,6 +74,10 @@
             this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.StripMenu_View_Browser = new System.Windows.Forms.ToolStripMenuItem();
             this.StripMenu_View_Log = new System.Windows.Forms.ToolStripMenuItem();
+            this.StripMenu_WindowCapture = new System.Windows.Forms.ToolStripMenuItem();
+            this.StripMenu_WindowCapture_SubWindow = new System.Windows.Forms.ToolStripMenuItem();
+            this.StripMenu_WindowCapture_AttachAll = new System.Windows.Forms.ToolStripMenuItem();
+            this.StripMenu_WindowCapture_DetachAll = new System.Windows.Forms.ToolStripMenuItem();
             this.StripMenu_Browser = new System.Windows.Forms.ToolStripMenuItem();
             this.StripMenu_Browser_ScreenShot = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator9 = new System.Windows.Forms.ToolStripSeparator();
@@ -237,7 +241,8 @@
             this.StripMenu_View_Battle,
             this.toolStripSeparator4,
             this.StripMenu_View_Browser,
-            this.StripMenu_View_Log});
+            this.StripMenu_View_Log,
+            this.StripMenu_WindowCapture});
             this.StripMenu_View.Name = "StripMenu_View";
             // 
             // StripMenu_View_Fleet
@@ -370,7 +375,38 @@
             this.StripMenu_View_Log.CheckOnClick = true;
             this.StripMenu_View_Log.Name = "StripMenu_View_Log";
             this.StripMenu_View_Log.Click += new System.EventHandler(this.StripMenu_View_Log_Click);
-            // 
+            //
+            // StripMenu_WindowCapture
+			// 
+			this.StripMenu_WindowCapture.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.StripMenu_WindowCapture_SubWindow,
+            this.StripMenu_WindowCapture_AttachAll,
+            this.StripMenu_WindowCapture_DetachAll});
+			this.StripMenu_WindowCapture.Name = "StripMenu_WindowCapture";
+			this.StripMenu_WindowCapture.Size = new System.Drawing.Size(218, 22);
+			this.StripMenu_WindowCapture.Text = "ウィンドウキャプチャ(&W)";
+			// 
+			// StripMenu_WindowCapture_SubWindow
+			// 
+			this.StripMenu_WindowCapture_SubWindow.Name = "StripMenu_WindowCapture_SubWindow";
+			this.StripMenu_WindowCapture_SubWindow.Size = new System.Drawing.Size(226, 22);
+			this.StripMenu_WindowCapture_SubWindow.Text = "コントロールウィンドウ(&C)";
+			this.StripMenu_WindowCapture_SubWindow.Click += new System.EventHandler(this.StripMenu_WindowCapture_SubWindow_Click);
+			// 
+			// StripMenu_WindowCapture_AttachAll
+			// 
+			this.StripMenu_WindowCapture_AttachAll.Name = "StripMenu_WindowCapture_AttachAll";
+			this.StripMenu_WindowCapture_AttachAll.Size = new System.Drawing.Size(226, 22);
+			this.StripMenu_WindowCapture_AttachAll.Text = "全て再検索して取り込む(&S)";
+			this.StripMenu_WindowCapture_AttachAll.Click += new System.EventHandler(this.StripMenu_WindowCapture_AttachAll_Click);
+			// 
+			// StripMenu_WindowCapture_DetachAll
+			// 
+			this.StripMenu_WindowCapture_DetachAll.Name = "StripMenu_WindowCapture_DetachAll";
+			this.StripMenu_WindowCapture_DetachAll.Size = new System.Drawing.Size(226, 22);
+			this.StripMenu_WindowCapture_DetachAll.Text = "全てのウィンドウを開放(&R)";
+			this.StripMenu_WindowCapture_DetachAll.Click += new System.EventHandler(this.StripMenu_WindowCapture_DetachAll_Click);
+			// 
             // StripMenu_Browser
             // 
             resources.ApplyResources(this.StripMenu_Browser, "StripMenu_Browser");
@@ -841,6 +877,10 @@
 		private System.Windows.Forms.ToolStripMenuItem StripMenu_Browser_NavigateToLogInPage;
 		private System.Windows.Forms.ToolStripMenuItem StripMenu_Browser_Navigate;
 		private System.Windows.Forms.ToolStripMenuItem StripMenu_Browser_AppliesStyleSheet;
+        private System.Windows.Forms.ToolStripMenuItem StripMenu_WindowCapture;
+        private System.Windows.Forms.ToolStripMenuItem StripMenu_WindowCapture_SubWindow;
+        private System.Windows.Forms.ToolStripMenuItem StripMenu_WindowCapture_AttachAll;
+        private System.Windows.Forms.ToolStripMenuItem StripMenu_WindowCapture_DetachAll;
 	}
 }
 

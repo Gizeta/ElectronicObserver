@@ -57,7 +57,23 @@ namespace ElectronicObserver.Utility.Storage {
 
 		}
 
-		public DataStorage Load( string path ) {
+
+        public void Save(StringBuilder stringBuilder)
+        {
+            try
+            {
+                var serializer = new DataContractSerializer(this.GetType());
+                using (XmlWriter xw = XmlWriter.Create(stringBuilder))
+                {
+                    serializer.WriteObject(xw, this);
+                }
+            }
+            catch (Exception ex)
+            {
+                Utility.ErrorReporter.SendErrorReport(ex, LoadResources.getter("DataStorage_5"));
+            }
+        }
+        public DataStorage Load( string path ) {
 
 			try {
 
@@ -140,6 +156,33 @@ namespace ElectronicObserver.Utility.Storage {
 
 			return null;
 		}
+
+        public DataStorage Load(TextReader reader)
+        {
+            try
+            {
+                var serializer = new DataContractSerializer(this.GetType());
+
+                using (XmlReader xr = XmlReader.Create(reader))
+                {
+                    return (DataStorage)serializer.ReadObject(xr);
+                }
+            }
+            catch (DirectoryNotFoundException)
+            {
+
+                Utility.Logger.Add(3, string.Format(LoadResources.getter("DataStorage_7")));
+
+            }
+            catch (Exception ex)
+            {
+
+                Utility.ErrorReporter.SendErrorReport(ex, LoadResources.getter("DataStorage_7"));
+
+            }
+
+            return null;
+        }
 
 	}
 }

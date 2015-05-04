@@ -79,6 +79,7 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Management" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.ServiceModel" />
     <Reference Include="System.Web" />
@@ -252,6 +253,7 @@
     <Compile Include="Utility\Storage\SerializableFont.cs" />
     <Compile Include="Utility\Storage\SerializableList.cs" />
     <Compile Include="Utility\SystemEvents.cs" />
+    <Compile Include="Utility\WinAPI.cs" />
     <Compile Include="Window\Control\ImageLabel.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -289,6 +291,12 @@
       <DependentUpon>StatusBar.cs</DependentUpon>
     </Compile>
     <Compile Include="Window\Control\StatusBarModule.cs" />
+    <Compile Include="Window\Control\WindowCaptureButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Window\Control\WindowCaptureButton.Designer.cs">
+      <DependentUpon>WindowCaptureButton.cs</DependentUpon>
+    </Compile>
     <Compile Include="Window\Dialog\DialogAlbumMasterEquipment.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -454,6 +462,30 @@
     <Compile Include="Window\FormShipGroup.Designer.cs">
       <DependentUpon>FormShipGroup.cs</DependentUpon>
     </Compile>
+    <Compile Include="Window\FormWindowCapture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Window\FormWindowCapture.Designer.cs">
+      <DependentUpon>FormWindowCapture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Window\Integrate\FormCandidate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Window\Integrate\FormCandidate.Designer.cs">
+      <DependentUpon>FormCandidate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Window\Integrate\FormCapturing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Window\Integrate\FormCapturing.Designer.cs">
+      <DependentUpon>FormCapturing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Window\Integrate\FormIntegrated.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Window\Integrate\FormIntegrated.Designer.cs">
+      <DependentUpon>FormIntegrated.cs</DependentUpon>
+    </Compile>
     <Compile Include="Window\Support\ControlHelper.cs" />
     <Compile Include="Window\Support\CustomFloatWindowFactory.cs">
       <SubType>Form</SubType>
@@ -482,6 +514,9 @@
     <EmbeddedResource Include="Window\Control\StatusBar.resx">
       <DependentUpon>StatusBar.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Window\Control\WindowCaptureButton.resx">
+      <DependentUpon>WindowCaptureButton.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Window\Dialog\DialogAlbumMasterEquipment.resx">
       <DependentUpon>DialogAlbumMasterEquipment.cs</DependentUpon>
     </EmbeddedResource>
@@ -496,6 +531,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Window\Dialog\DialogConfiguration.resx">
       <DependentUpon>DialogConfiguration.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Window\Dialog\DialogConfiguration.zh-Hans.resx">
       <DependentUpon>DialogConfiguration.cs</DependentUpon>
@@ -550,6 +586,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Window\Dialog\DialogVersion.resx">
       <DependentUpon>DialogVersion.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Window\Dialog\DialogVersion.zh-Hans.resx">
       <DependentUpon>DialogVersion.cs</DependentUpon>
@@ -623,6 +660,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Window\FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -644,7 +682,20 @@
     <EmbeddedResource Include="Window\FormShipGroup.zh-Hans.resx">
       <DependentUpon>FormShipGroup.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Window\FormWindowCapture.resx">
+      <DependentUpon>FormWindowCapture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window\Integrate\FormCandidate.resx">
+      <DependentUpon>FormCandidate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window\Integrate\FormCapturing.resx">
+      <DependentUpon>FormCapturing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window\Integrate\FormIntegrated.resx">
+      <DependentUpon>FormIntegrated.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
+    <None Include="Properties\DataSources\ElectronicObserver.Utility.CultureHelper.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

@@ -129,26 +129,82 @@
   <data name="Browser_InaccessableFlash" xml:space="preserve">
     <value>embed 要素の取得に失敗しました。</value>
   </data>
-  <data name="Browser_InaccessableGameFrame" xml:space="preserve">
-    <value>game_frame 要素の取得に失敗しました。</value>
-  </data>
   <data name="Dialog_Confirm" xml:space="preserve">
     <value>確認</value>
   </data>
   <data name="Dialog_Login" xml:space="preserve">
-    <value>ログインページへ移動します。\r\nよろしいですか？</value>
+    <value>ログインページへ移動します。
+よろしいですか？</value>
   </data>
   <data name="Dialog_Refresh" xml:space="preserve">
-    <value>再読み込みします。\r\nよろしいですか？</value>
+    <value>再読み込みします。
+よろしいですか？</value>
   </data>
   <data name="ErrorMessageNotFound" xml:space="preserve">
     <value>指定したプロセスIDの音量オブジェクトは存在しません。</value>
   </data>
+  <data name="FormBrowser_1" xml:space="preserve">
+    <value>ぴったり</value>
+  </data>
+  <data name="FrameScript" xml:space="preserve">
+    <value>// KCRDBと競合しないように同じように処理
+try {
+	var hideStyle = {width:"0px",height:"0px",visibility:"hidden",display:"none"};
+	var fillStyle = {margin:"0px",padding:"0px",position:"fixed",left:"0px",top:"0px",width:"100%",height:"100%",overflow:"hidden"};
+	var jqBody=document.body;
+	$(jqBody).css("zoom","normal");
+	$(jqBody).css({margin:"0px",padding:"0px",overflow:"hidden"});
+	$("#spacing_top").css(hideStyle);
+	$("#adFlashWrap").css(fillStyle);
+	$("#wsFlashWrap").css(fillStyle);
+	$("#flashWrap").css(fillStyle);
+	var elmExternalSwf=document.getElementById("externalswf");
+	if(elmExternalSwf != null) {
+		elmExternalSwf.setAttribute("width","100%");
+		elmExternalSwf.setAttribute("height","100%");
+	}
+	$("#sectionWrap").css(hideStyle);
+	$("#globalNavi").css(hideStyle);
+	$(".rollover").css(hideStyle);
+	$("img").css(hideStyle);
+	$(".badge").css(hideStyle);
+	$("#contentsWrap").css(hideStyle);
+}
+catch(e) {
+	alert("フレームCSS適用に失敗しました: "+e);
+}</value>
+  </data>
   <data name="KanColle_NotLoaded" xml:space="preserve">
     <value>艦これが読み込まれていないため、スクリーンショットを撮ることはできません。</value>
   </data>
+  <data name="PageScript" xml:space="preserve">
+    <value>// KCRDBと競合しないように同じように処理
+try {
+	var hideStyle = {width:"0px",height:"0px",visibility:"hidden",display:"none"};
+	var fillStyle = {margin:"0px",padding:"0px",position:"fixed",left:"0px",top:"0px",width:"100%",height:"100%",overflow:"hidden"};
+	$(document.body).css({margin:"0px",padding:"0px",overflow:"hidden"});
+	$("img").css(hideStyle);
+	//$("#dmm_ntgnavi").css(hideStyle);
+	$("#dmm-ntgnavi-renew").css(hideStyle);
+	$("#w").css(fillStyle);
+	$("#main-ntg").css(fillStyle);
+	$("#page").css(fillStyle);
+	$("#area-game").css(fillStyle);
+	var jqGameFrame=$("#game_frame");
+	jqGameFrame.css(fillStyle);
+	jqGameFrame.attr("scrolling","no");
+	jqGameFrame.attr("width","100%");
+	jqGameFrame.attr("height","100%");
+	$("[class^=area-naviapp]").css(hideStyle);
+	$("#foot").css(hideStyle);
+}
+catch(e) {
+	alert("ページCSS適用に失敗しました: "+e);
+}</value>
+  </data>
   <data name="Program_1" xml:space="preserve">
-    <value>これは七四式電子観測儀のサブプログラムであり、単体では起動できません。\r\n本体から起動してください。</value>
+    <value>これは七四式電子観測儀のサブプログラムであり、単体では起動できません。
+本体から起動してください。</value>
   </data>
   <data name="Program_2" xml:space="preserve">
     <value>情報</value>
@@ -164,5 +220,8 @@
   </data>
   <data name="Zoom_Failed" xml:space="preserve">
     <value>ズームの適用に失敗しました。</value>
+  </data>
+  <data name="Zoom_FitText" xml:space="preserve">
+    <value>現在: ぴったり</value>
   </data>
 </root>

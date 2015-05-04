@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using ElectronicObserver.Data;
 using System.Drawing.Design;
 using ElectronicObserver.Resource;
+using ElectronicObserver.Utility.Data;
 
 namespace ElectronicObserver.Window.Control {
 
@@ -250,8 +251,10 @@ namespace ElectronicObserver.Window.Control {
 
 			ShipDataMaster ship = KCDatabase.Instance.MasterShips[shipID];
 
-			if ( SlotList.Length != slot.Length ) {
-				SlotList = new SlotItem[slot.Length];
+			int slotLength = slot != null ? slot.Length : 0;
+            if (SlotList.Length != slotLength)
+            {
+                SlotList = new SlotItem[slotLength];
 				for ( int i = 0; i < SlotList.Length; i++ ) {
 					SlotList[i] = new SlotItem();
 				}
@@ -263,7 +266,7 @@ namespace ElectronicObserver.Window.Control {
 				SlotList[i].AircraftMax = ship.Aircraft[i];
 			}
 
-			SlotSize = ship.SlotSize;
+            SlotSize = ship != null ? ship.SlotSize : 0;
 
 			PropertyChanged();
 		}
@@ -352,15 +355,7 @@ namespace ElectronicObserver.Window.Control {
 
 				if ( slot.EquipmentID != -1 ) {
 
-					switch ( slot.Equipment.CategoryType ) {
-						case 6:		//艦戦
-						case 7:		//艦爆
-						case 8:		//艦攻
-						case 9:		//艦偵
-						case 10:	//水偵
-						case 11:	//水爆
-						case 25:	//オートジャイロ
-						case 26:	//対潜哨戒機
+					if ( Calculator.IsAircraft( slot.EquipmentID, true ) ) {
 
 							if ( slot.AircraftMax == 0 ) {
 								aircraftColor = AircraftColorDisabled;
@@ -371,12 +366,11 @@ namespace ElectronicObserver.Window.Control {
 							} else {
 								aircraftColor = AircraftColorFull;
 							}
-							break;
-
-						default:
+                    }
+                    else
+                    {
 							if ( slot.AircraftMax == 0 )
 								drawAircraftSlot = false;
-							break;
 					}
 
 				} else if ( slot.AircraftMax == 0 ) {

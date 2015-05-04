@@ -13,6 +13,7 @@ using System.Windows.Forms;
 using WeifenLuo.WinFormsUI.Docking;
 using ElectronicObserver.Utility.Data;
 using ElectronicObserver.Window.Support;
+using ElectronicObserver.Resource.Record;
 
 namespace ElectronicObserver.Window {
 
@@ -89,6 +90,7 @@ namespace ElectronicObserver.Window {
 
 
 			Utility.Configuration.Instance.ConfigurationChanged += ConfigurationChanged;
+            Utility.SystemEvents.UpdateTimerTick += SystemEvents_UpdateTimerTick;
 
 			FlowPanelResource.SetFlowBreak( Ammo, true );
 
@@ -103,83 +105,135 @@ namespace ElectronicObserver.Window {
 			HQLevel.MainFont = Utility.Configuration.Config.UI.MainFont;
 			HQLevel.SubFont = Utility.Configuration.Config.UI.SubFont;
 		}
-		
-		void Updated( string apiname, dynamic data ) {
 
-			KCDatabase db = KCDatabase.Instance;
+        void Updated(string apiname, dynamic data)
+        {
 
-
-			FlowPanelMaster.SuspendLayout();
-
-			//Admiral
-			FlowPanelAdmiral.SuspendLayout();
-			AdmiralName.Text = string.Format( "{0} {1}", db.Admiral.AdmiralName, Constants.GetAdmiralRank( db.Admiral.Rank ) );
-			AdmiralComment.Text = db.Admiral.Comment;
-			FlowPanelAdmiral.ResumeLayout();
-
-			//HQ Level
-			HQLevel.Value = db.Admiral.Level;
-			if ( db.Admiral.Level < ExpTable.AdmiralExp.Max( e => e.Key ) ) {
-				HQLevel.TextNext = "next:";
-				HQLevel.ValueNext = ExpTable.GetNextExpAdmiral( db.Admiral.Exp );
-			} else {
-				HQLevel.TextNext = "exp:";
-				HQLevel.ValueNext = db.Admiral.Exp;
-			}
+            KCDatabase db = KCDatabase.Instance;
 
 
-			//Fleet
-			FlowPanelFleet.SuspendLayout();
-			ShipCount.Text = string.Format( "{0}/{1}", db.Ships.Count, db.Admiral.MaxShipCount );
-			if ( db.Ships.Count > db.Admiral.MaxShipCount - 5 )
-				ShipCount.BackColor = Color.LightCoral;
-			else
-				ShipCount.BackColor = Color.Transparent;
+            FlowPanelMaster.SuspendLayout();
 
-			EquipmentCount.Text = string.Format( "{0}/{1}", db.Equipments.Count, db.Admiral.MaxEquipmentCount );
-			if ( db.Equipments.Count > db.Admiral.MaxEquipmentCount - 20 )
-				EquipmentCount.BackColor = Color.LightCoral;
-			else
-				EquipmentCount.BackColor = Color.Transparent;
-			FlowPanelFleet.ResumeLayout();
+            //Admiral
+            FlowPanelAdmiral.SuspendLayout();
+            AdmiralName.Text = string.Format("{0} {1}", db.Admiral.AdmiralName, Constants.GetAdmiralRank(db.Admiral.Rank));
+            AdmiralComment.Text = db.Admiral.Comment;
+            FlowPanelAdmiral.ResumeLayout();
 
-			//UseItems
-			FlowPanelUseItem.SuspendLayout();
-			InstantRepair.Text = db.Material.InstantRepair.ToString();
-			InstantConstruction.Text = db.Material.InstantConstruction.ToString();
-			DevelopmentMaterial.Text = db.Material.DevelopmentMaterial.ToString();
-			ModdingMaterial.Text = db.Material.ModdingMaterial.ToString();
-			FurnitureCoin.Text = db.Admiral.FurnitureCoin.ToString();
-			FlowPanelUseItem.ResumeLayout();
+            //HQ Level
+            HQLevel.Value = db.Admiral.Level;
+            {
+                StringBuilder tooltip = new StringBuilder();
+                if (db.Admiral.Level < ExpTable.AdmiralExp.Max(e => e.Key))
+                {
+                    HQLevel.TextNext = "next:";
+                    HQLevel.ValueNext = ExpTable.GetNextExpAdmiral(db.Admiral.Exp);
+                    tooltip.AppendFormat("{0} / {1}\r\n", db.Admiral.Exp, ExpTable.AdmiralExp[db.Admiral.Level + 1].Total);
+                }
+                else
+                {
+                    HQLevel.TextNext = "exp:";
+                    HQLevel.ValueNext = db.Admiral.Exp;
+                }
+
+                //戦果ツールチップ
+                //fixme: もっとましな書き方はなかっただろうか
+                {
+                    var res = RecordManager.Instance.Resource.GetRecordPrevious();
+                    if (res != null)
+                    {
+                        int diff = db.Admiral.Exp - res.HQExp;
+                        tooltip.AppendFormat(LoadResources.getter("FormHeadquarters_1"), diff, diff * 7 / 10000.0);
+                    }
+                }
+                {
+                    var res = RecordManager.Instance.Resource.GetRecordDay();
+                    if (res != null)
+                    {
+                        int diff = db.Admiral.Exp - res.HQExp;
+                        tooltip.AppendFormat(LoadResources.getter("FormHeadquarters_1"), diff, diff * 7 / 10000.0);
+                    }
+                }
+                {
+                    var res = RecordManager.Instance.Resource.GetRecordMonth();
+                    if (res != null)
+                    {
+                        int diff = db.Admiral.Exp - res.HQExp;
+                        tooltip.AppendFormat(LoadResources.getter("FormHeadquarters_1"), diff, diff * 7 / 10000.0);
+                    }
+                }
+
+                ToolTipInfo.SetToolTip(HQLevel, tooltip.ToString());
+            }
+
+            //Fleet
+            FlowPanelFleet.SuspendLayout();
+            ShipCount.Text = string.Format("{0}/{1}", db.Ships.Count, db.Admiral.MaxShipCount);
+            if (db.Ships.Count > db.Admiral.MaxShipCount - 5)
+                ShipCount.BackColor = Color.LightCoral;
+            else
+                ShipCount.BackColor = Color.Transparent;
+
+            EquipmentCount.Text = string.Format("{0}/{1}", db.Equipments.Count, db.Admiral.MaxEquipmentCount);
+            if (db.Equipments.Count > db.Admiral.MaxEquipmentCount - 17)
+                EquipmentCount.BackColor = Color.LightCoral;
+            else
+                EquipmentCount.BackColor = Color.Transparent;
+            FlowPanelFleet.ResumeLayout();
+
+            //UseItems
+            FlowPanelUseItem.SuspendLayout();
+            InstantRepair.Text = db.Material.InstantRepair.ToString();
+            InstantConstruction.Text = db.Material.InstantConstruction.ToString();
+            DevelopmentMaterial.Text = db.Material.DevelopmentMaterial.ToString();
+            ModdingMaterial.Text = db.Material.ModdingMaterial.ToString();
+            FurnitureCoin.Text = db.Admiral.FurnitureCoin.ToString();
+            FlowPanelUseItem.ResumeLayout();
 
 
-			//Resources
-			FlowPanelResource.SuspendLayout();
-			{
-				Color overcolor = Color.Moccasin;
-				Fuel.Text = db.Material.Fuel.ToString();
-				Fuel.BackColor = db.Material.Fuel < db.Admiral.MaxResourceRegenerationAmount ? Color.Transparent : overcolor;
+            //Resources
+            FlowPanelResource.SuspendLayout();
+            {
+                Color overcolor = Color.Moccasin;
+                Fuel.Text = db.Material.Fuel.ToString();
+                Fuel.BackColor = db.Material.Fuel < db.Admiral.MaxResourceRegenerationAmount ? Color.Transparent : overcolor;
 
-				Ammo.Text = db.Material.Ammo.ToString();
-				Ammo.BackColor = db.Material.Ammo < db.Admiral.MaxResourceRegenerationAmount ? Color.Transparent : overcolor;
+                Ammo.Text = db.Material.Ammo.ToString();
+                Ammo.BackColor = db.Material.Ammo < db.Admiral.MaxResourceRegenerationAmount ? Color.Transparent : overcolor;
 
-				Steel.Text = db.Material.Steel.ToString();
-				Steel.BackColor = db.Material.Steel < db.Admiral.MaxResourceRegenerationAmount ? Color.Transparent : overcolor;
+                Steel.Text = db.Material.Steel.ToString();
+                Steel.BackColor = db.Material.Steel < db.Admiral.MaxResourceRegenerationAmount ? Color.Transparent : overcolor;
 
-				Bauxite.Text = db.Material.Bauxite.ToString();
-				Bauxite.BackColor = db.Material.Bauxite < db.Admiral.MaxResourceRegenerationAmount ? Color.Transparent : overcolor;
-			}
-			FlowPanelResource.ResumeLayout();
+                Bauxite.Text = db.Material.Bauxite.ToString();
+                Bauxite.BackColor = db.Material.Bauxite < db.Admiral.MaxResourceRegenerationAmount ? Color.Transparent : overcolor;
+            }
+            FlowPanelResource.ResumeLayout();
 
-			FlowPanelMaster.ResumeLayout();
-			if ( !FlowPanelMaster.Visible )
-				FlowPanelMaster.Visible = true;
-			AdmiralName.Refresh();
-			AdmiralComment.Refresh();
+            FlowPanelMaster.ResumeLayout();
+            if (!FlowPanelMaster.Visible)
+                FlowPanelMaster.Visible = true;
+            AdmiralName.Refresh();
+            AdmiralComment.Refresh();
 
-		}
+        }
 
+        void SystemEvents_UpdateTimerTick()
+        {
 
+            KCDatabase db = KCDatabase.Instance;
+
+            if (db.Ships.Count <= 0) return;
+
+            if (db.Ships.Count >= db.Admiral.MaxShipCount)
+            {
+                ShipCount.BackColor = DateTime.Now.Second % 2 == 0 ? Color.LightCoral : Color.Transparent;
+            }
+
+            if (db.Equipments.Count >= db.Admiral.MaxEquipmentCount)
+            {
+                EquipmentCount.BackColor = DateTime.Now.Second % 2 == 0 ? Color.LightCoral : Color.Transparent;
+            }
+        }
 
 		protected override string GetPersistString() {
 			return "HeadQuarters";

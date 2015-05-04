@@ -1348,10 +1348,10 @@ HP1あたり: 鋼 {0:F2} / 燃 {1:F2}
     <value>ElectronicObserver</value>
   </data>
   <data name="SoftwareInformation_3" xml:space="preserve">
-    <value>一一型改</value>
+    <value>一二型改三甲</value>
   </data>
   <data name="SoftwareInformation_4" xml:space="preserve">
-    <value>1.1.1</value>
+    <value>1.2.3.1</value>
   </data>
   <data name="SoftwareInformation_5" xml:space="preserve">
     <value>新しいバージョンがリリースされています！ : {0}
@@ -1650,5 +1650,82 @@ HP1あたり: 鋼 {0:F2} / 燃 {1:F2}
   </data>
   <data name="Language_zh-Hans" xml:space="preserve">
     <value>中国語</value>
+  </data>
+  <data name="BattleManager_1" xml:space="preserve">
+    <value>{0}「{1}」が戦列に加わりました。</value>
+  </data>
+  <data name="BattleManager_2" xml:space="preserve">
+    <value>アイテム「{0}」を入手しました。</value>
+  </data>
+  <data name="BattleManager_3" xml:space="preserve">
+    <value>{0}「{1}」を入手しました。</value>
+  </data>
+  <data name="createitem_1" xml:space="preserve">
+    <value>{0}「{1}」の開発に成功しました。({2}/{3}/{4}/{5} 秘書艦: {6})</value>
+  </data>
+  <data name="createitem_2" xml:space="preserve">
+    <value>開発に失敗しました。({0}/{1}/{2}/{3} 秘書艦: {4})</value>
+  </data>
+  <data name="DataStorage_5" xml:space="preserve">
+    <value>DataStorage の書き込みに失敗しました。</value>
+  </data>
+  <data name="DataStorage_6" xml:space="preserve">
+    <value>DataStorage ファイルは存在しません。</value>
+  </data>
+  <data name="DataStorage_7" xml:space="preserve">
+    <value>DataStorage の読み込みに失敗しました。</value>
+  </data>
+  <data name="destroyship_1" xml:space="preserve">
+    <value> を解体しました。</value>
+  </data>
+  <data name="DialogConfiguration_10" xml:space="preserve">
+    <value>レジストリからの読み込みに失敗しました。</value>
+  </data>
+  <data name="getship_1" xml:space="preserve">
+    <value>{0}「{1}」の建造が完了しました。</value>
+  </data>
+  <data name="DialogConfiguration_11" xml:space="preserve">
+    <value>レジストリに登録します。よろしいですか？
+＊完全に適用するには再起動が必要です。</value>
+  </data>
+  <data name="DialogConfiguration_12" xml:space="preserve">
+    <value>確認</value>
+  </data>
+  <data name="DialogConfiguration_13" xml:space="preserve">
+    <value>レジストリへの書き込みに失敗しました。</value>
+  </data>
+  <data name="DialogConfiguration_14" xml:space="preserve">
+    <value>レジストリへの書き込みに失敗しました。
+</value>
+  </data>
+  <data name="DialogConfiguration_15" xml:space="preserve">
+    <value>エラー</value>
+  </data>
+  <data name="DialogConfiguration_16" xml:space="preserve">
+    <value>レジストリを削除します。よろしいですか？
+＊完全に適用するには再起動が必要です。</value>
+  </data>
+  <data name="DialogConfiguration_17" xml:space="preserve">
+    <value>レジストリの削除に失敗しました。</value>
+  </data>
+  <data name="DialogConfiguration_18" xml:space="preserve">
+    <value>レジストリの削除に失敗しました。
+</value>
+  </data>
+  <data name="FormArsenal_1" xml:space="preserve">
+    <value>艦娘</value>
+  </data>
+  <data name="FormArsenal_2" xml:space="preserve">
+    <value>工廠ドック #{0}で {1}の建造を開始しました。({2}/{3}/{4}/{5}-{6} 秘書艦: {7})</value>
+  </data>
+  <data name="FormCompass_13" xml:space="preserve">
+    <value>敵影を見ず</value>
+  </data>
+  <data name="FormCompass_14" xml:space="preserve">
+    <value>能動分岐</value>
+  </data>
+  <data name="FormHeadquarters_1" xml:space="preserve">
+    <value>今回: +{0} exp. / 戦果 {1:n2}
+</value>
   </data>
 </root>

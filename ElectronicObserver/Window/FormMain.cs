@@ -6,6 +6,7 @@ using ElectronicObserver.Resource;
 using ElectronicObserver.Resource.Record;
 using ElectronicObserver.Utility;
 using ElectronicObserver.Window.Dialog;
+using ElectronicObserver.Window.Integrate;
 using ElectronicObserver.Window.Support;
 using System;
 using System.Collections.Generic;
@@ -26,6 +27,8 @@ namespace ElectronicObserver.Window {
 		#region Properties
 		#endregion
 
+        public DockPanel MainPanel { get { return MainDockPanel; } }
+        public FormWindowCapture WindowCapture { get { return fWindowCapture; } }
 
 		#region Forms
 
@@ -43,6 +46,7 @@ namespace ElectronicObserver.Window {
 		public FormFleetOverview fFleetOverview;
 		public FormShipGroup fShipGroup;
 		public FormBrowserHost fBrowser;
+        public FormWindowCapture fWindowCapture;
 
 		#endregion
 
@@ -122,6 +126,7 @@ namespace ElectronicObserver.Window {
 			SubForms.Add( fFleetOverview = new FormFleetOverview( this ) );
 			SubForms.Add( fShipGroup = new FormShipGroup( this ) );
 			SubForms.Add( fBrowser = new FormBrowserHost( this ) );
+            SubForms.Add(fWindowCapture = new FormWindowCapture(this));
             StripMenu_View_FleetOverview.Checked = false;
             StripMenu_View_ShipGroup.Checked = false;
             StripMenu_View_Dock.Checked = false;
@@ -184,6 +189,7 @@ namespace ElectronicObserver.Window {
 			var c = Utility.Configuration.Config;
 
 			StripMenu_Debug.Enabled = StripMenu_Debug.Visible = c.Debug.EnableDebugMenu;
+            StripStatus.Visible = c.Life.ShowStatusBar;
 
 			TopMost = c.Life.TopMost;
 
@@ -204,7 +210,7 @@ namespace ElectronicObserver.Window {
 
 			using ( var dialog = new DialogLocalAPILoader() ) {
 
-				if ( dialog.ShowDialog() == System.Windows.Forms.DialogResult.OK ) {
+				if ( dialog.ShowDialog(this) == System.Windows.Forms.DialogResult.OK ) {
 					if ( APIObserver.Instance.APIList.ContainsKey( dialog.APIName ) ) {
 
 						if ( dialog.IsResponse ) {
@@ -227,7 +233,10 @@ namespace ElectronicObserver.Window {
 			SystemEvents.OnUpdateTimerTick();
 
 
-			StripStatus_Clock.Text = DateTime.Now.ToString( "HH:mm:ss" );
+            // 東京標準時で表示
+            DateTime now = TimeZoneInfo.ConvertTimeBySystemTimeZoneId(DateTime.UtcNow, "Tokyo Standard Time");
+            StripStatus_Clock.Text = now.ToString("HH:mm:ss");
+            StripStatus_Clock.ToolTipText = now.ToString("yyyy/MM/dd (ddd)");
 		}
 
 
@@ -309,7 +318,13 @@ namespace ElectronicObserver.Window {
 					return fShipGroup;
 				case "Browser":
 					return fBrowser;
+                case "WindowCapture":
+                    return fWindowCapture;
 				default:
+                    if (persistString.StartsWith(FormIntegrate.PREFIX))
+                    {
+                        return FormIntegrate.FromPersistString(this, persistString);
+                    }
 					return null;
 			}
 		}
@@ -321,7 +336,8 @@ namespace ElectronicObserver.Window {
 			try {
 
 				if ( stream != null ) {
-
+                    // 取り込んだウィンドウは一旦デタッチして閉じる
+                    fWindowCapture.CloseAll();
 					foreach ( var f in SubForms ) {
 						f.Show( MainDockPanel, DockState.Document );
 						f.DockPanel = null;
@@ -344,7 +360,7 @@ namespace ElectronicObserver.Window {
 					if ( MainDockPanel.Contents.Count > 0 )
 						MainDockPanel.Contents.First().DockHandler.Activate();
 					//*/
-
+                    fWindowCapture.AttachAll();
 				} else {
 
 					foreach ( var f in SubForms )
@@ -459,7 +475,7 @@ namespace ElectronicObserver.Window {
 		private void StripMenu_Help_Version_Click( object sender, EventArgs e ) {
 
 			using ( var dialog = new DialogVersion() ) {
-				dialog.ShowDialog();
+				dialog.ShowDialog(this);
 			}
 
 		}
@@ -467,7 +483,7 @@ namespace ElectronicObserver.Window {
 		private void StripMenu_File_Configuration_Click( object sender, EventArgs e ) {
 
 			using ( var dialog = new DialogConfiguration( Utility.Configuration.Config ) ) {
-				if ( dialog.ShowDialog() == System.Windows.Forms.DialogResult.OK ) {
+				if ( dialog.ShowDialog(this) == System.Windows.Forms.DialogResult.OK ) {
 
 					dialog.ToConfiguration( Utility.Configuration.Config );
 					Utility.Configuration.Instance.OnConfigurationChanged();
@@ -643,7 +659,7 @@ namespace ElectronicObserver.Window {
                 MessageBox.Show(LoadResources.getter("FormMain_25"), LoadResources.getter("FormMain_21"), MessageBoxButtons.OK, MessageBoxIcon.Error);
 
 			} else {
-				new DialogAlbumMasterShip().Show();
+				new DialogAlbumMasterShip().Show(this);
 			}
 
 		}
@@ -654,7 +670,7 @@ namespace ElectronicObserver.Window {
                 MessageBox.Show(LoadResources.getter("FormMain_26"), LoadResources.getter("FormMain_21"), MessageBoxButtons.OK, MessageBoxIcon.Error);
 
 			} else {
-				new DialogAlbumMasterEquipment().Show();
+				new DialogAlbumMasterEquipment().Show(this);
 			}
 
 		}
@@ -720,7 +736,7 @@ namespace ElectronicObserver.Window {
 
 		private void StripMenu_Tool_EquipmentList_Click( object sender, EventArgs e ) {
 
-			new DialogEquipmentList().Show();
+			new DialogEquipmentList().Show(this);
 
 		}
 
@@ -844,7 +860,7 @@ namespace ElectronicObserver.Window {
 
 
 		private void SeparatorWhitecap_Click( object sender, EventArgs e ) {
-			new DialogWhitecap().Show();
+			new DialogWhitecap().Show(this);
 		}
 
 
@@ -911,7 +927,7 @@ namespace ElectronicObserver.Window {
             using (var dialog = new Window.Dialog.DialogTextInput(LoadResources.getter("FormMain_46"), LoadResources.getter("FormMain_47")))
             {
 
-				if ( dialog.ShowDialog() == System.Windows.Forms.DialogResult.OK ) {
+				if ( dialog.ShowDialog(this) == System.Windows.Forms.DialogResult.OK ) {
 
 					fBrowser.Navigate( dialog.InputtedText );
 				}
@@ -983,8 +999,14 @@ namespace ElectronicObserver.Window {
 
 			StripMenu_Browser_AppliesStyleSheet.Checked = Utility.Configuration.Config.FormBrowser.AppliesStyleSheet;
 		}
-
-
+        private void StripMenu_WindowCapture_AttachAll_Click(object sender, EventArgs e)
+        {
+            fWindowCapture.AttachAll();
+        }
+        private void StripMenu_WindowCapture_DetachAll_Click(object sender, EventArgs e)
+        {
+            fWindowCapture.DetachAll();
+        }
 		#region フォーム表示
 
 		private void StripMenu_View_Fleet_1_Click( object sender, EventArgs e ) {
@@ -1057,6 +1079,11 @@ namespace ElectronicObserver.Window {
 			fBrowser.Show( MainDockPanel );
             CheckMenu();
 		}
+
+        private void StripMenu_WindowCapture_SubWindow_Click(object sender, EventArgs e)
+        {
+            fWindowCapture.Show(MainDockPanel);
+        } 
 		#endregion
 
 

@@ -145,7 +145,7 @@ namespace ElectronicObserver.Window {
 				case "api_req_practice/midnight_battle": {
 						int[] hp = bm.BattleNight.EmulateBattle();
 
-						SetNightBattleEvent( hp, false, bm.BattleNight );
+                        SetNightBattleEvent(bm.BattleNight.InitialHP.Skip(1).ToArray(), false, bm.BattleNight);
 						SetHPNormal( hp, bm.BattleNight );
 						SetDamageRateNormal( hp, bm.BattleDay );
 
@@ -158,7 +158,7 @@ namespace ElectronicObserver.Window {
 						SetFormation( bm.BattleNight );
 						ClearAerialWarfare();
 						ClearSearchingResult();
-						SetNightBattleEvent( hp, false, bm.BattleNight );
+                        SetNightBattleEvent(bm.BattleNight.InitialHP.Skip(1).ToArray(), false, bm.BattleNight);
 						SetHPNormal( hp, bm.BattleNight );
 						SetDamageRateNormal( hp, bm.BattleNight );
 
@@ -205,7 +205,7 @@ namespace ElectronicObserver.Window {
 				case "api_req_combined_battle/midnight_battle": {
 						int[] hp = bm.BattleNight.EmulateBattle();
 
-						SetNightBattleEvent( hp, true, bm.BattleNight );
+                        SetNightBattleEvent(bm.BattleNight.InitialHP.Skip(1).Concat(((BattleDataCombined)bm.BattleNight).InitialHPCombined.Skip(1)).ToArray(), true, bm.BattleNight);
 						SetHPCombined( hp, bm.BattleNight );
 						SetDamageRateCombined( hp, bm.BattleDay );
 
@@ -218,7 +218,7 @@ namespace ElectronicObserver.Window {
 						SetFormation( bm.BattleNight );
 						ClearAerialWarfare();
 						ClearSearchingResult();
-						SetNightBattleEvent( hp, true, bm.BattleNight );
+                        SetNightBattleEvent(bm.BattleNight.InitialHP.Skip(1).Concat(((BattleDataCombined)bm.BattleNight).InitialHPCombined.Skip(1)).ToArray(), true, bm.BattleNight);
 						SetHPCombined( hp, bm.BattleNight );
 						SetDamageRateCombined( hp, bm.BattleNight );
 
@@ -337,12 +337,14 @@ namespace ElectronicObserver.Window {
 				AirSuperiority.Text = Constants.GetAirSuperiority( -1 );
 
 				AirStage1Friend.Text = "-";
-				AirStage1Friend.ImageAlign = ContentAlignment.MiddleCenter;
+                AirStage1Friend.ForeColor = SystemColors.ControlText; 
+                AirStage1Friend.ImageAlign = ContentAlignment.MiddleCenter;
 				AirStage1Friend.ImageIndex = -1;
 				ToolTipInfo.SetToolTip( AirStage1Friend, null );
 
 				AirStage1Enemy.Text = "-";
-				AirStage1Enemy.ImageAlign = ContentAlignment.MiddleCenter;
+                AirStage1Enemy.ForeColor = SystemColors.ControlText;
+                AirStage1Enemy.ImageAlign = ContentAlignment.MiddleCenter;
 				AirStage1Enemy.ImageIndex = -1;
 				ToolTipInfo.SetToolTip( AirStage1Enemy, null );
 			}
@@ -390,7 +392,9 @@ namespace ElectronicObserver.Window {
 
 			} else {	//艦対空戦闘発生せず
 				AirStage2Friend.Text = "-";
-				AirStage2Enemy.Text = "-";
+                AirStage2Friend.ForeColor = SystemColors.ControlText;
+                AirStage2Enemy.Text = "-";
+                AirStage2Enemy.ForeColor = SystemColors.ControlText; 
                 AACutin.Text = LoadResources.getter("FormBattle_3");
 				AACutin.ImageAlign = ContentAlignment.MiddleCenter;
 				AACutin.ImageIndex = -1;
@@ -512,9 +516,11 @@ namespace ElectronicObserver.Window {
 				AirSuperiority.Text = Constants.GetAirSuperiority( -1 );
 				ToolTipInfo.SetToolTip( AirSuperiority, null );
 				AirStage1Friend.Text = "-";
-				ToolTipInfo.SetToolTip( AirStage1Friend, null );
+                AirStage1Friend.ForeColor = SystemColors.ControlText;
+                ToolTipInfo.SetToolTip( AirStage1Friend, null );
 				AirStage1Enemy.Text = "-";
-				ToolTipInfo.SetToolTip( AirStage1Enemy, null );
+                AirStage1Enemy.ForeColor = SystemColors.ControlText; 
+                ToolTipInfo.SetToolTip(AirStage1Enemy, null);
 			}
 
 			//艦対空戦闘
@@ -598,11 +604,15 @@ namespace ElectronicObserver.Window {
 					}
 				}
 
-			} else {
+            }
+            else
+            {	//艦対空戦闘発生せず
 				AirStage2Friend.Text = "-";
-				ToolTipInfo.SetToolTip( AirStage2Friend, null );
+                AirStage2Friend.ForeColor = SystemColors.ControlText; 
+                ToolTipInfo.SetToolTip(AirStage2Friend, null);
 				AirStage2Enemy.Text = "-";
-				ToolTipInfo.SetToolTip( AirStage2Enemy, null );
+                AirStage2Enemy.ForeColor = SystemColors.ControlText; 
+                ToolTipInfo.SetToolTip(AirStage2Enemy, null);
                 AACutin.Text = LoadResources.getter("FormBattle_3");
 				AACutin.ImageAlign = ContentAlignment.MiddleCenter;
 				AACutin.ImageIndex = -1;
@@ -970,6 +980,9 @@ namespace ElectronicObserver.Window {
 		/// <summary>
 		/// 夜戦における各種表示を設定します。
 		/// </summary>
+        /// <param name="hp">戦闘開始前のHP。</param>
+        /// <param name="isCombined">連合艦隊かどうか。</param>
+        /// <param name="bd">戦闘データ。</param>
 		private void SetNightBattleEvent( int[] hp, bool isCombined, BattleData bd ) {
 
 			FleetData fleet = KCDatabase.Instance.Fleet[isCombined ? 2 : bd.FleetIDFriend];
@@ -1030,6 +1043,7 @@ namespace ElectronicObserver.Window {
 			if ( (int)bd.Data.api_touch_plane[0] != -1 ) {
                 SearchingFriend.Text = LoadResources.getter("FormBattle_13");
 				SearchingFriend.ImageIndex = (int)ResourceManager.EquipmentContent.Seaplane;
+                SearchingFriend.ImageAlign = ContentAlignment.MiddleLeft;
                 ToolTipInfo.SetToolTip(SearchingFriend, LoadResources.getter("FormBattle_14") + KCDatabase.Instance.MasterEquipments[(int)bd.Data.api_touch_plane[0]].Name);
 			} else {
 				ToolTipInfo.SetToolTip( SearchingFriend, null );
@@ -1038,6 +1052,7 @@ namespace ElectronicObserver.Window {
 			if ( (int)bd.Data.api_touch_plane[1] != -1 ) {
                 SearchingEnemy.Text = LoadResources.getter("FormBattle_13");
 				SearchingEnemy.ImageIndex = (int)ResourceManager.EquipmentContent.Seaplane;
+                SearchingFriend.ImageAlign = ContentAlignment.MiddleLeft;
                 ToolTipInfo.SetToolTip(SearchingEnemy, LoadResources.getter("FormBattle_14") + KCDatabase.Instance.MasterEquipments[(int)bd.Data.api_touch_plane[1]].Name);
 			} else {
 				ToolTipInfo.SetToolTip( SearchingEnemy, null );

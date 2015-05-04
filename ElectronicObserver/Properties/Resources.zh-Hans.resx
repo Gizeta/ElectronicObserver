@@ -884,7 +884,7 @@
   <data name="FleetData_10" xml:space="preserve">
     <value>开始时间 : </value>
   </data>
-  <data name="FleetData_111" xml:space="preserve">
+  <data name="FleetData_11" xml:space="preserve">
     <value>未补给</value>
   </data>
   <data name="FleetData_12" xml:space="preserve">
@@ -1347,10 +1347,10 @@ Sony大法好，来正面上我啊？</value>
     <value>ElectronicObserver</value>
   </data>
   <data name="SoftwareInformation_3" xml:space="preserve">
-    <value>一一型改</value>
+    <value>一二型改三甲</value>
   </data>
   <data name="SoftwareInformation_4" xml:space="preserve">
-    <value>1.1.1</value>
+    <value>1.2.3.1</value>
   </data>
   <data name="SoftwareInformation_5" xml:space="preserve">
     <value>新版本已经发布！ : {0}
@@ -1647,5 +1647,82 @@ Cut-In种类: {1} ({2})</value>
   </data>
   <data name="Language_zh-Hans" xml:space="preserve">
     <value>中文-简体</value>
+  </data>
+  <data name="BattleManager_1" xml:space="preserve">
+    <value>{0}「{1}」加入了战斗序列。</value>
+  </data>
+  <data name="BattleManager_2" xml:space="preserve">
+    <value>获得道具「{0}」。</value>
+  </data>
+  <data name="BattleManager_3" xml:space="preserve">
+    <value>获得了{0}「{1}」。</value>
+  </data>
+  <data name="createitem_1" xml:space="preserve">
+    <value>{0}「{1}」的开发成功了。({2}/{3}/{4}/{5} 秘书舰: {6})</value>
+  </data>
+  <data name="createitem_2" xml:space="preserve">
+    <value>开发失败了。({0}/{1}/{2}/{3} 秘书舰: {4})</value>
+  </data>
+  <data name="DataStorage_5" xml:space="preserve">
+    <value>DataStorage 写入失败。</value>
+  </data>
+  <data name="DataStorage_6" xml:space="preserve">
+    <value>DataStorage 文件不存在。</value>
+  </data>
+  <data name="DataStorage_7" xml:space="preserve">
+    <value>DataStorage 读取失败。</value>
+  </data>
+  <data name="destroyship_1" xml:space="preserve">
+    <value> 被解体了。</value>
+  </data>
+  <data name="DialogConfiguration_10" xml:space="preserve">
+    <value>注册表读取失败。</value>
+  </data>
+  <data name="getship_1" xml:space="preserve">
+    <value>{0}「{1}」建造完成。</value>
+  </data>
+  <data name="DialogConfiguration_11" xml:space="preserve">
+    <value>这将写入注册表。可以吗？
+＊完全适用需要重启程序。</value>
+  </data>
+  <data name="DialogConfiguration_12" xml:space="preserve">
+    <value>确认</value>
+  </data>
+  <data name="DialogConfiguration_13" xml:space="preserve">
+    <value>注册表写入失败。</value>
+  </data>
+  <data name="DialogConfiguration_14" xml:space="preserve">
+    <value>注册表写入失败。
+</value>
+  </data>
+  <data name="DialogConfiguration_15" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="DialogConfiguration_16" xml:space="preserve">
+    <value>这将删除注册表。可以吗？
+＊完全适用需要重启程序。</value>
+  </data>
+  <data name="DialogConfiguration_17" xml:space="preserve">
+    <value>注册表删除失败。</value>
+  </data>
+  <data name="DialogConfiguration_18" xml:space="preserve">
+    <value>注册表删除失败。
+</value>
+  </data>
+  <data name="FormArsenal_1" xml:space="preserve">
+    <value>舰娘</value>
+  </data>
+  <data name="FormArsenal_2" xml:space="preserve">
+    <value>工厂中 #{0} {1} 的建造开始了。({2}/{3}/{4}/{5}-{6} 秘书舰: {7})</value>
+  </data>
+  <data name="FormCompass_13" xml:space="preserve">
+    <value>连敌人的影子都没看见</value>
+  </data>
+  <data name="FormCompass_14" xml:space="preserve">
+    <value>能动分歧点</value>
+  </data>
+  <data name="FormHeadquarters_1" xml:space="preserve">
+    <value>本次: +{0} exp. / 战果 {1:n2}
+</value>
   </data>
 </root>

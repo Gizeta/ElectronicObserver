@@ -116,6 +116,7 @@ api_start2	：艦娘・装備固有データその他
 				14=高射装置
 				15=対地装備
 				16=水上艦要員
+				17=大型飛行艇
 
 			[1]：図鑑表示
 				 1=Primary Armament
@@ -147,6 +148,7 @@ api_start2	：艦娘・装備固有データその他
 				30=Damage Control
 				31=Engine Upgrades
 				32=Depth Charge
+				33=Flying Boat
 
 				 1=主砲
 				 2=副砲
@@ -177,6 +179,7 @@ api_start2	：艦娘・装備固有データその他
 				30=応急修理要員
 				31=機関部強化
 				32=爆雷
+				33=大型飛行艇
 
 			[2]：カテゴリ
 				(api_mst_slotitem_equiptype を参照)
@@ -220,6 +223,7 @@ api_start2	：艦娘・装備固有データその他
 				38=大口径主砲(II)
 				39=水上艦要員
 				40=大型ソナー
+				41=大型飛行艇
 
 			[3]：アイコンID
 				 1=小口径主砲
@@ -254,6 +258,7 @@ api_start2	：艦娘・装備固有データその他
 				30=高射装置
 				31=対地装備
 				32=水上艦要員
+				33=大型飛行艇
 
 		api_taik		：耐久(0)
 		api_souk		：装甲
@@ -400,9 +405,9 @@ api_start2	：艦娘・装備固有データその他
 api_req_member/get_incentive	：褒賞関連
 	api_count			：情報の個数
 	api_item			：もらえるアイテム　api_count=0だと存在しない
-		api_mode		：1=事前登録?, 2=招待?, 3=月次褒賞/年賀プレゼント
-		api_type		：1=艦船?, 2=装備, 3=アイテム?, 4=資源?, 5=家具
-		api_mst_id		：アイテムID
+		api_mode		：1=事前登録?, 2=招待?, 3=月次褒賞/プレゼント
+		api_type		：1=艦船?, 2=装備, 3=アイテム, 4=資源?, 5=家具
+		api_mst_id		：ID
 		api_getmes		：獲得時メッセージ
 
 
@@ -630,7 +635,7 @@ api_req_kousyou/remodel_slot	：改修工廠　改修実行
 	api_remodel_id		：改修装備マスターID　[0]=変化前, [1]=変化後
 	api_after_material	：現在の各種資源
 	api_voice_id		：2番艦と改装した時のボイス番号 string
-	api_after_slot		：更新された装備データ api_get_member/slot_item参照
+	api_after_slot		：更新された装備データ api_get_member/slot_item参照　失敗時存在せず
 	api_use_slot_id		：消費された装備のID　使ったときのみ存在
 
 api_get_member/ndock		：入渠ドック

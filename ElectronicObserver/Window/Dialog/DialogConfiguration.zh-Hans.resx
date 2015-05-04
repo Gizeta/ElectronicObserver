@@ -117,10 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Connection_UpstreamProxyPort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 34</value>
+  </data>
   <data name="Connection_UpstreamProxyPort.ToolTip" xml:space="preserve">
     <value>指定其他工具或浏览器使用端口。</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="Connection_UseUpstreamProxy.Size" type="System.Drawing.Size, System.Drawing">
     <value>123, 21</value>
   </data>
@@ -130,16 +133,22 @@
   <data name="Connection_UseUpstreamProxy.ToolTip" xml:space="preserve">
     <value>与其他工具或浏览器协作使用。</value>
   </data>
+  <data name="Connection_RegisterAsSystemProxy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 7</value>
+  </data>
   <data name="Connection_RegisterAsSystemProxy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>119, 21</value>
+    <value>99, 21</value>
   </data>
   <data name="Connection_RegisterAsSystemProxy.Text" xml:space="preserve">
-    <value>登记系统代理(暂)</value>
+    <value>使用系统代理</value>
   </data>
   <data name="Connection_RegisterAsSystemProxy.ToolTip" xml:space="preserve">
     <value>如果设置了系统代理，那么本程序能自动通信。
 不需要额外设置代理，要注意使用时的副作用。
 详细请参照在线帮助。</value>
+  </data>
+  <data name="Connection_OutputConnectionScript.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 255</value>
   </data>
   <data name="Connection_OutputConnectionScript.Text" xml:space="preserve">
     <value>输出自动设置代理脚本...</value>
@@ -195,11 +204,17 @@
   <data name="Connection_SaveDataFilter.ToolTip" xml:space="preserve">
     <value>＊未实装＊</value>
   </data>
+  <data name="Connection_PanelSaveData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 95</value>
+  </data>
   <data name="Connection_SaveReceivedData.Size" type="System.Drawing.Size, System.Drawing">
     <value>99, 21</value>
   </data>
   <data name="Connection_SaveReceivedData.Text" xml:space="preserve">
     <value>保存通信内容</value>
+  </data>
+  <data name="Connection_Port.Location" type="System.Drawing.Point, System.Drawing">
+    <value>58, 6</value>
   </data>
   <data name="Connection_Port.ToolTip" xml:space="preserve">
     <value>设置端口号。</value>
@@ -211,13 +226,59 @@
     <value>端口：</value>
   </data>
   <data name="tabPage1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 48</value>
+    <value>4, 26</value>
   </data>
   <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>392, 207</value>
+    <value>479, 284</value>
+  </data>
+  <data name="UI_Language.DataSource" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAEAQAAABxTeXN0ZW0uQ29sbGVjdGlvbnMuQXJyYXlMaXN0AwAAAAZfaXRl
+        bXMFX3NpemUIX3ZlcnNpb24FAAAICAkCAAAAAwAAAAMAAAAQAgAAAAMAAAAJAwAAAAkEAAAACQUAAAAE
+        AwAAACJTeXN0ZW0uQ29sbGVjdGlvbnMuRGljdGlvbmFyeUVudHJ5AgAAAARfa2V5Bl92YWx1ZQICBgYA
+        AAAG6Ieq5YuVBgcAAAAEYXV0bwEEAAAAAwAAAAYIAAAACeaXpeacrOiqngYJAAAAAmphAQUAAAADAAAA
+        BgoAAAAJ5Lit5Zu96KqeBgsAAAAHemgtSGFucws=
+</value>
+  </data>
+  <data name="UI_Language.Items" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAEAQAAACJTeXN0ZW0uQ29sbGVjdGlvbnMuRGljdGlvbmFyeUVudHJ5AgAA
+        AARfa2V5Bl92YWx1ZQICBgIAAAAG6Ieq5YuVBgMAAAAEYXV0bws=
+</value>
+  </data>
+  <data name="UI_Language.Items1" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAEAQAAACJTeXN0ZW0uQ29sbGVjdGlvbnMuRGljdGlvbmFyeUVudHJ5AgAA
+        AARfa2V5Bl92YWx1ZQICBgIAAAAJ5pel5pys6KqeBgMAAAACamEL
+</value>
+  </data>
+  <data name="UI_Language.Items2" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAEAQAAACJTeXN0ZW0uQ29sbGVjdGlvbnMuRGljdGlvbmFyeUVudHJ5AgAA
+        AARfa2V5Bl92YWx1ZQICBgIAAAAJ5Lit5Zu96KqeBgMAAAAHemgtSGFucws=
+</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="UI_Language.MaxDropDownItems" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="UI_Language.Size" type="System.Drawing.Size, System.Drawing">
+    <value>298, 25</value>
+  </data>
+  <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 17</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>语言：</value>
+  </data>
+  <data name="UI_SubFontApply.Location" type="System.Drawing.Point, System.Drawing">
+    <value>401, 36</value>
   </data>
   <data name="UI_SubFontApply.ToolTip" xml:space="preserve">
     <value>应用现在文本框中的内容。</value>
+  </data>
+  <data name="UI_MainFontApply.Location" type="System.Drawing.Point, System.Drawing">
+    <value>401, 7</value>
   </data>
   <data name="UI_MainFontApply.ToolTip" xml:space="preserve">
     <value>应用现在文本框中的内容。</value>
@@ -228,11 +289,20 @@
   <data name="label9.Text" xml:space="preserve">
     <value>＊重启才会生效哟。</value>
   </data>
+  <data name="UI_SubFont.Size" type="System.Drawing.Size, System.Drawing">
+    <value>298, 23</value>
+  </data>
   <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
     <value>68, 17</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
     <value>辅助字体：</value>
+  </data>
+  <data name="UI_MainFontSelect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>439, 7</value>
+  </data>
+  <data name="UI_MainFont.Size" type="System.Drawing.Size, System.Drawing">
+    <value>298, 23</value>
   </data>
   <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
     <value>56, 17</value>
@@ -241,10 +311,24 @@
     <value>主字体：</value>
   </data>
   <data name="tabPage2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 48</value>
+    <value>4, 26</value>
   </data>
   <data name="tabPage2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>392, 207</value>
+    <value>479, 284</value>
+  </data>
+  <data name="Log_ShowSpoiler.Location" type="System.Drawing.Point, System.Drawing">
+    <value>201, 31</value>
+  </data>
+  <data name="Log_ShowSpoiler.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 21</value>
+  </data>
+  <data name="Log_ShowSpoiler.Text" xml:space="preserve">
+    <value>允许记录开发信息</value>
+  </data>
+  <data name="Log_ShowSpoiler.ToolTip" xml:space="preserve">
+    <value>选中的话日志会记录开发的装备名和建造的舰娘名等信息。
+比较讨厌泄露信息的人请不要选。
+</value>
   </data>
   <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
     <value>236, 17</value>
@@ -283,6 +367,9 @@
   <data name="Log_SaveLogFlag.Text" xml:space="preserve">
     <value>保存日志文件</value>
   </data>
+  <data name="Log_LogLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 31</value>
+  </data>
   <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
     <value>104, 17</value>
   </data>
@@ -293,10 +380,13 @@
     <value>4, 26</value>
   </data>
   <data name="tabPage3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>392, 229</value>
+    <value>479, 284</value>
   </data>
   <data name="tabPage3.Text" xml:space="preserve">
     <value>日志</value>
+  </data>
+  <data name="Control_ConditionBorder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 6</value>
   </data>
   <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
     <value>80, 17</value>
@@ -308,7 +398,7 @@
     <value>4, 26</value>
   </data>
   <data name="tabPage4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>392, 229</value>
+    <value>479, 284</value>
   </data>
   <data name="tabPage4.Text" xml:space="preserve">
     <value>操作</value>
@@ -338,16 +428,29 @@ API列表的格式和用法在线帮助请参照。</value>
     <value>4, 26</value>
   </data>
   <data name="tabPage5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>392, 229</value>
+    <value>479, 284</value>
   </data>
   <data name="tabPage5.Text" xml:space="preserve">
     <value>调试</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Life_ShowStatusBar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Life_ShowStatusBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 21</value>
+  </data>
+  <data name="Life_ShowStatusBar.Text" xml:space="preserve">
+    <value>显示状态栏</value>
   </data>
   <data name="Life_CheckUpdateInformation.Size" type="System.Drawing.Size, System.Drawing">
     <value>87, 21</value>
   </data>
   <data name="Life_CheckUpdateInformation.Text" xml:space="preserve">
     <value>更新时确认</value>
+  </data>
+  <data name="Life_LayoutFilePathSearch.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
     <value>68, 17</value>
@@ -371,7 +474,7 @@ API列表的格式和用法在线帮助请参照。</value>
     <value>4, 26</value>
   </data>
   <data name="tabPage6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>392, 229</value>
+    <value>479, 284</value>
   </data>
   <data name="tabPage6.Text" xml:space="preserve">
     <value>窗口</value>
@@ -437,7 +540,7 @@ API列表的格式和用法在线帮助请参照。</value>
     <value>4, 26</value>
   </data>
   <data name="tabPage8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>378, 193</value>
+    <value>465, 248</value>
   </data>
   <data name="tabPage8.Text" xml:space="preserve">
     <value>舰队</value>
@@ -449,7 +552,7 @@ API列表的格式和用法在线帮助请参照。</value>
     <value>显示舰名</value>
   </data>
   <data name="tabPage9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>378, 197</value>
+    <value>465, 252</value>
   </data>
   <data name="tabPage9.Text" xml:space="preserve">
     <value>工厂</value>
@@ -491,7 +594,7 @@ API列表的格式和用法在线帮助请参照。</value>
     <value>显示正在进行中</value>
   </data>
   <data name="tabPage10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>378, 197</value>
+    <value>465, 252</value>
   </data>
   <data name="tabPage10.Text" xml:space="preserve">
     <value>任务</value>
@@ -516,10 +619,78 @@ API列表的格式和用法在线帮助请参照。</value>
     <value>设置是否自动更新舰船数据</value>
   </data>
   <data name="tabPage13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>378, 197</value>
+    <value>465, 252</value>
   </data>
   <data name="tabPage13.Text" xml:space="preserve">
     <value>编成</value>
+  </data>
+  <data name="FormBrowser_ZoomFit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>174, 32</value>
+  </data>
+  <data name="FormBrowser_ZoomFit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 21</value>
+  </data>
+  <data name="FormBrowser_ZoomFit.Text" xml:space="preserve">
+    <value>适应</value>
+  </data>
+  <data name="FormBrowser_ZoomFit.ToolTip" xml:space="preserve">
+    <value>选中的情况下，画面将自动放大或缩小。</value>
+  </data>
+  <data name="FormBrowser_BrowserVersion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 14</value>
+  </data>
+  <data name="FormBrowser_BrowserVersion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 25</value>
+  </data>
+  <data name="FormBrowser_DeleteRegistry.Location" type="System.Drawing.Point, System.Drawing">
+    <value>388, 15</value>
+  </data>
+  <data name="FormBrowser_DeleteRegistry.Text" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="FormBrowser_DeleteRegistry.ToolTip" xml:space="preserve">
+    <value>删除注册表。</value>
+  </data>
+  <data name="FormBrowser_GPURendering.Location" type="System.Drawing.Point, System.Drawing">
+    <value>202, 18</value>
+  </data>
+  <data name="FormBrowser_GPURendering.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 21</value>
+  </data>
+  <data name="FormBrowser_GPURendering.Text" xml:space="preserve">
+    <value>GPU渲染</value>
+  </data>
+  <data name="FormBrowser_GPURendering.ToolTip" xml:space="preserve">
+    <value>使用或指定内置浏览器的GPU渲染。
+在不同环境中可能会加速处理速度。</value>
+  </data>
+  <data name="FormBrowser_ApplyRegistry.Location" type="System.Drawing.Point, System.Drawing">
+    <value>332, 15</value>
+  </data>
+  <data name="FormBrowser_ApplyRegistry.Text" xml:space="preserve">
+    <value>应用</value>
+  </data>
+  <data name="FormBrowser_ApplyRegistry.ToolTip" xml:space="preserve">
+    <value>将设定应用到注册表中。点击下面的OK按钮就会反应请注意
+。</value>
+  </data>
+  <data name="label21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 17</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>浏览器版本：</value>
+  </data>
+  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 85</value>
+  </data>
+  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>444, 46</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>注册表</value>
+  </data>
+  <data name="FormBrowser_AppliesStyleSheet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>378, 32</value>
   </data>
   <data name="FormBrowser_AppliesStyleSheet.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 21</value>
@@ -531,11 +702,14 @@ API列表的格式和用法在线帮助请参照。</value>
     <value>只会在艦これ的窗口中生效。
 如果显示效果混乱，清禁用此项。</value>
   </data>
+  <data name="FormBrowser_ConfirmAtRefresh.Location" type="System.Drawing.Point, System.Drawing">
+    <value>342, 6</value>
+  </data>
   <data name="FormBrowser_ConfirmAtRefresh.Size" type="System.Drawing.Size, System.Drawing">
     <value>111, 21</value>
   </data>
   <data name="FormBrowser_ConfirmAtRefresh.Text" xml:space="preserve">
-    <value>重现加载时确认</value>
+    <value>重新加载时确认</value>
   </data>
   <data name="FormBrowser_ConfirmAtRefresh.ToolTip" xml:space="preserve">
     <value>会显示确认对话框，并在确认的情况才会刷新。
@@ -554,7 +728,7 @@ API列表的格式和用法在线帮助请参照。</value>
     <value>54, 21</value>
   </data>
   <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>366, 103</value>
+    <value>453, 158</value>
   </data>
   <data name="groupBox2.Text" xml:space="preserve">
     <value>截图</value>
@@ -581,19 +755,19 @@ API列表的格式和用法在线帮助请参照。</value>
     <value>缩放倍率：</value>
   </data>
   <data name="tabPage12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>378, 197</value>
+    <value>465, 252</value>
   </data>
   <data name="tabPage12.Text" xml:space="preserve">
     <value>浏览器</value>
   </data>
   <data name="tabControl2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>386, 223</value>
+    <value>473, 278</value>
   </data>
   <data name="tabPage7.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 26</value>
   </data>
   <data name="tabPage7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>392, 229</value>
+    <value>479, 284</value>
   </data>
   <data name="tabPage7.Text" xml:space="preserve">
     <value>辅助窗口</value>
@@ -620,13 +794,13 @@ API列表的格式和用法在线帮助请参照。</value>
     <value>设定远征结束后的通知...</value>
   </data>
   <data name="tabPage11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 48</value>
+    <value>4, 26</value>
   </data>
   <data name="tabPage11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>392, 207</value>
+    <value>479, 284</value>
   </data>
   <data name="buttonCacheFolderBrowse.Location" type="System.Drawing.Point, System.Drawing">
-    <value>333, 25</value>
+    <value>420, 25</value>
   </data>
   <data name="buttonCacheFolderBrowse.Size" type="System.Drawing.Size, System.Drawing">
     <value>53, 23</value>
@@ -635,7 +809,7 @@ API列表的格式和用法在线帮助请参照。</value>
     <value>浏览</value>
   </data>
   <data name="textCacheFolder.Size" type="System.Drawing.Size, System.Drawing">
-    <value>315, 23</value>
+    <value>402, 23</value>
   </data>
   <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
     <value>80, 17</value>
@@ -644,13 +818,22 @@ API列表的格式和用法在线帮助请参照。</value>
     <value>缓存文件路径</value>
   </data>
   <data name="tabPage14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 48</value>
+    <value>4, 26</value>
   </data>
   <data name="tabPage14.Size" type="System.Drawing.Size, System.Drawing">
-    <value>392, 207</value>
+    <value>479, 284</value>
   </data>
   <data name="tabPage14.Text" xml:space="preserve">
     <value>缓存</value>
+  </data>
+  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>487, 314</value>
+  </data>
+  <data name="ButtonOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>319, 320</value>
+  </data>
+  <data name="ButtonCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>400, 320</value>
   </data>
   <data name="ButtonCancel.Text" xml:space="preserve">
     <value>取消</value>
@@ -664,13 +847,13 @@ API列表的格式和用法在线帮助请参照。</value>
   <data name="APIListBrowser.Title" xml:space="preserve">
     <value>打开API列表</value>
   </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>487, 355</value>
+  </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft YaHei UI, 9pt</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>设置</value>
-  </data>
-  <data name="label20.Text" xml:space="preserve">
-    <value>语言：</value>
   </data>
 </root>

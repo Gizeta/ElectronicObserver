@@ -8,6 +8,7 @@ using System.Diagnostics;
 using System.Drawing;
 using System.Drawing.Imaging;
 using System.Linq;
+using System.Reflection;
 using System.Runtime.InteropServices;
 using System.ServiceModel;
 using System.Text;
@@ -136,6 +137,7 @@ namespace Browser {
 			Configuration = conf;
 
 			SizeAdjuster.AutoScroll = Configuration.IsScrollable;
+            ToolMenu_Other_Zoom_Fit.Checked = Configuration.ZoomFit;
 			ApplyZoom();
 			ToolMenu_Other_AppliesStyleSheet.Checked = Configuration.AppliesStyleSheet;
 			ToolMenu.Dock = (DockStyle)Configuration.ToolMenuDockStyle;
@@ -178,8 +180,7 @@ namespace Browser {
 				Browser.Location.X, Browser.Location.Y, Browser.Width, Browser.Height, SizeAdjuster.Width, SizeAdjuster.Height, ClientSize.Width, ClientSize.Height ) );
 			//*/
 
-			//スタイルシート適用時はセンタリング
-			CenteringBrowser();
+            ApplyZoom();
 		}
 
 		private void CenteringBrowser() {
@@ -225,25 +226,21 @@ namespace Browser {
 				var document = Browser.Document;
 				if ( document == null ) return;
 
-				var gameframe = document.GetElementById( "game_frame" );
-				if ( gameframe == null ) {
-					if ( document.Url.AbsolutePath.Contains( ".swf?" ) )
-						gameframe = document.Body;
+				if ( document.Url.AbsolutePath.Contains( ".swf?" ) ) {
+
+                    document.Body.SetAttribute("width", "100%");
+                    document.Body.SetAttribute("height", "100%");
+                }
+                else
+                {
+                    var swf = getFrameElementById(document, "externalswf");
+                    if (swf == null) return;
+
+                    // InvokeScriptは関数しか呼べないようなので、スクリプトをevalで渡す
+                    document.InvokeScript("eval", new object[] { Properties.Resources.PageScript });
+                    swf.Document.InvokeScript("eval", new object[] { Properties.Resources.FrameScript });
 				}
-
-				if ( gameframe == null ) return;
-
-
-				var target = gameframe.Document;
-
-				if ( target != null ) {
-					mshtml.IHTMLStyleSheet ss = ( (mshtml.IHTMLDocument2)target.DomDocument ).createStyleSheet( "", 0 );
-
-					ss.cssText = Configuration.StyleSheet;
-
-
-					StyleSheetApplied = true;
-				}
+                StyleSheetApplied = true;
 
 
 
@@ -274,36 +271,49 @@ namespace Browser {
 		/// ズームを適用します。
 		/// </summary>
 		public void ApplyZoom() {
-			ApplyZoom( Configuration.ZoomRate );
-		}
-
-		/// <summary>
-		/// ズームを適用します。
-		/// </summary>
-		/// <param name="zoomRate">拡大率。%指定で 10-1000</param>
-		public void ApplyZoom( int zoomRate ) {
+            int zoomRate = Configuration.ZoomRate;
+            bool fit = Configuration.ZoomFit && StyleSheetApplied;
 
 			try {
-
-				if ( zoomRate < 10 )
-					zoomRate = 10;
-				if ( zoomRate > 1000 )
-					zoomRate = 1000;
-
-				var wb = Browser.ActiveXInstance as SHDocVw.IWebBrowser2;
-				if ( wb == null || wb.ReadyState == SHDocVw.tagREADYSTATE.READYSTATE_UNINITIALIZED || wb.Busy ) return;
-
-				object pin = zoomRate;
+                var wb = Browser.ActiveXInstance as SHDocVw.IWebBrowser2;
+                if (wb == null || wb.ReadyState == SHDocVw.tagREADYSTATE.READYSTATE_UNINITIALIZED || wb.Busy) return;
+                double zoomFactor;
+                object pin;
+                if (fit)
+                {
+                    pin = 100;
+                    double rateX = (double)SizeAdjuster.Width / KanColleSize.Width;
+                    double rateY = (double)SizeAdjuster.Height / KanColleSize.Height;
+                    zoomFactor = Math.Min(rateX, rateY);
+                }
+                else
+                {
+                    if (zoomRate < 10)
+                        zoomRate = 10;
+                    if (zoomRate > 1000)
+                        zoomRate = 1000;
+                    pin = zoomRate;
+                    zoomFactor = zoomRate / 100.0;
+                }
+				
 				object pout = null;
 
 				wb.ExecWB( SHDocVw.OLECMDID.OLECMDID_OPTICAL_ZOOM, SHDocVw.OLECMDEXECOPT.OLECMDEXECOPT_DODEFAULT, ref pin, ref pout );
 
 				if ( StyleSheetApplied ) {
-					Browser.Size = Browser.MinimumSize = new Size( (int)( KanColleSize.Width * zoomRate / 100.0 ), (int)( KanColleSize.Height * zoomRate / 100.0 ) );
-					CenteringBrowser();
+                    Browser.Size = Browser.MinimumSize = new Size(
+                    (int)(KanColleSize.Width * zoomFactor),
+                    (int)(KanColleSize.Height * zoomFactor));
+                    CenteringBrowser();
 				}
-
-                ToolMenu_Other_Zoom_Current.Text = string.Format(LoadResources.getter("Zoom_CurrentText"), zoomRate);
+                if (fit)
+                {
+                    ToolMenu_Other_Zoom_Current.Text = string.Format(LoadResources.getter("Zoom_FitText"));
+                }
+                else
+                {
+                    ToolMenu_Other_Zoom_Current.Text = string.Format(LoadResources.getter("Zoom_CurrentText"), zoomRate);
+                }
 
 			} catch ( Exception ex ) {
                 AddLog(3, LoadResources.getter("Zoom_Failed") + ex.Message);
@@ -347,6 +357,35 @@ namespace Browser {
 
 		}
 
+        // ラッパークラスに戻す
+        private static HtmlDocument WrapHTMLDocument(IHTMLDocument2 document)
+        {
+            ConstructorInfo[] constructor = typeof(HtmlDocument).GetConstructors(
+                BindingFlags.NonPublic | BindingFlags.Instance);
+            return (HtmlDocument)constructor[0].Invoke(new object[] { null, document });
+        }
+
+        // 中のフレームからidにマッチする要素を返す
+        private static HtmlElement getFrameElementById(HtmlDocument document, String id)
+        {
+            foreach (HtmlWindow frame in document.Window.Frames)
+            {
+
+                // frameが別ドメインだとセキュリティ上の問題（クロスフレームスクリプティング）
+                // からアクセスができないのでアクセスできるドキュメントに変換する
+                IServiceProvider provider = (IServiceProvider)frame.DomWindow;
+                object ppvobj;
+                provider.QueryService(typeof(SHDocVw.IWebBrowserApp).GUID, typeof(SHDocVw.IWebBrowser2).GUID, out ppvobj);
+                var htmlDocument = WrapHTMLDocument((IHTMLDocument2)((SHDocVw.IWebBrowser2)ppvobj).Document);
+                var htmlElement = htmlDocument.GetElementById(id);
+                if (htmlElement == null)
+                    continue;
+
+                return htmlElement;
+            }
+
+            return null;
+        }
 
 		/// <summary>
 		/// スクリーンショットを保存します。
@@ -364,84 +403,55 @@ namespace Browser {
 
 			try {
 
-				var document = wb.Document.DomDocument as HTMLDocument;
-				if ( document == null ) {
-                    throw new InvalidOperationException(LoadResources.getter("Browser_InaccessableDocument"));
-				}
-
 
 				IViewObject viewobj = null;
-				int width = 0, height = 0;
+				//int width = 0, height = 0;
 
 
-				if ( document.url.Contains( ".swf?" ) ) {
+                if (wb.Document.Url.AbsolutePath.Contains(".swf?"))
+                {
 
-					viewobj = document.getElementsByTagName( "embed" ).item( 0, 0 ) as IViewObject;
+                    viewobj = wb.Document.GetElementsByTagName("embed")[0].DomElement as IViewObject;
 					if ( viewobj == null ) {
                         throw new InvalidOperationException(LoadResources.getter("Browser_InaccessableFlash"));
 					}
 
-					width = ( (HTMLEmbed)viewobj ).clientWidth;
-					height = ( (HTMLEmbed)viewobj ).clientHeight;
+					//width = ( (HTMLEmbed)viewobj ).clientWidth;
+					//height = ( (HTMLEmbed)viewobj ).clientHeight;
 
 				} else {
+                    var swf = getFrameElementById(wb.Document, "externalswf");
+                    if (swf == null)
+                    {
+                        throw new InvalidOperationException(LoadResources.getter("Browser_FlashNotFound"));
+                    }
 
-					var gameFrame = document.getElementById( "game_frame" ).document as HTMLDocument;
-					if ( gameFrame == null ) {
-                        throw new InvalidOperationException(LoadResources.getter("Browser_InaccessableGameFrame"));
-					}
-
-					bool foundflag = false;
-
-					for ( int i = 0; i < document.frames.length; i++ ) {
-
-						var provider = document.frames.item( i ) as IServiceProvider;
-						if ( provider == null ) continue;
-
-						object ppvobj;
-						provider.QueryService( typeof( SHDocVw.IWebBrowserApp ).GUID, typeof( SHDocVw.IWebBrowser2 ).GUID, out ppvobj );
-
-						var _wb = ppvobj as SHDocVw.IWebBrowser2;
-						if ( _wb == null ) continue;
-
-						var iframe = _wb.Document as HTMLDocument;
-						if ( iframe == null ) continue;
-
-
-						var swf = iframe.getElementById( "externalswf" );
-						if ( swf == null ) continue;
+					
 
 						Func<dynamic, bool> isvalid = target => {
 
 							if ( target == null ) return false;
 							viewobj = target as IViewObject;
 							if ( viewobj == null ) return false;
-							if ( !int.TryParse( target.width, out width ) ) return false;
-							if ( !int.TryParse( target.height, out height ) ) return false;
+							//if ( !int.TryParse( target.width, out width ) ) return false;
+							//if ( !int.TryParse( target.height, out height ) ) return false;
 							return true;
 						};
 
-						if ( !isvalid( swf as HTMLEmbed ) && !isvalid( swf as HTMLObjectElement ) )
-							continue;
-
-						foundflag = true;
-
-						break;
-					}
-
-
-					if ( !foundflag ) {
-                        throw new InvalidOperationException(LoadResources.getter("Browser_FlashNotFound"));
-					}
+                        if (!isvalid(swf.DomElement as HTMLEmbed) && !isvalid(swf.DomElement as HTMLObjectElement))
+                        {
+                            throw new InvalidOperationException(LoadResources.getter("Browser_FlashNotFound"));
+                        }
 				}
 
 
 				if ( viewobj != null ) {
 
-					using ( var image = new Bitmap( width, height, System.Drawing.Imaging.PixelFormat.Format24bppRgb ) ) {
+                    var rect = new RECT { left = 0, top = 0, width = KanColleSize.Width, height = KanColleSize.Height };
 
+                    using (var image = new Bitmap(rect.width, rect.height, System.Drawing.Imaging.PixelFormat.Format24bppRgb))
+                    {
 
-						var rect = new RECT { left = 0, top = 0, width = width, height = height };
 						var device = new DVTARGETDEVICE { tdSize = 0 };
 
 						using ( var g = Graphics.FromImage( image ) ) {
@@ -549,12 +559,14 @@ namespace Browser {
 
 		private void ToolMenu_Other_Zoom_Decrement_Click( object sender, EventArgs e ) {
 			Configuration.ZoomRate = Math.Max( Configuration.ZoomRate - 20, 10 );
+            Configuration.ZoomFit = ToolMenu_Other_Zoom_Fit.Checked = false;
 			ApplyZoom();
 			ConfigurationUpdated();
 		}
 
 		private void ToolMenu_Other_Zoom_Increment_Click( object sender, EventArgs e ) {
 			Configuration.ZoomRate = Math.Min( Configuration.ZoomRate + 20, 1000 );
+            Configuration.ZoomFit = ToolMenu_Other_Zoom_Fit.Checked = false;
 			ApplyZoom();
 			ConfigurationUpdated();
 		}
@@ -585,6 +597,14 @@ namespace Browser {
 				zoom = 100;
 
 			Configuration.ZoomRate = zoom;
+            Configuration.ZoomFit = ToolMenu_Other_Zoom_Fit.Checked = false;
+            ApplyZoom();
+            ConfigurationUpdated();
+        }
+
+        private void ToolMenu_Other_Zoom_Fit_Click(object sender, EventArgs e)
+        {
+            Configuration.ZoomFit = ToolMenu_Other_Zoom_Fit.Checked;
 			ApplyZoom();
 			ConfigurationUpdated();
 		}

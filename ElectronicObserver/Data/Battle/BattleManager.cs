@@ -176,27 +176,43 @@ namespace ElectronicObserver.Data.Battle {
 				//checkme: とてもアレな感じ
 
 				int dropID = Result.DroppedShipID;
+                bool showLog = Utility.Configuration.Config.Log.ShowSpoiler;
+
+                if (dropID != -1 && showLog)
+                {
+                    ShipDataMaster ship = KCDatabase.Instance.MasterShips[dropID];
+                    Utility.Logger.Add(2, string.Format(LoadResources.getter("BattleManager_1"), ship.ShipTypeName, ship.NameWithClass));
+                }
 
 				if ( dropID == -1 ) {
 
 					int itemID = Result.DroppedItemID;
 
-					if ( itemID != -1 )
-						dropID = itemID + 1000;
+                    if (itemID != -1)
+                    {
+                        dropID = itemID + 1000;
+                        if (showLog)
+                            Utility.Logger.Add(2, string.Format(LoadResources.getter("BattleManager_2"), KCDatabase.Instance.MasterUseItems[itemID].Name));
+                    }
 				}
 
 				if ( dropID == -1 ) {
 
 					int eqID = Result.DroppedEquipmentID;
 
-					if ( eqID != -1 )
+                    if (eqID != -1) { 
 						dropID = eqID + 2000;
-
+                        if (showLog)
+                        {
+                            EquipmentDataMaster eq = KCDatabase.Instance.MasterEquipments[eqID];
+                            Utility.Logger.Add(2, string.Format(LoadResources.getter("BattleManager_3"), eq.CategoryTypeInstance.Name, eq.Name));
+                        }
+                    }
 				}
 
 				if ( dropID == -1 && (
 					KCDatabase.Instance.Admiral.MaxShipCount - KCDatabase.Instance.Ships.Count <= 0 ||
-					KCDatabase.Instance.Admiral.MaxEquipmentCount - KCDatabase.Instance.Equipments.Count <= 3 ) ) {
+					KCDatabase.Instance.Admiral.MaxEquipmentCount - KCDatabase.Instance.Equipments.Count <= 0 ) ) {
 					dropID = -2;
 				}
 

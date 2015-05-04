@@ -132,7 +132,7 @@ namespace ElectronicObserver.Utility {
 
 			try {
 				lock ( Logger.Instance ) {
-					using ( StreamWriter sw = new StreamWriter( path ) ) {
+					using ( StreamWriter sw = new StreamWriter( path ,true, Utility.Configuration.Config.Log.FileEncoding ) ) {
 
 						int priority = Configuration.Config.Log.LogLevel;
 

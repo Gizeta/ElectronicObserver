@@ -13,6 +13,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using WeifenLuo.WinFormsUI.Docking;
+using ElectronicObserver.Resource;
 
 namespace ElectronicObserver.Window {
 
@@ -141,7 +142,7 @@ namespace ElectronicObserver.Window {
 
 
 		private TableArsenalControl[] ControlArsenal;
-
+        private int _buildingID;
 
 		public FormArsenal( FormMain parent ) {
 			InitializeComponent();
@@ -159,7 +160,7 @@ namespace ElectronicObserver.Window {
 			}
 			TableArsenal.ResumeLayout();
 
-			
+            _buildingID = -1;
 
 			Icon = ResourceManager.ImageToIcon( ResourceManager.Instance.Icons.Images[(int)ResourceManager.IconContent.FormArsenal] );
 		}
@@ -183,6 +184,44 @@ namespace ElectronicObserver.Window {
 
 		void Updated( string apiname, dynamic data ) {
 
+            if (_buildingID != -1 && apiname == "api_get_member/kdock")
+            {
+
+                ArsenalData arsenal = KCDatabase.Instance.Arsenals[_buildingID];
+                ShipDataMaster ship = KCDatabase.Instance.MasterShips[arsenal.ShipID];
+                string name;
+
+                if (Utility.Configuration.Config.Log.ShowSpoiler && Utility.Configuration.Config.FormArsenal.ShowShipName)
+                {
+
+                    name = string.Format("{0}「{1}」", ship.ShipTypeName, ship.NameWithClass);
+
+                }
+                else
+                {
+
+                    name = LoadResources.getter("FormArsenal_1");
+                }
+
+                Utility.Logger.Add(2, string.Format(LoadResources.getter("FormArsenal_2"),
+                    _buildingID,
+                    name,
+                    arsenal.Fuel,
+                    arsenal.Ammo,
+                    arsenal.Steel,
+                    arsenal.Bauxite,
+                    arsenal.DevelopmentMaterial,
+                    KCDatabase.Instance.Fleet[1].MembersInstance[0].NameWithLevel
+                    ));
+
+                _buildingID = -1;
+            }
+
+            if (apiname == "api_req_kousyou/createship")
+            {
+                _buildingID = int.Parse(data["api_kdock_id"]);
+            }
+			
 			UpdateUI();
 		}
 
