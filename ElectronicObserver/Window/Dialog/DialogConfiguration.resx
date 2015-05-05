@@ -135,4 +135,329 @@
   <metadata name="APIListBrowser.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>564, 17</value>
   </metadata>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>通信</value>
+  </data>
+  <data name="Connection_UpstreamProxyPort.ToolTip" xml:space="preserve">
+    <value>他のツール・ブラウザで利用しているポート番号を指定します。</value>
+  </data>
+  <data name="Connection_UseUpstreamProxy.Text" xml:space="preserve">
+    <value>上流プロキシを利用する：</value>
+  </data>
+  <data name="Connection_UseUpstreamProxy.ToolTip" xml:space="preserve">
+    <value>他のプロキシを利用するツール・ブラウザと連携する際に利用します。</value>
+  </data>
+  <data name="Connection_RegisterAsSystemProxy.Text" xml:space="preserve">
+    <value>システムプロキシとして登録</value>
+  </data>
+  <data name="Connection_RegisterAsSystemProxy.ToolTip" xml:space="preserve">
+    <value>プロキシをシステムに登録し、自動的に通信できるようにします。
+プロキシ設定が不要になりますが、副作用があるため注意してご利用ください。
+詳細はオンラインヘルプを参照してください。</value>
+  </data>
+  <data name="Connection_OutputConnectionScript.Text" xml:space="preserve">
+    <value>自動プロキシ設定スクリプトの出力...</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>＊膨大なサイズになる可能性があります。</value>
+  </data>
+  <data name="Connection_ApplyVersion.Text" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="Connection_ApplyVersion.ToolTip" xml:space="preserve">
+    <value>バージョン名をファイルに追加します。</value>
+  </data>
+  <data name="Connection_SaveOtherFile.Text" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="Connection_SaveOtherFile.ToolTip" xml:space="preserve">
+    <value>すべての通信ファイルを保存します。</value>
+  </data>
+  <data name="Connection_SaveSWF.Text" xml:space="preserve">
+    <value>SWF</value>
+  </data>
+  <data name="Connection_SaveSWF.ToolTip" xml:space="preserve">
+    <value>SWFファイルを保存します。</value>
+  </data>
+  <data name="Connection_SaveResponse.Text" xml:space="preserve">
+    <value>Response</value>
+  </data>
+  <data name="Connection_SaveResponse.ToolTip" xml:space="preserve">
+    <value>APIのResponse部を保存します。</value>
+  </data>
+  <data name="Connection_SaveRequest.Text" xml:space="preserve">
+    <value>Request</value>
+  </data>
+  <data name="Connection_SaveRequest.ToolTip" xml:space="preserve">
+    <value>APIのRequest部を保存します。</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>保存先：</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>フィルタ：</value>
+  </data>
+  <data name="Connection_SaveDataFilter.ToolTip" xml:space="preserve">
+    <value>＊未実装です＊</value>
+  </data>
+  <data name="Connection_SaveReceivedData.Text" xml:space="preserve">
+    <value>通信内容を保存する</value>
+  </data>
+  <data name="Connection_Port.ToolTip" xml:space="preserve">
+    <value>ポート番号を設定します。</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>ポート：</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>UI</value>
+  </data>
+  <data name="UI_SubFontApply.ToolTip" xml:space="preserve">
+    <value>現在のテキストボックスの内容を適用します。</value>
+  </data>
+  <data name="UI_MainFontApply.ToolTip" xml:space="preserve">
+    <value>現在のテキストボックスの内容を適用します。</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>＊再起動後に反映されます。</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>サブフォント：</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>メインフォント：</value>
+  </data>
+  <data name="tabPage3.Text" xml:space="preserve">
+    <value>ログ</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>＊無闇に変更すると設定・レコードが読めなくなる可能性があります</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>文字コード：</value>
+  </data>
+  <data name="Log_FileEncodingID.ToolTip" xml:space="preserve">
+    <value>入出力するファイルのエンコーディングを指定します。
+＊注意＊変更すると今までの設定やレコードが読み込めなくなる可能性があります。
+十分注意して変更してください。</value>
+  </data>
+  <data name="Log_SaveErrorReport.Text" xml:space="preserve">
+    <value>エラーレポートを保存する</value>
+  </data>
+  <data name="Log_SaveErrorReport.ToolTip" xml:space="preserve">
+    <value>エラーが発生した際に記録を残します。
+記録されたファイルを送信していただければバグ修正に役立てることができます。
+デフォルトでは実行フォルダ内 ErrorReport フォルダに保存されます。</value>
+  </data>
+  <data name="Log_SaveLogFlag.Text" xml:space="preserve">
+    <value>ログをファイルに保存する</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>ログの出力レベル：</value>
+  </data>
+  <data name="tabPage4.Text" xml:space="preserve">
+    <value>動作</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>疲労度ボーダー：</value>
+  </data>
+  <data name="tabPage5.Text" xml:space="preserve">
+    <value>デバッグ</value>
+  </data>
+  <data name="Debug_LoadAPIListOnLoad.Text" xml:space="preserve">
+    <value>起動時にAPIリストをロード</value>
+  </data>
+  <data name="Debug_LoadAPIListOnLoad.ToolTip" xml:space="preserve">
+    <value>起動時に、下記テキストボックスで指定されるAPIリストを自動的に読み込みます。
+APIリストの書式や用法はオンラインヘルプを参照してください。</value>
+  </data>
+  <data name="Debug_EnableDebugMenu.Text" xml:space="preserve">
+    <value>デバッグ メニューを有効にする</value>
+  </data>
+  <data name="Debug_EnableDebugMenu.ToolTip" xml:space="preserve">
+    <value>メインウィンドウの[デバッグ]メニューを有効にします。
+デバッグ用の機能であるため、通常ユーザーの操作は推奨されません。
+使用時の動作は保証されないので、＊自己責任で＊使用してください。</value>
+  </data>
+  <data name="tabPage6.Text" xml:space="preserve">
+    <value>ウィンドウ</value>
+  </data>
+  <data name="Life_CheckUpdateInformation.Text" xml:space="preserve">
+    <value>アップデートを確認する</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>レイアウトファイル：</value>
+  </data>
+  <data name="Life_TopMost.Text" xml:space="preserve">
+    <value>最前面に表示する</value>
+  </data>
+  <data name="Life_ConfirmOnClosing.Text" xml:space="preserve">
+    <value>終了時に確認する</value>
+  </data>
+  <data name="tabPage7.Text" xml:space="preserve">
+    <value>サブウィンドウ</value>
+  </data>
+  <data name="tabPage8.Text" xml:space="preserve">
+    <value>艦隊</value>
+  </data>
+  <data name="FormFleet_ShowNextExp.Text" xml:space="preserve">
+    <value>next. を表示する</value>
+  </data>
+  <data name="FormFleet_ShowNextExp.ToolTip" xml:space="preserve">
+    <value>「次のレベルまでに必要な経験値」を表示するかを指定します。
+省略した場合スペースを節約できます。</value>
+  </data>
+  <data name="FormFleet_ShortenHPBar.Text" xml:space="preserve">
+    <value>HPバーを短縮する</value>
+  </data>
+  <data name="FormFleet_ShortenHPBar.ToolTip" xml:space="preserve">
+    <value>HPバーを短縮し、スペースを節約します。</value>
+  </data>
+  <data name="FormFleet_FixShipNameWidth.Text" xml:space="preserve">
+    <value>艦名の横幅を固定する</value>
+  </data>
+  <data name="FormFleet_FixShipNameWidth.ToolTip" xml:space="preserve">
+    <value>艦名表示部の幅を固定し、スペースを節約します。
+代わりに長い名前を持つ艦娘は見切れます。</value>
+  </data>
+  <data name="FormFleet_IsScrollable.Text" xml:space="preserve">
+    <value>スクロールバーを表示する</value>
+  </data>
+  <data name="FormFleet_IsScrollable.ToolTip" xml:space="preserve">
+    <value>表示エリアがはみ出した場合にスクロールバーを表示するかを指定します。
+収まりきった場合は表示しません。</value>
+  </data>
+  <data name="FormFleet_SearchingAbilityMethod.Items" xml:space="preserve">
+    <value>(旧)2-5式</value>
+  </data>
+  <data name="FormFleet_SearchingAbilityMethod.Items1" xml:space="preserve">
+    <value>2-5式(秋)</value>
+  </data>
+  <data name="FormFleet_SearchingAbilityMethod.Items2" xml:space="preserve">
+    <value>2-5新秋簡易式</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>索敵能力計算式：</value>
+  </data>
+  <data name="FormFleet_ShowAircraft.Text" xml:space="preserve">
+    <value>艦載機数を表示する</value>
+  </data>
+  <data name="tabPage9.Text" xml:space="preserve">
+    <value>工廠</value>
+  </data>
+  <data name="FormArsenal_ShowShipName.Text" xml:space="preserve">
+    <value>艦名を表示する</value>
+  </data>
+  <data name="tabPage10.Text" xml:space="preserve">
+    <value>任務</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>フィルタ</value>
+  </data>
+  <data name="FormQuest_ShowMonthly.Text" xml:space="preserve">
+    <value>マンスリー</value>
+  </data>
+  <data name="FormQuest_ShowWeekly.Text" xml:space="preserve">
+    <value>ウィークリー</value>
+  </data>
+  <data name="FormQuest_ShowDaily.Text" xml:space="preserve">
+    <value>デイリー</value>
+  </data>
+  <data name="FormQuest_ShowOnce.Text" xml:space="preserve">
+    <value>一回限り・その他</value>
+  </data>
+  <data name="FormQuest_ShowRunningOnly.Text" xml:space="preserve">
+    <value>遂行中のみ表示する</value>
+  </data>
+  <data name="tabPage13.Text" xml:space="preserve">
+    <value>グループ</value>
+  </data>
+  <data name="FormShipGroup_ShowStatusBar.Text" xml:space="preserve">
+    <value>ステータスバーを表示する</value>
+  </data>
+  <data name="FormShipGroup_ShowStatusBar.ToolTip" xml:space="preserve">
+    <value>下部のステータスバー(所属艦数など)を表示するかを指定します。
+わずかですが表示行数を増やすことができます。</value>
+  </data>
+  <data name="FormShipGroup_AutoUpdate.Text" xml:space="preserve">
+    <value>自動更新する</value>
+  </data>
+  <data name="FormShipGroup_AutoUpdate.ToolTip" xml:space="preserve">
+    <value>艦船データを自動更新するかを指定します。
+</value>
+  </data>
+  <data name="tabPage12.Text" xml:space="preserve">
+    <value>ブラウザ</value>
+  </data>
+  <data name="FormBrowser_AppliesStyleSheet.Text" xml:space="preserve">
+    <value>スタイルシートを適用する</value>
+  </data>
+  <data name="FormBrowser_AppliesStyleSheet.ToolTip" xml:space="preserve">
+    <value>艦これ画面のみを表示できるようにします。
+環境によっては表示が乱れます、その場合は無効にしてください。</value>
+  </data>
+  <data name="FormBrowser_ConfirmAtRefresh.Text" xml:space="preserve">
+    <value>再読み込み時に確認する</value>
+  </data>
+  <data name="FormBrowser_ConfirmAtRefresh.ToolTip" xml:space="preserve">
+    <value>有効な場合再読み込みするときに確認ダイアログを表示します。
+誤爆防止にご利用ください。</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>スクリーンショット</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>保存先:</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>ログインURL:</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>％</value>
+  </data>
+  <data name="FormBrowser_IsEnabled.Text" xml:space="preserve">
+    <value>起動時に読み込む</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>ズーム倍率：</value>
+  </data>
+  <data name="tabPage11.Text" xml:space="preserve">
+    <value>通知</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>＊各ダイアログでOKを押した時点で適用されます</value>
+  </data>
+  <data name="Notification_Damage.Text" xml:space="preserve">
+    <value>大破進撃通知の設定...</value>
+  </data>
+  <data name="Notification_Condition.Text" xml:space="preserve">
+    <value>疲労回復通知の設定...</value>
+  </data>
+  <data name="Notification_Repair.Text" xml:space="preserve">
+    <value>入渠完了通知の設定...</value>
+  </data>
+  <data name="Notification_Construction.Text" xml:space="preserve">
+    <value>建造完了通知の設定...</value>
+  </data>
+  <data name="Notification_Expedition.Text" xml:space="preserve">
+    <value>遠征帰投通知の設定...</value>
+  </data>
+  <data name="ButtonOK.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="ButtonCancel.Text" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="FolderBrowser.Description" xml:space="preserve">
+    <value>フォルダの参照</value>
+  </data>
+  <data name="LayoutFileBrowser.Title" xml:space="preserve">
+    <value>レイアウト ファイルを開く</value>
+  </data>
+  <data name="APIListBrowser.Title" xml:space="preserve">
+    <value>API リストを開く</value>
+  </data>
+  <data name="DialogConfiguration.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
 </root>

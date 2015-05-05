@@ -358,7 +358,7 @@ namespace ElectronicObserver.Window.Dialog {
 
 			DetailView.ResumeLayout();
 
-			Text = "装備一覧 - " + KCDatabase.Instance.MasterEquipments[equipmentID].Name;
+			Text = Properties.Resources.DialogEquipmentList_EquipmentOverview + KCDatabase.Instance.MasterEquipments[equipmentID].Name;
 		}
 
 
@@ -371,7 +371,7 @@ namespace ElectronicObserver.Window.Dialog {
 
 					using ( StreamWriter sw = new StreamWriter( SaveCSVDialog.FileName, false, Utility.Configuration.Config.Log.FileEncoding ) ) {
 
-						sw.WriteLine( "固有ID,装備ID,装備名,改修Lv,ロック,装備艦ID,装備艦" );
+						sw.WriteLine( Properties.Resources.DialogEquipmentList_CSVHeader );
 						string arg = string.Format( "{{{0}}}", string.Join( "},{", Enumerable.Range( 0, 7 ) ) );
 
 						foreach ( var eq in KCDatabase.Instance.Equipments.Values ) {
@@ -397,8 +397,8 @@ namespace ElectronicObserver.Window.Dialog {
 
 				} catch ( Exception ex ) {
 
-					Utility.ErrorReporter.SendErrorReport( ex, "装備一覧 CSVの出力に失敗しました。" );
-					MessageBox.Show( "装備一覧 CSVの出力に失敗しました。\r\n" + ex.Message, "エラー", MessageBoxButtons.OK, MessageBoxIcon.Error );
+					Utility.ErrorReporter.SendErrorReport( ex, Properties.Resources.DialogEquipmentList_ExportCSVError );
+					MessageBox.Show( Properties.Resources.DialogEquipmentList_ExportCSVError + Environment.NewLine + ex.Message, Properties.Resources.DialogEquipmentList_ExportCSVError, MessageBoxButtons.OK, MessageBoxIcon.Error );
 
 				}
 

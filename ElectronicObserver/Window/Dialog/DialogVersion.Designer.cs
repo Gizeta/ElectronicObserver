@@ -23,6 +23,7 @@
 		/// the contents of this method with the code editor.
 		/// </summary>
 		private void InitializeComponent() {
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DialogVersion));
 			this.TextVersion = new System.Windows.Forms.Label();
 			this.label1 = new System.Windows.Forms.Label();
 			this.TextAuthor = new System.Windows.Forms.LinkLabel();
@@ -49,7 +50,7 @@
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(43, 15);
 			this.label1.TabIndex = 2;
-			this.label1.Text = "開発：";
+			resources.ApplyResources(this.label1, "label1");
 			// 
 			// TextAuthor
 			// 
@@ -69,7 +70,7 @@
 			this.ButtonClose.Name = "ButtonClose";
 			this.ButtonClose.Size = new System.Drawing.Size(75, 23);
 			this.ButtonClose.TabIndex = 0;
-			this.ButtonClose.Text = "閉じる";
+			resources.ApplyResources(this.ButtonClose, "ButtonClose");
 			this.ButtonClose.UseVisualStyleBackColor = true;
 			this.ButtonClose.Click += new System.EventHandler(this.ButtonClose_Click);
 			// 
@@ -92,7 +93,7 @@
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(200, 15);
 			this.label2.TabIndex = 4;
-			this.label2.Text = "配布元(不具合報告・連絡はこちらへ)：";
+			resources.ApplyResources(this.label2, "label2");
 			// 
 			// DialogVersion
 			// 
@@ -113,7 +114,7 @@
 			this.Name = "DialogVersion";
 			this.ShowInTaskbar = false;
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-			this.Text = "バージョン";
+			resources.ApplyResources(this, "DialogVersion");
 			this.Load += new System.EventHandler(this.DialogVersion_Load);
 			this.ResumeLayout(false);
 			this.PerformLayout();

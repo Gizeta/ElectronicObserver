@@ -24,6 +24,7 @@
 		/// </summary>
 		private void InitializeComponent() {
 			this.components = new System.ComponentModel.Container();
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormCompass));
 			this.BasePanel = new System.Windows.Forms.FlowLayoutPanel();
 			this.PanelEnemyFleet = new System.Windows.Forms.Panel();
 			this.TableEnemyMember = new System.Windows.Forms.TableLayoutPanel();
@@ -111,7 +112,7 @@
 			this.TextEnemyFleetName.Name = "TextEnemyFleetName";
 			this.TextEnemyFleetName.Size = new System.Drawing.Size(59, 16);
 			this.TextEnemyFleetName.TabIndex = 0;
-			this.TextEnemyFleetName.Text = "(敵艦隊名)";
+			resources.ApplyResources(this.TextEnemyFleetName, "TextEnemyFleetName");
 			// 
 			// TextFormation
 			// 
@@ -122,7 +123,7 @@
 			this.TextFormation.Name = "TextFormation";
 			this.TextFormation.Size = new System.Drawing.Size(35, 16);
 			this.TextFormation.TabIndex = 1;
-			this.TextFormation.Text = "(陣形)";
+			resources.ApplyResources(this.TextFormation, "TextFormation");
 			// 
 			// TextAirSuperiority
 			// 
@@ -132,7 +133,7 @@
 			this.TextAirSuperiority.Name = "TextAirSuperiority";
 			this.TextAirSuperiority.Size = new System.Drawing.Size(78, 16);
 			this.TextAirSuperiority.TabIndex = 2;
-			this.TextAirSuperiority.Text = "(制空戦力)";
+			resources.ApplyResources(this.TextAirSuperiority, "TextAirSuperiority");
 			// 
 			// ToolTipInfo
 			// 
@@ -149,7 +150,7 @@
 			this.TextMapArea.Name = "TextMapArea";
 			this.TextMapArea.Size = new System.Drawing.Size(35, 16);
 			this.TextMapArea.TabIndex = 5;
-			this.TextMapArea.Text = "(海域)";
+			resources.ApplyResources(this.TextMapArea, "TextMapArea");
 			// 
 			// TextDestination
 			// 
@@ -159,7 +160,7 @@
 			this.TextDestination.Name = "TextDestination";
 			this.TextDestination.Size = new System.Drawing.Size(44, 16);
 			this.TextDestination.TabIndex = 6;
-			this.TextDestination.Text = "(行き先)";
+			resources.ApplyResources(this.TextDestination, "TextDestination");
 			// 
 			// TextEventKind
 			// 
@@ -169,7 +170,7 @@
 			this.TextEventKind.Name = "TextEventKind";
 			this.TextEventKind.Size = new System.Drawing.Size(47, 16);
 			this.TextEventKind.TabIndex = 7;
-			this.TextEventKind.Text = "(イベント)";
+			resources.ApplyResources(this.TextEventKind, "TextEventKind");
 			// 
 			// TextEventDetail
 			// 
@@ -179,7 +180,7 @@
 			this.TextEventDetail.Name = "TextEventDetail";
 			this.TextEventDetail.Size = new System.Drawing.Size(71, 16);
 			this.TextEventDetail.TabIndex = 8;
-			this.TextEventDetail.Text = "(イベント詳細)";
+			resources.ApplyResources(this.TextEventDetail, "TextEventDetail");
 			// 
 			// FormCompass
 			// 
@@ -191,7 +192,7 @@
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
 			this.HideOnClose = true;
 			this.Name = "FormCompass";
-			this.Text = "羅針盤";
+			resources.ApplyResources(this, "FormCompass");
 			this.Load += new System.EventHandler(this.FormCompass_Load);
 			this.BasePanel.ResumeLayout(false);
 			this.BasePanel.PerformLayout();

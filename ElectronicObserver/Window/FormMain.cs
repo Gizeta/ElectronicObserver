@@ -61,9 +61,6 @@ namespace ElectronicObserver.Window {
 
 		private async void FormMain_Load( object sender, EventArgs e ) {
 
-			Utility.Configuration.Instance.Load();
-
-
 			Utility.Logger.Instance.LogAdded += new Utility.LogAddedEventHandler( ( Utility.Logger.LogData data ) => {
 				if ( InvokeRequired ) {
 					// Invokeはメッセージキューにジョブを投げて待つので、別のBeginInvokeされたジョブが既にキューにあると、
@@ -76,10 +73,10 @@ namespace ElectronicObserver.Window {
 			} );
 			Utility.Configuration.Instance.ConfigurationChanged += ConfigurationChanged;
 
-			Utility.Logger.Add( 2, SoftwareInformation.SoftwareNameJapanese + " を起動しています…" );
+			Utility.Logger.Add( 2, string.Format( Properties.Resources.FormMain_StartUp, SoftwareInformation.SoftwareName ) );
 
 
-			this.Text = SoftwareInformation.VersionJapanese;
+			this.Text = SoftwareInformation.Version;
 
 			ResourceManager.Instance.Load();
 			RecordManager.Instance.Load();
@@ -132,7 +129,7 @@ namespace ElectronicObserver.Window {
 
 				} catch ( Exception ex ) {
 
-					Utility.Logger.Add( 3, "API読み込みに失敗しました。" + ex.Message );
+					Utility.Logger.Add( 3, Properties.Resources.FormMain_APIReadError + ex.Message );
 				}
 			}
 
@@ -141,7 +138,7 @@ namespace ElectronicObserver.Window {
 
 			UIUpdateTimer.Start();
 
-			Utility.Logger.Add( 2, "起動処理が完了しました。" );
+			Utility.Logger.Add( 2, Properties.Resources.FormMain_LoadComplete );
 		}
 
 
@@ -204,7 +201,7 @@ namespace ElectronicObserver.Window {
 		private void FormMain_FormClosing( object sender, FormClosingEventArgs e ) {
 
 			if ( Utility.Configuration.Config.Life.ConfirmOnClosing ) {
-				if ( MessageBox.Show( SoftwareInformation.SoftwareNameJapanese + " を終了しますか？", "確認", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2 )
+				if ( MessageBox.Show( string.Format( Properties.Resources.FormMain_QuitMessage, SoftwareInformation.SoftwareName ), Properties.Resources.MessageBox_Confirm, MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2 )
 					== System.Windows.Forms.DialogResult.No ) {
 					e.Cancel = true;
 					return;
@@ -212,7 +209,7 @@ namespace ElectronicObserver.Window {
 			}
 
 
-			Utility.Logger.Add( 2, SoftwareInformation.SoftwareNameJapanese + " を終了しています…" );
+			Utility.Logger.Add( 2, string.Format( Properties.Resources.FormMain_Quit, SoftwareInformation.SoftwareName ) );
 
 			UIUpdateTimer.Stop();
 
@@ -237,7 +234,7 @@ namespace ElectronicObserver.Window {
 			KCDatabase.Instance.Save();
 
 
-			Utility.Logger.Add( 2, "終了処理が完了しました。" );
+			Utility.Logger.Add( 2, Properties.Resources.FormMain_CloseComplete );
 
 			if ( Utility.Configuration.Config.Log.SaveLogFlag )
 				Utility.Logger.Save( @"eolog.log" );
@@ -338,7 +335,7 @@ namespace ElectronicObserver.Window {
 
 			} catch ( Exception ex ) {
 
-				Utility.ErrorReporter.SendErrorReport( ex, "サブウィンドウ レイアウトの復元に失敗しました。" );
+				Utility.ErrorReporter.SendErrorReport( ex, Properties.Resources.FormMain_SubLayoutLoadError );
 			}
 
 		}
@@ -352,7 +349,7 @@ namespace ElectronicObserver.Window {
 
 			} catch ( Exception ex ) {
 
-				Utility.ErrorReporter.SendErrorReport( ex, "サブウィンドウ レイアウトの保存に失敗しました。" );
+				Utility.ErrorReporter.SendErrorReport( ex, Properties.Resources.FormMain_SubLayoutSaveError );
 			}
 
 		}
@@ -374,27 +371,27 @@ namespace ElectronicObserver.Window {
 				}
 
 
-				Utility.Logger.Add( 2, "ウィンドウ レイアウトを復元しました。" );
+				Utility.Logger.Add( 2, Properties.Resources.FormMain_LayoutLoadComplete );
 
 			} catch ( FileNotFoundException ) {
 
-				Utility.Logger.Add( 3, string.Format( "ウィンドウ レイアウト ファイルは存在しません。" ) );
-				MessageBox.Show( "レイアウトが初期化されました。\r\n「表示」メニューからお好みのウィンドウを追加してください。", "ウィンドウ レイアウト ファイルが存在しません",
+				Utility.Logger.Add( 3, string.Format( Properties.Resources.FormMain_LayoutFileNotFound ) );
+				MessageBox.Show( Properties.Resources.FormMain_LayoutInitializeMessage, Properties.Resources.FormMain_LayoutFileNotFound,
 					MessageBoxButtons.OK, MessageBoxIcon.Information );
 
 				fBrowser.Show( MainDockPanel );
 
 			} catch ( DirectoryNotFoundException ) {
 
-				Utility.Logger.Add( 3, string.Format( "ウィンドウ レイアウト ファイルは存在しません。" ) );
-				MessageBox.Show( "レイアウトが初期化されました。\r\n「表示」メニューからお好みのウィンドウを追加してください。", "ウィンドウ レイアウト ファイルが存在しません",
+				Utility.Logger.Add( 3, string.Format( Properties.Resources.FormMain_LayoutFileNotFound ) );
+				MessageBox.Show( Properties.Resources.FormMain_LayoutInitializeMessage, Properties.Resources.FormMain_LayoutFileNotFound,
 					MessageBoxButtons.OK, MessageBoxIcon.Information );
 
 				fBrowser.Show( MainDockPanel );
 
 			} catch ( Exception ex ) {
 
-				Utility.ErrorReporter.SendErrorReport( ex, "ウィンドウ レイアウトの復元に失敗しました。" );
+				Utility.ErrorReporter.SendErrorReport( ex, Properties.Resources.FormMain_LayoutLoadError );
 			}
 
 		}
@@ -417,11 +414,11 @@ namespace ElectronicObserver.Window {
 				}
 
 
-				Utility.Logger.Add( 2, "ウィンドウ レイアウトを保存しました。" );
+				Utility.Logger.Add( 2, Properties.Resources.FormMain_LayoutSaveComplete );
 
 			} catch ( Exception ex ) {
 
-				Utility.ErrorReporter.SendErrorReport( ex, "ウィンドウ レイアウトの保存に失敗しました。" );
+				Utility.ErrorReporter.SendErrorReport( ex, Properties.Resources.FormMain_LayoutSaveError );
 			}
 
 		}
@@ -477,7 +474,7 @@ namespace ElectronicObserver.Window {
 
 		private void StripMenu_File_SaveData_Load_Click( object sender, EventArgs e ) {
 
-			if ( MessageBox.Show( "セーブしていないレコードが失われる可能性があります。\r\nロードしますか？", "確認",
+			if ( MessageBox.Show( Properties.Resources.FormMain_DataNotSavedMessage, Properties.Resources.MessageBox_Confirm,
 					MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2 )
 				== System.Windows.Forms.DialogResult.Yes ) {
 
@@ -492,7 +489,7 @@ namespace ElectronicObserver.Window {
 
 			using ( OpenFileDialog ofd = new OpenFileDialog() ) {
 
-				ofd.Title = "APIリストをロード";
+				ofd.Title = Properties.Resources.FormMain_APIListOpenDialogTitle;
 				ofd.Filter = "API List|*.txt|File|*";
 				ofd.InitialDirectory = Utility.Configuration.Config.Connection.SaveDataPath;
 
@@ -504,7 +501,7 @@ namespace ElectronicObserver.Window {
 
 					} catch ( Exception ex ) {
 
-						MessageBox.Show( "API読み込みに失敗しました。\r\n" + ex.Message, "エラー",
+						MessageBox.Show( Properties.Resources.FormMain_APIReadError + Environment.NewLine + ex.Message, Properties.Resources.MessageBox_Error,
 							MessageBoxButtons.OK, MessageBoxIcon.Error );
 
 					}
@@ -585,14 +582,14 @@ namespace ElectronicObserver.Window {
 		private void StripMenu_Debug_LoadRecordFromOld_Click( object sender, EventArgs e ) {
 
 			if ( KCDatabase.Instance.MasterShips.Count == 0 ) {
-				MessageBox.Show( "先に通常の api_start2 を読み込んでください。", "大変ご迷惑をおかけしております", MessageBoxButtons.OK, MessageBoxIcon.Information );
+				MessageBox.Show( Properties.Resources.FormMain_LoadOldAPINeedDataMessage, Properties.Resources.MessageBox_MeetError, MessageBoxButtons.OK, MessageBoxIcon.Information );
 				return;
 			}
 
 
 			using ( OpenFileDialog ofd = new OpenFileDialog() ) {
 
-				ofd.Title = "旧 api_start2 からレコードを構築";
+				ofd.Title = Properties.Resources.FormMain_OldAPIOpenDialogTitle;
 				ofd.Filter = "api_start2|*api_start2*.json|JSON|*.json|File|*";
 
 				if ( ofd.ShowDialog() == System.Windows.Forms.DialogResult.OK ) {
@@ -616,7 +613,7 @@ namespace ElectronicObserver.Window {
 
 					} catch ( Exception ex ) {
 
-						MessageBox.Show( "API読み込みに失敗しました。\r\n" + ex.Message, "エラー",
+						MessageBox.Show( Properties.Resources.FormMain_APIReadError + Environment.NewLine + ex.Message, Properties.Resources.MessageBox_Error,
 							MessageBoxButtons.OK, MessageBoxIcon.Error );
 					}
 				}
@@ -628,7 +625,7 @@ namespace ElectronicObserver.Window {
 		private void StripMenu_Tool_AlbumMasterShip_Click( object sender, EventArgs e ) {
 
 			if ( KCDatabase.Instance.MasterShips.Count == 0 ) {
-				MessageBox.Show( "艦船データが読み込まれていません。", "エラー", MessageBoxButtons.OK, MessageBoxIcon.Error );
+				MessageBox.Show( Properties.Resources.FormMain_ShipDataNotLoaded, Properties.Resources.MessageBox_Error, MessageBoxButtons.OK, MessageBoxIcon.Error );
 
 			} else {
 				new DialogAlbumMasterShip().Show( this );
@@ -639,7 +636,7 @@ namespace ElectronicObserver.Window {
 		private void StripMenu_Tool_AlbumMasterEquipment_Click( object sender, EventArgs e ) {
 
 			if ( KCDatabase.Instance.MasterEquipments.Count == 0 ) {
-				MessageBox.Show( "装備データが読み込まれていません。", "エラー", MessageBoxButtons.OK, MessageBoxIcon.Error );
+				MessageBox.Show( Properties.Resources.FormMain_EquipmentDataNotLoaded, Properties.Resources.MessageBox_Error, MessageBoxButtons.OK, MessageBoxIcon.Error );
 
 			} else {
 				new DialogAlbumMasterEquipment().Show( this );
@@ -650,18 +647,18 @@ namespace ElectronicObserver.Window {
 
 		private async void StripMenu_Debug_DeleteOldAPI_Click( object sender, EventArgs e ) {
 
-			if ( MessageBox.Show( "古いAPIデータを削除します。\r\n本当によろしいですか？", "確認", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2 )
+			if ( MessageBox.Show( Properties.Resources.FormMain_OldAPIDeleteMessage, Properties.Resources.MessageBox_Confirm, MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2 )
 				== System.Windows.Forms.DialogResult.Yes ) {
 
 				try {
 
 					int count = await Task.Factory.StartNew( () => DeleteOldAPI() );
 
-					MessageBox.Show( "削除が完了しました。\r\n" + count + " 個のファイルを削除しました。", "削除成功", MessageBoxButtons.OK, MessageBoxIcon.Information );
+					MessageBox.Show( string.Format( Properties.Resources.FormMain_OldAPIDeleteComplete, count ), Properties.Resources.MessageBox_DeleteComplete, MessageBoxButtons.OK, MessageBoxIcon.Information );
 
 				} catch ( Exception ex ) {
 
-					MessageBox.Show( "削除に失敗しました。\r\n" + ex.Message, "エラー", MessageBoxButtons.OK, MessageBoxIcon.Error );
+					MessageBox.Show( Properties.Resources.FormMain_OldAPIDeleteError + Environment.NewLine + ex.Message, Properties.Resources.MessageBox_Error, MessageBoxButtons.OK, MessageBoxIcon.Error );
 				}
 
 
@@ -716,13 +713,11 @@ namespace ElectronicObserver.Window {
 		private async void StripMenu_Debug_RenameShipResource_Click( object sender, EventArgs e ) {
 
 			if ( KCDatabase.Instance.MasterShips.Count == 0 ) {
-				MessageBox.Show( "艦船データが読み込まれていません。", "エラー", MessageBoxButtons.OK, MessageBoxIcon.Error );
+				MessageBox.Show( Properties.Resources.FormMain_ShipDataNotLoaded, Properties.Resources.MessageBox_Error, MessageBoxButtons.OK, MessageBoxIcon.Error );
 				return;
 			}
 
-			if ( MessageBox.Show( "通信から保存した艦船リソース名を持つファイル及びフォルダを、艦船名に置換します。\r\n" +
-				"対象は指定されたフォルダ以下のすべてのファイル及びフォルダです。\r\n" +
-				"続行しますか？", "艦船リソースをリネーム", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button1 )
+			if ( MessageBox.Show( Properties.Resources.FormMain_RenameShipResourceMessage, Properties.Resources.FormMain_RenameShipResourceTitle, MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button1 )
 				== System.Windows.Forms.DialogResult.Yes ) {
 
 				string path = null;
@@ -742,13 +737,13 @@ namespace ElectronicObserver.Window {
 
 					int count = await Task.Factory.StartNew( () => RenameShipResource( path ) );
 
-					MessageBox.Show( string.Format( "リネーム処理が完了しました。\r\n{0} 個のアイテムをリネームしました。", count ), "処理完了", MessageBoxButtons.OK, MessageBoxIcon.Information );
+					MessageBox.Show( string.Format( Properties.Resources.FormMain_RenameShipResourceComplete, count ), Properties.Resources.MessageBox_Complete, MessageBoxButtons.OK, MessageBoxIcon.Information );
 
 
 				} catch ( Exception ex ) {
 
-					Utility.ErrorReporter.SendErrorReport( ex, "艦船リソースのリネームに失敗しました。" );
-					MessageBox.Show( "艦船リソースのリネームに失敗しました。\r\n" + ex.Message, "エラー", MessageBoxButtons.OK, MessageBoxIcon.Error );
+					Utility.ErrorReporter.SendErrorReport( ex, Properties.Resources.FormMain_RenameShipResourceError );
+					MessageBox.Show( Properties.Resources.FormMain_RenameShipResourceError + Environment.NewLine + ex.Message, Properties.Resources.MessageBox_Error, MessageBoxButtons.OK, MessageBoxIcon.Error );
 
 				}
 
@@ -821,7 +816,7 @@ namespace ElectronicObserver.Window {
 
 		private void StripMenu_Help_Help_Click( object sender, EventArgs e ) {
 
-			if ( MessageBox.Show( "外部ブラウザでオンラインヘルプを開きます。\r\nよろしいですか？", "ヘルプ",
+			if ( MessageBox.Show( Properties.Resources.FormMain_HelpMessage, Properties.Resources.MessageBox_Help,
 				MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button1 )
 				== System.Windows.Forms.DialogResult.Yes ) {
 
@@ -854,7 +849,7 @@ namespace ElectronicObserver.Window {
 			using ( var dialog = new OpenFileDialog() ) {
 
 				dialog.Filter = "Layout Archive|*.zip|File|*";
-				dialog.Title = "レイアウト ファイルを開く";
+				dialog.Title = Properties.Resources.FormMain_LayoutOpenDialogTitle;
 
 
 				PathHelper.InitOpenFileDialog( Utility.Configuration.Config.Life.LayoutFilePath, dialog );
@@ -887,7 +882,7 @@ namespace ElectronicObserver.Window {
 
 		private void StripMenu_Browser_NavigateToLogInPage_Click( object sender, EventArgs e ) {
 
-			if ( MessageBox.Show( "ログインページへ移動します。\r\nよろしいですか？", "確認", MessageBoxButtons.YesNo, MessageBoxIcon.Question )
+			if ( MessageBox.Show( Properties.Resources.FormMain_NavigateToLoginMessage, Properties.Resources.MessageBox_Confirm, MessageBoxButtons.YesNo, MessageBoxIcon.Question )
 				== System.Windows.Forms.DialogResult.Yes ) {
 
 				fBrowser.NavigateToLogInPage();
@@ -896,7 +891,7 @@ namespace ElectronicObserver.Window {
 
 		private void StripMenu_Browser_Navigate_Click( object sender, EventArgs e ) {
 
-			using ( var dialog = new Window.Dialog.DialogTextInput( "移動先の入力", "移動先の URL を入力してください。" ) ) {
+			using ( var dialog = new Window.Dialog.DialogTextInput( Properties.Resources.FormMain_NavigateTitle, Properties.Resources.FormMain_NavigateMessage ) ) {
 
 				if ( dialog.ShowDialog( this ) == System.Windows.Forms.DialogResult.OK ) {
 
@@ -955,7 +950,7 @@ namespace ElectronicObserver.Window {
 
 		private void StripMenu_Browser_Zoom_DropDownOpening( object sender, EventArgs e ) {
 
-			StripMenu_Browser_Zoom_Current.Text = string.Format( "現在: {0}%",
+			StripMenu_Browser_Zoom_Current.Text = string.Format( Properties.Resources.FormMain_BrowserZoomText,
 				Utility.Configuration.Config.FormBrowser.ZoomRate );
 
 		}

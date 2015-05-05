@@ -58,5 +58,4395 @@ namespace ElectronicObserver.Properties {
 				resourceCulture = value;
 			}
 		}
-	}
+        
+        /// <summary>
+        ///   #{0}「{1}」が「{2}-{3} {4}」へ出撃しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string APIMapStart_Message {
+            get {
+                return ResourceManager.GetString("APIMapStart_Message", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   #{0}「{1}」が遠征「{2}: {3}」から帰投しました。({4}) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string APIMissionResult_Message {
+            get {
+                return ResourceManager.GetString("APIMissionResult_Message", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   #{0}「{1}」が遠征「{2}: {3}」へ出撃しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string APIMissionStart_Message {
+            get {
+                return ResourceManager.GetString("APIMissionStart_Message", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   APIObserver: 実際に受信を開始したポート番号が指定されたポート番号とは異なります。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string APIObserver_MismatchedPort {
+            get {
+                return ResourceManager.GetString("APIObserver_MismatchedPort", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   エラーコードを含むメッセージを受信しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string APIObserver_ReceiveErrorData {
+            get {
+                return ResourceManager.GetString("APIObserver_ReceiveErrorData", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Request の受信中にエラーが発生しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string APIObserver_RequestError {
+            get {
+                return ResourceManager.GetString("APIObserver_RequestError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Request を受信しました :  に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string APIObserver_RequestReceive {
+            get {
+                return ResourceManager.GetString("APIObserver_RequestReceive", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Requestの保存に失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string APIObserver_RequestSaveError {
+            get {
+                return ResourceManager.GetString("APIObserver_RequestSaveError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Responseの受信中にエラーが発生しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string APIObserver_ResponseError {
+            get {
+                return ResourceManager.GetString("APIObserver_ResponseError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Responseを受信しました :  に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string APIObserver_ResponseReceive {
+            get {
+                return ResourceManager.GetString("APIObserver_ResponseReceive", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Responseの保存に失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string APIObserver_ResponseSaveError {
+            get {
+                return ResourceManager.GetString("APIObserver_ResponseSaveError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   通信からファイル {0} を保存しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string APIObserver_Saved {
+            get {
+                return ResourceManager.GetString("APIObserver_Saved", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   通信内容の保存に失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string APIObserver_SaveError {
+            get {
+                return ResourceManager.GetString("APIObserver_SaveError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   APIObserver: ポート {0} 番で受信を開始しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string APIObserver_Start {
+            get {
+                return ResourceManager.GetString("APIObserver_Start", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   APIObserver: 受信を停止しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string APIObserver_Stop {
+            get {
+                return ResourceManager.GetString("APIObserver_Stop", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   提督が鎮守府に着任しました。これより艦隊の指揮を執ります。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string APIStart2_Message {
+            get {
+                return ResourceManager.GetString("APIStart2_Message", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   {0} をご利用いただきありがとうございます。
+        ///設定や使用方法については「ヘルプ」→「オンラインヘルプ」を参照してください。
+        ///ご使用の前に必ずご一読ください。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Configuration_FirstRunMessage {
+            get {
+                return ResourceManager.GetString("Configuration_FirstRunMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   初回起動メッセージ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Configuration_FirstRunTitle {
+            get {
+                return ResourceManager.GetString("Configuration_FirstRunTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   高角砲x2/電探 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_AACutinKind1 {
+            get {
+                return ResourceManager.GetString("Constant_AACutinKind1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   高角砲/集中機銃/電探 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_AACutinKind10 {
+            get {
+                return ResourceManager.GetString("Constant_AACutinKind10", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   高角砲/集中機銃 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_AACutinKind11 {
+            get {
+                return ResourceManager.GetString("Constant_AACutinKind11", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   集中機銃/機銃/電探 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_AACutinKind12 {
+            get {
+                return ResourceManager.GetString("Constant_AACutinKind12", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   高角砲/電探 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_AACutinKind2 {
+            get {
+                return ResourceManager.GetString("Constant_AACutinKind2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   高角砲x2 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_AACutinKind3 {
+            get {
+                return ResourceManager.GetString("Constant_AACutinKind3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   大口径主砲/三式弾/高射装置/電探 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_AACutinKind4 {
+            get {
+                return ResourceManager.GetString("Constant_AACutinKind4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   高角砲+高射装置x2/電探 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_AACutinKind5 {
+            get {
+                return ResourceManager.GetString("Constant_AACutinKind5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   大口径主砲/三式弾/高射装置 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_AACutinKind6 {
+            get {
+                return ResourceManager.GetString("Constant_AACutinKind6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   高角砲/高射装置/電探 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_AACutinKind7 {
+            get {
+                return ResourceManager.GetString("Constant_AACutinKind7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   高角砲+高射装置/電探 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_AACutinKind8 {
+            get {
+                return ResourceManager.GetString("Constant_AACutinKind8", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   高角砲/高射装置 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_AACutinKind9 {
+            get {
+                return ResourceManager.GetString("Constant_AACutinKind9", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   提督 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Admiral {
+            get {
+                return ResourceManager.GetString("Constant_Admiral", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   元帥 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_AdmiralRank1 {
+            get {
+                return ResourceManager.GetString("Constant_AdmiralRank1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   新米少佐 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_AdmiralRank10 {
+            get {
+                return ResourceManager.GetString("Constant_AdmiralRank10", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   大将 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_AdmiralRank2 {
+            get {
+                return ResourceManager.GetString("Constant_AdmiralRank2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   中将 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_AdmiralRank3 {
+            get {
+                return ResourceManager.GetString("Constant_AdmiralRank3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   少将 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_AdmiralRank4 {
+            get {
+                return ResourceManager.GetString("Constant_AdmiralRank4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   大佐 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_AdmiralRank5 {
+            get {
+                return ResourceManager.GetString("Constant_AdmiralRank5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   中佐 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_AdmiralRank6 {
+            get {
+                return ResourceManager.GetString("Constant_AdmiralRank6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   新米中佐 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_AdmiralRank7 {
+            get {
+                return ResourceManager.GetString("Constant_AdmiralRank7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   少佐 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_AdmiralRank8 {
+            get {
+                return ResourceManager.GetString("Constant_AdmiralRank8", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   中堅少佐 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_AdmiralRank9 {
+            get {
+                return ResourceManager.GetString("Constant_AdmiralRank9", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   航空戦 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_AirBattle {
+            get {
+                return ResourceManager.GetString("Constant_AirBattle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   航空均衡 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_AirSuperiority0 {
+            get {
+                return ResourceManager.GetString("Constant_AirSuperiority0", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   制空権確保 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_AirSuperiority1 {
+            get {
+                return ResourceManager.GetString("Constant_AirSuperiority1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   航空優勢 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_AirSuperiority2 {
+            get {
+                return ResourceManager.GetString("Constant_AirSuperiority2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   航空劣勢 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_AirSuperiority3 {
+            get {
+                return ResourceManager.GetString("Constant_AirSuperiority3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   制空権喪失 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_AirSuperiority4 {
+            get {
+                return ResourceManager.GetString("Constant_AirSuperiority4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   弾薬 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Ammo {
+            get {
+                return ResourceManager.GetString("Constant_Ammo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   水 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_AquaBlue {
+            get {
+                return ResourceManager.GetString("Constant_AquaBlue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   工廠 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Arsenal {
+            get {
+                return ResourceManager.GetString("Constant_Arsenal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   通常戦闘 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Battle {
+            get {
+                return ResourceManager.GetString("Constant_Battle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   ボーキサイト に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Bauxite {
+            get {
+                return ResourceManager.GetString("Constant_Bauxite", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   輝虹 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_BlazeRainbow {
+            get {
+                return ResourceManager.GetString("Constant_BlazeRainbow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   藍 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Blue {
+            get {
+                return ResourceManager.GetString("Constant_Blue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   ボス に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Boss {
+            get {
+                return ResourceManager.GetString("Constant_Boss", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   ボス戦闘 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_BossBattle {
+            get {
+                return ResourceManager.GetString("Constant_BossBattle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   時報 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Clock {
+            get {
+                return ResourceManager.GetString("Constant_Clock", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   時報+放置 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Clock_Place {
+            get {
+                return ResourceManager.GetString("Constant_Clock_Place", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   通常艦隊 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_CombinedFleet0 {
+            get {
+                return ResourceManager.GetString("Constant_CombinedFleet0", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   機動部隊 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_CombinedFleet1 {
+            get {
+                return ResourceManager.GetString("Constant_CombinedFleet1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   水上部隊 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_CombinedFleet2 {
+            get {
+                return ResourceManager.GetString("Constant_CombinedFleet2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   コモン に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Common {
+            get {
+                return ResourceManager.GetString("Constant_Common", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   青 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Cyan {
+            get {
+                return ResourceManager.GetString("Constant_Cyan", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   日 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Day {
+            get {
+                return ResourceManager.GetString("Constant_Day", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   昼夜戦 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Day_NightBattle {
+            get {
+                return ResourceManager.GetString("Constant_Day_NightBattle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   砲撃 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_DayAttackKind0 {
+            get {
+                return ResourceManager.GetString("Constant_DayAttackKind0", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   レーザー攻撃 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_DayAttackKind1 {
+            get {
+                return ResourceManager.GetString("Constant_DayAttackKind1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   ロケット砲撃 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_DayAttackKind10 {
+            get {
+                return ResourceManager.GetString("Constant_DayAttackKind10", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   連続射撃 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_DayAttackKind2 {
+            get {
+                return ResourceManager.GetString("Constant_DayAttackKind2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   カットイン(主砲/副砲) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_DayAttackKind3 {
+            get {
+                return ResourceManager.GetString("Constant_DayAttackKind3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   カットイン(主砲/電探) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_DayAttackKind4 {
+            get {
+                return ResourceManager.GetString("Constant_DayAttackKind4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   カットイン(主砲/徹甲) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_DayAttackKind5 {
+            get {
+                return ResourceManager.GetString("Constant_DayAttackKind5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   カットイン(主砲/主砲) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_DayAttackKind6 {
+            get {
+                return ResourceManager.GetString("Constant_DayAttackKind6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   空撃 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_DayAttackKind7 {
+            get {
+                return ResourceManager.GetString("Constant_DayAttackKind7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   爆雷攻撃 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_DayAttackKind8 {
+            get {
+                return ResourceManager.GetString("Constant_DayAttackKind8", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   雷撃 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_DayAttackKind9 {
+            get {
+                return ResourceManager.GetString("Constant_DayAttackKind9", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   開発資材 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_DevelopmentMaterial {
+            get {
+                return ResourceManager.GetString("Constant_DevelopmentMaterial", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   渦潮 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Eddy {
+            get {
+                return ResourceManager.GetString("Constant_Eddy", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   同航戦 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Engagement1 {
+            get {
+                return ResourceManager.GetString("Constant_Engagement1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   反航戦 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Engagement2 {
+            get {
+                return ResourceManager.GetString("Constant_Engagement2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   T字有利 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Engagement3 {
+            get {
+                return ResourceManager.GetString("Constant_Engagement3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   T字不利 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Engagement4 {
+            get {
+                return ResourceManager.GetString("Constant_Engagement4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   退避 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Escaped {
+            get {
+                return ResourceManager.GetString("Constant_Escaped", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   EXホロ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_EXHolo {
+            get {
+                return ResourceManager.GetString("Constant_EXHolo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   遠征 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Expedition {
+            get {
+                return ResourceManager.GetString("Constant_Expedition", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   失敗 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Failed {
+            get {
+                return ResourceManager.GetString("Constant_Failed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   燃料 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Fuel {
+            get {
+                return ResourceManager.GetString("Constant_Fuel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   無傷 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_FullHP {
+            get {
+                return ResourceManager.GetString("Constant_FullHP", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   金 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Golden {
+            get {
+                return ResourceManager.GetString("Constant_Golden", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   中破 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_HalfHP {
+            get {
+                return ResourceManager.GetString("Constant_HalfHP", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   損害 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_HalfHP_LandBase {
+            get {
+                return ResourceManager.GetString("Constant_HalfHP_LandBase", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   小破 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_HighHP {
+            get {
+                return ResourceManager.GetString("Constant_HighHP", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   混乱 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_HighHP_LandBase {
+            get {
+                return ResourceManager.GetString("Constant_HighHP_LandBase", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   高速 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_HighSpeed {
+            get {
+                return ResourceManager.GetString("Constant_HighSpeed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   ホロ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Holo {
+            get {
+                return ResourceManager.GetString("Constant_Holo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   単縦陣 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Information1 {
+            get {
+                return ResourceManager.GetString("Constant_Information1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   単縦陣 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Information1_Short {
+            get {
+                return ResourceManager.GetString("Constant_Information1_Short", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   第一警戒航行序列 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Information11 {
+            get {
+                return ResourceManager.GetString("Constant_Information11", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   第一警戒 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Information11_Short {
+            get {
+                return ResourceManager.GetString("Constant_Information11_Short", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   第二警戒航行序列 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Information12 {
+            get {
+                return ResourceManager.GetString("Constant_Information12", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   第二警戒 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Information12_Short {
+            get {
+                return ResourceManager.GetString("Constant_Information12_Short", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   第三警戒航行序列 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Information13 {
+            get {
+                return ResourceManager.GetString("Constant_Information13", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   第三警戒 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Information13_Short {
+            get {
+                return ResourceManager.GetString("Constant_Information13_Short", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   第四警戒航行序列 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Information14 {
+            get {
+                return ResourceManager.GetString("Constant_Information14", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   第四警戒 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Information14_Short {
+            get {
+                return ResourceManager.GetString("Constant_Information14_Short", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   複縦陣 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Information2 {
+            get {
+                return ResourceManager.GetString("Constant_Information2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   複縦陣 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Information2_Short {
+            get {
+                return ResourceManager.GetString("Constant_Information2_Short", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   輪形陣 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Information3 {
+            get {
+                return ResourceManager.GetString("Constant_Information3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   輪形陣 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Information3_Short {
+            get {
+                return ResourceManager.GetString("Constant_Information3_Short", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   梯形陣 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Information4 {
+            get {
+                return ResourceManager.GetString("Constant_Information4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   梯形陣 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Information4_Short {
+            get {
+                return ResourceManager.GetString("Constant_Information4_Short", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   単横陣 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Information5 {
+            get {
+                return ResourceManager.GetString("Constant_Information5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   単横陣 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Information5_Short {
+            get {
+                return ResourceManager.GetString("Constant_Information5_Short", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   初期位置 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_InitialPoint {
+            get {
+                return ResourceManager.GetString("Constant_InitialPoint", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   高速建造材 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_InstantConstruction {
+            get {
+                return ResourceManager.GetString("Constant_InstantConstruction", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   高速修復材 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_InstantRepair {
+            get {
+                return ResourceManager.GetString("Constant_InstantRepair", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   陸上 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Land {
+            get {
+                return ResourceManager.GetString("Constant_Land", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   陸上基地 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_LandBase {
+            get {
+                return ResourceManager.GetString("Constant_LandBase", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   長 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Long {
+            get {
+                return ResourceManager.GetString("Constant_Long", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   大破 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_LowHP {
+            get {
+                return ResourceManager.GetString("Constant_LowHP", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   損壊 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_LowHP_LandBase {
+            get {
+                return ResourceManager.GetString("Constant_LowHP_LandBase", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   低速 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_LowSpeed {
+            get {
+                return ResourceManager.GetString("Constant_LowSpeed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   中 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Middle {
+            get {
+                return ResourceManager.GetString("Constant_Middle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   気のせいだった に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Misconception {
+            get {
+                return ResourceManager.GetString("Constant_Misconception", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   改修資材 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_ModdingMaterial {
+            get {
+                return ResourceManager.GetString("Constant_ModdingMaterial", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   月 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Month {
+            get {
+                return ResourceManager.GetString("Constant_Month", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   健在 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_MuchHP {
+            get {
+                return ResourceManager.GetString("Constant_MuchHP", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   夜昼戦 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Night_DayBattle {
+            get {
+                return ResourceManager.GetString("Constant_Night_DayBattle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   砲撃 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_NightAttackKind0 {
+            get {
+                return ResourceManager.GetString("Constant_NightAttackKind0", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   連続射撃 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_NightAttackKind1 {
+            get {
+                return ResourceManager.GetString("Constant_NightAttackKind1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   ロケット砲撃 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_NightAttackKind10 {
+            get {
+                return ResourceManager.GetString("Constant_NightAttackKind10", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   カットイン(主砲/魚雷) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_NightAttackKind2 {
+            get {
+                return ResourceManager.GetString("Constant_NightAttackKind2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   カットイン(魚雷x2) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_NightAttackKind3 {
+            get {
+                return ResourceManager.GetString("Constant_NightAttackKind3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   カットイン(主砲x2/副砲) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_NightAttackKind4 {
+            get {
+                return ResourceManager.GetString("Constant_NightAttackKind4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   カットイン(主砲x3) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_NightAttackKind5 {
+            get {
+                return ResourceManager.GetString("Constant_NightAttackKind5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   空撃 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_NightAttackKind7 {
+            get {
+                return ResourceManager.GetString("Constant_NightAttackKind7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   爆雷攻撃 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_NightAttackKind8 {
+            get {
+                return ResourceManager.GetString("Constant_NightAttackKind8", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   雷撃 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_NightAttackKind9 {
+            get {
+                return ResourceManager.GetString("Constant_NightAttackKind9", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   夜戦 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_NightBattle {
+            get {
+                return ResourceManager.GetString("Constant_NightBattle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   非戦闘 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_NoBattle {
+            get {
+                return ResourceManager.GetString("Constant_NoBattle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   無 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_None {
+            get {
+                return ResourceManager.GetString("Constant_None", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   なし に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Null {
+            get {
+                return ResourceManager.GetString("Constant_Null", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   1 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Once {
+            get {
+                return ResourceManager.GetString("Constant_Once", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   編成 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Organize {
+            get {
+                return ResourceManager.GetString("Constant_Organize", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   他 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Other {
+            get {
+                return ResourceManager.GetString("Constant_Other", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   放置 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Place {
+            get {
+                return ResourceManager.GetString("Constant_Place", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   演習 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Practice {
+            get {
+                return ResourceManager.GetString("Constant_Practice", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   虹 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Rainbow {
+            get {
+                return ResourceManager.GetString("Constant_Rainbow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   レア に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Rare {
+            get {
+                return ResourceManager.GetString("Constant_Rare", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   赤 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Red {
+            get {
+                return ResourceManager.GetString("Constant_Red", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   改装 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Remodel {
+            get {
+                return ResourceManager.GetString("Constant_Remodel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   資源 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Resource {
+            get {
+                return ResourceManager.GetString("Constant_Resource", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   桜虹 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_SakuraRainbow {
+            get {
+                return ResourceManager.GetString("Constant_SakuraRainbow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   成功 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_SearchingResult1 {
+            get {
+                return ResourceManager.GetString("Constant_SearchingResult1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   成功 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_SearchingResult1_Short {
+            get {
+                return ResourceManager.GetString("Constant_SearchingResult1_Short", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   成功(未帰還有) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_SearchingResult2 {
+            get {
+                return ResourceManager.GetString("Constant_SearchingResult2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   成功△ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_SearchingResult2_Short {
+            get {
+                return ResourceManager.GetString("Constant_SearchingResult2_Short", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   未帰還 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_SearchingResult3 {
+            get {
+                return ResourceManager.GetString("Constant_SearchingResult3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   未帰還 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_SearchingResult3_Short {
+            get {
+                return ResourceManager.GetString("Constant_SearchingResult3_Short", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   失敗 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_SearchingResult4 {
+            get {
+                return ResourceManager.GetString("Constant_SearchingResult4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   失敗 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_SearchingResult4_Short {
+            get {
+                return ResourceManager.GetString("Constant_SearchingResult4_Short", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   成功(非索敵機) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_SearchingResult5 {
+            get {
+                return ResourceManager.GetString("Constant_SearchingResult5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   成功 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_SearchingResult5_Short {
+            get {
+                return ResourceManager.GetString("Constant_SearchingResult5_Short", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   失敗(非索敵機) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_SearchingResult6 {
+            get {
+                return ResourceManager.GetString("Constant_SearchingResult6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   失敗 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_SearchingResult6_Short {
+            get {
+                return ResourceManager.GetString("Constant_SearchingResult6_Short", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   艦娘 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_ShipDefaultName {
+            get {
+                return ResourceManager.GetString("Constant_ShipDefaultName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   船団護衛成功 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_ShipGuard {
+            get {
+                return ResourceManager.GetString("Constant_ShipGuard", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sホロ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_SHolo {
+            get {
+                return ResourceManager.GetString("Constant_SHolo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   短 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Short {
+            get {
+                return ResourceManager.GetString("Constant_Short", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   銀 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Silver {
+            get {
+                return ResourceManager.GetString("Constant_Silver", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   撃沈 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Sink {
+            get {
+                return ResourceManager.GetString("Constant_Sink", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   破壊 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Sink_LandBase {
+            get {
+                return ResourceManager.GetString("Constant_Sink_LandBase", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   離脱 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Sink_Practice {
+            get {
+                return ResourceManager.GetString("Constant_Sink_Practice", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   出撃 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Sortie {
+            get {
+                return ResourceManager.GetString("Constant_Sortie", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   SSホロ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_SSHolo {
+            get {
+                return ResourceManager.GetString("Constant_SSHolo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   鋼材 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Steel {
+            get {
+                return ResourceManager.GetString("Constant_Steel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   成功 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Success {
+            get {
+                return ResourceManager.GetString("Constant_Success", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   超長 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_SuperLong {
+            get {
+                return ResourceManager.GetString("Constant_SuperLong", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   大成功 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_SuperSuccess {
+            get {
+                return ResourceManager.GetString("Constant_SuperSuccess", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   補給 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Supply_Repair {
+            get {
+                return ResourceManager.GetString("Constant_Supply_Repair", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   不明 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Unknown {
+            get {
+                return ResourceManager.GetString("Constant_Unknown", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   ? に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Unknown_Short {
+            get {
+                return ResourceManager.GetString("Constant_Unknown_Short", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   変 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Vary {
+            get {
+                return ResourceManager.GetString("Constant_Vary", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   週 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Constant_Week {
+            get {
+                return ResourceManager.GetString("Constant_Week", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   DataStorage ファイルは存在しません。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DataStorage_FileNotFound {
+            get {
+                return ResourceManager.GetString("DataStorage_FileNotFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   DataStorage の読み込みに失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DataStorage_LoadError {
+            get {
+                return ResourceManager.GetString("DataStorage_LoadError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   DataStorage {0} は存在しません。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DataStorage_PathNotFound {
+            get {
+                return ResourceManager.GetString("DataStorage_PathNotFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   DataStorage の書き込みに失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DataStorage_SaveError {
+            get {
+                return ResourceManager.GetString("DataStorage_SaveError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   装備ID,図鑑番号,装備名,装備種1,装備種2,装備種3,装備種4,火力,雷装,対空,装甲,対潜,回避,索敵,運,命中,爆装,射程,レア,廃棄燃料,廃棄弾薬,廃棄鋼材,廃棄ボーキ,図鑑文章,バージョン に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogAlbumMasterEquipment_DataCSVHeader {
+            get {
+                return ResourceManager.GetString("DialogAlbumMasterEquipment_DataCSVHeader", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   装備図鑑 -  に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogAlbumMasterEquipment_EquipmentAlbum {
+            get {
+                return ResourceManager.GetString("DialogAlbumMasterEquipment_EquipmentAlbum", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   装備図鑑 CSVの出力に失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogAlbumMasterEquipment_ExportCSVError {
+            get {
+                return ResourceManager.GetString("DialogAlbumMasterEquipment_ExportCSVError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   装備可能艦種: に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogAlbumMasterEquipment_ShipEquiped {
+            get {
+                return ResourceManager.GetString("DialogAlbumMasterEquipment_ShipEquiped", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   装備ID,図鑑番号,装備種,装備名,装備種1,装備種2,装備種3,装備種4,火力,雷装,対空,装甲,対潜,回避,索敵,運,命中,爆装,射程,レア,廃棄燃料,廃棄弾薬,廃棄鋼材,廃棄ボーキ,図鑑文章,バージョン に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogAlbumMasterEquipment_UserCSVHeader {
+            get {
+                return ResourceManager.GetString("DialogAlbumMasterEquipment_UserCSVHeader", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   対空 {0}{1}
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogAlbumMasterShip_AAInfo {
+            get {
+                return ResourceManager.GetString("DialogAlbumMasterShip_AAInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   命中 {0}{1}
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogAlbumMasterShip_AccuracyInfo {
+            get {
+                return ResourceManager.GetString("DialogAlbumMasterShip_AccuracyInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   装甲 {0}{1}
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogAlbumMasterShip_ArmorInfo {
+            get {
+                return ResourceManager.GetString("DialogAlbumMasterShip_ArmorInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   対潜 {0}{1}
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogAlbumMasterShip_ASWInfo {
+            get {
+                return ResourceManager.GetString("DialogAlbumMasterShip_ASWInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   基本値 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogAlbumMasterShip_BasicValue {
+            get {
+                return ResourceManager.GetString("DialogAlbumMasterShip_BasicValue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   爆装 {0}{1}
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogAlbumMasterShip_BomberInfo {
+            get {
+                return ResourceManager.GetString("DialogAlbumMasterShip_BomberInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   (右クリックで図鑑) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogAlbumMasterShip_ClickToOpenAlbum {
+            get {
+                return ResourceManager.GetString("DialogAlbumMasterShip_ClickToOpenAlbum", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   艦船ID,図鑑番号,艦名,読み,艦種,改装前,改装後,改装Lv,改装弾薬,改装鋼材,改装設計図,耐久初期,耐久最大,耐久結婚,火力初期,火力最大,雷装初期,雷装最大,対空初期,対空最大,装甲初期,装甲最大,対潜初期最小,対潜初期最大,対潜最大,対潜150最小,対潜150最大,回避初期最小,回避初期最大,回避最大,回避150最小,回避150最大,索敵初期最小,索敵初期最大,索敵最大,索敵150最小,索敵150最大,運初期,運最大,速力,射程,レア,スロット数,搭載機数1,搭載機数2,搭載機数3,搭載機数4,搭載機数5,初期装備1,初期装備2,初期装備3,初期装備4,初期装備5,建造時間,解体燃料,解体弾薬,解体鋼材,解体ボーキ,改修火力,改修雷装,改修対空,改修装甲,ドロップ文章,図鑑文章,搭載燃料,搭載弾薬,ボイス,リソース名,バージョン に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogAlbumMasterShip_DataCSVHeader {
+            get {
+                return ResourceManager.GetString("DialogAlbumMasterShip_DataCSVHeader", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   装備込 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogAlbumMasterShip_EquippedValue {
+            get {
+                return ResourceManager.GetString("DialogAlbumMasterShip_EquippedValue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   回避 {0}{1}
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogAlbumMasterShip_EvasionInfo {
+            get {
+                return ResourceManager.GetString("DialogAlbumMasterShip_EvasionInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   艦船図鑑 CSVの出力に失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogAlbumMasterShip_ExportCSVError {
+            get {
+                return ResourceManager.GetString("DialogAlbumMasterShip_ExportCSVError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   火力 {0}{1}
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogAlbumMasterShip_FirepowerInfo {
+            get {
+                return ResourceManager.GetString("DialogAlbumMasterShip_FirepowerInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   初期値 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogAlbumMasterShip_InitValue {
+            get {
+                return ResourceManager.GetString("DialogAlbumMasterShip_InitValue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   索敵 {0}{1}
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogAlbumMasterShip_LOSInfo {
+            get {
+                return ResourceManager.GetString("DialogAlbumMasterShip_LOSInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   最大値 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogAlbumMasterShip_MaxValue {
+            get {
+                return ResourceManager.GetString("DialogAlbumMasterShip_MaxValue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   (なし) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogAlbumMasterShip_Null {
+            get {
+                return ResourceManager.GetString("DialogAlbumMasterShip_Null", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   枚 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogAlbumMasterShip_Paper {
+            get {
+                return ResourceManager.GetString("DialogAlbumMasterShip_Paper", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   入渠時の消費:
+        ///HP1あたり: 鋼 {0:F2} / 燃 {1:F2}
+        ///最大: 鋼 {2} / 燃 {3}
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogAlbumMasterShip_RepairConsumeInfo {
+            get {
+                return ResourceManager.GetString("DialogAlbumMasterShip_RepairConsumeInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   艦船図鑑 -  に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogAlbumMasterShip_ShipAlbum {
+            get {
+                return ResourceManager.GetString("DialogAlbumMasterShip_ShipAlbum", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   雷装 {0}{1}
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogAlbumMasterShip_TorpedoInfo {
+            get {
+                return ResourceManager.GetString("DialogAlbumMasterShip_TorpedoInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   艦船ID,図鑑番号,艦種,艦名,読み,改装前,改装後,改装Lv,改装弾薬,改装鋼材,改装設計図,耐久初期,耐久結婚,火力初期,火力最大,雷装初期,雷装最大,対空初期,対空最大,装甲初期,装甲最大,対潜初期,対潜最大,回避初期,回避最大,索敵初期,索敵最大,運初期,運最大,速力,射程,レア,スロット数,搭載機数1,搭載機数2,搭載機数3,搭載機数4,搭載機数5,初期装備1,初期装備2,初期装備3,初期装備4,初期装備5,建造時間,解体燃料,解体弾薬,解体鋼材,解体ボーキ,改修火力,改修雷装,改修対空,改修装甲,ドロップ文章,図鑑文章,搭載燃料,搭載弾薬,ボイス,リソース名,バージョン に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogAlbumMasterShip_UserCSVHeader {
+            get {
+                return ResourceManager.GetString("DialogAlbumMasterShip_UserCSVHeader", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   指定されたフォルダは存在しません。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogConfiguration_FolderNotFound {
+            get {
+                return ResourceManager.GetString("DialogConfiguration_FolderNotFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   艦これに接続してから操作してください。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogConfiguration_KanColleNotLoaded {
+            get {
+                return ResourceManager.GetString("DialogConfiguration_KanColleNotLoaded", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   自動プロキシ設定スクリプトを保存し、設定用URLをクリップボードにコピーしました。
+        ///所定の位置に貼り付けてください。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogConfiguration_PACSaved {
+            get {
+                return ResourceManager.GetString("DialogConfiguration_PACSaved", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   自動プロキシ設定スクリプトを保存する に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogConfiguration_PACSaveDialogTitle {
+            get {
+                return ResourceManager.GetString("DialogConfiguration_PACSaveDialogTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   自動プロキシ設定スクリプトの保存に失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogConfiguration_PACSaveError {
+            get {
+                return ResourceManager.GetString("DialogConfiguration_PACSaveError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   画像ファイルの読み込みに失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogConfigurationNotifier_ImageLoadError {
+            get {
+                return ResourceManager.GetString("DialogConfigurationNotifier_ImageLoadError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   音声ファイルの読み込みに失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogConfigurationNotifier_SoundLoadError {
+            get {
+                return ResourceManager.GetString("DialogConfigurationNotifier_SoundLoadError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   テスト 通知です。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogConfigurationNotifier_TestMessage {
+            get {
+                return ResourceManager.GetString("DialogConfigurationNotifier_TestMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   固有ID,装備ID,装備名,改修Lv,ロック,装備艦ID,装備艦 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogEquipmentList_CSVHeader {
+            get {
+                return ResourceManager.GetString("DialogEquipmentList_CSVHeader", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   装備一覧 -  に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogEquipmentList_EquipmentOverview {
+            get {
+                return ResourceManager.GetString("DialogEquipmentList_EquipmentOverview", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   装備一覧 CSVの出力に失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogEquipmentList_ExportCSVError {
+            get {
+                return ResourceManager.GetString("DialogEquipmentList_ExportCSVError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   通知システム: ダイアログボックスでの画像の描画に失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogNotifier_DrawImageError {
+            get {
+                return ResourceManager.GetString("DialogNotifier_DrawImageError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   追加情報 : {0} に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string ErrorReporter_AdditionMessageInfo {
+            get {
+                return ResourceManager.GetString("ErrorReporter_AdditionMessageInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   通信内容 : {0} に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string ErrorReporter_ConnectionInfo {
+            get {
+                return ResourceManager.GetString("ErrorReporter_ConnectionInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   エラー : {0} に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string ErrorReporter_ErrorInfo {
+            get {
+                return ResourceManager.GetString("ErrorReporter_ErrorInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   エラーレポート : {0} に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string ErrorReporter_ErrorReportInfo {
+            get {
+                return ResourceManager.GetString("ErrorReporter_ErrorReportInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   エラーレポートの書き込みに失敗しました。
+        ///{0}
+        ///{1} に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string ErrorReporter_SaveError {
+            get {
+                return ResourceManager.GetString("ErrorReporter_SaveError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   スタックトレース： に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string ErrorReporter_StackTraceInfo {
+            get {
+                return ResourceManager.GetString("ErrorReporter_StackTraceInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   泊地修理中  に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FleetData_AnchorageRepairing {
+            get {
+                return ResourceManager.GetString("FleetData_AnchorageRepairing", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   開始日時 : {0} に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FleetData_AnchorageRepairTime {
+            get {
+                return ResourceManager.GetString("FleetData_AnchorageRepairTime", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   遠征中  に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FleetData_Expediting {
+            get {
+                return ResourceManager.GetString("FleetData_Expediting", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   {0} : {1}
+        ///完了日時 : {2} に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FleetData_ExpeditionCompleteTime {
+            get {
+                return ResourceManager.GetString("FleetData_ExpeditionCompleteTime", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   所属艦なし に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FleetData_FleetNoShip {
+            get {
+                return ResourceManager.GetString("FleetData_FleetNoShip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   出撃中 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FleetData_InSortie {
+            get {
+                return ResourceManager.GetString("FleetData_InSortie", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   ！！大破進撃中！！ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FleetData_LowHPInSortie {
+            get {
+                return ResourceManager.GetString("FleetData_LowHPInSortie", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   大破艦あり！ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FleetData_LowHPWarning {
+            get {
+                return ResourceManager.GetString("FleetData_LowHPWarning", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   未補給 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FleetData_NotSupplied {
+            get {
+                return ResourceManager.GetString("FleetData_NotSupplied", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   出撃可能！ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FleetData_Ready {
+            get {
+                return ResourceManager.GetString("FleetData_Ready", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   完了日時 :  に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FleetData_RepairCompleteTime {
+            get {
+                return ResourceManager.GetString("FleetData_RepairCompleteTime", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   入渠中  に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FleetData_Repairing {
+            get {
+                return ResourceManager.GetString("FleetData_Repairing", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   #{0}「{1}」が帰投しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FleetData_ReturnInfo {
+            get {
+                return ResourceManager.GetString("FleetData_ReturnInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   戦意高揚！ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FleetData_Sparkle {
+            get {
+                return ResourceManager.GetString("FleetData_Sparkle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   最低cond: {0}
+        ///あと {1} 回遠征可能 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FleetData_SparkleInfo {
+            get {
+                return ResourceManager.GetString("FleetData_SparkleInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   燃 : {0}
+        ///弾 : {1}
+        ///ボ : {2} ({3}機) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FleetData_SupplyInfo {
+            get {
+                return ResourceManager.GetString("FleetData_SupplyInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   疲労  に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FleetData_Tired {
+            get {
+                return ResourceManager.GetString("FleetData_Tired", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   回復目安日時: {0} に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FleetData_TiredRestTime {
+            get {
+                return ResourceManager.GetString("FleetData_TiredRestTime", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   完成！ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormArsenal_Complete {
+            get {
+                return ResourceManager.GetString("FormArsenal_Complete", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   完了日時 :  に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormArsenal_CompleteTime {
+            get {
+                return ResourceManager.GetString("FormArsenal_CompleteTime", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   対空砲火 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormBattle_AAAttack {
+            get {
+                return ResourceManager.GetString("FormBattle_AAAttack", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   対空カットイン: {0}
+        ///カットイン種別: {1} ({2}) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormBattle_AAAttackInfo {
+            get {
+                return ResourceManager.GetString("FormBattle_AAAttackInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   対空カットイン に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormBattle_AACutIn {
+            get {
+                return ResourceManager.GetString("FormBattle_AACutIn", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   第{0}次: {1}
+        ///カットイン種別: {2} ({3})
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormBattle_AACutInAttackInfo {
+            get {
+                return ResourceManager.GetString("FormBattle_AACutInAttackInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   第{0}次: (発動せず)
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormBattle_AACutInNoneInfo {
+            get {
+                return ResourceManager.GetString("FormBattle_AACutInNoneInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   第1次: -{0}/{1}
+        ///第2次: -{2}/{3}
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormBattle_AirStageAttackInfo {
+            get {
+                return ResourceManager.GetString("FormBattle_AirStageAttackInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   {0}触接中
+        ///第1次: {1}
+        ///第2次: {2} に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormBattle_AirStageTouchInfo {
+            get {
+                return ResourceManager.GetString("FormBattle_AirStageTouchInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   照明弾投射:  に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormBattle_Flare {
+            get {
+                return ResourceManager.GetString("FormBattle_Flare", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   夜間触接 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormBattle_MidnightTouch {
+            get {
+                return ResourceManager.GetString("FormBattle_MidnightTouch", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   夜間触接中:  に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormBattle_MidnightTouching {
+            get {
+                return ResourceManager.GetString("FormBattle_MidnightTouching", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   (なし) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormBattle_Null {
+            get {
+                return ResourceManager.GetString("FormBattle_Null", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   探照灯照射:  に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormBattle_SearchLight {
+            get {
+                return ResourceManager.GetString("FormBattle_SearchLight", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   触接中:  に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormBattle_Touching {
+            get {
+                return ResourceManager.GetString("FormBattle_Touching", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   第2次:  に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormBattle_Twice {
+            get {
+                return ResourceManager.GetString("FormBattle_Twice", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   ブラウザの終了中にエラーが発生しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormBrowserHost_BrowserCloseError {
+            get {
+                return ResourceManager.GetString("FormBrowserHost_BrowserCloseError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   ブラウザプロセスが予期せず終了しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormBrowserHost_BrowserNotFound {
+            get {
+                return ResourceManager.GetString("FormBrowserHost_BrowserNotFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   ブラウザプロセス間で通信エラーが発生しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormBrowserHost_CommunicateError {
+            get {
+                return ResourceManager.GetString("FormBrowserHost_CommunicateError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   移動先の URL を入力してください。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormBrowserHost_NavigateMessage {
+            get {
+                return ResourceManager.GetString("FormBrowserHost_NavigateMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   移動先の入力 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormBrowserHost_NavigateTitle {
+            get {
+                return ResourceManager.GetString("FormBrowserHost_NavigateTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   ブラウザプロセスの起動に失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormBrowserHost_StartUpFail {
+            get {
+                return ResourceManager.GetString("FormBrowserHost_StartUpFail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   対空: {0}
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormCompass_AAInfo {
+            get {
+                return ResourceManager.GetString("FormCompass_AAInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   
+        ///昼戦: {0}
+        ///夜戦: {1}
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormCompass_AttackInfo {
+            get {
+                return ResourceManager.GetString("FormCompass_AttackInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    (終点) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormCompass_EndPoint {
+            get {
+                return ResourceManager.GetString("FormCompass_EndPoint", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   敵艦隊ID : {0} に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormCompass_EnemyIDInfo {
+            get {
+                return ResourceManager.GetString("FormCompass_EnemyIDInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   出撃海域 : {0}-{1} に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormCompass_MapAreaInfo {
+            get {
+                return ResourceManager.GetString("FormCompass_MapAreaInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   次のセル : {0}{1} に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormCompass_NextPointInfo {
+            get {
+                return ResourceManager.GetString("FormCompass_NextPointInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   索敵機発艦！ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormCompass_Seaplane {
+            get {
+                return ResourceManager.GetString("FormCompass_Seaplane", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   {0} {1}{2}
+        ///耐久: {3}
+        ///火力: {4}/{5}
+        ///雷装: {6}/{7}
+        ///対空: {8}/{9}
+        ///装甲: {10}/{11}
+        ///対潜: {12}/{13}
+        ///回避: {14}/{15}
+        ///索敵: {16}/{17}
+        ///運: {18}/{19}
+        ///(右クリックで図鑑)
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormCompass_ShipInfo {
+            get {
+                return ResourceManager.GetString("FormCompass_ShipInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   (敵艦隊情報不明) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormCompass_UnknownEnemy {
+            get {
+                return ResourceManager.GetString("FormCompass_UnknownEnemy", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   どうしてこうなった に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormCompass_UnknownEventID {
+            get {
+                return ResourceManager.GetString("FormCompass_UnknownEventID", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   謎のアイテム に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormCompass_UnknownItem {
+            get {
+                return ResourceManager.GetString("FormCompass_UnknownItem", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   完了日時 :  に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormDock_CompleteTime {
+            get {
+                return ResourceManager.GetString("FormDock_CompleteTime", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   {0}\t制空戦力{1}/索敵能力{2}
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormFleet_AA_LOSInfo {
+            get {
+                return ResourceManager.GetString("FormFleet_AA_LOSInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   確保: {0}
+        ///優勢: {1}
+        ///均衡: {2}
+        ///劣勢: {3}
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormFleet_AAInfo {
+            get {
+                return ResourceManager.GetString("FormFleet_AAInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   合計レベル：{0}
+        ///平均レベル：{1:0.00}
+        ///ドラム缶搭載: {2}個 ({3}艦)
+        ///大発動艇搭載: {4}個
+        ///総積載: 燃 {5} / 弾 {6}
+        ///(1戦当たり 燃 {7} / 弾 {8}) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormFleet_FleetInfo {
+            get {
+                return ResourceManager.GetString("FormFleet_FleetInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   *nothing* に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormFleet_FleetNameNull {
+            get {
+                return ResourceManager.GetString("FormFleet_FleetNameNull", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   (旧)2-5式: {0}
+        ///2-5式(秋): {1}
+        ///2-5新秋簡易式: {2}
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormFleet_LOSInfo {
+            get {
+                return ResourceManager.GetString("FormFleet_LOSInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   対空: {0}
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormFleet_ShipAAInfo {
+            get {
+                return ResourceManager.GetString("FormFleet_ShipAAInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   
+        ///昼戦: {0}
+        ///夜戦: {1}
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormFleet_ShipAttackInfo {
+            get {
+                return ResourceManager.GetString("FormFleet_ShipAttackInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   入渠時間: {0}
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormFleet_ShipDockTime {
+            get {
+                return ResourceManager.GetString("FormFleet_ShipDockTime", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   退避中 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormFleet_ShipEscaped {
+            get {
+                return ResourceManager.GetString("FormFleet_ShipEscaped", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   {0} {1}
+        ///火力: {2}/{3}
+        ///雷装: {4}/{5}
+        ///対空: {6}/{7}
+        ///装甲: {8}/{9}
+        ///対潜: {10}/{11}
+        ///回避: {12}/{13}
+        ///索敵: {14}/{15}
+        ///運: {16}
+        ///(右クリックで図鑑)
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormFleet_ShipInfo {
+            get {
+                return ResourceManager.GetString("FormFleet_ShipInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Lv150まで: {0} に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormFleet_ShipLevel150Exp {
+            get {
+                return ResourceManager.GetString("FormFleet_ShipLevel150Exp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Lv99まで: {0} に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormFleet_ShipLevel99Exp {
+            get {
+                return ResourceManager.GetString("FormFleet_ShipLevel99Exp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   大破しています！ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormFleet_ShipLowHP {
+            get {
+                return ResourceManager.GetString("FormFleet_ShipLowHP", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   次のレベルまで: {0}
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormFleet_ShipNextLevelExp {
+            get {
+                return ResourceManager.GetString("FormFleet_ShipNextLevelExp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   改装まで: {0} に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormFleet_ShipRemodelExp {
+            get {
+                return ResourceManager.GetString("FormFleet_ShipRemodelExp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   あと {0} 回遠征可能 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormFleet_ShipSparkleExpeditionTime {
+            get {
+                return ResourceManager.GetString("FormFleet_ShipSparkleExpeditionTime", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   大破まで: {0}
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormFleet_ShipToLowHP {
+            get {
+                return ResourceManager.GetString("FormFleet_ShipToLowHP", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   中破まで: {0} / 大破まで: {1}
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormFleet_ShipToMidHP {
+            get {
+                return ResourceManager.GetString("FormFleet_ShipToMidHP", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   完全回復まで 約 {0:D2}:{1:D2} に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormFleet_ShipToNormalCond {
+            get {
+                return ResourceManager.GetString("FormFleet_ShipToNormalCond", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   [未保有装備] に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormInformation_Album_EquipmentNotCollected {
+            get {
+                return ResourceManager.GetString("FormInformation_Album_EquipmentNotCollected", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   [中破絵未回収] に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormInformation_Album_MidHPNotCollected {
+            get {
+                return ResourceManager.GetString("FormInformation_Album_MidHPNotCollected", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   [未保有艦] に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormInformation_Album_ShipNotCollected {
+            get {
+                return ResourceManager.GetString("FormInformation_Album_ShipNotCollected", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   [開発失敗] に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormInformation_CreateItem_Failed {
+            get {
+                return ResourceManager.GetString("FormInformation_CreateItem_Failed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   提督経験値: +{0}
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormInformation_Expedition_AdmiralExpInfo {
+            get {
+                return ResourceManager.GetString("FormInformation_Expedition_AdmiralExpInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   結果: {0}
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormInformation_Expedition_ResultInfo {
+            get {
+                return ResourceManager.GetString("FormInformation_Expedition_ResultInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   艦娘経験値: +{0}
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormInformation_Expedition_ShipExpInfo {
+            get {
+                return ResourceManager.GetString("FormInformation_Expedition_ShipExpInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   [遠征帰投] に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormInformation_Expedition_Title {
+            get {
+                return ResourceManager.GetString("FormInformation_Expedition_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   {0}-{1} : 撃破 {2}/{3} 回
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormInformation_Map_BossDefeatInfo {
+            get {
+                return ResourceManager.GetString("FormInformation_Map_BossDefeatInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   [海域ゲージ] に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormInformation_Map_BossHP {
+            get {
+                return ResourceManager.GetString("FormInformation_Map_BossHP", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   敵艦隊名 :  に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormInformation_Practice_EnemyFleetName {
+            get {
+                return ResourceManager.GetString("FormInformation_Practice_EnemyFleetName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   獲得経験値 :  に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormInformation_Practice_GainExp {
+            get {
+                return ResourceManager.GetString("FormInformation_Practice_GainExp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   S勝利 :  に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormInformation_Practice_GainSExp {
+            get {
+                return ResourceManager.GetString("FormInformation_Practice_GainSExp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   [演習情報] に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormInformation_Practice_Title {
+            get {
+                return ResourceManager.GetString("FormInformation_Practice_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   APIリストをロード に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormMain_APIListOpenDialogTitle {
+            get {
+                return ResourceManager.GetString("FormMain_APIListOpenDialogTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   API読み込みに失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormMain_APIReadError {
+            get {
+                return ResourceManager.GetString("FormMain_APIReadError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   現在: {0}% に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormMain_BrowserZoomText {
+            get {
+                return ResourceManager.GetString("FormMain_BrowserZoomText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   終了処理が完了しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormMain_CloseComplete {
+            get {
+                return ResourceManager.GetString("FormMain_CloseComplete", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   セーブしていないレコードが失われる可能性があります。
+        ///ロードしますか？ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormMain_DataNotSavedMessage {
+            get {
+                return ResourceManager.GetString("FormMain_DataNotSavedMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   装備データが読み込まれていません。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormMain_EquipmentDataNotLoaded {
+            get {
+                return ResourceManager.GetString("FormMain_EquipmentDataNotLoaded", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   外部ブラウザでオンラインヘルプを開きます。
+        ///よろしいですか？ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormMain_HelpMessage {
+            get {
+                return ResourceManager.GetString("FormMain_HelpMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   ウィンドウ レイアウト ファイルは存在しません。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormMain_LayoutFileNotFound {
+            get {
+                return ResourceManager.GetString("FormMain_LayoutFileNotFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   レイアウトが初期化されました。
+        ///「表示」メニューからお好みのウィンドウを追加してください。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormMain_LayoutInitializeMessage {
+            get {
+                return ResourceManager.GetString("FormMain_LayoutInitializeMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   ウィンドウ レイアウトを復元しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormMain_LayoutLoadComplete {
+            get {
+                return ResourceManager.GetString("FormMain_LayoutLoadComplete", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   ウィンドウ レイアウトの復元に失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormMain_LayoutLoadError {
+            get {
+                return ResourceManager.GetString("FormMain_LayoutLoadError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   レイアウト ファイルを開く に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormMain_LayoutOpenDialogTitle {
+            get {
+                return ResourceManager.GetString("FormMain_LayoutOpenDialogTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   ウィンドウ レイアウトを保存しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormMain_LayoutSaveComplete {
+            get {
+                return ResourceManager.GetString("FormMain_LayoutSaveComplete", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   ウィンドウ レイアウトの保存に失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormMain_LayoutSaveError {
+            get {
+                return ResourceManager.GetString("FormMain_LayoutSaveError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   起動処理が完了しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormMain_LoadComplete {
+            get {
+                return ResourceManager.GetString("FormMain_LoadComplete", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   先に通常の api_start2 を読み込んでください。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormMain_LoadOldAPINeedDataMessage {
+            get {
+                return ResourceManager.GetString("FormMain_LoadOldAPINeedDataMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   移動先の URL を入力してください。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormMain_NavigateMessage {
+            get {
+                return ResourceManager.GetString("FormMain_NavigateMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   移動先の入力 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormMain_NavigateTitle {
+            get {
+                return ResourceManager.GetString("FormMain_NavigateTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   ログインページへ移動します。
+        ///よろしいですか？ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormMain_NavigateToLoginMessage {
+            get {
+                return ResourceManager.GetString("FormMain_NavigateToLoginMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   削除が完了しました。
+        ///{0} 個のファイルを削除しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormMain_OldAPIDeleteComplete {
+            get {
+                return ResourceManager.GetString("FormMain_OldAPIDeleteComplete", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   削除に失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormMain_OldAPIDeleteError {
+            get {
+                return ResourceManager.GetString("FormMain_OldAPIDeleteError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   古いAPIデータを削除します。
+        ///本当によろしいですか？ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormMain_OldAPIDeleteMessage {
+            get {
+                return ResourceManager.GetString("FormMain_OldAPIDeleteMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   旧 api_start2 からレコードを構築 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormMain_OldAPIOpenDialogTitle {
+            get {
+                return ResourceManager.GetString("FormMain_OldAPIOpenDialogTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   {0} を終了しています… に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormMain_Quit {
+            get {
+                return ResourceManager.GetString("FormMain_Quit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   {0} を終了しますか？ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormMain_QuitMessage {
+            get {
+                return ResourceManager.GetString("FormMain_QuitMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   リネーム処理が完了しました。
+        ///{0} 個のアイテムをリネームしました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormMain_RenameShipResourceComplete {
+            get {
+                return ResourceManager.GetString("FormMain_RenameShipResourceComplete", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   艦船リソースのリネームに失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormMain_RenameShipResourceError {
+            get {
+                return ResourceManager.GetString("FormMain_RenameShipResourceError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   通信から保存した艦船リソース名を持つファイル及びフォルダを、艦船名に置換します。
+        ///対象は指定されたフォルダ以下のすべてのファイル及びフォルダです。
+        ///続行しますか？ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormMain_RenameShipResourceMessage {
+            get {
+                return ResourceManager.GetString("FormMain_RenameShipResourceMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   艦船リソースをリネーム に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormMain_RenameShipResourceTitle {
+            get {
+                return ResourceManager.GetString("FormMain_RenameShipResourceTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   艦船データが読み込まれていません。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormMain_ShipDataNotLoaded {
+            get {
+                return ResourceManager.GetString("FormMain_ShipDataNotLoaded", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   {0} を起動しています… に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormMain_StartUp {
+            get {
+                return ResourceManager.GetString("FormMain_StartUp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   サブウィンドウ レイアウトの復元に失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormMain_SubLayoutLoadError {
+            get {
+                return ResourceManager.GetString("FormMain_SubLayoutLoadError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   サブウィンドウ レイアウトの保存に失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormMain_SubLayoutSaveError {
+            get {
+                return ResourceManager.GetString("FormMain_SubLayoutSaveError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   達成！ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormQuest_Complete {
+            get {
+                return ResourceManager.GetString("FormQuest_Complete", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   任務データを初期化します。
+        ///データに齟齬が生じている場合以外での使用は推奨しません。
+        ///よろしいですか？ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormQuest_InitializeMessage {
+            get {
+                return ResourceManager.GetString("FormQuest_InitializeMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   任務初期化の確認 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormQuest_InitializeTitle {
+            get {
+                return ResourceManager.GetString("FormQuest_InitializeTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   50%以上 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormQuest_Progress50 {
+            get {
+                return ResourceManager.GetString("FormQuest_Progress50", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   80%以上 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormQuest_Progress80 {
+            get {
+                return ResourceManager.GetString("FormQuest_Progress80", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   (任務完遂！) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormQuest_QuestComplete {
+            get {
+                return ResourceManager.GetString("FormQuest_QuestComplete", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   (未取得) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormQuest_UnknownQuest {
+            get {
+                return ResourceManager.GetString("FormQuest_UnknownQuest", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   (未取得の任務 x {0}) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormQuest_UnknownQuestInfo {
+            get {
+                return ResourceManager.GetString("FormQuest_UnknownQuestInfo", resourceCulture);
+            }
+        }
+        
+        
+        /// <summary>
+        ///   対空 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_AA {
+            get {
+                return ResourceManager.GetString("FormShipGroup_AA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   対空改修 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_AARemain {
+            get {
+                return ResourceManager.GetString("FormShipGroup_AARemain", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   追加するグループを選択してください： に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_AddToGroupMessage {
+            get {
+                return ResourceManager.GetString("FormShipGroup_AddToGroupMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   グループの選択 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_AddToGroupTitle {
+            get {
+                return ResourceManager.GetString("FormShipGroup_AddToGroupTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   弾薬 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_Ammo {
+            get {
+                return ResourceManager.GetString("FormShipGroup_Ammo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   固有ID に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_APIID {
+            get {
+                return ResourceManager.GetString("FormShipGroup_APIID", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   装甲 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_Armor {
+            get {
+                return ResourceManager.GetString("FormShipGroup_Armor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   装甲改修 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_ArmorRemain {
+            get {
+                return ResourceManager.GetString("FormShipGroup_ArmorRemain", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   対潜 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_ASW {
+            get {
+                return ResourceManager.GetString("FormShipGroup_ASW", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Cond に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_Condition {
+            get {
+                return ResourceManager.GetString("FormShipGroup_Condition", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   追加するグループの名前を入力してください： に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_CreateGroupMessage {
+            get {
+                return ResourceManager.GetString("FormShipGroup_CreateGroupMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   グループの追加 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_CreateGroupTitle {
+            get {
+                return ResourceManager.GetString("FormShipGroup_CreateGroupTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   装備1 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_Equipment1 {
+            get {
+                return ResourceManager.GetString("FormShipGroup_Equipment1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   装備2 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_Equipment2 {
+            get {
+                return ResourceManager.GetString("FormShipGroup_Equipment2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   装備3 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_Equipment3 {
+            get {
+                return ResourceManager.GetString("FormShipGroup_Equipment3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   装備4 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_Equipment4 {
+            get {
+                return ResourceManager.GetString("FormShipGroup_Equipment4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   装備5 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_Equipment5 {
+            get {
+                return ResourceManager.GetString("FormShipGroup_Equipment5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   回避 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_Evasion {
+            get {
+                return ResourceManager.GetString("FormShipGroup_Evasion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Exp に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_Exp {
+            get {
+                return ResourceManager.GetString("FormShipGroup_Exp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   艦船グループ CSVの出力に失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_ExportCSVError {
+            get {
+                return ResourceManager.GetString("FormShipGroup_ExportCSVError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   火力 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_Firepower {
+            get {
+                return ResourceManager.GetString("FormShipGroup_Firepower", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   火力改修 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_FirepowerRemain {
+            get {
+                return ResourceManager.GetString("FormShipGroup_FirepowerRemain", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   燃料 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_Fuel {
+            get {
+                return ResourceManager.GetString("FormShipGroup_Fuel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   グループ名を入力してください： に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_GroupAddMessage {
+            get {
+                return ResourceManager.GetString("FormShipGroup_GroupAddMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   グループを追加 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_GroupAddTitle {
+            get {
+                return ResourceManager.GetString("FormShipGroup_GroupAddTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   このグループは削除できません。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_GroupDeleteError {
+            get {
+                return ResourceManager.GetString("FormShipGroup_GroupDeleteError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   グループ [{0}] を削除しますか？
+        ///この操作は元に戻せません。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_GroupDeleteMessage {
+            get {
+                return ResourceManager.GetString("FormShipGroup_GroupDeleteMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   エラー：存在しないグループを参照しようとしました。開発者に連絡してください に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_GroupNull {
+            get {
+                return ResourceManager.GetString("FormShipGroup_GroupNull", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   耐久最大 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_HPMax {
+            get {
+                return ResourceManager.GetString("FormShipGroup_HPMax", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   耐久現在 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_HPNow {
+            get {
+                return ResourceManager.GetString("FormShipGroup_HPNow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Lv に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_Level {
+            get {
+                return ResourceManager.GetString("FormShipGroup_Level", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   平均Lv: {0:F2} に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_LevelAverageInfo {
+            get {
+                return ResourceManager.GetString("FormShipGroup_LevelAverageInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   合計Lv: {0} に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_LevelTotalInfo {
+            get {
+                return ResourceManager.GetString("FormShipGroup_LevelTotalInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   ロック に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_Locked {
+            get {
+                return ResourceManager.GetString("FormShipGroup_Locked", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   索敵 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_LOS {
+            get {
+                return ResourceManager.GetString("FormShipGroup_LOS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   運 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_Luck {
+            get {
+                return ResourceManager.GetString("FormShipGroup_Luck", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   運改修 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_LuckRemain {
+            get {
+                return ResourceManager.GetString("FormShipGroup_LuckRemain", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   このグループは変更できません。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_ModifyGroupError {
+            get {
+                return ResourceManager.GetString("FormShipGroup_ModifyGroupError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   next に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_NextLevelExp {
+            get {
+                return ResourceManager.GetString("FormShipGroup_NextLevelExp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   艦載機1 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_Plane1 {
+            get {
+                return ResourceManager.GetString("FormShipGroup_Plane1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   艦載機2 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_Plane2 {
+            get {
+                return ResourceManager.GetString("FormShipGroup_Plane2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   艦載機3 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_Plane3 {
+            get {
+                return ResourceManager.GetString("FormShipGroup_Plane3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   艦載機4 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_Plane4 {
+            get {
+                return ResourceManager.GetString("FormShipGroup_Plane4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   艦載機5 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_Plane5 {
+            get {
+                return ResourceManager.GetString("FormShipGroup_Plane5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   改装まで に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_RemodelExp {
+            get {
+                return ResourceManager.GetString("FormShipGroup_RemodelExp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   入渠 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_Repair {
+            get {
+                return ResourceManager.GetString("FormShipGroup_Repair", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   入渠 # に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_RepairInfo {
+            get {
+                return ResourceManager.GetString("FormShipGroup_RepairInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   出撃先 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_SallyArea {
+            get {
+                return ResourceManager.GetString("FormShipGroup_SallyArea", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   所属: {0}隻 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_ShipCountInfo {
+            get {
+                return ResourceManager.GetString("FormShipGroup_ShipCountInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   艦船ID に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_ShipID {
+            get {
+                return ResourceManager.GetString("FormShipGroup_ShipID", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   艦種 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_ShipKind {
+            get {
+                return ResourceManager.GetString("FormShipGroup_ShipKind", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   全所属艦 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_ShipKindDefault {
+            get {
+                return ResourceManager.GetString("FormShipGroup_ShipKindDefault", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   艦名 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_ShipName {
+            get {
+                return ResourceManager.GetString("FormShipGroup_ShipName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   射程 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_ShootRange {
+            get {
+                return ResourceManager.GetString("FormShipGroup_ShootRange", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   雷装 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_Torpedo {
+            get {
+                return ResourceManager.GetString("FormShipGroup_Torpedo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   雷装改修 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_TorpedoRemain {
+            get {
+                return ResourceManager.GetString("FormShipGroup_TorpedoRemain", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   このグループの名前を変更することはできません。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGruop_GroupRenameError {
+            get {
+                return ResourceManager.GetString("FormShipGruop_GroupRenameError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   グループ名を入力してください： に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGruop_GroupRenameMessage {
+            get {
+                return ResourceManager.GetString("FormShipGruop_GroupRenameMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   グループ名の変更 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGruop_GroupRenameTitle {
+            get {
+                return ResourceManager.GetString("FormShipGruop_GroupRenameTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   処理完了 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string MessageBox_Complete {
+            get {
+                return ResourceManager.GetString("MessageBox_Complete", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   確認 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string MessageBox_Confirm {
+            get {
+                return ResourceManager.GetString("MessageBox_Confirm", resourceCulture);
+            }
+        }
+
+        
+        /// <summary>
+        ///   作成完了 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string MessageBox_CreateComplete {
+            get {
+                return ResourceManager.GetString("MessageBox_CreateComplete", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   削除成功 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string MessageBox_DeleteComplete {
+            get {
+                return ResourceManager.GetString("MessageBox_DeleteComplete", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   エラー に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string MessageBox_Error {
+            get {
+                return ResourceManager.GetString("Messagebox_Error", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   ヘルプ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string MessageBox_Help {
+            get {
+                return ResourceManager.GetString("MessageBox_Help", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   大変ご迷惑をおかけしております に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string MessageBox_MeetError {
+            get {
+                return ResourceManager.GetString("Messagebox_MeetError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   通知システム: 通知音 {0} のロードに失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string NotifierBase_LoadError {
+            get {
+                return ResourceManager.GetString("NotifierBase_LoadError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   通知システム: 通知音の再生に失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string NotifierBase_PlayError {
+            get {
+                return ResourceManager.GetString("NotifierBase_PlayError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   #{0} 「{1}」に所属する艦娘の疲労が回復しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string NotifierCondition_Message {
+            get {
+                return ResourceManager.GetString("NotifierCondition_Message", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   疲労回復 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string NotifierCondition_Title {
+            get {
+                return ResourceManager.GetString("NotifierCondition_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   工廠ドック #{0} で「{1}」の建造が完了しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string NotifierConstruction_Message {
+            get {
+                return ResourceManager.GetString("NotifierConstruction_Message", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   建造完了 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string NotifierConstruction_Title {
+            get {
+                return ResourceManager.GetString("NotifierConstruction_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   {0} が大破しています！ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string NotifierDamage_Message {
+            get {
+                return ResourceManager.GetString("NotifierDamage_Message", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   ！大破警告！ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string NotifierDamage_Title {
+            get {
+                return ResourceManager.GetString("NotifierDamage_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   通知システム: 通知画像 {0} の読み込みに失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string NotifierDialogData_ImageLoadError {
+            get {
+                return ResourceManager.GetString("NotifierDialogData_ImageLoadError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   #{0} 「{1}」が遠征「{2}: {3}」から帰投しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string NotifierExpedition_Message {
+            get {
+                return ResourceManager.GetString("NotifierExpedition_Message", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   遠征帰投 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string NotifierExpedition_Title {
+            get {
+                return ResourceManager.GetString("NotifierExpedition_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   入渠ドック #{0} で「{1}」の修復が完了しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string NotifierRepair_Message {
+            get {
+                return ResourceManager.GetString("NotifierRepair_Message", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   入渠完了 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string NotifierRepair_Title {
+            get {
+                return ResourceManager.GetString("NotifierRepair_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   {0:p1} (出撃 {1}/{2}, S勝利 {3}/{4}, ボス {5}/{6}, ボス勝利 {7}/{8}) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string ProgressAGo_Content {
+            get {
+                return ResourceManager.GetString("ProgressAGo_Content", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   要素数が少なすぎます。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Record_ItemLost {
+            get {
+                return ResourceManager.GetString("Record_ItemLost", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   レコード {0} は存在しません。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string RecordBase_FileNotFound {
+            get {
+                return ResourceManager.GetString("RecordBase_FileNotFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   レコード {0} の読み込みに失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string RecordBase_LoadError {
+            get {
+                return ResourceManager.GetString("RecordBase_LoadError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   レコード {0} の書き込みに失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string RecordBase_SaveError {
+            get {
+                return ResourceManager.GetString("RecordBase_SaveError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   艦船ID,艦船名,建造日時,燃料,弾薬,鋼材,ボーキ,開発資材,大型建造,空ドック,旗艦ID,旗艦名,司令部Lv に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string RecordConstruction_RecordHeader {
+            get {
+                return ResourceManager.GetString("RecordConstruction_RecordHeader", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   装備ID,装備名,開発日時,燃料,弾薬,鋼材,ボーキ,旗艦ID,旗艦名,旗艦艦種,司令部Lv に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string RecordDevelopment_RecordHeader {
+            get {
+                return ResourceManager.GetString("RecordDevelopment_RecordHeader", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   (失敗) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string RecordElementDevelopment_Fail {
+            get {
+                return ResourceManager.GetString("RecordElementDevelopment_Fail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   (満員) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string RecordElementShipDrop_Full {
+            get {
+                return ResourceManager.GetString("RecordElementShipDrop_Full", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   (なし) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string RecordElementShipDrop_Null {
+            get {
+                return ResourceManager.GetString("RecordElementShipDrop_Null", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   敵編成ID,敵艦隊名,陣形,敵1番艦,敵2番艦,敵3番艦,敵4番艦,敵5番艦,敵6番艦 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string RecordEnemyFleet_RecordHeader {
+            get {
+                return ResourceManager.GetString("RecordEnemyFleet_RecordHeader", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   レコードのロードに失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string RecordManager_LoadFailed {
+            get {
+                return ResourceManager.GetString("RecordManager_LoadFailed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   レコードをロードしました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string RecordManager_LoadSucceeded {
+            get {
+                return ResourceManager.GetString("RecordManager_LoadSucceeded", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   レコードのセーブに失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string RecordManager_SaveFailed {
+            get {
+                return ResourceManager.GetString("RecordManager_SaveFailed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   レコードをセーブしました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string RecordManager_SaveSucceeded {
+            get {
+                return ResourceManager.GetString("RecordManager_SaveSucceeded", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   日時,燃料,弾薬,鋼材,ボーキ,高速建造材,高速修復材,開発資材,改修資材,司令部Lv,提督Exp に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string RecordResource_RecordHeader {
+            get {
+                return ResourceManager.GetString("RecordResource_RecordHeader", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   艦船ID,艦名,入手日時,海域,海域,セル,ボス,敵編成,ランク,司令部Lv に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string RecordShipDrop_RecordHeader {
+            get {
+                return ResourceManager.GetString("RecordShipDrop_RecordHeader", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   {0}のパラメータを記録しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string RecordShipParameter_Record {
+            get {
+                return ResourceManager.GetString("RecordShipParameter_Record", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   {0}の初期装備を記録しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string RecordShipParameter_RecordDefaultSlot {
+            get {
+                return ResourceManager.GetString("RecordShipParameter_RecordDefaultSlot", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   艦船ID,艦船名,対潜初期下限,対潜初期上限,対潜最大,回避初期下限,回避初期上限,回避最大,索敵初期下限,索敵初期上限,索敵最大,装備1,装備2,装備3,装備4,装備5,図鑑説明 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string RecordShipParameter_RecordHeader {
+            get {
+                return ResourceManager.GetString("RecordShipParameter_RecordHeader", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   {0}のパラメータを更新しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string RecordShipParameter_Update {
+            get {
+                return ResourceManager.GetString("RecordShipParameter_Update", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   {0}の初期装備を更新しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string RecordShipParameter_UpdateDefaultSlot {
+            get {
+                return ResourceManager.GetString("RecordShipParameter_UpdateDefaultSlot", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   画像リソース {0} の読み込みに失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string ResourceManager_ImageLoadError {
+            get {
+                return ResourceManager.GetString("ResourceManager_ImageLoadError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   画像リソース {0} は存在しません。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string ResourceManager_ImageNotFound {
+            get {
+                return ResourceManager.GetString("ResourceManager_ImageNotFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   リソースファイルの読み込みに失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string ResourceManager_LoadError {
+            get {
+                return ResourceManager.GetString("ResourceManager_LoadError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   SerializableFont.FontToString failed に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string SerializableFont_FontToStringError {
+            get {
+                return ResourceManager.GetString("SerializableFont_FontToStringError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   SerializableFont.StringToFont failed に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string SerializableFont_StringToFontError {
+            get {
+                return ResourceManager.GetString("SerializableFont_StringToFontError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   SerializableList: ListToString に失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string SerializableList_ListToStringError {
+            get {
+                return ResourceManager.GetString("SerializableList_ListToStringError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   SerializableList: StringToList に失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string SerializableList_StringToListError {
+            get {
+                return ResourceManager.GetString("SerializableList_StringToListError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   アップデート情報の処理に失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string SoftwareInformation_DealUpdateInfoError {
+            get {
+                return ResourceManager.GetString("SoftwareInformation_DealUpdateInfoError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   新しいバージョンがリリースされています！ :  に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string SoftwareInformation_FindNewVerison {
+            get {
+                return ResourceManager.GetString("SoftwareInformation_FindNewVerison", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   アップデート情報の取得に失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string SoftwareInformation_GetUpdateInfoError {
+            get {
+                return ResourceManager.GetString("SoftwareInformation_GetUpdateInfoError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   お使いのバージョンは最新です。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string SoftwareInformation_IsLastVerison {
+            get {
+                return ResourceManager.GetString("SoftwareInformation_IsLastVerison", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   七四式電子観測儀 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string SoftwareInformation_SoftwareName {
+            get {
+                return ResourceManager.GetString("SoftwareInformation_SoftwareName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   新しいバージョンがリリースされています！ : {0}
+        ///更新内容 : 
+        ///{1}
+        ///ダウンロードページを開きますか？
+        ///(キャンセルすると以降表示しません) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string SoftwareInformation_UpdateMessage {
+            get {
+                return ResourceManager.GetString("SoftwareInformation_UpdateMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   アップデート情報 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string SoftwareInformation_UpdateTitle {
+            get {
+                return ResourceManager.GetString("SoftwareInformation_UpdateTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   アップデート情報の URI が無効です。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string SoftwareInformation_UpdateURIError {
+            get {
+                return ResourceManager.GetString("SoftwareInformation_UpdateURIError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   {0}一一型改 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string SoftwareInformation_Version {
+            get {
+                return ResourceManager.GetString("SoftwareInformation_Version", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   ウィンドウ状態の復元に失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string WindowPlacementManager_LoadError {
+            get {
+                return ResourceManager.GetString("WindowPlacementManager_LoadError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   ウィンドウ状態の保存に失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string WindowPlacementManager_SaveError {
+            get {
+                return ResourceManager.GetString("WindowPlacementManager_SaveError", resourceCulture);
+            }
+        }
+    }
 }

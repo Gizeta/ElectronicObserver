@@ -117,6 +117,63 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="FormationFriend.Text" xml:space="preserve">
+    <value>味方陣形</value>
+  </data>
+  <data name="Formation.Text" xml:space="preserve">
+    <value>交戦形態</value>
+  </data>
+  <data name="FormationEnemy.Text" xml:space="preserve">
+    <value>敵陣形</value>
+  </data>
+  <data name="AirStage2Friend.Text" xml:space="preserve">
+    <value>撃墜</value>
+  </data>
+  <data name="AACutin.Text" xml:space="preserve">
+    <value>対空</value>
+  </data>
+  <data name="AirStage2Enemy.Text" xml:space="preserve">
+    <value>撃墜</value>
+  </data>
+  <data name="AirStage1Enemy.Text" xml:space="preserve">
+    <value>撃墜</value>
+  </data>
+  <data name="SearchingFriend.Text" xml:space="preserve">
+    <value>味方索敵</value>
+  </data>
+  <data name="Searching.Text" xml:space="preserve">
+    <value>索敵</value>
+  </data>
+  <data name="AirStage1Friend.Text" xml:space="preserve">
+    <value>撃墜</value>
+  </data>
+  <data name="SearchingEnemy.Text" xml:space="preserve">
+    <value>敵索敵</value>
+  </data>
+  <data name="AirSuperiority.Text" xml:space="preserve">
+    <value>制空権</value>
+  </data>
+  <data name="FleetFriend.Text" xml:space="preserve">
+    <value>自軍艦隊</value>
+  </data>
+  <data name="DamageFriend.Text" xml:space="preserve">
+    <value>損害率</value>
+  </data>
+  <data name="WinRank.Text" xml:space="preserve">
+    <value>戦績判定</value>
+  </data>
+  <data name="DamageEnemy.Text" xml:space="preserve">
+    <value>損害率</value>
+  </data>
+  <data name="FleetCombined.Text" xml:space="preserve">
+    <value>随伴艦隊</value>
+  </data>
+  <data name="FleetEnemy.Text" xml:space="preserve">
+    <value>敵軍艦隊</value>
+  </data>
+  <data name="FormBattle.Text" xml:space="preserve">
+    <value>戦闘</value>
+  </data>
   <metadata name="ToolTipInfo.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>

@@ -24,6 +24,7 @@
 		/// </summary>
 		private void InitializeComponent() {
 			this.components = new System.ComponentModel.Container();
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormDock));
 			this.TableDock = new System.Windows.Forms.TableLayoutPanel();
 			this.ToolTipInfo = new System.Windows.Forms.ToolTip(this.components);
 			this.SuspendLayout();
@@ -64,7 +65,7 @@
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
 			this.HideOnClose = true;
 			this.Name = "FormDock";
-			this.Text = "入渠";
+			resources.ApplyResources(this, "FormDock");
 			this.Load += new System.EventHandler(this.FormDock_Load);
 			this.ResumeLayout(false);
 			this.PerformLayout();

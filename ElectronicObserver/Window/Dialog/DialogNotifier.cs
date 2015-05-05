@@ -167,7 +167,7 @@ namespace ElectronicObserver.Window.Dialog {
 
 			} catch ( Exception ex ) {
 
-				Utility.ErrorReporter.SendErrorReport( ex, "通知システム: ダイアログボックスでの画像の描画に失敗しました。" );
+				Utility.ErrorReporter.SendErrorReport( ex, Properties.Resources.DialogNotifier_DrawImageError );
 			}
 		}
 

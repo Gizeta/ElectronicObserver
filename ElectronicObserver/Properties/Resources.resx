@@ -114,4 +114,1530 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="APIMapStart_Message" xml:space="preserve">
+    <value>#{0}「{1}」が「{2}-{3} {4}」へ出撃しました。</value>
+  </data>
+  <data name="APIMissionResult_Message" xml:space="preserve">
+    <value>#{0}「{1}」が遠征「{2}: {3}」から帰投しました。({4})</value>
+  </data>
+  <data name="APIMissionStart_Message" xml:space="preserve">
+    <value>#{0}「{1}」が遠征「{2}: {3}」へ出撃しました。</value>
+  </data>
+  <data name="APIObserver_MismatchedPort" xml:space="preserve">
+    <value>APIObserver: 実際に受信を開始したポート番号が指定されたポート番号とは異なります。</value>
+  </data>
+  <data name="APIObserver_ReceiveErrorData" xml:space="preserve">
+    <value>エラーコードを含むメッセージを受信しました。</value>
+  </data>
+  <data name="APIObserver_RequestError" xml:space="preserve">
+    <value>Request の受信中にエラーが発生しました。</value>
+  </data>
+  <data name="APIObserver_RequestReceive" xml:space="preserve">
+    <value>Request を受信しました : </value>
+  </data>
+  <data name="APIObserver_RequestSaveError" xml:space="preserve">
+    <value>Requestの保存に失敗しました。</value>
+  </data>
+  <data name="APIObserver_ResponseError" xml:space="preserve">
+    <value>Responseの受信中にエラーが発生しました。</value>
+  </data>
+  <data name="APIObserver_ResponseReceive" xml:space="preserve">
+    <value>Responseを受信しました : </value>
+  </data>
+  <data name="APIObserver_ResponseSaveError" xml:space="preserve">
+    <value>Responseの保存に失敗しました。</value>
+  </data>
+  <data name="APIObserver_Saved" xml:space="preserve">
+    <value>通信からファイル {0} を保存しました。</value>
+  </data>
+  <data name="APIObserver_SaveError" xml:space="preserve">
+    <value>通信内容の保存に失敗しました。</value>
+  </data>
+  <data name="APIObserver_Start" xml:space="preserve">
+    <value>APIObserver: ポート {0} 番で受信を開始しました。</value>
+  </data>
+  <data name="APIObserver_Stop" xml:space="preserve">
+    <value>APIObserver: 受信を停止しました。</value>
+  </data>
+  <data name="APIStart2_Message" xml:space="preserve">
+    <value>提督が鎮守府に着任しました。これより艦隊の指揮を執ります。</value>
+  </data>
+  <data name="Configuration_FirstRunMessage" xml:space="preserve">
+    <value>{0} をご利用いただきありがとうございます。
+設定や使用方法については「ヘルプ」→「オンラインヘルプ」を参照してください。
+ご使用の前に必ずご一読ください。</value>
+  </data>
+  <data name="Configuration_FirstRunTitle" xml:space="preserve">
+    <value>初回起動メッセージ</value>
+  </data>
+  <data name="Constant_AACutinKind1" xml:space="preserve">
+    <value>高角砲x2/電探</value>
+  </data>
+  <data name="Constant_AACutinKind10" xml:space="preserve">
+    <value>高角砲/集中機銃/電探</value>
+  </data>
+  <data name="Constant_AACutinKind11" xml:space="preserve">
+    <value>高角砲/集中機銃</value>
+  </data>
+  <data name="Constant_AACutinKind12" xml:space="preserve">
+    <value>集中機銃/機銃/電探</value>
+  </data>
+  <data name="Constant_AACutinKind2" xml:space="preserve">
+    <value>高角砲/電探</value>
+  </data>
+  <data name="Constant_AACutinKind3" xml:space="preserve">
+    <value>高角砲x2</value>
+  </data>
+  <data name="Constant_AACutinKind4" xml:space="preserve">
+    <value>大口径主砲/三式弾/高射装置/電探</value>
+  </data>
+  <data name="Constant_AACutinKind5" xml:space="preserve">
+    <value>高角砲+高射装置x2/電探</value>
+  </data>
+  <data name="Constant_AACutinKind6" xml:space="preserve">
+    <value>大口径主砲/三式弾/高射装置</value>
+  </data>
+  <data name="Constant_AACutinKind7" xml:space="preserve">
+    <value>高角砲/高射装置/電探</value>
+  </data>
+  <data name="Constant_AACutinKind8" xml:space="preserve">
+    <value>高角砲+高射装置/電探</value>
+  </data>
+  <data name="Constant_AACutinKind9" xml:space="preserve">
+    <value>高角砲/高射装置</value>
+  </data>
+  <data name="Constant_Admiral" xml:space="preserve">
+    <value>提督</value>
+  </data>
+  <data name="Constant_AdmiralRank1" xml:space="preserve">
+    <value>元帥</value>
+  </data>
+  <data name="Constant_AdmiralRank10" xml:space="preserve">
+    <value>新米少佐</value>
+  </data>
+  <data name="Constant_AdmiralRank2" xml:space="preserve">
+    <value>大将</value>
+  </data>
+  <data name="Constant_AdmiralRank3" xml:space="preserve">
+    <value>中将</value>
+  </data>
+  <data name="Constant_AdmiralRank4" xml:space="preserve">
+    <value>少将</value>
+  </data>
+  <data name="Constant_AdmiralRank5" xml:space="preserve">
+    <value>大佐</value>
+  </data>
+  <data name="Constant_AdmiralRank6" xml:space="preserve">
+    <value>中佐</value>
+  </data>
+  <data name="Constant_AdmiralRank7" xml:space="preserve">
+    <value>新米中佐</value>
+  </data>
+  <data name="Constant_AdmiralRank8" xml:space="preserve">
+    <value>少佐</value>
+  </data>
+  <data name="Constant_AdmiralRank9" xml:space="preserve">
+    <value>中堅少佐</value>
+  </data>
+  <data name="Constant_AirBattle" xml:space="preserve">
+    <value>航空戦</value>
+  </data>
+  <data name="Constant_AirSuperiority0" xml:space="preserve">
+    <value>航空均衡</value>
+  </data>
+  <data name="Constant_AirSuperiority1" xml:space="preserve">
+    <value>制空権確保</value>
+  </data>
+  <data name="Constant_AirSuperiority2" xml:space="preserve">
+    <value>航空優勢</value>
+  </data>
+  <data name="Constant_AirSuperiority3" xml:space="preserve">
+    <value>航空劣勢</value>
+  </data>
+  <data name="Constant_AirSuperiority4" xml:space="preserve">
+    <value>制空権喪失</value>
+  </data>
+  <data name="Constant_Ammo" xml:space="preserve">
+    <value>弾薬</value>
+  </data>
+  <data name="Constant_AquaBlue" xml:space="preserve">
+    <value>水</value>
+  </data>
+  <data name="Constant_Arsenal" xml:space="preserve">
+    <value>工廠</value>
+  </data>
+  <data name="Constant_Battle" xml:space="preserve">
+    <value>通常戦闘</value>
+  </data>
+  <data name="Constant_Bauxite" xml:space="preserve">
+    <value>ボーキサイト</value>
+  </data>
+  <data name="Constant_BlazeRainbow" xml:space="preserve">
+    <value>輝虹</value>
+  </data>
+  <data name="Constant_Blue" xml:space="preserve">
+    <value>藍</value>
+  </data>
+  <data name="Constant_Boss" xml:space="preserve">
+    <value>ボス</value>
+  </data>
+  <data name="Constant_BossBattle" xml:space="preserve">
+    <value>ボス戦闘</value>
+  </data>
+  <data name="Constant_Clock" xml:space="preserve">
+    <value>時報</value>
+  </data>
+  <data name="Constant_Clock_Place" xml:space="preserve">
+    <value>時報+放置</value>
+  </data>
+  <data name="Constant_CombinedFleet0" xml:space="preserve">
+    <value>通常艦隊</value>
+  </data>
+  <data name="Constant_CombinedFleet1" xml:space="preserve">
+    <value>機動部隊</value>
+  </data>
+  <data name="Constant_CombinedFleet2" xml:space="preserve">
+    <value>水上部隊</value>
+  </data>
+  <data name="Constant_Common" xml:space="preserve">
+    <value>コモン</value>
+  </data>
+  <data name="Constant_Cyan" xml:space="preserve">
+    <value>青</value>
+  </data>
+  <data name="Constant_Day" xml:space="preserve">
+    <value>日</value>
+  </data>
+  <data name="Constant_Day_NightBattle" xml:space="preserve">
+    <value>昼夜戦</value>
+  </data>
+  <data name="Constant_DayAttackKind0" xml:space="preserve">
+    <value>砲撃</value>
+  </data>
+  <data name="Constant_DayAttackKind1" xml:space="preserve">
+    <value>レーザー攻撃</value>
+  </data>
+  <data name="Constant_DayAttackKind10" xml:space="preserve">
+    <value>ロケット砲撃</value>
+  </data>
+  <data name="Constant_DayAttackKind2" xml:space="preserve">
+    <value>連続射撃</value>
+  </data>
+  <data name="Constant_DayAttackKind3" xml:space="preserve">
+    <value>カットイン(主砲/副砲)</value>
+  </data>
+  <data name="Constant_DayAttackKind4" xml:space="preserve">
+    <value>カットイン(主砲/電探)</value>
+  </data>
+  <data name="Constant_DayAttackKind5" xml:space="preserve">
+    <value>カットイン(主砲/徹甲)</value>
+  </data>
+  <data name="Constant_DayAttackKind6" xml:space="preserve">
+    <value>カットイン(主砲/主砲)</value>
+  </data>
+  <data name="Constant_DayAttackKind7" xml:space="preserve">
+    <value>空撃</value>
+  </data>
+  <data name="Constant_DayAttackKind8" xml:space="preserve">
+    <value>爆雷攻撃</value>
+  </data>
+  <data name="Constant_DayAttackKind9" xml:space="preserve">
+    <value>雷撃</value>
+  </data>
+  <data name="Constant_DevelopmentMaterial" xml:space="preserve">
+    <value>開発資材</value>
+  </data>
+  <data name="Constant_Eddy" xml:space="preserve">
+    <value>渦潮</value>
+  </data>
+  <data name="Constant_Engagement1" xml:space="preserve">
+    <value>同航戦</value>
+  </data>
+  <data name="Constant_Engagement2" xml:space="preserve">
+    <value>反航戦</value>
+  </data>
+  <data name="Constant_Engagement3" xml:space="preserve">
+    <value>T字有利</value>
+  </data>
+  <data name="Constant_Engagement4" xml:space="preserve">
+    <value>T字不利</value>
+  </data>
+  <data name="Constant_Escaped" xml:space="preserve">
+    <value>退避</value>
+  </data>
+  <data name="Constant_EXHolo" xml:space="preserve">
+    <value>EXホロ</value>
+  </data>
+  <data name="Constant_Expedition" xml:space="preserve">
+    <value>遠征</value>
+  </data>
+  <data name="Constant_Failed" xml:space="preserve">
+    <value>失敗</value>
+  </data>
+  <data name="Constant_Fuel" xml:space="preserve">
+    <value>燃料</value>
+  </data>
+  <data name="Constant_FullHP" xml:space="preserve">
+    <value>無傷</value>
+  </data>
+  <data name="Constant_Golden" xml:space="preserve">
+    <value>金</value>
+  </data>
+  <data name="Constant_HalfHP" xml:space="preserve">
+    <value>中破</value>
+  </data>
+  <data name="Constant_HalfHP_LandBase" xml:space="preserve">
+    <value>損害</value>
+  </data>
+  <data name="Constant_HighHP" xml:space="preserve">
+    <value>小破</value>
+  </data>
+  <data name="Constant_HighHP_LandBase" xml:space="preserve">
+    <value>混乱</value>
+  </data>
+  <data name="Constant_HighSpeed" xml:space="preserve">
+    <value>高速</value>
+  </data>
+  <data name="Constant_Holo" xml:space="preserve">
+    <value>ホロ</value>
+  </data>
+  <data name="Constant_Information1" xml:space="preserve">
+    <value>単縦陣</value>
+  </data>
+  <data name="Constant_Information1_Short" xml:space="preserve">
+    <value>単縦陣</value>
+  </data>
+  <data name="Constant_Information11" xml:space="preserve">
+    <value>第一警戒航行序列</value>
+  </data>
+  <data name="Constant_Information11_Short" xml:space="preserve">
+    <value>第一警戒</value>
+  </data>
+  <data name="Constant_Information12" xml:space="preserve">
+    <value>第二警戒航行序列</value>
+  </data>
+  <data name="Constant_Information12_Short" xml:space="preserve">
+    <value>第二警戒</value>
+  </data>
+  <data name="Constant_Information13" xml:space="preserve">
+    <value>第三警戒航行序列</value>
+  </data>
+  <data name="Constant_Information13_Short" xml:space="preserve">
+    <value>第三警戒</value>
+  </data>
+  <data name="Constant_Information14" xml:space="preserve">
+    <value>第四警戒航行序列</value>
+  </data>
+  <data name="Constant_Information14_Short" xml:space="preserve">
+    <value>第四警戒</value>
+  </data>
+  <data name="Constant_Information2" xml:space="preserve">
+    <value>複縦陣</value>
+  </data>
+  <data name="Constant_Information2_Short" xml:space="preserve">
+    <value>複縦陣</value>
+  </data>
+  <data name="Constant_Information3" xml:space="preserve">
+    <value>輪形陣</value>
+  </data>
+  <data name="Constant_Information3_Short" xml:space="preserve">
+    <value>輪形陣</value>
+  </data>
+  <data name="Constant_Information4" xml:space="preserve">
+    <value>梯形陣</value>
+  </data>
+  <data name="Constant_Information4_Short" xml:space="preserve">
+    <value>梯形陣</value>
+  </data>
+  <data name="Constant_Information5" xml:space="preserve">
+    <value>単横陣</value>
+  </data>
+  <data name="Constant_Information5_Short" xml:space="preserve">
+    <value>単横陣</value>
+  </data>
+  <data name="Constant_InitialPoint" xml:space="preserve">
+    <value>初期位置</value>
+  </data>
+  <data name="Constant_InstantConstruction" xml:space="preserve">
+    <value>高速建造材</value>
+  </data>
+  <data name="Constant_InstantRepair" xml:space="preserve">
+    <value>高速修復材</value>
+  </data>
+  <data name="Constant_Land" xml:space="preserve">
+    <value>陸上</value>
+  </data>
+  <data name="Constant_LandBase" xml:space="preserve">
+    <value>陸上基地</value>
+  </data>
+  <data name="Constant_Long" xml:space="preserve">
+    <value>長</value>
+  </data>
+  <data name="Constant_LowHP" xml:space="preserve">
+    <value>大破</value>
+  </data>
+  <data name="Constant_LowHP_LandBase" xml:space="preserve">
+    <value>損壊</value>
+  </data>
+  <data name="Constant_LowSpeed" xml:space="preserve">
+    <value>低速</value>
+  </data>
+  <data name="Constant_Middle" xml:space="preserve">
+    <value>中</value>
+  </data>
+  <data name="Constant_Misconception" xml:space="preserve">
+    <value>気のせいだった</value>
+  </data>
+  <data name="Constant_ModdingMaterial" xml:space="preserve">
+    <value>改修資材</value>
+  </data>
+  <data name="Constant_Month" xml:space="preserve">
+    <value>月</value>
+  </data>
+  <data name="Constant_MuchHP" xml:space="preserve">
+    <value>健在</value>
+  </data>
+  <data name="Constant_Night_DayBattle" xml:space="preserve">
+    <value>夜昼戦</value>
+  </data>
+  <data name="Constant_NightAttackKind0" xml:space="preserve">
+    <value>砲撃</value>
+  </data>
+  <data name="Constant_NightAttackKind1" xml:space="preserve">
+    <value>連続射撃</value>
+  </data>
+  <data name="Constant_NightAttackKind10" xml:space="preserve">
+    <value>ロケット砲撃</value>
+  </data>
+  <data name="Constant_NightAttackKind2" xml:space="preserve">
+    <value>カットイン(主砲/魚雷)</value>
+  </data>
+  <data name="Constant_NightAttackKind3" xml:space="preserve">
+    <value>カットイン(魚雷x2)</value>
+  </data>
+  <data name="Constant_NightAttackKind4" xml:space="preserve">
+    <value>カットイン(主砲x2/副砲)</value>
+  </data>
+  <data name="Constant_NightAttackKind5" xml:space="preserve">
+    <value>カットイン(主砲x3)</value>
+  </data>
+  <data name="Constant_NightAttackKind7" xml:space="preserve">
+    <value>空撃</value>
+  </data>
+  <data name="Constant_NightAttackKind8" xml:space="preserve">
+    <value>爆雷攻撃</value>
+  </data>
+  <data name="Constant_NightAttackKind9" xml:space="preserve">
+    <value>雷撃</value>
+  </data>
+  <data name="Constant_NightBattle" xml:space="preserve">
+    <value>夜戦</value>
+  </data>
+  <data name="Constant_NoBattle" xml:space="preserve">
+    <value>非戦闘</value>
+  </data>
+  <data name="Constant_None" xml:space="preserve">
+    <value>無</value>
+  </data>
+  <data name="Constant_Null" xml:space="preserve">
+    <value>なし</value>
+  </data>
+  <data name="Constant_Once" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Constant_Organize" xml:space="preserve">
+    <value>編成</value>
+  </data>
+  <data name="Constant_Other" xml:space="preserve">
+    <value>他</value>
+  </data>
+  <data name="Constant_Place" xml:space="preserve">
+    <value>放置</value>
+  </data>
+  <data name="Constant_Practice" xml:space="preserve">
+    <value>演習</value>
+  </data>
+  <data name="Constant_Rainbow" xml:space="preserve">
+    <value>虹</value>
+  </data>
+  <data name="Constant_Rare" xml:space="preserve">
+    <value>レア</value>
+  </data>
+  <data name="Constant_Red" xml:space="preserve">
+    <value>赤</value>
+  </data>
+  <data name="Constant_Remodel" xml:space="preserve">
+    <value>改装</value>
+  </data>
+  <data name="Constant_Resource" xml:space="preserve">
+    <value>資源</value>
+  </data>
+  <data name="Constant_SakuraRainbow" xml:space="preserve">
+    <value>桜虹</value>
+  </data>
+  <data name="Constant_SearchingResult1" xml:space="preserve">
+    <value>成功</value>
+  </data>
+  <data name="Constant_SearchingResult1_Short" xml:space="preserve">
+    <value>成功</value>
+  </data>
+  <data name="Constant_SearchingResult2" xml:space="preserve">
+    <value>成功(未帰還有)</value>
+  </data>
+  <data name="Constant_SearchingResult2_Short" xml:space="preserve">
+    <value>成功△</value>
+  </data>
+  <data name="Constant_SearchingResult3" xml:space="preserve">
+    <value>未帰還</value>
+  </data>
+  <data name="Constant_SearchingResult3_Short" xml:space="preserve">
+    <value>未帰還</value>
+  </data>
+  <data name="Constant_SearchingResult4" xml:space="preserve">
+    <value>失敗</value>
+  </data>
+  <data name="Constant_SearchingResult4_Short" xml:space="preserve">
+    <value>失敗</value>
+  </data>
+  <data name="Constant_SearchingResult5" xml:space="preserve">
+    <value>成功(非索敵機)</value>
+  </data>
+  <data name="Constant_SearchingResult5_Short" xml:space="preserve">
+    <value>成功</value>
+  </data>
+  <data name="Constant_SearchingResult6" xml:space="preserve">
+    <value>失敗(非索敵機)</value>
+  </data>
+  <data name="Constant_SearchingResult6_Short" xml:space="preserve">
+    <value>失敗</value>
+  </data>
+  <data name="Constant_ShipDefaultName" xml:space="preserve">
+    <value>艦娘</value>
+  </data>
+  <data name="Constant_ShipGuard" xml:space="preserve">
+    <value>船団護衛成功</value>
+  </data>
+  <data name="Constant_SHolo" xml:space="preserve">
+    <value>Sホロ</value>
+  </data>
+  <data name="Constant_Short" xml:space="preserve">
+    <value>短</value>
+  </data>
+  <data name="Constant_Silver" xml:space="preserve">
+    <value>銀</value>
+  </data>
+  <data name="Constant_Sink" xml:space="preserve">
+    <value>撃沈</value>
+  </data>
+  <data name="Constant_Sink_LandBase" xml:space="preserve">
+    <value>破壊</value>
+  </data>
+  <data name="Constant_Sink_Practice" xml:space="preserve">
+    <value>離脱</value>
+  </data>
+  <data name="Constant_Sortie" xml:space="preserve">
+    <value>出撃</value>
+  </data>
+  <data name="Constant_SSHolo" xml:space="preserve">
+    <value>SSホロ</value>
+  </data>
+  <data name="Constant_Steel" xml:space="preserve">
+    <value>鋼材</value>
+  </data>
+  <data name="Constant_Success" xml:space="preserve">
+    <value>成功</value>
+  </data>
+  <data name="Constant_SuperLong" xml:space="preserve">
+    <value>超長</value>
+  </data>
+  <data name="Constant_SuperSuccess" xml:space="preserve">
+    <value>大成功</value>
+  </data>
+  <data name="Constant_Supply_Repair" xml:space="preserve">
+    <value>補給</value>
+  </data>
+  <data name="Constant_Unknown" xml:space="preserve">
+    <value>不明</value>
+  </data>
+  <data name="Constant_Unknown_Short" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="Constant_Vary" xml:space="preserve">
+    <value>変</value>
+  </data>
+  <data name="Constant_Week" xml:space="preserve">
+    <value>週</value>
+  </data>
+  <data name="DataStorage_FileNotFound" xml:space="preserve">
+    <value>DataStorage ファイルは存在しません。</value>
+  </data>
+  <data name="DataStorage_LoadError" xml:space="preserve">
+    <value>DataStorage の読み込みに失敗しました。</value>
+  </data>
+  <data name="DataStorage_PathNotFound" xml:space="preserve">
+    <value>DataStorage {0} は存在しません。</value>
+  </data>
+  <data name="DataStorage_SaveError" xml:space="preserve">
+    <value>DataStorage の書き込みに失敗しました。</value>
+  </data>
+  <data name="DialogAlbumMasterEquipment_DataCSVHeader" xml:space="preserve">
+    <value>装備ID,図鑑番号,装備名,装備種1,装備種2,装備種3,装備種4,火力,雷装,対空,装甲,対潜,回避,索敵,運,命中,爆装,射程,レア,廃棄燃料,廃棄弾薬,廃棄鋼材,廃棄ボーキ,図鑑文章,バージョン</value>
+  </data>
+  <data name="DialogAlbumMasterEquipment_EquipmentAlbum" xml:space="preserve">
+    <value>装備図鑑 - </value>
+  </data>
+  <data name="DialogAlbumMasterEquipment_ExportCSVError" xml:space="preserve">
+    <value>装備図鑑 CSVの出力に失敗しました。</value>
+  </data>
+  <data name="DialogAlbumMasterEquipment_ShipEquiped" xml:space="preserve">
+    <value>装備可能艦種:</value>
+  </data>
+  <data name="DialogAlbumMasterEquipment_UserCSVHeader" xml:space="preserve">
+    <value>装備ID,図鑑番号,装備種,装備名,装備種1,装備種2,装備種3,装備種4,火力,雷装,対空,装甲,対潜,回避,索敵,運,命中,爆装,射程,レア,廃棄燃料,廃棄弾薬,廃棄鋼材,廃棄ボーキ,図鑑文章,バージョン</value>
+  </data>
+  <data name="DialogAlbumMasterShip_AAInfo" xml:space="preserve">
+    <value>対空 {0}{1}
+</value>
+  </data>
+  <data name="DialogAlbumMasterShip_AccuracyInfo" xml:space="preserve">
+    <value>命中 {0}{1}
+</value>
+  </data>
+  <data name="DialogAlbumMasterShip_ArmorInfo" xml:space="preserve">
+    <value>装甲 {0}{1}
+</value>
+  </data>
+  <data name="DialogAlbumMasterShip_ASWInfo" xml:space="preserve">
+    <value>対潜 {0}{1}
+</value>
+  </data>
+  <data name="DialogAlbumMasterShip_BasicValue" xml:space="preserve">
+    <value>基本値</value>
+  </data>
+  <data name="DialogAlbumMasterShip_BomberInfo" xml:space="preserve">
+    <value>爆装 {0}{1}
+</value>
+  </data>
+  <data name="DialogAlbumMasterShip_ClickToOpenAlbum" xml:space="preserve">
+    <value>(右クリックで図鑑)</value>
+  </data>
+  <data name="DialogAlbumMasterShip_DataCSVHeader" xml:space="preserve">
+    <value>艦船ID,図鑑番号,艦名,読み,艦種,改装前,改装後,改装Lv,改装弾薬,改装鋼材,改装設計図,耐久初期,耐久最大,耐久結婚,火力初期,火力最大,雷装初期,雷装最大,対空初期,対空最大,装甲初期,装甲最大,対潜初期最小,対潜初期最大,対潜最大,対潜150最小,対潜150最大,回避初期最小,回避初期最大,回避最大,回避150最小,回避150最大,索敵初期最小,索敵初期最大,索敵最大,索敵150最小,索敵150最大,運初期,運最大,速力,射程,レア,スロット数,搭載機数1,搭載機数2,搭載機数3,搭載機数4,搭載機数5,初期装備1,初期装備2,初期装備3,初期装備4,初期装備5,建造時間,解体燃料,解体弾薬,解体鋼材,解体ボーキ,改修火力,改修雷装,改修対空,改修装甲,ドロップ文章,図鑑文章,搭載燃料,搭載弾薬,ボイス,リソース名,バージョン</value>
+  </data>
+  <data name="DialogAlbumMasterShip_EquippedValue" xml:space="preserve">
+    <value>装備込</value>
+  </data>
+  <data name="DialogAlbumMasterShip_EvasionInfo" xml:space="preserve">
+    <value>回避 {0}{1}
+</value>
+  </data>
+  <data name="DialogAlbumMasterShip_ExportCSVError" xml:space="preserve">
+    <value>艦船図鑑 CSVの出力に失敗しました。</value>
+  </data>
+  <data name="DialogAlbumMasterShip_FirepowerInfo" xml:space="preserve">
+    <value>火力 {0}{1}
+</value>
+  </data>
+  <data name="DialogAlbumMasterShip_InitValue" xml:space="preserve">
+    <value>初期値</value>
+  </data>
+  <data name="DialogAlbumMasterShip_LOSInfo" xml:space="preserve">
+    <value>索敵 {0}{1}
+</value>
+  </data>
+  <data name="DialogAlbumMasterShip_MaxValue" xml:space="preserve">
+    <value>最大値</value>
+  </data>
+  <data name="DialogAlbumMasterShip_Null" xml:space="preserve">
+    <value>(なし)</value>
+  </data>
+  <data name="DialogAlbumMasterShip_Paper" xml:space="preserve">
+    <value>枚</value>
+  </data>
+  <data name="DialogAlbumMasterShip_RepairConsumeInfo" xml:space="preserve">
+    <value>入渠時の消費:
+HP1あたり: 鋼 {0:F2} / 燃 {1:F2}
+最大: 鋼 {2} / 燃 {3}
+</value>
+  </data>
+  <data name="DialogAlbumMasterShip_ShipAlbum" xml:space="preserve">
+    <value>艦船図鑑 - </value>
+  </data>
+  <data name="DialogAlbumMasterShip_TorpedoInfo" xml:space="preserve">
+    <value>雷装 {0}{1}
+</value>
+  </data>
+  <data name="DialogAlbumMasterShip_UserCSVHeader" xml:space="preserve">
+    <value>艦船ID,図鑑番号,艦種,艦名,読み,改装前,改装後,改装Lv,改装弾薬,改装鋼材,改装設計図,耐久初期,耐久結婚,火力初期,火力最大,雷装初期,雷装最大,対空初期,対空最大,装甲初期,装甲最大,対潜初期,対潜最大,回避初期,回避最大,索敵初期,索敵最大,運初期,運最大,速力,射程,レア,スロット数,搭載機数1,搭載機数2,搭載機数3,搭載機数4,搭載機数5,初期装備1,初期装備2,初期装備3,初期装備4,初期装備5,建造時間,解体燃料,解体弾薬,解体鋼材,解体ボーキ,改修火力,改修雷装,改修対空,改修装甲,ドロップ文章,図鑑文章,搭載燃料,搭載弾薬,ボイス,リソース名,バージョン</value>
+  </data>
+  <data name="DialogConfiguration_FolderNotFound" xml:space="preserve">
+    <value>指定されたフォルダは存在しません。</value>
+  </data>
+  <data name="DialogConfiguration_KanColleNotLoaded" xml:space="preserve">
+    <value>艦これに接続してから操作してください。</value>
+  </data>
+  <data name="DialogConfiguration_PACSaved" xml:space="preserve">
+    <value>自動プロキシ設定スクリプトを保存し、設定用URLをクリップボードにコピーしました。
+所定の位置に貼り付けてください。</value>
+  </data>
+  <data name="DialogConfiguration_PACSaveDialogTitle" xml:space="preserve">
+    <value>自動プロキシ設定スクリプトを保存する</value>
+  </data>
+  <data name="DialogConfiguration_PACSaveError" xml:space="preserve">
+    <value>自動プロキシ設定スクリプトの保存に失敗しました。</value>
+  </data>
+  <data name="DialogConfigurationNotifier_ImageLoadError" xml:space="preserve">
+    <value>画像ファイルの読み込みに失敗しました。</value>
+  </data>
+  <data name="DialogConfigurationNotifier_SoundLoadError" xml:space="preserve">
+    <value>音声ファイルの読み込みに失敗しました。</value>
+  </data>
+  <data name="DialogConfigurationNotifier_TestMessage" xml:space="preserve">
+    <value>テスト 通知です。</value>
+  </data>
+  <data name="DialogEquipmentList_CSVHeader" xml:space="preserve">
+    <value>固有ID,装備ID,装備名,改修Lv,ロック,装備艦ID,装備艦</value>
+  </data>
+  <data name="DialogEquipmentList_EquipmentOverview" xml:space="preserve">
+    <value>装備一覧 - </value>
+  </data>
+  <data name="DialogEquipmentList_ExportCSVError" xml:space="preserve">
+    <value>装備一覧 CSVの出力に失敗しました。</value>
+  </data>
+  <data name="DialogNotifier_DrawImageError" xml:space="preserve">
+    <value>通知システム: ダイアログボックスでの画像の描画に失敗しました。</value>
+  </data>
+  <data name="ErrorReporter_AdditionMessageInfo" xml:space="preserve">
+    <value>追加情報 : {0}</value>
+  </data>
+  <data name="ErrorReporter_ConnectionInfo" xml:space="preserve">
+    <value>通信内容 : {0}</value>
+  </data>
+  <data name="ErrorReporter_ErrorInfo" xml:space="preserve">
+    <value>エラー : {0}</value>
+  </data>
+  <data name="ErrorReporter_ErrorReportInfo" xml:space="preserve">
+    <value>エラーレポート : {0}</value>
+  </data>
+  <data name="ErrorReporter_SaveError" xml:space="preserve">
+    <value>エラーレポートの書き込みに失敗しました。
+{0}
+{1}</value>
+  </data>
+  <data name="ErrorReporter_StackTraceInfo" xml:space="preserve">
+    <value>スタックトレース：</value>
+  </data>
+  <data name="FleetData_AnchorageRepairing" xml:space="preserve">
+    <value>泊地修理中 </value>
+  </data>
+  <data name="FleetData_AnchorageRepairTime" xml:space="preserve">
+    <value>開始日時 : {0}</value>
+  </data>
+  <data name="FleetData_Expediting" xml:space="preserve">
+    <value>遠征中 </value>
+  </data>
+  <data name="FleetData_ExpeditionCompleteTime" xml:space="preserve">
+    <value>{0} : {1}
+完了日時 : {2}</value>
+  </data>
+  <data name="FleetData_FleetNoShip" xml:space="preserve">
+    <value>所属艦なし</value>
+  </data>
+  <data name="FleetData_InSortie" xml:space="preserve">
+    <value>出撃中</value>
+  </data>
+  <data name="FleetData_LowHPInSortie" xml:space="preserve">
+    <value>！！大破進撃中！！</value>
+  </data>
+  <data name="FleetData_LowHPWarning" xml:space="preserve">
+    <value>大破艦あり！</value>
+  </data>
+  <data name="FleetData_NotSupplied" xml:space="preserve">
+    <value>未補給</value>
+  </data>
+  <data name="FleetData_Ready" xml:space="preserve">
+    <value>出撃可能！</value>
+  </data>
+  <data name="FleetData_RepairCompleteTime" xml:space="preserve">
+    <value>完了日時 : </value>
+  </data>
+  <data name="FleetData_Repairing" xml:space="preserve">
+    <value>入渠中 </value>
+  </data>
+  <data name="FleetData_ReturnInfo" xml:space="preserve">
+    <value>#{0}「{1}」が帰投しました。</value>
+  </data>
+  <data name="FleetData_Sparkle" xml:space="preserve">
+    <value>戦意高揚！</value>
+  </data>
+  <data name="FleetData_SparkleInfo" xml:space="preserve">
+    <value>最低cond: {0}
+あと {1} 回遠征可能</value>
+  </data>
+  <data name="FleetData_SupplyInfo" xml:space="preserve">
+    <value>燃 : {0}
+弾 : {1}
+ボ : {2} ({3}機)</value>
+  </data>
+  <data name="FleetData_Tired" xml:space="preserve">
+    <value>疲労 </value>
+  </data>
+  <data name="FleetData_TiredRestTime" xml:space="preserve">
+    <value>回復目安日時: {0}</value>
+  </data>
+  <data name="FormArsenal_Complete" xml:space="preserve">
+    <value>完成！</value>
+  </data>
+  <data name="FormArsenal_CompleteTime" xml:space="preserve">
+    <value>完了日時 : </value>
+  </data>
+  <data name="FormBattle_AAAttack" xml:space="preserve">
+    <value>対空砲火</value>
+  </data>
+  <data name="FormBattle_AAAttackInfo" xml:space="preserve">
+    <value>対空カットイン: {0}
+カットイン種別: {1} ({2})</value>
+  </data>
+  <data name="FormBattle_AACutIn" xml:space="preserve">
+    <value>対空カットイン</value>
+  </data>
+  <data name="FormBattle_AACutInAttackInfo" xml:space="preserve">
+    <value>第{0}次: {1}
+カットイン種別: {2} ({3})
+</value>
+  </data>
+  <data name="FormBattle_AACutInNoneInfo" xml:space="preserve">
+    <value>第{0}次: (発動せず)
+</value>
+  </data>
+  <data name="FormBattle_AirStageAttackInfo" xml:space="preserve">
+    <value>第1次: -{0}/{1}
+第2次: -{2}/{3}
+</value>
+  </data>
+  <data name="FormBattle_AirStageTouchInfo" xml:space="preserve">
+    <value>{0}触接中
+第1次: {1}
+第2次: {2}</value>
+  </data>
+  <data name="FormBattle_Flare" xml:space="preserve">
+    <value>照明弾投射: </value>
+  </data>
+  <data name="FormBattle_MidnightTouch" xml:space="preserve">
+    <value>夜間触接</value>
+  </data>
+  <data name="FormBattle_MidnightTouching" xml:space="preserve">
+    <value>夜間触接中: </value>
+  </data>
+  <data name="FormBattle_Null" xml:space="preserve">
+    <value>(なし)</value>
+  </data>
+  <data name="FormBattle_SearchLight" xml:space="preserve">
+    <value>探照灯照射: </value>
+  </data>
+  <data name="FormBattle_Touching" xml:space="preserve">
+    <value>触接中: </value>
+  </data>
+  <data name="FormBattle_Twice" xml:space="preserve">
+    <value>第2次: </value>
+  </data>
+  <data name="FormBrowserHost_BrowserCloseError" xml:space="preserve">
+    <value>ブラウザの終了中にエラーが発生しました。</value>
+  </data>
+  <data name="FormBrowserHost_BrowserNotFound" xml:space="preserve">
+    <value>ブラウザプロセスが予期せず終了しました。</value>
+  </data>
+  <data name="FormBrowserHost_CommunicateError" xml:space="preserve">
+    <value>ブラウザプロセス間で通信エラーが発生しました。</value>
+  </data>
+  <data name="FormBrowserHost_NavigateMessage" xml:space="preserve">
+    <value>移動先の URL を入力してください。</value>
+  </data>
+  <data name="FormBrowserHost_NavigateTitle" xml:space="preserve">
+    <value>移動先の入力</value>
+  </data>
+  <data name="FormBrowserHost_StartUpFail" xml:space="preserve">
+    <value>ブラウザプロセスの起動に失敗しました。</value>
+  </data>
+  <data name="FormCompass_AAInfo" xml:space="preserve">
+    <value>対空: {0}
+</value>
+  </data>
+  <data name="FormCompass_AttackInfo" xml:space="preserve">
+    <value>
+昼戦: {0}
+夜戦: {1}
+</value>
+  </data>
+  <data name="FormCompass_EndPoint" xml:space="preserve">
+    <value> (終点)</value>
+  </data>
+  <data name="FormCompass_EnemyIDInfo" xml:space="preserve">
+    <value>敵艦隊ID : {0}</value>
+  </data>
+  <data name="FormCompass_MapAreaInfo" xml:space="preserve">
+    <value>出撃海域 : {0}-{1}</value>
+  </data>
+  <data name="FormCompass_NextPointInfo" xml:space="preserve">
+    <value>次のセル : {0}{1}</value>
+  </data>
+  <data name="FormCompass_Seaplane" xml:space="preserve">
+    <value>索敵機発艦！</value>
+  </data>
+  <data name="FormCompass_ShipInfo" xml:space="preserve">
+    <value>{0} {1}{2}
+耐久: {3}
+火力: {4}/{5}
+雷装: {6}/{7}
+対空: {8}/{9}
+装甲: {10}/{11}
+対潜: {12}/{13}
+回避: {14}/{15}
+索敵: {16}/{17}
+運: {18}/{19}
+(右クリックで図鑑)
+</value>
+  </data>
+  <data name="FormCompass_UnknownEnemy" xml:space="preserve">
+    <value>(敵艦隊情報不明)</value>
+  </data>
+  <data name="FormCompass_UnknownEventID" xml:space="preserve">
+    <value>どうしてこうなった</value>
+  </data>
+  <data name="FormCompass_UnknownItem" xml:space="preserve">
+    <value>謎のアイテム</value>
+  </data>
+  <data name="FormDock_CompleteTime" xml:space="preserve">
+    <value>完了日時 : </value>
+  </data>
+  <data name="FormFleet_AAInfo" xml:space="preserve">
+    <value>確保: {0}
+優勢: {1}
+均衡: {2}
+劣勢: {3}
+</value>
+  </data>
+  <data name="FormFleet_AA_LOSInfo" xml:space="preserve">
+    <value>{0}	制空戦力{1}/索敵能力{2}
+</value>
+  </data>
+  <data name="FormFleet_FleetInfo" xml:space="preserve">
+    <value>合計レベル：{0}
+平均レベル：{1:0.00}
+ドラム缶搭載: {2}個 ({3}艦)
+大発動艇搭載: {4}個
+総積載: 燃 {5} / 弾 {6}
+(1戦当たり 燃 {7} / 弾 {8})</value>
+  </data>
+  <data name="FormFleet_FleetNameNull" xml:space="preserve">
+    <value>*nothing*</value>
+  </data>
+  <data name="FormFleet_LOSInfo" xml:space="preserve">
+    <value>(旧)2-5式: {0}
+2-5式(秋): {1}
+2-5新秋簡易式: {2}
+</value>
+  </data>
+  <data name="FormFleet_ShipAAInfo" xml:space="preserve">
+    <value>対空: {0}
+</value>
+  </data>
+  <data name="FormFleet_ShipAttackInfo" xml:space="preserve">
+    <value>
+昼戦: {0}
+夜戦: {1}
+</value>
+  </data>
+  <data name="FormFleet_ShipDockTime" xml:space="preserve">
+    <value>入渠時間: {0}
+</value>
+  </data>
+  <data name="FormFleet_ShipEscaped" xml:space="preserve">
+    <value>退避中</value>
+  </data>
+  <data name="FormFleet_ShipInfo" xml:space="preserve">
+    <value>{0} {1}
+火力: {2}/{3}
+雷装: {4}/{5}
+対空: {6}/{7}
+装甲: {8}/{9}
+対潜: {10}/{11}
+回避: {12}/{13}
+索敵: {14}/{15}
+運: {16}
+(右クリックで図鑑)
+</value>
+  </data>
+  <data name="FormFleet_ShipLevel150Exp" xml:space="preserve">
+    <value>Lv150まで: {0}</value>
+  </data>
+  <data name="FormFleet_ShipLevel99Exp" xml:space="preserve">
+    <value>Lv99まで: {0}</value>
+  </data>
+  <data name="FormFleet_ShipLowHP" xml:space="preserve">
+    <value>大破しています！</value>
+  </data>
+  <data name="FormFleet_ShipNextLevelExp" xml:space="preserve">
+    <value>次のレベルまで: {0}
+</value>
+  </data>
+  <data name="FormFleet_ShipRemodelExp" xml:space="preserve">
+    <value>改装まで: {0}</value>
+  </data>
+  <data name="FormFleet_ShipSparkleExpeditionTime" xml:space="preserve">
+    <value>あと {0} 回遠征可能</value>
+  </data>
+  <data name="FormFleet_ShipToLowHP" xml:space="preserve">
+    <value>大破まで: {0}
+</value>
+  </data>
+  <data name="FormFleet_ShipToMidHP" xml:space="preserve">
+    <value>中破まで: {0} / 大破まで: {1}
+</value>
+  </data>
+  <data name="FormFleet_ShipToNormalCond" xml:space="preserve">
+    <value>完全回復まで 約 {0:D2}:{1:D2}</value>
+  </data>
+  <data name="FormInformation_Album_EquipmentNotCollected" xml:space="preserve">
+    <value>[未保有装備]</value>
+  </data>
+  <data name="FormInformation_Album_MidHPNotCollected" xml:space="preserve">
+    <value>[中破絵未回収]</value>
+  </data>
+  <data name="FormInformation_Album_ShipNotCollected" xml:space="preserve">
+    <value>[未保有艦]</value>
+  </data>
+  <data name="FormInformation_CreateItem_Failed" xml:space="preserve">
+    <value>[開発失敗]</value>
+  </data>
+  <data name="FormInformation_Expedition_AdmiralExpInfo" xml:space="preserve">
+    <value>提督経験値: +{0}
+</value>
+  </data>
+  <data name="FormInformation_Expedition_ResultInfo" xml:space="preserve">
+    <value>結果: {0}
+</value>
+  </data>
+  <data name="FormInformation_Expedition_ShipExpInfo" xml:space="preserve">
+    <value>艦娘経験値: +{0}
+</value>
+  </data>
+  <data name="FormInformation_Expedition_Title" xml:space="preserve">
+    <value>[遠征帰投]</value>
+  </data>
+  <data name="FormInformation_Map_BossDefeatInfo" xml:space="preserve">
+    <value>{0}-{1} : 撃破 {2}/{3} 回
+</value>
+  </data>
+  <data name="FormInformation_Map_BossHP" xml:space="preserve">
+    <value>[海域ゲージ]</value>
+  </data>
+  <data name="FormInformation_Practice_EnemyFleetName" xml:space="preserve">
+    <value>敵艦隊名 : </value>
+  </data>
+  <data name="FormInformation_Practice_GainExp" xml:space="preserve">
+    <value>獲得経験値 : </value>
+  </data>
+  <data name="FormInformation_Practice_GainSExp" xml:space="preserve">
+    <value>S勝利 : </value>
+  </data>
+  <data name="FormInformation_Practice_Title" xml:space="preserve">
+    <value>[演習情報]</value>
+  </data>
+  <data name="FormMain_APIListOpenDialogTitle" xml:space="preserve">
+    <value>APIリストをロード</value>
+  </data>
+  <data name="FormMain_APIReadError" xml:space="preserve">
+    <value>API読み込みに失敗しました。</value>
+  </data>
+  <data name="FormMain_BrowserZoomText" xml:space="preserve">
+    <value>現在: {0}%</value>
+  </data>
+  <data name="FormMain_CloseComplete" xml:space="preserve">
+    <value>終了処理が完了しました。</value>
+  </data>
+  <data name="FormMain_DataNotSavedMessage" xml:space="preserve">
+    <value>セーブしていないレコードが失われる可能性があります。
+ロードしますか？</value>
+  </data>
+  <data name="FormMain_EquipmentDataNotLoaded" xml:space="preserve">
+    <value>装備データが読み込まれていません。</value>
+  </data>
+  <data name="FormMain_HelpMessage" xml:space="preserve">
+    <value>外部ブラウザでオンラインヘルプを開きます。
+よろしいですか？</value>
+  </data>
+  <data name="FormMain_LayoutFileNotFound" xml:space="preserve">
+    <value>ウィンドウ レイアウト ファイルは存在しません。</value>
+  </data>
+  <data name="FormMain_LayoutInitializeMessage" xml:space="preserve">
+    <value>レイアウトが初期化されました。
+「表示」メニューからお好みのウィンドウを追加してください。</value>
+  </data>
+  <data name="FormMain_LayoutLoadComplete" xml:space="preserve">
+    <value>ウィンドウ レイアウトを復元しました。</value>
+  </data>
+  <data name="FormMain_LayoutLoadError" xml:space="preserve">
+    <value>ウィンドウ レイアウトの復元に失敗しました。</value>
+  </data>
+  <data name="FormMain_LayoutOpenDialogTitle" xml:space="preserve">
+    <value>レイアウト ファイルを開く</value>
+  </data>
+  <data name="FormMain_LayoutSaveComplete" xml:space="preserve">
+    <value>ウィンドウ レイアウトを保存しました。</value>
+  </data>
+  <data name="FormMain_LayoutSaveError" xml:space="preserve">
+    <value>ウィンドウ レイアウトの保存に失敗しました。</value>
+  </data>
+  <data name="FormMain_LoadComplete" xml:space="preserve">
+    <value>起動処理が完了しました。</value>
+  </data>
+  <data name="FormMain_LoadOldAPINeedDataMessage" xml:space="preserve">
+    <value>先に通常の api_start2 を読み込んでください。</value>
+  </data>
+  <data name="FormMain_NavigateMessage" xml:space="preserve">
+    <value>移動先の URL を入力してください。</value>
+  </data>
+  <data name="FormMain_NavigateTitle" xml:space="preserve">
+    <value>移動先の入力</value>
+  </data>
+  <data name="FormMain_NavigateToLoginMessage" xml:space="preserve">
+    <value>ログインページへ移動します。
+よろしいですか？</value>
+  </data>
+  <data name="FormMain_OldAPIDeleteComplete" xml:space="preserve">
+    <value>削除が完了しました。
+{0} 個のファイルを削除しました。</value>
+  </data>
+  <data name="FormMain_OldAPIDeleteError" xml:space="preserve">
+    <value>削除に失敗しました。</value>
+  </data>
+  <data name="FormMain_OldAPIDeleteMessage" xml:space="preserve">
+    <value>古いAPIデータを削除します。
+本当によろしいですか？</value>
+  </data>
+  <data name="FormMain_OldAPIOpenDialogTitle" xml:space="preserve">
+    <value>旧 api_start2 からレコードを構築</value>
+  </data>
+  <data name="FormMain_Quit" xml:space="preserve">
+    <value>{0} を終了しています…</value>
+  </data>
+  <data name="FormMain_QuitMessage" xml:space="preserve">
+    <value>{0} を終了しますか？</value>
+  </data>
+  <data name="FormMain_RenameShipResourceComplete" xml:space="preserve">
+    <value>リネーム処理が完了しました。
+{0} 個のアイテムをリネームしました。</value>
+  </data>
+  <data name="FormMain_RenameShipResourceError" xml:space="preserve">
+    <value>艦船リソースのリネームに失敗しました。</value>
+  </data>
+  <data name="FormMain_RenameShipResourceMessage" xml:space="preserve">
+    <value>通信から保存した艦船リソース名を持つファイル及びフォルダを、艦船名に置換します。
+対象は指定されたフォルダ以下のすべてのファイル及びフォルダです。
+続行しますか？</value>
+  </data>
+  <data name="FormMain_RenameShipResourceTitle" xml:space="preserve">
+    <value>艦船リソースをリネーム</value>
+  </data>
+  <data name="FormMain_ShipDataNotLoaded" xml:space="preserve">
+    <value>艦船データが読み込まれていません。</value>
+  </data>
+  <data name="FormMain_StartUp" xml:space="preserve">
+    <value>{0} を起動しています…</value>
+  </data>
+  <data name="FormMain_SubLayoutLoadError" xml:space="preserve">
+    <value>サブウィンドウ レイアウトの復元に失敗しました。</value>
+  </data>
+  <data name="FormMain_SubLayoutSaveError" xml:space="preserve">
+    <value>サブウィンドウ レイアウトの保存に失敗しました。</value>
+  </data>
+  <data name="FormQuest_Complete" xml:space="preserve">
+    <value>達成！</value>
+  </data>
+  <data name="FormQuest_InitializeMessage" xml:space="preserve">
+    <value>任務データを初期化します。
+データに齟齬が生じている場合以外での使用は推奨しません。
+よろしいですか？</value>
+  </data>
+  <data name="FormQuest_InitializeTitle" xml:space="preserve">
+    <value>任務初期化の確認</value>
+  </data>
+  <data name="FormQuest_Progress50" xml:space="preserve">
+    <value>50%以上</value>
+  </data>
+  <data name="FormQuest_Progress80" xml:space="preserve">
+    <value>80%以上</value>
+  </data>
+  <data name="FormQuest_QuestComplete" xml:space="preserve">
+    <value>(任務完遂！)</value>
+  </data>
+  <data name="FormQuest_UnknownQuest" xml:space="preserve">
+    <value>(未取得)</value>
+  </data>
+  <data name="FormQuest_UnknownQuestInfo" xml:space="preserve">
+    <value>(未取得の任務 x {0})</value>
+  </data>
+  <data name="FormShipGroup_AA" xml:space="preserve">
+    <value>対空</value>
+  </data>
+  <data name="FormShipGroup_AARemain" xml:space="preserve">
+    <value>対空改修</value>
+  </data>
+  <data name="FormShipGroup_AddToGroupMessage" xml:space="preserve">
+    <value>追加するグループを選択してください：</value>
+  </data>
+  <data name="FormShipGroup_AddToGroupTitle" xml:space="preserve">
+    <value>グループの選択</value>
+  </data>
+  <data name="FormShipGroup_Ammo" xml:space="preserve">
+    <value>弾薬</value>
+  </data>
+  <data name="FormShipGroup_APIID" xml:space="preserve">
+    <value>固有ID</value>
+  </data>
+  <data name="FormShipGroup_Armor" xml:space="preserve">
+    <value>装甲</value>
+  </data>
+  <data name="FormShipGroup_ArmorRemain" xml:space="preserve">
+    <value>装甲改修</value>
+  </data>
+  <data name="FormShipGroup_ASW" xml:space="preserve">
+    <value>対潜</value>
+  </data>
+  <data name="FormShipGroup_Condition" xml:space="preserve">
+    <value>Cond</value>
+  </data>
+  <data name="FormShipGroup_CreateGroupMessage" xml:space="preserve">
+    <value>追加するグループの名前を入力してください：</value>
+  </data>
+  <data name="FormShipGroup_CreateGroupTitle" xml:space="preserve">
+    <value>グループの追加</value>
+  </data>
+  <data name="FormShipGroup_Equipment1" xml:space="preserve">
+    <value>装備1</value>
+  </data>
+  <data name="FormShipGroup_Equipment2" xml:space="preserve">
+    <value>装備2</value>
+  </data>
+  <data name="FormShipGroup_Equipment3" xml:space="preserve">
+    <value>装備3</value>
+  </data>
+  <data name="FormShipGroup_Equipment4" xml:space="preserve">
+    <value>装備4</value>
+  </data>
+  <data name="FormShipGroup_Equipment5" xml:space="preserve">
+    <value>装備5</value>
+  </data>
+  <data name="FormShipGroup_Evasion" xml:space="preserve">
+    <value>回避</value>
+  </data>
+  <data name="FormShipGroup_Exp" xml:space="preserve">
+    <value>Exp</value>
+  </data>
+  <data name="FormShipGroup_ExportCSVError" xml:space="preserve">
+    <value>艦船グループ CSVの出力に失敗しました。</value>
+  </data>
+  <data name="FormShipGroup_Firepower" xml:space="preserve">
+    <value>火力</value>
+  </data>
+  <data name="FormShipGroup_FirepowerRemain" xml:space="preserve">
+    <value>火力改修</value>
+  </data>
+  <data name="FormShipGroup_Fuel" xml:space="preserve">
+    <value>燃料</value>
+  </data>
+  <data name="FormShipGroup_GroupAddMessage" xml:space="preserve">
+    <value>グループ名を入力してください：</value>
+  </data>
+  <data name="FormShipGroup_GroupAddTitle" xml:space="preserve">
+    <value>グループを追加</value>
+  </data>
+  <data name="FormShipGroup_GroupDeleteError" xml:space="preserve">
+    <value>このグループは削除できません。</value>
+  </data>
+  <data name="FormShipGroup_GroupDeleteMessage" xml:space="preserve">
+    <value>グループ [{0}] を削除しますか？
+この操作は元に戻せません。</value>
+  </data>
+  <data name="FormShipGroup_GroupNull" xml:space="preserve">
+    <value>エラー：存在しないグループを参照しようとしました。開発者に連絡してください</value>
+  </data>
+  <data name="FormShipGroup_HPMax" xml:space="preserve">
+    <value>耐久最大</value>
+  </data>
+  <data name="FormShipGroup_HPNow" xml:space="preserve">
+    <value>耐久現在</value>
+  </data>
+  <data name="FormShipGroup_Level" xml:space="preserve">
+    <value>Lv</value>
+  </data>
+  <data name="FormShipGroup_LevelAverageInfo" xml:space="preserve">
+    <value>平均Lv: {0:F2}</value>
+  </data>
+  <data name="FormShipGroup_LevelTotalInfo" xml:space="preserve">
+    <value>合計Lv: {0}</value>
+  </data>
+  <data name="FormShipGroup_Locked" xml:space="preserve">
+    <value>ロック</value>
+  </data>
+  <data name="FormShipGroup_LOS" xml:space="preserve">
+    <value>索敵</value>
+  </data>
+  <data name="FormShipGroup_Luck" xml:space="preserve">
+    <value>運</value>
+  </data>
+  <data name="FormShipGroup_LuckRemain" xml:space="preserve">
+    <value>運改修</value>
+  </data>
+  <data name="FormShipGroup_ModifyGroupError" xml:space="preserve">
+    <value>このグループは変更できません。</value>
+  </data>
+  <data name="FormShipGroup_NextLevelExp" xml:space="preserve">
+    <value>next</value>
+  </data>
+  <data name="FormShipGroup_Plane1" xml:space="preserve">
+    <value>艦載機1</value>
+  </data>
+  <data name="FormShipGroup_Plane2" xml:space="preserve">
+    <value>艦載機2</value>
+  </data>
+  <data name="FormShipGroup_Plane3" xml:space="preserve">
+    <value>艦載機3</value>
+  </data>
+  <data name="FormShipGroup_Plane4" xml:space="preserve">
+    <value>艦載機4</value>
+  </data>
+  <data name="FormShipGroup_Plane5" xml:space="preserve">
+    <value>艦載機5</value>
+  </data>
+  <data name="FormShipGroup_RemodelExp" xml:space="preserve">
+    <value>改装まで</value>
+  </data>
+  <data name="FormShipGroup_Repair" xml:space="preserve">
+    <value>入渠</value>
+  </data>
+  <data name="FormShipGroup_RepairInfo" xml:space="preserve">
+    <value>入渠 #</value>
+  </data>
+  <data name="FormShipGroup_SallyArea" xml:space="preserve">
+    <value>出撃先</value>
+  </data>
+  <data name="FormShipGroup_ShipCountInfo" xml:space="preserve">
+    <value>所属: {0}隻</value>
+  </data>
+  <data name="FormShipGroup_ShipID" xml:space="preserve">
+    <value>艦船ID</value>
+  </data>
+  <data name="FormShipGroup_ShipKind" xml:space="preserve">
+    <value>艦種</value>
+  </data>
+  <data name="FormShipGroup_ShipKindDefault" xml:space="preserve">
+    <value>全所属艦</value>
+  </data>
+  <data name="FormShipGroup_ShipName" xml:space="preserve">
+    <value>艦名</value>
+  </data>
+  <data name="FormShipGroup_ShootRange" xml:space="preserve">
+    <value>射程</value>
+  </data>
+  <data name="FormShipGroup_Torpedo" xml:space="preserve">
+    <value>雷装</value>
+  </data>
+  <data name="FormShipGroup_TorpedoRemain" xml:space="preserve">
+    <value>雷装改修</value>
+  </data>
+  <data name="FormShipGruop_GroupRenameError" xml:space="preserve">
+    <value>このグループの名前を変更することはできません。</value>
+  </data>
+  <data name="FormShipGruop_GroupRenameMessage" xml:space="preserve">
+    <value>グループ名を入力してください：</value>
+  </data>
+  <data name="FormShipGruop_GroupRenameTitle" xml:space="preserve">
+    <value>グループ名の変更</value>
+  </data>
+  <data name="MessageBox_Complete" xml:space="preserve">
+    <value>処理完了</value>
+  </data>
+  <data name="MessageBox_Confirm" xml:space="preserve">
+    <value>確認</value>
+  </data>
+  <data name="MessageBox_CreateComplete" xml:space="preserve">
+    <value>作成完了</value>
+  </data>
+  <data name="MessageBox_DeleteComplete" xml:space="preserve">
+    <value>削除成功</value>
+  </data>
+  <data name="MessageBox_Error" xml:space="preserve">
+    <value>エラー</value>
+  </data>
+  <data name="MessageBox_Help" xml:space="preserve">
+    <value>ヘルプ</value>
+  </data>
+  <data name="MessageBox_MeetError" xml:space="preserve">
+    <value>大変ご迷惑をおかけしております</value>
+  </data>
+  <data name="NotifierBase_LoadError" xml:space="preserve">
+    <value>通知システム: 通知音 {0} のロードに失敗しました。</value>
+  </data>
+  <data name="NotifierBase_PlayError" xml:space="preserve">
+    <value>通知システム: 通知音の再生に失敗しました。</value>
+  </data>
+  <data name="NotifierCondition_Message" xml:space="preserve">
+    <value>#{0} 「{1}」に所属する艦娘の疲労が回復しました。</value>
+  </data>
+  <data name="NotifierCondition_Title" xml:space="preserve">
+    <value>疲労回復</value>
+  </data>
+  <data name="NotifierConstruction_Message" xml:space="preserve">
+    <value>工廠ドック #{0} で「{1}」の建造が完了しました。</value>
+  </data>
+  <data name="NotifierConstruction_Title" xml:space="preserve">
+    <value>建造完了</value>
+  </data>
+  <data name="NotifierDamage_Message" xml:space="preserve">
+    <value>{0} が大破しています！</value>
+  </data>
+  <data name="NotifierDamage_Title" xml:space="preserve">
+    <value>！大破警告！</value>
+  </data>
+  <data name="NotifierDialogData_ImageLoadError" xml:space="preserve">
+    <value>通知システム: 通知画像 {0} の読み込みに失敗しました。</value>
+  </data>
+  <data name="NotifierExpedition_Message" xml:space="preserve">
+    <value>#{0} 「{1}」が遠征「{2}: {3}」から帰投しました。</value>
+  </data>
+  <data name="NotifierExpedition_Title" xml:space="preserve">
+    <value>遠征帰投</value>
+  </data>
+  <data name="NotifierRepair_Message" xml:space="preserve">
+    <value>入渠ドック #{0} で「{1}」の修復が完了しました。</value>
+  </data>
+  <data name="NotifierRepair_Title" xml:space="preserve">
+    <value>入渠完了</value>
+  </data>
+  <data name="ProgressAGo_Content" xml:space="preserve">
+    <value>{0:p1} (出撃 {1}/{2}, S勝利 {3}/{4}, ボス {5}/{6}, ボス勝利 {7}/{8})</value>
+  </data>
+  <data name="RecordBase_FileNotFound" xml:space="preserve">
+    <value>レコード {0} は存在しません。</value>
+  </data>
+  <data name="RecordBase_LoadError" xml:space="preserve">
+    <value>レコード {0} の読み込みに失敗しました。</value>
+  </data>
+  <data name="RecordBase_SaveError" xml:space="preserve">
+    <value>レコード {0} の書き込みに失敗しました。</value>
+  </data>
+  <data name="RecordConstruction_RecordHeader" xml:space="preserve">
+    <value>艦船ID,艦船名,建造日時,燃料,弾薬,鋼材,ボーキ,開発資材,大型建造,空ドック,旗艦ID,旗艦名,司令部Lv</value>
+  </data>
+  <data name="RecordDevelopment_RecordHeader" xml:space="preserve">
+    <value>装備ID,装備名,開発日時,燃料,弾薬,鋼材,ボーキ,旗艦ID,旗艦名,旗艦艦種,司令部Lv</value>
+  </data>
+  <data name="RecordElementDevelopment_Fail" xml:space="preserve">
+    <value>(失敗)</value>
+  </data>
+  <data name="RecordElementShipDrop_Full" xml:space="preserve">
+    <value>(満員)</value>
+  </data>
+  <data name="RecordElementShipDrop_Null" xml:space="preserve">
+    <value>(なし)</value>
+  </data>
+  <data name="RecordEnemyFleet_RecordHeader" xml:space="preserve">
+    <value>敵編成ID,敵艦隊名,陣形,敵1番艦,敵2番艦,敵3番艦,敵4番艦,敵5番艦,敵6番艦</value>
+  </data>
+  <data name="RecordManager_LoadFailed" xml:space="preserve">
+    <value>レコードのロードに失敗しました。</value>
+  </data>
+  <data name="RecordManager_LoadSucceeded" xml:space="preserve">
+    <value>レコードをロードしました。</value>
+  </data>
+  <data name="RecordManager_SaveFailed" xml:space="preserve">
+    <value>レコードのセーブに失敗しました。</value>
+  </data>
+  <data name="RecordManager_SaveSucceeded" xml:space="preserve">
+    <value>レコードをセーブしました。</value>
+  </data>
+  <data name="RecordResource_RecordHeader" xml:space="preserve">
+    <value>日時,燃料,弾薬,鋼材,ボーキ,高速建造材,高速修復材,開発資材,改修資材,司令部Lv,提督Exp</value>
+  </data>
+  <data name="RecordShipDrop_RecordHeader" xml:space="preserve">
+    <value>艦船ID,艦名,入手日時,海域,海域,セル,ボス,敵編成,ランク,司令部Lv</value>
+  </data>
+  <data name="RecordShipParameter_Record" xml:space="preserve">
+    <value>{0}のパラメータを記録しました。</value>
+  </data>
+  <data name="RecordShipParameter_RecordDefaultSlot" xml:space="preserve">
+    <value>{0}の初期装備を記録しました。</value>
+  </data>
+  <data name="RecordShipParameter_RecordHeader" xml:space="preserve">
+    <value>艦船ID,艦船名,対潜初期下限,対潜初期上限,対潜最大,回避初期下限,回避初期上限,回避最大,索敵初期下限,索敵初期上限,索敵最大,装備1,装備2,装備3,装備4,装備5,図鑑説明</value>
+  </data>
+  <data name="RecordShipParameter_Update" xml:space="preserve">
+    <value>{0}のパラメータを更新しました。</value>
+  </data>
+  <data name="RecordShipParameter_UpdateDefaultSlot" xml:space="preserve">
+    <value>{0}の初期装備を更新しました。</value>
+  </data>
+  <data name="Record_ItemLost" xml:space="preserve">
+    <value>要素数が少なすぎます。</value>
+  </data>
+  <data name="ResourceManager_ImageLoadError" xml:space="preserve">
+    <value>画像リソース {0} の読み込みに失敗しました。</value>
+  </data>
+  <data name="ResourceManager_ImageNotFound" xml:space="preserve">
+    <value>画像リソース {0} は存在しません。</value>
+  </data>
+  <data name="ResourceManager_LoadError" xml:space="preserve">
+    <value>リソースファイルの読み込みに失敗しました。</value>
+  </data>
+  <data name="SerializableFont_FontToStringError" xml:space="preserve">
+    <value>SerializableFont.FontToString failed</value>
+  </data>
+  <data name="SerializableFont_StringToFontError" xml:space="preserve">
+    <value>SerializableFont.StringToFont failed</value>
+  </data>
+  <data name="SerializableList_ListToStringError" xml:space="preserve">
+    <value>SerializableList: ListToString に失敗しました。</value>
+  </data>
+  <data name="SerializableList_StringToListError" xml:space="preserve">
+    <value>SerializableList: StringToList に失敗しました。</value>
+  </data>
+  <data name="SoftwareInformation_DealUpdateInfoError" xml:space="preserve">
+    <value>アップデート情報の処理に失敗しました。</value>
+  </data>
+  <data name="SoftwareInformation_FindNewVerison" xml:space="preserve">
+    <value>新しいバージョンがリリースされています！ : </value>
+  </data>
+  <data name="SoftwareInformation_GetUpdateInfoError" xml:space="preserve">
+    <value>アップデート情報の取得に失敗しました。</value>
+  </data>
+  <data name="SoftwareInformation_IsLastVerison" xml:space="preserve">
+    <value>お使いのバージョンは最新です。</value>
+  </data>
+  <data name="SoftwareInformation_SoftwareName" xml:space="preserve">
+    <value>七四式電子観測儀</value>
+  </data>
+  <data name="SoftwareInformation_UpdateMessage" xml:space="preserve">
+    <value>新しいバージョンがリリースされています！ : {0}
+更新内容 : 
+{1}
+ダウンロードページを開きますか？
+(キャンセルすると以降表示しません)</value>
+  </data>
+  <data name="SoftwareInformation_UpdateTitle" xml:space="preserve">
+    <value>アップデート情報</value>
+  </data>
+  <data name="SoftwareInformation_UpdateURIError" xml:space="preserve">
+    <value>アップデート情報の URI が無効です。</value>
+  </data>
+  <data name="SoftwareInformation_Version" xml:space="preserve">
+    <value>{0}一一型改</value>
+  </data>
+  <data name="WindowPlacementManager_LoadError" xml:space="preserve">
+    <value>ウィンドウ状態の復元に失敗しました。</value>
+  </data>
+  <data name="WindowPlacementManager_SaveError" xml:space="preserve">
+    <value>ウィンドウ状態の保存に失敗しました。</value>
+  </data>
 </root>

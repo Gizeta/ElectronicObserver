@@ -24,6 +24,7 @@
 		/// </summary>
 		private void InitializeComponent() {
 			this.components = new System.ComponentModel.Container();
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormFleet));
 			this.TableMember = new System.Windows.Forms.TableLayoutPanel();
 			this.TableFleet = new System.Windows.Forms.TableLayoutPanel();
 			this.ContextMenuFleet = new System.Windows.Forms.ContextMenuStrip(this.components);
@@ -88,14 +89,14 @@
 			// 
 			this.ContextMenuFleet_CopyFleet.Name = "ContextMenuFleet_CopyFleet";
 			this.ContextMenuFleet_CopyFleet.Size = new System.Drawing.Size(226, 22);
-			this.ContextMenuFleet_CopyFleet.Text = "クリップボードにコピー(&C)";
+			resources.ApplyResources(this.ContextMenuFleet_CopyFleet, "ContextMenuFleet_CopyFleet");
 			this.ContextMenuFleet_CopyFleet.Click += new System.EventHandler(this.ContextMenuFleet_CopyFleet_Click);
 			// 
 			// ContextMenuFleet_Capture
 			// 
 			this.ContextMenuFleet_Capture.Name = "ContextMenuFleet_Capture";
 			this.ContextMenuFleet_Capture.Size = new System.Drawing.Size(226, 22);
-			this.ContextMenuFleet_Capture.Text = "この画面をキャプチャ(&S)";
+			resources.ApplyResources(this.ContextMenuFleet_Capture, "ContextMenuFleet_Capture");
 			this.ContextMenuFleet_Capture.Click += new System.EventHandler(this.ContextMenuFleet_Capture_Click);
 			// 
 			// toolStripSeparator1
@@ -110,7 +111,7 @@
 			this.ContextMenuFleet_IsScrollable.Enabled = false;
 			this.ContextMenuFleet_IsScrollable.Name = "ContextMenuFleet_IsScrollable";
 			this.ContextMenuFleet_IsScrollable.Size = new System.Drawing.Size(226, 22);
-			this.ContextMenuFleet_IsScrollable.Text = "スクロール可能";
+			resources.ApplyResources(this.ContextMenuFleet_IsScrollable, "ContextMenuFleet_IsScrollable");
 			this.ContextMenuFleet_IsScrollable.Visible = false;
 			this.ContextMenuFleet_IsScrollable.Click += new System.EventHandler(this.ContextMenuFleet_IsScrollable_Click);
 			// 
@@ -120,7 +121,7 @@
 			this.ContextMenuFleet_FixShipNameWidth.Enabled = false;
 			this.ContextMenuFleet_FixShipNameWidth.Name = "ContextMenuFleet_FixShipNameWidth";
 			this.ContextMenuFleet_FixShipNameWidth.Size = new System.Drawing.Size(226, 22);
-			this.ContextMenuFleet_FixShipNameWidth.Text = "艦名の幅を固定する";
+			resources.ApplyResources(this.ContextMenuFleet_FixShipNameWidth, "ContextMenuFleet_FixShipNameWidth");
 			this.ContextMenuFleet_FixShipNameWidth.Visible = false;
 			this.ContextMenuFleet_FixShipNameWidth.Click += new System.EventHandler(this.ContextMenuFleet_FixShipNameWidth_Click);
 			// 
@@ -146,7 +147,7 @@
 			this.HideOnClose = true;
 			this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.Name = "FormFleet";
-			this.Text = "*not loaded*";
+			resources.ApplyResources(this, "FormFleet");
 			this.Load += new System.EventHandler(this.FormFleet_Load);
 			this.ContextMenuFleet.ResumeLayout(false);
 			this.ResumeLayout(false);

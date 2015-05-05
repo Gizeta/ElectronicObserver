@@ -23,6 +23,7 @@
 		/// the contents of this method with the code editor.
 		/// </summary>
 		private void InitializeComponent() {
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DialogEquipmentList));
 			this.EquipmentView = new System.Windows.Forms.DataGridView();
 			this.EquipmentView_ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
 			this.EquipmentView_Icon = new System.Windows.Forms.DataGridViewImageColumn();
@@ -78,7 +79,7 @@
 			// 
 			// EquipmentView_ID
 			// 
-			this.EquipmentView_ID.HeaderText = "ID";
+			resources.ApplyResources(this.EquipmentView_ID, "EquipmentView_ID");
 			this.EquipmentView_ID.Name = "EquipmentView_ID";
 			this.EquipmentView_ID.ReadOnly = true;
 			this.EquipmentView_ID.Width = 40;
@@ -96,20 +97,20 @@
 			// EquipmentView_Name
 			// 
 			this.EquipmentView_Name.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-			this.EquipmentView_Name.HeaderText = "装備名";
+			resources.ApplyResources(this.EquipmentView_Name, "EquipmentView_Name");
 			this.EquipmentView_Name.Name = "EquipmentView_Name";
 			this.EquipmentView_Name.ReadOnly = true;
 			// 
 			// EquipmentView_CountAll
 			// 
-			this.EquipmentView_CountAll.HeaderText = "全個数";
+			resources.ApplyResources(this.EquipmentView_CountAll, "EquipmentView_CountAll");
 			this.EquipmentView_CountAll.Name = "EquipmentView_CountAll";
 			this.EquipmentView_CountAll.ReadOnly = true;
 			this.EquipmentView_CountAll.Width = 40;
 			// 
 			// EquipmentView_CountRemain
 			// 
-			this.EquipmentView_CountRemain.HeaderText = "余個数";
+			resources.ApplyResources(this.EquipmentView_CountRemain, "EquipmentView_CountRemain");
 			this.EquipmentView_CountRemain.Name = "EquipmentView_CountRemain";
 			this.EquipmentView_CountRemain.ReadOnly = true;
 			this.EquipmentView_CountRemain.Width = 40;
@@ -131,14 +132,14 @@
             this.TopMenu_File_Update});
 			this.TopMenu_File.Name = "TopMenu_File";
 			this.TopMenu_File.Size = new System.Drawing.Size(85, 22);
-			this.TopMenu_File.Text = "ファイル(&F)";
+			resources.ApplyResources(this.TopMenu_File, "TopMenu_File");
 			// 
 			// TopMenu_File_CSVOutput
 			// 
 			this.TopMenu_File_CSVOutput.Name = "TopMenu_File_CSVOutput";
 			this.TopMenu_File_CSVOutput.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
 			this.TopMenu_File_CSVOutput.Size = new System.Drawing.Size(201, 22);
-			this.TopMenu_File_CSVOutput.Text = "CSV出力(&C)...";
+			resources.ApplyResources(this.TopMenu_File_CSVOutput, "TopMenu_File_CSVOutput");
 			this.TopMenu_File_CSVOutput.Click += new System.EventHandler(this.Menu_File_CSVOutput_Click);
 			// 
 			// TopMenu_File_Update
@@ -146,13 +147,13 @@
 			this.TopMenu_File_Update.Name = "TopMenu_File_Update";
 			this.TopMenu_File_Update.ShortcutKeys = System.Windows.Forms.Keys.F5;
 			this.TopMenu_File_Update.Size = new System.Drawing.Size(201, 22);
-			this.TopMenu_File_Update.Text = "更新(&U)";
+			resources.ApplyResources(this.TopMenu_File_Update, "TopMenu_File_Update");
 			this.TopMenu_File_Update.Click += new System.EventHandler(this.TopMenu_File_Update_Click);
 			// 
 			// SaveCSVDialog
 			// 
 			this.SaveCSVDialog.Filter = "CSV|*.csv|File|*";
-			this.SaveCSVDialog.Title = "CSVに出力";
+			resources.ApplyResources(this.SaveCSVDialog, "SaveCSVDialog");
 			// 
 			// splitContainer1
 			// 
@@ -197,21 +198,21 @@
 			// 
 			// DetailView_Level
 			// 
-			this.DetailView_Level.HeaderText = "改修";
+			resources.ApplyResources(this.DetailView_Level, "DetailView_Level");
 			this.DetailView_Level.Name = "DetailView_Level";
 			this.DetailView_Level.ReadOnly = true;
 			this.DetailView_Level.Width = 40;
 			// 
 			// DetailView_CountAll
 			// 
-			this.DetailView_CountAll.HeaderText = "全個数";
+			resources.ApplyResources(this.DetailView_CountAll, "DetailView_CountAll");
 			this.DetailView_CountAll.Name = "DetailView_CountAll";
 			this.DetailView_CountAll.ReadOnly = true;
 			this.DetailView_CountAll.Width = 40;
 			// 
 			// DetailView_CountRemain
 			// 
-			this.DetailView_CountRemain.HeaderText = "余個数";
+			resources.ApplyResources(this.DetailView_CountRemain, "DetailView_CountRemain");
 			this.DetailView_CountRemain.Name = "DetailView_CountRemain";
 			this.DetailView_CountRemain.ReadOnly = true;
 			this.DetailView_CountRemain.Width = 40;
@@ -219,7 +220,7 @@
 			// DetailView_EquippedShip
 			// 
 			this.DetailView_EquippedShip.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-			this.DetailView_EquippedShip.HeaderText = "装備艦";
+			resources.ApplyResources(this.DetailView_EquippedShip, "DetailView_EquippedShip");
 			this.DetailView_EquippedShip.Name = "DetailView_EquippedShip";
 			this.DetailView_EquippedShip.ReadOnly = true;
 			this.DetailView_EquippedShip.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
@@ -234,7 +235,7 @@
 			this.Font = new System.Drawing.Font("Meiryo UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
 			this.MainMenuStrip = this.TopMenu;
 			this.Name = "DialogEquipmentList";
-			this.Text = "装備一覧";
+			resources.ApplyResources(this, "DialogEquipmentList");
 			this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.DialogEquipmentList_FormClosed);
 			this.Load += new System.EventHandler(this.DialogEquipmentList_Load);
 			((System.ComponentModel.ISupportInitialize)(this.EquipmentView)).EndInit();

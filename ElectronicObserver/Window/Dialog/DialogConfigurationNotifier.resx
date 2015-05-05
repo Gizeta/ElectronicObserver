@@ -132,4 +132,210 @@
   <metadata name="ToolTipText.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>455, 17</value>
   </metadata>
+  <data name="ButtonCancel.Text" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="ButtonOK.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="GroupSound.Text" xml:space="preserve">
+    <value>通知音</value>
+  </data>
+  <data name="PlaysSound.Text" xml:space="preserve">
+    <value>有効にする</value>
+  </data>
+  <data name="ButtonTest.Text" xml:space="preserve">
+    <value>テスト</value>
+  </data>
+  <data name="ButtonTest.ToolTip" xml:space="preserve">
+    <value>通知のテスト再生を行います。
+設定が適用・保存されるため注意してください。</value>
+  </data>
+  <data name="IsEnabled.Text" xml:space="preserve">
+    <value>通知を有効にする</value>
+  </data>
+  <data name="GroupImage.Text" xml:space="preserve">
+    <value>通知画像</value>
+  </data>
+  <data name="DrawsImage.Text" xml:space="preserve">
+    <value>有効にする</value>
+  </data>
+  <data name="GroupDialog.Text" xml:space="preserve">
+    <value>通知ダイアログ</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>座標：</value>
+  </data>
+  <data name="DrawsMessage.Text" xml:space="preserve">
+    <value>メッセージを表示する</value>
+  </data>
+  <data name="DrawsMessage.ToolTip" xml:space="preserve">
+    <value>ダイアログ内に通知テキストを描画するかを設定します。
+画像のみで足りる場合は非表示にできます。</value>
+  </data>
+  <data name="HasFormBorder.Text" xml:space="preserve">
+    <value>窓枠を表示する</value>
+  </data>
+  <data name="HasFormBorder.ToolTip" xml:space="preserve">
+    <value>通知ダイアログのウィンドウ枠を表示するかを指定できます。
+画像のみで足りる場合は非表示にできます。</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>秒</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>自動で閉じる：</value>
+  </data>
+  <data name="ClosingInterval.ToolTip" xml:space="preserve">
+    <value>通知ダイアログを放置した時に自動で閉じるまでの時間を指定します。
+0秒を指定した場合は時間経過では閉じません。</value>
+  </data>
+  <data name="BackColorPreview.Text" xml:space="preserve">
+    <value>■背景色：</value>
+  </data>
+  <data name="BackColorPreview.ToolTip" xml:space="preserve">
+    <value>通知ダイアログの背景色を指定します。
+このラベルの■に色プレビューが表示されます。</value>
+  </data>
+  <data name="BackColorSelect.ToolTip" xml:space="preserve">
+    <value>通知ダイアログの背景色を指定します。
+左側のラベルの■に色プレビューが表示されます。</value>
+  </data>
+  <data name="ForeColorPreview.Text" xml:space="preserve">
+    <value>■前景色：</value>
+  </data>
+  <data name="ForeColorPreview.ToolTip" xml:space="preserve">
+    <value>通知ダイアログの文字色を指定します。
+このラベルの■に色プレビューが表示されます。</value>
+  </data>
+  <data name="ForeColorSelect.ToolTip" xml:space="preserve">
+    <value>通知ダイアログの文字色を指定します。
+左側のラベルの■に色プレビューが表示されます。</value>
+  </data>
+  <data name="CloseOnMouseOver.Text" xml:space="preserve">
+    <value>マウスオーバーで閉じる</value>
+  </data>
+  <data name="CloseOnMouseOver.ToolTip" xml:space="preserve">
+    <value>通知ダイアログにマウスを乗せただけでも閉じるようにします。</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>秒</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>通知を早める：</value>
+  </data>
+  <data name="AccelInterval.ToolTip" xml:space="preserve">
+    <value>通知を早める秒数を指定します。
+遠征・入渠を60秒早めるのがおすすめです。</value>
+  </data>
+  <data name="TopMostFlag.Text" xml:space="preserve">
+    <value>最前面に表示する</value>
+  </data>
+  <data name="LocationY.ToolTip" xml:space="preserve">
+    <value>配置：手動設定時の出現座標を指定します。</value>
+  </data>
+  <data name="LocationX.ToolTip" xml:space="preserve">
+    <value>配置：手動設定時の出現座標を指定します。</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>配置：</value>
+  </data>
+  <data name="Alignment.Items" xml:space="preserve">
+    <value>未指定</value>
+  </data>
+  <data name="Alignment.Items1" xml:space="preserve">
+    <value>左上</value>
+  </data>
+  <data name="Alignment.Items2" xml:space="preserve">
+    <value>上</value>
+  </data>
+  <data name="Alignment.Items3" xml:space="preserve">
+    <value>右上</value>
+  </data>
+  <data name="Alignment.Items4" xml:space="preserve">
+    <value>左</value>
+  </data>
+  <data name="Alignment.Items5" xml:space="preserve">
+    <value>中央</value>
+  </data>
+  <data name="Alignment.Items6" xml:space="preserve">
+    <value>右</value>
+  </data>
+  <data name="Alignment.Items7" xml:space="preserve">
+    <value>左下</value>
+  </data>
+  <data name="Alignment.Items8" xml:space="preserve">
+    <value>下</value>
+  </data>
+  <data name="Alignment.Items9" xml:space="preserve">
+    <value>右下</value>
+  </data>
+  <data name="Alignment.Items10" xml:space="preserve">
+    <value>手動設定</value>
+  </data>
+  <data name="Alignment.ToolTip" xml:space="preserve">
+    <value>通知ダイアログの出現位置を設定します。</value>
+  </data>
+  <data name="ShowsDialog.Text" xml:space="preserve">
+    <value>有効にする</value>
+  </data>
+  <data name="GroupDamage.Text" xml:space="preserve">
+    <value>大破警告</value>
+  </data>
+  <data name="NotifiesAtEndpoint.Text" xml:space="preserve">
+    <value>終点でも通知する</value>
+  </data>
+  <data name="NotifiesAtEndpoint.ToolTip" xml:space="preserve">
+    <value>マップの最終セルでも通知するかを指定します。</value>
+  </data>
+  <data name="ContainsFlagship.Text" xml:space="preserve">
+    <value>旗艦を含める</value>
+  </data>
+  <data name="ContainsSafeShip.Text" xml:space="preserve">
+    <value>ダメコン装備艦を含める</value>
+  </data>
+  <data name="ContainsNotLockedShip.Text" xml:space="preserve">
+    <value>非ロック艦を含める</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>最低Lv：</value>
+  </data>
+  <data name="LevelBorder.ToolTip" xml:space="preserve">
+    <value>通知する大破艦の最低Lvを指定します。
+これよりLvの低い艦は通知されないので注意してください。</value>
+  </data>
+  <data name="NotifiesAfter.Text" xml:space="preserve">
+    <value>事後通知を有効にする</value>
+  </data>
+  <data name="NotifiesAfter.ToolTip" xml:space="preserve">
+    <value>大破進撃中に通知します。</value>
+  </data>
+  <data name="NotifiesNow.Text" xml:space="preserve">
+    <value>事中通知を有効にする</value>
+  </data>
+  <data name="NotifiesNow.ToolTip" xml:space="preserve">
+    <value>出撃前及び戦闘終了時に通知します。</value>
+  </data>
+  <data name="NotifiesBefore.Text" xml:space="preserve">
+    <value>事前通知を有効にする</value>
+  </data>
+  <data name="NotifiesBefore.ToolTip" xml:space="preserve">
+    <value>出撃前及び戦闘開始直後に通知します。</value>
+  </data>
+  <data name="DialogOpenSound.Title" xml:space="preserve">
+    <value>音声ファイルを開く</value>
+  </data>
+  <data name="DialogOpenImage.Title" xml:space="preserve">
+    <value>画像ファイルを開く</value>
+  </data>
+  <data name="ShowWithActivation.Text" xml:space="preserve">
+    <value>表示時にアクティベートする</value>
+  </data>
+  <data name="ShowWithActivation.ToolTip" xml:space="preserve">
+    <value>表示時にダイアログをアクティブにします。
+無効にすると操作を妨げない代わりにダイアログが隠れやすくなります。</value>
+  </data>
+  <data name="DialogConfigurationNotifier.Text" xml:space="preserve">
+    <value>通知の設定</value>
+  </data>
 </root>

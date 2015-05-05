@@ -126,7 +126,7 @@ namespace ElectronicObserver.Window {
 
 			if ( !groups.ShipGroups.ContainsKey( -1 ) ) {
 				var master = new ShipGroupData( -1 );
-				master.Name = "全所属艦";
+				master.Name = Properties.Resources.FormShipGroup_ShipKindDefault;
 				master.ColumnFilter = Enumerable.Repeat<bool>( true, ShipView.Columns.Count ).ToList();
 				master.ColumnWidth = ShipView.Columns.OfType<DataGridViewColumn>().Select( c => c.Width ).ToList();
 
@@ -195,7 +195,7 @@ namespace ElectronicObserver.Window {
 		private ImageLabel CreateTabLabel( int id ) {
 
 			ImageLabel label = new ImageLabel();
-			label.Text = KCDatabase.Instance.ShipGroup[id] != null ? KCDatabase.Instance.ShipGroup[id].Name : "全所属艦";
+			label.Text = KCDatabase.Instance.ShipGroup[id] != null ? KCDatabase.Instance.ShipGroup[id].Name : Properties.Resources.FormShipGroup_ShipKindDefault;
 			label.Anchor = AnchorStyles.Left;
 			label.Font = ShipView.Font;
 			label.BackColor = TabInactiveColor;
@@ -426,9 +426,9 @@ namespace ElectronicObserver.Window {
 
 			//status bar
 			if ( KCDatabase.Instance.Ships.Count > 0 ) {
-				Status_ShipCount.Text = string.Format( "所属: {0}隻", group.Members.Count );
-				Status_LevelTotal.Text = string.Format( "合計Lv: {0}", group.MembersInstance.Where( s => s != null ).Sum( s => s.Level ) );
-				Status_LevelAverage.Text = string.Format( "平均Lv: {0:F2}", group.Members.Count > 0 ? group.MembersInstance.Where( s => s != null ).Average( s => s.Level ) : 0 );
+				Status_ShipCount.Text = string.Format( Properties.Resources.FormShipGroup_ShipCountInfo, group.Members.Count );
+				Status_LevelTotal.Text = string.Format( Properties.Resources.FormShipGroup_LevelTotalInfo, group.MembersInstance.Where( s => s != null ).Sum( s => s.Level ) );
+				Status_LevelAverage.Text = string.Format( Properties.Resources.FormShipGroup_LevelAverageInfo, group.Members.Count > 0 ? group.MembersInstance.Where( s => s != null ).Average( s => s.Level ) : 0 );
 			}
 		}
 
@@ -515,7 +515,7 @@ namespace ElectronicObserver.Window {
 			} else if ( e.ColumnIndex == ShipView_RepairTime.Index ) {
 
 				if ( (int)e.Value < 0 ) {
-					e.Value = "入渠 #" + ( (int)e.Value + 1000 );
+					e.Value = Properties.Resources.FormShipGroup_RepairInfo + ( (int)e.Value + 1000 );
 				} else {
 					e.Value = DateTimeHelper.ToTimeRemainString( DateTimeHelper.FromAPITimeSpan( (int)e.Value ) );
 				}
@@ -616,7 +616,7 @@ namespace ElectronicObserver.Window {
 
 		private void MenuGroup_Add_Click( object sender, EventArgs e ) {
 
-			using ( var dialog = new DialogTextInput( "グループを追加", "グループ名を入力してください：" ) ) {
+			using ( var dialog = new DialogTextInput( Properties.Resources.FormShipGroup_GroupAddTitle, Properties.Resources.FormShipGroup_GroupAddMessage ) ) {
 
 				if ( dialog.ShowDialog( this ) == System.Windows.Forms.DialogResult.OK ) {
 
@@ -646,7 +646,7 @@ namespace ElectronicObserver.Window {
 			ShipGroupData group = KCDatabase.Instance.ShipGroup[(int)senderLabel.Tag];
 
 			if ( group != null && group.GroupID >= 0 ) {
-				if ( MessageBox.Show( string.Format( "グループ [{0}] を削除しますか？\r\nこの操作は元に戻せません。", group.Name ), "確認",
+				if ( MessageBox.Show( string.Format( Properties.Resources.FormShipGroup_GroupDeleteMessage, group.Name ), Properties.Resources.MessageBox_Confirm,
 					MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2 )
 					== System.Windows.Forms.DialogResult.Yes ) {
 
@@ -660,7 +660,7 @@ namespace ElectronicObserver.Window {
 				}
 
 			} else {
-				MessageBox.Show( "このグループは削除できません。", "エラー", MessageBoxButtons.OK, MessageBoxIcon.Exclamation );
+				MessageBox.Show( Properties.Resources.FormShipGroup_GroupDeleteError, Properties.Resources.MessageBox_Error, MessageBoxButtons.OK, MessageBoxIcon.Exclamation );
 			}
 		}
 
@@ -673,7 +673,7 @@ namespace ElectronicObserver.Window {
 
 			if ( group != null && group.GroupID >= 0 ) {
 
-				using ( var dialog = new DialogTextInput( "グループ名の変更", "グループ名を入力してください：" ) ) {
+				using ( var dialog = new DialogTextInput( Properties.Resources.FormShipGruop_GroupRenameTitle, Properties.Resources.FormShipGruop_GroupRenameMessage ) ) {
 
 					dialog.InputtedText = group.Name;
 
@@ -685,7 +685,7 @@ namespace ElectronicObserver.Window {
 				}
 
 			} else {
-				MessageBox.Show( "このグループの名前を変更することはできません。", "エラー", MessageBoxButtons.OK, MessageBoxIcon.Exclamation );
+				MessageBox.Show( Properties.Resources.FormShipGruop_GroupRenameError, Properties.Resources.MessageBox_Error, MessageBoxButtons.OK, MessageBoxIcon.Exclamation );
 			}
 
 		}
@@ -778,7 +778,7 @@ namespace ElectronicObserver.Window {
 
 		private void MenuMember_AddToGroup_Click( object sender, EventArgs e ) {
 
-			using ( var dialog = new DialogTextSelect( "グループの選択", "追加するグループを選択してください：",
+			using ( var dialog = new DialogTextSelect( Properties.Resources.FormShipGroup_AddToGroupTitle, Properties.Resources.FormShipGroup_AddToGroupMessage,
 				KCDatabase.Instance.ShipGroup.ShipGroups.Values.Where( g => g.GroupID >= 0 ).ToArray() ) ) {
 
 				if ( dialog.ShowDialog( this ) == System.Windows.Forms.DialogResult.OK ) {
@@ -804,7 +804,7 @@ namespace ElectronicObserver.Window {
 
 		private void MenuMember_CreateGroup_Click( object sender, EventArgs e ) {
 
-			using ( var dialog = new DialogTextInput( "グループの追加", "追加するグループの名前を入力してください：" ) ) {
+			using ( var dialog = new DialogTextInput( Properties.Resources.FormShipGroup_CreateGroupTitle, Properties.Resources.FormShipGroup_CreateGroupMessage ) ) {
 
 				if ( dialog.ShowDialog( this ) == System.Windows.Forms.DialogResult.OK ) {
 
@@ -835,7 +835,7 @@ namespace ElectronicObserver.Window {
 
 
 			if ( group == null || group.GroupID < 0 ) {
-				MessageBox.Show( "このグループは変更できません。", "エラー", MessageBoxButtons.OK, MessageBoxIcon.Asterisk );
+				MessageBox.Show( Properties.Resources.FormShipGroup_ModifyGroupError, Properties.Resources.MessageBox_Error, MessageBoxButtons.OK, MessageBoxIcon.Asterisk );
 				return;
 			}
 
@@ -857,7 +857,7 @@ namespace ElectronicObserver.Window {
 			ShipGroupData group = SelectedTab != null ? KCDatabase.Instance.ShipGroup[(int)SelectedTab.Tag] : null;
 
 			if ( group == null ) {
-				MessageBox.Show( "このグループは変更できません。", "エラー", MessageBoxButtons.OK, MessageBoxIcon.Asterisk );
+				MessageBox.Show( Properties.Resources.FormShipGroup_ModifyGroupError, Properties.Resources.MessageBox_Error, MessageBoxButtons.OK, MessageBoxIcon.Asterisk );
 				return;
 			}
 
@@ -886,83 +886,83 @@ namespace ElectronicObserver.Window {
 
 		#region ColumnHeader
 		private readonly string[] ShipCSVHeaderUser = {
-			"固有ID",
-			"艦種",
-			"艦名",
-			"Lv",
-			"Exp",
-			"next",
-			"改装まで",
-			"耐久現在",
-			"耐久最大",
-			"Cond",
-			"燃料",
-			"弾薬",
-			"装備1",
-			"装備2",
-			"装備3",
-			"装備4",
-			"装備5",
-			"入渠",
-			"火力",
-			"火力改修",
-			"雷装",
-			"雷装改修",
-			"対空",
-			"対空改修",
-			"装甲",
-			"装甲改修",
-			"対潜",
-			"回避",
-			"索敵",
-			"運",
-			"運改修",
-			"射程",
-			"ロック",
-			"出撃先"
+			Properties.Resources.FormShipGroup_APIID,
+			Properties.Resources.FormShipGroup_ShipKind,
+			Properties.Resources.FormShipGroup_ShipName,
+			Properties.Resources.FormShipGroup_Level,
+			Properties.Resources.FormShipGroup_Exp,
+			Properties.Resources.FormShipGroup_NextLevelExp,
+			Properties.Resources.FormShipGroup_RemodelExp,
+			Properties.Resources.FormShipGroup_HPNow,
+			Properties.Resources.FormShipGroup_HPMax,
+			Properties.Resources.FormShipGroup_Condition,
+			Properties.Resources.FormShipGroup_Fuel,
+			Properties.Resources.FormShipGroup_Ammo,
+			Properties.Resources.FormShipGroup_Equipment1,
+			Properties.Resources.FormShipGroup_Equipment2,
+			Properties.Resources.FormShipGroup_Equipment3,
+			Properties.Resources.FormShipGroup_Equipment4,
+			Properties.Resources.FormShipGroup_Equipment5,
+			Properties.Resources.FormShipGroup_Repair,
+			Properties.Resources.FormShipGroup_Firepower,
+			Properties.Resources.FormShipGroup_FirepowerRemain,
+			Properties.Resources.FormShipGroup_Torpedo,
+			Properties.Resources.FormShipGroup_TorpedoRemain,
+			Properties.Resources.FormShipGroup_AA,
+			Properties.Resources.FormShipGroup_AARemain,
+			Properties.Resources.FormShipGroup_Armor,
+			Properties.Resources.FormShipGroup_ArmorRemain,
+			Properties.Resources.FormShipGroup_ASW,
+			Properties.Resources.FormShipGroup_Evasion,
+			Properties.Resources.FormShipGroup_LOS,
+			Properties.Resources.FormShipGroup_Luck,
+			Properties.Resources.FormShipGroup_LuckRemain,
+			Properties.Resources.FormShipGroup_ShootRange,
+			Properties.Resources.FormShipGroup_Locked,
+			Properties.Resources.FormShipGroup_SallyArea
 			};
 
 		private readonly string[] ShipCSVHeaderData = {
-			"固有ID",
-			"艦種",
-			"艦名",
-			"艦船ID",
-			"Lv",
-			"Exp",
-			"next",
-			"改装まで",
-			"耐久現在",
-			"耐久最大",
-			"Cond",
-			"燃料",
-			"弾薬",
-			"装備1",
-			"装備2",
-			"装備3",
-			"装備4",
-			"装備5",
-			"艦載機1",
-			"艦載機2",
-			"艦載機3",
-			"艦載機4",
-			"艦載機5",
-			"入渠",
-			"火力",
-			"火力改修",
-			"雷装",
-			"雷装改修",
-			"対空",
-			"対空改修",
-			"装甲",
-			"装甲改修",
-			"対潜",
-			"回避",
-			"索敵",
-			"運",
-			"運改修",
-			"射程",
-			"ロック",
-			"出撃先"
+			Properties.Resources.FormShipGroup_APIID,
+			Properties.Resources.FormShipGroup_ShipKind,
+			Properties.Resources.FormShipGroup_ShipName,
+			Properties.Resources.FormShipGroup_ShipID,
+			Properties.Resources.FormShipGroup_Level,
+			Properties.Resources.FormShipGroup_Exp,
+			Properties.Resources.FormShipGroup_NextLevelExp,
+			Properties.Resources.FormShipGroup_RemodelExp,
+			Properties.Resources.FormShipGroup_HPNow,
+			Properties.Resources.FormShipGroup_HPMax,
+			Properties.Resources.FormShipGroup_Condition,
+			Properties.Resources.FormShipGroup_Fuel,
+			Properties.Resources.FormShipGroup_Ammo,
+			Properties.Resources.FormShipGroup_Equipment1,
+			Properties.Resources.FormShipGroup_Equipment2,
+			Properties.Resources.FormShipGroup_Equipment3,
+			Properties.Resources.FormShipGroup_Equipment4,
+			Properties.Resources.FormShipGroup_Equipment5,
+			Properties.Resources.FormShipGroup_Plane1,
+			Properties.Resources.FormShipGroup_Plane2,
+			Properties.Resources.FormShipGroup_Plane3,
+			Properties.Resources.FormShipGroup_Plane4,
+			Properties.Resources.FormShipGroup_Plane5,
+			Properties.Resources.FormShipGroup_Repair,
+			Properties.Resources.FormShipGroup_Firepower,
+			Properties.Resources.FormShipGroup_FirepowerRemain,
+			Properties.Resources.FormShipGroup_Torpedo,
+			Properties.Resources.FormShipGroup_TorpedoRemain,
+			Properties.Resources.FormShipGroup_AA,
+			Properties.Resources.FormShipGroup_AARemain,
+			Properties.Resources.FormShipGroup_Armor,
+			Properties.Resources.FormShipGroup_ArmorRemain,
+			Properties.Resources.FormShipGroup_ASW,
+			Properties.Resources.FormShipGroup_Evasion,
+			Properties.Resources.FormShipGroup_LOS,
+			Properties.Resources.FormShipGroup_Luck,
+			Properties.Resources.FormShipGroup_LuckRemain,
+			Properties.Resources.FormShipGroup_ShootRange,
+			Properties.Resources.FormShipGroup_Locked,
+			Properties.Resources.FormShipGroup_SallyArea
 			};
 
 		#endregion
@@ -1098,8 +1098,8 @@ namespace ElectronicObserver.Window {
 
 					} catch ( Exception ex ) {
 
-						Utility.ErrorReporter.SendErrorReport( ex, "艦船グループ CSVの出力に失敗しました。" );
-						MessageBox.Show( "艦船グループ CSVの出力に失敗しました。\r\n" + ex.Message, "エラー", MessageBoxButtons.OK, MessageBoxIcon.Error );
+						Utility.ErrorReporter.SendErrorReport( ex, Properties.Resources.FormShipGroup_ExportCSVError );
+						MessageBox.Show( Properties.Resources.FormShipGroup_ExportCSVError + Environment.NewLine + ex.Message, Properties.Resources.MessageBox_Error, MessageBoxButtons.OK, MessageBoxIcon.Error );
 
 					}
 

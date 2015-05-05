@@ -117,6 +117,57 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="QuestView_Type.HeaderText" xml:space="preserve">
+    <value>種</value>
+  </data>
+  <data name="QuestView_Category.HeaderText" xml:space="preserve">
+    <value>分類</value>
+  </data>
+  <data name="QuestView_Name.HeaderText" xml:space="preserve">
+    <value>任務名</value>
+  </data>
+  <data name="QuestView_Progress.HeaderText" xml:space="preserve">
+    <value>進捗</value>
+  </data>
+  <data name="MenuMain_ShowRunningOnly.Text" xml:space="preserve">
+    <value>遂行中のみ表示(&amp;R)</value>
+  </data>
+  <data name="MenuMain_ShowOnce.Text" xml:space="preserve">
+    <value>一回限りの任務を表示(&amp;O)</value>
+  </data>
+  <data name="MenuMain_ShowDaily.Text" xml:space="preserve">
+    <value>デイリー任務を表示(&amp;D)</value>
+  </data>
+  <data name="MenuMain_ShowWeekly.Text" xml:space="preserve">
+    <value>ウィークリー任務を表示(&amp;W)</value>
+  </data>
+  <data name="MenuMain_ShowMonthly.Text" xml:space="preserve">
+    <value>マンスリー任務を表示(&amp;M)</value>
+  </data>
+  <data name="MenuMain_ColumnFilter.Text" xml:space="preserve">
+    <value>列フィルタ(&amp;C)</value>
+  </data>
+  <data name="MenuMain_ColumnFilter_State.Text" xml:space="preserve">
+    <value>遂行中(&amp;S)</value>
+  </data>
+  <data name="MenuMain_ColumnFilter_Type.Text" xml:space="preserve">
+    <value>出現種別(&amp;T)</value>
+  </data>
+  <data name="MenuMain_ColumnFilter_Category.Text" xml:space="preserve">
+    <value>分類(&amp;C)</value>
+  </data>
+  <data name="MenuMain_ColumnFilter_Name.Text" xml:space="preserve">
+    <value>任務名(&amp;N)</value>
+  </data>
+  <data name="MenuMain_ColumnFilter_Progress.Text" xml:space="preserve">
+    <value>進捗(&amp;P)</value>
+  </data>
+  <data name="MenuMain_Initialize.Text" xml:space="preserve">
+    <value>初期化(&amp;I)</value>
+  </data>
+  <data name="FormQuest.Text" xml:space="preserve">
+    <value>任務</value>
+  </data>
   <metadata name="QuestView_State.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>

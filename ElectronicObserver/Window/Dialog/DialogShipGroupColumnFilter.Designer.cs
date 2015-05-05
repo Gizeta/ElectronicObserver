@@ -23,6 +23,7 @@
 		/// the contents of this method with the code editor.
 		/// </summary>
 		private void InitializeComponent() {
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DialogShipGroupColumnFilter));
 			this.FilterList = new System.Windows.Forms.CheckedListBox();
 			this.Description = new System.Windows.Forms.Label();
 			this.ButtonOK = new System.Windows.Forms.Button();
@@ -53,7 +54,7 @@
 			this.Description.Name = "Description";
 			this.Description.Size = new System.Drawing.Size(165, 15);
 			this.Description.TabIndex = 1;
-			this.Description.Text = "表示する列をチェックしてください：";
+			resources.ApplyResources(this.Description, "Description");
 			// 
 			// ButtonOK
 			// 
@@ -62,7 +63,7 @@
 			this.ButtonOK.Name = "ButtonOK";
 			this.ButtonOK.Size = new System.Drawing.Size(75, 23);
 			this.ButtonOK.TabIndex = 2;
-			this.ButtonOK.Text = "OK";
+			resources.ApplyResources(this.ButtonOK, "ButtonOK");
 			this.ButtonOK.UseVisualStyleBackColor = true;
 			this.ButtonOK.Click += new System.EventHandler(this.ButtonOK_Click);
 			// 
@@ -74,7 +75,7 @@
 			this.ButtonCancel.Name = "ButtonCancel";
 			this.ButtonCancel.Size = new System.Drawing.Size(75, 23);
 			this.ButtonCancel.TabIndex = 3;
-			this.ButtonCancel.Text = "キャンセル";
+			resources.ApplyResources(this.ButtonCancel, "ButtonCancel");
 			this.ButtonCancel.UseVisualStyleBackColor = true;
 			this.ButtonCancel.Click += new System.EventHandler(this.ButtonCancel_Click);
 			// 
@@ -86,7 +87,7 @@
 			this.AllCheck.Name = "AllCheck";
 			this.AllCheck.Size = new System.Drawing.Size(57, 19);
 			this.AllCheck.TabIndex = 4;
-			this.AllCheck.Text = "(全て)";
+			resources.ApplyResources(this.AllCheck, "AllCheck");
 			this.AllCheck.UseVisualStyleBackColor = true;
 			this.AllCheck.CheckedChanged += new System.EventHandler(this.AllCheck_CheckedChanged);
 			// 
@@ -105,7 +106,7 @@
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
 			this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.Name = "DialogShipGroupColumnFilter";
-			this.Text = "列フィルタ";
+			resources.ApplyResources(this, "DialogShipGroupColumnFilter");
 			this.ResumeLayout(false);
 			this.PerformLayout();
 

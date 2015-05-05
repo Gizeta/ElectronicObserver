@@ -25,8 +25,8 @@ namespace ElectronicObserver.Resource.Record {
 			/// </summary>
 			public string ShipName {
 				get {
-					if ( ShipID == -1 ) return "(なし)";
-					if ( ShipID == -2 ) return "(満員)";
+					if ( ShipID == -1 ) return Properties.Resources.RecordElementShipDrop_Null;
+					if ( ShipID == -2 ) return Properties.Resources.RecordElementShipDrop_Full;
 
 					if ( ShipID > 2000 ) {
 						var eq = KCDatabase.Instance.MasterEquipments[ShipID - 2000];
@@ -114,7 +114,7 @@ namespace ElectronicObserver.Resource.Record {
 			public override void LoadLine( string line ) {
 
 				string[] elem = line.Split( ",".ToCharArray() );
-				if ( elem.Length < 9 ) throw new ArgumentException( "要素数が少なすぎます。" );
+				if ( elem.Length < 9 ) throw new ArgumentException( Properties.Resources.Record_ItemLost );
 
 				ShipID = int.Parse( elem[0] );
 				//ShipName = elem[1] は読み飛ばす
@@ -138,7 +138,7 @@ namespace ElectronicObserver.Resource.Record {
 					MapAreaID,
 					MapInfoID,
 					CellID,
-					IsBossNode ? "ボス" : "-",
+					IsBossNode ? Properties.Resources.Constant_Boss : "-",
 					EnemyFleetID,
 					Rank,
 					HQLevel );
@@ -208,7 +208,7 @@ namespace ElectronicObserver.Resource.Record {
 
 
 		protected override string RecordHeader {
-			get { return "艦船ID,艦名,入手日時,海域,海域,セル,ボス,敵編成,ランク,司令部Lv"; }
+			get { return Properties.Resources.RecordShipDrop_RecordHeader; }
 		}
 
 		public override string FileName {

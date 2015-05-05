@@ -23,6 +23,7 @@
 		/// the contents of this method with the code editor.
 		/// </summary>
 		private void InitializeComponent() {
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DialogLocalAPILoader));
 			this.PictureWarning = new System.Windows.Forms.PictureBox();
 			this.label1 = new System.Windows.Forms.Label();
 			this.APIList = new System.Windows.Forms.ComboBox();
@@ -54,7 +55,7 @@
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(289, 30);
 			this.label1.TabIndex = 0;
-			this.label1.Text = "必ずオフラインの状態で操作してください。\r\nこの機能はデバッグ専用であるため、動作は保証できません。";
+			resources.ApplyResources(this.label1, "label1");
 			// 
 			// APIList
 			// 
@@ -90,8 +91,8 @@
 			this.APICategory.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
 			this.APICategory.FormattingEnabled = true;
 			this.APICategory.Items.AddRange(new object[] {
-            "Request",
-            "Response"});
+            resources.GetString("APICategory.Items"),
+            resources.GetString("APICategory.Items1")});
 			this.APICategory.Location = new System.Drawing.Point(56, 3);
 			this.APICategory.Name = "APICategory";
 			this.APICategory.Size = new System.Drawing.Size(80, 23);
@@ -106,7 +107,7 @@
 			this.ButtonCancel.Name = "ButtonCancel";
 			this.ButtonCancel.Size = new System.Drawing.Size(75, 23);
 			this.ButtonCancel.TabIndex = 7;
-			this.ButtonCancel.Text = "キャンセル";
+			resources.ApplyResources(this.ButtonCancel, "ButtonCancel");
 			this.ButtonCancel.UseVisualStyleBackColor = true;
 			this.ButtonCancel.Click += new System.EventHandler(this.ButtonCancel_Click);
 			// 
@@ -118,7 +119,7 @@
 			this.label3.Name = "label3";
 			this.label3.Size = new System.Drawing.Size(38, 15);
 			this.label3.TabIndex = 3;
-			this.label3.Text = "Path:";
+			resources.ApplyResources(this.label3, "label3");
 			// 
 			// ButtonOpen
 			// 
@@ -127,7 +128,7 @@
 			this.ButtonOpen.Name = "ButtonOpen";
 			this.ButtonOpen.Size = new System.Drawing.Size(75, 23);
 			this.ButtonOpen.TabIndex = 6;
-			this.ButtonOpen.Text = "開く";
+			resources.ApplyResources(this.ButtonOpen, "ButtonOpen");
 			this.ButtonOpen.UseVisualStyleBackColor = true;
 			this.ButtonOpen.Click += new System.EventHandler(this.ButtonOpen_Click);
 			// 
@@ -163,13 +164,13 @@
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(32, 15);
 			this.label2.TabIndex = 0;
-			this.label2.Text = "API:";
+			resources.ApplyResources(this.label2, "label2");
 			// 
 			// FileOpener
 			// 
 			this.FileOpener.Filter = "JSON|*.json;*.js|File|*";
 			this.FileOpener.RestoreDirectory = true;
-			this.FileOpener.Title = "ファイルを開く";
+			resources.ApplyResources(this.FileOpener, "FileOpener");
 			// 
 			// DialogLocalAPILoader
 			// 
@@ -186,7 +187,7 @@
 			this.MinimizeBox = false;
 			this.Name = "DialogLocalAPILoader";
 			this.ShowInTaskbar = false;
-			this.Text = "ファイルからAPIをロード";
+			resources.ApplyResources(this, "DialogLocalAPILoader");
 			this.Load += new System.EventHandler(this.DialogLocalAPILoader_Load);
 			((System.ComponentModel.ISupportInitialize)(this.PictureWarning)).EndInit();
 			this.panel1.ResumeLayout(false);

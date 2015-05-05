@@ -24,6 +24,7 @@
 		/// </summary>
 		private void InitializeComponent() {
 			this.components = new System.ComponentModel.Container();
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormFleetOverview));
 			this.ToolTipInfo = new System.Windows.Forms.ToolTip(this.components);
 			this.TableFleet = new System.Windows.Forms.TableLayoutPanel();
 			this.SuspendLayout();
@@ -65,7 +66,7 @@
 			this.HideOnClose = true;
 			this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.Name = "FormFleetOverview";
-			this.Text = "艦隊";
+			resources.ApplyResources(this, "FormFleetOverview");
 			this.Load += new System.EventHandler(this.FormFleetOverview_Load);
 			this.ResumeLayout(false);
 			this.PerformLayout();

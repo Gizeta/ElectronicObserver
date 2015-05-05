@@ -82,7 +82,7 @@ namespace Browser {
 		}
 
 
-		private const string ErrorMessageNotFound = "指定したプロセスIDの音量オブジェクトは存在しません。";
+        private static readonly string ErrorMessageNotFound = Properties.Resources.Volume_PIDNotFound;
 
 		/// <summary>
 		/// 音量を取得します。

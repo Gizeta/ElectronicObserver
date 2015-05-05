@@ -140,11 +140,13 @@ namespace ElectronicObserver.Utility {
 				/// </summary>
 				public SerializableFont SubFont { get; set; }
 
+				public int Language { get; set; }
 
 				public ConfigUI() {
 					//*/
 					MainFont = new Font( "Meiryo UI", 12, FontStyle.Regular, GraphicsUnit.Pixel );
 					SubFont = new Font( "Meiryo UI", 10, FontStyle.Regular, GraphicsUnit.Pixel );
+					Language = 0;
 					//*/
 				}
 			}
@@ -752,6 +754,8 @@ namespace ElectronicObserver.Utility {
 
 
 		internal void OnConfigurationChanged() {
+            System.Threading.Thread.CurrentThread.CurrentUICulture = CultureHelper.GetCultureInfo(_config.UI.Language);
+
 			ConfigurationChanged();
 		}
 
@@ -761,8 +765,8 @@ namespace ElectronicObserver.Utility {
 			if ( temp != null )
 				_config = temp;
 			else {
-				MessageBox.Show( SoftwareInformation.SoftwareNameJapanese + " をご利用いただきありがとうございます。\r\n設定や使用方法については「ヘルプ」→「オンラインヘルプ」を参照してください。\r\nご使用の前に必ずご一読ください。",
-					"初回起動メッセージ", MessageBoxButtons.OK, MessageBoxIcon.Information );
+				MessageBox.Show( string.Format( Properties.Resources.Configuration_FirstRunMessage, SoftwareInformation.SoftwareName ),
+					Properties.Resources.Configuration_FirstRunTitle, MessageBoxButtons.OK, MessageBoxIcon.Information );
 			}
 		}
 
