@@ -60,6 +60,42 @@ namespace ElectronicObserver.Properties {
 		}
         
         /// <summary>
+        ///   開発に失敗しました。({0}/{1}/{2}/{3} 秘書艦: {4}) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string APICreateItem_Failed {
+            get {
+                return ResourceManager.GetString("APICreateItem_Failed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   {0}「{1}」の開発に成功しました。({2}/{3}/{4}/{5} 秘書艦: {6}) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string APICreateItem_Success {
+            get {
+                return ResourceManager.GetString("APICreateItem_Success", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    を解体しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string APIDestroyShip_Message {
+            get {
+                return ResourceManager.GetString("APIDestroyShip_Message", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   {0}「{1}」の建造が完了しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string APIGetShip_Message {
+            get {
+                return ResourceManager.GetString("APIGetShip_Message", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   #{0}「{1}」が「{2}-{3} {4}」へ出撃しました。 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string APIMapStart_Message {
@@ -200,6 +236,33 @@ namespace ElectronicObserver.Properties {
         internal static string APIStart2_Message {
             get {
                 return ResourceManager.GetString("APIStart2_Message", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   {0}「{1}」を入手しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string BattleManager_GotEquipment {
+            get {
+                return ResourceManager.GetString("BattleManager_GotEquipment", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   アイテム「{0}」を入手しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string BattleManager_GotItem {
+            get {
+                return ResourceManager.GetString("BattleManager_GotItem", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   {0}「{1}」が戦列に加わりました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string BattleManager_GotShip {
+            get {
+                return ResourceManager.GetString("BattleManager_GotShip", resourceCulture);
             }
         }
         
@@ -2016,6 +2079,53 @@ namespace ElectronicObserver.Properties {
                 return ResourceManager.GetString("DialogConfiguration_KanColleNotLoaded", resourceCulture);
             }
         }
+		
+		/// <summary>
+        ///   レジストリに登録します。よろしいですか？
+        ///＊完全に適用するには再起動が必要です。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogConfiguration_RegisterApplyMessage {
+            get {
+                return ResourceManager.GetString("DialogConfiguration_RegisterApplyMessage", resourceCulture);
+            }
+        }
+        
+		/// <summary>
+        ///   レジストリを削除します。よろしいですか？
+        ///＊完全に適用するには再起動が必要です。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogConfiguration_RegisterDeleteMessage {
+            get {
+                return ResourceManager.GetString("DialogConfiguration_RegisterDeleteMessage", resourceCulture);
+            }
+        }
+        
+		/// <summary>
+        ///   レジストリの削除に失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogConfiguration_RegisterDeleteError {
+            get {
+                return ResourceManager.GetString("DialogConfiguration_RegisterDeleteError", resourceCulture);
+            }
+        }
+        
+		/// <summary>
+        ///   レジストリからの読み込みに失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogConfiguration_RegisterReadError {
+            get {
+                return ResourceManager.GetString("DialogConfiguration_RegisterReadError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   レジストリへの書き込みに失敗しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogConfiguration_RegisterSaveError {
+            get {
+                return ResourceManager.GetString("DialogConfiguration_RegisterSaveError", resourceCulture);
+            }
+        }
         
         /// <summary>
         ///   自動プロキシ設定スクリプトを保存し、設定用URLをクリップボードにコピーしました。
@@ -2349,6 +2459,15 @@ namespace ElectronicObserver.Properties {
         }
         
         /// <summary>
+        ///   工廠ドック #{0}で {1}の建造を開始しました。({2}/{3}/{4}/{5}-{6} 秘書艦: {7}) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormArsenal_CreateInfo {
+            get {
+                return ResourceManager.GetString("FormArsenal_CreateInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   対空砲火 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string FormBattle_AAAttack {
@@ -2547,6 +2666,16 @@ namespace ElectronicObserver.Properties {
         }
         
         /// <summary>
+        ///   制空戦力: {0}
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormCompass_AirSuperiorityInfo {
+            get {
+                return ResourceManager.GetString("FormCompass_AirSuperiorityInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   
         ///昼戦: {0}
         ///夜戦: {1}
@@ -2568,11 +2697,29 @@ namespace ElectronicObserver.Properties {
         }
         
         /// <summary>
+        ///   敵艦隊発見！ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormCompass_EnemyFound {
+            get {
+                return ResourceManager.GetString("FormCompass_EnemyFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   敵艦隊ID : {0} に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string FormCompass_EnemyIDInfo {
             get {
                 return ResourceManager.GetString("FormCompass_EnemyIDInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   敵影を見ず に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormCompass_EnemyNotFound {
+            get {
+                return ResourceManager.GetString("FormCompass_EnemyNotFound", resourceCulture);
             }
         }
         
@@ -2595,11 +2742,20 @@ namespace ElectronicObserver.Properties {
         }
         
         /// <summary>
+        ///   能動分岐 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormCompass_RouteChoice {
+            get {
+                return ResourceManager.GetString("FormCompass_RouteChoice", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   索敵機発艦！ に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string FormCompass_Seaplane {
+        internal static string FormCompass_SeaplaneTakenOff {
             get {
-                return ResourceManager.GetString("FormCompass_Seaplane", resourceCulture);
+                return ResourceManager.GetString("FormCompass_SeaplaneTakenOff", resourceCulture);
             }
         }
         
@@ -2614,12 +2770,22 @@ namespace ElectronicObserver.Properties {
         ///回避: {14}/{15}
         ///索敵: {16}/{17}
         ///運: {18}/{19}
+        ///射程: {20}
         ///(右クリックで図鑑)
         /// に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string FormCompass_ShipInfo {
             get {
                 return ResourceManager.GetString("FormCompass_ShipInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   攻撃目標発見！ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormCompass_TargetFound {
+            get {
+                return ResourceManager.GetString("FormCompass_TargetFound", resourceCulture);
             }
         }
         
@@ -2666,6 +2832,16 @@ namespace ElectronicObserver.Properties {
         internal static string FormFleet_AA_LOSInfo {
             get {
                 return ResourceManager.GetString("FormFleet_AA_LOSInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   制空戦力: {0}
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormFleet_AirSuperiorityInfo {
+            get {
+                return ResourceManager.GetString("FormFleet_AirSuperiorityInfo", resourceCulture);
             }
         }
         
@@ -2768,6 +2944,7 @@ namespace ElectronicObserver.Properties {
         ///回避: {12}/{13}
         ///索敵: {14}/{15}
         ///運: {16}
+        ///射程: {17}
         ///(右クリックで図鑑)
         /// に類似しているローカライズされた文字列を検索します。
         /// </summary>
@@ -2858,6 +3035,16 @@ namespace ElectronicObserver.Properties {
         internal static string FormFleet_ShipToNormalCond {
             get {
                 return ResourceManager.GetString("FormFleet_ShipToNormalCond", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   今回: +{0} exp. / 戦果 {1:n2}
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormHeadquarters_ExpIncrementInfo {
+            get {
+                return ResourceManager.GetString("FormHeadquarters_ExpIncrementInfo", resourceCulture);
             }
         }
         
@@ -2988,6 +3175,78 @@ namespace ElectronicObserver.Properties {
         internal static string FormInformation_Practice_Title {
             get {
                 return ResourceManager.GetString("FormInformation_Practice_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   含む に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormIntegrate_MatchContains {
+            get {
+                return ResourceManager.GetString("FormIntegrate_MatchContains", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   サポートされていないMatchControl に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormIntegrate_MatchControlNotSupported {
+            get {
+                return ResourceManager.GetString("FormIntegrate_MatchControlNotSupported", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   条件を無視 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormIntegrate_MatchNone {
+            get {
+                return ResourceManager.GetString("FormIntegrate_MatchNone", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   完全一致 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormIntegrate_MatchSame {
+            get {
+                return ResourceManager.GetString("FormIntegrate_MatchSame", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   前方後方一致 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormIntegrate_MatchSameWithStartEnd {
+            get {
+                return ResourceManager.GetString("FormIntegrate_MatchSameWithStartEnd", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   ウィンドウキャプチャの確認 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormIntegrate_WindowCaptureTitle {
+            get {
+                return ResourceManager.GetString("FormIntegrate_WindowCaptureTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   ウィンドウが見つかりませんでした に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormIntegrate_WindowNotFound {
+            get {
+                return ResourceManager.GetString("FormIntegrate_WindowNotFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   ウィンドウを開放しました に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormIntegrate_WindowReleased {
+            get {
+                return ResourceManager.GetString("FormIntegrate_WindowReleased", resourceCulture);
             }
         }
         
@@ -3725,6 +3984,15 @@ namespace ElectronicObserver.Properties {
         }
         
         /// <summary>
+        ///   (なし) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormShipGroup_Null {
+            get {
+                return ResourceManager.GetString("FormShipGroup_Null", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   艦載機1 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string FormShipGroup_Plane1 {
@@ -3901,6 +4169,28 @@ namespace ElectronicObserver.Properties {
         internal static string FormShipGruop_GroupRenameTitle {
             get {
                 return ResourceManager.GetString("FormShipGruop_GroupRenameTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   ウィンドウキャプチャの確認 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormWindowCapture_CaptureTitle {
+            get {
+                return ResourceManager.GetString("FormWindowCapture_CaptureTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   このウィンドウをキャプチャします。よろしいですか？
+        ///
+        ///注意: ウィンドウによっては正常に取り込めず、不安定になる可能性があります。
+        ///データを保存する・母港に戻るなど、安全を確保してから実行してください。
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormWindowCapture_WarningMessage {
+            get {
+                return ResourceManager.GetString("FormWindowCapture_WarningMessage", resourceCulture);
             }
         }
         
@@ -4347,6 +4637,15 @@ namespace ElectronicObserver.Properties {
         }
         
         /// <summary>
+        ///   燃 : {0}/{1} ({2}%)\r\n弾 : {3}/{4} ({5}%) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string ShipStatusResource_Tip {
+            get {
+                return ResourceManager.GetString("ShipStatusResource_Tip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   アップデート情報の処理に失敗しました。 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string SoftwareInformation_DealUpdateInfoError {
@@ -4423,7 +4722,7 @@ namespace ElectronicObserver.Properties {
         }
         
         /// <summary>
-        ///   {0}一一型改 に類似しているローカライズされた文字列を検索します。
+        ///   {0}一二型改四 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string SoftwareInformation_Version {
             get {

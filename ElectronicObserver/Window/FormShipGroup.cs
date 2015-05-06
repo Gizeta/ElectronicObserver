@@ -449,7 +449,7 @@ namespace ElectronicObserver.Window {
 
 
 			if ( group == null ) {
-				Utility.Logger.Add( 3, "エラー：存在しないグループを参照しようとしました。開発者に連絡してください" );
+				Utility.Logger.Add( 3, Properties.Resources.FormShipGroup_GroupNull );
 				return;
 			}
 			if ( group.GroupID < 0 ) {
@@ -469,7 +469,7 @@ namespace ElectronicObserver.Window {
 
 			int current = ship.Aircraft[index];
 			int max = ship.MasterShip.Aircraft[index];
-			string name = ship.SlotInstance[index] != null ? ship.SlotInstance[index].NameWithLevel : "(なし)";
+			string name = ship.SlotInstance[index] != null ? ship.SlotInstance[index].NameWithLevel : Properties.Resources.FormShipGroup_Null;
 
 			if ( index >= ship.MasterShip.SlotSize && ship.Slot[index] == -1 ) {
 				return "";
@@ -489,7 +489,7 @@ namespace ElectronicObserver.Window {
 
 		private string GetEquipmentOnlyString( ShipData ship, int index ) {
 
-			string name = ship.SlotInstance[index] != null ? ship.SlotInstance[index].NameWithLevel : "(なし)";
+			string name = ship.SlotInstance[index] != null ? ship.SlotInstance[index].NameWithLevel : Properties.Resources.FormShipGroup_Null;
 
 			if ( index >= ship.MasterShip.SlotSize && ship.Slot[index] == -1 ) {
 				return "";

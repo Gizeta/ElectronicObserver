@@ -118,29 +118,11 @@ namespace Browser.Properties {
         }
         
         /// <summary>
-        ///   Document が取得できませんでした。 に類似しているローカライズされた文字列を検索します。
-        /// </summary>
-        internal static string Browser_InaccessableDocument {
-            get {
-                return ResourceManager.GetString("Browser_InaccessableDocument", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   embed 要素の取得に失敗しました。 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string Browser_InaccessableFlash {
             get {
                 return ResourceManager.GetString("Browser_InaccessableFlash", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   game_frame 要素の取得に失敗しました。 に類似しているローカライズされた文字列を検索します。
-        /// </summary>
-        internal static string Browser_InaccessableGameFrame {
-            get {
-                return ResourceManager.GetString("Browser_InaccessableGameFrame", resourceCulture);
             }
         }
         
@@ -215,6 +197,15 @@ namespace Browser.Properties {
         internal static string Zoom_Failed {
             get {
                 return ResourceManager.GetString("Zoom_Failed", resourceCulture);
+            }
+        }
+		
+        /// <summary>
+        ///   現在: ぴったり に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Zoom_FitText {
+            get {
+                return ResourceManager.GetString("Zoom_FitText", resourceCulture);
             }
         }
 		

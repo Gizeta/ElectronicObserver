@@ -176,14 +176,8 @@ catch(e) {
   <data name="Browser_FlashNotFound" xml:space="preserve">
     <value>対象の swf が見つかりませんでした。</value>
   </data>
-  <data name="Browser_InaccessableDocument" xml:space="preserve">
-    <value>Document が取得できませんでした。</value>
-  </data>
   <data name="Browser_InaccessableFlash" xml:space="preserve">
     <value>embed 要素の取得に失敗しました。</value>
-  </data>
-  <data name="Browser_InaccessableGameFrame" xml:space="preserve">
-    <value>game_frame 要素の取得に失敗しました。</value>
   </data>
   <data name="Dialog_Confirm" xml:space="preserve">
     <value>確認</value>
@@ -210,6 +204,9 @@ catch(e) {
   </data>
   <data name="Zoom_Failed" xml:space="preserve">
     <value>ズームの適用に失敗しました。</value>
+  </data>
+  <data name="Zoom_FitText" xml:space="preserve">
+    <value>現在: ぴったり</value>
   </data>
   <data name="Volume_PIDNotFound" xml:space="preserve">
     <value>指定したプロセスIDの音量オブジェクトは存在しません。</value>

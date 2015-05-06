@@ -324,6 +324,9 @@
   <data name="MenuMember_AddToGroup.Text" xml:space="preserve">
     <value>グループへ追加(&amp;A)...</value>
   </data>
+  <data name="MenuMember_AddCurrentFleet_Group.Text" xml:space="preserve">
+    <value>現在の艦隊を追加(&amp;G)</value>
+  </data>
   <data name="MenuMember_CreateGroup.Text" xml:space="preserve">
     <value>新規グループを作成(&amp;C)...</value>
   </data>

@@ -212,12 +212,6 @@
     <value>通知ダイアログの文字色を指定します。
 左側のラベルの■に色プレビューが表示されます。</value>
   </data>
-  <data name="CloseOnMouseOver.Text" xml:space="preserve">
-    <value>マウスオーバーで閉じる</value>
-  </data>
-  <data name="CloseOnMouseOver.ToolTip" xml:space="preserve">
-    <value>通知ダイアログにマウスを乗せただけでも閉じるようにします。</value>
-  </data>
   <data name="label3.Text" xml:space="preserve">
     <value>秒</value>
   </data>
@@ -271,7 +265,10 @@
     <value>右下</value>
   </data>
   <data name="Alignment.Items10" xml:space="preserve">
-    <value>手動設定</value>
+    <value>手動(絶対)</value>
+  </data>
+  <data name="Alignment.Items11" xml:space="preserve">
+    <value>手動(相対)</value>
   </data>
   <data name="Alignment.ToolTip" xml:space="preserve">
     <value>通知ダイアログの出現位置を設定します。</value>
@@ -327,6 +324,30 @@
   </data>
   <data name="DialogOpenImage.Title" xml:space="preserve">
     <value>画像ファイルを開く</value>
+  </data>
+  <data name="CloseList.Items" xml:space="preserve">
+    <value>左クリック</value>
+  </data>
+  <data name="CloseList.Items1" xml:space="preserve">
+    <value>左ダブルクリック</value>
+  </data>
+  <data name="CloseList.Items2" xml:space="preserve">
+    <value>右クリック</value>
+  </data>
+  <data name="CloseList.Items3" xml:space="preserve">
+    <value>右ダブルクリック</value>
+  </data>
+  <data name="CloseList.Items4" xml:space="preserve">
+    <value>中クリック</value>
+  </data>
+  <data name="CloseList.Items5" xml:space="preserve">
+    <value>中ダブルクリック</value>
+  </data>
+  <data name="CloseList.Items6" xml:space="preserve">
+    <value>マウスオーバー</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>閉じる：</value>
   </data>
   <data name="ShowWithActivation.Text" xml:space="preserve">
     <value>表示時にアクティベートする</value>

@@ -494,7 +494,7 @@ namespace ElectronicObserver.Window {
 				{
 					int airsup = Calculator.GetAirSuperiority( ship );
 					if ( airsup > 0 ) {
-						sb.AppendFormat( "制空戦力: {0}\r\n", airsup );
+						sb.AppendFormat( Properties.Resources.FormFleet_AirSuperiorityInfo, airsup );
 					}
 				}
 

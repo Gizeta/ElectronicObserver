@@ -417,7 +417,6 @@
 			// 
 			this.ToolMenu_Other_NavigateToLogInPage.Name = "ToolMenu_Other_NavigateToLogInPage";
 			this.ToolMenu_Other_NavigateToLogInPage.Size = new System.Drawing.Size(224, 22);
-			this.ToolMenu_Other_NavigateToLogInPage.Text = "ログインページへ移動(&L)";
             resources.ApplyResources(this.ToolMenu_Other_NavigateToLogInPage, "ToolMenu_Other_NavigateToLogInPage");
 			this.ToolMenu_Other_NavigateToLogInPage.Click += new System.EventHandler(this.ToolMenu_Other_NavigateToLogInPage_Click);
 			// 

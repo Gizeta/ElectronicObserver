@@ -120,4 +120,25 @@
   <metadata name="tabContextMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <data name="labelTitle.Text" xml:space="preserve">
+    <value>タイトル</value>
+  </data>
+  <data name="labelClassName.Text" xml:space="preserve">
+    <value>クラス名</value>
+  </data>
+  <data name="labelFileName.Text" xml:space="preserve">
+    <value>EXE名</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>ウィンドウ検索設定</value>
+  </data>
+  <data name="infoLabel.Text" xml:space="preserve">
+    <value>起動中...</value>
+  </data>
+  <data name="integrateButton.Text" xml:space="preserve">
+    <value>取り込む</value>
+  </data>
+  <data name="StripMenu_Detach.Text" xml:space="preserve">
+    <value>ウィンドウ開放</value>
+  </data>
 </root>

@@ -186,6 +186,18 @@
   <data name="StripMenu_View_Log.Text" xml:space="preserve">
     <value>ログ(&amp;L)</value>
   </data>
+  <data name="StripMenu_WindowCapture.Text" xml:space="preserve">
+    <value>ウィンドウキャプチャ(&amp;W)</value>
+  </data>
+  <data name="StripMenu_WindowCapture_SubWindow.Text" xml:space="preserve">
+    <value>コントロールウィンドウ(&amp;C)</value>
+  </data>
+  <data name="StripMenu_WindowCapture_AttachAll.Text" xml:space="preserve">
+    <value>全て再検索して取り込む(&amp;S)</value>
+  </data>
+  <data name="StripMenu_WindowCapture_DetachAll.Text" xml:space="preserve">
+    <value>全てのウィンドウを開放(&amp;R)</value>
+  </data>
   <data name="StripMenu_Browser.Text" xml:space="preserve">
     <value>ブラウザ(&amp;B)</value>
   </data>

@@ -544,7 +544,7 @@
 			this.label_Language.Name = "label_Language";
 			this.label_Language.Size = new System.Drawing.Size(78, 15);
 			this.label_Language.TabIndex = 9;
-			this.label_Language.Text = "Language : ";
+			resources.ApplyResources(this.label_Language, "label_Language");
 			// 
 			// UI_Language
 			// 
@@ -584,8 +584,8 @@
 			this.Log_ShowSpoiler.Name = "Log_ShowSpoiler";
 			this.Log_ShowSpoiler.Size = new System.Drawing.Size(115, 19);
 			this.Log_ShowSpoiler.TabIndex = 7;
-			this.Log_ShowSpoiler.Text = "ネタバレを許可する";
-			this.ToolTipInfo.SetToolTip(this.Log_ShowSpoiler, "開発したアイテム名やドロップ艦名などのログを記録するかを指定します。\r\n先にわかってしまうことが気になる方は無効にしてください。\r\n");
+			resources.ApplyResources(this.Log_ShowSpoiler, "Log_ShowSpoiler");
+			this.ToolTipInfo.SetToolTip(this.Log_ShowSpoiler, resources.GetString("Log_ShowSpoiler.ToolTip"));
 			this.Log_ShowSpoiler.UseVisualStyleBackColor = true;
 			// 
 			// label12
@@ -789,7 +789,7 @@
 			this.Life_ShowStatusBar.Name = "Life_ShowStatusBar";
 			this.Life_ShowStatusBar.Size = new System.Drawing.Size(143, 19);
 			this.Life_ShowStatusBar.TabIndex = 6;
-			this.Life_ShowStatusBar.Text = "ステータスバーを表示する";
+			resources.ApplyResources(this.Life_ShowStatusBar, "Life_ShowStatusBar");
 			this.Life_ShowStatusBar.UseVisualStyleBackColor = true;
 			// 
 			// Life_CheckUpdateInformation
@@ -1132,7 +1132,7 @@
 			this.groupBox3.Size = new System.Drawing.Size(430, 46);
 			this.groupBox3.TabIndex = 10;
 			this.groupBox3.TabStop = false;
-			this.groupBox3.Text = "レジストリ";
+			resources.ApplyResources(this.groupBox3, "groupBox3");
 			// 
 			// FormBrowser_BrowserVersion
 			// 
@@ -1152,8 +1152,7 @@
 			this.FormBrowser_BrowserVersion.Size = new System.Drawing.Size(60, 23);
 			this.FormBrowser_BrowserVersion.TabIndex = 1;
 			this.FormBrowser_BrowserVersion.Text = "7000";
-			this.ToolTipInfo.SetToolTip(this.FormBrowser_BrowserVersion, "内蔵ブラウザのバージョンを指定します。\r\n7000がIE7相当、8000がIE8相当、11000がIE11相当です。\r\nバージョンによって動作が変わる可能性があり" +
-        "ます。");
+			this.ToolTipInfo.SetToolTip(this.FormBrowser_BrowserVersion, resources.GetString("FormBrowser_BrowserVersion.ToolTip"));
 			// 
 			// FormBrowser_DeleteRegistry
 			// 
@@ -1162,8 +1161,8 @@
 			this.FormBrowser_DeleteRegistry.Name = "FormBrowser_DeleteRegistry";
 			this.FormBrowser_DeleteRegistry.Size = new System.Drawing.Size(50, 23);
 			this.FormBrowser_DeleteRegistry.TabIndex = 4;
-			this.FormBrowser_DeleteRegistry.Text = "削除";
-			this.ToolTipInfo.SetToolTip(this.FormBrowser_DeleteRegistry, "レジストリを削除します。");
+			resources.ApplyResources(this.FormBrowser_DeleteRegistry, "FormBrowser_DeleteRegistry");
+			this.ToolTipInfo.SetToolTip(this.FormBrowser_DeleteRegistry, resources.GetString("FormBrowser_DeleteRegistry.ToolTip"));
 			this.FormBrowser_DeleteRegistry.UseVisualStyleBackColor = true;
 			this.FormBrowser_DeleteRegistry.Click += new System.EventHandler(this.FormBrowser_DeleteRegistry_Click);
 			// 
@@ -1174,8 +1173,8 @@
 			this.FormBrowser_GPURendering.Name = "FormBrowser_GPURendering";
 			this.FormBrowser_GPURendering.Size = new System.Drawing.Size(103, 19);
 			this.FormBrowser_GPURendering.TabIndex = 2;
-			this.FormBrowser_GPURendering.Text = "GPUレンダリング";
-			this.ToolTipInfo.SetToolTip(this.FormBrowser_GPURendering, "内蔵ブラウザでGPUレンダリングを使用するかを指定します。\r\n環境によっては処理が高速化します。");
+			resources.ApplyResources(this.FormBrowser_GPURendering, "FormBrowser_GPURendering");
+			this.ToolTipInfo.SetToolTip(this.FormBrowser_GPURendering, resources.GetString("FormBrowser_GPURendering.ToolTip"));
 			this.FormBrowser_GPURendering.UseVisualStyleBackColor = true;
 			// 
 			// FormBrowser_ApplyRegistry
@@ -1185,8 +1184,8 @@
 			this.FormBrowser_ApplyRegistry.Name = "FormBrowser_ApplyRegistry";
 			this.FormBrowser_ApplyRegistry.Size = new System.Drawing.Size(50, 23);
 			this.FormBrowser_ApplyRegistry.TabIndex = 3;
-			this.FormBrowser_ApplyRegistry.Text = "適用";
-			this.ToolTipInfo.SetToolTip(this.FormBrowser_ApplyRegistry, "レジストリに対して設定を適用します。\r\n下の[OK]ボタンでは反映されないのでご注意ください。");
+			resources.ApplyResources(this.FormBrowser_ApplyRegistry, "FormBrowser_ApplyRegistry");
+			this.ToolTipInfo.SetToolTip(this.FormBrowser_ApplyRegistry, resources.GetString("FormBrowser_ApplyRegistry.ToolTip"));
 			this.FormBrowser_ApplyRegistry.UseVisualStyleBackColor = true;
 			this.FormBrowser_ApplyRegistry.Click += new System.EventHandler(this.FormBrowser_ApplyRegistry_Click);
 			// 
@@ -1197,7 +1196,7 @@
 			this.label19.Name = "label19";
 			this.label19.Size = new System.Drawing.Size(100, 15);
 			this.label19.TabIndex = 0;
-			this.label19.Text = "ブラウザバージョン：";
+			resources.ApplyResources(this.label19, "label19");
 			// 
 			// FormBrowser_AppliesStyleSheet
 			// 
@@ -1486,8 +1485,8 @@
 			this.FormBrowser_ZoomFit.Name = "FormBrowser_ZoomFit";
 			this.FormBrowser_ZoomFit.Size = new System.Drawing.Size(61, 19);
 			this.FormBrowser_ZoomFit.TabIndex = 4;
-			this.FormBrowser_ZoomFit.Text = "ぴったり";
-			this.ToolTipInfo.SetToolTip(this.FormBrowser_ZoomFit, "有効な場合、画面に合わせて自動的に拡大・縮小します。");
+			resources.ApplyResources(this.FormBrowser_ZoomFit, "FormBrowser_ZoomFit");
+			this.ToolTipInfo.SetToolTip(this.FormBrowser_ZoomFit, resources.GetString("FormBrowser_ZoomFit.ToolTip"));
 			this.FormBrowser_ZoomFit.UseVisualStyleBackColor = true;
 			// 
 			// DialogConfiguration

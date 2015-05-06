@@ -649,6 +649,9 @@
     <EmbeddedResource Include="Window\FormShipGroup.zh-Hans.resx">
       <DependentUpon>FormShipGroup.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Window\FormWindowCapture.zh-Hans.resx">
+      <DependentUpon>FormWindowCapture.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Window\Integrate\FormCandidate.resx">
       <DependentUpon>FormCandidate.cs</DependentUpon>
     </EmbeddedResource>
@@ -656,6 +659,9 @@
       <DependentUpon>FormCapturing.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Window\Integrate\FormIntegrated.resx">
+      <DependentUpon>FormIntegrated.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window\Integrate\FormIntegrated.zh-Hans.resx">
       <DependentUpon>FormIntegrated.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />

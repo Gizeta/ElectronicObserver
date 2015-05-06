@@ -23,6 +23,7 @@
 		/// コード エディターで変更しないでください。
 		/// </summary>
 		private void InitializeComponent() {
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormWindowCapture));
 			this.label1 = new System.Windows.Forms.Label();
 			this.windowCaptureButton = new ElectronicObserver.Window.Control.WindowCaptureButton();
 			this.SuspendLayout();
@@ -35,7 +36,7 @@
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(243, 50);
 			this.label1.TabIndex = 1;
-			this.label1.Text = "取り込みたいウィンドウへボタンをドラッグ＆ドロップしてください。";
+			resources.ApplyResources(this.label1, "label1");
 			// 
 			// windowCaptureButton
 			// 
@@ -57,7 +58,7 @@
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
 			this.HideOnClose = true;
 			this.Name = "FormWindowCapture";
-			this.Text = "ウィンドウキャプチャ";
+			resources.ApplyResources(this, "FormWindowCapture");
 			this.ResumeLayout(false);
 
 		}

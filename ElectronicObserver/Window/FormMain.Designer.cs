@@ -403,27 +403,27 @@
             this.StripMenu_WindowCapture_DetachAll});
 			this.StripMenu_WindowCapture.Name = "StripMenu_WindowCapture";
 			this.StripMenu_WindowCapture.Size = new System.Drawing.Size(218, 22);
-			this.StripMenu_WindowCapture.Text = "ウィンドウキャプチャ(&W)";
+			resources.ApplyResources(this.StripMenu_WindowCapture, "StripMenu_WindowCapture");
 			// 
 			// StripMenu_WindowCapture_SubWindow
 			// 
 			this.StripMenu_WindowCapture_SubWindow.Name = "StripMenu_WindowCapture_SubWindow";
 			this.StripMenu_WindowCapture_SubWindow.Size = new System.Drawing.Size(226, 22);
-			this.StripMenu_WindowCapture_SubWindow.Text = "コントロールウィンドウ(&C)";
+			resources.ApplyResources(this.StripMenu_WindowCapture_SubWindow, "StripMenu_WindowCapture_SubWindow");
 			this.StripMenu_WindowCapture_SubWindow.Click += new System.EventHandler(this.StripMenu_WindowCapture_SubWindow_Click);
 			// 
 			// StripMenu_WindowCapture_AttachAll
 			// 
 			this.StripMenu_WindowCapture_AttachAll.Name = "StripMenu_WindowCapture_AttachAll";
 			this.StripMenu_WindowCapture_AttachAll.Size = new System.Drawing.Size(226, 22);
-			this.StripMenu_WindowCapture_AttachAll.Text = "全て再検索して取り込む(&S)";
+			resources.ApplyResources(this.StripMenu_WindowCapture_AttachAll, "StripMenu_WindowCapture_AttachAll");
 			this.StripMenu_WindowCapture_AttachAll.Click += new System.EventHandler(this.StripMenu_WindowCapture_AttachAll_Click);
 			// 
 			// StripMenu_WindowCapture_DetachAll
 			// 
 			this.StripMenu_WindowCapture_DetachAll.Name = "StripMenu_WindowCapture_DetachAll";
 			this.StripMenu_WindowCapture_DetachAll.Size = new System.Drawing.Size(226, 22);
-			this.StripMenu_WindowCapture_DetachAll.Text = "全てのウィンドウを開放(&R)";
+			resources.ApplyResources(this.StripMenu_WindowCapture_DetachAll, "StripMenu_WindowCapture_DetachAll");
 			this.StripMenu_WindowCapture_DetachAll.Click += new System.EventHandler(this.StripMenu_WindowCapture_DetachAll_Click);
 			// 
 			// StripMenu_Browser

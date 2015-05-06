@@ -241,7 +241,7 @@ namespace ElectronicObserver.Window {
 				{
 					int airsup = Calculator.GetAirSuperiority( slot, ship.Aircraft.ToArray() );
 					if ( airsup > 0 ) {
-						sb.AppendFormat( "制空戦力: {0}\r\n", airsup );
+						sb.AppendFormat( Properties.Resources.FormCompass_AirSuperiorityInfo, airsup );
 					}
 				}
 
@@ -392,13 +392,13 @@ namespace ElectronicObserver.Window {
 					string tiptext;
 					switch ( compass.CommentID ) {
 						case 1:
-							tiptext = "敵艦隊発見！";
+							tiptext = Properties.Resources.FormCompass_EnemyFound;
 							break;
 						case 2:
-							tiptext = "攻撃目標発見！";
+							tiptext = Properties.Resources.FormCompass_TargetFound;
 							break;
 						default:
-							tiptext = "索敵機発艦！";
+							tiptext = Properties.Resources.FormCompass_SeaplaneTakenOff;
 							break;
 					}
 					ToolTipInfo.SetToolTip( TextDestination, tiptext );
@@ -489,11 +489,11 @@ namespace ElectronicObserver.Window {
 									TextEventDetail.Text = "";
 									break;
 								case 1:		//敵影を見ず
-									eventkind = "敵影を見ず";
+									eventkind = Properties.Resources.FormCompass_EnemyNotFound;
 									TextEventDetail.Text = "";
 									break;
 								case 2:		//能動分岐
-									eventkind = "能動分岐";
+									eventkind = Properties.Resources.FormCompass_RouteChoice;
 									TextEventDetail.Text = string.Join( "/", compass.RouteChoices );
 									break;
 							}

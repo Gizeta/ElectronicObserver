@@ -60,7 +60,7 @@ namespace ElectronicObserver.Window.Integrate {
 					case FormIntegrate.MatchControl.Ignore:
 						return true;
 				}
-				throw new NotImplementedException( "サポートされていないMatchControl" );
+				throw new NotImplementedException( Properties.Resources.FormIntegrate_MatchControlNotSupported );
 			}
 		}
 
@@ -90,10 +90,10 @@ namespace ElectronicObserver.Window.Integrate {
 		}
 
 		private static String[] MATCH_COMBO_ITEMS = new String[] {
-				  "完全一致",
-				  "含む",
-				  "前方後方一致",
-				  "条件を無視"
+				  Properties.Resources.FormIntegrate_MatchSame,
+				  Properties.Resources.FormIntegrate_MatchContains,
+				  Properties.Resources.FormIntegrate_MatchSameWithStartEnd,
+				  Properties.Resources.FormIntegrate_MatchNone
 		};
 
 		private FormMain parent;
@@ -224,7 +224,7 @@ namespace ElectronicObserver.Window.Integrate {
 				Attach( hWnd, false );
 				return true;
 			}
-			infoLabel.Text = "ウィンドウが見つかりませんでした";
+			infoLabel.Text = Properties.Resources.FormIntegrate_WindowNotFound;
 			return false;
 		}
 
@@ -335,7 +335,7 @@ namespace ElectronicObserver.Window.Integrate {
 				InternalDetach();
 				settingPanel.Visible = true;
 				StripMenu_Detach.Enabled = false;
-				infoLabel.Text = "ウィンドウを開放しました";
+				infoLabel.Text = Properties.Resources.FormIntegrate_WindowReleased;
 			}
 		}
 
@@ -376,7 +376,7 @@ namespace ElectronicObserver.Window.Integrate {
 			WinAPI.GetWindowText( hWnd, stringBuilder, stringBuilder.Capacity );
 
 			if ( MessageBox.Show( stringBuilder.ToString() + "\r\n" + FormWindowCapture.WARNING_MESSAGE,
-				"ウィンドウキャプチャの確認", MessageBoxButtons.YesNo, MessageBoxIcon.Question )
+				Properties.Resources.FormIntegrate_WindowCaptureTitle, MessageBoxButtons.YesNo, MessageBoxIcon.Question )
 				== System.Windows.Forms.DialogResult.Yes ) {
 
 				Attach( hWnd, false );

@@ -259,8 +259,8 @@
 			this.ShowWithActivation.Name = "ShowWithActivation";
 			this.ShowWithActivation.Size = new System.Drawing.Size(151, 19);
 			this.ShowWithActivation.TabIndex = 1;
-			this.ShowWithActivation.Text = "表示時にアクティベートする";
-			this.ToolTipText.SetToolTip(this.ShowWithActivation, "表示時にダイアログをアクティブにします。\r\n無効にすると操作を妨げない代わりにダイアログが隠れやすくなります。");
+			resources.ApplyResources(this.ShowWithActivation, "ShowWithActivation");
+			this.ToolTipText.SetToolTip(this.ShowWithActivation, resources.GetString("ShowWithActivation.ToolTip"));
 			this.ShowWithActivation.UseVisualStyleBackColor = true;
 			// 
 			// label4
@@ -486,8 +486,8 @@
             resources.GetString("Alignment.Items7"),
             resources.GetString("Alignment.Items8"),
             resources.GetString("Alignment.Items9"),
-            "手動(絶対)",
-            "手動(相対)"});
+            resources.GetString("Alignment.Items10"),
+            resources.GetString("Alignment.Items11")});
 			this.Alignment.Location = new System.Drawing.Point(55, 47);
 			this.Alignment.Name = "Alignment";
 			this.Alignment.Size = new System.Drawing.Size(121, 23);
@@ -657,13 +657,13 @@
 			this.CloseList.CheckOnClick = true;
 			this.CloseList.FormattingEnabled = true;
 			this.CloseList.Items.AddRange(new object[] {
-            "左クリック",
-            "左ダブルクリック",
-            "右クリック",
-            "右ダブルクリック",
-            "中クリック",
-            "中ダブルクリック",
-            "マウスオーバー"});
+            resources.GetString("CloseList.Items"),
+            resources.GetString("CloseList.Items1"),
+            resources.GetString("CloseList.Items2"),
+            resources.GetString("CloseList.Items3"),
+            resources.GetString("CloseList.Items4"),
+            resources.GetString("CloseList.Items5"),
+            resources.GetString("CloseList.Items6")});
 			this.CloseList.Location = new System.Drawing.Point(476, 35);
 			this.CloseList.Name = "CloseList";
 			this.CloseList.Size = new System.Drawing.Size(120, 130);
@@ -676,7 +676,7 @@
 			this.label5.Name = "label5";
 			this.label5.Size = new System.Drawing.Size(49, 15);
 			this.label5.TabIndex = 21;
-			this.label5.Text = "閉じる：";
+			resources.ApplyResources(this.label5, "label5");
 			// 
 			// DialogConfigurationNotifier
 			// 

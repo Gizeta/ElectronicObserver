@@ -139,21 +139,21 @@ namespace ElectronicObserver.Window {
 					var res = RecordManager.Instance.Resource.GetRecordPrevious();
 					if ( res != null ) {
 						int diff = db.Admiral.Exp - res.HQExp;
-						tooltip.AppendFormat( "今回: +{0} exp. / 戦果 {1:n2}\r\n", diff, diff * 7 / 10000.0 );
+						tooltip.AppendFormat( Properties.Resources.FormHeadquarters_ExpIncrementInfo, diff, diff * 7 / 10000.0 );
 					}
 				}
 				{
 					var res = RecordManager.Instance.Resource.GetRecordDay();
 					if ( res != null ) {
 						int diff = db.Admiral.Exp - res.HQExp;
-						tooltip.AppendFormat( "今日: +{0} exp. / 戦果 {1:n2}\r\n", diff, diff * 7 / 10000.0 );
+						tooltip.AppendFormat( Properties.Resources.FormHeadquarters_ExpIncrementInfo, diff, diff * 7 / 10000.0 );
 					}
 				}
 				{
 					var res = RecordManager.Instance.Resource.GetRecordMonth();
 					if ( res != null ) {
 						int diff = db.Admiral.Exp - res.HQExp;
-						tooltip.AppendFormat( "今月: +{0} exp. / 戦果 {1:n2}\r\n", diff, diff * 7 / 10000.0 );
+						tooltip.AppendFormat( Properties.Resources.FormHeadquarters_ExpIncrementInfo, diff, diff * 7 / 10000.0 );
 					}
 				}
 

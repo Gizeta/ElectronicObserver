@@ -195,10 +195,10 @@ namespace ElectronicObserver.Window {
 
 				} else {
 
-					name = "艦娘";
+					name = Properties.Resources.Constant_ShipDefaultName;
 				}
 
-				Utility.Logger.Add( 2, string.Format( "工廠ドック #{0}で {1}の建造を開始しました。({2}/{3}/{4}/{5}-{6} 秘書艦: {7})",
+				Utility.Logger.Add( 2, string.Format( Properties.Resources.FormArsenal_CreateInfo,
 					_buildingID,
 					name,
 					arsenal.Fuel,

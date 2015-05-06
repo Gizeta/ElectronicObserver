@@ -64,7 +64,7 @@ namespace ElectronicObserver.Utility.Storage {
 					serializer.WriteObject( xw, this );
 				}
 			} catch ( Exception ex ) {
-				Utility.ErrorReporter.SendErrorReport( ex, "DataStorage の書き込みに失敗しました。" );
+				Utility.ErrorReporter.SendErrorReport( ex, Properties.Resources.DataStorage_SaveError );
 			}
 		}
 
@@ -161,11 +161,11 @@ namespace ElectronicObserver.Utility.Storage {
 				}
 			} catch ( DirectoryNotFoundException ) {
 
-				Utility.Logger.Add( 3, string.Format( "DataStorage ファイルは存在しません。" ) );
+				Utility.Logger.Add( 3, string.Format( Properties.Resources.DataStorage_FileNotFound ) );
 
 			} catch ( Exception ex ) {
 
-				Utility.ErrorReporter.SendErrorReport( ex, "DataStorage の読み込みに失敗しました。" );
+				Utility.ErrorReporter.SendErrorReport( ex, Properties.Resources.DataStorage_LoadError );
 
 			}
 

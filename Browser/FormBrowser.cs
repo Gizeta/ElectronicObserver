@@ -306,9 +306,9 @@ namespace Browser {
 				}
 
 				if ( fit ) {
-					ToolMenu_Other_Zoom_Current.Text = string.Format( "現在: ぴったり" );
+					ToolMenu_Other_Zoom_Current.Text = string.Format( Properties.Resources.Zoom_FitText );
 				} else {
-					ToolMenu_Other_Zoom_Current.Text = string.Format( "現在: {0}%", zoomRate );
+					ToolMenu_Other_Zoom_Current.Text = string.Format( Properties.Resources.Zoom_CurrentText, zoomRate );
 				}
 
 
@@ -414,7 +414,7 @@ namespace Browser {
 
 					var swf = getFrameElementById( wb.Document, "externalswf" );
 					if ( swf == null ) {
-						throw new InvalidOperationException( "対象の swf が見つかりませんでした。" );
+						throw new InvalidOperationException( Properties.Resources.Browser_FlashNotFound );
 					}
 
 					Func<dynamic, bool> isvalid = target => {

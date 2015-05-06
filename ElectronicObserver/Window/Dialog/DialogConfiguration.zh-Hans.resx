@@ -224,8 +224,19 @@
   <data name="label5.Text" xml:space="preserve">
     <value>主窗口字体：</value>
   </data>
+  <data name="label_Language.Text" xml:space="preserve">
+    <value>语言：</value>
+  </data>
   <data name="tabPage3.Text" xml:space="preserve">
     <value>日志</value>
+  </data>
+  <data name="Log_ShowSpoiler.Text" xml:space="preserve">
+    <value>允许显示名称</value>
+  </data>
+  <data name="Log_ShowSpoiler.ToolTip" xml:space="preserve">
+    <value>日志中显示开发装备以及掉落舰名。
+在意剧透的人可以关闭此设置。
+</value>
   </data>
   <data name="label12.Text" xml:space="preserve">
     <value>＊错误地变更设定将会使记录不可读</value>
@@ -278,6 +289,9 @@ API列表的格式和用法请参照在线帮助。</value>
   </data>
   <data name="tabPage6.Text" xml:space="preserve">
     <value>窗口</value>
+  </data>
+  <data name="Life_ShowStatusBar.Text" xml:space="preserve">
+    <value>显示状态栏</value>
   </data>
   <data name="Life_CheckUpdateInformation.Text" xml:space="preserve">
     <value>更新时确认</value>
@@ -386,6 +400,37 @@ API列表的格式和用法请参照在线帮助。</value>
   <data name="tabPage12.Text" xml:space="preserve">
     <value>浏览器</value>
   </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>注册表</value>
+  </data>
+  <data name="FormBrowser_BrowserVersion.ToolTip" xml:space="preserve">
+    <value>指定内置浏览器的版本。
+7000相当于IE7，8000相当于IE8，11000相当于IE11。
+变更版本可能会导致操作发生变化。</value>
+  </data>
+  <data name="FormBrowser_DeleteRegistry.Text" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="FormBrowser_DeleteRegistry.ToolTip" xml:space="preserve">
+    <value>删除注册表项。</value>
+  </data>
+  <data name="FormBrowser_GPURendering.Text" xml:space="preserve">
+    <value>GPU渲染</value>
+  </data>
+  <data name="FormBrowser_GPURendering.ToolTip" xml:space="preserve">
+    <value>指定使用内置浏览器的GPU渲染。
+可以加速环境处理。</value>
+  </data>
+  <data name="FormBrowser_ApplyRegistry.Text" xml:space="preserve">
+    <value>应用</value>
+  </data>
+  <data name="FormBrowser_ApplyRegistry.ToolTip" xml:space="preserve">
+    <value>应用对注册表项的设定。
+请注意点击下面的[OK]按钮时不会应用。</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>浏览器版本：</value>
+  </data>
   <data name="FormBrowser_AppliesStyleSheet.Text" xml:space="preserve">
     <value>应用CSS样式</value>
   </data>
@@ -453,6 +498,12 @@ API列表的格式和用法请参照在线帮助。</value>
   </data>
   <data name="APIListBrowser.Title" xml:space="preserve">
     <value>打开API列表</value>
+  </data>
+  <data name="FormBrowser_ZoomFit.Text" xml:space="preserve">
+    <value>自适应</value>
+  </data>
+  <data name="FormBrowser_ZoomFit.ToolTip" xml:space="preserve">
+    <value>开启时画面随窗口自动扩大或缩小。</value>
   </data>
   <data name="DialogConfiguration.Text" xml:space="preserve">
     <value>设置</value>

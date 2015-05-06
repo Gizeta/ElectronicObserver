@@ -353,7 +353,7 @@ namespace ElectronicObserver.Window.Dialog {
 					FormBrowser_BrowserVersion.Text = DefaultBrowserVersion.ToString();
 					FormBrowser_GPURendering.Checked = DefaultGPURendering;
 
-					Utility.Logger.Add( 3, "レジストリからの読み込みに失敗しました。" + ex.Message );
+					Utility.Logger.Add( 3, Properties.Resources.DialogConfiguration_RegisterReadError + ex.Message );
 
 				} finally {
 					if ( reg != null )
@@ -465,7 +465,7 @@ namespace ElectronicObserver.Window.Dialog {
 
 		private void FormBrowser_ApplyRegistry_Click( object sender, EventArgs e ) {
 
-			if ( MessageBox.Show( "レジストリに登録します。よろしいですか？\r\n＊完全に適用するには再起動が必要です。", "確認",
+			if ( MessageBox.Show( Properties.Resources.DialogConfiguration_RegisterApplyMessage, Properties.Resources.MessageBox_Confirm,
 				MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2 )
 				== System.Windows.Forms.DialogResult.Yes ) {
 
@@ -481,8 +481,8 @@ namespace ElectronicObserver.Window.Dialog {
 
 				} catch ( Exception ex ) {
 
-					Utility.ErrorReporter.SendErrorReport( ex, "レジストリへの書き込みに失敗しました。" );
-					MessageBox.Show( "レジストリへの書き込みに失敗しました。\r\n" + ex.Message, "エラー",
+					Utility.ErrorReporter.SendErrorReport( ex, Properties.Resources.DialogConfiguration_RegisterReadError );
+					MessageBox.Show( Properties.Resources.DialogConfiguration_RegisterReadError + Environment.NewLine + ex.Message, Properties.Resources.MessageBox_Error,
 						MessageBoxButtons.OK, MessageBoxIcon.Error );
 
 				} finally {
@@ -495,7 +495,7 @@ namespace ElectronicObserver.Window.Dialog {
 
 		private void FormBrowser_DeleteRegistry_Click( object sender, EventArgs e ) {
 
-			if ( MessageBox.Show( "レジストリを削除します。よろしいですか？\r\n＊完全に適用するには再起動が必要です。", "確認",
+			if ( MessageBox.Show( Properties.Resources.DialogConfiguration_RegisterDeleteMessage, Properties.Resources.MessageBox_Confirm,
 				MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2 )
 				== System.Windows.Forms.DialogResult.Yes ) {
 
@@ -511,8 +511,8 @@ namespace ElectronicObserver.Window.Dialog {
 
 				} catch ( Exception ex ) {
 
-					Utility.ErrorReporter.SendErrorReport( ex, "レジストリの削除に失敗しました。" );
-					MessageBox.Show( "レジストリの削除に失敗しました。\r\n" + ex.Message, "エラー",
+					Utility.ErrorReporter.SendErrorReport( ex, Properties.Resources.DialogConfiguration_RegisterDeleteError );
+					MessageBox.Show( Properties.Resources.DialogConfiguration_RegisterDeleteError + Environment.NewLine + ex.Message, Properties.Resources.MessageBox_Error,
 						MessageBoxButtons.OK, MessageBoxIcon.Error );
 
 				} finally {

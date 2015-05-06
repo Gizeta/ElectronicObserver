@@ -114,6 +114,18 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="APICreateItem_Failed" xml:space="preserve">
+    <value>開発に失敗しました。({0}/{1}/{2}/{3} 秘書艦: {4})</value>
+  </data>
+  <data name="APICreateItem_Success" xml:space="preserve">
+    <value>{0}「{1}」の開発に成功しました。({2}/{3}/{4}/{5} 秘書艦: {6})</value>
+  </data>
+  <data name="APIDestroyShip_Message" xml:space="preserve">
+    <value> を解体しました。</value>
+  </data>
+  <data name="APIGetShip_Message" xml:space="preserve">
+    <value>{0}「{1}」の建造が完了しました。</value>
+  </data>
   <data name="APIMapStart_Message" xml:space="preserve">
     <value>#{0}「{1}」が「{2}-{3} {4}」へ出撃しました。</value>
   </data>
@@ -161,6 +173,15 @@
   </data>
   <data name="APIStart2_Message" xml:space="preserve">
     <value>提督が鎮守府に着任しました。これより艦隊の指揮を執ります。</value>
+  </data>
+  <data name="BattleManager_GotEquipment" xml:space="preserve">
+    <value>{0}「{1}」を入手しました。</value>
+  </data>
+  <data name="BattleManager_GotItem" xml:space="preserve">
+    <value>アイテム「{0}」を入手しました。</value>
+  </data>
+  <data name="BattleManager_GotShip" xml:space="preserve">
+    <value>{0}「{1}」が戦列に加わりました。</value>
   </data>
   <data name="Configuration_FirstRunMessage" xml:space="preserve">
     <value>{0} をご利用いただきありがとうございます。
@@ -776,6 +797,23 @@ HP1あたり: 鋼 {0:F2} / 燃 {1:F2}
   <data name="DialogConfiguration_KanColleNotLoaded" xml:space="preserve">
     <value>艦これに接続してから操作してください。</value>
   </data>
+  <data name="DialogConfiguration_RegisterApplyMessage" xml:space="preserve">
+    <value>レジストリに登録します。よろしいですか？
+＊完全に適用するには再起動が必要です。</value>
+  </data>
+  <data name="DialogConfiguration_RegisterDeleteMessage" xml:space="preserve">
+    <value>レジストリを削除します。よろしいですか？
+＊完全に適用するには再起動が必要です。</value>
+  </data>
+  <data name="DialogConfiguration_RegisterDeleteError" xml:space="preserve">
+    <value>レジストリの削除に失敗しました。</value>
+  </data>
+  <data name="DialogConfiguration_RegisterReadError" xml:space="preserve">
+    <value>レジストリからの読み込みに失敗しました。</value>
+  </data>
+  <data name="DialogConfiguration_RegisterSaveError" xml:space="preserve">
+    <value>レジストリへの書き込みに失敗しました。</value>
+  </data>
   <data name="DialogConfiguration_PACSaved" xml:space="preserve">
     <value>自動プロキシ設定スクリプトを保存し、設定用URLをクリップボードにコピーしました。
 所定の位置に貼り付けてください。</value>
@@ -891,6 +929,9 @@ HP1あたり: 鋼 {0:F2} / 燃 {1:F2}
   <data name="FormArsenal_CompleteTime" xml:space="preserve">
     <value>完了日時 : </value>
   </data>
+  <data name="FormArsenal_CreateInfo" xml:space="preserve">
+    <value>工廠ドック #{0}で {1}の建造を開始しました。({2}/{3}/{4}/{5}-{6} 秘書艦: {7})</value>
+  </data>
   <data name="FormBattle_AAAttack" xml:space="preserve">
     <value>対空砲火</value>
   </data>
@@ -963,6 +1004,10 @@ HP1あたり: 鋼 {0:F2} / 燃 {1:F2}
     <value>対空: {0}
 </value>
   </data>
+  <data name="FormCompass_AirSuperiorityInfo" xml:space="preserve">
+    <value>制空戦力: {0}
+</value>
+  </data>
   <data name="FormCompass_AttackInfo" xml:space="preserve">
     <value>
 昼戦: {0}
@@ -972,8 +1017,14 @@ HP1あたり: 鋼 {0:F2} / 燃 {1:F2}
   <data name="FormCompass_EndPoint" xml:space="preserve">
     <value> (終点)</value>
   </data>
+  <data name="FormCompass_EnemyFound" xml:space="preserve">
+    <value>敵艦隊発見！</value>
+  </data>
   <data name="FormCompass_EnemyIDInfo" xml:space="preserve">
     <value>敵艦隊ID : {0}</value>
+  </data>
+  <data name="FormCompass_EnemyNotFound" xml:space="preserve">
+    <value>敵影を見ず</value>
   </data>
   <data name="FormCompass_MapAreaInfo" xml:space="preserve">
     <value>出撃海域 : {0}-{1}</value>
@@ -981,7 +1032,10 @@ HP1あたり: 鋼 {0:F2} / 燃 {1:F2}
   <data name="FormCompass_NextPointInfo" xml:space="preserve">
     <value>次のセル : {0}{1}</value>
   </data>
-  <data name="FormCompass_Seaplane" xml:space="preserve">
+  <data name="FormCompass_RouteChoice" xml:space="preserve">
+    <value>能動分岐</value>
+  </data>
+  <data name="FormCompass_SeaplaneTakenOff" xml:space="preserve">
     <value>索敵機発艦！</value>
   </data>
   <data name="FormCompass_ShipInfo" xml:space="preserve">
@@ -995,8 +1049,12 @@ HP1あたり: 鋼 {0:F2} / 燃 {1:F2}
 回避: {14}/{15}
 索敵: {16}/{17}
 運: {18}/{19}
+射程: {20}
 (右クリックで図鑑)
 </value>
+  </data>
+  <data name="FormCompass_TargetFound" xml:space="preserve">
+    <value>攻撃目標発見！</value>
   </data>
   <data name="FormCompass_UnknownEnemy" xml:space="preserve">
     <value>(敵艦隊情報不明)</value>
@@ -1019,6 +1077,10 @@ HP1あたり: 鋼 {0:F2} / 燃 {1:F2}
   </data>
   <data name="FormFleet_AA_LOSInfo" xml:space="preserve">
     <value>{0}	制空戦力{1}/索敵能力{2}
+</value>
+  </data>
+  <data name="FormFleet_AirSuperiorityInfo" xml:space="preserve">
+    <value>制空戦力: {0}
 </value>
   </data>
   <data name="FormFleet_FleetInfo" xml:space="preserve">
@@ -1065,6 +1127,7 @@ HP1あたり: 鋼 {0:F2} / 燃 {1:F2}
 回避: {12}/{13}
 索敵: {14}/{15}
 運: {16}
+射程: {17}
 (右クリックで図鑑)
 </value>
   </data>
@@ -1097,6 +1160,10 @@ HP1あたり: 鋼 {0:F2} / 燃 {1:F2}
   </data>
   <data name="FormFleet_ShipToNormalCond" xml:space="preserve">
     <value>完全回復まで 約 {0:D2}:{1:D2}</value>
+  </data>
+  <data name="FormHeadquarters_ExpIncrementInfo" xml:space="preserve">
+    <value>今回: +{0} exp. / 戦果 {1:n2}
+</value>
   </data>
   <data name="FormInformation_Album_EquipmentNotCollected" xml:space="preserve">
     <value>[未保有装備]</value>
@@ -1143,6 +1210,30 @@ HP1あたり: 鋼 {0:F2} / 燃 {1:F2}
   </data>
   <data name="FormInformation_Practice_Title" xml:space="preserve">
     <value>[演習情報]</value>
+  </data>
+  <data name="FormIntegrate_MatchContains" xml:space="preserve">
+    <value>含む</value>
+  </data>
+  <data name="FormIntegrate_MatchControlNotSupported" xml:space="preserve">
+    <value>サポートされていないMatchControl</value>
+  </data>
+  <data name="FormIntegrate_MatchNone" xml:space="preserve">
+    <value>条件を無視</value>
+  </data>
+  <data name="FormIntegrate_MatchSame" xml:space="preserve">
+    <value>完全一致</value>
+  </data>
+  <data name="FormIntegrate_MatchSameWithStartEnd" xml:space="preserve">
+    <value>前方後方一致</value>
+  </data>
+  <data name="FormIntegrate_WindowCaptureTitle" xml:space="preserve">
+    <value>ウィンドウキャプチャの確認</value>
+  </data>
+  <data name="FormIntegrate_WindowNotFound" xml:space="preserve">
+    <value>ウィンドウが見つかりませんでした</value>
+  </data>
+  <data name="FormIntegrate_WindowReleased" xml:space="preserve">
+    <value>ウィンドウを開放しました</value>
   </data>
   <data name="FormMain_APIListOpenDialogTitle" xml:space="preserve">
     <value>APIリストをロード</value>
@@ -1396,6 +1487,9 @@ HP1あたり: 鋼 {0:F2} / 燃 {1:F2}
   <data name="FormShipGroup_NextLevelExp" xml:space="preserve">
     <value>next</value>
   </data>
+  <data name="FormShipGroup_Null" xml:space="preserve">
+    <value>(なし)</value>
+  </data>
   <data name="FormShipGroup_Plane1" xml:space="preserve">
     <value>艦載機1</value>
   </data>
@@ -1455,6 +1549,16 @@ HP1あたり: 鋼 {0:F2} / 燃 {1:F2}
   </data>
   <data name="FormShipGruop_GroupRenameTitle" xml:space="preserve">
     <value>グループ名の変更</value>
+  </data>
+  <data name="FormWindowCapture_CaptureTitle" xml:space="preserve">
+    <value>ウィンドウキャプチャの確認</value>
+  </data>
+  <data name="FormWindowCapture_WarningMessage" xml:space="preserve">
+    <value>このウィンドウをキャプチャします。よろしいですか？
+
+注意: ウィンドウによっては正常に取り込めず、不安定になる可能性があります。
+データを保存する・母港に戻るなど、安全を確保してから実行してください。
+</value>
   </data>
   <data name="MessageBox_Complete" xml:space="preserve">
     <value>処理完了</value>
@@ -1603,6 +1707,9 @@ HP1あたり: 鋼 {0:F2} / 燃 {1:F2}
   <data name="SerializableList_StringToListError" xml:space="preserve">
     <value>SerializableList: StringToList に失敗しました。</value>
   </data>
+  <data name="ShipStatusResource_Tip" xml:space="preserve">
+    <value>燃 : {0}/{1} ({2}%)\r\n弾 : {3}/{4} ({5}%)</value>
+  </data>
   <data name="SoftwareInformation_DealUpdateInfoError" xml:space="preserve">
     <value>アップデート情報の処理に失敗しました。</value>
   </data>
@@ -1632,7 +1739,7 @@ HP1あたり: 鋼 {0:F2} / 燃 {1:F2}
     <value>アップデート情報の URI が無効です。</value>
   </data>
   <data name="SoftwareInformation_Version" xml:space="preserve">
-    <value>{0}一一型改</value>
+    <value>{0}一二型改四</value>
   </data>
   <data name="WindowPlacementManager_LoadError" xml:space="preserve">
     <value>ウィンドウ状態の復元に失敗しました。</value>

@@ -186,6 +186,18 @@
   <data name="StripMenu_View_Log.Text" xml:space="preserve">
     <value>记录(&amp;L)</value>
   </data>
+  <data name="StripMenu_WindowCapture.Text" xml:space="preserve">
+    <value>窗口捕捉(&amp;W)</value>
+  </data>
+  <data name="StripMenu_WindowCapture_SubWindow.Text" xml:space="preserve">
+    <value>控制窗口(&amp;C)</value>
+  </data>
+  <data name="StripMenu_WindowCapture_AttachAll.Text" xml:space="preserve">
+    <value>重新捕捉所有窗口(&amp;S)</value>
+  </data>
+  <data name="StripMenu_WindowCapture_DetachAll.Text" xml:space="preserve">
+    <value>释放所有窗口(&amp;R)</value>
+  </data>
   <data name="StripMenu_Browser.Text" xml:space="preserve">
     <value>浏览器(&amp;B)</value>
   </data>

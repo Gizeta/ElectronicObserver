@@ -87,7 +87,7 @@
 			this.AdmiralName.Padding = new System.Windows.Forms.Padding(0, 3, 0, 2);
 			this.AdmiralName.Size = new System.Drawing.Size(53, 20);
 			this.AdmiralName.TabIndex = 0;
-			resources.ApplyResources(this.AdmiralName, "AdmiralName");
+			this.AdmiralName.Text = "(提督名)";
 			this.AdmiralName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
 			// AdmiralComment
@@ -98,7 +98,7 @@
 			this.AdmiralComment.Padding = new System.Windows.Forms.Padding(0, 3, 0, 2);
 			this.AdmiralComment.Size = new System.Drawing.Size(74, 20);
 			this.AdmiralComment.TabIndex = 1;
-			resources.ApplyResources(this.AdmiralComment, "AdmiralComment");
+			this.AdmiralComment.Text = "(提督コメント)";
 			this.AdmiralComment.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
 			// HQLevel
@@ -133,7 +133,7 @@
 			this.ShipCount.Padding = new System.Windows.Forms.Padding(0, 2, 0, 2);
 			this.ShipCount.Size = new System.Drawing.Size(66, 20);
 			this.ShipCount.TabIndex = 0;
-			resources.ApplyResources(this.ShipCount, "ShipCount");
+			this.ShipCount.Text = "(艦船数)";
 			// 
 			// EquipmentCount
 			// 
@@ -144,7 +144,7 @@
 			this.EquipmentCount.Padding = new System.Windows.Forms.Padding(0, 2, 0, 2);
 			this.EquipmentCount.Size = new System.Drawing.Size(66, 20);
 			this.EquipmentCount.TabIndex = 1;
-			resources.ApplyResources(this.EquipmentCount, "EquipmentCount");
+			this.EquipmentCount.Text = "(装備数)";
 			// 
 			// FlowPanelUseItem
 			// 
@@ -169,7 +169,7 @@
 			this.InstantRepair.Padding = new System.Windows.Forms.Padding(0, 2, 0, 2);
 			this.InstantRepair.Size = new System.Drawing.Size(54, 20);
 			this.InstantRepair.TabIndex = 1;
-			resources.ApplyResources(this.InstantRepair, "InstantRepair");
+			this.InstantRepair.Text = "(修復)";
 			// 
 			// InstantConstruction
 			// 
@@ -180,7 +180,7 @@
 			this.InstantConstruction.Padding = new System.Windows.Forms.Padding(0, 2, 0, 2);
 			this.InstantConstruction.Size = new System.Drawing.Size(54, 20);
 			this.InstantConstruction.TabIndex = 2;
-			resources.ApplyResources(this.InstantConstruction, "InstantConstruction");
+			this.InstantConstruction.Text = "(建造)";
 			// 
 			// DevelopmentMaterial
 			// 
@@ -191,7 +191,7 @@
 			this.DevelopmentMaterial.Padding = new System.Windows.Forms.Padding(0, 2, 0, 2);
 			this.DevelopmentMaterial.Size = new System.Drawing.Size(54, 20);
 			this.DevelopmentMaterial.TabIndex = 3;
-			resources.ApplyResources(this.DevelopmentMaterial, "DevelopmentMaterial");
+			this.DevelopmentMaterial.Text = "(開発)";
 			// 
 			// ModdingMaterial
 			// 
@@ -202,7 +202,7 @@
 			this.ModdingMaterial.Padding = new System.Windows.Forms.Padding(0, 2, 0, 2);
 			this.ModdingMaterial.Size = new System.Drawing.Size(54, 20);
 			this.ModdingMaterial.TabIndex = 5;
-			resources.ApplyResources(this.ModdingMaterial, "ModdingMaterial");
+			this.ModdingMaterial.Text = "(改修)";
 			// 
 			// FurnitureCoin
 			// 
@@ -213,7 +213,7 @@
 			this.FurnitureCoin.Padding = new System.Windows.Forms.Padding(0, 2, 0, 2);
 			this.FurnitureCoin.Size = new System.Drawing.Size(54, 20);
 			this.FurnitureCoin.TabIndex = 4;
-			resources.ApplyResources(this.FurnitureCoin, "FurnitureCoin");
+			this.FurnitureCoin.Text = "(家具)";
 			// 
 			// FlowPanelResource
 			// 
@@ -238,7 +238,7 @@
 			this.Fuel.Padding = new System.Windows.Forms.Padding(0, 2, 0, 2);
 			this.Fuel.Size = new System.Drawing.Size(54, 20);
 			this.Fuel.TabIndex = 1;
-			resources.ApplyResources(this.Fuel, "Fuel");
+			this.Fuel.Text = "(燃料)";
 			// 
 			// Ammo
 			// 
@@ -249,7 +249,7 @@
 			this.Ammo.Padding = new System.Windows.Forms.Padding(0, 2, 0, 2);
 			this.Ammo.Size = new System.Drawing.Size(54, 20);
 			this.Ammo.TabIndex = 2;
-			resources.ApplyResources(this.Ammo, "Ammo");
+			this.Ammo.Text = "(弾薬)";
 			// 
 			// Steel
 			// 
@@ -260,7 +260,7 @@
 			this.Steel.Padding = new System.Windows.Forms.Padding(0, 2, 0, 2);
 			this.Steel.Size = new System.Drawing.Size(54, 20);
 			this.Steel.TabIndex = 3;
-			resources.ApplyResources(this.Steel, "Steel");
+			this.Steel.Text = "(鋼材)";
 			// 
 			// Bauxite
 			// 
@@ -271,7 +271,7 @@
 			this.Bauxite.Padding = new System.Windows.Forms.Padding(0, 2, 0, 2);
 			this.Bauxite.Size = new System.Drawing.Size(54, 20);
 			this.Bauxite.TabIndex = 4;
-			resources.ApplyResources(this.Bauxite, "Bauxite");
+			this.Bauxite.Text = "(軽銀)";
 			// 
 			// ToolTipInfo
 			// 

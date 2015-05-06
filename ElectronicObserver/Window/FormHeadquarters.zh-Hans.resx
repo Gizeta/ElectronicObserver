@@ -117,44 +117,8 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AdmiralName.Text" xml:space="preserve">
-    <value>(提督名)</value>
-  </data>
-  <data name="AdmiralComment.Text" xml:space="preserve">
-    <value>(提督签名)</value>
-  </data>
   <data name="HQLevel.Text" xml:space="preserve">
     <value>HQ Lv.</value>
-  </data>
-  <data name="ShipCount.Text" xml:space="preserve">
-    <value>(舰船数)</value>
-  </data>
-  <data name="InstantRepair.Text" xml:space="preserve">
-    <value>(修复)</value>
-  </data>
-  <data name="InstantConstruction.Text" xml:space="preserve">
-    <value>(建造)</value>
-  </data>
-  <data name="DevelopmentMaterial.Text" xml:space="preserve">
-    <value>(开发)</value>
-  </data>
-  <data name="ModdingMaterial.Text" xml:space="preserve">
-    <value>(改修)</value>
-  </data>
-  <data name="FurnitureCoin.Text" xml:space="preserve">
-    <value>(家具)</value>
-  </data>
-  <data name="Fuel.Text" xml:space="preserve">
-    <value>(燃料)</value>
-  </data>
-  <data name="Ammo.Text" xml:space="preserve">
-    <value>(弹药)</value>
-  </data>
-  <data name="Steel.Text" xml:space="preserve">
-    <value>(钢材)</value>
-  </data>
-  <data name="Bauxite.Text" xml:space="preserve">
-    <value>(铝土)</value>
   </data>
   <data name="FormHeadquarters.Text" xml:space="preserve">
     <value>司令部</value>

@@ -212,12 +212,6 @@
     <value>设定通知对话框的文字颜色。
 左侧标签将用来显示■设定的颜色。</value>
   </data>
-  <data name="CloseOnMouseOver.Text" xml:space="preserve">
-    <value>鼠标悬停时关闭</value>
-  </data>
-  <data name="CloseOnMouseOver.ToolTip" xml:space="preserve">
-    <value>鼠标在通知对话框上时关闭。</value>
-  </data>
   <data name="label3.Text" xml:space="preserve">
     <value>秒</value>
   </data>
@@ -271,7 +265,10 @@
     <value>右下</value>
   </data>
   <data name="Alignment.Items10" xml:space="preserve">
-    <value>手动设定</value>
+    <value>手动(绝对)</value>
+  </data>
+  <data name="Alignment.Items11" xml:space="preserve">
+    <value>手动(相对)</value>
   </data>
   <data name="Alignment.ToolTip" xml:space="preserve">
     <value>设定通知对话框出现的位置。</value>
@@ -327,6 +324,30 @@
   </data>
   <data name="DialogOpenImage.Title" xml:space="preserve">
     <value>打开图片文件</value>
+  </data>
+  <data name="CloseList.Items" xml:space="preserve">
+    <value>左键单击</value>
+  </data>
+  <data name="CloseList.Items1" xml:space="preserve">
+    <value>左键双击</value>
+  </data>
+  <data name="CloseList.Items2" xml:space="preserve">
+    <value>右键单击</value>
+  </data>
+  <data name="CloseList.Items3" xml:space="preserve">
+    <value>右键双击</value>
+  </data>
+  <data name="CloseList.Items4" xml:space="preserve">
+    <value>中键单击</value>
+  </data>
+  <data name="CloseList.Items5" xml:space="preserve">
+    <value>中键双击</value>
+  </data>
+  <data name="CloseList.Items6" xml:space="preserve">
+    <value>鼠标悬停</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>关闭：</value>
   </data>
   <data name="ShowWithActivation.Text" xml:space="preserve">
     <value>显示时激活</value>

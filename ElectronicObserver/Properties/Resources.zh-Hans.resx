@@ -114,6 +114,18 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="APICreateItem_Failed" xml:space="preserve">
+    <value>开发失败。({0}/{1}/{2}/{3} 秘书舰: {4})</value>
+  </data>
+  <data name="APICreateItem_Success" xml:space="preserve">
+    <value>{0}「{1}」开发成功。({2}/{3}/{4}/{5} 秘书舰: {6})</value>
+  </data>
+  <data name="APIDestroyShip_Message" xml:space="preserve">
+    <value> 已解体。</value>
+  </data>
+  <data name="APIGetShip_Message" xml:space="preserve">
+    <value>{0}「{1}」建造完成。</value>
+  </data>
   <data name="APIMapStart_Message" xml:space="preserve">
     <value>#{0}「{1}」出击「{2}-{3} {4}」了。</value>
   </data>
@@ -161,6 +173,15 @@
   </data>
   <data name="APIStart2_Message" xml:space="preserve">
     <value>提督您到镇守府了。舰队将交由您来指挥。</value>
+  </data>
+  <data name="BattleManager_GotEquipment" xml:space="preserve">
+    <value>获得{0}「{1}」。</value>
+  </data>
+  <data name="BattleManager_GotItem" xml:space="preserve">
+    <value>获得「{0}」。</value>
+  </data>
+  <data name="BattleManager_GotShip" xml:space="preserve">
+    <value>{0}「{1}」加入镇守府。</value>
   </data>
   <data name="Configuration_FirstRunMessage" xml:space="preserve">
     <value>感谢您使用本软件。
@@ -776,6 +797,23 @@
   <data name="DialogConfiguration_KanColleNotLoaded" xml:space="preserve">
     <value>请加载艦これ后再进行操作。</value>
   </data>
+  <data name="DialogConfiguration_RegisterApplyMessage" xml:space="preserve">
+    <value>确认写入注册表吗？
+＊需要重新启动以应用更改。</value>
+  </data>
+  <data name="DialogConfiguration_RegisterDeleteMessage" xml:space="preserve">
+    <value>确认删除注册表项吗？
+＊需要重新启动以应用更改。</value>
+  </data>
+  <data name="DialogConfiguration_RegisterDeleteError" xml:space="preserve">
+    <value>注册表项删除失败。</value>
+  </data>
+  <data name="DialogConfiguration_RegisterReadError" xml:space="preserve">
+    <value>注册表读取失败。</value>
+  </data>
+  <data name="DialogConfiguration_RegisterSaveError" xml:space="preserve">
+    <value>注册表保存失败。</value>
+  </data>
   <data name="DialogConfiguration_PACSaved" xml:space="preserve">
     <value>已保存PAC脚本。本程序已将设置用的URL复制到剪贴板。
 请粘贴到指定位置。</value>
@@ -891,6 +929,9 @@
   <data name="FormArsenal_CompleteTime" xml:space="preserve">
     <value>完成时间 : </value>
   </data>
+  <data name="FormArsenal_CreateInfo" xml:space="preserve">
+    <value>工厂船坞 #{0} 开始建造{1}。({2}/{3}/{4}/{5}-{6} 秘书舰: {7})</value>
+  </data>
   <data name="FormBattle_AAAttack" xml:space="preserve">
     <value>对空炮火</value>
   </data>
@@ -963,6 +1004,10 @@ Cut-In种类: {2} ({3})
     <value>对空: {0}
 </value>
   </data>
+  <data name="FormCompass_AirSuperiorityInfo" xml:space="preserve">
+    <value>制空战力: {0}
+</value>
+  </data>
   <data name="FormCompass_AttackInfo" xml:space="preserve">
     <value>
 昼战: {0}
@@ -972,8 +1017,14 @@ Cut-In种类: {2} ({3})
   <data name="FormCompass_EndPoint" xml:space="preserve">
     <value> (终点)</value>
   </data>
+  <data name="FormCompass_EnemyFound" xml:space="preserve">
+    <value>发现敌舰队！</value>
+  </data>
   <data name="FormCompass_EnemyIDInfo" xml:space="preserve">
     <value>敌舰队ID : {0}</value>
+  </data>
+  <data name="FormCompass_EnemyNotFound" xml:space="preserve">
+    <value>未见敌影</value>
   </data>
   <data name="FormCompass_MapAreaInfo" xml:space="preserve">
     <value>出击海域 : {0}-{1}</value>
@@ -981,7 +1032,10 @@ Cut-In种类: {2} ({3})
   <data name="FormCompass_NextPointInfo" xml:space="preserve">
     <value>下一点 : {0}{1}</value>
   </data>
-  <data name="FormCompass_Seaplane" xml:space="preserve">
+  <data name="FormCompass_RouteChoice" xml:space="preserve">
+    <value>能动分歧</value>
+  </data>
+  <data name="FormCompass_SeaplaneTakenOff" xml:space="preserve">
     <value>索敌机离舰！</value>
   </data>
   <data name="FormCompass_ShipInfo" xml:space="preserve">
@@ -995,8 +1049,12 @@ Cut-In种类: {2} ({3})
 回避: {14}/{15}
 索敌: {16}/{17}
 运: {18}/{19}
+射程: {20}
 (右键打开图鉴)
 </value>
+  </data>
+  <data name="FormCompass_TargetFound" xml:space="preserve">
+    <value>发现攻击目标！</value>
   </data>
   <data name="FormCompass_UnknownEnemy" xml:space="preserve">
     <value>(敌舰队情报未知)</value>
@@ -1019,6 +1077,10 @@ Cut-In种类: {2} ({3})
   </data>
   <data name="FormFleet_AA_LOSInfo" xml:space="preserve">
     <value>{0}	制空战力{1}/索敌能力{2}
+</value>
+  </data>
+  <data name="FormFleet_AirSuperiorityInfo" xml:space="preserve">
+    <value>制空战力: {0}
 </value>
   </data>
   <data name="FormFleet_FleetInfo" xml:space="preserve">
@@ -1065,6 +1127,7 @@ Cut-In种类: {2} ({3})
 回避: {12}/{13}
 索敌: {14}/{15}
 运: {16}
+射程: {17}
 (右键打开图鉴)
 </value>
   </data>
@@ -1097,6 +1160,10 @@ Cut-In种类: {2} ({3})
   </data>
   <data name="FormFleet_ShipToNormalCond" xml:space="preserve">
     <value>到完全恢复约需 {0:D2}:{1:D2}</value>
+  </data>
+  <data name="FormHeadquarters_ExpIncrementInfo" xml:space="preserve">
+    <value>这次: +{0} exp. / 战果 {1:n2}
+</value>
   </data>
   <data name="FormInformation_Album_EquipmentNotCollected" xml:space="preserve">
     <value>[未拥有该装备]</value>
@@ -1143,6 +1210,30 @@ Cut-In种类: {2} ({3})
   </data>
   <data name="FormInformation_Practice_Title" xml:space="preserve">
     <value>[演习情报]</value>
+  </data>
+  <data name="FormIntegrate_MatchContains" xml:space="preserve">
+    <value>包含</value>
+  </data>
+  <data name="FormIntegrate_MatchControlNotSupported" xml:space="preserve">
+    <value>不支持的MatchControl</value>
+  </data>
+  <data name="FormIntegrate_MatchNone" xml:space="preserve">
+    <value>无视条件</value>
+  </data>
+  <data name="FormIntegrate_MatchSame" xml:space="preserve">
+    <value>完全一致</value>
+  </data>
+  <data name="FormIntegrate_MatchSameWithStartEnd" xml:space="preserve">
+    <value>前后一致</value>
+  </data>
+  <data name="FormIntegrate_WindowCaptureTitle" xml:space="preserve">
+    <value>窗口捕捉确认</value>
+  </data>
+  <data name="FormIntegrate_WindowNotFound" xml:space="preserve">
+    <value>窗口未找到</value>
+  </data>
+  <data name="FormIntegrate_WindowReleased" xml:space="preserve">
+    <value>窗口已释放</value>
   </data>
   <data name="FormMain_APIListOpenDialogTitle" xml:space="preserve">
     <value>加载API列表</value>
@@ -1397,6 +1488,9 @@ Cut-In种类: {2} ({3})
   <data name="FormShipGroup_NextLevelExp" xml:space="preserve">
     <value>next</value>
   </data>
+  <data name="FormShipGroup_Null" xml:space="preserve">
+    <value>(无)</value>
+  </data>
   <data name="FormShipGroup_Plane1" xml:space="preserve">
     <value>舰载机1</value>
   </data>
@@ -1456,6 +1550,16 @@ Cut-In种类: {2} ({3})
   </data>
   <data name="FormShipGruop_GroupRenameTitle" xml:space="preserve">
     <value>变更编成组名</value>
+  </data>
+  <data name="FormWindowCapture_CaptureTitle" xml:space="preserve">
+    <value>窗口捕捉确认</value>
+  </data>
+  <data name="FormWindowCapture_WarningMessage" xml:space="preserve">
+    <value>是否捕捉该窗口？
+
+注意: 窗口捕获不正常会使程序不稳定。
+请保存数据，回到母港，确保安全后实行。
+</value>
   </data>
   <data name="MessageBox_Complete" xml:space="preserve">
     <value>处理完成</value>
@@ -1604,6 +1708,9 @@ Cut-In种类: {2} ({3})
   <data name="SerializableList_StringToListError" xml:space="preserve">
     <value>SerializableList: StringToList 执行失败。</value>
   </data>
+  <data name="ShipStatusResource_Tip" xml:space="preserve">
+    <value>油 : {0}/{1} ({2}%)\r\n弹 : {3}/{4} ({5}%)</value>
+  </data>
   <data name="SoftwareInformation_DealUpdateInfoError" xml:space="preserve">
     <value>处理更新信息失败。</value>
   </data>
@@ -1633,7 +1740,7 @@ Cut-In种类: {2} ({3})
     <value>更新信息的URI无效。</value>
   </data>
   <data name="SoftwareInformation_Version" xml:space="preserve">
-    <value>{0}一一型改</value>
+    <value>{0}一二型改四</value>
   </data>
   <data name="WindowPlacementManager_LoadError" xml:space="preserve">
     <value>窗口状态恢复失败。</value>

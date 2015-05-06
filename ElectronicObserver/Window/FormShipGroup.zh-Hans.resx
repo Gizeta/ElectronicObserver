@@ -324,6 +324,9 @@
   <data name="MenuMember_AddToGroup.Text" xml:space="preserve">
     <value>添加到编组(&amp;A)...</value>
   </data>
+  <data name="MenuMember_AddCurrentFleet_Group.Text" xml:space="preserve">
+    <value>添加当前舰队(&amp;G)</value>
+  </data>
   <data name="MenuMember_CreateGroup.Text" xml:space="preserve">
     <value>新建编组(&amp;C)...</value>
   </data>

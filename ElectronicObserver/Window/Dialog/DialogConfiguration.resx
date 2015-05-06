@@ -227,8 +227,19 @@
   <data name="label5.Text" xml:space="preserve">
     <value>メインフォント：</value>
   </data>
+  <data name="label_Language.Text" xml:space="preserve">
+    <value>言語：</value>
+  </data>
   <data name="tabPage3.Text" xml:space="preserve">
     <value>ログ</value>
+  </data>
+  <data name="Log_ShowSpoiler.Text" xml:space="preserve">
+    <value>ネタバレを許可する</value>
+  </data>
+  <data name="Log_ShowSpoiler.ToolTip" xml:space="preserve">
+    <value>開発したアイテム名やドロップ艦名などのログを記録するかを指定します。
+先にわかってしまうことが気になる方は無効にしてください。
+</value>
   </data>
   <data name="label12.Text" xml:space="preserve">
     <value>＊無闇に変更すると設定・レコードが読めなくなる可能性があります</value>
@@ -281,6 +292,9 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
   </data>
   <data name="tabPage6.Text" xml:space="preserve">
     <value>ウィンドウ</value>
+  </data>
+  <data name="Life_ShowStatusBar.Text" xml:space="preserve">
+    <value>ステータスバーを表示する</value>
   </data>
   <data name="Life_CheckUpdateInformation.Text" xml:space="preserve">
     <value>アップデートを確認する</value>
@@ -389,6 +403,37 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
   <data name="tabPage12.Text" xml:space="preserve">
     <value>ブラウザ</value>
   </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>レジストリ</value>
+  </data>
+  <data name="FormBrowser_BrowserVersion.ToolTip" xml:space="preserve">
+    <value>内蔵ブラウザのバージョンを指定します。
+7000がIE7相当、8000がIE8相当、11000がIE11相当です。
+バージョンによって動作が変わる可能性があります。</value>
+  </data>
+  <data name="FormBrowser_DeleteRegistry.Text" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="FormBrowser_DeleteRegistry.ToolTip" xml:space="preserve">
+    <value>レジストリを削除します。</value>
+  </data>
+  <data name="FormBrowser_GPURendering.Text" xml:space="preserve">
+    <value>GPUレンダリング</value>
+  </data>
+  <data name="FormBrowser_GPURendering.ToolTip" xml:space="preserve">
+    <value>内蔵ブラウザでGPUレンダリングを使用するかを指定します。
+環境によっては処理が高速化します。</value>
+  </data>
+  <data name="FormBrowser_ApplyRegistry.Text" xml:space="preserve">
+    <value>適用</value>
+  </data>
+  <data name="FormBrowser_ApplyRegistry.ToolTip" xml:space="preserve">
+    <value>レジストリに対して設定を適用します。
+下の[OK]ボタンでは反映されないのでご注意ください。</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>ブラウザバージョン：</value>
+  </data>
   <data name="FormBrowser_AppliesStyleSheet.Text" xml:space="preserve">
     <value>スタイルシートを適用する</value>
   </data>
@@ -456,6 +501,12 @@ APIリストの書式や用法はオンラインヘルプを参照してくだ�
   </data>
   <data name="APIListBrowser.Title" xml:space="preserve">
     <value>API リストを開く</value>
+  </data>
+  <data name="FormBrowser_ZoomFit.Text" xml:space="preserve">
+    <value>ぴったり</value>
+  </data>
+  <data name="FormBrowser_ZoomFit.ToolTip" xml:space="preserve">
+    <value>有効な場合、画面に合わせて自動的に拡大・縮小します。</value>
   </data>
   <data name="DialogConfiguration.Text" xml:space="preserve">
     <value>設定</value>
