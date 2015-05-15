@@ -150,6 +150,9 @@
   <data name="ToolMenu_Other_Zoom_Current.Text" xml:space="preserve">
     <value>現在%</value>
   </data>
+  <data name="ToolMenu_Other_Zoom_Fit.Text" xml:space="preserve">
+    <value>ぴったり</value>
+  </data>
   <data name="ToolMenu_Other_Mute.Text" xml:space="preserve">
     <value>ミュート(&amp;M)</value>
   </data>

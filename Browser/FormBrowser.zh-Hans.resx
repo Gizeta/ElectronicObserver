@@ -150,6 +150,9 @@
   <data name="ToolMenu_Other_Zoom_Current.Text" xml:space="preserve">
     <value>当前%</value>
   </data>
+  <data name="ToolMenu_Other_Zoom_Fit.Text" xml:space="preserve">
+    <value>自适应</value>
+  </data>
   <data name="ToolMenu_Other_Mute.Text" xml:space="preserve">
     <value>静音(&amp;M)</value>
   </data>

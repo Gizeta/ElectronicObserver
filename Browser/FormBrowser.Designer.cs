@@ -383,7 +383,7 @@
 			this.ToolMenu_Other_Zoom_Fit.CheckOnClick = true;
 			this.ToolMenu_Other_Zoom_Fit.Name = "ToolMenu_Other_Zoom_Fit";
 			this.ToolMenu_Other_Zoom_Fit.Size = new System.Drawing.Size(152, 22);
-			this.ToolMenu_Other_Zoom_Fit.Text = "ぴったり";
+			resources.ApplyResources(this.ToolMenu_Other_Zoom_Fit, "ToolMenu_Other_Zoom_Fit");
 			this.ToolMenu_Other_Zoom_Fit.Click += new System.EventHandler(this.ToolMenu_Other_Zoom_Fit_Click);
 			// 
 			// toolStripSeparator3
