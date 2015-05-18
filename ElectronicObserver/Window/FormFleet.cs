@@ -124,10 +124,12 @@ namespace ElectronicObserver.Window {
 					int levelSum = fleet.MembersInstance.Sum( s => s != null ? s.Level : 0 );
 					int fueltotal = fleet.MembersInstance.Sum( s => s == null ? 0 : (int)( s.MasterShip.Fuel * ( s.IsMarried ? 0.85 : 1.00 ) ) );
 					int ammototal = fleet.MembersInstance.Sum( s => s == null ? 0 : (int)( s.MasterShip.Ammo * ( s.IsMarried ? 0.85 : 1.00 ) ) );
+					int speed = fleet.MembersWithoutEscaped.Min( s => s == null ? 10 : s.MasterShip.Speed );
 					ToolTipInfo.SetToolTip( Name, string.Format(
 						Properties.Resources.FormFleet_FleetInfo,
 						levelSum,
 						(double)levelSum / Math.Max( fleet.Members.Count( id => id != -1 ), 1 ),
+						Constants.GetSpeed( speed ),
 						fleet.MembersInstance.Sum( s => s == null ? 0 : s.SlotInstanceMaster.Count( q => q == null ? false : q.CategoryType == 30 ) ),
 						fleet.MembersInstance.Count( s => s == null ? false : s.SlotInstanceMaster.Count( q => q == null ? false : q.CategoryType == 30 ) > 0 ),
 						fleet.MembersInstance.Sum( s => s == null ? 0 : s.SlotInstanceMaster.Count( q => q == null ? false : q.CategoryType == 24 ) ),
@@ -350,7 +352,8 @@ namespace ElectronicObserver.Window {
 							ship.EvasionBase, ship.EvasionTotal,
 							ship.LOSBase, ship.LOSTotal,
 							ship.LuckTotal,
-							Constants.GetRange( ship.Range )
+							Constants.GetRange( ship.Range ),
+							Constants.GetSpeed( ship.MasterShip.Speed )
 							) );
 
 

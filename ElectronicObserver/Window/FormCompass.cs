@@ -213,7 +213,8 @@ namespace ElectronicObserver.Window {
 							evasion_c == -1 ? "???" : evasion_c.ToString(), evasion,
 							los_c == -1 ? "???" : los_c.ToString(), los,
 							luck_c, luck,
-							Constants.GetRange( range )
+							Constants.GetRange( range ),
+							Constants.GetSpeed( ship.Speed )
 							);
 			}
 
