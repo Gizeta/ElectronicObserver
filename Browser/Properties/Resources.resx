@@ -218,4 +218,17 @@ catch(e) {
     <value>これは七四式電子観測儀のサブプログラムであり、単体では起動できません。
 本体から起動してください。</value>
   </data>
+  <data name="Dialog_ClearCacheCompleteTitle" xml:space="preserve">
+    <value>削除完了</value>
+  </data>
+  <data name="Dialog_ClearCacheCompleteMessage" xml:space="preserve">
+    <value>キャッシュの削除が完了しました。</value>
+  </data>
+  <data name="Dialog_ClearCacheTitle" xml:space="preserve">
+    <value>キャッシュの削除</value>
+  </data>
+  <data name="Dialog_ClearCacheMessage" xml:space="preserve">
+    <value>ブラウザのキャッシュを削除します。
+よろしいですか？</value>
+  </data>
 </root>

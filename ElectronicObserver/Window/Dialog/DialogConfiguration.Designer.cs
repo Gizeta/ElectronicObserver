@@ -1136,8 +1136,8 @@
 			this.FormBrowser_ZoomFit.Name = "FormBrowser_ZoomFit";
 			this.FormBrowser_ZoomFit.Size = new System.Drawing.Size(74, 27);
 			this.FormBrowser_ZoomFit.TabIndex = 4;
-			this.FormBrowser_ZoomFit.Text = "ぴったり";
-			this.ToolTipInfo.SetToolTip(this.FormBrowser_ZoomFit, "有効な場合、画面に合わせて自動的に拡大・縮小します。");
+			resources.ApplyResources(this.FormBrowser_ZoomFit, "FormBrowser_ZoomFit");
+			this.ToolTipInfo.SetToolTip(this.FormBrowser_ZoomFit, resources.GetString("FormBrowser_ZoomFit.ToolTip"));
 			this.FormBrowser_ZoomFit.UseVisualStyleBackColor = true;
 			// 
 			// groupBox3
@@ -1384,7 +1384,7 @@
 			this.tabPage14.Padding = new System.Windows.Forms.Padding(3);
 			this.tabPage14.Size = new System.Drawing.Size(442, 219);
 			this.tabPage14.TabIndex = 5;
-			this.tabPage14.Text = "ブラウザ2";
+			resources.ApplyResources(this.tabPage14, "tabPage14");
 			this.tabPage14.UseVisualStyleBackColor = true;
 			// 
 			// groupBox4
@@ -1398,7 +1398,7 @@
 			this.groupBox4.Size = new System.Drawing.Size(200, 80);
 			this.groupBox4.TabIndex = 0;
 			this.groupBox4.TabStop = false;
-			this.groupBox4.Text = "Flash品質設定";
+			resources.ApplyResources(this.groupBox4, "groupBox4");
 			// 
 			// label21
 			// 
@@ -1407,7 +1407,7 @@
 			this.label21.Name = "label21";
 			this.label21.Size = new System.Drawing.Size(46, 15);
 			this.label21.TabIndex = 3;
-			this.label21.Text = "モード：";
+			resources.ApplyResources(this.label21, "label21");
 			// 
 			// FormBrowser_FlashWMode
 			// 
@@ -1419,7 +1419,7 @@
 			this.FormBrowser_FlashWMode.Name = "FormBrowser_FlashWMode";
 			this.FormBrowser_FlashWMode.Size = new System.Drawing.Size(121, 23);
 			this.FormBrowser_FlashWMode.TabIndex = 2;
-			this.ToolTipInfo.SetToolTip(this.FormBrowser_FlashWMode, "Flashのモードを指定します。\r\n既定値は opaque です。\r\ndirect にするとパフォーマンスが向上する可能性があります。");
+			this.ToolTipInfo.SetToolTip(this.FormBrowser_FlashWMode, resources.GetString("FormBrowser_FlashWMode.ToolTip"));
 			// 
 			// label20
 			// 
@@ -1428,7 +1428,7 @@
 			this.label20.Name = "label20";
 			this.label20.Size = new System.Drawing.Size(43, 15);
 			this.label20.TabIndex = 1;
-			this.label20.Text = "品質：";
+			resources.ApplyResources(this.label20, "label20");
 			// 
 			// FormBrowser_FlashQuality
 			// 
@@ -1442,7 +1442,7 @@
 			this.FormBrowser_FlashQuality.Name = "FormBrowser_FlashQuality";
 			this.FormBrowser_FlashQuality.Size = new System.Drawing.Size(121, 23);
 			this.FormBrowser_FlashQuality.TabIndex = 0;
-			this.ToolTipInfo.SetToolTip(this.FormBrowser_FlashQuality, "Flashの品質を設定します。\r\n既定値は high です。");
+			this.ToolTipInfo.SetToolTip(this.FormBrowser_FlashQuality, resources.GetString("FormBrowser_FlashQuality.ToolTip"));
 			// 
 			// tabPage11
 			// 

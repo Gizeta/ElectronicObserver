@@ -123,6 +123,15 @@ namespace ElectronicObserver.Properties {
         }
         
         /// <summary>
+        ///   flashの品質設定を行いました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string APIObserver_FlashQuality {
+            get {
+                return ResourceManager.GetString("APIObserver_FlashQuality", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   APIObserver: 実際に受信を開始したポート番号が指定されたポート番号とは異なります。 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string APIObserver_MismatchedPort {
@@ -2770,7 +2779,7 @@ namespace ElectronicObserver.Properties {
         ///回避: {14}/{15}
         ///索敵: {16}/{17}
         ///運: {18}/{19}
-        ///射程: {20}
+        ///射程: {20} / 速力: {21}
         ///(右クリックで図鑑)
         /// に類似しているローカライズされた文字列を検索します。
         /// </summary>
@@ -2859,12 +2868,12 @@ namespace ElectronicObserver.Properties {
         }
         
         /// <summary>
-        ///   合計レベル：{0}
-        ///平均レベル：{1:0.00}
-        ///ドラム缶搭載: {2}個 ({3}艦)
-        ///大発動艇搭載: {4}個
-        ///総積載: 燃 {5} / 弾 {6}
-        ///(1戦当たり 燃 {7} / 弾 {8}) に類似しているローカライズされた文字列を検索します。
+        ///   Lv合計: {0} / 平均: {1:0.00}
+        ///{2}艦隊
+        ///ドラム缶搭載: {3}個 ({4}艦)
+        ///大発動艇搭載: {5}個
+        ///総積載: 燃 {6} / 弾 {7}
+        ///(1戦当たり 燃 {8} / 弾 {9}) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string FormFleet_FleetInfo {
             get {
@@ -2944,7 +2953,7 @@ namespace ElectronicObserver.Properties {
         ///回避: {12}/{13}
         ///索敵: {14}/{15}
         ///運: {16}
-        ///射程: {17}
+        ///射程: {17} / 速力: {18}
         ///(右クリックで図鑑)
         /// に類似しているローカライズされた文字列を検索します。
         /// </summary>
@@ -4722,7 +4731,7 @@ namespace ElectronicObserver.Properties {
         }
         
         /// <summary>
-        ///   {0}一二型改四 に類似しているローカライズされた文字列を検索します。
+        ///   {0}一二型改六 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string SoftwareInformation_Version {
             get {

@@ -215,4 +215,17 @@ catch(e) {
     <value>本程序是七四式电子观测仪的辅助程序，不能单独启动。
 请从主程序中启动。</value>
   </data>
+  <data name="Dialog_ClearCacheCompleteTitle" xml:space="preserve">
+    <value>删除完成</value>
+  </data>
+  <data name="Dialog_ClearCacheCompleteMessage" xml:space="preserve">
+    <value>缓存清除完成。</value>
+  </data>
+  <data name="Dialog_ClearCacheTitle" xml:space="preserve">
+    <value>清除缓存</value>
+  </data>
+  <data name="Dialog_ClearCacheMessage" xml:space="preserve">
+    <value>将要清除浏览器的缓存。
+是否继续？</value>
+  </data>
 </root>

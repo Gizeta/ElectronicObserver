@@ -463,6 +463,27 @@ API列表的格式和用法请参照在线帮助。</value>
   <data name="label15.Text" xml:space="preserve">
     <value>缩放比例：</value>
   </data>
+  <data name="tabPage14.Text" xml:space="preserve">
+    <value>浏览器2</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>Flash品质设定</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>模式：</value>
+  </data>
+  <data name="FormBrowser_FlashWMode.ToolTip" xml:space="preserve">
+    <value>指定Flash的模式
+默认值为 opaque 。
+使用 direct 可能会提高运行速度。</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>品质：</value>
+  </data>
+  <data name="FormBrowser_FlashQuality.ToolTip" xml:space="preserve">
+    <value>设定Flash的品质。
+默认值为 high 。</value>
+  </data>
   <data name="tabPage11.Text" xml:space="preserve">
     <value>通知</value>
   </data>

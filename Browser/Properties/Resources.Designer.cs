@@ -236,5 +236,42 @@ namespace Browser.Properties {
                 return ResourceManager.GetString("Dialog_EmptyParameter", resourceCulture);
             }
         }
+		
+        /// <summary>
+        ///   削除完了 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Dialog_ClearCacheCompleteTitle {
+            get {
+                return ResourceManager.GetString("Dialog_ClearCacheCompleteTitle", resourceCulture);
+            }
+        }
+		
+        /// <summary>
+        ///   キャッシュの削除が完了しました。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Dialog_ClearCacheCompleteMessage {
+            get {
+                return ResourceManager.GetString("Dialog_ClearCacheCompleteMessage", resourceCulture);
+            }
+        }
+		
+        /// <summary>
+        ///   キャッシュの削除 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Dialog_ClearCacheTitle {
+            get {
+                return ResourceManager.GetString("Dialog_ClearCacheTitle", resourceCulture);
+            }
+        }
+		
+        /// <summary>
+        ///   ブラウザのキャッシュを削除します。
+        ///よろしいですか？ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Dialog_ClearCacheMessage {
+            get {
+                return ResourceManager.GetString("Dialog_ClearCacheMessage", resourceCulture);
+            }
+        }
     }
 }

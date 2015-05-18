@@ -291,7 +291,7 @@
 			this.ToolMenu_Other_Zoom_Fit.CheckOnClick = true;
 			this.ToolMenu_Other_Zoom_Fit.Name = "ToolMenu_Other_Zoom_Fit";
 			this.ToolMenu_Other_Zoom_Fit.Size = new System.Drawing.Size(160, 34);
-			this.ToolMenu_Other_Zoom_Fit.Text = "ぴったり";
+			resources.ApplyResources(this.ToolMenu_Other_Zoom_Fit, "ToolMenu_Other_Zoom_Fit");
 			this.ToolMenu_Other_Zoom_Fit.Click += new System.EventHandler(this.ToolMenu_Other_Zoom_Fit_Click);
 			// 
 			// toolStripSeparator14
@@ -502,7 +502,7 @@
 			// 
 			this.ToolMenu_Other_ClearCache.Name = "ToolMenu_Other_ClearCache";
 			this.ToolMenu_Other_ClearCache.Size = new System.Drawing.Size(319, 34);
-			this.ToolMenu_Other_ClearCache.Text = "キャッシュのクリア(&C)";
+			resources.ApplyResources(this.ToolMenu_Other_ClearCache, "ToolMenu_Other_ClearCache");
 			this.ToolMenu_Other_ClearCache.Click += new System.EventHandler(this.ToolMenu_Other_ClearCache_Click);
 			// 
 			// Icons

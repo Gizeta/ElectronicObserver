@@ -135,6 +135,9 @@
   <data name="APIMissionStart_Message" xml:space="preserve">
     <value>#{0}「{1}」が遠征「{2}: {3}」へ出撃しました。</value>
   </data>
+  <data name="APIObserver_FlashQuality" xml:space="preserve">
+    <value>flashの品質設定を行いました。</value>
+  </data>
   <data name="APIObserver_MismatchedPort" xml:space="preserve">
     <value>APIObserver: 実際に受信を開始したポート番号が指定されたポート番号とは異なります。</value>
   </data>
@@ -1049,7 +1052,7 @@ HP1あたり: 鋼 {0:F2} / 燃 {1:F2}
 回避: {14}/{15}
 索敵: {16}/{17}
 運: {18}/{19}
-射程: {20}
+射程: {20} / 速力: {21}
 (右クリックで図鑑)
 </value>
   </data>
@@ -1084,12 +1087,12 @@ HP1あたり: 鋼 {0:F2} / 燃 {1:F2}
 </value>
   </data>
   <data name="FormFleet_FleetInfo" xml:space="preserve">
-    <value>合計レベル：{0}
-平均レベル：{1:0.00}
-ドラム缶搭載: {2}個 ({3}艦)
-大発動艇搭載: {4}個
-総積載: 燃 {5} / 弾 {6}
-(1戦当たり 燃 {7} / 弾 {8})</value>
+    <value>Lv合計: {0} / 平均: {1:0.00}
+{2}艦隊
+ドラム缶搭載: {3}個 ({4}艦)
+大発動艇搭載: {5}個
+総積載: 燃 {6} / 弾 {7}
+(1戦当たり 燃 {8} / 弾 {9})</value>
   </data>
   <data name="FormFleet_FleetNameNull" xml:space="preserve">
     <value>*nothing*</value>
@@ -1127,7 +1130,7 @@ HP1あたり: 鋼 {0:F2} / 燃 {1:F2}
 回避: {12}/{13}
 索敵: {14}/{15}
 運: {16}
-射程: {17}
+射程: {17} / 速力: {18}
 (右クリックで図鑑)
 </value>
   </data>
@@ -1739,7 +1742,7 @@ HP1あたり: 鋼 {0:F2} / 燃 {1:F2}
     <value>アップデート情報の URI が無効です。</value>
   </data>
   <data name="SoftwareInformation_Version" xml:space="preserve">
-    <value>{0}一二型改四</value>
+    <value>{0}一二型改六</value>
   </data>
   <data name="WindowPlacementManager_LoadError" xml:space="preserve">
     <value>ウィンドウ状態の復元に失敗しました。</value>

@@ -135,6 +135,9 @@
   <data name="APIMissionStart_Message" xml:space="preserve">
     <value>#{0}「{1}」远征「{2}: {3}」了。</value>
   </data>
+  <data name="APIObserver_FlashQuality" xml:space="preserve">
+    <value>flash品质已设定。</value>
+  </data>
   <data name="APIObserver_MismatchedPort" xml:space="preserve">
     <value>APIObserver: 实际接收端口号与指定端口号不同。</value>
   </data>
@@ -1049,7 +1052,7 @@ Cut-In种类: {2} ({3})
 回避: {14}/{15}
 索敌: {16}/{17}
 运: {18}/{19}
-射程: {20}
+射程: {20} / 速度: {21}
 (右键打开图鉴)
 </value>
   </data>
@@ -1084,12 +1087,12 @@ Cut-In种类: {2} ({3})
 </value>
   </data>
   <data name="FormFleet_FleetInfo" xml:space="preserve">
-    <value>合计等级：{0}
-平均等级：{1:0.00}
-运输用桶搭载: {2}个 ({3}舰)
-大发动艇搭载: {4}个
-总装载: 油 {5} / 弹 {6}
-(每战消耗 油 {7} / 弹 {8})</value>
+    <value>Lv合计: {0} / 平均: {1:0.00}
+{2}艦隊
+运输用桶搭载: {3}个 ({4}舰)
+大发动艇搭载: {5}个
+总装载: 油 {6} / 弹 {7}
+(每战消耗 油 {8} / 弹 {9})</value>
   </data>
   <data name="FormFleet_FleetNameNull" xml:space="preserve">
     <value>*nothing*</value>
@@ -1127,7 +1130,7 @@ Cut-In种类: {2} ({3})
 回避: {12}/{13}
 索敌: {14}/{15}
 运: {16}
-射程: {17}
+射程: {17} / 速度: {18}
 (右键打开图鉴)
 </value>
   </data>
@@ -1740,7 +1743,7 @@ Cut-In种类: {2} ({3})
     <value>更新信息的URI无效。</value>
   </data>
   <data name="SoftwareInformation_Version" xml:space="preserve">
-    <value>{0}一二型改四</value>
+    <value>{0}一二型改六</value>
   </data>
   <data name="WindowPlacementManager_LoadError" xml:space="preserve">
     <value>窗口状态恢复失败。</value>

@@ -748,12 +748,12 @@ namespace Browser {
 
 		private void ToolMenu_Other_ClearCache_Click( object sender, EventArgs e ) {
 
-			if ( MessageBox.Show( "ブラウザのキャッシュを削除します。\nよろしいですか？", "キャッシュの削除", MessageBoxButtons.OKCancel, MessageBoxIcon.Question )
+			if ( MessageBox.Show( Properties.Resources.Dialog_ClearCacheMessage, Properties.Resources.Dialog_ClearCacheTitle, MessageBoxButtons.OKCancel, MessageBoxIcon.Question )
 				== System.Windows.Forms.DialogResult.OK ) {
 
 				BeginInvoke( (MethodInvoker)( () => {
 					ClearCache();
-					MessageBox.Show( "キャッシュの削除が完了しました。", "削除完了", MessageBoxButtons.OK, MessageBoxIcon.Information );
+					MessageBox.Show( Properties.Resources.Dialog_ClearCacheCompleteMessage, Properties.Resources.Dialog_ClearCacheCompleteTitle, MessageBoxButtons.OK, MessageBoxIcon.Information );
 				} ) );
 
 			}

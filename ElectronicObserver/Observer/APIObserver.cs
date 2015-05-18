@@ -293,7 +293,7 @@ namespace ElectronicObserver.Observer {
 				if ( flag ) {
 					oSession.utilSetResponseBody( js );
 
-					Utility.Logger.Add( 1, "flashの品質設定を行いました。" );
+					Utility.Logger.Add( 1, Properties.Resources.APIObserver_FlashQuality );
 				}
 			}
 		}
