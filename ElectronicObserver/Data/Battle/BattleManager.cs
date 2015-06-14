@@ -207,7 +207,7 @@ namespace ElectronicObserver.Data.Battle {
 						DroppedEquipmentCount += defaultSlot.Count( id => id != -1 );
 
 					if ( showLog )
-						Utility.Logger.Add( 2, string.Format( "{0}「{1}」が戦列に加わりました。", ship.ShipTypeName, ship.NameWithClass ) );
+						Utility.Logger.Add( 2, string.Format( Properties.Resources.BattleManager_GotShip, ship.ShipTypeName, ship.NameWithClass ) );
 				}
 
 				if ( dropID == -1 ) {

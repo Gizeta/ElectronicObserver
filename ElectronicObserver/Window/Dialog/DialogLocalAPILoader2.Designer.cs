@@ -24,6 +24,7 @@
 		/// </summary>
 		private void InitializeComponent() {
 			this.components = new System.ComponentModel.Container();
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DialogLocalAPILoader2));
 			this.APIView = new System.Windows.Forms.DataGridView();
 			this.APIView_FileName = new System.Windows.Forms.DataGridViewTextBoxColumn();
 			this.ContextMenu = new System.Windows.Forms.ContextMenuStrip(this.components);
@@ -71,7 +72,7 @@
 			// APIView_FileName
 			// 
 			this.APIView_FileName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-			this.APIView_FileName.HeaderText = "ファイル名";
+			resources.ApplyResources(this.APIView_FileName, "APIView_FileName");
 			this.APIView_FileName.Name = "APIView_FileName";
 			this.APIView_FileName.ReadOnly = true;
 			this.APIView_FileName.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
@@ -89,7 +90,7 @@
 			// 
 			this.ContextMenu_Execute.Name = "ContextMenu_Execute";
 			this.ContextMenu_Execute.Size = new System.Drawing.Size(225, 34);
-			this.ContextMenu_Execute.Text = "実行(&E)";
+			resources.ApplyResources(this.ContextMenu_Execute, "ContextMenu_Execute");
 			this.ContextMenu_Execute.Click += new System.EventHandler(this.ContextMenu_Execute_Click);
 			// 
 			// ContextMenu_Delete
@@ -97,7 +98,7 @@
 			this.ContextMenu_Delete.Name = "ContextMenu_Delete";
 			this.ContextMenu_Delete.ShortcutKeys = System.Windows.Forms.Keys.Delete;
 			this.ContextMenu_Delete.Size = new System.Drawing.Size(225, 34);
-			this.ContextMenu_Delete.Text = "削除(&D)";
+			resources.ApplyResources(this.ContextMenu_Delete, "ContextMenu_Delete");
 			this.ContextMenu_Delete.Click += new System.EventHandler(this.ContextMenu_Delete_Click);
 			// 
 			// menuStrip1
@@ -118,13 +119,13 @@
             this.Menu_File_Reload});
 			this.Menu_File.Name = "Menu_File";
 			this.Menu_File.Size = new System.Drawing.Size(128, 34);
-			this.Menu_File.Text = "ファイル(&F)";
+			resources.ApplyResources(this.Menu_File, "Menu_File");
 			// 
 			// Menu_File_OpenFolder
 			// 
 			this.Menu_File_OpenFolder.Name = "Menu_File_OpenFolder";
 			this.Menu_File_OpenFolder.Size = new System.Drawing.Size(273, 34);
-			this.Menu_File_OpenFolder.Text = "フォルダを開く(&O)...";
+			resources.ApplyResources(this.Menu_File_OpenFolder, "Menu_File_OpenFolder");
 			this.Menu_File_OpenFolder.Click += new System.EventHandler(this.Menu_File_OpenFolder_Click);
 			// 
 			// splitContainer1
@@ -154,7 +155,7 @@
 			this.ButtonExecuteNext.Name = "ButtonExecuteNext";
 			this.ButtonExecuteNext.Size = new System.Drawing.Size(75, 23);
 			this.ButtonExecuteNext.TabIndex = 1;
-			this.ButtonExecuteNext.Text = "次へ実行";
+			resources.ApplyResources(this.ButtonExecuteNext, "ButtonExecuteNext");
 			this.ButtonExecuteNext.UseVisualStyleBackColor = true;
 			this.ButtonExecuteNext.Click += new System.EventHandler(this.ButtonExecuteNext_Click);
 			// 
@@ -164,7 +165,7 @@
 			this.ButtonExecute.Name = "ButtonExecute";
 			this.ButtonExecute.Size = new System.Drawing.Size(75, 23);
 			this.ButtonExecute.TabIndex = 0;
-			this.ButtonExecute.Text = "実行";
+			resources.ApplyResources(this.ButtonExecute, "ButtonExecute");
 			this.ButtonExecute.UseVisualStyleBackColor = true;
 			this.ButtonExecute.Click += new System.EventHandler(this.ContextMenu_Execute_Click);
 			// 
@@ -177,7 +178,7 @@
 			// 
 			this.Menu_File_Reload.Name = "Menu_File_Reload";
 			this.Menu_File_Reload.Size = new System.Drawing.Size(273, 34);
-			this.Menu_File_Reload.Text = "再読み込み(&R)";
+			resources.ApplyResources(this.Menu_File_Reload, "Menu_File_Reload");
 			this.Menu_File_Reload.Click += new System.EventHandler(this.Menu_File_Reload_Click);
 			// 
 			// TextFilter
@@ -196,7 +197,7 @@
 			this.ButtonSearch.Name = "ButtonSearch";
 			this.ButtonSearch.Size = new System.Drawing.Size(75, 23);
 			this.ButtonSearch.TabIndex = 3;
-			this.ButtonSearch.Text = "検索";
+			resources.ApplyResources(this.ButtonSearch, "ButtonSearch");
 			this.ButtonSearch.UseVisualStyleBackColor = true;
 			this.ButtonSearch.Click += new System.EventHandler(this.ButtonSearch_Click);
 			// 
@@ -209,7 +210,7 @@
 			this.Font = new System.Drawing.Font("Meiryo UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
 			this.MainMenuStrip = this.menuStrip1;
 			this.Name = "DialogLocalAPILoader2";
-			this.Text = "ファイルからAPIをロード";
+			resources.ApplyResources(this, "DialogLocalAPILoader2");
 			this.Load += new System.EventHandler(this.DialogLocalAPILoader2_Load);
 			((System.ComponentModel.ISupportInitialize)(this.APIView)).EndInit();
 			this.ContextMenu.ResumeLayout(false);

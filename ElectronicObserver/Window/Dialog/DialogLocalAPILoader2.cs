@@ -40,7 +40,7 @@ namespace ElectronicObserver.Window.Dialog {
 			if ( Directory.Exists( CurrentPath ) )
 				LoadFiles( CurrentPath );
 			else
-				MessageBox.Show( "フォルダが指定されていないか存在しません。", "エラー", MessageBoxButtons.OK, MessageBoxIcon.Error );
+				MessageBox.Show( Properties.Resources.DialogLocalAPILoader2_FolderNotFound, Properties.Resources.MessageBox_Error, MessageBoxButtons.OK, MessageBoxIcon.Error );
 		}
 
 		private void ContextMenu_Execute_Click( object sender, EventArgs e ) {
@@ -55,7 +55,7 @@ namespace ElectronicObserver.Window.Dialog {
 			if ( !APICaller.IsBusy )
 				APICaller.RunWorkerAsync( APIView.SelectedRows.Cast<DataGridViewRow>().Select( row => row.Cells[APIView_FileName.Index].Value as string ).OrderBy( s => s ) );
 			else
-				if ( MessageBox.Show( "既に実行中です。\n中断しますか?", "確認", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation )
+				if ( MessageBox.Show( Properties.Resources.DialogLocalAPILoader2_SuspendMessage, Properties.Resources.MessageBox_Confirm, MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation )
 					== System.Windows.Forms.DialogResult.Yes ) {
 					APICaller.CancelAsync();
 				}
@@ -85,7 +85,7 @@ namespace ElectronicObserver.Window.Dialog {
 					APIView.FirstDisplayedScrollingRowIndex = index + 1;
 				}
 			} else {
-				MessageBox.Show( "単一行を選択してください。", "情報", MessageBoxButtons.OK, MessageBoxIcon.Information );
+				MessageBox.Show( Properties.Resources.DialogLocalAPILoader2_ChooseOneLine, Properties.Resources.MessageBox_Info, MessageBoxButtons.OK, MessageBoxIcon.Information );
 
 			}
 
@@ -149,7 +149,7 @@ namespace ElectronicObserver.Window.Dialog {
 					}
 
 				} catch ( Exception ex ) {
-					Utility.Logger.Add( 3, string.Format( "APIファイル {0} の読み込みに失敗しました。{1}", filename, ex.Message ) );
+					Utility.Logger.Add( 3, string.Format( Properties.Resources.DialogLocalAPILoader2_ReadFailed, filename, ex.Message ) );
 					return;
 				}
 

@@ -845,6 +845,19 @@ HP1あたり: 鋼 {0:F2} / 燃 {1:F2}
   <data name="DialogEquipmentList_ExportCSVError" xml:space="preserve">
     <value>装備一覧 CSVの出力に失敗しました。</value>
   </data>
+  <data name="DialogLocalAPILoader2_ChooseOneLine" xml:space="preserve">
+    <value>単一行を選択してください。</value>
+  </data>
+  <data name="DialogLocalAPILoader2_FolderNotFound" xml:space="preserve">
+    <value>フォルダが指定されていないか存在しません。</value>
+  </data>
+  <data name="DialogLocalAPILoader2_ReadFailed" xml:space="preserve">
+    <value>APIファイル {0} の読み込みに失敗しました。{1}</value>
+  </data>
+  <data name="DialogLocalAPILoader2_SuspendMessage" xml:space="preserve">
+    <value>既に実行中です。
+中断しますか?</value>
+  </data>
   <data name="DialogNotifier_DrawImageError" xml:space="preserve">
     <value>通知システム: ダイアログボックスでの画像の描画に失敗しました。</value>
   </data>
@@ -966,6 +979,11 @@ HP1あたり: 鋼 {0:F2} / 燃 {1:F2}
   </data>
   <data name="FormBattle_Flare" xml:space="preserve">
     <value>照明弾投射: </value>
+  </data>
+  <data name="FormBattle_HPBarTip" xml:space="preserve">
+    <value>{0} Lv. {1}
+HP: ({2} → {3})/{4} ({5}) [{6}]
+与ダメージ: {7}</value>
   </data>
   <data name="FormBattle_MidnightTouch" xml:space="preserve">
     <value>夜間触接</value>
@@ -1164,7 +1182,15 @@ HP1あたり: 鋼 {0:F2} / 燃 {1:F2}
   <data name="FormFleet_ShipToNormalCond" xml:space="preserve">
     <value>完全回復まで 約 {0:D2}:{1:D2}</value>
   </data>
-  <data name="FormHeadquarters_ExpIncrementInfo" xml:space="preserve">
+  <data name="FormHeadquarters_DayExpIncrementInfo" xml:space="preserve">
+    <value>今回: +{0} exp. / 戦果 {1:n2}
+</value>
+  </data>
+  <data name="FormHeadquarters_MonthExpIncrementInfo" xml:space="preserve">
+    <value>今回: +{0} exp. / 戦果 {1:n2}
+</value>
+  </data>
+  <data name="FormHeadquarters_PreviousExpIncrementInfo" xml:space="preserve">
     <value>今回: +{0} exp. / 戦果 {1:n2}
 </value>
   </data>
@@ -1581,6 +1607,9 @@ HP1あたり: 鋼 {0:F2} / 燃 {1:F2}
   <data name="MessageBox_Help" xml:space="preserve">
     <value>ヘルプ</value>
   </data>
+  <data name="MessageBox_Info" xml:space="preserve">
+    <value>情報</value>
+  </data>
   <data name="MessageBox_MeetError" xml:space="preserve">
     <value>大変ご迷惑をおかけしております</value>
   </data>
@@ -1742,7 +1771,7 @@ HP1あたり: 鋼 {0:F2} / 燃 {1:F2}
     <value>アップデート情報の URI が無効です。</value>
   </data>
   <data name="SoftwareInformation_Version" xml:space="preserve">
-    <value>{0}一二型改六</value>
+    <value>{0}一三型</value>
   </data>
   <data name="WindowPlacementManager_LoadError" xml:space="preserve">
     <value>ウィンドウ状態の復元に失敗しました。</value>

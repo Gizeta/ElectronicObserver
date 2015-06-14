@@ -2219,6 +2219,43 @@ namespace ElectronicObserver.Properties {
         }
         
         /// <summary>
+        ///   単一行を選択してください。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogLocalAPILoader2_ChooseOneLine {
+            get {
+                return ResourceManager.GetString("DialogLocalAPILoader2_ChooseOneLine", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   フォルダが指定されていないか存在しません。 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogLocalAPILoader2_FolderNotFound {
+            get {
+                return ResourceManager.GetString("DialogLocalAPILoader2_FolderNotFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   APIファイル {0} の読み込みに失敗しました。{1} に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogLocalAPILoader2_ReadFailed {
+            get {
+                return ResourceManager.GetString("DialogLocalAPILoader2_ReadFailed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   既に実行中です。
+        ///中断しますか? に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string DialogLocalAPILoader2_SuspendMessage {
+            get {
+                return ResourceManager.GetString("DialogLocalAPILoader2_SuspendMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   通知システム: ダイアログボックスでの画像の描画に失敗しました。 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string DialogNotifier_DrawImageError {
@@ -2553,6 +2590,17 @@ namespace ElectronicObserver.Properties {
         internal static string FormBattle_Flare {
             get {
                 return ResourceManager.GetString("FormBattle_Flare", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   {0} Lv. {1}
+        ///HP: ({2} → {3})/{4} ({5}) [{6}]
+        ///与ダメージ: {7} に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormBattle_HPBarTip {
+            get {
+                return ResourceManager.GetString("FormBattle_HPBarTip", resourceCulture);
             }
         }
         
@@ -3051,9 +3099,29 @@ namespace ElectronicObserver.Properties {
         ///   今回: +{0} exp. / 戦果 {1:n2}
         /// に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string FormHeadquarters_ExpIncrementInfo {
+        internal static string FormHeadquarters_DayExpIncrementInfo {
             get {
-                return ResourceManager.GetString("FormHeadquarters_ExpIncrementInfo", resourceCulture);
+                return ResourceManager.GetString("FormHeadquarters_DayExpIncrementInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   今回: +{0} exp. / 戦果 {1:n2}
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormHeadquarters_MonthExpIncrementInfo {
+            get {
+                return ResourceManager.GetString("FormHeadquarters_MonthExpIncrementInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   今回: +{0} exp. / 戦果 {1:n2}
+        /// に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string FormHeadquarters_PreviousExpIncrementInfo {
+            get {
+                return ResourceManager.GetString("FormHeadquarters_PreviousExpIncrementInfo", resourceCulture);
             }
         }
         
@@ -4255,6 +4323,15 @@ namespace ElectronicObserver.Properties {
         internal static string MessageBox_Help {
             get {
                 return ResourceManager.GetString("MessageBox_Help", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   情報 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string MessageBox_Info {
+            get {
+                return ResourceManager.GetString("MessageBox_Info", resourceCulture);
             }
         }
         

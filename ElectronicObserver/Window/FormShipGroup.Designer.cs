@@ -455,7 +455,7 @@
 			// 
 			this.MenuMember_AddCurrentFleet_Group.Name = "MenuMember_AddCurrentFleet_Group";
 			this.MenuMember_AddCurrentFleet_Group.Size = new System.Drawing.Size(501, 34);
-			this.MenuMember_AddCurrentFleet_Group.Text = "現在の艦隊を追加(&G)";
+            resources.ApplyResources(this.MenuMember_AddCurrentFleet_Group, "MenuMember_AddCurrentFleet_Group");
 			// 
 			// toolStripSeparator1
 			// 

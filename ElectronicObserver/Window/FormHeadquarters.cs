@@ -140,21 +140,21 @@ namespace ElectronicObserver.Window {
 					var res = RecordManager.Instance.Resource.GetRecordPrevious();
 					if ( res != null ) {
 						int diff = db.Admiral.Exp - res.HQExp;
-						tooltip.AppendFormat( Properties.Resources.FormHeadquarters_ExpIncrementInfo, diff, diff * 7 / 10000.0 );
+						tooltip.AppendFormat( Properties.Resources.FormHeadquarters_PreviousExpIncrementInfo, diff, diff * 7 / 10000.0 );
 					}
 				}
 				{
 					var res = RecordManager.Instance.Resource.GetRecordDay();
 					if ( res != null ) {
 						int diff = db.Admiral.Exp - res.HQExp;
-						tooltip.AppendFormat( Properties.Resources.FormHeadquarters_ExpIncrementInfo, diff, diff * 7 / 10000.0 );
+						tooltip.AppendFormat( Properties.Resources.FormHeadquarters_DayExpIncrementInfo, diff, diff * 7 / 10000.0 );
 					}
 				}
 				{
 					var res = RecordManager.Instance.Resource.GetRecordMonth();
 					if ( res != null ) {
 						int diff = db.Admiral.Exp - res.HQExp;
-						tooltip.AppendFormat( Properties.Resources.FormHeadquarters_ExpIncrementInfo, diff, diff * 7 / 10000.0 );
+						tooltip.AppendFormat( Properties.Resources.FormHeadquarters_MonthExpIncrementInfo, diff, diff * 7 / 10000.0 );
 					}
 				}
 

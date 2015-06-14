@@ -845,6 +845,19 @@
   <data name="DialogEquipmentList_ExportCSVError" xml:space="preserve">
     <value>装备一览CSV导出失败。</value>
   </data>
+  <data name="DialogLocalAPILoader2_ChooseOneLine" xml:space="preserve">
+    <value>请选择一行。</value>
+  </data>
+  <data name="DialogLocalAPILoader2_FolderNotFound" xml:space="preserve">
+    <value>指定文件夹不存在。</value>
+  </data>
+  <data name="DialogLocalAPILoader2_ReadFailed" xml:space="preserve">
+    <value>API文件 {0} 读取失败。{1}</value>
+  </data>
+  <data name="DialogLocalAPILoader2_SuspendMessage" xml:space="preserve">
+    <value>已在执行中。
+是否中止？</value>
+  </data>
   <data name="DialogNotifier_DrawImageError" xml:space="preserve">
     <value>通知系统: 对话框中的图片绘制失败。</value>
   </data>
@@ -966,6 +979,11 @@ Cut-In种类: {2} ({3})
   </data>
   <data name="FormBattle_Flare" xml:space="preserve">
     <value>照明弹投射: </value>
+  </data>
+  <data name="FormBattle_HPBarTip" xml:space="preserve">
+    <value>{0} Lv. {1}
+HP: ({2} → {3})/{4} ({5}) [{6}]
+伤害: {7}</value>
   </data>
   <data name="FormBattle_MidnightTouch" xml:space="preserve">
     <value>夜间接触</value>
@@ -1164,8 +1182,16 @@ Cut-In种类: {2} ({3})
   <data name="FormFleet_ShipToNormalCond" xml:space="preserve">
     <value>到完全恢复约需 {0:D2}:{1:D2}</value>
   </data>
-  <data name="FormHeadquarters_ExpIncrementInfo" xml:space="preserve">
-    <value>这次: +{0} exp. / 战果 {1:n2}
+  <data name="FormHeadquarters_DayExpIncrementInfo" xml:space="preserve">
+    <value>当日: +{0} exp. / 战果 {1:n2}
+</value>
+  </data>
+  <data name="FormHeadquarters_MonthExpIncrementInfo" xml:space="preserve">
+    <value>当月: +{0} exp. / 战果 {1:n2}
+</value>
+  </data>
+  <data name="FormHeadquarters_PreviousExpIncrementInfo" xml:space="preserve">
+    <value>当前: +{0} exp. / 战果 {1:n2}
 </value>
   </data>
   <data name="FormInformation_Album_EquipmentNotCollected" xml:space="preserve">
@@ -1582,6 +1608,9 @@ Cut-In种类: {2} ({3})
   <data name="MessageBox_Help" xml:space="preserve">
     <value>帮助</value>
   </data>
+  <data name="MessageBox_Info" xml:space="preserve">
+    <value>信息</value>
+  </data>
   <data name="MessageBox_MeetError" xml:space="preserve">
     <value>给您造成不便还请谅解</value>
   </data>
@@ -1743,7 +1772,7 @@ Cut-In种类: {2} ({3})
     <value>更新信息的URI无效。</value>
   </data>
   <data name="SoftwareInformation_Version" xml:space="preserve">
-    <value>{0}一二型改六</value>
+    <value>{0}一三型</value>
   </data>
   <data name="WindowPlacementManager_LoadError" xml:space="preserve">
     <value>窗口状态恢复失败。</value>
