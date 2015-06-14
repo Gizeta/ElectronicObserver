@@ -69,8 +69,8 @@
 			this.ShipView_SallyArea = new System.Windows.Forms.DataGridViewTextBoxColumn();
 			this.MenuMember = new System.Windows.Forms.ContextMenuStrip(this.components);
 			this.MenuMember_AddToGroup = new System.Windows.Forms.ToolStripMenuItem();
-			this.MenuMember_AddCurrentFleet_Group = new System.Windows.Forms.ToolStripMenuItem();
 			this.MenuMember_CreateGroup = new System.Windows.Forms.ToolStripMenuItem();
+			this.MenuMember_AddCurrentFleet_Group = new System.Windows.Forms.ToolStripMenuItem();
 			this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
 			this.MenuMember_ColumnFilter = new System.Windows.Forms.ToolStripMenuItem();
 			this.MenuMember_ColumnAutoSize = new System.Windows.Forms.ToolStripMenuItem();
@@ -158,7 +158,7 @@
 			this.ShipView.ReadOnly = true;
 			this.ShipView.RowHeadersVisible = false;
 			this.ShipView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-			this.ShipView.Size = new System.Drawing.Size(300, 134);
+			this.ShipView.Size = new System.Drawing.Size(300, 118);
 			this.ShipView.TabIndex = 0;
 			this.ShipView.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.ShipView_CellFormatting);
 			this.ShipView.SortCompare += new System.Windows.Forms.DataGridViewSortCompareEventHandler(this.ShipView_SortCompare);
@@ -431,41 +431,41 @@
             this.toolStripSeparator3,
             this.MenuMember_Delete});
 			this.MenuMember.Name = "MenuMember";
-			this.MenuMember.Size = new System.Drawing.Size(300, 220);
+			this.MenuMember.Size = new System.Drawing.Size(502, 294);
 			this.MenuMember.Opening += new System.ComponentModel.CancelEventHandler(this.MenuMember_Opening);
 			// 
 			// MenuMember_AddToGroup
 			// 
 			this.MenuMember_AddToGroup.Name = "MenuMember_AddToGroup";
 			this.MenuMember_AddToGroup.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D)));
-			this.MenuMember_AddToGroup.Size = new System.Drawing.Size(299, 22);
+			this.MenuMember_AddToGroup.Size = new System.Drawing.Size(501, 34);
 			resources.ApplyResources(this.MenuMember_AddToGroup, "MenuMember_AddToGroup");
 			this.MenuMember_AddToGroup.Click += new System.EventHandler(this.MenuMember_AddToGroup_Click);
-			// 
-			// MenuMember_AddCurrentFleet_Group
-			// 
-			this.MenuMember_AddCurrentFleet_Group.Name = "MenuMember_AddCurrentFleet_Group";
-			this.MenuMember_AddCurrentFleet_Group.Size = new System.Drawing.Size(299, 22);
-			resources.ApplyResources(this.MenuMember_AddCurrentFleet_Group, "MenuMember_AddCurrentFleet_Group");
 			// 
 			// MenuMember_CreateGroup
 			// 
 			this.MenuMember_CreateGroup.Name = "MenuMember_CreateGroup";
 			this.MenuMember_CreateGroup.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
             | System.Windows.Forms.Keys.D)));
-			this.MenuMember_CreateGroup.Size = new System.Drawing.Size(299, 22);
+			this.MenuMember_CreateGroup.Size = new System.Drawing.Size(501, 34);
 			resources.ApplyResources(this.MenuMember_CreateGroup, "MenuMember_CreateGroup");
 			this.MenuMember_CreateGroup.Click += new System.EventHandler(this.MenuMember_CreateGroup_Click);
+			// 
+			// MenuMember_AddCurrentFleet_Group
+			// 
+			this.MenuMember_AddCurrentFleet_Group.Name = "MenuMember_AddCurrentFleet_Group";
+			this.MenuMember_AddCurrentFleet_Group.Size = new System.Drawing.Size(501, 34);
+			this.MenuMember_AddCurrentFleet_Group.Text = "現在の艦隊を追加(&G)";
 			// 
 			// toolStripSeparator1
 			// 
 			this.toolStripSeparator1.Name = "toolStripSeparator1";
-			this.toolStripSeparator1.Size = new System.Drawing.Size(296, 6);
+			this.toolStripSeparator1.Size = new System.Drawing.Size(498, 6);
 			// 
 			// MenuMember_ColumnFilter
 			// 
 			this.MenuMember_ColumnFilter.Name = "MenuMember_ColumnFilter";
-			this.MenuMember_ColumnFilter.Size = new System.Drawing.Size(299, 22);
+			this.MenuMember_ColumnFilter.Size = new System.Drawing.Size(501, 34);
 			resources.ApplyResources(this.MenuMember_ColumnFilter, "MenuMember_ColumnFilter");
 			this.MenuMember_ColumnFilter.Click += new System.EventHandler(this.MenuMember_ColumnFilter_Click);
 			// 
@@ -473,7 +473,7 @@
 			// 
 			this.MenuMember_ColumnAutoSize.CheckOnClick = true;
 			this.MenuMember_ColumnAutoSize.Name = "MenuMember_ColumnAutoSize";
-			this.MenuMember_ColumnAutoSize.Size = new System.Drawing.Size(299, 22);
+			this.MenuMember_ColumnAutoSize.Size = new System.Drawing.Size(501, 34);
 			resources.ApplyResources(this.MenuMember_ColumnAutoSize, "MenuMember_ColumnAutoSize");
 			this.MenuMember_ColumnAutoSize.Click += new System.EventHandler(this.MenuMember_ColumnAutoSize_Click);
 			// 
@@ -481,32 +481,32 @@
 			// 
 			this.MenuMember_LockShipNameScroll.CheckOnClick = true;
 			this.MenuMember_LockShipNameScroll.Name = "MenuMember_LockShipNameScroll";
-			this.MenuMember_LockShipNameScroll.Size = new System.Drawing.Size(299, 22);
+			this.MenuMember_LockShipNameScroll.Size = new System.Drawing.Size(501, 34);
 			resources.ApplyResources(this.MenuMember_LockShipNameScroll, "MenuMember_LockShipNameScroll");
 			this.MenuMember_LockShipNameScroll.Click += new System.EventHandler(this.MenuMember_LockShipNameScroll_Click);
 			// 
 			// toolStripSeparator2
 			// 
 			this.toolStripSeparator2.Name = "toolStripSeparator2";
-			this.toolStripSeparator2.Size = new System.Drawing.Size(296, 6);
+			this.toolStripSeparator2.Size = new System.Drawing.Size(498, 6);
 			// 
 			// MenuMember_CSVOutput
 			// 
 			this.MenuMember_CSVOutput.Name = "MenuMember_CSVOutput";
-			this.MenuMember_CSVOutput.Size = new System.Drawing.Size(299, 22);
+			this.MenuMember_CSVOutput.Size = new System.Drawing.Size(501, 34);
 			resources.ApplyResources(this.MenuMember_CSVOutput, "MenuMember_CSVOutput");
 			this.MenuMember_CSVOutput.Click += new System.EventHandler(this.MenuMember_CSVOutput_Click);
 			// 
 			// toolStripSeparator3
 			// 
 			this.toolStripSeparator3.Name = "toolStripSeparator3";
-			this.toolStripSeparator3.Size = new System.Drawing.Size(296, 6);
+			this.toolStripSeparator3.Size = new System.Drawing.Size(498, 6);
 			// 
 			// MenuMember_Delete
 			// 
 			this.MenuMember_Delete.Name = "MenuMember_Delete";
 			this.MenuMember_Delete.ShortcutKeys = System.Windows.Forms.Keys.Delete;
-			this.MenuMember_Delete.Size = new System.Drawing.Size(299, 22);
+			this.MenuMember_Delete.Size = new System.Drawing.Size(501, 34);
 			resources.ApplyResources(this.MenuMember_Delete, "MenuMember_Delete");
 			this.MenuMember_Delete.Click += new System.EventHandler(this.MenuMember_Delete_Click);
 			// 
@@ -520,40 +520,40 @@
             this.MenuGroup_AutoUpdate,
             this.MenuGroup_ShowStatusBar});
 			this.MenuGroup.Name = "MenuGroup";
-			this.MenuGroup.Size = new System.Drawing.Size(221, 120);
+			this.MenuGroup.Size = new System.Drawing.Size(322, 200);
 			this.MenuGroup.Opening += new System.ComponentModel.CancelEventHandler(this.MenuGroup_Opening);
 			// 
 			// MenuGroup_Add
 			// 
 			this.MenuGroup_Add.Name = "MenuGroup_Add";
-			this.MenuGroup_Add.Size = new System.Drawing.Size(220, 22);
+			this.MenuGroup_Add.Size = new System.Drawing.Size(321, 38);
 			resources.ApplyResources(this.MenuGroup_Add, "MenuGroup_Add");
 			this.MenuGroup_Add.Click += new System.EventHandler(this.MenuGroup_Add_Click);
 			// 
 			// MenuGroup_Rename
 			// 
 			this.MenuGroup_Rename.Name = "MenuGroup_Rename";
-			this.MenuGroup_Rename.Size = new System.Drawing.Size(220, 22);
+			this.MenuGroup_Rename.Size = new System.Drawing.Size(321, 38);
 			resources.ApplyResources(this.MenuGroup_Rename, "MenuGroup_Rename");
 			this.MenuGroup_Rename.Click += new System.EventHandler(this.MenuGroup_Rename_Click);
 			// 
 			// MenuGroup_Delete
 			// 
 			this.MenuGroup_Delete.Name = "MenuGroup_Delete";
-			this.MenuGroup_Delete.Size = new System.Drawing.Size(220, 22);
+			this.MenuGroup_Delete.Size = new System.Drawing.Size(321, 38);
 			resources.ApplyResources(this.MenuGroup_Delete, "MenuGroup_Delete");
 			this.MenuGroup_Delete.Click += new System.EventHandler(this.MenuGroup_Delete_Click);
 			// 
 			// toolStripSeparator4
 			// 
 			this.toolStripSeparator4.Name = "toolStripSeparator4";
-			this.toolStripSeparator4.Size = new System.Drawing.Size(217, 6);
+			this.toolStripSeparator4.Size = new System.Drawing.Size(318, 6);
 			// 
 			// MenuGroup_AutoUpdate
 			// 
 			this.MenuGroup_AutoUpdate.CheckOnClick = true;
 			this.MenuGroup_AutoUpdate.Name = "MenuGroup_AutoUpdate";
-			this.MenuGroup_AutoUpdate.Size = new System.Drawing.Size(220, 22);
+			this.MenuGroup_AutoUpdate.Size = new System.Drawing.Size(321, 38);
 			resources.ApplyResources(this.MenuGroup_AutoUpdate, "MenuGroup_AutoUpdate");
 			// 
 			// MenuGroup_ShowStatusBar
@@ -562,7 +562,7 @@
 			this.MenuGroup_ShowStatusBar.CheckOnClick = true;
 			this.MenuGroup_ShowStatusBar.CheckState = System.Windows.Forms.CheckState.Checked;
 			this.MenuGroup_ShowStatusBar.Name = "MenuGroup_ShowStatusBar";
-			this.MenuGroup_ShowStatusBar.Size = new System.Drawing.Size(220, 22);
+			this.MenuGroup_ShowStatusBar.Size = new System.Drawing.Size(321, 38);
 			resources.ApplyResources(this.MenuGroup_ShowStatusBar, "MenuGroup_ShowStatusBar");
 			this.MenuGroup_ShowStatusBar.CheckedChanged += new System.EventHandler(this.MenuGroup_ShowStatusBar_CheckedChanged);
 			// 
@@ -588,6 +588,7 @@
 			// 
 			// TabPanel
 			// 
+			this.TabPanel.AllowDrop = true;
 			this.TabPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
@@ -608,9 +609,9 @@
             this.Status_ShipCount,
             this.Status_LevelTotal,
             this.Status_LevelAverage});
-			this.StatusBar.Location = new System.Drawing.Point(0, 134);
+			this.StatusBar.Location = new System.Drawing.Point(0, 118);
 			this.StatusBar.Name = "StatusBar";
-			this.StatusBar.Size = new System.Drawing.Size(300, 22);
+			this.StatusBar.Size = new System.Drawing.Size(300, 38);
 			this.StatusBar.SizingGrip = false;
 			this.StatusBar.TabIndex = 1;
 			this.StatusBar.Text = "statusStrip1";
@@ -618,17 +619,17 @@
 			// Status_ShipCount
 			// 
 			this.Status_ShipCount.Name = "Status_ShipCount";
-			this.Status_ShipCount.Size = new System.Drawing.Size(0, 17);
+			this.Status_ShipCount.Size = new System.Drawing.Size(0, 33);
 			// 
 			// Status_LevelTotal
 			// 
 			this.Status_LevelTotal.Name = "Status_LevelTotal";
-			this.Status_LevelTotal.Size = new System.Drawing.Size(0, 17);
+			this.Status_LevelTotal.Size = new System.Drawing.Size(0, 33);
 			// 
 			// Status_LevelAverage
 			// 
 			this.Status_LevelAverage.Name = "Status_LevelAverage";
-			this.Status_LevelAverage.Size = new System.Drawing.Size(0, 17);
+			this.Status_LevelAverage.Size = new System.Drawing.Size(0, 33);
 			// 
 			// FormShipGroup
 			// 
