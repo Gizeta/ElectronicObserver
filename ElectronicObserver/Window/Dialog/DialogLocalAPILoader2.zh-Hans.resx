@@ -133,7 +133,7 @@
     <value>打开文件夹(&amp;O)...</value>
   </data>
   <data name="ButtonExecuteNext.Text" xml:space="preserve">
-    <value>下一次执行</value>
+    <value>下次执行</value>
   </data>
   <data name="ButtonExecute.Text" xml:space="preserve">
     <value>执行</value>
