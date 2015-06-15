@@ -536,6 +536,9 @@
     <EmbeddedResource Include="Window\Dialog\DialogLocalAPILoader.zh-Hans.resx">
       <DependentUpon>DialogLocalAPILoader.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Window\Dialog\DialogLocalAPILoader2.zh-Hans.resx">
+      <DependentUpon>DialogLocalAPILoader2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Window\Dialog\DialogNotifier.resx">
       <DependentUpon>DialogNotifier.cs</DependentUpon>
     </EmbeddedResource>
